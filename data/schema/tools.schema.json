@@ -20,9 +20,9 @@
         "additionalProperties": false,
         "properties": {
           "website": { "type": ["string", "null"] },
-          "phone": { "type": ["string", "null"] },
-          "maps_url": { "type": ["string", "null"] },
-          "share": { "type": ["string", "null"] }
+          "phone":   { "type": ["string", "null"] },
+          "maps_url":{ "type": ["string", "null"] },
+          "share":   { "type": ["string", "null", "boolean"] }
         }
       },
       "location": {
@@ -30,20 +30,20 @@
         "additionalProperties": true,
         "properties": {
           "neighborhood": { "type": ["string", "null"] },
-          "address": { "type": ["string", "null"] },
-          "city": { "type": ["string", "null"] },
-          "country": { "type": ["string", "null"] },
-          "lat": { "type": ["number", "null"] },
-          "lng": { "type": ["number", "null"] }
+          "address":      { "type": ["string", "null"] },
+          "city":         { "type": ["string", "null"] },
+          "country":      { "type": ["string", "null"] },
+          "lat":          { "type": ["number", "null"] },
+          "lng":          { "type": ["number", "null"] }
         }
       },
       "images": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "logo": { "type": ["string", "null"] },
-          "hero": { "type": ["string", "null"] },
-          "credit": { "type": ["string", "null"] },
+          "logo":       { "type": ["string", "null"] },
+          "hero":       { "type": ["string", "null"] },
+          "credit":     { "type": ["string", "null"] },
           "source_url": { "type": ["string", "null"] }
         }
       },
@@ -51,14 +51,14 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "place_id": { "type": ["string", "null"] },
-          "wikidata_id": { "type": ["string", "null"] },
+          "place_id":   { "type": ["string", "null"] },
+          "wikidata_id":{ "type": ["string", "null"] },
           "osm": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "type": { "type": ["string", "null"], "enum": ["node", "way", "relation", null] },
-              "id": { "type": ["string", "number", "null"] }
+              "id":   { "type": ["string", "number", "null"] }
             }
           }
         }
@@ -128,7 +128,7 @@
       "additionalProperties": false,
       "required": ["open", "close"],
       "properties": {
-        "open": { "$ref": "#/$defs/time" },
+        "open":  { "$ref": "#/$defs/time" },
         "close": { "$ref": "#/$defs/time" }
       }
     },
