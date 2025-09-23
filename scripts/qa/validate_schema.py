@@ -1,18 +1,24 @@
-import json, sys
-from jsonschema import Draft202012Validator
+import json
+import sys
+from jsonschema import validate, Draft202012Validator
 from pathlib import Path
 
-schema = json.load(open("scripts/utils/schema_place.json"))
-places_path = Path("data/places.json")
-if not places_path.exists():
-    print("No data/places.json found."); sys.exit(1)
-places = json.load(open(places_path))
 
-errors = []
-for p in places:
-    for e in Draft202012Validator(schema).iter_errors(p):
-        errors.append(f"[{p.get('slug')}] {e.message}")
+if __name__ == "__main__":
+if len(sys.argv) < 3:
+print("Usage: python validate_schema.py data/tools.json data/schema/tools.schema.json")
+sys.exit(2)
+data_path = Path(sys.argv[1])
+schema_path = Path(sys.argv[2])
+data = json.loads(data_path.read_text(encoding='utf-8'))
+schema = json.loads(schema_path.read_text(encoding='utf-8'))
 
+
+v = Draft202012Validator(schema)
+errors = sorted(v.iter_errors(data), key=lambda e: e.path)
 if errors:
-    print("\n".join(errors)); sys.exit(1)
-print("Schema OK")
+for e in errors[:50]:
+print(f"Schema error at {'/'.join(map(str,e.path))}: {e.message}")
+print(f"Total errors: {len(errors)}")
+sys.exit(1)
+print("Schema validation OK")
