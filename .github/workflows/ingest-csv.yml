@@ -1,69 +1,58 @@
 name: Ingest CSV → Enrich → Build Data
 
-
 on:
-workflow_dispatch:
-push:
-paths:
-- 'data/sources/places.csv'
-- 'scripts/**'
-- 'data/schema/tools.schema.json'
-
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/sources/places.csv'
+      - 'scripts/**'
+      - 'data/schema/tools.schema.json'
 
 permissions:
-contents: write
-
+  contents: write
 
 jobs:
-build-data:
-runs-on: ubuntu-latest
-env:
-GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-steps:
-- name: Checkout
-uses: actions/checkout@v4
+  build-data:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-- name: Setup Python
-uses: actions/setup-python@v5
-with:
-python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
+      - name: CSV → tools.json
+        run: python scripts/ingest/csv_to_tools.py
 
-- name: Install deps
-run: |
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+      - name: Enrich with Places/OSM/Wikidata
+        run: python scripts/ingest/hydrate_details.py
 
+      - name: Optimize images
+        run: python scripts/media/optimize_images.py
 
-- name: CSV → tools.json
-run: python scripts/ingest/csv_to_tools.py
+      - name: Validate schema
+        run: |
+          if [ -f data/schema/tools.schema.json ]; then \
+            python scripts/qa/validate_schema.py data/tools.json data/schema/tools.schema.json; \
+          else \
+            echo "No schema file; skipping"; fi
 
+      - name: Missing fields report (non-blocking)
+        run: python scripts/qa/missing_fields_report.py || true
 
-- name: Enrich with Places/OSM/Wikidata
-run: python scripts/ingest/hydrate_details.py
-
-
-- name: Optimize images
-run: python scripts/media/optimize_images.py
-
-
-- name: Validate schema
-run: |
-if [ -f data/schema/tools.schema.json ]; then \
-python scripts/qa/validate_schema.py data/tools.json data/schema/tools.schema.json; \
-else \
-echo "No schema file; skipping"; fi
-
-
-- name: Missing fields report (non-blocking)
-run: python scripts/qa/missing_fields_report.py || true
-
-
-- name: Commit data artifacts
-run: |
-git config user.name "github-actions"
-git config user.email "github-actions@users.noreply.github.com"
-git add data/tools.json assets/images || true
-git diff --staged --quiet || git commit -m "data: update tools + images"
-git push
+      - name: Commit data artifacts
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/tools.json assets/images || true
+          git diff --staged --quiet || git commit -m "data: update tools + images"
+          git push
