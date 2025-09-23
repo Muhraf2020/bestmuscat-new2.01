@@ -4,8 +4,24 @@ import json
 from pathlib import Path
 from typing import Dict, Any
 
+# --- inline downloader (avoids import issues) ---
+import requests
+from PIL import Image
+from io import BytesIO
+
+def download_to_webp(url: str, out_path: Path, max_width: int = 1600, quality: int = 80):
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    r = requests.get(url, timeout=30, headers={"User-Agent": "BestMuscatBot/1.0"})
+    r.raise_for_status()
+    img = Image.open(BytesIO(r.content)).convert("RGB")
+    if img.width > max_width:
+        new_height = int(img.height * (max_width / img.width))
+        img = img.resize((max_width, new_height))
+    img.save(out_path, format="WEBP", quality=quality, method=6)
+    return str(out_path)
+# -----------------------------------------------
+
 from scripts.utils.hours import parse_hours
-from scripts.media.fetch_from_url import download_to_webp
 
 CSV_PATH = Path("data/sources/places.csv")
 TOOLS_JSON = Path("data/tools.json")
@@ -125,12 +141,10 @@ def map_row(r: dict[str, str]) -> Dict[str, Any]:
 
 def merge(existing: Dict[str, Any], new: Dict[str, Any]) -> Dict[str, Any]:
     ex = existing.copy()
-    # Top-level fields we own
     ex.update({k: v for k, v in new.items() if k in {
         "id", "slug", "name", "tagline", "categories", "tags",
         "actions", "location", "hours", "images", "sources", "url"
     }})
-    # Smart-merge nested dicts
     for k in ("actions", "location", "images", "sources"):
         ex[k] = {**existing.get(k, {}), **new.get(k, {})}
     return ex
