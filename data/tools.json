@@ -301,7 +301,7 @@
     "faqs": [],
     "images": {
       "logo": null,
-      "hero": null,
+      "hero": "assets/images/al-bustan-palace/hero.webp",
       "credit": "Courtesy of Al Bustan Palace",
       "source_url": "https://images.example.com/al-bustan-palace/hero"
     },
