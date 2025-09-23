@@ -659,7 +659,11 @@ if (elPageInfo && elPageInfo.parentElement) {
     ? esc(src.actions.website || src.actions.maps_url)
     : (src.url ? esc(src.url) : "");
   
-  const imgSrc     = t.image || "";
+  // prefer explicit top-level fields; fall back to nested images.{hero|logo}
+  const imgSrc =
+  t.image || t.hero || t.photo || t.logo ||
+  (t.images && (t.images.hero || t.images.logo)) || "";
+
   const title      = esc(t.name);
   const subtitle   = esc(t.tagline || t.description.slice(0, 120) || "");
 
