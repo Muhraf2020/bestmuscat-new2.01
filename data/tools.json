@@ -1965,7 +1965,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=city-walk-mall-1"
   },
   {
     "id": "city-walk-mall-2",
@@ -2001,7 +2001,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=city-walk-mall-2"
   },
   {
     "id": "city-walk-mall-3",
@@ -2037,7 +2037,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=city-walk-mall-3"
   },
   {
     "id": "city-walk-mall-4",
@@ -2068,7 +2068,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=city-walk-mall-4"
   },
   {
     "id": "city-walk-mall-5",
@@ -2099,7 +2099,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=city-walk-mall-5"
   },
   {
     "id": "city-center-inn",
@@ -2291,7 +2291,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=date-cardamom-1"
   },
   {
     "id": "date-cardamom-2",
@@ -2322,7 +2322,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=date-cardamom-2"
   },
   {
     "id": "date-cardamom-3",
@@ -2353,7 +2353,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=date-cardamom-3"
   },
   {
     "id": "date-cardamom-4",
@@ -2389,7 +2389,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=date-cardamom-4"
   },
   {
     "id": "date-cardamom-5",
@@ -2420,7 +2420,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=date-cardamom-5"
   },
   {
     "id": "desert-oasis-resort",
@@ -3616,7 +3616,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=gulf-maritime-museum-1"
   },
   {
     "id": "gulf-maritime-museum-2",
@@ -3647,7 +3647,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=gulf-maritime-museum-2"
   },
   {
     "id": "gulf-maritime-museum-3",
@@ -3678,7 +3678,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=gulf-maritime-museum-3"
   },
   {
     "id": "gulf-maritime-museum-4",
@@ -3709,7 +3709,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=gulf-maritime-museum-4"
   },
   {
     "id": "gulf-maritime-museum-5",
@@ -3740,7 +3740,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=gulf-maritime-museum-5"
   },
   {
     "id": "happy-kids-nursery",
@@ -4026,7 +4026,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-1"
   },
   {
     "id": "heritage-fort-2",
@@ -4057,7 +4057,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-2"
   },
   {
     "id": "heritage-fort-3",
@@ -4088,7 +4088,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-3"
   },
   {
     "id": "heritage-fort-4",
@@ -4119,7 +4119,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-4"
   },
   {
     "id": "heritage-fort-5",
@@ -4150,7 +4150,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-5"
   },
   {
     "id": "heritage-fort-6",
@@ -4181,7 +4181,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-6"
   },
   {
     "id": "heritage-fort-7",
@@ -4212,7 +4212,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=heritage-fort-7"
   },
   {
     "id": "indian-school-al-ghubrah",
@@ -4323,8 +4323,14 @@
       "lat": 23.556586,
       "lng": 58.429664
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=khareef-coffee-1"
   },
   {
     "id": "khareef-coffee-10",
@@ -4355,7 +4361,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-10"
   },
   {
     "id": "khareef-coffee-11",
@@ -4386,7 +4392,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-11"
   },
   {
     "id": "khareef-coffee-12",
@@ -4417,7 +4423,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-12"
   },
   {
     "id": "khareef-coffee-13",
@@ -4441,8 +4447,14 @@
       "lat": 23.565157,
       "lng": 58.650611
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=khareef-coffee-13"
   },
   {
     "id": "khareef-coffee-14",
@@ -4473,7 +4485,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-14"
   },
   {
     "id": "khareef-coffee-15",
@@ -4504,7 +4516,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-15"
   },
   {
     "id": "khareef-coffee-2",
@@ -4535,7 +4547,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-2"
   },
   {
     "id": "khareef-coffee-3",
@@ -4566,7 +4578,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-3"
   },
   {
     "id": "khareef-coffee-4",
@@ -4597,7 +4609,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-4"
   },
   {
     "id": "khareef-coffee-5",
@@ -4628,7 +4640,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-5"
   },
   {
     "id": "khareef-coffee-6",
@@ -4664,7 +4676,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-6"
   },
   {
     "id": "khareef-coffee-7",
@@ -4688,8 +4700,14 @@
       "lat": 23.594011,
       "lng": 58.657286
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=khareef-coffee-7"
   },
   {
     "id": "khareef-coffee-8",
@@ -4725,7 +4743,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-8"
   },
   {
     "id": "khareef-coffee-9",
@@ -4756,7 +4774,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=khareef-coffee-9"
   },
   {
     "id": "knowledge-hub-1",
@@ -4780,8 +4798,14 @@
       "lat": 23.560719,
       "lng": 58.499468
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=knowledge-hub-1"
   },
   {
     "id": "knowledge-hub-2",
@@ -4812,7 +4836,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=knowledge-hub-2"
   },
   {
     "id": "knowledge-hub-3",
@@ -4836,8 +4860,14 @@
       "lat": 23.612865,
       "lng": 58.57216
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=knowledge-hub-3"
   },
   {
     "id": "knowledge-hub-4",
@@ -4873,7 +4903,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=knowledge-hub-4"
   },
   {
     "id": "knowledge-hub-5",
@@ -4904,7 +4934,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=knowledge-hub-5"
   },
   {
     "id": "knowledge-gate-school",
@@ -5060,7 +5090,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-1"
   },
   {
     "id": "lotus-spa-2",
@@ -5096,7 +5126,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-2"
   },
   {
     "id": "lotus-spa-3",
@@ -5127,7 +5157,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-3"
   },
   {
     "id": "lotus-spa-4",
@@ -5151,8 +5181,14 @@
       "lat": 23.627153,
       "lng": 58.586054
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=lotus-spa-4"
   },
   {
     "id": "lotus-spa-5",
@@ -5183,7 +5219,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-5"
   },
   {
     "id": "lotus-spa-6",
@@ -5214,7 +5250,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-6"
   },
   {
     "id": "lotus-spa-7",
@@ -5245,7 +5281,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=lotus-spa-7"
   },
   {
     "id": "lotus-spa",
@@ -6240,7 +6276,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-1"
   },
   {
     "id": "muscat-stay-10",
@@ -6276,7 +6312,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-10"
   },
   {
     "id": "muscat-stay-2",
@@ -6307,7 +6343,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-2"
   },
   {
     "id": "muscat-stay-3",
@@ -6343,7 +6379,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-3"
   },
   {
     "id": "muscat-stay-4",
@@ -6379,7 +6415,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-4"
   },
   {
     "id": "muscat-stay-5",
@@ -6410,7 +6446,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-5"
   },
   {
     "id": "muscat-stay-6",
@@ -6441,7 +6477,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-6"
   },
   {
     "id": "muscat-stay-7",
@@ -6472,7 +6508,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-7"
   },
   {
     "id": "muscat-stay-8",
@@ -6508,7 +6544,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-8"
   },
   {
     "id": "muscat-stay-9",
@@ -6539,7 +6575,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=muscat-stay-9"
   },
   {
     "id": "muscat-international-school",
@@ -7817,7 +7853,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-1"
   },
   {
     "id": "palm-grill-10",
@@ -7848,7 +7884,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-10"
   },
   {
     "id": "palm-grill-2",
@@ -7879,7 +7915,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-2"
   },
   {
     "id": "palm-grill-3",
@@ -7910,7 +7946,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-3"
   },
   {
     "id": "palm-grill-4",
@@ -7941,7 +7977,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-4"
   },
   {
     "id": "palm-grill-5",
@@ -7972,7 +8008,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-5"
   },
   {
     "id": "palm-grill-6",
@@ -8003,7 +8039,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-6"
   },
   {
     "id": "palm-grill-7",
@@ -8027,8 +8063,14 @@
       "lat": 23.6213,
       "lng": 58.532988
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=palm-grill-7"
   },
   {
     "id": "palm-grill-8",
@@ -8059,7 +8101,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-8"
   },
   {
     "id": "palm-grill-9",
@@ -8095,7 +8137,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=palm-grill-9"
   },
   {
     "id": "palm-grove-hotel",
@@ -8786,12 +8828,12 @@
     },
     "hours": [
       {
-        "days": "Daily",
-        "open": "08:00",
-        "close": "23:00"
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=qurum-natural-park"
   },
   {
     "id": "ramez-mall",
@@ -9589,7 +9631,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-1"
   },
   {
     "id": "seeb-center-2",
@@ -9620,7 +9662,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-2"
   },
   {
     "id": "seeb-center-3",
@@ -9644,8 +9686,14 @@
       "lat": 23.564158,
       "lng": 58.569939
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=seeb-center-3"
   },
   {
     "id": "seeb-center-4",
@@ -9676,7 +9724,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-4"
   },
   {
     "id": "seeb-center-5",
@@ -9707,7 +9755,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-5"
   },
   {
     "id": "seeb-center-6",
@@ -9738,7 +9786,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-6"
   },
   {
     "id": "seeb-center-7",
@@ -9769,7 +9817,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=seeb-center-7"
   },
   {
     "id": "serenity-wellness-center",
@@ -10118,7 +10166,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-1"
   },
   {
     "id": "souq-bite-10",
@@ -10149,7 +10197,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-10"
   },
   {
     "id": "souq-bite-11",
@@ -10180,7 +10228,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-11"
   },
   {
     "id": "souq-bite-12",
@@ -10211,7 +10259,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-12"
   },
   {
     "id": "souq-bite-13",
@@ -10247,7 +10295,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-13"
   },
   {
     "id": "souq-bite-14",
@@ -10271,8 +10319,14 @@
       "lat": 23.563722,
       "lng": 58.541554
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=souq-bite-14"
   },
   {
     "id": "souq-bite-15",
@@ -10303,7 +10357,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-15"
   },
   {
     "id": "souq-bite-16",
@@ -10334,7 +10388,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-16"
   },
   {
     "id": "souq-bite-17",
@@ -10370,7 +10424,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-17"
   },
   {
     "id": "souq-bite-18",
@@ -10406,7 +10460,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-18"
   },
   {
     "id": "souq-bite-19",
@@ -10430,8 +10484,14 @@
       "lat": 23.531007,
       "lng": 58.586509
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=souq-bite-19"
   },
   {
     "id": "souq-bite-2",
@@ -10462,7 +10522,7 @@
         "close": "23:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-2"
   },
   {
     "id": "souq-bite-20",
@@ -10493,7 +10553,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-20"
   },
   {
     "id": "souq-bite-3",
@@ -10517,8 +10577,14 @@
       "lat": 23.642706,
       "lng": 58.488373
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=souq-bite-3"
   },
   {
     "id": "souq-bite-4",
@@ -10549,7 +10615,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-4"
   },
   {
     "id": "souq-bite-5",
@@ -10580,7 +10646,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-5"
   },
   {
     "id": "souq-bite-6",
@@ -10611,7 +10677,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-6"
   },
   {
     "id": "souq-bite-7",
@@ -10642,7 +10708,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-7"
   },
   {
     "id": "souq-bite-8",
@@ -10673,7 +10739,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=souq-bite-8"
   },
   {
     "id": "souq-bite-9",
@@ -10697,8 +10763,14 @@
       "lat": 23.665951,
       "lng": 58.63545
     },
-    "hours": null,
-    "url": ""
+    "hours": [
+      {
+        "days": "Mo-Su",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": "/tool.html?slug=souq-bite-9"
   },
   {
     "id": "spice-route-restaurant",
@@ -11669,7 +11741,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=wadi-green-park-1"
   },
   {
     "id": "wadi-green-park-2",
@@ -11700,7 +11772,7 @@
         "close": "11:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=wadi-green-park-2"
   },
   {
     "id": "wadi-green-park-3",
@@ -11731,7 +11803,7 @@
         "close": "19:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=wadi-green-park-3"
   },
   {
     "id": "wadi-green-park-4",
@@ -11767,7 +11839,7 @@
         "close": "22:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=wadi-green-park-4"
   },
   {
     "id": "wadi-green-park-5",
@@ -11798,7 +11870,7 @@
         "close": "17:00"
       }
     ],
-    "url": ""
+    "url": "/tool.html?slug=wadi-green-park-5"
   },
   {
     "id": "wellness-medical-center",
