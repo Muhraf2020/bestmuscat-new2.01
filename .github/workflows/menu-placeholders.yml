@@ -1,0 +1,72 @@
+name: Add menu placeholders
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Locate add_menu_placeholders.py
+        id: findscripts
+        run: |
+          set -e
+          # Look for scripts/maint/add_menu_placeholders.py (no leading slash!)
+          SCRIPT=$(git ls-files | grep -E '(^|/)scripts/maint/add_menu_placeholders\.py$' | head -n1 || true)
+          if [ -z "$SCRIPT" ]; then
+            echo "❌ Could not find scripts/maint/add_menu_placeholders.py in the repo."
+            git ls-files | sed -n '1,200p'
+            exit 1
+          fi
+          echo "script=$SCRIPT" >> $GITHUB_OUTPUT
+          echo "✅ Found script at: $SCRIPT"
+
+      - name: Locate tools.json
+        id: findtools
+        run: |
+          set -e
+          # Your repo has it at data/tools.json
+          if [ -f data/tools.json ]; then
+            CANDIDATE="data/tools.json"
+          else
+            # Fallback search if layout changes later
+            CANDIDATE=$(git ls-files | grep -E '(^|/)data/tools\.json$' | head -n1 || true)
+          fi
+          if [ -z "$CANDIDATE" ]; then
+            echo "❌ Could not find data/tools.json anywhere."
+            git ls-files | sed -n '1,200p'
+            exit 1
+          fi
+          echo "file=$CANDIDATE" >> $GITHUB_OUTPUT
+          echo "✅ Found tools.json at: $CANDIDATE"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Dry run (see what would change)
+        run: |
+          python "${{ steps.findscripts.outputs.script }}" \
+            --file "${{ steps.findtools.outputs.file }}" || true
+
+      - name: Apply changes
+        run: |
+          python "${{ steps.findscripts.outputs.script }}" \
+            --file "${{ steps.findtools.outputs.file }}" --write
+
+      - name: Commit & push (if any)
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.findtools.outputs.file }}" "${{ steps.findtools.outputs.file }}".bak.* 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: add menu placeholders"
+          git push
