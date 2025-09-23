@@ -3,6 +3,8 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Tuple
 import requests
+from io import BytesIO
+from PIL import Image
 
 from scripts.utils.env import GOOGLE_MAPS_API_KEY, USER_AGENT
 from scripts.media.fetch_photos_google import fetch_google_photo
@@ -12,6 +14,21 @@ TOOLS_JSON = Path("data/tools.json")
 
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": USER_AGENT})
+
+# ---- Inline simple downloader to avoid flaky imports ----
+def _download_to_webp(url: str, out_path: Path, max_width: int = 1600, quality: int = 80) -> str | None:
+    try:
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        r = SESSION.get(url, timeout=30)
+        r.raise_for_status()
+        img = Image.open(BytesIO(r.content)).convert("RGB")
+        if img.width > max_width:
+            new_h = int(img.height * (max_width / img.width))
+            img = img.resize((max_width, new_h))
+        img.save(out_path, format="WEBP", quality=80, method=6)
+        return str(out_path)
+    except Exception:
+        return None
 
 # ---- Google Places ----
 PLACES_DETAILS = "https://maps.googleapis.com/maps/api/place/details/json"
@@ -114,17 +131,13 @@ def hydrate_one(place: Dict[str, Any]) -> Tuple[Dict[str, Any], bool]:
     if not place.get("images", {}).get("hero") and sources.get("wikidata_id"):
         url = wikidata_main_image(sources["wikidata_id"])
         if url:
-            from scripts.media.fetch_from_url import download_to_webp
             out = Path(f"assets/images/{place['slug']}/hero.webp")
-            try:
-                download_to_webp(url, out, max_width=1600)
+            if _download_to_webp(url, out, max_width=1600):
                 imgs = place.setdefault("images", {})
                 imgs["hero"] = str(out)
                 imgs.setdefault("credit", "Wikimedia Commons")
                 imgs.setdefault("source_url", url)
                 updated = True
-            except Exception:
-                pass
 
     return place, updated
 
