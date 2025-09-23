@@ -64,6 +64,7 @@
   let currentPage = 1;
   // NEW: special view flag for "?q=Best Things to Do"
   let forceBestThingsView = false;
+  let toolsBySlug = {}; // NEW: lookup of canonical records from tools.json
 
   // ---------- ELEMENTS ----------
   const elSearch     = document.getElementById("search");
@@ -421,6 +422,7 @@ async function init() {
       if (!res.ok) throw new Error("tools.json not found");
       data = await res.json();
       if (!Array.isArray(data)) throw new Error("tools.json must be an array");
+      toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // NEW
     } catch (err) {
       console.warn(err);
       elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
@@ -649,10 +651,13 @@ if (elPageInfo && elPageInfo.parentElement) {
 
   function cardHTML(t) {
   const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
+  // use the canonical record (has actions.website) if available
+  const src = toolsBySlug[t.slug] || t;
+
   const websiteUrl =
-  (t.actions && (t.actions.website || t.actions.maps_url))
-    ? esc(t.actions.website || t.actions.maps_url)
-    : (t.url ? esc(t.url) : "");
+  (src.actions && (src.actions.website || src.actions.maps_url))
+    ? esc(src.actions.website || src.actions.maps_url)
+    : (src.url ? esc(src.url) : "");
   
   const imgSrc     = t.image || "";
   const title      = esc(t.name);
