@@ -649,7 +649,11 @@ if (elPageInfo && elPageInfo.parentElement) {
 
   function cardHTML(t) {
   const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
-  const websiteUrl = t.url ? esc(t.url) : "";
+  const websiteUrl =
+  (t.actions && (t.actions.website || t.actions.maps_url))
+    ? esc(t.actions.website || t.actions.maps_url)
+    : (t.url ? esc(t.url) : "");
+  
   const imgSrc     = t.image || "";
   const title      = esc(t.name);
   const subtitle   = esc(t.tagline || t.description.slice(0, 120) || "");
