@@ -15,7 +15,6 @@
       "categories": { "type": "array", "items": { "type": "string" } },
       "tags": { "type": "array", "items": { "type": "string" } },
       "url": { "type": ["string", "null"] },
-
       "actions": {
         "type": "object",
         "additionalProperties": false,
@@ -26,7 +25,6 @@
           "share": { "type": ["string", "null"] }
         }
       },
-
       "location": {
         "type": "object",
         "additionalProperties": true,
@@ -39,7 +37,6 @@
           "lng": { "type": ["number", "null"] }
         }
       },
-
       "images": {
         "type": "object",
         "additionalProperties": false,
@@ -50,7 +47,6 @@
           "source_url": { "type": ["string", "null"] }
         }
       },
-
       "sources": {
         "type": "object",
         "additionalProperties": false,
@@ -67,13 +63,9 @@
           }
         }
       },
-
       "hours": {
-        "description": "Allow normalized hours or legacy formats while migrating.",
         "anyOf": [
           { "type": "null" },
-
-          /* --- v2 normalized: { tz, weekly: {mon:[{open,close}]...} } --- */
           {
             "type": "object",
             "required": ["tz", "weekly"],
@@ -95,8 +87,6 @@
               }
             }
           },
-
-          /* --- legacy A: weekday map with capitalized keys --- */
           {
             "type": "object",
             "additionalProperties": false,
@@ -111,8 +101,6 @@
             },
             "minProperties": 1
           },
-
-          /* --- legacy B: list of {days, open, close} --- */
           {
             "type": "array",
             "items": {
@@ -130,7 +118,6 @@
       }
     }
   },
-
   "$defs": {
     "time": {
       "type": "string",
@@ -150,7 +137,6 @@
       "items": { "$ref": "#/$defs/interval" }
     },
     "legacyDayPair": {
-      "description": "Legacy per-day array like ['09:00','17:00']",
       "type": "array",
       "minItems": 2,
       "maxItems": 2,
