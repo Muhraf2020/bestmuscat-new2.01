@@ -8,18 +8,12 @@
     "required": ["id", "slug", "name"],
     "additionalProperties": true,
     "properties": {
-      "id":        { "type": "string", "minLength": 1 },
-      "slug":      { "type": "string", "minLength": 1 },
-      "name":      { "type": "string", "minLength": 1 },
-      "tagline":   { "type": ["string", "null"] },
-      "categories": {
-        "type": "array",
-        "items": { "type": "string" }
-      },
-      "tags": {
-        "type": "array",
-        "items": { "type": "string" }
-      },
+      "id": { "type": "string", "minLength": 1 },
+      "slug": { "type": "string", "minLength": 1 },
+      "name": { "type": "string", "minLength": 1 },
+      "tagline": { "type": ["string", "null"] },
+      "categories": { "type": "array", "items": { "type": "string" } },
+      "tags": { "type": "array", "items": { "type": "string" } },
       "url": { "type": ["string", "null"] },
 
       "actions": {
@@ -27,8 +21,9 @@
         "additionalProperties": false,
         "properties": {
           "website": { "type": ["string", "null"] },
-          "phone":   { "type": ["string", "null"] },
-          "maps_url":{ "type": ["string", "null"] }
+          "phone": { "type": ["string", "null"] },
+          "maps_url": { "type": ["string", "null"] },
+          "share": { "type": ["string", "null"] }
         }
       },
 
@@ -37,11 +32,11 @@
         "additionalProperties": true,
         "properties": {
           "neighborhood": { "type": ["string", "null"] },
-          "address":      { "type": ["string", "null"] },
-          "city":         { "type": ["string", "null"] },
-          "country":      { "type": ["string", "null"] },
-          "lat":          { "type": ["number", "null"] },
-          "lng":          { "type": ["number", "null"] }
+          "address": { "type": ["string", "null"] },
+          "city": { "type": ["string", "null"] },
+          "country": { "type": ["string", "null"] },
+          "lat": { "type": ["number", "null"] },
+          "lng": { "type": ["number", "null"] }
         }
       },
 
@@ -49,9 +44,9 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "logo":       { "type": ["string", "null"] },
-          "hero":       { "type": ["string", "null"] },
-          "credit":     { "type": ["string", "null"] },
+          "logo": { "type": ["string", "null"] },
+          "hero": { "type": ["string", "null"] },
+          "credit": { "type": ["string", "null"] },
           "source_url": { "type": ["string", "null"] }
         }
       },
@@ -60,23 +55,25 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "place_id":   { "type": ["string", "null"] },
-          "wikidata_id":{ "type": ["string", "null"] },
+          "place_id": { "type": ["string", "null"] },
+          "wikidata_id": { "type": ["string", "null"] },
           "osm": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
               "type": { "type": ["string", "null"], "enum": ["node", "way", "relation", null] },
-              "id":   { "type": ["string", "number", "null"] }
+              "id": { "type": ["string", "number", "null"] }
             }
           }
         }
       },
 
       "hours": {
-        "description": "Normalized opening hours (tz + weekly day arrays)",
+        "description": "Allow normalized hours or legacy formats while migrating.",
         "anyOf": [
           { "type": "null" },
+
+          /* --- v2 normalized: { tz, weekly: {mon:[{open,close}]...} } --- */
           {
             "type": "object",
             "required": ["tz", "weekly"],
@@ -97,6 +94,37 @@
                 }
               }
             }
+          },
+
+          /* --- legacy A: weekday map with capitalized keys --- */
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "Mon": { "$ref": "#/$defs/legacyDayPair" },
+              "Tue": { "$ref": "#/$defs/legacyDayPair" },
+              "Wed": { "$ref": "#/$defs/legacyDayPair" },
+              "Thu": { "$ref": "#/$defs/legacyDayPair" },
+              "Fri": { "$ref": "#/$defs/legacyDayPair" },
+              "Sat": { "$ref": "#/$defs/legacyDayPair" },
+              "Sun": { "$ref": "#/$defs/legacyDayPair" }
+            },
+            "minProperties": 1
+          },
+
+          /* --- legacy B: list of {days, open, close} --- */
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["days", "open", "close"],
+              "additionalProperties": true,
+              "properties": {
+                "days": { "type": "string", "minLength": 1 },
+                "open": { "$ref": "#/$defs/time" },
+                "close": { "$ref": "#/$defs/time" }
+              }
+            }
           }
         ]
       }
@@ -113,13 +141,20 @@
       "additionalProperties": false,
       "required": ["open", "close"],
       "properties": {
-        "open":  { "$ref": "#/$defs/time" },
+        "open": { "$ref": "#/$defs/time" },
         "close": { "$ref": "#/$defs/time" }
       }
     },
     "dayArray": {
       "type": "array",
       "items": { "$ref": "#/$defs/interval" }
+    },
+    "legacyDayPair": {
+      "description": "Legacy per-day array like ['09:00','17:00']",
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "$ref": "#/$defs/time" }
     }
   }
 }
