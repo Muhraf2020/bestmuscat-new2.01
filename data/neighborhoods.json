@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updated": "2025-09-19",
+  "neighborhoods": [
+    {
+      "name": "Qurum"
+    },
+    {
+      "name": "Muttrah"
+    },
+    {
+      "name": "Shatti Al Qurum"
+    },
+    {
+      "name": "Al Mouj"
+    },
+    {
+      "name": "Ruwi"
+    },
+    {
+      "name": "Al Khuwair"
+    },
+    {
+      "name": "Ghubra"
+    },
+    {
+      "name": "Seeb"
+    }
+  ]
+}

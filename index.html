@@ -1,0 +1,255 @@
+<!-- FILE: index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basics -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Title & Description -->
+  <title>Best Muscat Directory – Discover Muscat’s Top Hotels, Restaurants, Schools, Spas, Clinics & Malls</title>
+  <meta name="description" content="Explore Muscat’s premier hotels, restaurants, schools, spas, clinics and malls. Search and filter by category or keyword to find your next destination in Oman’s capital." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://bestmuscat.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Best Muscat Directory" />
+  <meta property="og:description" content="Discover Muscat’s top hotels, restaurants, schools, spas, clinics and malls." />
+  <meta property="og:url" content="https://bestmuscat.com/" />
+  <meta property="og:image" content="assets/og-default.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Muscat Directory" />
+  <meta name="twitter:description" content="Discover Muscat’s top hotels, restaurants, schools, spas, clinics and malls." />
+  <meta name="twitter:image" content="assets/og-default.jpg" />
+
+  <!-- Favicon & CSS -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="assets/styles.css?v=5" />
+
+  <!-- Performance: preconnect/dns-prefetch to icon providers -->
+  <link rel="preconnect" href="https://icon.horse" crossorigin>
+  <link rel="preconnect" href="https://www.google.com" crossorigin>
+  <link rel="dns-prefetch" href="//icon.horse">
+  <link rel="dns-prefetch" href="//www.google.com">
+
+  <!-- JSON-LD: WebSite (with on-site search) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Best Muscat Directory",
+    "url": "https://bestmuscat.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://bestmuscat.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Best Muscat Directory",
+    "url": "https://bestmuscat.com/",
+    "logo": "assets/logo.png"
+  }
+  </script>
+</head>
+
+<body>
+  <!-- STICKY HEADER (logo left • search center • button right) -->
+  <header class="site-header">
+    <div class="header-wrap">
+      <!-- Left: Logo -->
+      <a href="index.html" class="header-logo" aria-label="BestMuscat home">
+        <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
+      </a>
+
+      <!-- Center: Search -->
+      <div class="header-search" role="search">
+        <label for="search" class="visually-hidden" aria-hidden="true">Search businesses</label>
+        <input id="search" type="search" placeholder="Search by name, category, or tag…" aria-label="Search businesses" />
+      </div>
+
+      <!-- Right: Suggest a place -->
+      <div class="header-actions">
+        <a id="suggest-link" class="btn-suggest" href="#" target="_blank" rel="noopener">Suggest a place</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO / TOP BANNER -->
+  <section class="hero">
+    <div class="hero-card">
+      <img class="hero-logo" src="assets/brand/bestmuscat-logo.png" alt="Best Muscat" />
+      <h1 class="hero-title">Discover Muscat</h1>
+      <p class="hero-subtitle">
+        Discover the best things to do in Muscat, scored by public reviews, expert notes and local signals.
+      </p>
+      <div class="hero-try">
+        <span>Try</span>
+        <a class="chip" href="?q=Fine%20Dining">“Fine Dining”</a>
+        <a class="chip" href="?q=Padel%20Courts">“Padel Courts”</a>
+        <a class="chip" href="?q=Best%20Malls">“Best Malls”</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main>
+    <div class="wrap">
+      <!-- Back to directory (shown only on Best Things page) -->
+      <div id="bt-back" class="back-row" hidden>
+        <a href="index.html" class="link-btn">← Back to directory</a>
+      </div>
+      <!-- Small meta row (results info) -->
+      <div class="toolbar">
+        <div class="meta">
+          <span id="page-info" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <!-- Category chips row -->
+      <div id="chips" class="chips" aria-label="Filter by category"></div>
+
+      <!-- Count -->
+      <div id="count" class="count" aria-live="polite"></div>
+
+      <!-- SHOWCASE ROWS (Malls / Hotels / Restaurants / Schools) -->
+      <div id="showcase">
+        <!-- Malls -->
+        <section class="cat-section">
+          <div class="section-head">
+            <h2>Best Malls</h2>
+            <a class="see-all" href="?category=malls">Show All →</a>
+          </div>
+          <div id="showcase-malls" class="hscroll" aria-label="Best Malls"></div>
+        </section>
+
+        <!-- Hotels -->
+        <section class="cat-section">
+          <div class="section-head">
+            <h2>Best Hotels</h2>
+            <a class="see-all" href="?category=hotels">Show All →</a>
+          </div>
+          <div id="showcase-hotels" class="hscroll" aria-label="Best Hotels"></div>
+        </section>
+
+        <!-- Restaurants -->
+        <section class="cat-section">
+          <div class="section-head">
+            <h2>Best Restaurants</h2>
+            <a class="see-all" href="?category=restaurants">Show All →</a>
+          </div>
+          <div id="showcase-restaurants" class="hscroll" aria-label="Best Restaurants"></div>
+        </section>
+
+        <!-- Schools -->
+        <section class="cat-section">
+          <div class="section-head">
+            <h2>Best Schools</h2>
+            <a class="see-all" href="?category=schools">Show All →</a>
+          </div>
+          <div id="showcase-schools" class="hscroll" aria-label="Best Schools"></div>
+        </section>
+      </div>
+
+      <!-- Results grid (hidden on home by app.js; shown on filter/search) -->
+      <section id="results" class="grid" aria-live="polite"></section>
+
+      <!-- Pagination (hidden on home by app.js; shown on filter/search) -->
+      <nav id="pagination" class="pagination" aria-label="Pagination" hidden>
+        <button id="prev">◀ Prev</button>
+        <span id="page" aria-live="polite"></span>
+        <button id="next">Next ▶</button>
+      </nav>
+
+      <!-- BEST THINGS TO DO IN MUSCAT -->
+      <section id="best-things" class="best-things">
+        <div class="section-head">
+          <h2>Best Things to Do in Muscat</h2>
+          <p class="tagline">
+            We use a weighted 10-point scoring system with carefully selected categories to evaluate the best places to visit and things to do in Muscat.
+          </p>
+        </div>
+        <!-- Tabs now live beneath the heading/tagline -->
+        <div class="tabs">
+            <button class="tab active" data-cat="eat" type="button">Eat</button>
+            <button class="tab" data-cat="play" type="button">Play</button>
+            <button class="tab" data-cat="explore" type="button">Explore</button>
+            <a class="see-all" href="?q=Best%20Things%20to%20Do">See All&nbsp;→</a>
+          </div>
+        <div class="best-things-content">
+          <div id="featured-card" class="featured-card" aria-label="Featured place">
+            <!-- filled by best‑things.js -->
+          </div>
+          <div id="top-listings" class="top-listings" aria-label="Top listings">
+            <!-- filled by best‑things.js -->
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- BOTTOM BANNER (same style as top hero) -->
+<section class="hero hero--bottom">
+  <div class="hero-card">
+    <img class="hero-logo" src="assets/brand/bestmuscat-logo.png" alt="Best Muscat" />
+    <h2 class="hero-title" style="font-size:34px; margin-top:4px;">Plan your day in Muscat</h2>
+    <p class="hero-subtitle">
+      Quick picks to explore: hotels, restaurants, malls and schools — curated for locals and visitors.
+    </p>
+    <div class="hero-try">
+      <span>Try</span>
+      <a class="chip" href="?category=hotels">Best Hotels</a>
+      <a class="chip" href="?category=restaurants">Best Restaurants</a>
+      <a class="chip" href="?category=malls">Best Malls</a>
+      <a class="chip" href="?category=schools">Best Schools</a>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+  <div class="wrap">
+    <!-- Footer quick links -->
+    <nav class="footer-nav" aria-label="Browse categories">
+      <h3 style="margin:0 0 10px; font-size:1.05rem;">Browse categories</h3>
+      <div class="chips" style="margin-bottom:10px;">
+        <a class="chip" href="?category=hotels">Hotels</a>
+        <a class="chip" href="?category=restaurants">Restaurants</a>
+        <a class="chip" href="?category=schools">Schools</a>
+        <a class="chip" href="?category=spas">Spas</a>
+        <a class="chip" href="?category=clinics">Clinics</a>
+        <a class="chip" href="?category=malls">Malls</a>
+      </div>
+    </nav>
+
+    <!-- Disclaimer -->
+    <small class="disclaimer">
+      <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit. External websites are not under our control; links may change. All trademarks belong to their owners. No warranty is expressed or implied.
+    </small>
+  </div>
+</footer>
+
+  
+
+  <!-- Scripts (order matters) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="assets/app.js?v=4"></script>
+  <!-- Script for the “Best Things to Do in Muscat” section -->
+  <script src="assets/best-things.js?v=1"></script>
+  <script id="jsonld-list" type="application/ld+json"></script>
+
+  <noscript>Your browser needs JavaScript enabled to use search and filters.</noscript>
+  <script src="assets/app.enhanced.js"></script>
+</body>
+</html>

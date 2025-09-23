@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "updated": "2025-09-19",
+  "categories": [
+    {
+      "name": "Restaurants",
+      "icon": "\ud83c\udf7d\ufe0f",
+      "synonyms": [
+        "food",
+        "dining"
+      ]
+    },
+    {
+      "name": "Cafes",
+      "icon": "\u2615",
+      "synonyms": [
+        "coffee",
+        "tea"
+      ]
+    },
+    {
+      "name": "Hotels",
+      "icon": "\ud83c\udfe8",
+      "synonyms": [
+        "lodging"
+      ]
+    },
+    {
+      "name": "Attractions",
+      "icon": "\ud83d\udccd",
+      "synonyms": [
+        "sights",
+        "landmarks",
+        "Museums",
+        "Museum", "Parks", "Park", "Garden", "Gardens", "Natural Park", "Nature"
+      ]
+    },
+    {
+      "name": "Shopping",
+      "icon": "\ud83d\udecd\ufe0f",
+      "synonyms": [
+        "malls",
+        "stores"
+      ]
+    },
+    {
+      "name": "Health & Beauty",
+      "icon": "\ud83d\udc86",
+      "synonyms": [
+        "spa",
+        "salon",
+        "clinic"
+      ]
+    },
+    {
+      "name": "Education",
+      "icon": "\ud83c\udf93",
+      "synonyms": [
+        "school",
+        "university"
+      ]
+    }
+  ]
+}

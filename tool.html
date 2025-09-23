@@ -1,0 +1,359 @@
+<!-- FILE: tool.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basics -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ✅ Placeholders for per-tool SEO (will be updated dynamically via JS) -->
+  <title>Place — Best Muscat Directory</title>
+  <meta name="description" content="" />
+
+  <link rel="canonical" href="" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="assets/og-default.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="assets/og-default.jpg" />
+
+  <!-- Favicon & CSS -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Performance: preconnect/dns-prefetch to icon providers -->
+  <link rel="preconnect" href="https://icon.horse" crossorigin>
+  <link rel="preconnect" href="https://www.google.com" crossorigin>
+  <link rel="dns-prefetch" href="//icon.horse">
+  <link rel="dns-prefetch" href="//www.google.com">
+
+
+  <!-- Keep your existing helper scripts -->
+  <script>
+    // Simple utility to get query string param
+    function qp(name){ const u=new URL(location.href); return u.searchParams.get(name); }
+    function esc(s){ return String(s||"").replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+    // The Best Muscat directory does not use pricing badges or feature icons.
+    function pricingBadge(){ return ""; }
+    function iconRow(){ return ""; }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <a href="index.html" class="link-btn">← Back to directory</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap" id="tool-wrap">
+      <!-- Populated by script -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <hr class="sep" />
+      <small class="disclaimer">
+        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change — verify current details before you visit and comply with local regulations. External websites are not under our control; links may change. All trademarks belong to their owners. No warranty is expressed or implied.
+      </small>
+    </div>
+  </footer>
+  <!-- Load shared helpers + SEO logic (CONFIG, setMeta/setOG/setCanonical/addJSONLD, Step 4 router) -->
+  <script src="assets/app.js"></script>
+
+  <script>
+    (async function(){
+      const slug = qp("slug") || qp("id");
+      const wrap = document.getElementById("tool-wrap");
+      if (!slug) {
+        wrap.innerHTML = `<div class="empty">No place specified. <a href="index.html">Go back</a>.</div>`;
+        return;
+      }
+      let tools = [];
+      try {
+        const res = await fetch("data/tools.json",{cache:"no-store"});
+        tools = await res.json();
+      } catch (e) {
+        wrap.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. <a href="index.html">Back</a>.</div>`;
+        return;
+      }
+      const tool = tools.find(t => t.slug === slug || t.id === slug);
+      if (!tool) {
+        wrap.innerHTML = `<div class="empty">Place not found. <a href="index.html">Back</a>.</div>`;
+        return;
+      }
+
+      // Build detailed header section
+      const badgeHTML = (tool.badges || []).map(b => `<span class="badge highlight">${esc(b)}</span>`).join(" ");
+      const ratingChip = tool.rating_overall ? `<span class="rating-chip">${esc(tool.rating_overall.toFixed(2))}</span>` : '';
+      const addressLine = tool.address_full ? `<p class="address">${esc(tool.address_full)}</p>` : '';
+      // Meta pills: status, busyness, price and first cuisine
+      const metaPills = [];
+      if (tool.status) metaPills.push(`<span class="pill status-${tool.status.toLowerCase()}">${esc(tool.status)}</span>`);
+      if (tool.busyness) metaPills.push(`<span class="pill">${esc(tool.busyness)}</span>`);
+      if (tool.price) metaPills.push(`<span class="pill">${esc(tool.price)}</span>`);
+      if (tool.cuisines && tool.cuisines.length) metaPills.push(`<span class="pill">${esc(tool.cuisines.join(', '))}</span>`);
+      // Action buttons
+      const actions = [];
+      // Share button always present
+      actions.push(`<button class="btn share" id="share-link">Share Link</button>`);
+      // Visit website
+      if (tool.actions && tool.actions.website) actions.push(`<a class="btn primary" href="${esc(tool.actions.website)}" target="_blank" rel="noopener">Visit</a>`);
+      // Call
+      if (tool.actions && tool.actions.phone) actions.push(`<a class="btn" href="tel:${esc(tool.actions.phone)}">Call</a>`);
+      // Go (maps)
+      if (tool.actions && tool.actions.maps_url) actions.push(`<a class="btn" href="${esc(tool.actions.maps_url)}" target="_blank" rel="noopener">Go</a>`);
+      const headerHTML = `
+        <div class="detail-header">
+          <div class="badges">${badgeHTML}</div>
+          <h1>${esc(tool.name)}</h1>
+          ${ratingChip}
+          ${addressLine}
+          <div class="meta-pills">${metaPills.join(' ')}</div>
+          <div class="actions">${actions.join(' ')}</div>
+        </div>
+      `;
+
+      // Sticky sub-navigation
+      const navLinks = [];
+      if (tool.subscores) navLinks.push('<a href="#rating">Rating</a>');
+      if (tool.hours) navLinks.push('<a href="#hours">Opening Hours</a>');
+      if (tool.menu && tool.menu.sections && tool.menu.sections.length) navLinks.push('<a href="#menu">Menu</a>');
+      if (tool.location) navLinks.push('<a href="#location">Location</a>');
+      if (tool.faqs && tool.faqs.length) navLinks.push('<a href="#faqs">FAQs</a>');
+      const navHTML = navLinks.length ? `<nav class="sticky-nav"><ul>${navLinks.map(l=>`<li>${l}</li>`).join('')}</ul></nav>` : '';
+
+
+      // Hero image (use logo as fallback)
+      const heroHTML = tool.logo ? `<img class="hero-img" src="${esc(tool.logo)}" alt="${esc(tool.name)}">` : '';
+
+      // About section
+      const aboutHTML = tool.about && tool.about.length ? `<section id="about" class="section"><h2>About</h2>${tool.about.map(p => `<p>${esc(p)}</p>`).join('')}</section>` : '';
+
+      // Rating & methodology section
+      let ratingSection = '';
+      if (tool.subscores) {
+        const subs = Object.keys(tool.subscores).map(key => `<span class="subscore">${esc(key)} ${esc(tool.subscores[key].toFixed(2))}</span>`).join(' ');
+        ratingSection = `<section id="rating" class="section"><h2>Rating</h2>
+          ${tool.verified ? '<p><strong>bestMuscat Verified</strong></p>' : ''}
+          <p style="font-size:2rem; font-weight:700; margin:0 0 6px;">${esc(tool.rating_overall.toFixed(2))}<small>/10</small></p>
+          <p>${esc(tool.methodology_note || '')}</p>
+          <div class="subscores">${subs}</div>
+        </section>`;
+      }
+
+      // Public sentiment card
+      let sentimentHTML = '';
+      if (tool.public_sentiment) {
+        sentimentHTML = `<div class="card-block"><h3>Public Review Sentiment</h3>
+          <p>Based on ${esc(String(tool.public_sentiment.count))} ${esc(tool.public_sentiment.source)}</p>
+          <p>${esc(tool.public_sentiment.summary || '')}</p>
+          <p style="font-size:0.8rem; color:#777;">Last updated ${esc(tool.public_sentiment.last_updated)}</p>
+        </div>`;
+      }
+
+      // Best times card
+      let bestTimesHTML = '';
+      if (tool.best_times && tool.best_times.length) {
+        const chips = tool.best_times.map(bt => `<span class="chip">${esc(bt.label)} — ${esc(bt.window)}</span>`).join(' ');
+        bestTimesHTML = `<div class="card-block"><h3>Best Times to Visit</h3>
+          <p>${esc(tool.best_times_note || '')}</p>
+          <div class="card-chips">${chips}</div>
+        </div>`;
+      }
+
+      // Attributes grid
+      let attributesHTML = '';
+      if (tool.attributes) {
+        const att = tool.attributes;
+        const leftGroups = [];
+        function tagGroup(label, arr) {
+          if (!arr || !arr.length) return '';
+          return `<div class="tag-group"><span class="label">${esc(label)}:</span><div class="tags">${arr.map(t => `<span class="tag">${esc(t)}</span>`).join(' ')}</div></div>`;
+        }
+        leftGroups.push(tagGroup('Category', att.category));
+        leftGroups.push(tagGroup('Cuisine', att.cuisine));
+        leftGroups.push(tagGroup('Meals', att.meals));
+        leftGroups.push(tagGroup('Dishes', att.dishes));
+        leftGroups.push(tagGroup('Amenities', att.amenities));
+        leftGroups.push(tagGroup('Seating', att.seating));
+        const leftHTML = leftGroups.filter(Boolean).join('');
+        // Right table
+        const rows = [];
+        if (att.price_range && att.price_range.symbol) rows.push(`<tr><td>Price Range</td><td>${esc(att.price_range.symbol)} ${esc(att.price_range.approx_aed||'')}</td></tr>`);
+        const rightHTML = `<table>${rows.join('')}</table>`;
+        attributesHTML = `<section id="attributes" class="section"><h2>Details</h2><div class="attributes"><div class="attr-left">${leftHTML}</div><div class="attr-right">${rightHTML}</div></div></section>`;
+      }
+
+      // Opening hours section
+      let hoursHTML = '';
+      if (tool.hours) {
+        const rows = Object.keys(tool.hours).map(day => `<tr><td>${esc(day)}</td><td>${esc(tool.hours[day][0])}</td><td>${esc(tool.hours[day][1])}</td></tr>`).join('');
+        hoursHTML = `<section id="hours" class="section"><h2>${esc(tool.name)} Opening Hours</h2><table class="hours-table"><tr><th>Day</th><th>Opening</th><th>Closing</th></tr>${rows}</table></section>`;
+      }
+
+      // Menu section (restaurants only; renders if data exists)
+      let menuHTML = '';
+      if (tool.menu && Array.isArray(tool.menu.sections) && tool.menu.sections.length) {
+      // helper to render one section
+      const sectionHTML = (sec) => {
+      const itemsHTML = (sec.items || []).map(it => {
+      const badge = it.badge ? `<span class="menu-badge">${esc(it.badge)}</span>` : '';
+      const desc  = it.desc  ? `<div class="menu-item-desc">${esc(it.desc)}</div>` : '';
+      const price = it.price ? `<div class="menu-item-price">${esc(it.price)}</div>` : '';
+      return `
+        <div class="menu-item">
+          <div class="menu-item-main">
+            <div class="menu-item-name">${esc(it.name || '')}${badge}</div>
+            ${desc}
+          </div>
+          ${price}
+        </div>
+        `;
+        }).join('');
+
+      const note = sec.note ? `<p class="menu-section-note">${esc(sec.note)}</p>` : '';
+      return `
+      <div class="menu-section">
+        <h3 class="menu-section-title">${esc(sec.title || '')}</h3>
+        ${note}
+        <div class="menu-items">
+          ${itemsHTML || '<div class="menu-empty">Menu items coming soon.</div>'}
+        </div>
+      </div>
+      `;
+      };
+
+      const sections = tool.menu.sections.map(sectionHTML).join('');
+
+      // Optional “Full menu” external link if you have one
+      const fullMenuLink = (tool.actions && tool.actions.menu_url)
+      ? `<p class="menu-external"><a href="${esc(tool.actions.menu_url)}" target="_blank" rel="noopener">Full menu ↗</a></p>`
+      : '';
+
+      menuHTML = `
+      <section id="menu" class="section section-menu">
+      <h2>Menu</h2>
+      ${fullMenuLink}
+      ${sections}
+      </section>
+      `;
+      }
+
+
+      // Location section
+      let locationHTML = '';
+      if (tool.location) {
+      const loc = tool.location;
+
+  // 1) Build a query (q) for the map: prefer address → lat,lng → place name
+  const hasAddr = (loc.address || '').trim().length > 0;
+  const hasLatLng = (typeof loc.lat === 'number' && typeof loc.lng === 'number');
+
+  const q = hasAddr
+    ? encodeURIComponent(loc.address)
+    : (hasLatLng
+        ? encodeURIComponent(`${loc.lat},${loc.lng}`)
+        : encodeURIComponent(tool.name || ''));
+
+  // 2) If your data already provided a custom embed (loc.map_embed), use it.
+  //    Otherwise, create a simple Google Maps iframe.
+  const mapEmbedHTML = loc.map_embed
+    ? `<div class="map-embed">${loc.map_embed}</div>`
+    : (q
+        ? `<div class="map-embed">
+             <iframe
+               id="place-map-iframe"
+               style="width:100%;height:320px;border:0;border-radius:12px;"
+               loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"
+               src="https://www.google.com/maps?q=${q}&output=embed">
+             </iframe>
+           </div>`
+        : '');
+
+  // 3) Build helpful action links
+  const websiteRow   = loc.website ? `<p><a href="${esc(loc.website)}" target="_blank" rel="noopener">Website ↗</a></p>` : '';
+  const phoneRow     = loc.phone   ? `<p><a href="tel:${esc(loc.phone)}">Call</a></p>` : '';
+  const goHref       = (tool.actions && tool.actions.maps_url)
+                        ? tool.actions.maps_url
+                        : (q ? `https://www.google.com/maps/search/?api=1&query=${q}` : '');
+  const directionsRow = goHref ? `<p><a href="${esc(goHref)}" target="_blank" rel="noopener">Get Directions ↗</a></p>` : '';
+
+  // 4) Emit the whole section (map first, then details). If there's truly nothing to map, it still shows address/links.
+  locationHTML = `
+    <section id="location" class="section">
+      <h2>Location</h2>
+      ${mapEmbedHTML}
+      <p><strong>Neighbourhood:</strong> ${esc(loc.neighborhood || '')}</p>
+      <p><strong>Address:</strong> ${esc(loc.address || '')}</p>
+      ${websiteRow}${phoneRow}${directionsRow}
+    </section>
+  `;
+      }
+
+      // FAQs section
+      let faqsHTML = '';
+      if (tool.faqs && tool.faqs.length) {
+        const items = tool.faqs.map(f => `<div class="faq-item"><p class="q">${esc(f.q)}</p><p class="a">${esc(f.a)}</p></div>`).join('');
+        faqsHTML = `<section id="faqs" class="section"><h2>FAQs</h2><div class="faqs">${items}</div></section>`;
+      }
+
+      // Related places (same as before)
+      let related = tools.filter(t => t.slug !== tool.slug && (t.categories||[])[0] === (tool.categories||[])[0]).slice(0,6);
+      const relHTML = related.map(t => `
+        <article class="card">
+          ${t.logo ? `<img class="logo" src="${esc(t.logo)}" alt="${esc(t.name)} logo" loading="lazy" />` : `<div class="logo">${esc((t.name||'').split(/\s+/).slice(0,2).map(p=>p[0]).join('').toUpperCase())}</div>`}
+          <div>
+            <div class="title">
+              <h3 style="margin:0;font-size:1rem">${esc(t.name)}</h3>
+              <span class="right">${pricingBadge(t.pricing)}</span>
+            </div>
+            <p style="margin:6px 0 8px; color:#333">${esc(t.tagline || (t.description||'').slice(0,120))}</p>
+            <div class="badges">${(t.categories||[]).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(' ')}</div>
+          </div>
+          <div class="cta"><a href="tool.html?slug=${encodeURIComponent(t.slug)}">View</a></div>
+        </article>
+      `).join('');
+      const relatedSection = `<hr class="sep" /><section><h2 style="font-size:1.1rem">Related places</h2><div class="related">${relHTML || '<div class="empty">No related places found.</div>'}</div></section>`;
+
+      wrap.innerHTML = headerHTML
+      + navHTML
+      + heroHTML
+      + aboutHTML
+      + ratingSection
+      + sentimentHTML
+      + bestTimesHTML
+      + attributesHTML
+      + hoursHTML
+      + menuHTML
+      + locationHTML
+      + faqsHTML
+      + relatedSection;
+
+
+      // Share button functionality
+      const shareBtn = document.getElementById('share-link');
+      if (shareBtn) {
+        shareBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            const orig = shareBtn.textContent;
+            shareBtn.textContent = 'Copied!';
+            setTimeout(() => { shareBtn.textContent = orig; }, 2000);
+          });
+        });
+      }
+
+    })();
+  </script>
+  <script src="assets/app.enhanced.js"></script>
+</body>
+</html>

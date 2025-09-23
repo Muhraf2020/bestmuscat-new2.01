@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updated": "2025-09-19",
+  "landmarks": [
+    {
+      "name": "Royal Opera House Muscat",
+      "lat": 23.6137,
+      "lng": 58.5677
+    },
+    {
+      "name": "Qurum Beach",
+      "lat": 23.6175,
+      "lng": 58.4645
+    },
+    {
+      "name": "Muttrah Corniche",
+      "lat": 23.6169,
+      "lng": 58.5668
+    },
+    {
+      "name": "Sultan Qaboos Grand Mosque",
+      "lat": 23.588,
+      "lng": 58.3998
+    }
+  ]
+}

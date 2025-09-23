@@ -1,0 +1,7514 @@
+[
+  {
+    "id": "al-bustan-palace",
+    "slug": "al-bustan-palace",
+    "name": "Al\u202fBustan Palace",
+    "url": "#",
+    "tagline": "Luxury beachfront resort with palace\u2011like grandeur.",
+    "description": "Nestled between the Al Hajar Mountains and the Sea of Oman, Al\u202fBustan Palace offers palatial accommodations, fine dining and a private beach with pristine waters.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Luxury",
+      "Beachfront"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Luxury beachfront resort with palace\u2011like grandeur.",
+      "Nestled between the Al Hajar Mountains and the Sea of Oman, Al\u202fBustan Palace offers palatial accommodations, fine dining and a private beach with pristine waters."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.46,
+      "Service": 8.56,
+      "Ambience": 8.6,
+      "Value for Money": 8.16,
+      "Accessibility & Amenities": 8.38
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 119,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "the-chedi-muscat",
+    "slug": "the-chedi-muscat",
+    "name": "The\u202fChedi Muscat",
+    "url": "#",
+    "tagline": "Stylish urban resort with tranquil gardens.",
+    "description": "An elegant blend of Omani architecture and Asian zen, The\u202fChedi features serene pools, landscaped gardens and award\u2011winning restaurants minutes from downtown Muscat.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Resort",
+      "City"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Stylish urban resort with tranquil gardens.",
+      "An elegant blend of Omani architecture and Asian zen, The\u202fChedi features serene pools, landscaped gardens and award\u2011winning restaurants minutes from downtown Muscat."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.53,
+      "Service": 8.48,
+      "Ambience": 8.66,
+      "Value for Money": 8.45,
+      "Accessibility & Amenities": 8.5
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 189,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "desert-oasis-resort",
+    "slug": "desert-oasis-resort",
+    "name": "Desert\u202fOasis Resort",
+    "url": "#",
+    "tagline": "A tranquil retreat in the golden dunes.",
+    "description": "Escape to the Desert\u202fOasis Resort for panoramic desert views, traditional Bedouin tents and a luxurious spa offering local wellness rituals.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Desert",
+      "Spa"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "A tranquil retreat in the golden dunes.",
+      "Escape to the Desert\u202fOasis Resort for panoramic desert views, traditional Bedouin tents and a luxurious spa offering local wellness rituals."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.81,
+      "Service": 8.72,
+      "Ambience": 8.52,
+      "Value for Money": 8.64,
+      "Accessibility & Amenities": 8.81
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 137,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "ocean-view-hotel",
+    "slug": "ocean-view-hotel",
+    "name": "Ocean\u202fView Hotel",
+    "url": "#",
+    "tagline": "Contemporary rooms with sweeping sea views.",
+    "description": "Ocean\u202fView Hotel offers modern accommodations overlooking the Gulf of Oman, rooftop infinity pool and quick access to beaches and shopping.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Sea View",
+      "Pool"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Contemporary rooms with sweeping sea views.",
+      "Ocean\u202fView Hotel offers modern accommodations overlooking the Gulf of Oman, rooftop infinity pool and quick access to beaches and shopping."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.94,
+      "Service": 8.66,
+      "Ambience": 8.81,
+      "Value for Money": 8.72,
+      "Accessibility & Amenities": 8.64
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 76,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "city-center-inn",
+    "slug": "city-center-inn",
+    "name": "City\u202fCenter Inn",
+    "url": "#",
+    "tagline": "Comfort and convenience in central Muscat.",
+    "description": "Located near the city\u2019s commercial hub, City\u202fCenter Inn provides cozy rooms, free Wi\u2011Fi and easy access to Muscat\u2019s business districts and attractions.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Business",
+      "Central"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Comfort and convenience in central Muscat.",
+      "Located near the city\u2019s commercial hub, City\u202fCenter Inn provides cozy rooms, free Wi\u2011Fi and easy access to Muscat\u2019s business districts and attractions."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.07,
+      "Service": 8.88,
+      "Ambience": 8.92,
+      "Value for Money": 8.91,
+      "Accessibility & Amenities": 8.86
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 78,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "palm-grove-hotel",
+    "slug": "palm-grove-hotel",
+    "name": "Palm\u202fGrove Hotel",
+    "url": "#",
+    "tagline": "Family\u2011friendly stay amid lush palms.",
+    "description": "Set within a verdant palm grove, this hotel offers spacious suites, an outdoor children\u2019s play area and on\u2011site dining ideal for families visiting Muscat.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Family",
+      "Garden"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Family\u2011friendly stay amid lush palms.",
+      "Set within a verdant palm grove, this hotel offers spacious suites, an outdoor children\u2019s play area and on\u2011site dining ideal for families visiting Muscat."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.12,
+      "Service": 8.85,
+      "Ambience": 9.13,
+      "Value for Money": 8.76,
+      "Accessibility & Amenities": 9.17
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 92,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "royal-garden-hotel",
+    "slug": "royal-garden-hotel",
+    "name": "Royal\u202fGarden Hotel",
+    "url": "#",
+    "tagline": "Elegant lodging with landscaped courtyards.",
+    "description": "Royal\u202fGarden Hotel features classic architecture, beautiful courtyards and refined service in a serene setting near the embassy district.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Classic",
+      "Courtyard"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Elegant lodging with landscaped courtyards.",
+      "Royal\u202fGarden Hotel features classic architecture, beautiful courtyards and refined service in a serene setting near the embassy district."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.92,
+      "Service": 8.96,
+      "Ambience": 9.09,
+      "Value for Money": 9.1,
+      "Accessibility & Amenities": 9.06
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 171,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "boutique-hotel-muscat",
+    "slug": "boutique-hotel-muscat",
+    "name": "Boutique\u202fHotel Muscat",
+    "url": "#",
+    "tagline": "Charming boutique rooms with local flair.",
+    "description": "This intimate boutique hotel delights guests with uniquely decorated rooms, personalized service and a warm Omani ambience.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Boutique",
+      "Heritage"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Charming boutique rooms with local flair.",
+      "This intimate boutique hotel delights guests with uniquely decorated rooms, personalized service and a warm Omani ambience."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.03,
+      "Service": 9.23,
+      "Ambience": 9.14,
+      "Value for Money": 8.89,
+      "Accessibility & Amenities": 9.33
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 180,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "beachside-suites",
+    "slug": "beachside-suites",
+    "name": "Beachside\u202fSuites",
+    "url": "#",
+    "tagline": "Spacious suites steps from the sand.",
+    "description": "Beachside\u202fSuites offers apartment\u2011style accommodations with kitchenettes, private balconies and direct access to one of Muscat\u2019s most popular beaches.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Beach",
+      "Suites"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Spacious suites steps from the sand.",
+      "Beachside\u202fSuites offers apartment\u2011style accommodations with kitchenettes, private balconies and direct access to one of Muscat\u2019s most popular beaches."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.15,
+      "Service": 9.12,
+      "Ambience": 9.14,
+      "Value for Money": 9.36,
+      "Accessibility & Amenities": 9.18
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 164,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "seaside-resort-oman",
+    "slug": "seaside-resort-oman",
+    "name": "Seaside\u202fResort Oman",
+    "url": "#",
+    "tagline": "All\u2011inclusive family fun on the beach.",
+    "description": "Seaside\u202fResort provides an all\u2011inclusive escape featuring multiple restaurants, kids\u2019 club, watersports and nightly entertainment for a memorable stay.",
+    "pricing": "paid",
+    "categories": [
+      "Hotels"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "All\u2011inclusive",
+      "Family"
+    ],
+    "logo": "assets/images/hotels.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "Hotel"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "All\u2011inclusive family fun on the beach.",
+      "Seaside\u202fResort provides an all\u2011inclusive escape featuring multiple restaurants, kids\u2019 club, watersports and nightly entertainment for a memorable stay."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.34,
+      "Service": 9.44,
+      "Ambience": 9.43,
+      "Value for Money": 9.41,
+      "Accessibility & Amenities": 9.37
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 140,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Hotels"
+      ],
+      "cuisine": [
+        "Hotel"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "spice-route-restaurant",
+    "slug": "spice-route-restaurant",
+    "name": "Spice\u202fRoute Restaurant",
+    "url": "#",
+    "tagline": "Authentic Omani flavors on your plate.",
+    "description": "Spice\u202fRoute serves traditional Omani dishes seasoned with aromatic spices, accompanied by live oud music and warm hospitality.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Omani",
+      "Traditional"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f4"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Authentic Omani flavors on your plate.",
+      "Spice\u202fRoute serves traditional Omani dishes seasoned with aromatic spices, accompanied by live oud music and warm hospitality."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.31,
+      "Service": 8.65,
+      "Ambience": 8.4,
+      "Value for Money": 8.5,
+      "Accessibility & Amenities": 8.66
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 160,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f4"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "seafood-grill",
+    "slug": "seafood-grill",
+    "name": "Seafood\u202fGrill",
+    "url": "#",
+    "tagline": "Fresh catch from the Arabian Sea.",
+    "description": "Sample the freshest fish and shellfish grilled to perfection at Seafood\u202fGrill, featuring waterfront seating and a relaxed atmosphere.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Seafood",
+      "Waterfront"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f4"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Fresh catch from the Arabian Sea.",
+      "Sample the freshest fish and shellfish grilled to perfection at Seafood\u202fGrill, featuring waterfront seating and a relaxed atmosphere."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.63,
+      "Service": 8.69,
+      "Ambience": 8.57,
+      "Value for Money": 8.31,
+      "Accessibility & Amenities": 8.71
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 68,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f4"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "garden-cafe",
+    "slug": "garden-cafe",
+    "name": "Garden\u202fCafe",
+    "url": "#",
+    "tagline": "Casual cafe set in a lush courtyard.",
+    "description": "This laid\u2011back cafe offers light meals, specialty coffees and fresh pastries surrounded by tropical greenery and bubbling fountains.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Cafe",
+      "Outdoor"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f3"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Casual cafe set in a lush courtyard.",
+      "This laid\u2011back cafe offers light meals, specialty coffees and fresh pastries surrounded by tropical greenery and bubbling fountains."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.68,
+      "Service": 8.53,
+      "Ambience": 8.52,
+      "Value for Money": 8.45,
+      "Accessibility & Amenities": 8.83
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 166,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f3"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "sunset-bistro",
+    "slug": "sunset-bistro",
+    "name": "Sunset\u202fBistro",
+    "url": "#",
+    "tagline": "Mediterranean cuisine with sunset views.",
+    "description": "Enjoy tapas, fresh salads and wood\u2011fired pizzas while watching the sun dip below the horizon at Sunset\u202fBistro\u2019s terrace.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Mediterranean",
+      "Terrace"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f4"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Mediterranean cuisine with sunset views.",
+      "Enjoy tapas, fresh salads and wood\u2011fired pizzas while watching the sun dip below the horizon at Sunset\u202fBistro\u2019s terrace."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.94,
+      "Service": 8.68,
+      "Ambience": 8.68,
+      "Value for Money": 8.78,
+      "Accessibility & Amenities": 8.68
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 114,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f4"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "aladdins-eatery",
+    "slug": "aladdins-eatery",
+    "name": "Aladdin\u2019s Eatery",
+    "url": "#",
+    "tagline": "Family eatery serving Middle Eastern favorites.",
+    "description": "Bring the family to Aladdin\u2019s Eatery for generous mezze platters, kebabs and shawarma in a friendly and colorful setting.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Middle Eastern",
+      "Family"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f3"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Family eatery serving Middle Eastern favorites.",
+      "Bring the family to Aladdin\u2019s Eatery for generous mezze platters, kebabs and shawarma in a friendly and colorful setting."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.81,
+      "Service": 8.75,
+      "Ambience": 8.85,
+      "Value for Money": 8.9,
+      "Accessibility & Amenities": 8.83
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 155,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f3"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "cedar-tree-cafe",
+    "slug": "cedar-tree-cafe",
+    "name": "Cedar\u202fTree Cafe",
+    "url": "#",
+    "tagline": "Lebanese flavors in a cozy atmosphere.",
+    "description": "Cedar\u202fTree Cafe serves traditional Lebanese dishes like fattoush, hummus and grilled meats in a cozy, cedar\u2011scented dining room.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Lebanese",
+      "Cozy"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f4"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Lebanese flavors in a cozy atmosphere.",
+      "Cedar\u202fTree Cafe serves traditional Lebanese dishes like fattoush, hummus and grilled meats in a cozy, cedar\u2011scented dining room."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.83,
+      "Service": 8.81,
+      "Ambience": 9.18,
+      "Value for Money": 8.94,
+      "Accessibility & Amenities": 9.03
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 38,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f4"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "mediterranean-kitchen",
+    "slug": "mediterranean-kitchen",
+    "name": "Mediterranean\u202fKitchen",
+    "url": "#",
+    "tagline": "Fresh Mediterranean and vegetarian options.",
+    "description": "This health\u2011conscious restaurant offers a variety of vegetarian and Mediterranean dishes prepared with organic local produce.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Healthy",
+      "Vegetarian"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f3"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Fresh Mediterranean and vegetarian options.",
+      "This health\u2011conscious restaurant offers a variety of vegetarian and Mediterranean dishes prepared with organic local produce."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.27,
+      "Service": 9.25,
+      "Ambience": 8.92,
+      "Value for Money": 8.77,
+      "Accessibility & Amenities": 9.24
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 90,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f3"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "omani-house",
+    "slug": "omani-house",
+    "name": "Omani\u202fHouse",
+    "url": "#",
+    "tagline": "Home\u2011style Omani cuisine in a heritage villa.",
+    "description": "Dine in a restored heritage villa where chefs serve family recipes like shuwa, majboos and halwa using time\u2011honored techniques.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Heritage",
+      "Omani"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f5"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Home\u2011style Omani cuisine in a heritage villa.",
+      "Dine in a restored heritage villa where chefs serve family recipes like shuwa, majboos and halwa using time\u2011honored techniques."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.17,
+      "Service": 9.21,
+      "Ambience": 9.24,
+      "Value for Money": 9.13,
+      "Accessibility & Amenities": 9.35
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 30,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f5"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "dessert-house",
+    "slug": "dessert-house",
+    "name": "Dessert\u202fHouse",
+    "url": "#",
+    "tagline": "Sweet treats and artisan coffee.",
+    "description": "Indulge in homemade cakes, pastries and hand\u2011crafted coffees at Dessert\u202fHouse, a bakery\u2011cafe loved by locals and visitors alike.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Bakery",
+      "Coffee"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f4"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Sweet treats and artisan coffee.",
+      "Indulge in homemade cakes, pastries and hand\u2011crafted coffees at Dessert\u202fHouse, a bakery\u2011cafe loved by locals and visitors alike."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.39,
+      "Service": 9.24,
+      "Ambience": 9.13,
+      "Value for Money": 9.27,
+      "Accessibility & Amenities": 9.36
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 27,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f4"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "urban-diner",
+    "slug": "urban-diner",
+    "name": "Urban\u202fDiner",
+    "url": "#",
+    "tagline": "Casual international dining downtown.",
+    "description": "Urban\u202fDiner offers a mix of global comfort foods\u2014from burgers to curries\u2014served in a modern, stylish space in central Muscat.",
+    "pricing": "paid",
+    "categories": [
+      "Restaurants"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Casual",
+      "International"
+    ],
+    "logo": "assets/images/restaurants.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$$",
+    "cuisines": [
+      "\u2b50\ufe0f3"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Casual international dining downtown.",
+      "Urban\u202fDiner offers a mix of global comfort foods\u2014from burgers to curries\u2014served in a modern, stylish space in central Muscat."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.43,
+      "Service": 9.57,
+      "Ambience": 9.51,
+      "Value for Money": 9.09,
+      "Accessibility & Amenities": 9.22
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 150,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Restaurants"
+      ],
+      "cuisine": [
+        "\u2b50\ufe0f3"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "muscat-international-school",
+    "slug": "muscat-international-school",
+    "name": "Muscat\u202fInternational School",
+    "url": "#",
+    "tagline": "Leading international curriculum with multicultural community.",
+    "description": "Muscat\u202fInternational School provides world\u2011class education from kindergarten to Grade 12, featuring IB and Cambridge curricula and extensive extracurriculars.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "IB",
+      "International"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Leading international curriculum with multicultural community.",
+      "Muscat\u202fInternational School provides world\u2011class education from kindergarten to Grade 12, featuring IB and Cambridge curricula and extensive extracurriculars."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.35,
+      "Service": 8.57,
+      "Ambience": 8.46,
+      "Value for Money": 8.38,
+      "Accessibility & Amenities": 8.7
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 98,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "oman-international-academy",
+    "slug": "oman-international-academy",
+    "name": "Oman\u202fInternational Academy",
+    "url": "#",
+    "tagline": "Innovative learning with STEM focus.",
+    "description": "This academy integrates modern pedagogies with robust STEM programs, preparing students for university and beyond in a collaborative environment.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "STEM",
+      "Modern"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Innovative learning with STEM focus.",
+      "This academy integrates modern pedagogies with robust STEM programs, preparing students for university and beyond in a collaborative environment."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.66,
+      "Service": 8.74,
+      "Ambience": 8.57,
+      "Value for Money": 8.22,
+      "Accessibility & Amenities": 8.73
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 147,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "al-huda-primary-school",
+    "slug": "al-huda-primary-school",
+    "name": "Al\u202fHuda Primary School",
+    "url": "#",
+    "tagline": "Community school emphasizing values and academics.",
+    "description": "Al\u202fHuda Primary School combines strong academic standards with values\u2011based education, nurturing young minds in a supportive atmosphere.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Primary",
+      "Values"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Community school emphasizing values and academics.",
+      "Al\u202fHuda Primary School combines strong academic standards with values\u2011based education, nurturing young minds in a supportive atmosphere."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.84,
+      "Service": 8.58,
+      "Ambience": 8.71,
+      "Value for Money": 8.64,
+      "Accessibility & Amenities": 8.55
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 87,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "bright-future-school",
+    "slug": "bright-future-school",
+    "name": "Bright\u202fFuture School",
+    "url": "#",
+    "tagline": "Nurturing environment with holistic programs.",
+    "description": "Bright\u202fFuture School offers creative arts, sports and language programs alongside core academics to encourage well\u2011rounded development.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Holistic",
+      "Arts"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Nurturing environment with holistic programs.",
+      "Bright\u202fFuture School offers creative arts, sports and language programs alongside core academics to encourage well\u2011rounded development."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.88,
+      "Service": 8.78,
+      "Ambience": 8.98,
+      "Value for Money": 8.83,
+      "Accessibility & Amenities": 8.86
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 104,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "green-valley-school",
+    "slug": "green-valley-school",
+    "name": "Green\u202fValley School",
+    "url": "#",
+    "tagline": "Eco\u2011friendly campus promoting sustainability.",
+    "description": "Green\u202fValley School is set on a eco\u2011friendly campus and integrates sustainability principles into its curriculum and daily operations.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Eco",
+      "Community"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Eco\u2011friendly campus promoting sustainability.",
+      "Green\u202fValley School is set on a eco\u2011friendly campus and integrates sustainability principles into its curriculum and daily operations."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.08,
+      "Service": 9.0,
+      "Ambience": 8.78,
+      "Value for Money": 8.71,
+      "Accessibility & Amenities": 8.88
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 47,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "american-school-muscat",
+    "slug": "american-school-muscat",
+    "name": "The\u202fAmerican School Muscat",
+    "url": "#",
+    "tagline": "US curriculum with strong sports and arts programs.",
+    "description": "This renowned school follows the American curriculum, offering AP courses, advanced facilities and a wide range of arts and athletics.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "US Curriculum",
+      "AP"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "US curriculum with strong sports and arts programs.",
+      "This renowned school follows the American curriculum, offering AP courses, advanced facilities and a wide range of arts and athletics."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.01,
+      "Service": 8.82,
+      "Ambience": 8.91,
+      "Value for Money": 8.72,
+      "Accessibility & Amenities": 8.9
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 85,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "happy-kids-nursery",
+    "slug": "happy-kids-nursery",
+    "name": "Happy\u202fKids Nursery",
+    "url": "#",
+    "tagline": "Play\u2011based learning for early years.",
+    "description": "Happy\u202fKids Nursery provides a safe and stimulating environment for toddlers and preschoolers with focus on play\u2011based learning and care.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Nursery",
+      "Play"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Play\u2011based learning for early years.",
+      "Happy\u202fKids Nursery provides a safe and stimulating environment for toddlers and preschoolers with focus on play\u2011based learning and care."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.23,
+      "Service": 9.24,
+      "Ambience": 9.28,
+      "Value for Money": 8.93,
+      "Accessibility & Amenities": 9.24
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 58,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "knowledge-gate-school",
+    "slug": "knowledge-gate-school",
+    "name": "Knowledge\u202fGate School",
+    "url": "#",
+    "tagline": "Cambridge curriculum with modern facilities.",
+    "description": "Knowledge\u202fGate School offers the Cambridge IGCSE and A\u2011Level programs with state\u2011of\u2011the\u2011art classrooms, labs and extracurricular opportunities.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Cambridge",
+      "Modern"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Cambridge curriculum with modern facilities.",
+      "Knowledge\u202fGate School offers the Cambridge IGCSE and A\u2011Level programs with state\u2011of\u2011the\u2011art classrooms, labs and extracurricular opportunities."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.17,
+      "Service": 9.17,
+      "Ambience": 9.23,
+      "Value for Money": 9.0,
+      "Accessibility & Amenities": 9.34
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 59,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "beacon-private-school",
+    "slug": "beacon-private-school",
+    "name": "Beacon\u202fPrivate School",
+    "url": "#",
+    "tagline": "Small class sizes and individualized attention.",
+    "description": "Beacon\u202fPrivate School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Private",
+      "Personalized"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Small class sizes and individualized attention.",
+      "Beacon\u202fPrivate School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.21,
+      "Service": 9.22,
+      "Ambience": 9.13,
+      "Value for Money": 9.08,
+      "Accessibility & Amenities": 9.38
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 25,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "global-public-school",
+    "slug": "global-public-school",
+    "name": "Global\u202fPublic School",
+    "url": "#",
+    "tagline": "Accessible education with bilingual programs.",
+    "description": "Global\u202fPublic School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community.",
+    "pricing": "paid",
+    "categories": [
+      "Schools"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Bilingual",
+      "Inclusive"
+    ],
+    "logo": "assets/images/schools.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "School"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Accessible education with bilingual programs.",
+      "Global\u202fPublic School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.57,
+      "Service": 9.47,
+      "Ambience": 9.43,
+      "Value for Money": 9.43,
+      "Accessibility & Amenities": 9.45
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 117,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Schools"
+      ],
+      "cuisine": [
+        "School"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "oasis-spa",
+    "slug": "oasis-spa",
+    "name": "Oasis\u202fSpa",
+    "url": "#",
+    "tagline": "Revitalizing massages and hydrotherapy.",
+    "description": "Oasis\u202fSpa offers a menu of massages, hydrotherapy treatments and hammams designed to refresh body and mind in a peaceful setting.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Hydrotherapy",
+      "Massage"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Revitalizing massages and hydrotherapy.",
+      "Oasis\u202fSpa offers a menu of massages, hydrotherapy treatments and hammams designed to refresh body and mind in a peaceful setting."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 8.47,
+      "Ambience": 8.48,
+      "Value for Money": 8.26,
+      "Accessibility & Amenities": 8.61
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 125,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "zen-garden-spa",
+    "slug": "zen-garden-spa",
+    "name": "Zen\u202fGarden Spa",
+    "url": "#",
+    "tagline": "Japanese\u2011inspired treatments for serenity.",
+    "description": "Experience Japanese\u2011style onsens, shiatsu massage and tea ceremonies at Zen\u202fGarden Spa, a sanctuary of calm in Muscat.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Japanese",
+      "Onsen"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Japanese\u2011inspired treatments for serenity.",
+      "Experience Japanese\u2011style onsens, shiatsu massage and tea ceremonies at Zen\u202fGarden Spa, a sanctuary of calm in Muscat."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.62,
+      "Service": 8.56,
+      "Ambience": 8.56,
+      "Value for Money": 8.28,
+      "Accessibility & Amenities": 8.66
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 67,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "serenity-wellness-center",
+    "slug": "serenity-wellness-center",
+    "name": "Serenity\u202fWellness Center",
+    "url": "#",
+    "tagline": "Holistic spa combining fitness and relaxation.",
+    "description": "Serenity\u202fWellness Center offers yoga classes, fitness training and spa treatments such as facials, aromatherapy and reflexology.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Wellness",
+      "Yoga"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Holistic spa combining fitness and relaxation.",
+      "Serenity\u202fWellness Center offers yoga classes, fitness training and spa treatments such as facials, aromatherapy and reflexology."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.57,
+      "Service": 8.79,
+      "Ambience": 8.51,
+      "Value for Money": 8.4,
+      "Accessibility & Amenities": 8.5
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 97,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "desert-springs-spa",
+    "slug": "desert-springs-spa",
+    "name": "Desert\u202fSprings Spa",
+    "url": "#",
+    "tagline": "Spa haven drawing inspiration from desert botanicals.",
+    "description": "Treat yourself to locally inspired scrubs and mud wraps at Desert\u202fSprings Spa, using ingredients like frankincense and date palm.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Frankincense",
+      "Botanical"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Spa haven drawing inspiration from desert botanicals.",
+      "Treat yourself to locally inspired scrubs and mud wraps at Desert\u202fSprings Spa, using ingredients like frankincense and date palm."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.69,
+      "Service": 9.0,
+      "Ambience": 8.65,
+      "Value for Money": 8.87,
+      "Accessibility & Amenities": 8.87
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 144,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "lotus-spa",
+    "slug": "lotus-spa",
+    "name": "Lotus\u202fSpa",
+    "url": "#",
+    "tagline": "Ayurvedic therapies and mindfulness sessions.",
+    "description": "Lotus\u202fSpa offers Ayurveda consultations, herbal treatments and guided meditation to align body and mind.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Ayurveda",
+      "Meditation"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Ayurvedic therapies and mindfulness sessions.",
+      "Lotus\u202fSpa offers Ayurveda consultations, herbal treatments and guided meditation to align body and mind."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.72,
+      "Service": 8.85,
+      "Ambience": 8.92,
+      "Value for Money": 8.77,
+      "Accessibility & Amenities": 8.78
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 77,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "blue-lagoon-spa",
+    "slug": "blue-lagoon-spa",
+    "name": "Blue\u202fLagoon Spa",
+    "url": "#",
+    "tagline": "Thalassotherapy and marine\u2011inspired treatments.",
+    "description": "Blue\u202fLagoon Spa harnesses the healing properties of seawater through thalassotherapy pools, seaweed wraps and marine facials.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Thalassotherapy",
+      "Marine"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Thalassotherapy and marine\u2011inspired treatments.",
+      "Blue\u202fLagoon Spa harnesses the healing properties of seawater through thalassotherapy pools, seaweed wraps and marine facials."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.91,
+      "Service": 9.09,
+      "Ambience": 9.18,
+      "Value for Money": 8.88,
+      "Accessibility & Amenities": 9.08
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 127,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "mirage-spa-wellness",
+    "slug": "mirage-spa-wellness",
+    "name": "Mirage\u202fSpa & Wellness",
+    "url": "#",
+    "tagline": "Desert chic spa with hammam and sauna.",
+    "description": "Mirage\u202fSpa offers contemporary design, private hammams, aromatherapy steam rooms and a selection of signature massages.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Hammam",
+      "Sauna"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Desert chic spa with hammam and sauna.",
+      "Mirage\u202fSpa offers contemporary design, private hammams, aromatherapy steam rooms and a selection of signature massages."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.99,
+      "Service": 9.07,
+      "Ambience": 8.91,
+      "Value for Money": 8.7,
+      "Accessibility & Amenities": 9.02
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 197,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "palm-retreat-spa",
+    "slug": "palm-retreat-spa",
+    "name": "Palm\u202fRetreat Spa",
+    "url": "#",
+    "tagline": "Island\u2011style relaxation with coconut treatments.",
+    "description": "Escape to Palm\u202fRetreat Spa for massages using coconut oil, tropical body scrubs and couples\u2019 suites overlooking swaying palms.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Tropical",
+      "Couples"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Island\u2011style relaxation with coconut treatments.",
+      "Escape to Palm\u202fRetreat Spa for massages using coconut oil, tropical body scrubs and couples\u2019 suites overlooking swaying palms."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.23,
+      "Service": 9.15,
+      "Ambience": 9.07,
+      "Value for Money": 8.83,
+      "Accessibility & Amenities": 9.03
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 104,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "harmony-spa",
+    "slug": "harmony-spa",
+    "name": "Harmony\u202fSpa",
+    "url": "#",
+    "tagline": "Sound therapy and deep relaxation.",
+    "description": "Harmony\u202fSpa specializes in sound therapy using Tibetan singing bowls, gongs and guided breathing sessions to promote deep relaxation.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Sound Therapy",
+      "Relaxation"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Sound therapy and deep relaxation.",
+      "Harmony\u202fSpa specializes in sound therapy using Tibetan singing bowls, gongs and guided breathing sessions to promote deep relaxation."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.16,
+      "Service": 9.44,
+      "Ambience": 9.25,
+      "Value for Money": 9.34,
+      "Accessibility & Amenities": 9.12
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 136,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "royal-hammam-spa",
+    "slug": "royal-hammam-spa",
+    "name": "Royal\u202fHammam Spa",
+    "url": "#",
+    "tagline": "Traditional hammam rituals fit for royalty.",
+    "description": "Royal\u202fHammam Spa offers authentic Moroccan hammam experiences with steam, black soap, exfoliation and massage in an opulent setting.",
+    "pricing": "paid",
+    "categories": [
+      "Spas"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Moroccan",
+      "Hammam"
+    ],
+    "logo": "assets/images/spas.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Spa"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Traditional hammam rituals fit for royalty.",
+      "Royal\u202fHammam Spa offers authentic Moroccan hammam experiences with steam, black soap, exfoliation and massage in an opulent setting."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.41,
+      "Service": 9.48,
+      "Ambience": 9.41,
+      "Value for Money": 9.46,
+      "Accessibility & Amenities": 9.41
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 24,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Spas"
+      ],
+      "cuisine": [
+        "Spa"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "muscat-medical-clinic",
+    "slug": "muscat-medical-clinic",
+    "name": "Muscat\u202fMedical Clinic",
+    "url": "#",
+    "tagline": "Comprehensive healthcare for families.",
+    "description": "Muscat\u202fMedical Clinic offers family medicine, pediatrics, immunizations and diagnostic services with experienced physicians.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Family",
+      "Diagnostics"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Comprehensive healthcare for families.",
+      "Muscat\u202fMedical Clinic offers family medicine, pediatrics, immunizations and diagnostic services with experienced physicians."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.38,
+      "Service": 8.66,
+      "Ambience": 8.38,
+      "Value for Money": 8.14,
+      "Accessibility & Amenities": 8.64
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 76,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "oman-health-center",
+    "slug": "oman-health-center",
+    "name": "Oman\u202fHealth Center",
+    "url": "#",
+    "tagline": "Primary care and preventive medicine.",
+    "description": "Offering vaccinations, general consultations and wellness programs, Oman\u202fHealth Center focuses on preventive healthcare and patient education.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Preventive",
+      "Wellness"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Primary care and preventive medicine.",
+      "Offering vaccinations, general consultations and wellness programs, Oman\u202fHealth Center focuses on preventive healthcare and patient education."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.45,
+      "Service": 8.62,
+      "Ambience": 8.5,
+      "Value for Money": 8.28,
+      "Accessibility & Amenities": 8.49
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 200,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "advanced-care-clinic",
+    "slug": "advanced-care-clinic",
+    "name": "Advanced\u202fCare Clinic",
+    "url": "#",
+    "tagline": "Specialized medical care and diagnostics.",
+    "description": "Advanced\u202fCare Clinic houses specialist physicians in cardiology, dermatology and endocrinology with modern diagnostic technology.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Specialists",
+      "Diagnostics"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Specialized medical care and diagnostics.",
+      "Advanced\u202fCare Clinic houses specialist physicians in cardiology, dermatology and endocrinology with modern diagnostic technology."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.78,
+      "Service": 8.56,
+      "Ambience": 8.85,
+      "Value for Money": 8.78,
+      "Accessibility & Amenities": 8.78
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 181,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "wellness-medical-center",
+    "slug": "wellness-medical-center",
+    "name": "Wellness\u202fMedical Center",
+    "url": "#",
+    "tagline": "Integrated primary care and rehabilitation.",
+    "description": "Wellness\u202fMedical Center offers internal medicine, physiotherapy and nutrition counseling to support long\u2011term health and recovery.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Physiotherapy",
+      "Nutrition"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Integrated primary care and rehabilitation.",
+      "Wellness\u202fMedical Center offers internal medicine, physiotherapy and nutrition counseling to support long\u2011term health and recovery."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.93,
+      "Service": 8.85,
+      "Ambience": 8.79,
+      "Value for Money": 8.45,
+      "Accessibility & Amenities": 8.74
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 27,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "family-health-clinic",
+    "slug": "family-health-clinic",
+    "name": "Family\u202fHealth Clinic",
+    "url": "#",
+    "tagline": "Friendly general practice serving all ages.",
+    "description": "Family\u202fHealth Clinic provides general practice services, chronic disease management and minor procedures for patients of all ages.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "General Practice",
+      "Family"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Friendly general practice serving all ages.",
+      "Family\u202fHealth Clinic provides general practice services, chronic disease management and minor procedures for patients of all ages."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.84,
+      "Service": 8.7,
+      "Ambience": 9.02,
+      "Value for Money": 8.86,
+      "Accessibility & Amenities": 8.73
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 83,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "smile-dental-clinic",
+    "slug": "smile-dental-clinic",
+    "name": "Smile\u202fDental Clinic",
+    "url": "#",
+    "tagline": "Comprehensive dental care for your smile.",
+    "description": "From routine cleanings to cosmetic dentistry and orthodontics, Smile\u202fDental Clinic uses modern equipment to keep your smile healthy.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Dental",
+      "Orthodontics"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Comprehensive dental care for your smile.",
+      "From routine cleanings to cosmetic dentistry and orthodontics, Smile\u202fDental Clinic uses modern equipment to keep your smile healthy."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.95,
+      "Service": 9.03,
+      "Ambience": 8.96,
+      "Value for Money": 9.04,
+      "Accessibility & Amenities": 9.05
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 30,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "vision-eye-clinic",
+    "slug": "vision-eye-clinic",
+    "name": "Vision\u202fEye Clinic",
+    "url": "#",
+    "tagline": "Expert eye care and optical services.",
+    "description": "Vision\u202fEye Clinic offers comprehensive eye exams, cataract surgery and a wide selection of prescription glasses and contact lenses.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Ophthalmology",
+      "Optical"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Expert eye care and optical services.",
+      "Vision\u202fEye Clinic offers comprehensive eye exams, cataract surgery and a wide selection of prescription glasses and contact lenses."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.29,
+      "Service": 9.01,
+      "Ambience": 9.29,
+      "Value for Money": 8.72,
+      "Accessibility & Amenities": 9.18
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 76,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "al-shifa-medical-clinic",
+    "slug": "al-shifa-medical-clinic",
+    "name": "Al\u202fShifa Medical Clinic",
+    "url": "#",
+    "tagline": "Comprehensive outpatient services.",
+    "description": "Al\u202fShifa Medical Clinic provides general medicine, diagnostics and minor surgeries with an emphasis on patient comfort and care.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Outpatient",
+      "Diagnostics"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Comprehensive outpatient services.",
+      "Al\u202fShifa Medical Clinic provides general medicine, diagnostics and minor surgeries with an emphasis on patient comfort and care."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.28,
+      "Service": 9.37,
+      "Ambience": 9.08,
+      "Value for Money": 9.13,
+      "Accessibility & Amenities": 9.32
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 174,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "green-medical-clinic",
+    "slug": "green-medical-clinic",
+    "name": "Green\u202fMedical Clinic",
+    "url": "#",
+    "tagline": "Eco\u2011conscious healthcare with natural therapies.",
+    "description": "Green\u202fMedical Clinic combines conventional medicine with naturopathy, offering treatments like herbal remedies, acupuncture and nutrition guidance.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Naturopathy",
+      "Holistic"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Eco\u2011conscious healthcare with natural therapies.",
+      "Green\u202fMedical Clinic combines conventional medicine with naturopathy, offering treatments like herbal remedies, acupuncture and nutrition guidance."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.18,
+      "Service": 9.13,
+      "Ambience": 9.37,
+      "Value for Money": 8.97,
+      "Accessibility & Amenities": 9.34
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 157,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "primary-care-clinic",
+    "slug": "primary-care-clinic",
+    "name": "Primary\u202fCare Clinic",
+    "url": "#",
+    "tagline": "Accessible primary care for everyday needs.",
+    "description": "Primary\u202fCare Clinic serves the local community with walk\u2011in appointments, chronic disease management and health screenings.",
+    "pricing": "paid",
+    "categories": [
+      "Clinics"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Walk\u2011in",
+      "Screening"
+    ],
+    "logo": "assets/images/clinics.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Clinic"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Accessible primary care for everyday needs.",
+      "Primary\u202fCare Clinic serves the local community with walk\u2011in appointments, chronic disease management and health screenings."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.24,
+      "Service": 9.47,
+      "Ambience": 9.32,
+      "Value for Money": 9.18,
+      "Accessibility & Amenities": 9.25
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 28,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Clinics"
+      ],
+      "cuisine": [
+        "Clinic"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "muscat-city-centre",
+    "slug": "muscat-city-centre",
+    "name": "Muscat\u202fCity Centre",
+    "url": "#",
+    "tagline": "Large shopping mall with international brands.",
+    "description": "Muscat\u202fCity Centre boasts a broad range of retail stores, dining outlets, multiplex cinema and family entertainment options.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Shopping",
+      "Entertainment"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [
+      "Gem"
+    ],
+    "rating_overall": 8.5,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Large shopping mall with international brands.",
+      "Muscat\u202fCity Centre boasts a broad range of retail stores, dining outlets, multiplex cinema and family entertainment options."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.53,
+      "Service": 8.43,
+      "Ambience": 8.45,
+      "Value for Money": 8.56,
+      "Accessibility & Amenities": 8.33
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 34,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "mall-of-oman",
+    "slug": "mall-of-oman",
+    "name": "Mall\u202fof Oman",
+    "url": "#",
+    "tagline": "Flagship mall featuring indoor snow park.",
+    "description": "Mall\u202fof Oman offers luxury boutiques, diverse dining, a multiplex and the region\u2019s first indoor snow park for year\u2011round fun.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f5",
+      "Snow Park",
+      "Luxury"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.6,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Flagship mall featuring indoor snow park.",
+      "Mall\u202fof Oman offers luxury boutiques, diverse dining, a multiplex and the region\u2019s first indoor snow park for year\u2011round fun."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.69,
+      "Service": 8.55,
+      "Ambience": 8.76,
+      "Value for Money": 8.59,
+      "Accessibility & Amenities": 8.46
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 55,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "qurum-city-centre",
+    "slug": "qurum-city-centre",
+    "name": "Qurum\u202fCity Centre",
+    "url": "#",
+    "tagline": "Neighborhood mall with convenient services.",
+    "description": "Qurum\u202fCity Centre houses grocery stores, fashion retailers and casual dining, serving locals with convenience and variety.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Convenience",
+      "Local"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.7,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Neighborhood mall with convenient services.",
+      "Qurum\u202fCity Centre houses grocery stores, fashion retailers and casual dining, serving locals with convenience and variety."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.7,
+      "Service": 8.64,
+      "Ambience": 8.76,
+      "Value for Money": 8.41,
+      "Accessibility & Amenities": 8.57
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 89,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "avenues-mall-muscat",
+    "slug": "avenues-mall-muscat",
+    "name": "Avenues\u202fMall Muscat",
+    "url": "#",
+    "tagline": "Contemporary mall with global brands.",
+    "description": "Avenues\u202fMall Muscat features an airy design, popular international brands, cafes and regular family events.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "International Brands",
+      "Family Events"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.8,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Contemporary mall with global brands.",
+      "Avenues\u202fMall Muscat features an airy design, popular international brands, cafes and regular family events."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.61,
+      "Service": 8.99,
+      "Ambience": 8.85,
+      "Value for Money": 8.4,
+      "Accessibility & Amenities": 8.85
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 184,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "panorama-mall",
+    "slug": "panorama-mall",
+    "name": "Panorama\u202fMall",
+    "url": "#",
+    "tagline": "Boutique shopping with panoramic views.",
+    "description": "Perched on a hillside, Panorama\u202fMall offers a curated selection of boutiques, fine dining and terrace views over Muscat.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Boutique",
+      "Views"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 8.9,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Boutique shopping with panoramic views.",
+      "Perched on a hillside, Panorama\u202fMall offers a curated selection of boutiques, fine dining and terrace views over Muscat."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.08,
+      "Service": 8.89,
+      "Ambience": 8.75,
+      "Value for Money": 8.63,
+      "Accessibility & Amenities": 8.82
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 73,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "oasis-mall",
+    "slug": "oasis-mall",
+    "name": "Oasis\u202fMall",
+    "url": "#",
+    "tagline": "Shopping and dining in a relaxed environment.",
+    "description": "Oasis\u202fMall offers an array of everyday retailers, supermarkets and eateries, perfect for a casual shopping trip.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f3",
+      "Everyday",
+      "Relaxed"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.0,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Shopping and dining in a relaxed environment.",
+      "Oasis\u202fMall offers an array of everyday retailers, supermarkets and eateries, perfect for a casual shopping trip."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 8.85,
+      "Service": 8.95,
+      "Ambience": 8.98,
+      "Value for Money": 8.94,
+      "Accessibility & Amenities": 8.91
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 146,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "markaz-al-bahja",
+    "slug": "markaz-al-bahja",
+    "name": "Markaz\u202fAl\u202fBahja",
+    "url": "#",
+    "tagline": "Outlet mall with family entertainment.",
+    "description": "Markaz\u202fAl\u202fBahja features outlet shopping, children\u2019s play areas and a relaxed food court, making it a popular weekend destination.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Outlet",
+      "Play Area"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.1,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Outlet mall with family entertainment.",
+      "Markaz\u202fAl\u202fBahja features outlet shopping, children\u2019s play areas and a relaxed food court, making it a popular weekend destination."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.28,
+      "Service": 9.07,
+      "Ambience": 8.9,
+      "Value for Money": 9.16,
+      "Accessibility & Amenities": 9.3
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 130,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "muscat-grand-mall",
+    "slug": "muscat-grand-mall",
+    "name": "Muscat\u202fGrand Mall",
+    "url": "#",
+    "tagline": "Modern mall blending retail and leisure.",
+    "description": "Muscat\u202fGrand Mall offers retail therapy alongside cafes, entertainment zones and special events such as exhibitions and markets.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Modern",
+      "Events"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.2,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Modern mall blending retail and leisure.",
+      "Muscat\u202fGrand Mall offers retail therapy alongside cafes, entertainment zones and special events such as exhibitions and markets."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.09,
+      "Service": 9.38,
+      "Ambience": 9.38,
+      "Value for Money": 9.12,
+      "Accessibility & Amenities": 9.31
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 185,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "rimal-mall",
+    "slug": "rimal-mall",
+    "name": "Rimal\u202fMall",
+    "url": "#",
+    "tagline": "Compact mall catering to daily needs.",
+    "description": "Rimal\u202fMall serves the local neighborhood with supermarkets, pharmacies, fashion stores and casual eateries.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f2",
+      "Neighborhood",
+      "Convenient"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.3,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Compact mall catering to daily needs.",
+      "Rimal\u202fMall serves the local neighborhood with supermarkets, pharmacies, fashion stores and casual eateries."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.43,
+      "Service": 9.24,
+      "Ambience": 9.31,
+      "Value for Money": 8.98,
+      "Accessibility & Amenities": 9.25
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 60,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  },
+  {
+    "id": "barcelo-mall",
+    "slug": "barcelo-mall",
+    "name": "Barcel\u00f3\u202fMall",
+    "url": "#",
+    "tagline": "Stylish mall with upscale retailers.",
+    "description": "Barcel\u00f3\u202fMall combines upscale fashion, gourmet restaurants and high\u2011end services in an elegant, modern setting.",
+    "pricing": "paid",
+    "categories": [
+      "Malls"
+    ],
+    "tags": [
+      "\u2b50\ufe0f4",
+      "Upscale",
+      "Gourmet"
+    ],
+    "logo": "assets/images/malls.png",
+    "evidence_cites": false,
+    "local_onprem": false,
+    "edu_discount": false,
+    "free_tier": false,
+    "beta": false,
+    "created_at": "2025-09-02",
+    "badges": [],
+    "rating_overall": 9.4,
+    "address_full": "Muscat, Oman",
+    "status": "Open",
+    "busyness": "Usually Busy",
+    "price": "$$",
+    "cuisines": [
+      "Mall"
+    ],
+    "actions": {
+      "share": true,
+      "website": "",
+      "phone": "",
+      "maps_url": ""
+    },
+    "about": [
+      "Stylish mall with upscale retailers.",
+      "Barcel\u00f3\u202fMall combines upscale fashion, gourmet restaurants and high\u2011end services in an elegant, modern setting."
+    ],
+    "verified": false,
+    "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
+    "subscores": {
+      "Food Quality": 9.55,
+      "Service": 9.3,
+      "Ambience": 9.54,
+      "Value for Money": 9.43,
+      "Accessibility & Amenities": 9.38
+    },
+    "public_sentiment": {
+      "source": "Google Reviews",
+      "count": 141,
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-14"
+    },
+    "best_times": [
+      {
+        "label": "Weekends",
+        "window": "Fri\u2013Sat 7PM\u20139PM"
+      },
+      {
+        "label": "Weekdays",
+        "window": "Mon\u2013Thu 6PM\u20137PM"
+      }
+    ],
+    "attributes": {
+      "category": [
+        "Malls"
+      ],
+      "cuisine": [
+        "Mall"
+      ],
+      "meals": [
+        "Dinner",
+        "Lunch"
+      ],
+      "price_range": {
+        "symbol": "$$",
+        "approx_aed": ""
+      },
+      "dishes": [],
+      "amenities": [],
+      "seating": []
+    },
+    "hours": {
+      "Mon": [
+        "09:00",
+        "17:00"
+      ],
+      "Tue": [
+        "09:00",
+        "17:00"
+      ],
+      "Wed": [
+        "09:00",
+        "17:00"
+      ],
+      "Thu": [
+        "09:00",
+        "17:00"
+      ],
+      "Fri": [
+        "10:00",
+        "22:00"
+      ],
+      "Sat": [
+        "10:00",
+        "22:00"
+      ],
+      "Sun": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "location": {
+      "neighborhood": "Muscat",
+      "address": "Muscat, Oman",
+      "website": "",
+      "phone": "",
+      "map_embed": ""
+    },
+    "faqs": []
+  }
+]
