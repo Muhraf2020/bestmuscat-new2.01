@@ -245,50 +245,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "location": {
       "neighborhood": "Ghala",
@@ -300,8 +257,8 @@
     },
     "faqs": [],
     "images": {
-      "logo": null,
-      "hero": "assets/images/al-bustan-palace/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Pano-Hor?wid=1200&fit=constrain",
       "credit": "Courtesy of Al Bustan Palace",
       "source_url": "https://images.example.com/al-bustan-palace/hero"
     },
@@ -463,40 +420,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://www.almouj.com/en/marina",
     "actions": {
@@ -505,8 +429,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=al-mouj-marina"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/al-mouj-marina/hero.webp",
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/al-mouj-marina/hero.webp",
       "credit": "Courtesy of Al Mouj Marina",
       "source_url": "https://images.example.com/al-mouj-marina/hero"
     },
@@ -1098,40 +1022,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://www.baitalzubair.com/",
     "actions": {
@@ -1140,8 +1031,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=bait-al-zubair-museum"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/bait-al-zubair-museum/hero.webp",
       "credit": "Courtesy of Bait Al Zubair Museum",
       "source_url": "https://images.example.com/bait-al-zubair-museum/hero"
     },
@@ -2362,15 +2253,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-1",
     "actions": {
@@ -2379,8 +2262,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=city-walk-mall-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/city-walk-mall-1/hero.webp",
       "credit": "Courtesy of City Walk Mall 1",
       "source_url": "https://images.example.com/city-walk-mall-1/hero"
     },
@@ -2417,50 +2300,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-2",
     "actions": {
@@ -2469,8 +2309,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=city-walk-mall-2"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/city-walk-mall-2/hero.webp",
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/city-walk-mall-2/hero.webp",
       "credit": "Courtesy of City Walk Mall 2",
       "source_url": "https://images.example.com/city-walk-mall-2/hero"
     },
@@ -2507,50 +2347,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-3",
     "actions": {
@@ -2559,8 +2356,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=city-walk-mall-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/city-walk-mall-3/hero.webp",
       "credit": "Courtesy of City Walk Mall 3",
       "source_url": "https://images.example.com/city-walk-mall-3/hero"
     },
@@ -2597,50 +2394,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-4",
     "actions": {
@@ -2649,8 +2403,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=city-walk-mall-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/city-walk-mall-4/hero.webp",
       "credit": "Courtesy of City Walk Mall 4",
       "source_url": "https://images.example.com/city-walk-mall-4/hero"
     },
@@ -2687,50 +2441,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-5",
     "actions": {
@@ -2739,8 +2450,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=city-walk-mall-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/city-walk-mall-5/hero.webp",
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/city-walk-mall-5/hero.webp",
       "credit": "Courtesy of City Walk Mall 5",
       "source_url": "https://images.example.com/city-walk-mall-5/hero"
     },
@@ -2813,50 +2524,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=date-cardamom-1",
     "actions": {
@@ -2865,8 +2533,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=date-cardamom-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/date-cardamom-1/hero.webp",
       "credit": "Courtesy of Date & Cardamom 1",
       "source_url": "https://images.example.com/date-cardamom-1/hero"
     },
@@ -2903,50 +2571,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=date-cardamom-2",
     "actions": {
@@ -2955,8 +2580,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=date-cardamom-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/date-cardamom-2/hero.webp",
       "credit": "Courtesy of Date & Cardamom 2",
       "source_url": "https://images.example.com/date-cardamom-2/hero"
     },
@@ -2993,50 +2618,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=date-cardamom-3",
     "actions": {
@@ -3045,8 +2627,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=date-cardamom-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/date-cardamom-3/hero.webp",
       "credit": "Courtesy of Date & Cardamom 3",
       "source_url": "https://images.example.com/date-cardamom-3/hero"
     },
@@ -3083,50 +2665,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=date-cardamom-4",
     "actions": {
@@ -3135,8 +2674,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=date-cardamom-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/date-cardamom-4/hero.webp",
       "credit": "Courtesy of Date & Cardamom 4",
       "source_url": "https://images.example.com/date-cardamom-4/hero"
     },
@@ -3173,50 +2712,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=date-cardamom-5",
     "actions": {
@@ -3225,8 +2721,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=date-cardamom-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/date-cardamom-5/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/date-cardamom-5/hero.webp",
       "credit": "Courtesy of Date & Cardamom 5",
       "source_url": "https://images.example.com/date-cardamom-5/hero"
     },
@@ -4428,15 +3924,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-1",
     "actions": {
@@ -4445,8 +3933,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=gulf-maritime-museum-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/gulf-maritime-museum-1/hero.webp",
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/gulf-maritime-museum-1/hero.webp",
       "credit": "Courtesy of Gulf Maritime Museum 1",
       "source_url": "https://images.example.com/gulf-maritime-museum-1/hero"
     },
@@ -4483,15 +3971,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-2",
     "actions": {
@@ -4500,8 +3980,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=gulf-maritime-museum-2"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/gulf-maritime-museum-2/hero.webp",
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/gulf-maritime-museum-2/hero.webp",
       "credit": "Courtesy of Gulf Maritime Museum 2",
       "source_url": "https://images.example.com/gulf-maritime-museum-2/hero"
     },
@@ -4538,50 +4018,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-3",
     "actions": {
@@ -4590,8 +4027,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=gulf-maritime-museum-3"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/gulf-maritime-museum-3/hero.webp",
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/gulf-maritime-museum-3/hero.webp",
       "credit": "Courtesy of Gulf Maritime Museum 3",
       "source_url": "https://images.example.com/gulf-maritime-museum-3/hero"
     },
@@ -4628,50 +4065,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-4",
     "actions": {
@@ -4680,8 +4074,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=gulf-maritime-museum-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/gulf-maritime-museum-4/hero.webp",
       "credit": "Courtesy of Gulf Maritime Museum 4",
       "source_url": "https://images.example.com/gulf-maritime-museum-4/hero"
     },
@@ -4718,15 +4112,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-5",
     "actions": {
@@ -4735,8 +4121,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=gulf-maritime-museum-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/museums.png",
+      "hero": "assets/media/gulf-maritime-museum-5/hero.webp",
       "credit": "Courtesy of Gulf Maritime Museum 5",
       "source_url": "https://images.example.com/gulf-maritime-museum-5/hero"
     },
@@ -5023,50 +4409,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-1",
     "actions": {
@@ -5075,8 +4418,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/heritage-fort-1/hero.webp",
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-1/hero.webp",
       "credit": "Courtesy of Heritage Fort 1",
       "source_url": "https://images.example.com/heritage-fort-1/hero"
     },
@@ -5113,50 +4456,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-2",
     "actions": {
@@ -5165,8 +4465,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-2/hero.webp",
       "credit": "Courtesy of Heritage Fort 2",
       "source_url": "https://images.example.com/heritage-fort-2/hero"
     },
@@ -5203,15 +4503,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-3",
     "actions": {
@@ -5220,8 +4512,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-3"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/heritage-fort-3/hero.webp",
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-3/hero.webp",
       "credit": "Courtesy of Heritage Fort 3",
       "source_url": "https://images.example.com/heritage-fort-3/hero"
     },
@@ -5258,15 +4550,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-4",
     "actions": {
@@ -5275,8 +4559,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-4/hero.webp",
       "credit": "Courtesy of Heritage Fort 4",
       "source_url": "https://images.example.com/heritage-fort-4/hero"
     },
@@ -5313,15 +4597,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-5",
     "actions": {
@@ -5330,8 +4606,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-5/hero.webp",
       "credit": "Courtesy of Heritage Fort 5",
       "source_url": "https://images.example.com/heritage-fort-5/hero"
     },
@@ -5368,15 +4644,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-6",
     "actions": {
@@ -5385,8 +4653,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-6"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-6/hero.webp",
       "credit": "Courtesy of Heritage Fort 6",
       "source_url": "https://images.example.com/heritage-fort-6/hero"
     },
@@ -5423,50 +4691,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-7",
     "actions": {
@@ -5475,8 +4700,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=heritage-fort-7"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/heritage-fort-7/hero.webp",
       "credit": "Courtesy of Heritage Fort 7",
       "source_url": "https://images.example.com/heritage-fort-7/hero"
     },
@@ -5569,40 +4794,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://kargeencaffe.com/",
     "actions": {
@@ -5611,8 +4803,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=kargeen-cafe"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/kargeen-cafe/hero.webp",
       "credit": "Courtesy of Kargeen Cafe",
       "source_url": "https://images.example.com/kargeen-cafe/hero"
     },
@@ -5649,15 +4841,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-1",
     "actions": {
@@ -5666,8 +4850,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-1/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-1/hero.webp",
       "credit": "Courtesy of Khareef Coffee 1",
       "source_url": "https://images.example.com/khareef-coffee-1/hero"
     },
@@ -5704,15 +4888,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-10",
     "actions": {
@@ -5721,8 +4897,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-10"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-10/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-10/hero.webp",
       "credit": "Courtesy of Khareef Coffee 10",
       "source_url": "https://images.example.com/khareef-coffee-10/hero"
     },
@@ -5759,15 +4935,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-11",
     "actions": {
@@ -5776,8 +4944,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-11"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-11/hero.webp",
       "credit": "Courtesy of Khareef Coffee 11",
       "source_url": "https://images.example.com/khareef-coffee-11/hero"
     },
@@ -5814,50 +4982,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-12",
     "actions": {
@@ -5866,8 +4991,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-12"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-12/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-12/hero.webp",
       "credit": "Courtesy of Khareef Coffee 12",
       "source_url": "https://images.example.com/khareef-coffee-12/hero"
     },
@@ -5904,15 +5029,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-13",
     "actions": {
@@ -5921,8 +5038,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-13"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-13/hero.webp",
       "credit": "Courtesy of Khareef Coffee 13",
       "source_url": "https://images.example.com/khareef-coffee-13/hero"
     },
@@ -5959,50 +5076,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-14",
     "actions": {
@@ -6011,8 +5085,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-14"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-14/hero.webp",
       "credit": "Courtesy of Khareef Coffee 14",
       "source_url": "https://images.example.com/khareef-coffee-14/hero"
     },
@@ -6049,40 +5123,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-15",
     "actions": {
@@ -6091,8 +5132,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-15"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-15/hero.webp",
       "credit": "Courtesy of Khareef Coffee 15",
       "source_url": "https://images.example.com/khareef-coffee-15/hero"
     },
@@ -6129,15 +5170,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-2",
     "actions": {
@@ -6146,8 +5179,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-2"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-2/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-2/hero.webp",
       "credit": "Courtesy of Khareef Coffee 2",
       "source_url": "https://images.example.com/khareef-coffee-2/hero"
     },
@@ -6184,50 +5217,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-3",
     "actions": {
@@ -6236,8 +5226,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-3/hero.webp",
       "credit": "Courtesy of Khareef Coffee 3",
       "source_url": "https://images.example.com/khareef-coffee-3/hero"
     },
@@ -6274,15 +5264,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-4",
     "actions": {
@@ -6291,8 +5273,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-4"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-4/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-4/hero.webp",
       "credit": "Courtesy of Khareef Coffee 4",
       "source_url": "https://images.example.com/khareef-coffee-4/hero"
     },
@@ -6329,15 +5311,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-5",
     "actions": {
@@ -6346,8 +5320,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-5/hero.webp",
       "credit": "Courtesy of Khareef Coffee 5",
       "source_url": "https://images.example.com/khareef-coffee-5/hero"
     },
@@ -6384,50 +5358,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-6",
     "actions": {
@@ -6436,8 +5367,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-6"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-6/hero.webp",
       "credit": "Courtesy of Khareef Coffee 6",
       "source_url": "https://images.example.com/khareef-coffee-6/hero"
     },
@@ -6474,15 +5405,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-7",
     "actions": {
@@ -6491,8 +5414,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-7"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/khareef-coffee-7/hero.webp",
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-7/hero.webp",
       "credit": "Courtesy of Khareef Coffee 7",
       "source_url": "https://images.example.com/khareef-coffee-7/hero"
     },
@@ -6529,50 +5452,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-8",
     "actions": {
@@ -6581,8 +5461,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-8"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-8/hero.webp",
       "credit": "Courtesy of Khareef Coffee 8",
       "source_url": "https://images.example.com/khareef-coffee-8/hero"
     },
@@ -6619,50 +5499,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-9",
     "actions": {
@@ -6671,8 +5508,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=khareef-coffee-9"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/cafes.png",
+      "hero": "assets/media/khareef-coffee-9/hero.webp",
       "credit": "Courtesy of Khareef Coffee 9",
       "source_url": "https://images.example.com/khareef-coffee-9/hero"
     },
@@ -6834,15 +5671,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-1",
     "actions": {
@@ -6851,8 +5680,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=knowledge-hub-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/knowledge-hub-1/hero.webp",
+      "logo": "assets/images/education.png",
+      "hero": "assets/media/knowledge-hub-1/hero.webp",
       "credit": "Courtesy of Knowledge Hub 1",
       "source_url": "https://images.example.com/knowledge-hub-1/hero"
     },
@@ -6889,50 +5718,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-2",
     "actions": {
@@ -6941,8 +5727,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=knowledge-hub-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/education.png",
+      "hero": "assets/media/knowledge-hub-2/hero.webp",
       "credit": "Courtesy of Knowledge Hub 2",
       "source_url": "https://images.example.com/knowledge-hub-2/hero"
     },
@@ -6979,15 +5765,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-3",
     "actions": {
@@ -6996,8 +5774,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=knowledge-hub-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/education.png",
+      "hero": "assets/media/knowledge-hub-3/hero.webp",
       "credit": "Courtesy of Knowledge Hub 3",
       "source_url": "https://images.example.com/knowledge-hub-3/hero"
     },
@@ -7034,50 +5812,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-4",
     "actions": {
@@ -7086,8 +5821,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=knowledge-hub-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/education.png",
+      "hero": "assets/media/knowledge-hub-4/hero.webp",
       "credit": "Courtesy of Knowledge Hub 4",
       "source_url": "https://images.example.com/knowledge-hub-4/hero"
     },
@@ -7124,40 +5859,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-5",
     "actions": {
@@ -7166,8 +5868,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=knowledge-hub-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/knowledge-hub-5/hero.webp",
+      "logo": "assets/images/education.png",
+      "hero": "assets/media/knowledge-hub-5/hero.webp",
       "credit": "Courtesy of Knowledge Hub 5",
       "source_url": "https://images.example.com/knowledge-hub-5/hero"
     },
@@ -7329,50 +6031,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-1",
     "actions": {
@@ -7381,8 +6040,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/lotus-spa-1/hero.webp",
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-1/hero.webp",
       "credit": "Courtesy of Lotus Spa 1",
       "source_url": "https://images.example.com/lotus-spa-1/hero"
     },
@@ -7419,50 +6078,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-2",
     "actions": {
@@ -7471,8 +6087,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-2/hero.webp",
       "credit": "Courtesy of Lotus Spa 2",
       "source_url": "https://images.example.com/lotus-spa-2/hero"
     },
@@ -7509,50 +6125,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-3",
     "actions": {
@@ -7561,8 +6134,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-3/hero.webp",
       "credit": "Courtesy of Lotus Spa 3",
       "source_url": "https://images.example.com/lotus-spa-3/hero"
     },
@@ -7599,15 +6172,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-4",
     "actions": {
@@ -7616,8 +6181,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-4"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/lotus-spa-4/hero.webp",
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-4/hero.webp",
       "credit": "Courtesy of Lotus Spa 4",
       "source_url": "https://images.example.com/lotus-spa-4/hero"
     },
@@ -7654,50 +6219,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-5",
     "actions": {
@@ -7706,8 +6228,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/lotus-spa-5/hero.webp",
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-5/hero.webp",
       "credit": "Courtesy of Lotus Spa 5",
       "source_url": "https://images.example.com/lotus-spa-5/hero"
     },
@@ -7744,40 +6266,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-6",
     "actions": {
@@ -7786,8 +6275,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-6"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/lotus-spa-6/hero.webp",
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-6/hero.webp",
       "credit": "Courtesy of Lotus Spa 6",
       "source_url": "https://images.example.com/lotus-spa-6/hero"
     },
@@ -7824,50 +6313,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=lotus-spa-7",
     "actions": {
@@ -7876,8 +6322,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=lotus-spa-7"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/lotus-spa-7/hero.webp",
+      "logo": "assets/images/health_&_beauty.png",
+      "hero": "assets/media/lotus-spa-7/hero.webp",
       "credit": "Courtesy of Lotus Spa 7",
       "source_url": "https://images.example.com/lotus-spa-7/hero"
     },
@@ -9007,50 +7453,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-1",
     "actions": {
@@ -9059,8 +7462,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-1"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/muscat-stay-1/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-1/hero.webp",
       "credit": "Courtesy of Muscat Stay 1",
       "source_url": "https://images.example.com/muscat-stay-1/hero"
     },
@@ -9097,50 +7500,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-10",
     "actions": {
@@ -9149,8 +7509,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-10"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/muscat-stay-10/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-10/hero.webp",
       "credit": "Courtesy of Muscat Stay 10",
       "source_url": "https://images.example.com/muscat-stay-10/hero"
     },
@@ -9187,40 +7547,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-2",
     "actions": {
@@ -9229,8 +7556,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-2/hero.webp",
       "credit": "Courtesy of Muscat Stay 2",
       "source_url": "https://images.example.com/muscat-stay-2/hero"
     },
@@ -9267,50 +7594,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-3",
     "actions": {
@@ -9319,8 +7603,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-3/hero.webp",
       "credit": "Courtesy of Muscat Stay 3",
       "source_url": "https://images.example.com/muscat-stay-3/hero"
     },
@@ -9357,50 +7641,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-4",
     "actions": {
@@ -9409,8 +7650,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-4"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/muscat-stay-4/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-4/hero.webp",
       "credit": "Courtesy of Muscat Stay 4",
       "source_url": "https://images.example.com/muscat-stay-4/hero"
     },
@@ -9447,15 +7688,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-5",
     "actions": {
@@ -9464,8 +7697,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-5/hero.webp",
       "credit": "Courtesy of Muscat Stay 5",
       "source_url": "https://images.example.com/muscat-stay-5/hero"
     },
@@ -9502,50 +7735,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-6",
     "actions": {
@@ -9554,8 +7744,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-6"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/muscat-stay-6/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-6/hero.webp",
       "credit": "Courtesy of Muscat Stay 6",
       "source_url": "https://images.example.com/muscat-stay-6/hero"
     },
@@ -9592,15 +7782,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-7",
     "actions": {
@@ -9609,8 +7791,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-7"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-7/hero.webp",
       "credit": "Courtesy of Muscat Stay 7",
       "source_url": "https://images.example.com/muscat-stay-7/hero"
     },
@@ -9647,50 +7829,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-8",
     "actions": {
@@ -9699,8 +7838,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-8"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-8/hero.webp",
       "credit": "Courtesy of Muscat Stay 8",
       "source_url": "https://images.example.com/muscat-stay-8/hero"
     },
@@ -9737,15 +7876,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-9",
     "actions": {
@@ -9754,8 +7885,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-9"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/muscat-stay-9/hero.webp",
       "credit": "Courtesy of Muscat Stay 9",
       "source_url": "https://images.example.com/muscat-stay-9/hero"
     },
@@ -10324,50 +8455,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://www.omanavenuesmall.com/",
     "actions": {
@@ -10376,8 +8464,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=oman-avenues-mall"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/oman-avenues-mall/hero.webp",
+      "logo": "assets/images/malls.png",
+      "hero": "assets/media/oman-avenues-mall/hero.webp",
       "credit": "Courtesy of Oman Avenues Mall",
       "source_url": "https://images.example.com/oman-avenues-mall/hero"
     },
@@ -10844,15 +8932,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-1",
     "actions": {
@@ -10861,8 +8941,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-1/hero.webp",
       "credit": "Courtesy of Palm Grill 1",
       "source_url": "https://images.example.com/palm-grill-1/hero"
     },
@@ -10899,50 +8979,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-10",
     "actions": {
@@ -10951,8 +8988,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-10"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-10/hero.webp",
       "credit": "Courtesy of Palm Grill 10",
       "source_url": "https://images.example.com/palm-grill-10/hero"
     },
@@ -10989,50 +9026,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-2",
     "actions": {
@@ -11041,8 +9035,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-2/hero.webp",
       "credit": "Courtesy of Palm Grill 2",
       "source_url": "https://images.example.com/palm-grill-2/hero"
     },
@@ -11079,50 +9073,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-3",
     "actions": {
@@ -11131,8 +9082,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-3/hero.webp",
       "credit": "Courtesy of Palm Grill 3",
       "source_url": "https://images.example.com/palm-grill-3/hero"
     },
@@ -11169,50 +9120,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-4",
     "actions": {
@@ -11221,8 +9129,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-4/hero.webp",
       "credit": "Courtesy of Palm Grill 4",
       "source_url": "https://images.example.com/palm-grill-4/hero"
     },
@@ -11259,40 +9167,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-5",
     "actions": {
@@ -11301,8 +9176,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/palm-grill-5/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-5/hero.webp",
       "credit": "Courtesy of Palm Grill 5",
       "source_url": "https://images.example.com/palm-grill-5/hero"
     },
@@ -11339,40 +9214,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-6",
     "actions": {
@@ -11381,8 +9223,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-6"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/palm-grill-6/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-6/hero.webp",
       "credit": "Courtesy of Palm Grill 6",
       "source_url": "https://images.example.com/palm-grill-6/hero"
     },
@@ -11419,15 +9261,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-7",
     "actions": {
@@ -11436,8 +9270,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-7"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/palm-grill-7/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-7/hero.webp",
       "credit": "Courtesy of Palm Grill 7",
       "source_url": "https://images.example.com/palm-grill-7/hero"
     },
@@ -11474,50 +9308,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-8",
     "actions": {
@@ -11526,8 +9317,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-8"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-8/hero.webp",
       "credit": "Courtesy of Palm Grill 8",
       "source_url": "https://images.example.com/palm-grill-8/hero"
     },
@@ -11564,50 +9355,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-9",
     "actions": {
@@ -11616,8 +9364,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-9"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/palm-grill-9/hero.webp",
       "credit": "Courtesy of Palm Grill 9",
       "source_url": "https://images.example.com/palm-grill-9/hero"
     },
@@ -12319,15 +10067,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=qurum-natural-park",
     "actions": {
@@ -12336,8 +10076,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=qurum-natural-park"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/qurum-natural-park/hero.webp",
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/qurum-natural-park/hero.webp",
       "credit": "Courtesy of Qurum Natural Park",
       "source_url": "https://images.example.com/qurum-natural-park/hero"
     },
@@ -12811,50 +10551,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://rohmuscat.org.om/",
     "actions": {
@@ -12863,8 +10560,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=royal-opera-house-muscat"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/royal-opera-house-muscat/hero.webp",
       "credit": "Courtesy of Royal Opera House Muscat",
       "source_url": "https://images.example.com/royal-opera-house-muscat/hero"
     },
@@ -13200,50 +10897,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-1",
     "actions": {
@@ -13252,8 +10906,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-1/hero.webp",
       "credit": "Courtesy of Seeb Center 1",
       "source_url": "https://images.example.com/seeb-center-1/hero"
     },
@@ -13290,15 +10944,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-2",
     "actions": {
@@ -13307,8 +10953,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-2/hero.webp",
       "credit": "Courtesy of Seeb Center 2",
       "source_url": "https://images.example.com/seeb-center-2/hero"
     },
@@ -13345,15 +10991,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-3",
     "actions": {
@@ -13362,8 +11000,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-3"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/seeb-center-3/hero.webp",
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-3/hero.webp",
       "credit": "Courtesy of Seeb Center 3",
       "source_url": "https://images.example.com/seeb-center-3/hero"
     },
@@ -13400,15 +11038,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-4",
     "actions": {
@@ -13417,8 +11047,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-4/hero.webp",
       "credit": "Courtesy of Seeb Center 4",
       "source_url": "https://images.example.com/seeb-center-4/hero"
     },
@@ -13455,50 +11085,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-5",
     "actions": {
@@ -13507,8 +11094,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-5"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/seeb-center-5/hero.webp",
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-5/hero.webp",
       "credit": "Courtesy of Seeb Center 5",
       "source_url": "https://images.example.com/seeb-center-5/hero"
     },
@@ -13545,15 +11132,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-6",
     "actions": {
@@ -13562,8 +11141,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-6"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/seeb-center-6/hero.webp",
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-6/hero.webp",
       "credit": "Courtesy of Seeb Center 6",
       "source_url": "https://images.example.com/seeb-center-6/hero"
     },
@@ -13600,40 +11179,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-7",
     "actions": {
@@ -13642,8 +11188,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=seeb-center-7"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/seeb-center-7/hero.webp",
+      "logo": "assets/images/shopping.png",
+      "hero": "assets/media/seeb-center-7/hero.webp",
       "credit": "Courtesy of Seeb Center 7",
       "source_url": "https://images.example.com/seeb-center-7/hero"
     },
@@ -13806,15 +11352,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "https://www.shangri-la.com/muscat/barraljissahresort/",
     "actions": {
@@ -13823,8 +11361,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=shangri-la-barr-al-jissah"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/shangri-la-barr-al-jissah/hero.webp",
       "credit": "Courtesy of Shangri-La Barr Al Jissah",
       "source_url": "https://images.example.com/shangri-la-barr-al-jissah/hero"
     },
@@ -14022,40 +11560,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-1",
     "actions": {
@@ -14064,8 +11569,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-1/hero.webp",
       "credit": "Courtesy of Souq Bite 1",
       "source_url": "https://images.example.com/souq-bite-1/hero"
     },
@@ -14102,40 +11607,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-10",
     "actions": {
@@ -14144,8 +11616,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-10"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-10/hero.webp",
       "credit": "Courtesy of Souq Bite 10",
       "source_url": "https://images.example.com/souq-bite-10/hero"
     },
@@ -14182,15 +11654,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-11",
     "actions": {
@@ -14199,8 +11663,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-11"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-11/hero.webp",
       "credit": "Courtesy of Souq Bite 11",
       "source_url": "https://images.example.com/souq-bite-11/hero"
     },
@@ -14237,15 +11701,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-12",
     "actions": {
@@ -14254,8 +11710,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-12"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-12/hero.webp",
       "credit": "Courtesy of Souq Bite 12",
       "source_url": "https://images.example.com/souq-bite-12/hero"
     },
@@ -14292,50 +11748,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-13",
     "actions": {
@@ -14344,8 +11757,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-13"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-13/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-13/hero.webp",
       "credit": "Courtesy of Souq Bite 13",
       "source_url": "https://images.example.com/souq-bite-13/hero"
     },
@@ -14382,15 +11795,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-14",
     "actions": {
@@ -14399,8 +11804,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-14"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-14/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-14/hero.webp",
       "credit": "Courtesy of Souq Bite 14",
       "source_url": "https://images.example.com/souq-bite-14/hero"
     },
@@ -14437,50 +11842,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-15",
     "actions": {
@@ -14489,8 +11851,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-15"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-15/hero.webp",
       "credit": "Courtesy of Souq Bite 15",
       "source_url": "https://images.example.com/souq-bite-15/hero"
     },
@@ -14527,40 +11889,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-16",
     "actions": {
@@ -14569,8 +11898,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-16"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-16/hero.webp",
       "credit": "Courtesy of Souq Bite 16",
       "source_url": "https://images.example.com/souq-bite-16/hero"
     },
@@ -14607,50 +11936,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-17",
     "actions": {
@@ -14659,8 +11945,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-17"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-17/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-17/hero.webp",
       "credit": "Courtesy of Souq Bite 17",
       "source_url": "https://images.example.com/souq-bite-17/hero"
     },
@@ -14697,50 +11983,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-18",
     "actions": {
@@ -14749,8 +11992,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-18"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-18/hero.webp",
       "credit": "Courtesy of Souq Bite 18",
       "source_url": "https://images.example.com/souq-bite-18/hero"
     },
@@ -14787,15 +12030,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-19",
     "actions": {
@@ -14804,8 +12039,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-19"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-19/hero.webp",
       "credit": "Courtesy of Souq Bite 19",
       "source_url": "https://images.example.com/souq-bite-19/hero"
     },
@@ -14842,50 +12077,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "23:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-2",
     "actions": {
@@ -14894,8 +12086,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-2/hero.webp",
       "credit": "Courtesy of Souq Bite 2",
       "source_url": "https://images.example.com/souq-bite-2/hero"
     },
@@ -14932,50 +12124,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-20",
     "actions": {
@@ -14984,8 +12133,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-20"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-20/hero.webp",
       "credit": "Courtesy of Souq Bite 20",
       "source_url": "https://images.example.com/souq-bite-20/hero"
     },
@@ -15022,15 +12171,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-3",
     "actions": {
@@ -15039,8 +12180,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-3/hero.webp",
       "credit": "Courtesy of Souq Bite 3",
       "source_url": "https://images.example.com/souq-bite-3/hero"
     },
@@ -15077,15 +12218,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-4",
     "actions": {
@@ -15094,8 +12227,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-4"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-4/hero.webp",
       "credit": "Courtesy of Souq Bite 4",
       "source_url": "https://images.example.com/souq-bite-4/hero"
     },
@@ -15132,15 +12265,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-5",
     "actions": {
@@ -15149,8 +12274,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-5/hero.webp",
       "credit": "Courtesy of Souq Bite 5",
       "source_url": "https://images.example.com/souq-bite-5/hero"
     },
@@ -15187,50 +12312,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-6",
     "actions": {
@@ -15239,8 +12321,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-6"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-6/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-6/hero.webp",
       "credit": "Courtesy of Souq Bite 6",
       "source_url": "https://images.example.com/souq-bite-6/hero"
     },
@@ -15277,50 +12359,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-7",
     "actions": {
@@ -15329,8 +12368,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-7"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-7/hero.webp",
       "credit": "Courtesy of Souq Bite 7",
       "source_url": "https://images.example.com/souq-bite-7/hero"
     },
@@ -15367,15 +12406,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-8",
     "actions": {
@@ -15384,8 +12415,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-8"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-8/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-8/hero.webp",
       "credit": "Courtesy of Souq Bite 8",
       "source_url": "https://images.example.com/souq-bite-8/hero"
     },
@@ -15422,15 +12453,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-9",
     "actions": {
@@ -15439,8 +12462,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-9"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/souq-bite-9/hero.webp",
+      "logo": "assets/images/restaurants.png",
+      "hero": "assets/media/souq-bite-9/hero.webp",
       "credit": "Courtesy of Souq Bite 9",
       "source_url": "https://images.example.com/souq-bite-9/hero"
     },
@@ -15627,50 +12650,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "https://www.sultanqaboosgrandmosque.com/",
     "actions": {
@@ -15679,8 +12659,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=sultan-qaboos-grand-mosque"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/sultan-qaboos-grand-mosque/hero.webp",
+      "logo": "assets/images/attractions.png",
+      "hero": "assets/media/sultan-qaboos-grand-mosque/hero.webp",
       "credit": "Courtesy of Sultan Qaboos Grand Mosque",
       "source_url": "https://images.example.com/sultan-qaboos-grand-mosque/hero"
     },
@@ -15961,50 +12941,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "22:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "location": {
       "neighborhood": "Madinat Qaboos",
@@ -16016,8 +12953,8 @@
     },
     "faqs": [],
     "images": {
-      "logo": null,
-      "hero": "assets/images/the-chedi-muscat/hero.webp",
+      "logo": "assets/images/hotels.png",
+      "hero": "assets/media/the-chedi-muscat/hero.webp",
       "credit": "Courtesy of The Chedi Muscat",
       "source_url": "https://images.example.com/the-chedi-muscat/hero"
     },
@@ -16395,50 +13332,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-1",
     "actions": {
@@ -16447,8 +13341,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=wadi-green-park-1"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/wadi-green-park-1/hero.webp",
       "credit": "Courtesy of Wadi Green Park 1",
       "source_url": "https://images.example.com/wadi-green-park-1/hero"
     },
@@ -16485,15 +13379,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-2",
     "actions": {
@@ -16502,8 +13388,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=wadi-green-park-2"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/wadi-green-park-2/hero.webp",
       "credit": "Courtesy of Wadi Green Park 2",
       "source_url": "https://images.example.com/wadi-green-park-2/hero"
     },
@@ -16540,15 +13426,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [],
-        "tue": [],
-        "wed": [],
-        "thu": [],
-        "fri": [],
-        "sat": [],
-        "sun": []
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-3",
     "actions": {
@@ -16557,8 +13435,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=wadi-green-park-3"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/wadi-green-park-3/hero.webp",
       "credit": "Courtesy of Wadi Green Park 3",
       "source_url": "https://images.example.com/wadi-green-park-3/hero"
     },
@@ -16595,50 +13473,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "fri": [
-          {
-            "open": "16:00",
-            "close": "22:00"
-          }
-        ],
-        "sat": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ],
-        "sun": [
-          {
-            "open": "09:00",
-            "close": "21:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-4",
     "actions": {
@@ -16647,8 +13482,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=wadi-green-park-4"
     },
     "images": {
-      "logo": null,
-      "hero": "assets/images/wadi-green-park-4/hero.webp",
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/wadi-green-park-4/hero.webp",
       "credit": "Courtesy of Wadi Green Park 4",
       "source_url": "https://images.example.com/wadi-green-park-4/hero"
     },
@@ -16685,40 +13520,7 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "08:00",
-            "close": "17:00"
-          }
-        ]
-      }
+      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-5",
     "actions": {
@@ -16727,8 +13529,8 @@
       "maps_url": "https://www.openstreetmap.org/search?query=wadi-green-park-5"
     },
     "images": {
-      "logo": null,
-      "hero": null,
+      "logo": "assets/images/parks.png",
+      "hero": "assets/media/wadi-green-park-5/hero.webp",
       "credit": "Courtesy of Wadi Green Park 5",
       "source_url": "https://images.example.com/wadi-green-park-5/hero"
     },
