@@ -48,6 +48,25 @@ jobs:
       - name: Enrich with Places/OSM/Wikidata
         run: python -m scripts.ingest.hydrate_details
 
+      # ✅ Inline sanitizer to drop empty hours.weekly blocks
+      - name: Sanitize hours after enrich (remove empty weekly)
+        run: |
+          python - << 'PY'
+          import json, sys
+          p = "data/tools.json"
+          with open(p, encoding="utf-8") as f:
+              data = json.load(f)
+          changed = 0
+          for obj in data:
+              h = obj.get("hours")
+              if isinstance(h, dict) and isinstance(h.get("weekly"), dict) and not h["weekly"]:
+                  obj.pop("hours", None)  # drop hours entirely if weekly is {}
+                  changed += 1
+          with open(p, "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+          print(f"Sanitized entries: {changed}")
+          PY
+
       - name: Optimize images (non-blocking)
         run: python -m scripts.media.optimize_images || true
 
