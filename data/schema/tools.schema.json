@@ -25,7 +25,7 @@
           "phone":    { "type": ["string", "null"] },
           "maps_url": { "type": ["string", "null"] },
           "share":    { "type": ["string", "null", "boolean"] },
-          "menu":     { "type": ["string", "null"] }     /* NEW (restaurants) */
+          "menu":     { "type": ["string", "null"] }
         }
       },
 
@@ -124,20 +124,19 @@
         ]
       },
 
-      /* ========== NEW OPTIONAL DETAIL FIELDS ========== */
-      "price_range":   { "type": ["string", "null"] },     /* "$", "$$", "$$$" */
-      "busyness_hint": { "type": ["string", "null"] },     /* "Usually Busy" */
-      "rating_overall":{ "type": ["number", "null"] },     /* 0–10 */
+      "price_range":   { "type": ["string", "null"] },
+      "busyness_hint": { "type": ["string", "null"] },
+      "rating_overall":{ "type": ["number", "null"] },
 
       "subscores": {
         "type": ["object", "null"],
         "additionalProperties": false,
         "properties": {
-          "Food Quality":             { "type": ["number", "null"] },
-          "Service":                  { "type": ["number", "null"] },
-          "Ambience":                 { "type": ["number", "null"] },
-          "Value for Money":          { "type": ["number", "null"] },
-          "Accessibility & Amenities":{ "type": ["number", "null"] }
+          "Food Quality":              { "type": ["number", "null"] },
+          "Service":                   { "type": ["number", "null"] },
+          "Ambience":                  { "type": ["number", "null"] },
+          "Value for Money":           { "type": ["number", "null"] },
+          "Accessibility & Amenities": { "type": ["number", "null"] }
         }
       },
 
@@ -145,8 +144,8 @@
         "type": ["object", "null"],
         "additionalProperties": false,
         "properties": {
-          "source":       { "type": ["string", "null"] },   /* e.g., "Google" */
-          "count":        { "type": ["integer", "null"] },  /* e.g., 119 */
+          "source":       { "type": ["string", "null"] },
+          "count":        { "type": ["integer", "null"] },
           "insight":      { "type": ["string", "null"] },
           "last_updated": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
         }
@@ -164,8 +163,6 @@
       "amenities": { "type": ["array", "null"], "items": { "type": "string" } },
       "cuisines":  { "type": ["array", "null"], "items": { "type": "string" } },
       "meals":     { "type": ["array", "null"], "items": { "type": "string" } }
-
-      /* ========== /NEW OPTIONAL DETAIL FIELDS ========== */
     }
   },
 
