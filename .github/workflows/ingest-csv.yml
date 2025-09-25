@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 👇 Add this step
+      # Ensure local imports work
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
@@ -43,6 +43,10 @@ jobs:
 
       - name: Optimize images
         run: python scripts/media/optimize_images.py
+
+      # NEW: normalize legacy shapes (e.g., about as array -> object)
+      - name: Normalize legacy fields
+        run: python scripts/qa/normalize_tools_json.py
 
       - name: Validate schema
         run: |
