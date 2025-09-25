@@ -163,10 +163,6 @@
       "lat": 23.677652,
       "lng": 58.38253
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/al-araimi-complex"
   },
   {
@@ -1196,10 +1192,6 @@
       "lat": 23.638028,
       "lng": 58.371342
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/azaiba-beach-park"
   },
   {
@@ -1480,10 +1472,6 @@
       "country": "Oman",
       "lat": 23.534203,
       "lng": 58.363457
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "https://example.com/bawshar-heights-park"
   },
@@ -2622,10 +2610,6 @@
       "lat": 23.553731,
       "lng": 58.352074
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/city-walk-mall"
   },
   {
@@ -2649,10 +2633,6 @@
       "country": "Oman",
       "lat": 23.618982,
       "lng": 58.625186
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=city-walk-mall-1",
     "actions": {
@@ -4932,10 +4912,6 @@
       "lat": 23.646888,
       "lng": 58.510498
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=gulf-maritime-museum-1",
     "actions": {
       "website": "https://www.example.com/gulf-maritime-museum-1",
@@ -4978,10 +4954,6 @@
       "country": "Oman",
       "lat": 23.561391,
       "lng": 58.381958
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-2",
     "actions": {
@@ -5205,10 +5177,6 @@
       "country": "Oman",
       "lat": 23.55349,
       "lng": 58.554319
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=gulf-maritime-museum-5",
     "actions": {
@@ -5717,10 +5685,6 @@
       "lat": 23.616172,
       "lng": 58.456304
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=heritage-fort-3",
     "actions": {
       "website": "https://www.example.com/heritage-fort-3",
@@ -5763,10 +5727,6 @@
       "country": "Oman",
       "lat": 23.559426,
       "lng": 58.611443
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-4",
     "actions": {
@@ -5811,10 +5771,6 @@
       "lat": 23.59185,
       "lng": 58.576201
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=heritage-fort-5",
     "actions": {
       "website": "https://www.example.com/heritage-fort-5",
@@ -5857,10 +5813,6 @@
       "country": "Oman",
       "lat": 23.56973,
       "lng": 58.572433
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=heritage-fort-6",
     "actions": {
@@ -6169,10 +6121,6 @@
       "lat": 23.556586,
       "lng": 58.429664
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=khareef-coffee-1",
     "actions": {
       "website": "https://www.example.com/khareef-coffee-1",
@@ -6216,10 +6164,6 @@
       "lat": 23.623501,
       "lng": 58.537473
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=khareef-coffee-10",
     "actions": {
       "website": "https://www.example.com/khareef-coffee-10",
@@ -6262,10 +6206,6 @@
       "country": "Oman",
       "lat": 23.54616,
       "lng": 58.394252
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-11",
     "actions": {
@@ -6399,10 +6339,6 @@
       "country": "Oman",
       "lat": 23.565157,
       "lng": 58.650611
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-13",
     "actions": {
@@ -6617,10 +6553,6 @@
       "lat": 23.538003,
       "lng": 58.546937
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=khareef-coffee-2",
     "actions": {
       "website": "https://www.example.com/khareef-coffee-2",
@@ -6754,10 +6686,6 @@
       "lat": 23.586529,
       "lng": 58.661311
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=khareef-coffee-4",
     "actions": {
       "website": "https://www.example.com/khareef-coffee-4",
@@ -6800,10 +6728,6 @@
       "country": "Oman",
       "lat": 23.588691,
       "lng": 58.546775
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-5",
     "actions": {
@@ -6937,10 +6861,6 @@
       "country": "Oman",
       "lat": 23.594011,
       "lng": 58.657286
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=khareef-coffee-7",
     "actions": {
@@ -7307,10 +7227,6 @@
       "lat": 23.560719,
       "lng": 58.499468
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=knowledge-hub-1",
     "actions": {
       "website": "https://www.example.com/knowledge-hub-1",
@@ -7443,10 +7359,6 @@
       "country": "Oman",
       "lat": 23.612865,
       "lng": 58.57216
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=knowledge-hub-3",
     "actions": {
@@ -8073,10 +7985,6 @@
       "lat": 23.627153,
       "lng": 58.586054
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=lotus-spa-4",
     "actions": {
       "website": "https://www.example.com/lotus-spa-4",
@@ -8380,10 +8288,6 @@
       "lat": 23.487928,
       "lng": 58.476954
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/lulu-hypermarket-bausher"
   },
   {
@@ -8408,10 +8312,6 @@
       "lat": 23.59003,
       "lng": 58.527042
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/lulu-hypermarket-qurum"
   },
   {
@@ -8435,10 +8335,6 @@
       "country": "Oman",
       "lat": 23.633044,
       "lng": 58.500204
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "https://example.com/madinat-sultan-qaboos-souq"
   },
@@ -8710,10 +8606,6 @@
       "dishes": [],
       "amenities": [],
       "seating": []
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "location": {
       "neighborhood": "Al Mouj",
@@ -9121,10 +9013,6 @@
       "amenities": [],
       "seating": []
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "location": {
       "neighborhood": "Shatti Al Qurum",
       "address": "Way 3935",
@@ -9220,10 +9108,6 @@
       "dishes": [],
       "amenities": [],
       "seating": []
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "location": {
       "neighborhood": "Qurum",
@@ -10110,10 +9994,6 @@
       "lat": 23.57916,
       "lng": 58.52301
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=muscat-stay-5",
     "actions": {
       "website": "https://www.example.com/muscat-stay-5",
@@ -10297,10 +10177,6 @@
       "lat": 23.545176,
       "lng": 58.49906
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=muscat-stay-7",
     "actions": {
       "website": "https://www.example.com/muscat-stay-7",
@@ -10483,10 +10359,6 @@
       "country": "Oman",
       "lat": 23.602789,
       "lng": 58.618083
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=muscat-stay-9",
     "actions": {
@@ -11745,10 +11617,6 @@
       "lat": 23.605493,
       "lng": 58.591473
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=palm-grill-1",
     "actions": {
       "website": "https://www.example.com/palm-grill-1",
@@ -12549,10 +12417,6 @@
       "country": "Oman",
       "lat": 23.6213,
       "lng": 58.532988
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=palm-grill-7",
     "actions": {
@@ -13447,10 +13311,6 @@
       "lat": 23.664119,
       "lng": 58.477345
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/qantab-beach-park"
   },
   {
@@ -13539,10 +13399,6 @@
       "amenities": [],
       "seating": []
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "location": {
       "neighborhood": "Ruwi",
       "address": "Beach Rd",
@@ -13575,10 +13431,6 @@
       "lat": 23.593926,
       "lng": 58.373394
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/qurum-gardens-mall"
   },
   {
@@ -13602,10 +13454,6 @@
       "country": "Oman",
       "lat": 23.610829,
       "lng": 58.585463
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=qurum-natural-park",
     "actions": {
@@ -13650,10 +13498,6 @@
       "lat": 23.577136,
       "lng": 58.4825
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "https://example.com/ramez-mall"
   },
   {
@@ -13677,10 +13521,6 @@
       "country": "Oman",
       "lat": 23.544278,
       "lng": 58.510036
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "https://example.com/ras-al-hamra-park"
   },
@@ -14645,10 +14485,6 @@
       "lat": 23.654059,
       "lng": 58.544215
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=seeb-center-2",
     "actions": {
       "website": "https://www.example.com/seeb-center-2",
@@ -14692,10 +14528,6 @@
       "lat": 23.564158,
       "lng": 58.569939
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=seeb-center-3",
     "actions": {
       "website": "https://www.example.com/seeb-center-3",
@@ -14738,10 +14570,6 @@
       "country": "Oman",
       "lat": 23.554624,
       "lng": 58.666549
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-4",
     "actions": {
@@ -14875,10 +14703,6 @@
       "country": "Oman",
       "lat": 23.663006,
       "lng": 58.645256
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=seeb-center-6",
     "actions": {
@@ -15145,10 +14969,6 @@
       "country": "Oman",
       "lat": 23.552772,
       "lng": 58.473687
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "https://www.shangri-la.com/muscat/barraljissahresort/",
     "actions": {
@@ -15629,10 +15449,6 @@
       "lat": 23.601075,
       "lng": 58.394051
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=souq-bite-11",
     "actions": {
       "website": "https://www.example.com/souq-bite-11",
@@ -15709,10 +15525,6 @@
       "country": "Oman",
       "lat": 23.551397,
       "lng": 58.604003
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-12",
     "actions": {
@@ -15914,10 +15726,6 @@
       "country": "Oman",
       "lat": 23.563722,
       "lng": 58.541554
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-14",
     "actions": {
@@ -16482,10 +16290,6 @@
       "lat": 23.531007,
       "lng": 58.586509
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=souq-bite-19",
     "actions": {
       "website": "https://www.example.com/souq-bite-19",
@@ -16811,10 +16615,6 @@
       "lat": 23.642706,
       "lng": 58.488373
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=souq-bite-3",
     "actions": {
       "website": "https://www.example.com/souq-bite-3",
@@ -16892,10 +16692,6 @@
       "lat": 23.621761,
       "lng": 58.486602
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=souq-bite-4",
     "actions": {
       "website": "https://www.example.com/souq-bite-4",
@@ -16972,10 +16768,6 @@
       "country": "Oman",
       "lat": 23.549548,
       "lng": 58.598396
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-5",
     "actions": {
@@ -17302,10 +17094,6 @@
       "lat": 23.613497,
       "lng": 58.483126
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=souq-bite-8",
     "actions": {
       "website": "https://www.example.com/souq-bite-8",
@@ -17382,10 +17170,6 @@
       "country": "Oman",
       "lat": 23.665951,
       "lng": 58.63545
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=souq-bite-9",
     "actions": {
@@ -18566,10 +18350,6 @@
       "lat": 23.661806,
       "lng": 58.423466
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
-    },
     "url": "/tool.html?slug=wadi-green-park-2",
     "actions": {
       "website": "https://www.example.com/wadi-green-park-2",
@@ -18612,10 +18392,6 @@
       "country": "Oman",
       "lat": 23.627607,
       "lng": 58.456506
-    },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {}
     },
     "url": "/tool.html?slug=wadi-green-park-3",
     "actions": {
