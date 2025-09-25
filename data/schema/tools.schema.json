@@ -11,20 +11,24 @@
       "id": { "type": "string", "minLength": 1 },
       "slug": { "type": "string", "minLength": 1 },
       "name": { "type": "string", "minLength": 1 },
+
       "tagline": { "type": ["string", "null"] },
       "categories": { "type": "array", "items": { "type": "string" } },
       "tags": { "type": "array", "items": { "type": "string" } },
       "url": { "type": ["string", "null"] },
+
       "actions": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "website": { "type": ["string", "null"] },
-          "phone":   { "type": ["string", "null"] },
-          "maps_url":{ "type": ["string", "null"] },
-          "share":   { "type": ["string", "null", "boolean"] }
+          "website":  { "type": ["string", "null"] },
+          "phone":    { "type": ["string", "null"] },
+          "maps_url": { "type": ["string", "null"] },
+          "share":    { "type": ["string", "null", "boolean"] },
+          "menu":     { "type": ["string", "null"] }     /* NEW (restaurants) */
         }
       },
+
       "location": {
         "type": "object",
         "additionalProperties": true,
@@ -37,6 +41,7 @@
           "lng":          { "type": ["number", "null"] }
         }
       },
+
       "images": {
         "type": "object",
         "additionalProperties": false,
@@ -47,12 +52,13 @@
           "source_url": { "type": ["string", "null"] }
         }
       },
+
       "sources": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "place_id":   { "type": ["string", "null"] },
-          "wikidata_id":{ "type": ["string", "null"] },
+          "place_id":    { "type": ["string", "null"] },
+          "wikidata_id": { "type": ["string", "null"] },
           "osm": {
             "type": "object",
             "additionalProperties": false,
@@ -63,6 +69,7 @@
           }
         }
       },
+
       "hours": {
         "anyOf": [
           { "type": "null" },
@@ -108,16 +115,60 @@
               "required": ["days", "open", "close"],
               "additionalProperties": true,
               "properties": {
-                "days": { "type": "string", "minLength": 1 },
-                "open": { "$ref": "#/$defs/time" },
+                "days":  { "type": "string", "minLength": 1 },
+                "open":  { "$ref": "#/$defs/time" },
                 "close": { "$ref": "#/$defs/time" }
               }
             }
           }
         ]
-      }
+      },
+
+      /* ========== NEW OPTIONAL DETAIL FIELDS ========== */
+      "price_range":   { "type": ["string", "null"] },     /* "$", "$$", "$$$" */
+      "busyness_hint": { "type": ["string", "null"] },     /* "Usually Busy" */
+      "rating_overall":{ "type": ["number", "null"] },     /* 0–10 */
+
+      "subscores": {
+        "type": ["object", "null"],
+        "additionalProperties": false,
+        "properties": {
+          "Food Quality":             { "type": ["number", "null"] },
+          "Service":                  { "type": ["number", "null"] },
+          "Ambience":                 { "type": ["number", "null"] },
+          "Value for Money":          { "type": ["number", "null"] },
+          "Accessibility & Amenities":{ "type": ["number", "null"] }
+        }
+      },
+
+      "public_reviews": {
+        "type": ["object", "null"],
+        "additionalProperties": false,
+        "properties": {
+          "source":       { "type": ["string", "null"] },   /* e.g., "Google" */
+          "count":        { "type": ["integer", "null"] },  /* e.g., 119 */
+          "insight":      { "type": ["string", "null"] },
+          "last_updated": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        }
+      },
+
+      "about": {
+        "type": ["object", "null"],
+        "additionalProperties": false,
+        "properties": {
+          "short": { "type": ["string", "null"] },
+          "long":  { "type": ["string", "null"] }
+        }
+      },
+
+      "amenities": { "type": ["array", "null"], "items": { "type": "string" } },
+      "cuisines":  { "type": ["array", "null"], "items": { "type": "string" } },
+      "meals":     { "type": ["array", "null"], "items": { "type": "string" } }
+
+      /* ========== /NEW OPTIONAL DETAIL FIELDS ========== */
     }
   },
+
   "$defs": {
     "time": {
       "type": "string",
