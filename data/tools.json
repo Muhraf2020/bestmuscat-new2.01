@@ -2664,7 +2664,8 @@
       "Cinema",
       "Parking",
       "Prayer Rooms"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "city-walk-mall-2",
@@ -4931,7 +4932,8 @@
         "id": "24064"
       },
       "wikidata_id": "Q328100"
-    }
+    },
+    "hours": null
   },
   {
     "id": "gulf-maritime-museum-2",
@@ -4974,7 +4976,8 @@
         "id": "6240817"
       },
       "wikidata_id": "Q804609"
-    }
+    },
+    "hours": null
   },
   {
     "id": "gulf-maritime-museum-3",
@@ -5197,7 +5200,8 @@
         "id": "4857460"
       },
       "wikidata_id": "Q51606"
-    }
+    },
+    "hours": null
   },
   {
     "id": "happy-kids-nursery",
@@ -5704,7 +5708,8 @@
         "id": "1843382"
       },
       "wikidata_id": "Q772504"
-    }
+    },
+    "hours": null
   },
   {
     "id": "heritage-fort-4",
@@ -5747,7 +5752,8 @@
         "id": "4260065"
       },
       "wikidata_id": "Q775046"
-    }
+    },
+    "hours": null
   },
   {
     "id": "heritage-fort-5",
@@ -5790,7 +5796,8 @@
         "id": "1678036"
       },
       "wikidata_id": "Q283772"
-    }
+    },
+    "hours": null
   },
   {
     "id": "heritage-fort-6",
@@ -5833,7 +5840,8 @@
         "id": "3883857"
       },
       "wikidata_id": "Q983936"
-    }
+    },
+    "hours": null
   },
   {
     "id": "heritage-fort-7",
@@ -6140,7 +6148,8 @@
         "id": "176567"
       },
       "wikidata_id": "Q754452"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-10",
@@ -6183,7 +6192,8 @@
         "id": "9962183"
       },
       "wikidata_id": "Q60250"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-11",
@@ -6226,7 +6236,8 @@
         "id": "5060988"
       },
       "wikidata_id": "Q45120"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-12",
@@ -6359,7 +6370,8 @@
         "id": "1803144"
       },
       "wikidata_id": "Q286224"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-14",
@@ -6572,7 +6584,8 @@
         "id": "5203838"
       },
       "wikidata_id": "Q708459"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-3",
@@ -6705,7 +6718,8 @@
         "id": "8296800"
       },
       "wikidata_id": "Q541543"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-5",
@@ -6748,7 +6762,8 @@
         "id": "789546"
       },
       "wikidata_id": "Q918254"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-6",
@@ -6881,7 +6896,8 @@
         "id": "262014"
       },
       "wikidata_id": "Q879415"
-    }
+    },
+    "hours": null
   },
   {
     "id": "khareef-coffee-8",
@@ -7246,7 +7262,8 @@
         "id": "2582059"
       },
       "wikidata_id": "Q695224"
-    }
+    },
+    "hours": null
   },
   {
     "id": "knowledge-hub-2",
@@ -7379,7 +7396,8 @@
         "id": "5046439"
       },
       "wikidata_id": "Q674230"
-    }
+    },
+    "hours": null
   },
   {
     "id": "knowledge-hub-4",
@@ -8004,7 +8022,8 @@
         "id": "3353678"
       },
       "wikidata_id": "Q623436"
-    }
+    },
+    "hours": null
   },
   {
     "id": "lotus-spa-5",
@@ -10038,7 +10057,8 @@
       "Beach Access",
       "Gym",
       "Pool"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "muscat-stay-6",
@@ -10221,7 +10241,8 @@
       "Family Friendly",
       "Parking",
       "Spa"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "muscat-stay-8",
@@ -10404,7 +10425,8 @@
       "Gym",
       "Parking",
       "Pool"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "mutrah-museum",
@@ -11670,7 +11692,8 @@
     "meals": [
       "Dinner",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "palm-grill-10",
@@ -12471,7 +12494,8 @@
     "meals": [
       "Dinner",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "palm-grill-8",
@@ -13474,7 +13498,8 @@
         "id": "2569712"
       },
       "wikidata_id": "Q221183"
-    }
+    },
+    "hours": null
   },
   {
     "id": "ramez-mall",
@@ -14504,7 +14529,8 @@
         "id": "6360849"
       },
       "wikidata_id": "Q602825"
-    }
+    },
+    "hours": null
   },
   {
     "id": "seeb-center-3",
@@ -14547,7 +14573,8 @@
         "id": "7015201"
       },
       "wikidata_id": "Q750809"
-    }
+    },
+    "hours": null
   },
   {
     "id": "seeb-center-4",
@@ -14590,7 +14617,8 @@
         "id": "578717"
       },
       "wikidata_id": "Q400073"
-    }
+    },
+    "hours": null
   },
   {
     "id": "seeb-center-5",
@@ -14723,7 +14751,8 @@
         "id": "8989388"
       },
       "wikidata_id": "Q485053"
-    }
+    },
+    "hours": null
   },
   {
     "id": "seeb-center-7",
@@ -15014,7 +15043,8 @@
       "Parking",
       "Pool",
       "Spa"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "shuwa-express",
@@ -15502,7 +15532,8 @@
     "meals": [
       "Breakfast",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-12",
@@ -15579,7 +15610,8 @@
     "meals": [
       "Brunch",
       "Dinner"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-13",
@@ -15780,7 +15812,8 @@
     "meals": [
       "Breakfast",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-15",
@@ -16343,7 +16376,8 @@
     "meals": [
       "Brunch",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-2",
@@ -16668,7 +16702,8 @@
     "meals": [
       "Breakfast",
       "Dinner"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-4",
@@ -16745,7 +16780,8 @@
     "meals": [
       "Dinner",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-5",
@@ -16822,7 +16858,8 @@
     "meals": [
       "Breakfast",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-6",
@@ -17147,7 +17184,8 @@
     "meals": [
       "Brunch",
       "Dinner"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "souq-bite-9",
@@ -17224,7 +17262,8 @@
     "meals": [
       "Breakfast",
       "Lunch"
-    ]
+    ],
+    "hours": null
   },
   {
     "id": "spice-route-restaurant",
@@ -18369,7 +18408,8 @@
         "id": "5141118"
       },
       "wikidata_id": "Q879440"
-    }
+    },
+    "hours": null
   },
   {
     "id": "wadi-green-park-3",
@@ -18412,7 +18452,8 @@
         "id": "6604333"
       },
       "wikidata_id": "Q841965"
-    }
+    },
+    "hours": null
   },
   {
     "id": "wadi-green-park-4",
