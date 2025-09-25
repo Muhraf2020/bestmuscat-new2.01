@@ -259,7 +259,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Ghala",
@@ -385,7 +428,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -450,7 +524,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "https://www.almouj.com/en/marina",
     "actions": {
@@ -1117,7 +1222,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "https://www.baitalzubair.com/",
     "actions": {
@@ -1574,7 +1710,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -2535,7 +2702,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=city-walk-mall-2",
     "actions": {
@@ -2593,7 +2803,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=city-walk-mall-3",
     "actions": {
@@ -2651,7 +2904,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=city-walk-mall-4",
     "actions": {
@@ -2709,7 +3005,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=city-walk-mall-5",
     "actions": {
@@ -2808,7 +3147,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=date-cardamom-1",
     "actions": {
@@ -2855,7 +3237,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=date-cardamom-2",
     "actions": {
@@ -2902,7 +3327,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=date-cardamom-3",
     "actions": {
@@ -2949,7 +3417,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=date-cardamom-4",
     "actions": {
@@ -2996,7 +3507,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=date-cardamom-5",
     "actions": {
@@ -3965,7 +4519,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "15:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -4433,7 +5018,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=gulf-maritime-museum-3",
     "actions": {
@@ -4480,7 +5108,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=gulf-maritime-museum-4",
     "actions": {
@@ -4858,7 +5529,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=heritage-fort-1",
     "actions": {
@@ -4905,7 +5619,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=heritage-fort-2",
     "actions": {
@@ -5140,7 +5897,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=heritage-fort-7",
     "actions": {
@@ -5247,7 +6047,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "https://kargeencaffe.com/",
     "actions": {
@@ -5469,7 +6300,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-12",
     "actions": {
@@ -5563,7 +6437,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-14",
     "actions": {
@@ -5610,7 +6527,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-15",
     "actions": {
@@ -5704,7 +6652,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-3",
     "actions": {
@@ -5845,7 +6836,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-6",
     "actions": {
@@ -5939,7 +6973,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-8",
     "actions": {
@@ -5986,7 +7063,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=khareef-coffee-9",
     "actions": {
@@ -6222,7 +7342,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=knowledge-hub-2",
     "actions": {
@@ -6316,7 +7479,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=knowledge-hub-4",
     "actions": {
@@ -6363,7 +7569,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=knowledge-hub-5",
     "actions": {
@@ -6552,7 +7789,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-1",
     "actions": {
@@ -6599,7 +7879,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-2",
     "actions": {
@@ -6646,7 +7969,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-3",
     "actions": {
@@ -6740,7 +8106,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-5",
     "actions": {
@@ -6787,7 +8196,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-6",
     "actions": {
@@ -6834,7 +8274,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=lotus-spa-7",
     "actions": {
@@ -8046,7 +9529,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-1",
     "actions": {
@@ -8118,7 +9644,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-10",
     "actions": {
@@ -8190,7 +9759,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-2",
     "actions": {
@@ -8262,7 +9862,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-3",
     "actions": {
@@ -8334,7 +9977,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-4",
     "actions": {
@@ -8478,7 +10164,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-6",
     "actions": {
@@ -8622,7 +10351,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=muscat-stay-8",
     "actions": {
@@ -9369,7 +11141,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "https://www.omanavenuesmall.com/",
     "actions": {
@@ -9993,7 +11808,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-10",
     "actions": {
@@ -10074,7 +11932,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-2",
     "actions": {
@@ -10155,7 +12056,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-3",
     "actions": {
@@ -10236,7 +12180,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-4",
     "actions": {
@@ -10317,7 +12304,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-5",
     "actions": {
@@ -10398,7 +12416,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-6",
     "actions": {
@@ -10560,7 +12609,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-8",
     "actions": {
@@ -10641,7 +12733,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=palm-grill-9",
     "actions": {
@@ -11975,7 +14110,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "https://rohmuscat.org.om/",
     "actions": {
@@ -12355,7 +14533,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=seeb-center-1",
     "actions": {
@@ -12543,7 +14764,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=seeb-center-5",
     "actions": {
@@ -12637,7 +14901,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=seeb-center-7",
     "actions": {
@@ -13082,7 +15377,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-1",
     "actions": {
@@ -13163,7 +15489,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-10",
     "actions": {
@@ -13406,7 +15763,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-13",
     "actions": {
@@ -13568,7 +15968,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-15",
     "actions": {
@@ -13649,7 +16092,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-16",
     "actions": {
@@ -13730,7 +16204,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-17",
     "actions": {
@@ -13811,7 +16328,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-18",
     "actions": {
@@ -13973,7 +16533,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-2",
     "actions": {
@@ -14054,7 +16657,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-20",
     "actions": {
@@ -14378,7 +17024,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-6",
     "actions": {
@@ -14459,7 +17148,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=souq-bite-7",
     "actions": {
@@ -14869,7 +17601,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "https://www.sultanqaboosgrandmosque.com/",
     "actions": {
@@ -15181,7 +17956,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Madinat Qaboos",
@@ -15628,7 +18446,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=wadi-green-park-1",
     "actions": {
@@ -15769,7 +18630,50 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=wadi-green-park-4",
     "actions": {
@@ -15816,7 +18720,38 @@
     },
     "hours": {
       "tz": "Asia/Muscat",
-      "weekly": {}
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
     },
     "url": "/tool.html?slug=wadi-green-park-5",
     "actions": {
