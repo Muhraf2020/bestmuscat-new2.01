@@ -15,6 +15,10 @@ permissions:
 jobs:
   build-data:
     runs-on: ubuntu-latest
+    env:
+      # Make the repo root importable as a package root (so 'scripts' can be imported)
+      PYTHONPATH: ${{ github.workspace }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,25 +33,34 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # OPTIONAL: create package markers if missing (safe to keep)
+      - name: Ensure scripts is a package
+        run: |
+          touch scripts/__init__.py
+          touch scripts/ingest/__init__.py
+          touch scripts/utils/__init__.py
+          touch scripts/qa/__init__.py
+          touch scripts/media/__init__.py
+
       - name: CSV → tools.json
-        run: python scripts/ingest/csv_to_tools.py
+        run: python -m scripts.ingest.csv_to_tools
 
       - name: Enrich with Places/OSM/Wikidata
-        run: python scripts/ingest/hydrate_details.py
+        run: python -m scripts.ingest.hydrate_details
 
       - name: Optimize images (non-blocking)
-        run: python scripts/media/optimize_images.py || true
+        run: python -m scripts.media.optimize_images || true
 
       - name: Validate schema (blocking if present)
         run: |
           if [ -f data/schema/tools.schema.json ]; then
-            python scripts/qa/validate_schema.py data/tools.json data/schema/tools.schema.json
+            python -m scripts.qa.validate_schema data/tools.json data/schema/tools.schema.json
           else
             echo "No schema file; skipping"
           fi
 
       - name: Missing fields report (non-blocking)
-        run: python scripts/qa/missing_fields_report.py || true
+        run: python -m scripts.qa.missing_fields_report || true
 
       - name: Commit data artifacts
         run: |
