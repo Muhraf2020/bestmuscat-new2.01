@@ -15,17 +15,11 @@ permissions:
 jobs:
   build-data:
     runs-on: ubuntu-latest
-    env:
-      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Ensure local imports work
-      - name: Set PYTHONPATH
-        run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
-
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -41,27 +35,24 @@ jobs:
       - name: Enrich with Places/OSM/Wikidata
         run: python scripts/ingest/hydrate_details.py
 
-      - name: Optimize images
-        run: python scripts/media/optimize_images.py
+      - name: Optimize images (non-blocking)
+        run: python scripts/media/optimize_images.py || true
 
-      # NEW: normalize legacy shapes (e.g., about as array -> object)
-      - name: Normalize legacy fields
-        run: python scripts/qa/normalize_tools_json.py
-
-      - name: Validate schema
+      - name: Validate schema (blocking if present)
         run: |
-          if [ -f data/schema/tools.schema.json ]; then \
-            python scripts/qa/validate_schema.py data/tools.json data/schema/tools.schema.json; \
-          else \
-            echo "No schema file; skipping"; fi
+          if [ -f data/schema/tools.schema.json ]; then
+            python scripts/qa/validate_schema.py data/tools.json data/schema/tools.schema.json
+          else
+            echo "No schema file; skipping"
+          fi
 
       - name: Missing fields report (non-blocking)
         run: python scripts/qa/missing_fields_report.py || true
 
       - name: Commit data artifacts
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/tools.json assets/images || true
           git diff --staged --quiet || git commit -m "data: update tools + images"
           git push
