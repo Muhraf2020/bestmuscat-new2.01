@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'data/sources/places.csv'
-      - 'scripts/**'
-      - 'data/schema/tools.schema.json'
+      - "data/sources/*.csv"
+      - "scripts/**"
+      - "data/schema/**"
+      - "assets/**"
 
 permissions:
   contents: write
