@@ -86,34 +86,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -146,13 +163,10 @@
       "lat": 23.677652,
       "lng": 58.38253
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/al-araimi-complex"
   },
   {
@@ -181,7 +195,7 @@
     "badges": [
       "Gem"
     ],
-    "rating_overall": 8.5,
+    "rating_overall": 8.27,
     "address_full": "Muscat, Oman",
     "status": "Open",
     "busyness": "Usually Busy",
@@ -196,17 +210,17 @@
       "maps_url": "https://www.openstreetmap.org/search?query=al-bustan-palace"
     },
     "about": {
-      "short": "Luxury beachfront resort with palace‑like grandeur.",
-      "long": "Nestled between the Al Hajar Mountains and the Sea of Oman, Al Bustan Palace offers palatial accommodations, fine dining and a private beach with pristine waters."
+      "short": "Sample hotel description for Al Bustan Palace.",
+      "long": "Al Bustan Palace is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
     },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
-      "Food Quality": 8.46,
-      "Service": 8.56,
-      "Ambience": 8.6,
-      "Value for Money": 8.16,
-      "Accessibility & Amenities": 8.38
+      "Food Quality": 7.91,
+      "Service": 8.53,
+      "Ambience": 7.95,
+      "Value for Money": 8.34,
+      "Accessibility & Amenities": 8.6
     },
     "public_sentiment": {
       "source": "Google Reviews",
@@ -269,13 +283,26 @@
         "id": "9632265"
       },
       "wikidata_id": "Q82974"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "public_reviews": {
+      "source": "Google",
+      "count": 154,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "amenities": [
+      "Beach Access",
+      "Family Friendly",
+      "Pool"
+    ]
   },
   {
     "id": "al-huda-primary-school",
     "slug": "al-huda-primary-school",
-    "name": "Al Huda Primary School",
-    "url": "#",
+    "name": "Al Huda Primary School",
+    "url": "/tool.html?slug=al-huda-primary-school",
     "tagline": "Community school emphasizing values and academics.",
     "description": "Al Huda Primary School combines strong academic standards with values‑based education, nurturing young minds in a supportive atmosphere.",
     "pricing": "paid",
@@ -283,9 +310,8 @@
       "Schools"
     ],
     "tags": [
-      "⭐️3",
-      "Primary",
-      "Values"
+      "School",
+      "Education"
     ],
     "logo": "assets/images/schools.png",
     "evidence_cites": false,
@@ -295,7 +321,7 @@
     "beta": false,
     "created_at": "2025-09-02",
     "badges": [],
-    "rating_overall": 8.7,
+    "rating_overall": 8.61,
     "address_full": "Muscat, Oman",
     "status": "Open",
     "busyness": "Usually Busy",
@@ -305,22 +331,22 @@
     ],
     "actions": {
       "share": true,
-      "website": "",
-      "phone": "",
-      "maps_url": ""
+      "website": "https://www.example.com/al-huda-primary-school",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=al-huda-primary-school"
     },
     "about": {
-      "short": "Community school emphasizing values and academics.",
-      "long": "Al Huda Primary School combines strong academic standards with values‑based education, nurturing young minds in a supportive atmosphere."
+      "short": "Sample school description for Al Huda Primary School.",
+      "long": "Al Huda Primary School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
     },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
-      "Food Quality": 8.84,
-      "Service": 8.58,
-      "Ambience": 8.71,
-      "Value for Money": 8.64,
-      "Accessibility & Amenities": 8.55
+      "Food Quality": 8.55,
+      "Service": 8.63,
+      "Ambience": 8.31,
+      "Value for Money": 8.36,
+      "Accessibility & Amenities": 8.57
     },
     "public_sentiment": {
       "source": "Google Reviews",
@@ -358,43 +384,47 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {}
     },
     "location": {
       "neighborhood": "Muscat",
-      "address": "Muscat, Oman",
+      "address": "Al Huda Primary School Rd",
       "website": "",
       "phone": "",
-      "map_embed": ""
+      "map_embed": "",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.585,
+      "lng": 58.405
     },
-    "faqs": []
+    "faqs": [],
+    "images": {
+      "logo": "assets/images/schools.png",
+      "hero": "assets/media/al-huda-primary-school/hero.webp",
+      "credit": "Courtesy of Al Huda Primary School",
+      "source_url": "https://images.example.com/al-huda-primary-school/hero"
+    },
+    "sources": {
+      "place_id": "PL_AL-HUDA-PRIMARY-SCHOOL",
+      "osm": {
+        "type": "node",
+        "id": "917241"
+      }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "public_reviews": {
+      "source": "Google",
+      "count": 119,
+      "insight": "Strong academics and caring teachers.",
+      "last_updated": "2025-09-25"
+    },
+    "amenities": [
+      "Cafeteria",
+      "Playground",
+      "Special Needs Support"
+    ]
   },
   {
     "id": "al-mouj-marina",
@@ -530,34 +560,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -655,34 +702,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -804,34 +868,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -929,34 +1010,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -989,13 +1087,10 @@
       "lat": 23.638028,
       "lng": 58.371342
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "06:00",
-        "close": "23:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/azaiba-beach-park"
   },
   {
@@ -1067,13 +1162,17 @@
       "lat": 23.62745,
       "lng": 58.534626
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/bandar-al-khayran-viewpoint"
   },
   {
@@ -1163,34 +1262,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -1223,13 +1339,10 @@
       "lat": 23.534203,
       "lng": 58.363457
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "06:00",
-        "close": "23:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/bawshar-heights-park"
   },
   {
@@ -1319,34 +1432,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -1360,8 +1490,8 @@
   {
     "id": "beacon-private-school",
     "slug": "beacon-private-school",
-    "name": "Beacon Private School",
-    "url": "#",
+    "name": "Beacon Private School",
+    "url": "/tool.html?slug=beacon-private-school",
     "tagline": "Small class sizes and individualized attention.",
     "description": "Beacon Private School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community.",
     "pricing": "paid",
@@ -1369,9 +1499,8 @@
       "Schools"
     ],
     "tags": [
-      "⭐️3",
-      "Private",
-      "Personalized"
+      "School",
+      "Education"
     ],
     "logo": "assets/images/schools.png",
     "evidence_cites": false,
@@ -1381,7 +1510,7 @@
     "beta": false,
     "created_at": "2025-09-02",
     "badges": [],
-    "rating_overall": 9.3,
+    "rating_overall": 7.63,
     "address_full": "Muscat, Oman",
     "status": "Open",
     "busyness": "Usually Busy",
@@ -1391,22 +1520,22 @@
     ],
     "actions": {
       "share": true,
-      "website": "",
-      "phone": "",
-      "maps_url": ""
+      "website": "https://www.example.com/beacon-private-school",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=beacon-private-school"
     },
     "about": {
-      "short": "Small class sizes and individualized attention.",
-      "long": "Beacon Private School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community."
+      "short": "Sample school description for Beacon Private School.",
+      "long": "Beacon Private School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
     },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
-      "Food Quality": 9.21,
-      "Service": 9.22,
-      "Ambience": 9.13,
-      "Value for Money": 9.08,
-      "Accessibility & Amenities": 9.38
+      "Food Quality": 7.73,
+      "Service": 7.58,
+      "Ambience": 7.85,
+      "Value for Money": 7.39,
+      "Accessibility & Amenities": 7.26
     },
     "public_sentiment": {
       "source": "Google Reviews",
@@ -1444,43 +1573,47 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {}
     },
     "location": {
       "neighborhood": "Muscat",
-      "address": "Muscat, Oman",
+      "address": "Beacon Private School Rd",
       "website": "",
       "phone": "",
-      "map_embed": ""
+      "map_embed": "",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.57,
+      "lng": 58.41
     },
-    "faqs": []
+    "faqs": [],
+    "images": {
+      "logo": "assets/images/schools.png",
+      "hero": "assets/media/beacon-private-school/hero.webp",
+      "credit": "Courtesy of Beacon Private School",
+      "source_url": "https://images.example.com/beacon-private-school/hero"
+    },
+    "sources": {
+      "place_id": "PL_BEACON-PRIVATE-SCHOOL",
+      "osm": {
+        "type": "node",
+        "id": "403999"
+      }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "public_reviews": {
+      "source": "Google",
+      "count": 172,
+      "insight": "Parents praise the supportive environment.",
+      "last_updated": "2025-09-25"
+    },
+    "amenities": [
+      "Cafeteria",
+      "Library",
+      "Sports Facilities"
+    ]
   },
   {
     "id": "bimmah-sinkhole",
@@ -1504,13 +1637,17 @@
       "lat": 23.505613,
       "lng": 58.498822
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/bimmah-sinkhole"
   },
   {
@@ -1600,34 +1737,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -1725,34 +1879,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -1850,34 +2021,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -1975,34 +2163,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -2059,18 +2264,23 @@
       "lat": 23.509058,
       "lng": 58.470855
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/charm-thai"
   },
   {
@@ -2160,34 +2370,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -2220,13 +2447,10 @@
       "lat": 23.553731,
       "lng": 58.352074
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/city-walk-mall"
   },
   {
@@ -2274,7 +2498,18 @@
         "id": "3833989"
       },
       "wikidata_id": "Q350731"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "about": {
+      "short": "Sample mall description for City Walk Mall 1.",
+      "long": "City Walk Mall 1 is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Cinema",
+      "Parking",
+      "Prayer Rooms"
+    ]
   },
   {
     "id": "city-walk-mall-2",
@@ -2321,7 +2556,18 @@
         "id": "6539178"
       },
       "wikidata_id": "Q699623"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "about": {
+      "short": "Sample mall description for City Walk Mall 2.",
+      "long": "City Walk Mall 2 is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Cinema",
+      "Food Court",
+      "Kids Area"
+    ]
   },
   {
     "id": "city-walk-mall-3",
@@ -2368,7 +2614,18 @@
         "id": "8072681"
       },
       "wikidata_id": "Q560703"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "about": {
+      "short": "Sample mall description for City Walk Mall 3.",
+      "long": "City Walk Mall 3 is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Food Court",
+      "Kids Area",
+      "Parking"
+    ]
   },
   {
     "id": "city-walk-mall-4",
@@ -2415,7 +2672,18 @@
         "id": "7849491"
       },
       "wikidata_id": "Q435259"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "about": {
+      "short": "Sample mall description for City Walk Mall 4.",
+      "long": "City Walk Mall 4 is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Cinema",
+      "Food Court",
+      "Prayer Rooms"
+    ]
   },
   {
     "id": "city-walk-mall-5",
@@ -2462,7 +2730,18 @@
         "id": "5082953"
       },
       "wikidata_id": "Q787588"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "about": {
+      "short": "Sample mall description for City Walk Mall 5.",
+      "long": "City Walk Mall 5 is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Cinema",
+      "Kids Area",
+      "Parking"
+    ]
   },
   {
     "id": "coffee-lab",
@@ -2486,18 +2765,23 @@
       "lat": 23.574587,
       "lng": 58.39104
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/coffee-lab"
   },
   {
@@ -2822,34 +3106,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -2947,34 +3248,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -3072,34 +3390,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -3156,18 +3491,23 @@
       "lat": 23.638039,
       "lng": 58.375962
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/dukanah"
   },
   {
@@ -3257,34 +3597,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -3407,34 +3764,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -3491,20 +3865,24 @@
       "lat": 23.630762,
       "lng": 58.492935
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/ghalya-s-museum-of-modern-art"
   },
   {
     "id": "global-public-school",
     "slug": "global-public-school",
-    "name": "Global Public School",
-    "url": "#",
+    "name": "Global Public School",
+    "url": "/tool.html?slug=global-public-school",
     "tagline": "Accessible education with bilingual programs.",
     "description": "Global Public School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community.",
     "pricing": "paid",
@@ -3512,9 +3890,8 @@
       "Schools"
     ],
     "tags": [
-      "⭐️3",
-      "Bilingual",
-      "Inclusive"
+      "School",
+      "Education"
     ],
     "logo": "assets/images/schools.png",
     "evidence_cites": false,
@@ -3524,7 +3901,7 @@
     "beta": false,
     "created_at": "2025-09-02",
     "badges": [],
-    "rating_overall": 9.4,
+    "rating_overall": 8.89,
     "address_full": "Muscat, Oman",
     "status": "Open",
     "busyness": "Usually Busy",
@@ -3534,22 +3911,22 @@
     ],
     "actions": {
       "share": true,
-      "website": "",
-      "phone": "",
-      "maps_url": ""
+      "website": "https://www.example.com/global-public-school",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=global-public-school"
     },
     "about": {
-      "short": "Accessible education with bilingual programs.",
-      "long": "Global Public School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community."
+      "short": "Sample school description for Global Public School.",
+      "long": "Global Public School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
     },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
-      "Food Quality": 9.57,
-      "Service": 9.47,
-      "Ambience": 9.43,
-      "Value for Money": 9.43,
-      "Accessibility & Amenities": 9.45
+      "Food Quality": 8.78,
+      "Service": 8.95,
+      "Ambience": 9.02,
+      "Value for Money": 8.74,
+      "Accessibility & Amenities": 8.56
     },
     "public_sentiment": {
       "source": "Google Reviews",
@@ -3587,43 +3964,47 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {}
     },
     "location": {
       "neighborhood": "Muscat",
-      "address": "Muscat, Oman",
+      "address": "Global Public School Rd",
       "website": "",
       "phone": "",
-      "map_embed": ""
+      "map_embed": "",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.59,
+      "lng": 58.45
     },
-    "faqs": []
+    "faqs": [],
+    "images": {
+      "logo": "assets/images/schools.png",
+      "hero": "assets/media/global-public-school/hero.webp",
+      "credit": "Courtesy of Global Public School",
+      "source_url": "https://images.example.com/global-public-school/hero"
+    },
+    "sources": {
+      "place_id": "PL_GLOBAL-PUBLIC-SCHOOL",
+      "osm": {
+        "type": "node",
+        "id": "969943"
+      }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "public_reviews": {
+      "source": "Google",
+      "count": 210,
+      "insight": "Known for inclusive programs and activities.",
+      "last_updated": "2025-09-25"
+    },
+    "amenities": [
+      "Cafeteria",
+      "Special Needs Support",
+      "Sports Facilities"
+    ]
   },
   {
     "id": "grand-hyatt-muscat",
@@ -3737,34 +4118,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -3862,34 +4260,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -4222,34 +4637,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -4347,34 +4779,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -4736,13 +5185,17 @@
       "lat": 23.482694,
       "lng": 58.442704
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/indian-school-al-ghubrah"
   },
   {
@@ -4800,7 +5253,8 @@
     "actions": {
       "website": "https://www.example.com/kargeen-cafe",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=kargeen-cafe"
+      "maps_url": "https://www.openstreetmap.org/search?query=kargeen-cafe",
+      "menu": "https://example.com/kargeen-cafe/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -4815,7 +5269,40 @@
         "id": "7520591"
       },
       "wikidata_id": "Q684236"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 9.06,
+    "subscores": {
+      "Food Quality": 9.28,
+      "Service": 9.02,
+      "Ambience": 9.34,
+      "Value for Money": 8.81,
+      "Accessibility & Amenities": 9.3
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 311,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Kargeen Cafe.",
+      "long": "Kargeen Cafe is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Indian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ]
   },
   {
     "id": "khareef-coffee-1",
@@ -5609,34 +6096,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -5969,34 +6473,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -6358,13 +6879,10 @@
       "lat": 23.487928,
       "lng": 58.476954
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/lulu-hypermarket-bausher"
   },
   {
@@ -6389,13 +6907,10 @@
       "lat": 23.59003,
       "lng": 58.527042
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/lulu-hypermarket-qurum"
   },
   {
@@ -6420,13 +6935,10 @@
       "lat": 23.633044,
       "lng": 58.500204
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/madinat-sultan-qaboos-souq"
   },
   {
@@ -6516,34 +7028,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -6576,18 +7105,23 @@
       "lat": 23.530834,
       "lng": 58.430119
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/mani-s-gourmet"
   },
   {
@@ -6676,13 +7210,10 @@
       "amenities": [],
       "seating": []
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "location": {
       "neighborhood": "Al Mouj",
       "address": "Al Marafah St",
@@ -6780,34 +7311,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -6929,34 +7477,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -7055,13 +7620,10 @@
       "amenities": [],
       "seating": []
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "location": {
       "neighborhood": "Shatti Al Qurum",
       "address": "Way 3935",
@@ -7158,13 +7720,10 @@
       "amenities": [],
       "seating": []
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "location": {
       "neighborhood": "Qurum",
       "address": "Corniche Rd",
@@ -7264,34 +7823,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -7391,34 +7967,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -7474,7 +8067,32 @@
         "id": "6061353"
       },
       "wikidata_id": "Q697578"
-    }
+    },
+    "price_range": "$$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.65,
+    "subscores": {
+      "Food Quality": 8.65,
+      "Service": 8.68,
+      "Ambience": 8.87,
+      "Value for Money": 8.62,
+      "Accessibility & Amenities": 8.99
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 219,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 1.",
+      "long": "Muscat Stay 1 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Gym",
+      "Pool"
+    ]
   },
   {
     "id": "muscat-stay-10",
@@ -7521,7 +8139,32 @@
         "id": "2963960"
       },
       "wikidata_id": "Q515764"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 7.64,
+    "subscores": {
+      "Food Quality": 7.94,
+      "Service": 7.73,
+      "Ambience": 7.36,
+      "Value for Money": 7.44,
+      "Accessibility & Amenities": 7.52
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 220,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 10.",
+      "long": "Muscat Stay 10 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Beach Access",
+      "Parking",
+      "Pool"
+    ]
   },
   {
     "id": "muscat-stay-2",
@@ -7568,7 +8211,32 @@
         "id": "3056003"
       },
       "wikidata_id": "Q106085"
-    }
+    },
+    "price_range": "$$$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.49,
+    "subscores": {
+      "Food Quality": 8.79,
+      "Service": 8.67,
+      "Ambience": 8.32,
+      "Value for Money": 8.87,
+      "Accessibility & Amenities": 8.18
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 243,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 2.",
+      "long": "Muscat Stay 2 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Beach Access",
+      "Gym",
+      "Parking"
+    ]
   },
   {
     "id": "muscat-stay-3",
@@ -7615,7 +8283,32 @@
         "id": "4332335"
       },
       "wikidata_id": "Q15700"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 7.73,
+    "subscores": {
+      "Food Quality": 7.78,
+      "Service": 7.96,
+      "Ambience": 7.98,
+      "Value for Money": 7.6,
+      "Accessibility & Amenities": 7.61
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 278,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 3.",
+      "long": "Muscat Stay 3 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Pool",
+      "Spa"
+    ]
   },
   {
     "id": "muscat-stay-4",
@@ -7662,7 +8355,32 @@
         "id": "5194546"
       },
       "wikidata_id": "Q389091"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.73,
+    "subscores": {
+      "Food Quality": 8.38,
+      "Service": 8.89,
+      "Ambience": 8.85,
+      "Value for Money": 9.12,
+      "Accessibility & Amenities": 8.99
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 185,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 4.",
+      "long": "Muscat Stay 4 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Pool",
+      "Spa"
+    ]
   },
   {
     "id": "muscat-stay-5",
@@ -7709,7 +8427,32 @@
         "id": "198214"
       },
       "wikidata_id": "Q148418"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 7.89,
+    "subscores": {
+      "Food Quality": 7.58,
+      "Service": 7.54,
+      "Ambience": 8.1,
+      "Value for Money": 7.59,
+      "Accessibility & Amenities": 7.69
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 232,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 5.",
+      "long": "Muscat Stay 5 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Beach Access",
+      "Gym",
+      "Pool"
+    ]
   },
   {
     "id": "muscat-stay-6",
@@ -7756,7 +8499,32 @@
         "id": "5280482"
       },
       "wikidata_id": "Q228044"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.07,
+    "subscores": {
+      "Food Quality": 7.78,
+      "Service": 8.01,
+      "Ambience": 8.11,
+      "Value for Money": 8.24,
+      "Accessibility & Amenities": 8.46
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 360,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 6.",
+      "long": "Muscat Stay 6 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Gym",
+      "Pool"
+    ]
   },
   {
     "id": "muscat-stay-7",
@@ -7803,7 +8571,32 @@
         "id": "2847576"
       },
       "wikidata_id": "Q555189"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 7.99,
+    "subscores": {
+      "Food Quality": 7.78,
+      "Service": 7.98,
+      "Ambience": 8.06,
+      "Value for Money": 7.8,
+      "Accessibility & Amenities": 7.59
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 244,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 7.",
+      "long": "Muscat Stay 7 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Spa"
+    ]
   },
   {
     "id": "muscat-stay-8",
@@ -7850,7 +8643,32 @@
         "id": "2341453"
       },
       "wikidata_id": "Q811879"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 9.06,
+    "subscores": {
+      "Food Quality": 9.42,
+      "Service": 9.18,
+      "Ambience": 9.25,
+      "Value for Money": 9.03,
+      "Accessibility & Amenities": 9.36
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 478,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 8.",
+      "long": "Muscat Stay 8 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Beach Access",
+      "Family Friendly",
+      "Parking"
+    ]
   },
   {
     "id": "muscat-stay-9",
@@ -7897,7 +8715,32 @@
         "id": "6458007"
       },
       "wikidata_id": "Q247580"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.68,
+    "subscores": {
+      "Food Quality": 8.33,
+      "Service": 8.33,
+      "Ambience": 8.45,
+      "Value for Money": 8.41,
+      "Accessibility & Amenities": 8.55
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 83,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Muscat Stay 9.",
+      "long": "Muscat Stay 9 is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Gym",
+      "Parking",
+      "Pool"
+    ]
   },
   {
     "id": "mutrah-museum",
@@ -7921,13 +8764,17 @@
       "lat": 23.675442,
       "lng": 58.455908
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/mutrah-museum"
   },
   {
@@ -7952,13 +8799,17 @@
       "lat": 23.668448,
       "lng": 58.417898
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://www.nationalmuseumoman.om/"
   },
   {
@@ -7983,13 +8834,17 @@
       "lat": 23.65595,
       "lng": 58.464503
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/natural-history-museum"
   },
   {
@@ -8014,13 +8869,17 @@
       "lat": 23.498145,
       "lng": 58.426994
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/nstyle-beauty-lounge"
   },
   {
@@ -8110,34 +8969,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8237,34 +9113,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8362,34 +9255,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8422,13 +9332,17 @@
       "lat": 23.667467,
       "lng": 58.516679
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/oman-across-ages"
   },
   {
@@ -8476,7 +9390,18 @@
         "id": "6309097"
       },
       "wikidata_id": "Q40836"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "about": {
+      "short": "Sample mall description for Oman Avenues Mall.",
+      "long": "Oman Avenues Mall is a hypothetical mall entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Cinema",
+      "Food Court",
+      "Kids Area"
+    ]
   },
   {
     "id": "oman-health-center",
@@ -8565,34 +9490,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8690,34 +9632,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8815,34 +9774,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -8899,13 +9875,17 @@
       "lat": 23.553212,
       "lng": 58.414951
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "18:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/omren-science-gallery"
   },
   {
@@ -8938,7 +9918,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-1",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-1"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-1",
+      "menu": "https://example.com/palm-grill-1/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -8953,7 +9934,40 @@
         "id": "1460955"
       },
       "wikidata_id": "Q443505"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 7.89,
+    "subscores": {
+      "Food Quality": 7.76,
+      "Service": 8.12,
+      "Ambience": 7.6,
+      "Value for Money": 7.61,
+      "Accessibility & Amenities": 7.9
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 447,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 1.",
+      "long": "Palm Grill 1 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "International"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-10",
@@ -8985,7 +9999,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-10",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-10"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-10",
+      "menu": "https://example.com/palm-grill-10/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9000,7 +10015,40 @@
         "id": "2881209"
       },
       "wikidata_id": "Q929183"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 7.96,
+    "subscores": {
+      "Food Quality": 7.86,
+      "Service": 8.07,
+      "Ambience": 7.59,
+      "Value for Money": 7.72,
+      "Accessibility & Amenities": 7.89
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 247,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 10.",
+      "long": "Palm Grill 10 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Indian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-2",
@@ -9032,7 +10080,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-2",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-2"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-2",
+      "menu": "https://example.com/palm-grill-2/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9047,7 +10096,40 @@
         "id": "6236603"
       },
       "wikidata_id": "Q440063"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.04,
+    "subscores": {
+      "Food Quality": 8.18,
+      "Service": 8.4,
+      "Ambience": 8.34,
+      "Value for Money": 8.13,
+      "Accessibility & Amenities": 7.88
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 127,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 2.",
+      "long": "Palm Grill 2 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Italian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ]
   },
   {
     "id": "palm-grill-3",
@@ -9079,7 +10161,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-3",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-3"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-3",
+      "menu": "https://example.com/palm-grill-3/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9094,7 +10177,40 @@
         "id": "2853173"
       },
       "wikidata_id": "Q514041"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.52,
+    "subscores": {
+      "Food Quality": 8.16,
+      "Service": 8.85,
+      "Ambience": 8.56,
+      "Value for Money": 8.91,
+      "Accessibility & Amenities": 8.22
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 101,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 3.",
+      "long": "Palm Grill 3 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "International",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-4",
@@ -9126,7 +10242,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-4",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-4"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-4",
+      "menu": "https://example.com/palm-grill-4/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9141,7 +10258,40 @@
         "id": "7365706"
       },
       "wikidata_id": "Q339912"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.18,
+    "subscores": {
+      "Food Quality": 8.5,
+      "Service": 8.53,
+      "Ambience": 8.52,
+      "Value for Money": 8.2,
+      "Accessibility & Amenities": 7.87
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 280,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 4.",
+      "long": "Palm Grill 4 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-5",
@@ -9173,7 +10323,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-5",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-5"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-5",
+      "menu": "https://example.com/palm-grill-5/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9188,7 +10339,40 @@
         "id": "5329485"
       },
       "wikidata_id": "Q16134"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.77,
+    "subscores": {
+      "Food Quality": 8.63,
+      "Service": 8.65,
+      "Ambience": 8.87,
+      "Value for Money": 8.45,
+      "Accessibility & Amenities": 8.95
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 117,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 5.",
+      "long": "Palm Grill 5 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Italian"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-6",
@@ -9220,7 +10404,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-6",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-6"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-6",
+      "menu": "https://example.com/palm-grill-6/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9235,7 +10420,40 @@
         "id": "2628731"
       },
       "wikidata_id": "Q62180"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.51,
+    "subscores": {
+      "Food Quality": 8.28,
+      "Service": 8.28,
+      "Ambience": 8.54,
+      "Value for Money": 8.58,
+      "Accessibility & Amenities": 8.22
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 553,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 6.",
+      "long": "Palm Grill 6 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Seafood",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-7",
@@ -9267,7 +10485,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-7",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-7"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-7",
+      "menu": "https://example.com/palm-grill-7/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9282,7 +10501,40 @@
         "id": "1087163"
       },
       "wikidata_id": "Q314338"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 9.11,
+    "subscores": {
+      "Food Quality": 8.82,
+      "Service": 8.78,
+      "Ambience": 9.02,
+      "Value for Money": 9.06,
+      "Accessibility & Amenities": 9.46
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 348,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 7.",
+      "long": "Palm Grill 7 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "palm-grill-8",
@@ -9314,7 +10566,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-8",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-8"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-8",
+      "menu": "https://example.com/palm-grill-8/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9329,7 +10582,40 @@
         "id": "4769270"
       },
       "wikidata_id": "Q598982"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 9.15,
+    "subscores": {
+      "Food Quality": 9.52,
+      "Service": 8.84,
+      "Ambience": 9.15,
+      "Value for Money": 9.36,
+      "Accessibility & Amenities": 9.15
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 427,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 8.",
+      "long": "Palm Grill 8 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Brunch"
+    ]
   },
   {
     "id": "palm-grill-9",
@@ -9361,7 +10647,8 @@
     "actions": {
       "website": "https://www.example.com/palm-grill-9",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-9"
+      "maps_url": "https://www.openstreetmap.org/search?query=palm-grill-9",
+      "menu": "https://example.com/palm-grill-9/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -9376,7 +10663,40 @@
         "id": "8962625"
       },
       "wikidata_id": "Q103238"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 7.8,
+    "subscores": {
+      "Food Quality": 7.54,
+      "Service": 7.53,
+      "Ambience": 7.63,
+      "Value for Money": 7.94,
+      "Accessibility & Amenities": 7.86
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 123,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 9.",
+      "long": "Palm Grill 9 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ]
   },
   {
     "id": "palm-grove-hotel",
@@ -9465,34 +10785,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -9590,34 +10927,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -9715,34 +11069,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -9840,34 +11211,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -9900,13 +11288,10 @@
       "lat": 23.664119,
       "lng": 58.477345
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "06:00",
-        "close": "23:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/qantab-beach-park"
   },
   {
@@ -9995,13 +11380,10 @@
       "amenities": [],
       "seating": []
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "location": {
       "neighborhood": "Ruwi",
       "address": "Beach Rd",
@@ -10034,13 +11416,10 @@
       "lat": 23.593926,
       "lng": 58.373394
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/qurum-gardens-mall"
   },
   {
@@ -10112,13 +11491,10 @@
       "lat": 23.577136,
       "lng": 58.4825
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/ramez-mall"
   },
   {
@@ -10143,13 +11519,10 @@
       "lat": 23.544278,
       "lng": 58.510036
     },
-    "hours": [
-      {
-        "days": "Daily",
-        "open": "06:00",
-        "close": "23:00"
-      }
-    ],
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {}
+    },
     "url": "https://example.com/ras-al-hamra-park"
   },
   {
@@ -10239,34 +11612,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -10364,34 +11754,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -10489,34 +11896,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -10686,34 +12110,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -10835,34 +12276,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -11289,34 +12747,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -11373,7 +12848,32 @@
         "id": "6139979"
       },
       "wikidata_id": "Q824046"
-    }
+    },
+    "price_range": "$$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.09,
+    "subscores": {
+      "Food Quality": 7.81,
+      "Service": 7.78,
+      "Ambience": 7.94,
+      "Value for Money": 8.34,
+      "Accessibility & Amenities": 7.83
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 315,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample hotel description for Shangri-La Barr Al Jissah.",
+      "long": "Shangri-La Barr Al Jissah is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Parking",
+      "Pool",
+      "Spa"
+    ]
   },
   {
     "id": "shuwa-express",
@@ -11397,18 +12897,23 @@
       "lat": 23.596376,
       "lng": 58.539788
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/shuwa-express"
   },
   {
@@ -11498,34 +13003,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -11566,7 +13088,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-1",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-1"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-1",
+      "menu": "https://example.com/souq-bite-1/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11581,7 +13104,40 @@
         "id": "2472841"
       },
       "wikidata_id": "Q571811"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.71,
+    "subscores": {
+      "Food Quality": 8.8,
+      "Service": 8.44,
+      "Ambience": 8.32,
+      "Value for Money": 8.73,
+      "Accessibility & Amenities": 8.36
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 154,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 1.",
+      "long": "Souq Bite 1 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Seafood"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-10",
@@ -11613,7 +13169,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-10",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-10"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-10",
+      "menu": "https://example.com/souq-bite-10/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11628,7 +13185,40 @@
         "id": "2423049"
       },
       "wikidata_id": "Q228289"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.08,
+    "subscores": {
+      "Food Quality": 8.1,
+      "Service": 8.46,
+      "Ambience": 7.75,
+      "Value for Money": 7.79,
+      "Accessibility & Amenities": 8.04
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 232,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 10.",
+      "long": "Souq Bite 10 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Seafood"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-11",
@@ -11660,7 +13250,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-11",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-11"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-11",
+      "menu": "https://example.com/souq-bite-11/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11675,7 +13266,40 @@
         "id": "7782042"
       },
       "wikidata_id": "Q845490"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.68,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 8.86,
+      "Ambience": 8.54,
+      "Value for Money": 9.08,
+      "Accessibility & Amenities": 8.34
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 350,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 11.",
+      "long": "Souq Bite 11 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-12",
@@ -11707,7 +13331,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-12",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-12"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-12",
+      "menu": "https://example.com/souq-bite-12/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11722,7 +13347,40 @@
         "id": "2059932"
       },
       "wikidata_id": "Q382181"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.57,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 8.48,
+      "Ambience": 8.64,
+      "Value for Money": 8.66,
+      "Accessibility & Amenities": 8.23
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 401,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 12.",
+      "long": "Souq Bite 12 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-13",
@@ -11754,7 +13412,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-13",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-13"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-13",
+      "menu": "https://example.com/souq-bite-13/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11769,7 +13428,40 @@
         "id": "8742940"
       },
       "wikidata_id": "Q893610"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.88,
+    "subscores": {
+      "Food Quality": 8.5,
+      "Service": 8.96,
+      "Ambience": 8.86,
+      "Value for Money": 8.66,
+      "Accessibility & Amenities": 9.04
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 323,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 13.",
+      "long": "Souq Bite 13 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "Indian",
+      "International"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-14",
@@ -11801,7 +13493,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-14",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-14"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-14",
+      "menu": "https://example.com/souq-bite-14/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11816,7 +13509,40 @@
         "id": "4912634"
       },
       "wikidata_id": "Q762"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.72,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 9.03,
+      "Ambience": 8.58,
+      "Value for Money": 8.85,
+      "Accessibility & Amenities": 8.48
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 286,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 14.",
+      "long": "Souq Bite 14 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Seafood",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-15",
@@ -11848,7 +13574,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-15",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-15"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-15",
+      "menu": "https://example.com/souq-bite-15/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11863,7 +13590,40 @@
         "id": "1085742"
       },
       "wikidata_id": "Q257288"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 9.02,
+    "subscores": {
+      "Food Quality": 9.3,
+      "Service": 9.19,
+      "Ambience": 9.38,
+      "Value for Money": 8.84,
+      "Accessibility & Amenities": 8.76
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 297,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 15.",
+      "long": "Souq Bite 15 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-16",
@@ -11895,7 +13655,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-16",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-16"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-16",
+      "menu": "https://example.com/souq-bite-16/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11910,7 +13671,40 @@
         "id": "1561997"
       },
       "wikidata_id": "Q367106"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.14,
+    "subscores": {
+      "Food Quality": 8.4,
+      "Service": 7.96,
+      "Ambience": 8.23,
+      "Value for Money": 8.28,
+      "Accessibility & Amenities": 7.96
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 244,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 16.",
+      "long": "Souq Bite 16 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Middle Eastern",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-17",
@@ -11942,7 +13736,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-17",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-17"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-17",
+      "menu": "https://example.com/souq-bite-17/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -11957,7 +13752,40 @@
         "id": "9031743"
       },
       "wikidata_id": "Q115134"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 9.27,
+    "subscores": {
+      "Food Quality": 8.96,
+      "Service": 8.96,
+      "Ambience": 9.3,
+      "Value for Money": 9.38,
+      "Accessibility & Amenities": 9.16
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 92,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 17.",
+      "long": "Souq Bite 17 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Indian",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-18",
@@ -11989,7 +13817,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-18",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-18"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-18",
+      "menu": "https://example.com/souq-bite-18/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12004,7 +13833,40 @@
         "id": "6705028"
       },
       "wikidata_id": "Q603415"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 7.9,
+    "subscores": {
+      "Food Quality": 7.72,
+      "Service": 7.78,
+      "Ambience": 8.06,
+      "Value for Money": 7.92,
+      "Accessibility & Amenities": 7.99
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 465,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 18.",
+      "long": "Souq Bite 18 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Indian",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-19",
@@ -12036,7 +13898,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-19",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-19"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-19",
+      "menu": "https://example.com/souq-bite-19/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12051,7 +13914,40 @@
         "id": "6806143"
       },
       "wikidata_id": "Q358906"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 9.11,
+    "subscores": {
+      "Food Quality": 8.72,
+      "Service": 9.15,
+      "Ambience": 9.23,
+      "Value for Money": 9.11,
+      "Accessibility & Amenities": 9.37
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 238,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 19.",
+      "long": "Souq Bite 19 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Turkish"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-2",
@@ -12083,7 +13979,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-2",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-2"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-2",
+      "menu": "https://example.com/souq-bite-2/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12098,7 +13995,40 @@
         "id": "2916404"
       },
       "wikidata_id": "Q29972"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.1,
+    "subscores": {
+      "Food Quality": 7.7,
+      "Service": 7.77,
+      "Ambience": 8.22,
+      "Value for Money": 8.03,
+      "Accessibility & Amenities": 8.14
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 562,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 2.",
+      "long": "Souq Bite 2 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Outdoor Seating",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "International"
+    ],
+    "meals": [
+      "Breakfast",
+      "Brunch"
+    ]
   },
   {
     "id": "souq-bite-20",
@@ -12130,7 +14060,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-20",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-20"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-20",
+      "menu": "https://example.com/souq-bite-20/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12145,7 +14076,40 @@
         "id": "7284030"
       },
       "wikidata_id": "Q451615"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.51,
+    "subscores": {
+      "Food Quality": 8.74,
+      "Service": 8.37,
+      "Ambience": 8.84,
+      "Value for Money": 8.79,
+      "Accessibility & Amenities": 8.39
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 95,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 20.",
+      "long": "Souq Bite 20 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-3",
@@ -12177,7 +14141,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-3",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-3"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-3",
+      "menu": "https://example.com/souq-bite-3/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12192,7 +14157,40 @@
         "id": "9355306"
       },
       "wikidata_id": "Q702933"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.28,
+    "subscores": {
+      "Food Quality": 8.56,
+      "Service": 8.19,
+      "Ambience": 8.65,
+      "Value for Money": 8.56,
+      "Accessibility & Amenities": 7.88
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 165,
+      "insight": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 3.",
+      "long": "Souq Bite 3 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Italian"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-4",
@@ -12224,7 +14222,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-4",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-4"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-4",
+      "menu": "https://example.com/souq-bite-4/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12239,7 +14238,40 @@
         "id": "7500230"
       },
       "wikidata_id": "Q962801"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.92,
+    "subscores": {
+      "Food Quality": 8.74,
+      "Service": 8.59,
+      "Ambience": 8.79,
+      "Value for Money": 9.29,
+      "Accessibility & Amenities": 9.13
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 114,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 4.",
+      "long": "Souq Bite 4 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-5",
@@ -12271,7 +14303,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-5",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-5"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-5",
+      "menu": "https://example.com/souq-bite-5/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12286,7 +14319,40 @@
         "id": "6309208"
       },
       "wikidata_id": "Q99699"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "rating_overall": 8.36,
+    "subscores": {
+      "Food Quality": 8.11,
+      "Service": 8.55,
+      "Ambience": 8.06,
+      "Value for Money": 8.47,
+      "Accessibility & Amenities": 8.05
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 281,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 5.",
+      "long": "Souq Bite 5 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "International",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-6",
@@ -12318,7 +14384,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-6",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-6"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-6",
+      "menu": "https://example.com/souq-bite-6/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12333,7 +14400,40 @@
         "id": "4913395"
       },
       "wikidata_id": "Q752783"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 8.69,
+    "subscores": {
+      "Food Quality": 8.37,
+      "Service": 9.08,
+      "Ambience": 8.46,
+      "Value for Money": 8.5,
+      "Accessibility & Amenities": 8.91
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 230,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 6.",
+      "long": "Souq Bite 6 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-7",
@@ -12365,7 +14465,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-7",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-7"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-7",
+      "menu": "https://example.com/souq-bite-7/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12380,7 +14481,40 @@
         "id": "2068244"
       },
       "wikidata_id": "Q972230"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "rating_overall": 8.23,
+    "subscores": {
+      "Food Quality": 8.19,
+      "Service": 8.6,
+      "Ambience": 8.22,
+      "Value for Money": 8.29,
+      "Accessibility & Amenities": 8.52
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 150,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 7.",
+      "long": "Souq Bite 7 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Turkish"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ]
   },
   {
     "id": "souq-bite-8",
@@ -12412,7 +14546,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-8",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-8"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-8",
+      "menu": "https://example.com/souq-bite-8/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12427,7 +14562,40 @@
         "id": "6053228"
       },
       "wikidata_id": "Q506988"
-    }
+    },
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 7.93,
+    "subscores": {
+      "Food Quality": 8.29,
+      "Service": 8.24,
+      "Ambience": 8.01,
+      "Value for Money": 7.87,
+      "Accessibility & Amenities": 7.61
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 71,
+      "insight": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 8.",
+      "long": "Souq Bite 8 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ]
   },
   {
     "id": "souq-bite-9",
@@ -12459,7 +14627,8 @@
     "actions": {
       "website": "https://www.example.com/souq-bite-9",
       "phone": "+968 24 000 000",
-      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-9"
+      "maps_url": "https://www.openstreetmap.org/search?query=souq-bite-9",
+      "menu": "https://example.com/souq-bite-9/menu"
     },
     "images": {
       "logo": "assets/images/restaurants.png",
@@ -12474,7 +14643,40 @@
         "id": "3000813"
       },
       "wikidata_id": "Q95986"
-    }
+    },
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "rating_overall": 9.26,
+    "subscores": {
+      "Food Quality": 8.96,
+      "Service": 9.24,
+      "Ambience": 9.38,
+      "Value for Money": 9.35,
+      "Accessibility & Amenities": 8.92
+    },
+    "public_reviews": {
+      "source": "Google",
+      "count": 166,
+      "insight": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 9.",
+      "long": "Souq Bite 9 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ]
   },
   {
     "id": "spice-route-restaurant",
@@ -12565,34 +14767,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -12695,13 +14914,17 @@
       "lat": 23.625837,
       "lng": 58.503134
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://www.squ.edu.om/"
   },
   {
@@ -12791,34 +15014,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -12877,7 +15117,7 @@
     "beta": false,
     "created_at": "2025-09-02",
     "badges": [],
-    "rating_overall": 8.6,
+    "rating_overall": 8.54,
     "address_full": "Muscat, Oman",
     "status": "Open",
     "busyness": "Usually Busy",
@@ -12892,17 +15132,17 @@
       "maps_url": "https://www.openstreetmap.org/search?query=the-chedi-muscat"
     },
     "about": {
-      "short": "Stylish urban resort with tranquil gardens.",
-      "long": "An elegant blend of Omani architecture and Asian zen, The Chedi features serene pools, landscaped gardens and award‑winning restaurants minutes from downtown Muscat."
+      "short": "Sample hotel description for The Chedi Muscat.",
+      "long": "The Chedi Muscat is a hypothetical hotel entry used to test the ingestion pipeline. Replace this text with real content."
     },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
-      "Food Quality": 8.53,
-      "Service": 8.48,
-      "Ambience": 8.66,
-      "Value for Money": 8.45,
-      "Accessibility & Amenities": 8.5
+      "Food Quality": 8.19,
+      "Service": 8.59,
+      "Ambience": 8.9,
+      "Value for Money": 8.64,
+      "Accessibility & Amenities": 8.61
     },
     "public_sentiment": {
       "source": "Google Reviews",
@@ -12965,7 +15205,20 @@
         "id": "155716"
       },
       "wikidata_id": "Q105116"
-    }
+    },
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "public_reviews": {
+      "source": "Google",
+      "count": 87,
+      "insight": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "amenities": [
+      "Family Friendly",
+      "Gym",
+      "Pool"
+    ]
   },
   {
     "id": "tranquility-spa",
@@ -12989,13 +15242,17 @@
       "lat": 23.595722,
       "lng": 58.470786
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/tranquility-spa"
   },
   {
@@ -13020,18 +15277,23 @@
       "lat": 23.64984,
       "lng": 58.516884
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "08:00",
-        "close": "23:00"
-      },
-      {
-        "days": "Fri",
-        "open": "13:00",
-        "close": "23:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "13:00",
+            "close": "23:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/turkuaz"
   },
   {
@@ -13121,34 +15383,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -13270,34 +15549,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -13630,34 +15926,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
@@ -13690,13 +16003,17 @@
       "lat": 23.558001,
       "lng": 58.452841
     },
-    "hours": [
-      {
-        "days": "Sat-Thu",
-        "open": "09:00",
-        "close": "17:00"
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ]
       }
-    ],
+    },
     "url": "https://example.com/yiti-beach"
   },
   {
@@ -13786,34 +16103,51 @@
       "seating": []
     },
     "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
     },
     "location": {
       "neighborhood": "Muscat",
