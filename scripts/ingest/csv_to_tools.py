@@ -6,6 +6,7 @@ from pathlib import Path
 from collections import defaultdict
 from urllib.parse import urlparse
 from typing import Optional
+from scripts.utils.hours import parse_hours as _parse_hours
 
 ROOT = Path(__file__).resolve().parents[2]  # repo root
 DATA_DIR = ROOT / "data"
@@ -115,8 +116,17 @@ def discover_rows():
     return rows
 
 def parse_hours(hours_raw: str):
-    """Your existing hours parsing. If you already have scripts/utils/hours.py, import and call it instead."""
-    if not hours_raw:
+    # Use the real parser; if nothing useful parsed, return None
+    if not hours_raw or not str(hours_raw).strip():
+        return None
+    try:
+        hrs = _parse_hours(str(hours_raw).strip(), tz="Asia/Muscat")
+        # If weekly has no intervals at all, drop hours (schema prefers None over empty)
+        if isinstance(hrs, dict) and isinstance(hrs.get("weekly"), dict):
+            if all((not v) for v in hrs["weekly"].values()):
+                return None
+        return hrs
+    except Exception:
         return None
     # Accept JSON-ish or OSM-like "Mo-Fr 09:00-17:00; Sa-Su 10:00-22:00"
     # For now, just return a minimal structure; replace with your real parser if present.
