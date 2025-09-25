@@ -37,10 +37,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Specialized medical care and diagnostics.",
-      "Advanced Care Clinic houses specialist physicians in cardiology, dermatology and endocrinology with modern diagnostic technology."
-    ],
+    "about": {
+      "short": "Specialized medical care and diagnostics.",
+      "long": "Advanced Care Clinic houses specialist physicians in cardiology, dermatology and endocrinology with modern diagnostic technology."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -195,10 +195,10 @@
       "phone": "+968 24 000 000",
       "maps_url": "https://www.openstreetmap.org/search?query=al-bustan-palace"
     },
-    "about": [
-      "Luxury beachfront resort with palace‑like grandeur.",
-      "Nestled between the Al Hajar Mountains and the Sea of Oman, Al Bustan Palace offers palatial accommodations, fine dining and a private beach with pristine waters."
-    ],
+    "about": {
+      "short": "Luxury beachfront resort with palace‑like grandeur.",
+      "long": "Nestled between the Al Hajar Mountains and the Sea of Oman, Al Bustan Palace offers palatial accommodations, fine dining and a private beach with pristine waters."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -309,10 +309,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Community school emphasizing values and academics.",
-      "Al Huda Primary School combines strong academic standards with values‑based education, nurturing young minds in a supportive atmosphere."
-    ],
+    "about": {
+      "short": "Community school emphasizing values and academics.",
+      "long": "Al Huda Primary School combines strong academic standards with values‑based education, nurturing young minds in a supportive atmosphere."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -481,10 +481,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Comprehensive outpatient services.",
-      "Al Shifa Medical Clinic provides general medicine, diagnostics and minor surgeries with an emphasis on patient comfort and care."
-    ],
+    "about": {
+      "short": "Comprehensive outpatient services.",
+      "long": "Al Shifa Medical Clinic provides general medicine, diagnostics and minor surgeries with an emphasis on patient comfort and care."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -606,10 +606,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Family eatery serving Middle Eastern favorites.",
-      "Bring the family to Aladdin’s Eatery for generous mezze platters, kebabs and shawarma in a friendly and colorful setting."
-    ],
+    "about": {
+      "short": "Family eatery serving Middle Eastern favorites.",
+      "long": "Bring the family to Aladdin’s Eatery for generous mezze platters, kebabs and shawarma in a friendly and colorful setting."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -755,10 +755,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "US curriculum with strong sports and arts programs.",
-      "This renowned school follows the American curriculum, offering AP courses, advanced facilities and a wide range of arts and athletics."
-    ],
+    "about": {
+      "short": "US curriculum with strong sports and arts programs.",
+      "long": "This renowned school follows the American curriculum, offering AP courses, advanced facilities and a wide range of arts and athletics."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -880,10 +880,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Contemporary mall with global brands.",
-      "Avenues Mall Muscat features an airy design, popular international brands, cafes and regular family events."
-    ],
+    "about": {
+      "short": "Contemporary mall with global brands.",
+      "long": "Avenues Mall Muscat features an airy design, popular international brands, cafes and regular family events."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1114,10 +1114,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Stylish mall with upscale retailers.",
-      "Barceló Mall combines upscale fashion, gourmet restaurants and high‑end services in an elegant, modern setting."
-    ],
+    "about": {
+      "short": "Stylish mall with upscale retailers.",
+      "long": "Barceló Mall combines upscale fashion, gourmet restaurants and high‑end services in an elegant, modern setting."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1270,10 +1270,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Spacious suites steps from the sand.",
-      "Beachside Suites offers apartment‑style accommodations with kitchenettes, private balconies and direct access to one of Muscat’s most popular beaches."
-    ],
+    "about": {
+      "short": "Spacious suites steps from the sand.",
+      "long": "Beachside Suites offers apartment‑style accommodations with kitchenettes, private balconies and direct access to one of Muscat’s most popular beaches."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1395,10 +1395,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Small class sizes and individualized attention.",
-      "Beacon Private School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community."
-    ],
+    "about": {
+      "short": "Small class sizes and individualized attention.",
+      "long": "Beacon Private School prides itself on personalized learning, with small classes, dedicated teachers and a supportive community."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1551,10 +1551,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Thalassotherapy and marine‑inspired treatments.",
-      "Blue Lagoon Spa harnesses the healing properties of seawater through thalassotherapy pools, seaweed wraps and marine facials."
-    ],
+    "about": {
+      "short": "Thalassotherapy and marine‑inspired treatments.",
+      "long": "Blue Lagoon Spa harnesses the healing properties of seawater through thalassotherapy pools, seaweed wraps and marine facials."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1676,10 +1676,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Charming boutique rooms with local flair.",
-      "This intimate boutique hotel delights guests with uniquely decorated rooms, personalized service and a warm Omani ambience."
-    ],
+    "about": {
+      "short": "Charming boutique rooms with local flair.",
+      "long": "This intimate boutique hotel delights guests with uniquely decorated rooms, personalized service and a warm Omani ambience."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1801,10 +1801,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Nurturing environment with holistic programs.",
-      "Bright Future School offers creative arts, sports and language programs alongside core academics to encourage well‑rounded development."
-    ],
+    "about": {
+      "short": "Nurturing environment with holistic programs.",
+      "long": "Bright Future School offers creative arts, sports and language programs alongside core academics to encourage well‑rounded development."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -1926,10 +1926,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Lebanese flavors in a cozy atmosphere.",
-      "Cedar Tree Cafe serves traditional Lebanese dishes like fattoush, hummus and grilled meats in a cozy, cedar‑scented dining room."
-    ],
+    "about": {
+      "short": "Lebanese flavors in a cozy atmosphere.",
+      "long": "Cedar Tree Cafe serves traditional Lebanese dishes like fattoush, hummus and grilled meats in a cozy, cedar‑scented dining room."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -2111,10 +2111,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Comfort and convenience in central Muscat.",
-      "Located near the city’s commercial hub, City Center Inn provides cozy rooms, free Wi‑Fi and easy access to Muscat’s business districts and attractions."
-    ],
+    "about": {
+      "short": "Comfort and convenience in central Muscat.",
+      "long": "Located near the city’s commercial hub, City Center Inn provides cozy rooms, free Wi‑Fi and easy access to Muscat’s business districts and attractions."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -2773,10 +2773,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "A tranquil retreat in the golden dunes.",
-      "Escape to the Desert Oasis Resort for panoramic desert views, traditional Bedouin tents and a luxurious spa offering local wellness rituals."
-    ],
+    "about": {
+      "short": "A tranquil retreat in the golden dunes.",
+      "long": "Escape to the Desert Oasis Resort for panoramic desert views, traditional Bedouin tents and a luxurious spa offering local wellness rituals."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -2898,10 +2898,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Spa haven drawing inspiration from desert botanicals.",
-      "Treat yourself to locally inspired scrubs and mud wraps at Desert Springs Spa, using ingredients like frankincense and date palm."
-    ],
+    "about": {
+      "short": "Spa haven drawing inspiration from desert botanicals.",
+      "long": "Treat yourself to locally inspired scrubs and mud wraps at Desert Springs Spa, using ingredients like frankincense and date palm."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3023,10 +3023,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Sweet treats and artisan coffee.",
-      "Indulge in homemade cakes, pastries and hand‑crafted coffees at Dessert House, a bakery‑cafe loved by locals and visitors alike."
-    ],
+    "about": {
+      "short": "Sweet treats and artisan coffee.",
+      "long": "Indulge in homemade cakes, pastries and hand‑crafted coffees at Dessert House, a bakery‑cafe loved by locals and visitors alike."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3208,10 +3208,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Friendly general practice serving all ages.",
-      "Family Health Clinic provides general practice services, chronic disease management and minor procedures for patients of all ages."
-    ],
+    "about": {
+      "short": "Friendly general practice serving all ages.",
+      "long": "Family Health Clinic provides general practice services, chronic disease management and minor procedures for patients of all ages."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3358,10 +3358,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Casual cafe set in a lush courtyard.",
-      "This laid‑back cafe offers light meals, specialty coffees and fresh pastries surrounded by tropical greenery and bubbling fountains."
-    ],
+    "about": {
+      "short": "Casual cafe set in a lush courtyard.",
+      "long": "This laid‑back cafe offers light meals, specialty coffees and fresh pastries surrounded by tropical greenery and bubbling fountains."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3538,10 +3538,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Accessible education with bilingual programs.",
-      "Global Public School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community."
-    ],
+    "about": {
+      "short": "Accessible education with bilingual programs.",
+      "long": "Global Public School provides accessible quality education and bilingual programs in English and Arabic, fostering an inclusive community."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3688,10 +3688,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Eco‑conscious healthcare with natural therapies.",
-      "Green Medical Clinic combines conventional medicine with naturopathy, offering treatments like herbal remedies, acupuncture and nutrition guidance."
-    ],
+    "about": {
+      "short": "Eco‑conscious healthcare with natural therapies.",
+      "long": "Green Medical Clinic combines conventional medicine with naturopathy, offering treatments like herbal remedies, acupuncture and nutrition guidance."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -3813,10 +3813,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Eco‑friendly campus promoting sustainability.",
-      "Green Valley School is set on a eco‑friendly campus and integrates sustainability principles into its curriculum and daily operations."
-    ],
+    "about": {
+      "short": "Eco‑friendly campus promoting sustainability.",
+      "long": "Green Valley School is set on a eco‑friendly campus and integrates sustainability principles into its curriculum and daily operations."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -4173,10 +4173,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Play‑based learning for early years.",
-      "Happy Kids Nursery provides a safe and stimulating environment for toddlers and preschoolers with focus on play‑based learning and care."
-    ],
+    "about": {
+      "short": "Play‑based learning for early years.",
+      "long": "Happy Kids Nursery provides a safe and stimulating environment for toddlers and preschoolers with focus on play‑based learning and care."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -4298,10 +4298,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Sound therapy and deep relaxation.",
-      "Harmony Spa specializes in sound therapy using Tibetan singing bowls, gongs and guided breathing sessions to promote deep relaxation."
-    ],
+    "about": {
+      "short": "Sound therapy and deep relaxation.",
+      "long": "Harmony Spa specializes in sound therapy using Tibetan singing bowls, gongs and guided breathing sessions to promote deep relaxation."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -5560,10 +5560,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Cambridge curriculum with modern facilities.",
-      "Knowledge Gate School offers the Cambridge IGCSE and A‑Level programs with state‑of‑the‑art classrooms, labs and extracurricular opportunities."
-    ],
+    "about": {
+      "short": "Cambridge curriculum with modern facilities.",
+      "long": "Knowledge Gate School offers the Cambridge IGCSE and A‑Level programs with state‑of‑the‑art classrooms, labs and extracurricular opportunities."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -5920,10 +5920,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Ayurvedic therapies and mindfulness sessions.",
-      "Lotus Spa offers Ayurveda consultations, herbal treatments and guided meditation to align body and mind."
-    ],
+    "about": {
+      "short": "Ayurvedic therapies and mindfulness sessions.",
+      "long": "Lotus Spa offers Ayurveda consultations, herbal treatments and guided meditation to align body and mind."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -6467,10 +6467,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Flagship mall featuring indoor snow park.",
-      "Mall of Oman offers luxury boutiques, diverse dining, a multiplex and the region’s first indoor snow park for year‑round fun."
-    ],
+    "about": {
+      "short": "Flagship mall featuring indoor snow park.",
+      "long": "Mall of Oman offers luxury boutiques, diverse dining, a multiplex and the region’s first indoor snow park for year‑round fun."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -6628,10 +6628,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Outlet mall with family entertainment.",
-      "Markaz Al Bahja features outlet shopping, children’s play areas and a relaxed food court, making it a popular weekend destination."
-    ],
+    "about": {
+      "short": "Outlet mall with family entertainment.",
+      "long": "Markaz Al Bahja features outlet shopping, children’s play areas and a relaxed food court, making it a popular weekend destination."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -6731,10 +6731,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Fresh Mediterranean and vegetarian options.",
-      "This health‑conscious restaurant offers a variety of vegetarian and Mediterranean dishes prepared with organic local produce."
-    ],
+    "about": {
+      "short": "Fresh Mediterranean and vegetarian options.",
+      "long": "This health‑conscious restaurant offers a variety of vegetarian and Mediterranean dishes prepared with organic local produce."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -6880,10 +6880,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Desert chic spa with hammam and sauna.",
-      "Mirage Spa offers contemporary design, private hammams, aromatherapy steam rooms and a selection of signature massages."
-    ],
+    "about": {
+      "short": "Desert chic spa with hammam and sauna.",
+      "long": "Mirage Spa offers contemporary design, private hammams, aromatherapy steam rooms and a selection of signature massages."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -7007,10 +7007,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Large shopping mall with international brands.",
-      "Muscat City Centre boasts a broad range of retail stores, dining outlets, multiplex cinema and family entertainment options."
-    ],
+    "about": {
+      "short": "Large shopping mall with international brands.",
+      "long": "Muscat City Centre boasts a broad range of retail stores, dining outlets, multiplex cinema and family entertainment options."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -7110,10 +7110,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Modern mall blending retail and leisure.",
-      "Muscat Grand Mall offers retail therapy alongside cafes, entertainment zones and special events such as exhibitions and markets."
-    ],
+    "about": {
+      "short": "Modern mall blending retail and leisure.",
+      "long": "Muscat Grand Mall offers retail therapy alongside cafes, entertainment zones and special events such as exhibitions and markets."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -7215,10 +7215,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Leading international curriculum with multicultural community.",
-      "Muscat International School provides world‑class education from kindergarten to Grade 12, featuring IB and Cambridge curricula and extensive extracurriculars."
-    ],
+    "about": {
+      "short": "Leading international curriculum with multicultural community.",
+      "long": "Muscat International School provides world‑class education from kindergarten to Grade 12, featuring IB and Cambridge curricula and extensive extracurriculars."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -7342,10 +7342,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Comprehensive healthcare for families.",
-      "Muscat Medical Clinic offers family medicine, pediatrics, immunizations and diagnostic services with experienced physicians."
-    ],
+    "about": {
+      "short": "Comprehensive healthcare for families.",
+      "long": "Muscat Medical Clinic offers family medicine, pediatrics, immunizations and diagnostic services with experienced physicians."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8061,10 +8061,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Shopping and dining in a relaxed environment.",
-      "Oasis Mall offers an array of everyday retailers, supermarkets and eateries, perfect for a casual shopping trip."
-    ],
+    "about": {
+      "short": "Shopping and dining in a relaxed environment.",
+      "long": "Oasis Mall offers an array of everyday retailers, supermarkets and eateries, perfect for a casual shopping trip."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8188,10 +8188,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Revitalizing massages and hydrotherapy.",
-      "Oasis Spa offers a menu of massages, hydrotherapy treatments and hammams designed to refresh body and mind in a peaceful setting."
-    ],
+    "about": {
+      "short": "Revitalizing massages and hydrotherapy.",
+      "long": "Oasis Spa offers a menu of massages, hydrotherapy treatments and hammams designed to refresh body and mind in a peaceful setting."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8313,10 +8313,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Contemporary rooms with sweeping sea views.",
-      "Ocean View Hotel offers modern accommodations overlooking the Gulf of Oman, rooftop infinity pool and quick access to beaches and shopping."
-    ],
+    "about": {
+      "short": "Contemporary rooms with sweeping sea views.",
+      "long": "Ocean View Hotel offers modern accommodations overlooking the Gulf of Oman, rooftop infinity pool and quick access to beaches and shopping."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8516,10 +8516,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Primary care and preventive medicine.",
-      "Offering vaccinations, general consultations and wellness programs, Oman Health Center focuses on preventive healthcare and patient education."
-    ],
+    "about": {
+      "short": "Primary care and preventive medicine.",
+      "long": "Offering vaccinations, general consultations and wellness programs, Oman Health Center focuses on preventive healthcare and patient education."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8641,10 +8641,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Innovative learning with STEM focus.",
-      "This academy integrates modern pedagogies with robust STEM programs, preparing students for university and beyond in a collaborative environment."
-    ],
+    "about": {
+      "short": "Innovative learning with STEM focus.",
+      "long": "This academy integrates modern pedagogies with robust STEM programs, preparing students for university and beyond in a collaborative environment."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -8766,10 +8766,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Home‑style Omani cuisine in a heritage villa.",
-      "Dine in a restored heritage villa where chefs serve family recipes like shuwa, majboos and halwa using time‑honored techniques."
-    ],
+    "about": {
+      "short": "Home‑style Omani cuisine in a heritage villa.",
+      "long": "Dine in a restored heritage villa where chefs serve family recipes like shuwa, majboos and halwa using time‑honored techniques."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -9416,10 +9416,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Family‑friendly stay amid lush palms.",
-      "Set within a verdant palm grove, this hotel offers spacious suites, an outdoor children’s play area and on‑site dining ideal for families visiting Muscat."
-    ],
+    "about": {
+      "short": "Family‑friendly stay amid lush palms.",
+      "long": "Set within a verdant palm grove, this hotel offers spacious suites, an outdoor children’s play area and on‑site dining ideal for families visiting Muscat."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -9541,10 +9541,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Island‑style relaxation with coconut treatments.",
-      "Escape to Palm Retreat Spa for massages using coconut oil, tropical body scrubs and couples’ suites overlooking swaying palms."
-    ],
+    "about": {
+      "short": "Island‑style relaxation with coconut treatments.",
+      "long": "Escape to Palm Retreat Spa for massages using coconut oil, tropical body scrubs and couples’ suites overlooking swaying palms."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -9666,10 +9666,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Boutique shopping with panoramic views.",
-      "Perched on a hillside, Panorama Mall offers a curated selection of boutiques, fine dining and terrace views over Muscat."
-    ],
+    "about": {
+      "short": "Boutique shopping with panoramic views.",
+      "long": "Perched on a hillside, Panorama Mall offers a curated selection of boutiques, fine dining and terrace views over Muscat."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -9791,10 +9791,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Accessible primary care for everyday needs.",
-      "Primary Care Clinic serves the local community with walk‑in appointments, chronic disease management and health screenings."
-    ],
+    "about": {
+      "short": "Accessible primary care for everyday needs.",
+      "long": "Primary Care Clinic serves the local community with walk‑in appointments, chronic disease management and health screenings."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -9947,10 +9947,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Neighborhood mall with convenient services.",
-      "Qurum City Centre houses grocery stores, fashion retailers and casual dining, serving locals with convenience and variety."
-    ],
+    "about": {
+      "short": "Neighborhood mall with convenient services.",
+      "long": "Qurum City Centre houses grocery stores, fashion retailers and casual dining, serving locals with convenience and variety."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -10190,10 +10190,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Compact mall catering to daily needs.",
-      "Rimal Mall serves the local neighborhood with supermarkets, pharmacies, fashion stores and casual eateries."
-    ],
+    "about": {
+      "short": "Compact mall catering to daily needs.",
+      "long": "Rimal Mall serves the local neighborhood with supermarkets, pharmacies, fashion stores and casual eateries."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -10315,10 +10315,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Elegant lodging with landscaped courtyards.",
-      "Royal Garden Hotel features classic architecture, beautiful courtyards and refined service in a serene setting near the embassy district."
-    ],
+    "about": {
+      "short": "Elegant lodging with landscaped courtyards.",
+      "long": "Royal Garden Hotel features classic architecture, beautiful courtyards and refined service in a serene setting near the embassy district."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -10440,10 +10440,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Traditional hammam rituals fit for royalty.",
-      "Royal Hammam Spa offers authentic Moroccan hammam experiences with steam, black soap, exfoliation and massage in an opulent setting."
-    ],
+    "about": {
+      "short": "Traditional hammam rituals fit for royalty.",
+      "long": "Royal Hammam Spa offers authentic Moroccan hammam experiences with steam, black soap, exfoliation and massage in an opulent setting."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -10637,10 +10637,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Fresh catch from the Arabian Sea.",
-      "Sample the freshest fish and shellfish grilled to perfection at Seafood Grill, featuring waterfront seating and a relaxed atmosphere."
-    ],
+    "about": {
+      "short": "Fresh catch from the Arabian Sea.",
+      "long": "Sample the freshest fish and shellfish grilled to perfection at Seafood Grill, featuring waterfront seating and a relaxed atmosphere."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -10786,10 +10786,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "All‑inclusive family fun on the beach.",
-      "Seaside Resort provides an all‑inclusive escape featuring multiple restaurants, kids’ club, watersports and nightly entertainment for a memorable stay."
-    ],
+    "about": {
+      "short": "All‑inclusive family fun on the beach.",
+      "long": "Seaside Resort provides an all‑inclusive escape featuring multiple restaurants, kids’ club, watersports and nightly entertainment for a memorable stay."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -11240,10 +11240,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Holistic spa combining fitness and relaxation.",
-      "Serenity Wellness Center offers yoga classes, fitness training and spa treatments such as facials, aromatherapy and reflexology."
-    ],
+    "about": {
+      "short": "Holistic spa combining fitness and relaxation.",
+      "long": "Serenity Wellness Center offers yoga classes, fitness training and spa treatments such as facials, aromatherapy and reflexology."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -11449,10 +11449,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Comprehensive dental care for your smile.",
-      "From routine cleanings to cosmetic dentistry and orthodontics, Smile Dental Clinic uses modern equipment to keep your smile healthy."
-    ],
+    "about": {
+      "short": "Comprehensive dental care for your smile.",
+      "long": "From routine cleanings to cosmetic dentistry and orthodontics, Smile Dental Clinic uses modern equipment to keep your smile healthy."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -12516,10 +12516,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Authentic Omani flavors on your plate.",
-      "Spice Route serves traditional Omani dishes seasoned with aromatic spices, accompanied by live oud music and warm hospitality."
-    ],
+    "about": {
+      "short": "Authentic Omani flavors on your plate.",
+      "long": "Spice Route serves traditional Omani dishes seasoned with aromatic spices, accompanied by live oud music and warm hospitality."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -12742,10 +12742,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Mediterranean cuisine with sunset views.",
-      "Enjoy tapas, fresh salads and wood‑fired pizzas while watching the sun dip below the horizon at Sunset Bistro’s terrace."
-    ],
+    "about": {
+      "short": "Mediterranean cuisine with sunset views.",
+      "long": "Enjoy tapas, fresh salads and wood‑fired pizzas while watching the sun dip below the horizon at Sunset Bistro’s terrace."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -12891,10 +12891,10 @@
       "phone": "+968 24 000 000",
       "maps_url": "https://www.openstreetmap.org/search?query=the-chedi-muscat"
     },
-    "about": [
-      "Stylish urban resort with tranquil gardens.",
-      "An elegant blend of Omani architecture and Asian zen, The Chedi features serene pools, landscaped gardens and award‑winning restaurants minutes from downtown Muscat."
-    ],
+    "about": {
+      "short": "Stylish urban resort with tranquil gardens.",
+      "long": "An elegant blend of Omani architecture and Asian zen, The Chedi features serene pools, landscaped gardens and award‑winning restaurants minutes from downtown Muscat."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -13072,10 +13072,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Casual international dining downtown.",
-      "Urban Diner offers a mix of global comfort foods—from burgers to curries—served in a modern, stylish space in central Muscat."
-    ],
+    "about": {
+      "short": "Casual international dining downtown.",
+      "long": "Urban Diner offers a mix of global comfort foods—from burgers to curries—served in a modern, stylish space in central Muscat."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -13221,10 +13221,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Expert eye care and optical services.",
-      "Vision Eye Clinic offers comprehensive eye exams, cataract surgery and a wide selection of prescription glasses and contact lenses."
-    ],
+    "about": {
+      "short": "Expert eye care and optical services.",
+      "long": "Vision Eye Clinic offers comprehensive eye exams, cataract surgery and a wide selection of prescription glasses and contact lenses."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -13581,10 +13581,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Integrated primary care and rehabilitation.",
-      "Wellness Medical Center offers internal medicine, physiotherapy and nutrition counseling to support long‑term health and recovery."
-    ],
+    "about": {
+      "short": "Integrated primary care and rehabilitation.",
+      "long": "Wellness Medical Center offers internal medicine, physiotherapy and nutrition counseling to support long‑term health and recovery."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
@@ -13737,10 +13737,10 @@
       "phone": "",
       "maps_url": ""
     },
-    "about": [
-      "Japanese‑inspired treatments for serenity.",
-      "Experience Japanese‑style onsens, shiatsu massage and tea ceremonies at Zen Garden Spa, a sanctuary of calm in Muscat."
-    ],
+    "about": {
+      "short": "Japanese‑inspired treatments for serenity.",
+      "long": "Experience Japanese‑style onsens, shiatsu massage and tea ceremonies at Zen Garden Spa, a sanctuary of calm in Muscat."
+    },
     "verified": false,
     "methodology_note": "Our ratings blend public reviews, local insights and expert opinions across quality, service and value.",
     "subscores": {
