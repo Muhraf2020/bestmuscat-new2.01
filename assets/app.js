@@ -22,6 +22,12 @@
     { name: "Spas",        slug: "spas" },
     { name: "Clinics",     slug: "clinics" },
     { name: "Malls",       slug: "malls" }
+    // new categories (from scratch)
+    { name: "Car Repair Garages",          slug: "car-repair-garages" },
+    { name: "Home Maintenance and Repair", slug: "home-maintenance-and-repair" },
+    { name: "Catering Services",           slug: "catering-services" },
+    { name: "Event Planning and Decorations", slug: "event-planning-and-decorations" },
+    { name: "Moving and Storage",          slug: "moving-and-storage" }
   ];
   const CATEGORY_SLUG_SET = new Set(CATEGORIES.map(c => c.slug));
   // ---------- SEO HELPERS (paste START) ----------
