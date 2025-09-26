@@ -1293,3 +1293,24 @@ img.logo {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* detail page layout (safe, minimal) */
+.detail-head { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; align-items: start; }
+.detail-hero img { width: 100%; height: auto; border-radius: 12px; display: block; }
+.detail-meta h1 { margin: 6px 0 8px; font-size: 1.6rem; }
+.d-sub .pill { display: inline-block; margin: 4px 6px 0 0; padding: 4px 8px; border-radius: 999px; background: #f2f3f4; font-size: .85rem; }
+.pill--rating { background: #eef7ef; }
+.d-actions .btn { margin: 10px 8px 0 0; }
+.detail-body { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-top: 24px; }
+.detail-aside .aside-box { background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 14px; }
+.score-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 10px; margin: 12px 0; }
+.score { display: flex; justify-content: space-between; background:#fafafa; border:1px solid #eee; border-radius:8px; padding:8px 10px; }
+.hours { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.hours th, .hours td { border-bottom: 1px solid #eee; padding: 6px 8px; text-align: left; }
+.related .hscroll { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 1fr); gap: 12px; overflow-x: auto; padding: 8px 0; }
+.muted { color: #888; }
+@media (max-width: 900px){
+  .detail-head { grid-template-columns: 1fr; }
+  .detail-body { grid-template-columns: 1fr; }
+}
+
