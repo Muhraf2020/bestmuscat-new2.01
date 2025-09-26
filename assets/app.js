@@ -21,7 +21,7 @@
     { name: "Schools",     slug: "schools" },
     { name: "Spas",        slug: "spas" },
     { name: "Clinics",     slug: "clinics" },
-    { name: "Malls",       slug: "malls" }
+    { name: "Malls",       slug: "malls" },
     // new (from scratch)
     { name: "Car Repair Garages",          slug: "car-repair-garages" },
     { name: "Home Maintenance and Repair", slug: "home-maintenance-and-repair" },
