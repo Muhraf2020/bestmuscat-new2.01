@@ -108,7 +108,8 @@
         : (typeof item.rating === 'number' ? item.rating : null);
 
       if (typeof overall === 'number') {
-        pill.textContent = overall.toFixed(1);
+        pill.textContent = `${overall.toFixed(1)} / 10`;
+        pill.classList.add('pill--rating');  // ensures green style on this pill too
         pill.hidden = false;
       }
 
