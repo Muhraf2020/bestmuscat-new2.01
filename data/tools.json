@@ -1,5 +1,807 @@
 [
   {
+    "id": "clinic-1",
+    "slug": "clinic-1",
+    "name": "Azaiba Family Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 4, Way 8530",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.571258,
+    "lng": 58.386854,
+    "actions": {
+      "website": "https://www.example.com/clinic-1",
+      "phone": "+968-25708088",
+      "maps_url": "https://www.google.com/maps?q=clinic-1"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000000",
+    "wikidata_id": null,
+    "url": "https://clinic-1.example.com"
+  },
+  {
+    "id": "clinic-2",
+    "slug": "clinic-2",
+    "name": "Al Noor Medical Center",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 17, Way 5645",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.533263,
+    "lng": 58.372551,
+    "actions": {
+      "website": "https://www.example.com/clinic-2",
+      "phone": "+968-26449103",
+      "maps_url": "https://www.google.com/maps?q=clinic-2"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "14:00"
+          }
+        ],
+        "sun": []
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000001",
+    "wikidata_id": null,
+    "url": "https://clinic-2.example.com"
+  },
+  {
+    "id": "clinic-3",
+    "slug": "clinic-3",
+    "name": "Ghubrah Health Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Street 80, Way 5809",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.467331,
+    "lng": 58.228719,
+    "actions": {
+      "website": "https://www.example.com/clinic-3",
+      "phone": "+968-26556047",
+      "maps_url": "https://www.google.com/maps?q=clinic-3"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000002",
+    "wikidata_id": null,
+    "url": "https://clinic-3.example.com"
+  },
+  {
+    "id": "clinic-4",
+    "slug": "clinic-4",
+    "name": "Qurum Primary Care",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 67, Way 5227",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.44346,
+    "lng": 58.243042,
+    "actions": {
+      "website": "https://www.example.com/clinic-4",
+      "phone": "+968-26523647",
+      "maps_url": "https://www.google.com/maps?q=clinic-4"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "14:00"
+          }
+        ],
+        "sun": []
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000003",
+    "wikidata_id": null,
+    "url": "https://clinic-4.example.com"
+  },
+  {
+    "id": "clinic-5",
+    "slug": "clinic-5",
+    "name": "Muttrah Medical Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 11, Way 1514",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.401834,
+    "lng": 58.276623,
+    "actions": {
+      "website": "https://www.example.com/clinic-5",
+      "phone": "+968-25079766",
+      "maps_url": "https://www.google.com/maps?q=clinic-5"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000004",
+    "wikidata_id": null,
+    "url": "https://clinic-5.example.com"
+  },
+  {
+    "id": "clinic-6",
+    "slug": "clinic-6",
+    "name": "Shatti Wellness Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Ghubrah",
+    "address": "Street 64, Way 5557",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.43967,
+    "lng": 58.369267,
+    "actions": {
+      "website": "https://www.example.com/clinic-6",
+      "phone": "+968-25524112",
+      "maps_url": "https://www.google.com/maps?q=clinic-6"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000005",
+    "wikidata_id": null,
+    "url": "https://clinic-6.example.com"
+  },
+  {
+    "id": "clinic-7",
+    "slug": "clinic-7",
+    "name": "Khuwair Care Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Ghubrah",
+    "address": "Street 84, Way 1182",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.525645,
+    "lng": 58.394527,
+    "actions": {
+      "website": "https://www.example.com/clinic-7",
+      "phone": "+968-26206993",
+      "maps_url": "https://www.google.com/maps?q=clinic-7"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000006",
+    "wikidata_id": null,
+    "url": "https://clinic-7.example.com"
+  },
+  {
+    "id": "clinic-8",
+    "slug": "clinic-8",
+    "name": "Seeb Community Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Street 90, Way 4992",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.551215,
+    "lng": 58.232877,
+    "actions": {
+      "website": "https://www.example.com/clinic-8",
+      "phone": "+968-24338662",
+      "maps_url": "https://www.google.com/maps?q=clinic-8"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000007",
+    "wikidata_id": null,
+    "url": "https://clinic-8.example.com"
+  },
+  {
+    "id": "clinic-9",
+    "slug": "clinic-9",
+    "name": "Royal Avenue Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Street 26, Way 9055",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.439982,
+    "lng": 58.50882,
+    "actions": {
+      "website": "https://www.example.com/clinic-9",
+      "phone": "+968-25823213",
+      "maps_url": "https://www.google.com/maps?q=clinic-9"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "14:00"
+          }
+        ],
+        "sun": []
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000008",
+    "wikidata_id": null,
+    "url": "https://clinic-9.example.com"
+  },
+  {
+    "id": "clinic-10",
+    "slug": "clinic-10",
+    "name": "Coastal Health Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Muttrah",
+    "address": "Street 38, Way 9396",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.517851,
+    "lng": 58.495959,
+    "actions": {
+      "website": "https://www.example.com/clinic-10",
+      "phone": "+968-25880235",
+      "maps_url": "https://www.google.com/maps?q=clinic-10"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000009",
+    "wikidata_id": null,
+    "url": "https://clinic-10.example.com"
+  },
+  {
+    "id": "clinic-11",
+    "slug": "clinic-11",
+    "name": "Horizon Dental & Medical",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 3, Way 7891",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.423619,
+    "lng": 58.309375,
+    "actions": {
+      "website": "https://www.example.com/clinic-11",
+      "phone": "+968-25595216",
+      "maps_url": "https://www.google.com/maps?q=clinic-11"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000010",
+    "wikidata_id": null,
+    "url": "https://clinic-11.example.com"
+  },
+  {
+    "id": "clinic-12",
+    "slug": "clinic-12",
+    "name": "Palm Grove Clinic",
+    "categories": [
+      "Clinics"
+    ],
+    "tagline": "Clinics services in Muscat",
+    "tags": [
+      "Family",
+      "Dermatology"
+    ],
+    "neighborhood": "Ghubrah",
+    "address": "Street 60, Way 7684",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.507177,
+    "lng": 58.506471,
+    "actions": {
+      "website": "https://www.example.com/clinic-12",
+      "phone": "+968-26638925",
+      "maps_url": "https://www.google.com/maps?q=clinic-12"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "14:00"
+          }
+        ],
+        "sun": []
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000011",
+    "wikidata_id": null,
+    "url": "https://clinic-12.example.com"
+  },
+  {
     "id": "al-bustan-palace",
     "slug": "al-bustan-palace",
     "name": "Al Bustan Palace",
@@ -7305,5 +8107,689 @@
     "osm_id": "969943",
     "wikidata_id": null,
     "url": "/tool.html?slug=global-public-school"
+  },
+  {
+    "id": "spa-1",
+    "slug": "spa-1",
+    "name": "Seaside Spa & Wellness",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 51, Way 6690",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.502553,
+    "lng": 58.424018,
+    "actions": {
+      "website": "https://www.example.com/spa-1",
+      "phone": "+968-25917070",
+      "maps_url": "https://www.google.com/maps?q=spa-1"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000000",
+    "wikidata_id": null,
+    "url": "https://spa-1.example.com"
+  },
+  {
+    "id": "spa-2",
+    "slug": "spa-2",
+    "name": "Lotus Blossom Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 28, Way 7846",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.481558,
+    "lng": 58.459148,
+    "actions": {
+      "website": "https://www.example.com/spa-2",
+      "phone": "+968-24273234",
+      "maps_url": "https://www.google.com/maps?q=spa-2"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000001",
+    "wikidata_id": null,
+    "url": "https://spa-2.example.com"
+  },
+  {
+    "id": "spa-3",
+    "slug": "spa-3",
+    "name": "Desert Rose Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 2, Way 7930",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.434876,
+    "lng": 58.268095,
+    "actions": {
+      "website": "https://www.example.com/spa-3",
+      "phone": "+968-26154660",
+      "maps_url": "https://www.google.com/maps?q=spa-3"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000002",
+    "wikidata_id": null,
+    "url": "https://spa-3.example.com"
+  },
+  {
+    "id": "spa-4",
+    "slug": "spa-4",
+    "name": "Azure Retreat Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 78, Way 3621",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.506484,
+    "lng": 58.52287,
+    "actions": {
+      "website": "https://www.example.com/spa-4",
+      "phone": "+968-24344355",
+      "maps_url": "https://www.google.com/maps?q=spa-4"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000003",
+    "wikidata_id": null,
+    "url": "https://spa-4.example.com"
+  },
+  {
+    "id": "spa-5",
+    "slug": "spa-5",
+    "name": "Al Qurum Day Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Street 78, Way 6514",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.484019,
+    "lng": 58.586194,
+    "actions": {
+      "website": "https://www.example.com/spa-5",
+      "phone": "+968-26657301",
+      "maps_url": "https://www.google.com/maps?q=spa-5"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000004",
+    "wikidata_id": null,
+    "url": "https://spa-5.example.com"
+  },
+  {
+    "id": "spa-6",
+    "slug": "spa-6",
+    "name": "Palm Oasis Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 60, Way 3769",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.523058,
+    "lng": 58.33763,
+    "actions": {
+      "website": "https://www.example.com/spa-6",
+      "phone": "+968-26185988",
+      "maps_url": "https://www.google.com/maps?q=spa-6"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000005",
+    "wikidata_id": null,
+    "url": "https://spa-6.example.com"
+  },
+  {
+    "id": "spa-7",
+    "slug": "spa-7",
+    "name": "Ghubrah Serenity Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 20, Way 2967",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.558381,
+    "lng": 58.460835,
+    "actions": {
+      "website": "https://www.example.com/spa-7",
+      "phone": "+968-24267952",
+      "maps_url": "https://www.google.com/maps?q=spa-7"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000006",
+    "wikidata_id": null,
+    "url": "https://spa-7.example.com"
+  },
+  {
+    "id": "spa-8",
+    "slug": "spa-8",
+    "name": "Al Noor Hammam & Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 84, Way 7651",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.459339,
+    "lng": 58.484936,
+    "actions": {
+      "website": "https://www.example.com/spa-8",
+      "phone": "+968-25957249",
+      "maps_url": "https://www.google.com/maps?q=spa-8"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000007",
+    "wikidata_id": null,
+    "url": "https://spa-8.example.com"
+  },
+  {
+    "id": "spa-9",
+    "slug": "spa-9",
+    "name": "Khuwair Urban Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Shatti Al Qurum",
+    "address": "Street 91, Way 4714",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.47456,
+    "lng": 58.232532,
+    "actions": {
+      "website": "https://www.example.com/spa-9",
+      "phone": "+968-24270095",
+      "maps_url": "https://www.google.com/maps?q=spa-9"
+    },
+    "hours": null,
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000008",
+    "wikidata_id": null,
+    "url": "https://spa-9.example.com"
+  },
+  {
+    "id": "spa-10",
+    "slug": "spa-10",
+    "name": "Azaiba Tranquility Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 38, Way 7418",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.567754,
+    "lng": 58.314002,
+    "actions": {
+      "website": "https://www.example.com/spa-10",
+      "phone": "+968-24313125",
+      "maps_url": "https://www.google.com/maps?q=spa-10"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000009",
+    "wikidata_id": null,
+    "url": "https://spa-10.example.com"
+  },
+  {
+    "id": "spa-11",
+    "slug": "spa-11",
+    "name": "Muttrah Harbour Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Madinat Al Sultan Qaboos",
+    "address": "Street 22, Way 5839",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.577301,
+    "lng": 58.331776,
+    "actions": {
+      "website": "https://www.example.com/spa-11",
+      "phone": "+968-25208587",
+      "maps_url": "https://www.google.com/maps?q=spa-11"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000010",
+    "wikidata_id": null,
+    "url": "https://spa-11.example.com"
+  },
+  {
+    "id": "spa-12",
+    "slug": "spa-12",
+    "name": "Shatti Rejuvenation Spa",
+    "categories": [
+      "Spas"
+    ],
+    "tagline": "Spas services in Muscat",
+    "tags": [
+      "Luxury",
+      "Wellness"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 40, Way 3358",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.541743,
+    "lng": 58.35316,
+    "actions": {
+      "website": "https://www.example.com/spa-12",
+      "phone": "+968-26243241",
+      "maps_url": "https://www.google.com/maps?q=spa-12"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "12:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "16:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": "node",
+    "osm_id": "1000011",
+    "wikidata_id": null,
+    "url": "https://spa-12.example.com"
   }
 ]
