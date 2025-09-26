@@ -114,6 +114,82 @@ def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
         "wikidata_id": r["wikidata_id"].strip() or None,
         "url": r["url"].strip() or None,
     })
+    # ── BEGIN: Extend mapping for richer fields (description, pricing, ratings, amenities, etc.) ──
+    # Simple string fields (trimmed; keep None if empty)
+    item["description"]   = (r.get("description")   or "").strip() or None
+    item["pricing"]       = (r.get("pricing")       or "").strip() or None
+    item["price_range"]   = (r.get("price_range")   or "").strip() or None
+    item["busyness_hint"] = (r.get("busyness_hint") or "").strip() or None
+    item["last_updated"]  = (r.get("last_updated")  or "").strip() or None
+
+    # Arrays from semicolon-separated CSV cells (reuses your split_tags helper)
+    am = split_tags(r.get("amenities", ""))
+    cu = split_tags(r.get("cuisines",  ""))
+    me = split_tags(r.get("meals",     ""))
+    if am: item["amenities"] = am
+    if cu: item["cuisines"]  = cu
+    if me: item["meals"]     = me
+
+    # Ratings
+    rating_overall = None
+    try:
+        if r.get("rating_overall"):
+            rating_overall = float(r["rating_overall"])
+    except ValueError:
+        rating_overall = None
+    if rating_overall is not None:
+        item["rating_overall"] = rating_overall
+
+    # Subscores → pack into an object only if at least one present
+    subscores = OrderedDict()
+    def _f(x):  # safe float
+        try:
+            return float(x) if x not in (None, "") else None
+        except ValueError:
+            return None
+    subscores["Food Quality"]            = _f(r.get("sub_food_quality"))
+    subscores["Service"]                 = _f(r.get("sub_service"))
+    subscores["Ambience"]                = _f(r.get("sub_ambience"))
+    subscores["Value for Money"]         = _f(r.get("sub_value"))
+    subscores["Accessibility & Amenities"] = _f(r.get("sub_accessibility"))
+    # drop keys that are None
+    subscores = {k:v for k,v in subscores.items() if v is not None}
+    if subscores:
+        item["subscores"] = subscores
+
+    # Public review/sentiment (count, source, summary, last_updated)
+    ps = OrderedDict()
+    try:
+        if r.get("review_count"):
+            ps["count"] = int(r["review_count"])
+    except ValueError:
+        pass
+    source  = (r.get("review_source")  or "").strip() or None
+    summary = (r.get("review_insight") or "").strip() or None
+    lu2     = (r.get("last_updated")   or "").strip() or None  # reuse if filled
+    if source:  ps["source"]  = source
+    if summary: ps["summary"] = summary
+    if lu2:     ps["last_updated"] = lu2
+    if ps:
+        item["public_sentiment"] = ps
+
+    # About (short/long) – useful for enhanced detail renderer
+    about_short = (r.get("about_short") or "").strip() or None
+    about_long  = (r.get("about_long")  or "").strip() or None
+    if about_short or about_long:
+        item["about"] = {"short": about_short, "long": about_long}
+
+    # Clean up: remove empty strings in any nested dicts we just created
+    # (You already avoid empty strings above, so this is mostly belt-and-braces.)
+    for k in ("about", "public_sentiment"):
+        if k in item and isinstance(item[k], dict):
+            for kk in list(item[k].keys()):
+                if item[k][kk] in ("", None):
+                    item[k].pop(kk, None)
+            if not item[k]:
+                item.pop(k, None)
+    # ── END: Extend mapping ──
+
     if not item["actions"]:
         item.pop("actions", None)
     return item
