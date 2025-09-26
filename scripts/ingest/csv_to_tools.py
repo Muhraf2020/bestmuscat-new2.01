@@ -14,6 +14,17 @@ DATA_DIR = ROOT / "data"
 SRC_DIR  = DATA_DIR / "sources"
 TOOLS_JSON = DATA_DIR / "tools.json"
 
+# Map CSV filename stems to canonical category names
+CATEGORY_FROM_FILENAME = {
+    "clinics": "Clinics",
+    "spas": "Spas",
+    "hotels": "Hotels",
+    "restaurants": "Restaurants",
+    "schools": "Schools",
+    "malls": "Malls",
+    "places": "Places",
+}
+
 REQUIRED = [
     "id","slug","name","category","tagline","tags",
     "neighborhood","address","city","country","lat","lng",
@@ -40,14 +51,37 @@ def split_tags(s: str) -> List[str]:
     parts = [p.strip() for p in str(s).replace("；",";").split(";")]
     return [p for p in parts if p]
 
+def read_all_csvs() -> List[Dict[str,str]]:
+    # read ALL CSVs under data/sources/
+    paths = sorted(SRC_DIR.glob("*.csv"))
+    rows: List[Dict[str,str]] = []
+    for p in paths:
+        if p.stat().st_size == 0:
+            continue
+        stem = p.stem.lower()  # e.g., "clinics", "spas"
+        with p.open("r", encoding="utf-8-sig", newline="") as f:
+            rdr = csv.DictReader(f)
+            for r in rdr:
+                rec = {k: (v or "").strip() for k, v in r.items()}
+                # If category is empty, derive from filename
+                if not rec.get("category"):
+                    rec["category"] = CATEGORY_FROM_FILENAME.get(stem, rec.get("category", ""))
+                rows.append(rec)
+    return rows
+
 def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
-    # ensure missing keys exist
+    # ensure required keys exist
     for k in REQUIRED:
         r.setdefault(k, "")
-    cats = [r["category"]] if r.get("category") else []
+    # Normalize category casing and export as array "categories"
+    cat = (r.get("category") or "").strip()
+    if cat:
+        cat = cat[0].upper() + cat[1:].lower()  # “clinics” → “Clinics”
+    cats = [cat] if cat else []
+
     item = OrderedDict({
-        "id": r["id"].strip(),
-        "slug": r["slug"].strip(),
+        "id": r["id"].strip() or (r.get("slug") or ""),
+        "slug": (r["slug"] or r["id"]).strip().lower().replace(" ","-"),
         "name": r["name"].strip(),
         "categories": cats,
         "tagline": r["tagline"].strip() or None,
@@ -74,27 +108,13 @@ def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
         "wikidata_id": r["wikidata_id"].strip() or None,
         "url": r["url"].strip() or None,
     })
-    # drop empty actions if none
     if not item["actions"]:
         item.pop("actions", None)
     return item
 
-def read_all_csvs() -> List[Dict[str,str]]:
-    # read ALL CSVs under data/sources/
-    paths = sorted(SRC_DIR.glob("*.csv"))
-    rows: List[Dict[str,str]] = []
-    for p in paths:
-        if p.stat().st_size == 0:
-            continue
-        with p.open("r", encoding="utf-8-sig", newline="") as f:
-            rdr = csv.DictReader(f)
-            for r in rdr:
-                rows.append({k:(v or "").strip() for k,v in r.items()})
-    return rows
-
 def build():
     rows = read_all_csvs()
-    # merge by slug: last write wins (simple & deterministic)
+    # merge by slug: last write wins
     merged: Dict[str, Dict[str, Any]] = OrderedDict()
     for r in rows:
         slug = (r.get("slug") or r.get("id") or "").strip()
