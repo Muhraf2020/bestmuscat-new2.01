@@ -68,7 +68,12 @@
     "osm_type": null,
     "osm_id": "10000003",
     "wikidata_id": null,
-    "url": "https://catering-1.example.com"
+    "url": "https://catering-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-1",
@@ -148,7 +153,12 @@
     "osm_type": "node",
     "osm_id": "1000000",
     "wikidata_id": null,
-    "url": "https://clinic-1.example.com"
+    "url": "https://clinic-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-2",
@@ -223,7 +233,12 @@
     "osm_type": "node",
     "osm_id": "1000001",
     "wikidata_id": null,
-    "url": "https://clinic-2.example.com"
+    "url": "https://clinic-2.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-3",
@@ -303,7 +318,12 @@
     "osm_type": "node",
     "osm_id": "1000002",
     "wikidata_id": null,
-    "url": "https://clinic-3.example.com"
+    "url": "https://clinic-3.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-4",
@@ -378,7 +398,12 @@
     "osm_type": "node",
     "osm_id": "1000003",
     "wikidata_id": null,
-    "url": "https://clinic-4.example.com"
+    "url": "https://clinic-4.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-5",
@@ -458,7 +483,12 @@
     "osm_type": "node",
     "osm_id": "1000004",
     "wikidata_id": null,
-    "url": "https://clinic-5.example.com"
+    "url": "https://clinic-5.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-6",
@@ -492,7 +522,12 @@
     "osm_type": "node",
     "osm_id": "1000005",
     "wikidata_id": null,
-    "url": "https://clinic-6.example.com"
+    "url": "https://clinic-6.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-7",
@@ -572,7 +607,12 @@
     "osm_type": "node",
     "osm_id": "1000006",
     "wikidata_id": null,
-    "url": "https://clinic-7.example.com"
+    "url": "https://clinic-7.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-8",
@@ -606,7 +646,12 @@
     "osm_type": "node",
     "osm_id": "1000007",
     "wikidata_id": null,
-    "url": "https://clinic-8.example.com"
+    "url": "https://clinic-8.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-9",
@@ -681,7 +726,12 @@
     "osm_type": "node",
     "osm_id": "1000008",
     "wikidata_id": null,
-    "url": "https://clinic-9.example.com"
+    "url": "https://clinic-9.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-10",
@@ -715,7 +765,12 @@
     "osm_type": "node",
     "osm_id": "1000009",
     "wikidata_id": null,
-    "url": "https://clinic-10.example.com"
+    "url": "https://clinic-10.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-11",
@@ -795,7 +850,12 @@
     "osm_type": "node",
     "osm_id": "1000010",
     "wikidata_id": null,
-    "url": "https://clinic-11.example.com"
+    "url": "https://clinic-11.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "clinic-12",
@@ -870,7 +930,12 @@
     "osm_type": "node",
     "osm_id": "1000011",
     "wikidata_id": null,
-    "url": "https://clinic-12.example.com"
+    "url": "https://clinic-12.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "events-1",
@@ -941,7 +1006,12 @@
     "osm_type": null,
     "osm_id": "10000004",
     "wikidata_id": null,
-    "url": "https://events-1.example.com"
+    "url": "https://events-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "garage-1",
@@ -1017,7 +1087,12 @@
     "osm_type": null,
     "osm_id": "10000001",
     "wikidata_id": null,
-    "url": "https://garage-1.example.com"
+    "url": "https://garage-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "home-1",
@@ -1098,7 +1173,12 @@
     "osm_type": null,
     "osm_id": "10000002",
     "wikidata_id": null,
-    "url": "https://home-1.example.com"
+    "url": "https://home-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "al-bustan-palace",
@@ -1179,7 +1259,12 @@
     "osm_type": "node",
     "osm_id": "9632265",
     "wikidata_id": "Q82974",
-    "url": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/overview"
+    "url": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/overview",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "the-chedi-muscat",
@@ -1261,6 +1346,11 @@
     "osm_id": "155716",
     "wikidata_id": "Q105116",
     "url": "https://www.ghmhotels.com/en/muscat/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/the-chedi-muscat/hero.webp"
     }
@@ -1299,7 +1389,12 @@
     "osm_type": "node",
     "osm_id": "6139979",
     "wikidata_id": "Q824046",
-    "url": "https://www.shangri-la.com/muscat/barraljissahresort/"
+    "url": "https://www.shangri-la.com/muscat/barraljissahresort/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-1",
@@ -1381,6 +1476,11 @@
     "osm_id": "6061353",
     "wikidata_id": "Q697578",
     "url": "/tool.html?slug=muscat-stay-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/muscat-stay-1/hero.webp"
     }
@@ -1454,7 +1554,12 @@
     "osm_type": "node",
     "osm_id": "3056003",
     "wikidata_id": "Q106085",
-    "url": "/tool.html?slug=muscat-stay-2"
+    "url": "/tool.html?slug=muscat-stay-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-3",
@@ -1535,7 +1640,12 @@
     "osm_type": "node",
     "osm_id": "4332335",
     "wikidata_id": "Q15700",
-    "url": "/tool.html?slug=muscat-stay-3"
+    "url": "/tool.html?slug=muscat-stay-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-4",
@@ -1617,6 +1727,11 @@
     "osm_id": "5194546",
     "wikidata_id": "Q389091",
     "url": "/tool.html?slug=muscat-stay-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/muscat-stay-4/hero.webp"
     }
@@ -1654,7 +1769,12 @@
     "osm_type": "node",
     "osm_id": "198214",
     "wikidata_id": "Q148418",
-    "url": "/tool.html?slug=muscat-stay-5"
+    "url": "/tool.html?slug=muscat-stay-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-6",
@@ -1736,6 +1856,11 @@
     "osm_id": "5280482",
     "wikidata_id": "Q228044",
     "url": "/tool.html?slug=muscat-stay-6",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/muscat-stay-6/hero.webp"
     }
@@ -1773,7 +1898,12 @@
     "osm_type": "node",
     "osm_id": "2847576",
     "wikidata_id": "Q555189",
-    "url": "/tool.html?slug=muscat-stay-7"
+    "url": "/tool.html?slug=muscat-stay-7",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-8",
@@ -1854,7 +1984,12 @@
     "osm_type": "node",
     "osm_id": "2341453",
     "wikidata_id": "Q811879",
-    "url": "/tool.html?slug=muscat-stay-8"
+    "url": "/tool.html?slug=muscat-stay-8",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-9",
@@ -1889,7 +2024,12 @@
     "osm_type": "node",
     "osm_id": "6458007",
     "wikidata_id": "Q247580",
-    "url": "/tool.html?slug=muscat-stay-9"
+    "url": "/tool.html?slug=muscat-stay-9",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "muscat-stay-10",
@@ -1971,6 +2111,11 @@
     "osm_id": "2963960",
     "wikidata_id": "Q515764",
     "url": "/tool.html?slug=muscat-stay-10",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/muscat-stay-10/hero.webp"
     }
@@ -2055,6 +2200,11 @@
     "osm_id": "6309097",
     "wikidata_id": "Q40836",
     "url": "https://www.omanavenuesmall.com/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/oman-avenues-mall/hero.webp"
     }
@@ -2092,7 +2242,12 @@
     "osm_type": "node",
     "osm_id": "3833989",
     "wikidata_id": "Q350731",
-    "url": "/tool.html?slug=city-walk-mall-1"
+    "url": "/tool.html?slug=city-walk-mall-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "city-walk-mall-2",
@@ -2174,6 +2329,11 @@
     "osm_id": "6539178",
     "wikidata_id": "Q699623",
     "url": "/tool.html?slug=city-walk-mall-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/city-walk-mall-2/hero.webp"
     }
@@ -2257,7 +2417,12 @@
     "osm_type": "node",
     "osm_id": "8072681",
     "wikidata_id": "Q560703",
-    "url": "/tool.html?slug=city-walk-mall-3"
+    "url": "/tool.html?slug=city-walk-mall-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "city-walk-mall-4",
@@ -2338,7 +2503,12 @@
     "osm_type": "node",
     "osm_id": "7849491",
     "wikidata_id": "Q435259",
-    "url": "/tool.html?slug=city-walk-mall-4"
+    "url": "/tool.html?slug=city-walk-mall-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "city-walk-mall-5",
@@ -2420,6 +2590,11 @@
     "osm_id": "5082953",
     "wikidata_id": "Q787588",
     "url": "/tool.html?slug=city-walk-mall-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/city-walk-mall-5/hero.webp"
     }
@@ -2503,7 +2678,12 @@
     "osm_type": null,
     "osm_id": "10000005",
     "wikidata_id": null,
-    "url": "https://moving-1.example.com"
+    "url": "https://moving-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "kargeen-cafe",
@@ -2574,7 +2754,42 @@
     "osm_type": "node",
     "osm_id": "7520591",
     "wikidata_id": "Q684236",
-    "url": "https://kargeencaffe.com/"
+    "url": "https://kargeencaffe.com/",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Indian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "rating_overall": 9.06,
+    "subscores": {
+      "Food Quality": 9.28,
+      "Service": 9.02,
+      "Ambience": 9.34,
+      "Value for Money": 8.81,
+      "Accessibility & Amenities": 9.3
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Kargeen Cafe.",
+      "long": "Kargeen Cafe is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "royal-opera-house-muscat",
@@ -2655,7 +2870,12 @@
     "osm_type": "node",
     "osm_id": "7372106",
     "wikidata_id": "Q492278",
-    "url": "https://rohmuscat.org.om/"
+    "url": "https://rohmuscat.org.om/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "sultan-qaboos-grand-mosque",
@@ -2736,6 +2956,11 @@
     "osm_id": "8434386",
     "wikidata_id": "Q724903",
     "url": "https://www.sultanqaboosgrandmosque.com/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/sultan-qaboos-grand-mosque/hero.webp"
     }
@@ -2809,7 +3034,12 @@
     "osm_type": "node",
     "osm_id": "4269176",
     "wikidata_id": "Q513372",
-    "url": "https://www.baitalzubair.com/"
+    "url": "https://www.baitalzubair.com/",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "qurum-natural-park",
@@ -2845,6 +3075,11 @@
     "osm_id": "2569712",
     "wikidata_id": "Q221183",
     "url": "/tool.html?slug=qurum-natural-park",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/qurum-natural-park/hero.webp"
     }
@@ -2919,6 +3154,11 @@
     "osm_id": "8374182",
     "wikidata_id": "Q981789",
     "url": "https://www.almouj.com/en/marina",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/al-mouj-marina/hero.webp"
     }
@@ -2992,7 +3232,42 @@
     "osm_type": "node",
     "osm_id": "2472841",
     "wikidata_id": "Q571811",
-    "url": "/tool.html?slug=souq-bite-1"
+    "url": "/tool.html?slug=souq-bite-1",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Seafood"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 8.71,
+    "subscores": {
+      "Food Quality": 8.8,
+      "Service": 8.44,
+      "Ambience": 8.32,
+      "Value for Money": 8.73,
+      "Accessibility & Amenities": 8.36
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 1.",
+      "long": "Souq Bite 1 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-2",
@@ -3073,7 +3348,42 @@
     "osm_type": "node",
     "osm_id": "2916404",
     "wikidata_id": "Q29972",
-    "url": "/tool.html?slug=souq-bite-2"
+    "url": "/tool.html?slug=souq-bite-2",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Outdoor Seating",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "International"
+    ],
+    "meals": [
+      "Breakfast",
+      "Brunch"
+    ],
+    "rating_overall": 8.1,
+    "subscores": {
+      "Food Quality": 7.7,
+      "Service": 7.77,
+      "Ambience": 8.22,
+      "Value for Money": 8.03,
+      "Accessibility & Amenities": 8.14
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 2.",
+      "long": "Souq Bite 2 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-3",
@@ -3108,7 +3418,42 @@
     "osm_type": "node",
     "osm_id": "9355306",
     "wikidata_id": "Q702933",
-    "url": "/tool.html?slug=souq-bite-3"
+    "url": "/tool.html?slug=souq-bite-3",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Italian"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "rating_overall": 8.28,
+    "subscores": {
+      "Food Quality": 8.56,
+      "Service": 8.19,
+      "Ambience": 8.65,
+      "Value for Money": 8.56,
+      "Accessibility & Amenities": 7.88
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 3.",
+      "long": "Souq Bite 3 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-4",
@@ -3143,7 +3488,42 @@
     "osm_type": "node",
     "osm_id": "7500230",
     "wikidata_id": "Q962801",
-    "url": "/tool.html?slug=souq-bite-4"
+    "url": "/tool.html?slug=souq-bite-4",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 8.92,
+    "subscores": {
+      "Food Quality": 8.74,
+      "Service": 8.59,
+      "Ambience": 8.79,
+      "Value for Money": 9.29,
+      "Accessibility & Amenities": 9.13
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 4.",
+      "long": "Souq Bite 4 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-5",
@@ -3178,7 +3558,42 @@
     "osm_type": "node",
     "osm_id": "6309208",
     "wikidata_id": "Q99699",
-    "url": "/tool.html?slug=souq-bite-5"
+    "url": "/tool.html?slug=souq-bite-5",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "International",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.36,
+    "subscores": {
+      "Food Quality": 8.11,
+      "Service": 8.55,
+      "Ambience": 8.06,
+      "Value for Money": 8.47,
+      "Accessibility & Amenities": 8.05
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 5.",
+      "long": "Souq Bite 5 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-6",
@@ -3260,6 +3675,41 @@
     "osm_id": "4913395",
     "wikidata_id": "Q752783",
     "url": "/tool.html?slug=souq-bite-6",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.69,
+    "subscores": {
+      "Food Quality": 8.37,
+      "Service": 9.08,
+      "Ambience": 8.46,
+      "Value for Money": 8.5,
+      "Accessibility & Amenities": 8.91
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 6.",
+      "long": "Souq Bite 6 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-6/hero.webp"
     }
@@ -3343,7 +3793,42 @@
     "osm_type": "node",
     "osm_id": "2068244",
     "wikidata_id": "Q972230",
-    "url": "/tool.html?slug=souq-bite-7"
+    "url": "/tool.html?slug=souq-bite-7",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Turkish"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 8.23,
+    "subscores": {
+      "Food Quality": 8.19,
+      "Service": 8.6,
+      "Ambience": 8.22,
+      "Value for Money": 8.29,
+      "Accessibility & Amenities": 8.52
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 7.",
+      "long": "Souq Bite 7 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-8",
@@ -3379,6 +3864,41 @@
     "osm_id": "6053228",
     "wikidata_id": "Q506988",
     "url": "/tool.html?slug=souq-bite-8",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ],
+    "rating_overall": 7.93,
+    "subscores": {
+      "Food Quality": 8.29,
+      "Service": 8.24,
+      "Ambience": 8.01,
+      "Value for Money": 7.87,
+      "Accessibility & Amenities": 7.61
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 8.",
+      "long": "Souq Bite 8 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-8/hero.webp"
     }
@@ -3417,6 +3937,41 @@
     "osm_id": "3000813",
     "wikidata_id": "Q95986",
     "url": "/tool.html?slug=souq-bite-9",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 9.26,
+    "subscores": {
+      "Food Quality": 8.96,
+      "Service": 9.24,
+      "Ambience": 9.38,
+      "Value for Money": 9.35,
+      "Accessibility & Amenities": 8.92
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 9.",
+      "long": "Souq Bite 9 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-9/hero.webp"
     }
@@ -3490,7 +4045,42 @@
     "osm_type": "node",
     "osm_id": "2423049",
     "wikidata_id": "Q228289",
-    "url": "/tool.html?slug=souq-bite-10"
+    "url": "/tool.html?slug=souq-bite-10",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Seafood"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "rating_overall": 8.08,
+    "subscores": {
+      "Food Quality": 8.1,
+      "Service": 8.46,
+      "Ambience": 7.75,
+      "Value for Money": 7.79,
+      "Accessibility & Amenities": 8.04
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 10.",
+      "long": "Souq Bite 10 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-11",
@@ -3525,7 +4115,42 @@
     "osm_type": "node",
     "osm_id": "7782042",
     "wikidata_id": "Q845490",
-    "url": "/tool.html?slug=souq-bite-11"
+    "url": "/tool.html?slug=souq-bite-11",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.68,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 8.86,
+      "Ambience": 8.54,
+      "Value for Money": 9.08,
+      "Accessibility & Amenities": 8.34
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 11.",
+      "long": "Souq Bite 11 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-12",
@@ -3560,7 +4185,42 @@
     "osm_type": "node",
     "osm_id": "2059932",
     "wikidata_id": "Q382181",
-    "url": "/tool.html?slug=souq-bite-12"
+    "url": "/tool.html?slug=souq-bite-12",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ],
+    "rating_overall": 8.57,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 8.48,
+      "Ambience": 8.64,
+      "Value for Money": 8.66,
+      "Accessibility & Amenities": 8.23
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 12.",
+      "long": "Souq Bite 12 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-13",
@@ -3642,6 +4302,41 @@
     "osm_id": "8742940",
     "wikidata_id": "Q893610",
     "url": "/tool.html?slug=souq-bite-13",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "Indian",
+      "International"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 8.88,
+    "subscores": {
+      "Food Quality": 8.5,
+      "Service": 8.96,
+      "Ambience": 8.86,
+      "Value for Money": 8.66,
+      "Accessibility & Amenities": 9.04
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 13.",
+      "long": "Souq Bite 13 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-13/hero.webp"
     }
@@ -3680,6 +4375,41 @@
     "osm_id": "4912634",
     "wikidata_id": "Q762",
     "url": "/tool.html?slug=souq-bite-14",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Seafood",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.72,
+    "subscores": {
+      "Food Quality": 8.67,
+      "Service": 9.03,
+      "Ambience": 8.58,
+      "Value for Money": 8.85,
+      "Accessibility & Amenities": 8.48
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 14.",
+      "long": "Souq Bite 14 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-14/hero.webp"
     }
@@ -3763,7 +4493,42 @@
     "osm_type": "node",
     "osm_id": "1085742",
     "wikidata_id": "Q257288",
-    "url": "/tool.html?slug=souq-bite-15"
+    "url": "/tool.html?slug=souq-bite-15",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Cafe"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ],
+    "rating_overall": 9.02,
+    "subscores": {
+      "Food Quality": 9.3,
+      "Service": 9.19,
+      "Ambience": 9.38,
+      "Value for Money": 8.84,
+      "Accessibility & Amenities": 8.76
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 15.",
+      "long": "Souq Bite 15 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-16",
@@ -3834,7 +4599,42 @@
     "osm_type": "node",
     "osm_id": "1561997",
     "wikidata_id": "Q367106",
-    "url": "/tool.html?slug=souq-bite-16"
+    "url": "/tool.html?slug=souq-bite-16",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Middle Eastern",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "rating_overall": 8.14,
+    "subscores": {
+      "Food Quality": 8.4,
+      "Service": 7.96,
+      "Ambience": 8.23,
+      "Value for Money": 8.28,
+      "Accessibility & Amenities": 7.96
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 16.",
+      "long": "Souq Bite 16 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-17",
@@ -3916,6 +4716,41 @@
     "osm_id": "9031743",
     "wikidata_id": "Q115134",
     "url": "/tool.html?slug=souq-bite-17",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Indian",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ],
+    "rating_overall": 9.27,
+    "subscores": {
+      "Food Quality": 8.96,
+      "Service": 8.96,
+      "Ambience": 9.3,
+      "Value for Money": 9.38,
+      "Accessibility & Amenities": 9.16
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 17.",
+      "long": "Souq Bite 17 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/souq-bite-17/hero.webp"
     }
@@ -3999,7 +4834,42 @@
     "osm_type": "node",
     "osm_id": "6705028",
     "wikidata_id": "Q603415",
-    "url": "/tool.html?slug=souq-bite-18"
+    "url": "/tool.html?slug=souq-bite-18",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Indian",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ],
+    "rating_overall": 7.9,
+    "subscores": {
+      "Food Quality": 7.72,
+      "Service": 7.78,
+      "Ambience": 8.06,
+      "Value for Money": 7.92,
+      "Accessibility & Amenities": 7.99
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 18.",
+      "long": "Souq Bite 18 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-19",
@@ -4034,7 +4904,42 @@
     "osm_type": "node",
     "osm_id": "6806143",
     "wikidata_id": "Q358906",
-    "url": "/tool.html?slug=souq-bite-19"
+    "url": "/tool.html?slug=souq-bite-19",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Parking"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Turkish"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ],
+    "rating_overall": 9.11,
+    "subscores": {
+      "Food Quality": 8.72,
+      "Service": 9.15,
+      "Ambience": 9.23,
+      "Value for Money": 9.11,
+      "Accessibility & Amenities": 9.37
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 19.",
+      "long": "Souq Bite 19 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "souq-bite-20",
@@ -4115,7 +5020,42 @@
     "osm_type": "node",
     "osm_id": "7284030",
     "wikidata_id": "Q451615",
-    "url": "/tool.html?slug=souq-bite-20"
+    "url": "/tool.html?slug=souq-bite-20",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.51,
+    "subscores": {
+      "Food Quality": 8.74,
+      "Service": 8.37,
+      "Ambience": 8.84,
+      "Value for Money": 8.79,
+      "Accessibility & Amenities": 8.39
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Souq Bite 20.",
+      "long": "Souq Bite 20 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-1",
@@ -4150,7 +5090,42 @@
     "osm_type": "node",
     "osm_id": "1460955",
     "wikidata_id": "Q443505",
-    "url": "/tool.html?slug=palm-grill-1"
+    "url": "/tool.html?slug=palm-grill-1",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "International"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 7.89,
+    "subscores": {
+      "Food Quality": 7.76,
+      "Service": 8.12,
+      "Ambience": 7.6,
+      "Value for Money": 7.61,
+      "Accessibility & Amenities": 7.9
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 1.",
+      "long": "Palm Grill 1 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-2",
@@ -4231,7 +5206,42 @@
     "osm_type": "node",
     "osm_id": "6236603",
     "wikidata_id": "Q440063",
-    "url": "/tool.html?slug=palm-grill-2"
+    "url": "/tool.html?slug=palm-grill-2",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Italian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Dinner"
+    ],
+    "rating_overall": 8.04,
+    "subscores": {
+      "Food Quality": 8.18,
+      "Service": 8.4,
+      "Ambience": 8.34,
+      "Value for Money": 8.13,
+      "Accessibility & Amenities": 7.88
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 2.",
+      "long": "Palm Grill 2 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-3",
@@ -4312,7 +5322,42 @@
     "osm_type": "node",
     "osm_id": "2853173",
     "wikidata_id": "Q514041",
-    "url": "/tool.html?slug=palm-grill-3"
+    "url": "/tool.html?slug=palm-grill-3",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "International",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Lunch"
+    ],
+    "rating_overall": 8.52,
+    "subscores": {
+      "Food Quality": 8.16,
+      "Service": 8.85,
+      "Ambience": 8.56,
+      "Value for Money": 8.91,
+      "Accessibility & Amenities": 8.22
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 3.",
+      "long": "Palm Grill 3 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-4",
@@ -4393,7 +5438,42 @@
     "osm_type": "node",
     "osm_id": "7365706",
     "wikidata_id": "Q339912",
-    "url": "/tool.html?slug=palm-grill-4"
+    "url": "/tool.html?slug=palm-grill-4",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Outdoor Seating",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.18,
+    "subscores": {
+      "Food Quality": 8.5,
+      "Service": 8.53,
+      "Ambience": 8.52,
+      "Value for Money": 8.2,
+      "Accessibility & Amenities": 7.87
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Visitors praise the atmosphere and service.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 4.",
+      "long": "Palm Grill 4 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-5",
@@ -4465,6 +5545,41 @@
     "osm_id": "5329485",
     "wikidata_id": "Q16134",
     "url": "/tool.html?slug=palm-grill-5",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Parking"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Italian"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 8.77,
+    "subscores": {
+      "Food Quality": 8.63,
+      "Service": 8.65,
+      "Ambience": 8.87,
+      "Value for Money": 8.45,
+      "Accessibility & Amenities": 8.95
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 5.",
+      "long": "Palm Grill 5 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/palm-grill-5/hero.webp"
     }
@@ -4539,6 +5654,41 @@
     "osm_id": "2628731",
     "wikidata_id": "Q62180",
     "url": "/tool.html?slug=palm-grill-6",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Seafood",
+      "Turkish"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 8.51,
+    "subscores": {
+      "Food Quality": 8.28,
+      "Service": 8.28,
+      "Ambience": 8.54,
+      "Value for Money": 8.58,
+      "Accessibility & Amenities": 8.22
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 6.",
+      "long": "Palm Grill 6 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/palm-grill-6/hero.webp"
     }
@@ -4577,6 +5727,41 @@
     "osm_id": "1087163",
     "wikidata_id": "Q314338",
     "url": "/tool.html?slug=palm-grill-7",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Lebanese",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Dinner",
+      "Lunch"
+    ],
+    "rating_overall": 9.11,
+    "subscores": {
+      "Food Quality": 8.82,
+      "Service": 8.78,
+      "Ambience": 9.02,
+      "Value for Money": 9.06,
+      "Accessibility & Amenities": 9.46
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 7.",
+      "long": "Palm Grill 7 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    },
     "images": {
       "hero": "assets/images/palm-grill-7/hero.webp"
     }
@@ -4660,7 +5845,42 @@
     "osm_type": "node",
     "osm_id": "4769270",
     "wikidata_id": "Q598982",
-    "url": "/tool.html?slug=palm-grill-8"
+    "url": "/tool.html?slug=palm-grill-8",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Cafe",
+      "Middle Eastern"
+    ],
+    "meals": [
+      "Breakfast",
+      "Brunch"
+    ],
+    "rating_overall": 9.15,
+    "subscores": {
+      "Food Quality": 9.52,
+      "Service": 8.84,
+      "Ambience": 9.15,
+      "Value for Money": 9.36,
+      "Accessibility & Amenities": 9.15
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Guests highlight cleanliness and friendly staff.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 8.",
+      "long": "Palm Grill 8 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-9",
@@ -4741,7 +5961,42 @@
     "osm_type": "node",
     "osm_id": "8962625",
     "wikidata_id": "Q103238",
-    "url": "/tool.html?slug=palm-grill-9"
+    "url": "/tool.html?slug=palm-grill-9",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Family Friendly",
+      "Parking",
+      "Wi‑Fi"
+    ],
+    "cuisines": [
+      "Asian Fusion",
+      "Italian"
+    ],
+    "meals": [
+      "Brunch",
+      "Dinner"
+    ],
+    "rating_overall": 7.8,
+    "subscores": {
+      "Food Quality": 7.54,
+      "Service": 7.53,
+      "Ambience": 7.63,
+      "Value for Money": 7.94,
+      "Accessibility & Amenities": 7.86
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Loved for ambience and food quality.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 9.",
+      "long": "Palm Grill 9 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "palm-grill-10",
@@ -4822,7 +6077,42 @@
     "osm_type": "node",
     "osm_id": "2881209",
     "wikidata_id": "Q929183",
-    "url": "/tool.html?slug=palm-grill-10"
+    "url": "/tool.html?slug=palm-grill-10",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Delivery",
+      "Family Friendly",
+      "Outdoor Seating"
+    ],
+    "cuisines": [
+      "Indian",
+      "Lebanese"
+    ],
+    "meals": [
+      "Breakfast",
+      "Lunch"
+    ],
+    "rating_overall": 7.96,
+    "subscores": {
+      "Food Quality": 7.86,
+      "Service": 8.07,
+      "Ambience": 7.59,
+      "Value for Money": 7.72,
+      "Accessibility & Amenities": 7.89
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Popular for location and value.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample restaurant description for Palm Grill 10.",
+      "long": "Palm Grill 10 is a hypothetical restaurant entry used to test the ingestion pipeline. Replace this text with real content."
+    }
   },
   {
     "id": "khareef-coffee-1",
@@ -4858,6 +6148,11 @@
     "osm_id": "176567",
     "wikidata_id": "Q754452",
     "url": "/tool.html?slug=khareef-coffee-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-1/hero.webp"
     }
@@ -4896,6 +6191,11 @@
     "osm_id": "5203838",
     "wikidata_id": "Q708459",
     "url": "/tool.html?slug=khareef-coffee-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-2/hero.webp"
     }
@@ -4979,7 +6279,12 @@
     "osm_type": "node",
     "osm_id": "4133065",
     "wikidata_id": "Q654325",
-    "url": "/tool.html?slug=khareef-coffee-3"
+    "url": "/tool.html?slug=khareef-coffee-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-4",
@@ -5015,6 +6320,11 @@
     "osm_id": "8296800",
     "wikidata_id": "Q541543",
     "url": "/tool.html?slug=khareef-coffee-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-4/hero.webp"
     }
@@ -5052,7 +6362,12 @@
     "osm_type": "node",
     "osm_id": "789546",
     "wikidata_id": "Q918254",
-    "url": "/tool.html?slug=khareef-coffee-5"
+    "url": "/tool.html?slug=khareef-coffee-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-6",
@@ -5133,7 +6448,12 @@
     "osm_type": "node",
     "osm_id": "8495882",
     "wikidata_id": "Q999805",
-    "url": "/tool.html?slug=khareef-coffee-6"
+    "url": "/tool.html?slug=khareef-coffee-6",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-7",
@@ -5169,6 +6489,11 @@
     "osm_id": "262014",
     "wikidata_id": "Q879415",
     "url": "/tool.html?slug=khareef-coffee-7",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-7/hero.webp"
     }
@@ -5252,7 +6577,12 @@
     "osm_type": "node",
     "osm_id": "5390374",
     "wikidata_id": "Q128546",
-    "url": "/tool.html?slug=khareef-coffee-8"
+    "url": "/tool.html?slug=khareef-coffee-8",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-9",
@@ -5333,7 +6663,12 @@
     "osm_type": "node",
     "osm_id": "7647567",
     "wikidata_id": "Q797305",
-    "url": "/tool.html?slug=khareef-coffee-9"
+    "url": "/tool.html?slug=khareef-coffee-9",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-10",
@@ -5369,6 +6704,11 @@
     "osm_id": "9962183",
     "wikidata_id": "Q60250",
     "url": "/tool.html?slug=khareef-coffee-10",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-10/hero.webp"
     }
@@ -5406,7 +6746,12 @@
     "osm_type": "node",
     "osm_id": "5060988",
     "wikidata_id": "Q45120",
-    "url": "/tool.html?slug=khareef-coffee-11"
+    "url": "/tool.html?slug=khareef-coffee-11",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-12",
@@ -5488,6 +6833,11 @@
     "osm_id": "3987406",
     "wikidata_id": "Q342476",
     "url": "/tool.html?slug=khareef-coffee-12",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/khareef-coffee-12/hero.webp"
     }
@@ -5525,7 +6875,12 @@
     "osm_type": "node",
     "osm_id": "1803144",
     "wikidata_id": "Q286224",
-    "url": "/tool.html?slug=khareef-coffee-13"
+    "url": "/tool.html?slug=khareef-coffee-13",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-14",
@@ -5606,7 +6961,12 @@
     "osm_type": "node",
     "osm_id": "9271105",
     "wikidata_id": "Q45273",
-    "url": "/tool.html?slug=khareef-coffee-14"
+    "url": "/tool.html?slug=khareef-coffee-14",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "khareef-coffee-15",
@@ -5677,7 +7037,12 @@
     "osm_type": "node",
     "osm_id": "6686172",
     "wikidata_id": "Q134885",
-    "url": "/tool.html?slug=khareef-coffee-15"
+    "url": "/tool.html?slug=khareef-coffee-15",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "date-cardamom-1",
@@ -5758,7 +7123,12 @@
     "osm_type": "node",
     "osm_id": "6666269",
     "wikidata_id": "Q445059",
-    "url": "/tool.html?slug=date-cardamom-1"
+    "url": "/tool.html?slug=date-cardamom-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "date-cardamom-2",
@@ -5839,7 +7209,12 @@
     "osm_type": "node",
     "osm_id": "6586932",
     "wikidata_id": "Q695644",
-    "url": "/tool.html?slug=date-cardamom-2"
+    "url": "/tool.html?slug=date-cardamom-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "date-cardamom-3",
@@ -5920,7 +7295,12 @@
     "osm_type": "node",
     "osm_id": "8681562",
     "wikidata_id": "Q492638",
-    "url": "/tool.html?slug=date-cardamom-3"
+    "url": "/tool.html?slug=date-cardamom-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "date-cardamom-4",
@@ -6001,7 +7381,12 @@
     "osm_type": "node",
     "osm_id": "6326262",
     "wikidata_id": "Q56995",
-    "url": "/tool.html?slug=date-cardamom-4"
+    "url": "/tool.html?slug=date-cardamom-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "date-cardamom-5",
@@ -6083,6 +7468,11 @@
     "osm_id": "3907197",
     "wikidata_id": "Q760835",
     "url": "/tool.html?slug=date-cardamom-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/date-cardamom-5/hero.webp"
     }
@@ -6167,6 +7557,11 @@
     "osm_id": "3427036",
     "wikidata_id": "Q216471",
     "url": "/tool.html?slug=heritage-fort-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/heritage-fort-1/hero.webp"
     }
@@ -6250,7 +7645,12 @@
     "osm_type": "node",
     "osm_id": "8200150",
     "wikidata_id": "Q342654",
-    "url": "/tool.html?slug=heritage-fort-2"
+    "url": "/tool.html?slug=heritage-fort-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "heritage-fort-3",
@@ -6286,6 +7686,11 @@
     "osm_id": "1843382",
     "wikidata_id": "Q772504",
     "url": "/tool.html?slug=heritage-fort-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/heritage-fort-3/hero.webp"
     }
@@ -6323,7 +7728,12 @@
     "osm_type": "node",
     "osm_id": "4260065",
     "wikidata_id": "Q775046",
-    "url": "/tool.html?slug=heritage-fort-4"
+    "url": "/tool.html?slug=heritage-fort-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "heritage-fort-5",
@@ -6358,7 +7768,12 @@
     "osm_type": "node",
     "osm_id": "1678036",
     "wikidata_id": "Q283772",
-    "url": "/tool.html?slug=heritage-fort-5"
+    "url": "/tool.html?slug=heritage-fort-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "heritage-fort-6",
@@ -6393,7 +7808,12 @@
     "osm_type": "node",
     "osm_id": "3883857",
     "wikidata_id": "Q983936",
-    "url": "/tool.html?slug=heritage-fort-6"
+    "url": "/tool.html?slug=heritage-fort-6",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "heritage-fort-7",
@@ -6474,7 +7894,12 @@
     "osm_type": "node",
     "osm_id": "1164143",
     "wikidata_id": "Q715651",
-    "url": "/tool.html?slug=heritage-fort-7"
+    "url": "/tool.html?slug=heritage-fort-7",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "seeb-center-1",
@@ -6555,7 +7980,12 @@
     "osm_type": "node",
     "osm_id": "8452787",
     "wikidata_id": "Q559598",
-    "url": "/tool.html?slug=seeb-center-1"
+    "url": "/tool.html?slug=seeb-center-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "seeb-center-2",
@@ -6590,7 +8020,12 @@
     "osm_type": "node",
     "osm_id": "6360849",
     "wikidata_id": "Q602825",
-    "url": "/tool.html?slug=seeb-center-2"
+    "url": "/tool.html?slug=seeb-center-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "seeb-center-3",
@@ -6626,6 +8061,11 @@
     "osm_id": "7015201",
     "wikidata_id": "Q750809",
     "url": "/tool.html?slug=seeb-center-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/seeb-center-3/hero.webp"
     }
@@ -6663,7 +8103,12 @@
     "osm_type": "node",
     "osm_id": "578717",
     "wikidata_id": "Q400073",
-    "url": "/tool.html?slug=seeb-center-4"
+    "url": "/tool.html?slug=seeb-center-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "seeb-center-5",
@@ -6745,6 +8190,11 @@
     "osm_id": "3988001",
     "wikidata_id": "Q335398",
     "url": "/tool.html?slug=seeb-center-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/seeb-center-5/hero.webp"
     }
@@ -6783,6 +8233,11 @@
     "osm_id": "8989388",
     "wikidata_id": "Q485053",
     "url": "/tool.html?slug=seeb-center-6",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/seeb-center-6/hero.webp"
     }
@@ -6857,6 +8312,11 @@
     "osm_id": "2001470",
     "wikidata_id": "Q846293",
     "url": "/tool.html?slug=seeb-center-7",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/seeb-center-7/hero.webp"
     }
@@ -6941,6 +8401,11 @@
     "osm_id": "9251470",
     "wikidata_id": "Q260492",
     "url": "/tool.html?slug=lotus-spa-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/lotus-spa-1/hero.webp"
     }
@@ -7024,7 +8489,12 @@
     "osm_type": "node",
     "osm_id": "4143483",
     "wikidata_id": "Q724499",
-    "url": "/tool.html?slug=lotus-spa-2"
+    "url": "/tool.html?slug=lotus-spa-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "lotus-spa-3",
@@ -7105,7 +8575,12 @@
     "osm_type": "node",
     "osm_id": "9531914",
     "wikidata_id": "Q595224",
-    "url": "/tool.html?slug=lotus-spa-3"
+    "url": "/tool.html?slug=lotus-spa-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "lotus-spa-4",
@@ -7141,6 +8616,11 @@
     "osm_id": "3353678",
     "wikidata_id": "Q623436",
     "url": "/tool.html?slug=lotus-spa-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/lotus-spa-4/hero.webp"
     }
@@ -7225,6 +8705,11 @@
     "osm_id": "3815247",
     "wikidata_id": "Q202944",
     "url": "/tool.html?slug=lotus-spa-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/lotus-spa-5/hero.webp"
     }
@@ -7299,6 +8784,11 @@
     "osm_id": "9082819",
     "wikidata_id": "Q172619",
     "url": "/tool.html?slug=lotus-spa-6",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/lotus-spa-6/hero.webp"
     }
@@ -7383,6 +8873,11 @@
     "osm_id": "3346463",
     "wikidata_id": "Q261490",
     "url": "/tool.html?slug=lotus-spa-7",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/lotus-spa-7/hero.webp"
     }
@@ -7421,6 +8916,11 @@
     "osm_id": "2582059",
     "wikidata_id": "Q695224",
     "url": "/tool.html?slug=knowledge-hub-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/knowledge-hub-1/hero.webp"
     }
@@ -7504,7 +9004,12 @@
     "osm_type": "node",
     "osm_id": "3511441",
     "wikidata_id": "Q724764",
-    "url": "/tool.html?slug=knowledge-hub-2"
+    "url": "/tool.html?slug=knowledge-hub-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "knowledge-hub-3",
@@ -7539,7 +9044,12 @@
     "osm_type": "node",
     "osm_id": "5046439",
     "wikidata_id": "Q674230",
-    "url": "/tool.html?slug=knowledge-hub-3"
+    "url": "/tool.html?slug=knowledge-hub-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "knowledge-hub-4",
@@ -7620,7 +9130,12 @@
     "osm_type": "node",
     "osm_id": "6411701",
     "wikidata_id": "Q45008",
-    "url": "/tool.html?slug=knowledge-hub-4"
+    "url": "/tool.html?slug=knowledge-hub-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "knowledge-hub-5",
@@ -7692,6 +9207,11 @@
     "osm_id": "5467132",
     "wikidata_id": "Q833459",
     "url": "/tool.html?slug=knowledge-hub-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/knowledge-hub-5/hero.webp"
     }
@@ -7730,6 +9250,11 @@
     "osm_id": "24064",
     "wikidata_id": "Q328100",
     "url": "/tool.html?slug=gulf-maritime-museum-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/gulf-maritime-museum-1/hero.webp"
     }
@@ -7768,6 +9293,11 @@
     "osm_id": "6240817",
     "wikidata_id": "Q804609",
     "url": "/tool.html?slug=gulf-maritime-museum-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/gulf-maritime-museum-2/hero.webp"
     }
@@ -7852,6 +9382,11 @@
     "osm_id": "5136567",
     "wikidata_id": "Q844282",
     "url": "/tool.html?slug=gulf-maritime-museum-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/gulf-maritime-museum-3/hero.webp"
     }
@@ -7935,7 +9470,12 @@
     "osm_type": "node",
     "osm_id": "5846691",
     "wikidata_id": "Q845495",
-    "url": "/tool.html?slug=gulf-maritime-museum-4"
+    "url": "/tool.html?slug=gulf-maritime-museum-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "gulf-maritime-museum-5",
@@ -7970,7 +9510,12 @@
     "osm_type": "node",
     "osm_id": "4857460",
     "wikidata_id": "Q51606",
-    "url": "/tool.html?slug=gulf-maritime-museum-5"
+    "url": "/tool.html?slug=gulf-maritime-museum-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "wadi-green-park-1",
@@ -8051,7 +9596,12 @@
     "osm_type": "node",
     "osm_id": "4925584",
     "wikidata_id": "Q768918",
-    "url": "/tool.html?slug=wadi-green-park-1"
+    "url": "/tool.html?slug=wadi-green-park-1",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "wadi-green-park-2",
@@ -8086,7 +9636,12 @@
     "osm_type": "node",
     "osm_id": "5141118",
     "wikidata_id": "Q879440",
-    "url": "/tool.html?slug=wadi-green-park-2"
+    "url": "/tool.html?slug=wadi-green-park-2",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "wadi-green-park-3",
@@ -8121,7 +9676,12 @@
     "osm_type": "node",
     "osm_id": "6604333",
     "wikidata_id": "Q841965",
-    "url": "/tool.html?slug=wadi-green-park-3"
+    "url": "/tool.html?slug=wadi-green-park-3",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "wadi-green-park-4",
@@ -8203,6 +9763,11 @@
     "osm_id": "5582005",
     "wikidata_id": "Q532424",
     "url": "/tool.html?slug=wadi-green-park-4",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
     "images": {
       "hero": "assets/images/wadi-green-park-4/hero.webp"
     }
@@ -8276,7 +9841,12 @@
     "osm_type": "node",
     "osm_id": "6809947",
     "wikidata_id": "Q690622",
-    "url": "/tool.html?slug=wadi-green-park-5"
+    "url": "/tool.html?slug=wadi-green-park-5",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "al-huda-primary-school",
@@ -8346,7 +9916,34 @@
     "osm_type": "node",
     "osm_id": "917241",
     "wikidata_id": null,
-    "url": "/tool.html?slug=al-huda-primary-school"
+    "url": "/tool.html?slug=al-huda-primary-school",
+    "description": null,
+    "pricing": null,
+    "price_range": "$",
+    "busyness_hint": "Usually Busy",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Cafeteria",
+      "Playground",
+      "Special Needs Support"
+    ],
+    "rating_overall": 8.61,
+    "subscores": {
+      "Food Quality": 8.55,
+      "Service": 8.63,
+      "Ambience": 8.31,
+      "Value for Money": 8.36,
+      "Accessibility & Amenities": 8.57
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Strong academics and caring teachers.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample school description for Al Huda Primary School.",
+      "long": "Al Huda Primary School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
+    }
   },
   {
     "id": "beacon-private-school",
@@ -8416,7 +10013,34 @@
     "osm_type": "node",
     "osm_id": "403999",
     "wikidata_id": null,
-    "url": "/tool.html?slug=beacon-private-school"
+    "url": "/tool.html?slug=beacon-private-school",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Moderate",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Cafeteria",
+      "Library",
+      "Sports Facilities"
+    ],
+    "rating_overall": 7.63,
+    "subscores": {
+      "Food Quality": 7.73,
+      "Service": 7.58,
+      "Ambience": 7.85,
+      "Value for Money": 7.39,
+      "Accessibility & Amenities": 7.26
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Parents praise the supportive environment.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample school description for Beacon Private School.",
+      "long": "Beacon Private School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
+    }
   },
   {
     "id": "global-public-school",
@@ -8486,7 +10110,34 @@
     "osm_type": "node",
     "osm_id": "969943",
     "wikidata_id": null,
-    "url": "/tool.html?slug=global-public-school"
+    "url": "/tool.html?slug=global-public-school",
+    "description": null,
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": "Usually Quiet",
+    "last_updated": "2025-09-25",
+    "amenities": [
+      "Cafeteria",
+      "Special Needs Support",
+      "Sports Facilities"
+    ],
+    "rating_overall": 8.89,
+    "subscores": {
+      "Food Quality": 8.78,
+      "Service": 8.95,
+      "Ambience": 9.02,
+      "Value for Money": 8.74,
+      "Accessibility & Amenities": 8.56
+    },
+    "public_sentiment": {
+      "source": "Google",
+      "summary": "Known for inclusive programs and activities.",
+      "last_updated": "2025-09-25"
+    },
+    "about": {
+      "short": "Sample school description for Global Public School.",
+      "long": "Global Public School is a hypothetical school entry used to test the ingestion pipeline. Replace this text with real content when available."
+    }
   },
   {
     "id": "spa-1",
@@ -8566,7 +10217,12 @@
     "osm_type": "node",
     "osm_id": "1000000",
     "wikidata_id": null,
-    "url": "https://spa-1.example.com"
+    "url": "https://spa-1.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-2",
@@ -8646,7 +10302,12 @@
     "osm_type": "node",
     "osm_id": "1000001",
     "wikidata_id": null,
-    "url": "https://spa-2.example.com"
+    "url": "https://spa-2.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-3",
@@ -8680,7 +10341,12 @@
     "osm_type": "node",
     "osm_id": "1000002",
     "wikidata_id": null,
-    "url": "https://spa-3.example.com"
+    "url": "https://spa-3.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-4",
@@ -8714,7 +10380,12 @@
     "osm_type": "node",
     "osm_id": "1000003",
     "wikidata_id": null,
-    "url": "https://spa-4.example.com"
+    "url": "https://spa-4.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-5",
@@ -8748,7 +10419,12 @@
     "osm_type": "node",
     "osm_id": "1000004",
     "wikidata_id": null,
-    "url": "https://spa-5.example.com"
+    "url": "https://spa-5.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-6",
@@ -8782,7 +10458,12 @@
     "osm_type": "node",
     "osm_id": "1000005",
     "wikidata_id": null,
-    "url": "https://spa-6.example.com"
+    "url": "https://spa-6.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-7",
@@ -8816,7 +10497,12 @@
     "osm_type": "node",
     "osm_id": "1000006",
     "wikidata_id": null,
-    "url": "https://spa-7.example.com"
+    "url": "https://spa-7.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-8",
@@ -8896,7 +10582,12 @@
     "osm_type": "node",
     "osm_id": "1000007",
     "wikidata_id": null,
-    "url": "https://spa-8.example.com"
+    "url": "https://spa-8.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-9",
@@ -8930,7 +10621,12 @@
     "osm_type": "node",
     "osm_id": "1000008",
     "wikidata_id": null,
-    "url": "https://spa-9.example.com"
+    "url": "https://spa-9.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-10",
@@ -9010,7 +10706,12 @@
     "osm_type": "node",
     "osm_id": "1000009",
     "wikidata_id": null,
-    "url": "https://spa-10.example.com"
+    "url": "https://spa-10.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-11",
@@ -9090,7 +10791,12 @@
     "osm_type": "node",
     "osm_id": "1000010",
     "wikidata_id": null,
-    "url": "https://spa-11.example.com"
+    "url": "https://spa-11.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   },
   {
     "id": "spa-12",
@@ -9170,6 +10876,11 @@
     "osm_type": "node",
     "osm_id": "1000011",
     "wikidata_id": null,
-    "url": "https://spa-12.example.com"
+    "url": "https://spa-12.example.com",
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null
   }
 ]
