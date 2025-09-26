@@ -1335,3 +1335,19 @@ img.logo {
 /* Make sure headings stick with their sections nicely */
 #related .section-head h2,
 .detail-main h2 { margin: 0 0 8px; }
+
+/* Force "Related places" to stack: heading on its own line, carousel below */
+#related .section-head {
+  display: block;          /* override the global flex */
+  margin: 0 0 10px;        /* space under the heading */
+}
+
+#related .section-head h2 {
+  display: block;          /* ensure full-width heading */
+  margin: 0 0 8px;         /* tidy spacing */
+}
+
+/* (Optional) tighten spacing above the carousel */
+#related .hscroll {
+  margin-top: 0;
+}
