@@ -24,6 +24,13 @@
 
   function esc(s){ return String(s||""); }
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
+  function titleCase(s){ 
+  return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); 
+  }
+  function numberOrDash(v, digits=2){
+  return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—";
+  }
+
 
   async function load() {
     if (!slug) { el.title.textContent = "Not found"; return; }
@@ -85,9 +92,100 @@
 
     // About
     el.about.textContent = item.description || item.tagline || "—";
+    // ===== Rating block (after About) =====
+    const aboutH = document.getElementById("h-about");
+
+    // overall rating (item.rating_overall or item.rating)
+    const overall = (typeof item.rating_overall === "number")
+      ? item.rating_overall
+      : (typeof item.rating === "number" ? item.rating : null);
+
+      // subscores: prefer item.subscores; fall back to item.scores
+      const subs = (item.subscores && typeof item.subscores === "object")
+        ? item.subscores
+        : ((item.scores && typeof item.scores === "object") ? item.scores : null);
+      
+      // optional methodology
+      const methodology = item.methodology_note || "";
+      
+      // optional public review sentiment
+      const pub = item.public_sentiment; // {count, source, summary, last_updated}
+      
+      // optional best times
+      const best = Array.isArray(item.best_times) ? item.best_times : null;
+      const bestNote = item.best_times_note || "";
+      
+      // Build the rating HTML only if something exists
+      let ratingHTML = "";
+      if (overall || subs || pub || best) {
+        ratingHTML += `<section id="rating" class="section">`;
+        ratingHTML += `<h2>Rating</h2>`;
+      
+        if (overall) {
+          ratingHTML += `
+            <p style="font-size:2rem;font-weight:800;margin:0 0 6px;">
+              ${numberOrDash(overall)}<small>/10</small>
+            </p>
+          `;
+        }
+        if (methodology) {
+          ratingHTML += `<p>${esc(methodology)}</p>`;
+        }
+      
+        // Subscores (grid of pills)
+        if (subs) {
+          ratingHTML += `<div class="subscores">`;
+          for (const [k,v] of Object.entries(subs)) {
+            ratingHTML += `<span class="subscore">${esc(titleCase(k))} ${numberOrDash(v)}</span>`;
+          }
+          ratingHTML += `</div>`;
+        }
+      
+        // Public review sentiment
+        if (pub && (pub.count || pub.summary || pub.last_updated)) {
+          ratingHTML += `
+            <div class="card-block" style="margin-top:12px;">
+              <h3>Public Review Sentiment</h3>
+              ${pub.count ? `<p>Based on ${esc(String(pub.count))} ${esc(pub.source || "reviews")}</p>` : ""}
+              ${pub.summary ? `<p>${esc(pub.summary)}</p>` : ""}
+              ${pub.last_updated ? `<p style="font-size:.85rem;color:#777;">Last updated ${esc(pub.last_updated)}</p>` : ""}
+            </div>
+          `;
+        }
+      
+        // Best times to visit
+        if (best && best.length) {
+          const chips = best.map(b => `<span class="chip">${esc(b.label)} — ${esc(b.window)}</span>`).join(" ");
+          ratingHTML += `
+            <div class="card-block" style="margin-top:12px;">
+              <h3>Best Times to Visit</h3>
+              ${bestNote ? `<p>${esc(bestNote)}</p>` : ""}
+              <div class="card-chips">${chips}</div>
+            </div>
+          `;
+        }
+      
+        ratingHTML += `</section>`;
+      }
+      
+      // Inject the rating block right after About (before Opening Hours)
+      if (ratingHTML && aboutH) {
+        const holder = document.createElement("div");
+        holder.innerHTML = ratingHTML;
+        el.about.parentNode.insertBefore(holder, document.getElementById("h-hours"));
+      }
+
 
     // Hours
     el.hours.innerHTML = renderHours(item.hours);
+    // Move the Details box before Opening Hours
+    const detailsBox = document.querySelector('.detail-aside .aside-box');
+    const hoursHead  = document.getElementById('h-hours');
+    if (detailsBox && hoursHead && hoursHead.parentNode) {
+    detailsBox.classList.add('aside-box'); // keep card styling
+    hoursHead.parentNode.insertBefore(detailsBox, hoursHead);
+    }
+
 
     // Location
     el.loc.innerHTML = renderLocation(item);
