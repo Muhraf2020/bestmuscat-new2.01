@@ -23,6 +23,12 @@ CATEGORY_FROM_FILENAME = {
     "schools": "Schools",
     "malls": "Malls",
     "places": "Places",
+    # NEW:
+    "garages": "Car Repair Garages",
+    "home_maintenance": "Home Maintenance and Repair",
+    "catering": "Catering Services",
+    "events": "Event Planning and Decorations",
+    "moving": "Moving and Storage",
 }
 
 REQUIRED = [
