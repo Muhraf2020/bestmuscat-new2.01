@@ -4,7 +4,6 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
-  # 🔗 Also deploy right after the ingest workflow finishes successfully
   workflow_run:
     workflows: ["Ingest CSV → Enrich → Build Data"]
     types: [completed]
@@ -20,7 +19,6 @@ concurrency:
 
 jobs:
   deploy:
-    # If triggered by workflow_run, only continue when ingest concluded successfully
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
@@ -29,15 +27,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
