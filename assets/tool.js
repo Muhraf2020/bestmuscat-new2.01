@@ -300,37 +300,60 @@
   // start: load data and render
   load().catch(()=>{ document.getElementById("d-title").textContent="Error loading"; });
 
-  // --- Scroll spy for .detail-subnav ---
-  (function setupScrollSpy() {
-    const nav = document.querySelector('.detail-subnav');
-    if (!nav) return;
-    const links = [...nav.querySelectorAll('a[href^="#"]')];
-    const ids = links.map(a => a.getAttribute('href').slice(1));
-    const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+  // --- Floating subnav + Scroll spy for .detail-subnav ---
+(function setupFloatingSubnav() {
+  const header = document.querySelector('.site-header');
+  const nav = document.querySelector('.detail-subnav');
+  const spacer = document.getElementById('detail-subnav-spacer');
+  if (!nav || !spacer) return;
 
-    const activate = (id) => {
-      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
-    };
+  // 1) Make it fixed and position it right below the header
+  function positionNav() {
+    const headH = header ? header.offsetHeight : 0;
+    nav.classList.add('fixed');
+    nav.style.top = headH + 'px';
 
-    const obs = new IntersectionObserver((entries) => {
-      const visible = entries
-        .filter(e => e.isIntersecting)
-        .sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-      if (visible?.target?.id) activate(visible.target.id);
-    }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.33, 0.66, 1] });
+    // After it's fixed, measure its height and set spacer
+    const navH = nav.offsetHeight;
+    spacer.style.height = navH + 'px';
+  }
 
-    sections.forEach(s => obs.observe(s));
+  // 2) Scroll-spy (active link highlight)
+  const links = [...nav.querySelectorAll('a[href^="#"]')];
+  const ids = links.map(a => a.getAttribute('href').slice(1));
+  const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
 
-    // Smooth scroll
-    nav.addEventListener('click', (e) => {
-      const a = e.target.closest('a[href^="#"]');
-      if (!a) return;
-      e.preventDefault();
-      const id = a.getAttribute('href').slice(1);
-      const el2 = document.getElementById(id);
-      if (!el2) return;
-      el2.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      activate(id);
-    });
-  })();
+  const activate = (id) => {
+    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+  };
+
+  const obs = new IntersectionObserver((entries) => {
+    const visible = entries
+      .filter(e => e.isIntersecting)
+      .sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+    if (visible?.target?.id) activate(visible.target.id);
+  }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.33, 0.66, 1] });
+
+  sections.forEach(s => obs.observe(s));
+
+  // Smooth scroll
+  nav.addEventListener('click', (e) => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a) return;
+    e.preventDefault();
+    const id = a.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    activate(id);
+  });
+
+  // 3) Initialize and update on resize (header height can change on responsive)
+  function onReady() { positionNav(); }
+  window.addEventListener('resize', positionNav);
+  // If fonts load and change sizes, remeasure shortly after load
+  window.addEventListener('load', () => setTimeout(positionNav, 50));
+
+  // Run immediately
+  onReady();
 })();
