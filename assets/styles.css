@@ -1512,3 +1512,45 @@ img.logo {
 /* --- Map box --- */
 .map-embed { height: 220px; border-radius: 12px; overflow: hidden; background: #f3f3f3; }
 @media (max-width: 980px) { .map-embed { height: 200px; } }
+
+/* --- Floating subnav (fixed under header) --- */
+.detail-subnav {
+  position: relative;        /* default before JS fixes it */
+  z-index: 100;
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  margin: 12px 0 16px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-subnav.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  /* 'top' is set dynamically in JS to sit below the site header */
+  padding: 10px 16px;
+  margin: 0;                 /* remove margins when fixed */
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+.detail-subnav a {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+.detail-subnav a.active {
+  border-color: #222;
+  background: #222;
+  color: #fff;
+}
+
+/* Spacer gets its height from JS when subnav becomes fixed */
+#detail-subnav-spacer { height: 0; }
