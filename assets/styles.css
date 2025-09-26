@@ -1402,3 +1402,113 @@ img.logo {
 #related .card.card--place { min-width: 230px; }
 #related .card.card--place .card-img { height: 140px; }
 
+/* --- Detail layout --- */
+.detail-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 24px;
+  align-items: start;
+}
+@media (max-width: 980px) {
+  .detail-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Cards --- */
+.card {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.03);
+  margin-bottom: 16px;
+}
+.card h2, .card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* --- Subnav --- */
+.detail-subnav {
+  position: sticky;
+  top: 0;       /* make sticky under your site header; adjust if header is fixed */
+  z-index: 50;
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  margin: 12px 0 16px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.detail-subnav a {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #e5e5e5;
+}
+.detail-subnav a.active {
+  border-color: #222;
+  background: #222;
+  color: #fff;
+}
+
+/* --- Chips --- */
+.chip-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-group .chip {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1;
+  background: #fafafa;
+}
+
+/* --- Pill (overall rating) --- */
+.pill {
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  background: #111;
+  color: #fff;
+}
+
+/* --- Score grid (subscores) --- */
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+  gap: 8px 12px;
+}
+.score-grid .score-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  background: #fcfcfc;
+  font-size: 14px;
+}
+
+/* --- Facts list --- */
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 12px; }
+.facts dt { color: #666; }
+.facts dd { margin: 0; }
+
+/* --- Map box --- */
+.map-embed { height: 220px; border-radius: 12px; overflow: hidden; background: #f3f3f3; }
+@media (max-width: 980px) { .map-embed { height: 200px; } }
