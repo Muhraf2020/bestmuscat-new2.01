@@ -1353,3 +1353,52 @@ img.logo {
 }
 /* Make sure the detail page "Related places" section stacks heading above carousel */
 #related { display: block; }
+
+/* ===== Detail page: force top-to-bottom stack (all viewports) ===== */
+.detail-head,
+.detail-body {
+  display: block !important;         /* override earlier grid rules */
+}
+
+/* Hero first, then meta; give hero some bottom spacing */
+.detail-hero { margin-bottom: 14px; }
+.detail-hero img { width: 100%; height: auto; display: block; border-radius: 12px; }
+
+/* Tighten title, pills, and actions as a single vertical group */
+.detail-meta h1 { margin: 6px 0 6px; font-size: 1.6rem; }
+.d-sub { margin: 4px 0 8px; }
+.d-actions { margin-top: 8px; }
+
+/* Main content first, then Details box below it (since .detail-body is block) */
+.detail-main { margin-top: 18px; }
+.detail-aside { margin-top: 14px; }
+.detail-aside .aside-box { width: 100%; }
+
+/* Section spacing inside main column */
+.detail-main > h2 { margin: 18px 0 8px; }
+
+/* Hours table polish (already present, but ensure good spacing) */
+.hours { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.hours th, .hours td { border-bottom: 1px solid #eee; padding: 6px 8px; text-align: left; }
+
+/* Location layout: map, then lines; keep clean spacing */
+#d-location { margin-top: 8px; }
+#d-location .map-embed { margin-bottom: 10px; }
+#d-location p { margin: 6px 0; }
+
+/* Related places: heading above, carousel below (you already added most of this) */
+#related { display: block; margin-top: 22px; }
+#related .section-head { display: block; margin: 0 0 10px; }
+#related .section-head h2 { margin: 0 0 8px; }
+#related .hscroll { 
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(230px, 1fr);
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 2px 10px;
+  margin-top: 0;
+}
+#related .card.card--place { min-width: 230px; }
+#related .card.card--place .card-img { height: 140px; }
+
