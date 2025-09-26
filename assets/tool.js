@@ -179,15 +179,56 @@
   }
 
   function renderLocation(item){
-    const n = item.neighborhood || item.location?.neighborhood || "";
-    const a = item.address || item.location?.address || "";
-    const c = item.city || item.location?.city || "Muscat";
-    const country = item.country || item.location?.country || "Oman";
-    const bits = [];
-    if (n) bits.push(`<div><strong>Neighbourhood:</strong> ${esc(n)}</div>`);
-    if (a || c || country) bits.push(`<div><strong>Address:</strong> ${esc([a,c,country].filter(Boolean).join(", "))}</div>`);
-    return bits.join("") || "<div class='muted'>—</div>";
-  }
+  const loc = item.location || {};
+  const n = item.neighborhood || loc.neighborhood || "";
+  const a = item.address || loc.address || "";
+  const c = item.city || loc.city || "Muscat";
+  const country = item.country || loc.country || "Oman";
+
+  // Build a query for Maps: prefer address → lat,lng → name
+  const hasAddr = (a || "").trim().length > 0;
+  const hasLatLng = (typeof loc.lat === "number" && typeof loc.lng === "number");
+  const q = hasAddr
+    ? encodeURIComponent(a)
+    : (hasLatLng
+        ? encodeURIComponent(`${loc.lat},${loc.lng}`)
+        : encodeURIComponent(item.name || "Muscat"));
+
+  // If your data already provided a custom embed (loc.map_embed), use it
+  const mapEmbedHTML = loc.map_embed
+    ? `<div class="map-embed">${loc.map_embed}</div>`
+    : (q
+        ? `<div class="map-embed">
+             <iframe
+               style="width:100%;height:320px;border:0;border-radius:12px;"
+               loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"
+               src="https://www.google.com/maps?q=${q}&output=embed">
+             </iframe>
+           </div>`
+        : "");
+
+  // Helpful action links
+  const website = item.actions?.website || item.url || loc.website || "";
+  const phone   = item.actions?.phone   || loc.phone || "";
+  const goHref  = item.actions?.maps_url
+                  || (q ? `https://www.google.com/maps/search/?api=1&query=${q}` : "");
+
+  const websiteRow   = website ? `<p><a href="${esc(website)}" target="_blank" rel="noopener">Website ↗</a></p>` : "";
+  const phoneRow     = phone   ? `<p><a href="tel:${esc(phone)}">Call</a></p>` : "";
+  const directionsRow= goHref  ? `<p><a href="${esc(goHref)}" target="_blank" rel="noopener">Get Directions ↗</a></p>` : "";
+
+  const lines = [];
+  if (n) lines.push(`<div><strong>Neighbourhood:</strong> ${esc(n)}</div>`);
+  if (a || c || country) lines.push(`<div><strong>Address:</strong> ${esc([a,c,country].filter(Boolean).join(", "))}</div>`);
+
+  return `
+    ${mapEmbedHTML}
+    ${lines.join("") || "<div class='muted'>—</div>"}
+    ${websiteRow}${phoneRow}${directionsRow}
+  `;
+}
+
 
   function fillDetails(item){
     const push = (k,v)=>{
