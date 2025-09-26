@@ -1351,3 +1351,5 @@ img.logo {
 #related .hscroll {
   margin-top: 0;
 }
+/* Make sure the detail page "Related places" section stacks heading above carousel */
+#related { display: block; }
