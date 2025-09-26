@@ -1314,3 +1314,24 @@ img.logo {
   .detail-body { grid-template-columns: 1fr; }
 }
 
+/* === Detail: Map + Location block === */
+#d-location { margin-top: 8px; }
+#d-location .map-embed { margin-bottom: 10px; }
+#d-location p { margin: 6px 0; }
+
+/* === Related places: consistent card sizing inside horizontal scroller === */
+#related { margin-top: 20px; }
+#related .hscroll { 
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(230px, 1fr);
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 2px 10px;
+}
+#related .card.card--place { min-width: 230px; }
+#related .card.card--place .card-img { height: 140px; }
+
+/* Make sure headings stick with their sections nicely */
+#related .section-head h2,
+.detail-main h2 { margin: 0 0 8px; }
