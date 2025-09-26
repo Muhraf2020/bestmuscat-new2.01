@@ -56,31 +56,89 @@
           </div>
         </div>
       </section>
+      <!-- Sticky sub-navigation for detail sections -->
+      <nav class="detail-subnav" aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#cuisines">Cuisines</a>
+        <a href="#meals">Meals</a>
+        <a href="#rating">Rating</a>
+        <a href="#hours">Hours</a>
+        <a href="#map">Map</a>
+      </nav>
 
-      <!-- MAIN + ASIDE -->
+
+      <!-- MAIN + ASIDE (clean card layout with anchors) -->
       <section class="detail-body">
         <div class="detail-main">
-          <h2 id="h-about">About</h2>
-          <p id="d-about"></p>
 
-          <div id="d-scores" class="score-grid" hidden></div>
-          <!-- EXTRA DETAILS (enhanced renderer will fill this) -->
-          <section id="place-details"></section>
+          <!-- About -->
+          <section class="card" id="about">
+            <h2>About</h2>
+            <!-- app.enhanced/tool.js will prefer about.short/long; fallback to description/tagline -->
+            <p id="d-about"></p>
+          </section>
 
-          <h2 id="h-hours">Opening Hours</h2>
-          <div id="d-hours"></div>
+          <!-- Amenities -->
+          <section class="card" id="amenities">
+            <h2>Amenities</h2>
+            <div id="d-amenities" class="chip-group"></div>
+          </section>
 
-          <h2>Location</h2>
-          <div id="d-location"></div>
+          <!-- Cuisines -->
+          <section class="card" id="cuisines">
+            <h2>Cuisines</h2>
+            <div id="d-cuisines" class="chip-group"></div>
+          </section>
+
+          <!-- Meals -->
+          <section class="card" id="meals">
+            <h2>Meals</h2>
+            <div id="d-meals" class="chip-group"></div>
+          </section>
+
+          <!-- Rating (overall + subscores + sentiment) -->
+          <section class="card" id="rating">
+            <div class="card-head">
+              <h2>Rating</h2>
+              <span id="rating-pill" class="pill" hidden>—</span>
+            </div>
+            <div id="d-scores" class="score-grid" hidden></div>
+            <div id="d-public-sentiment" class="public-sentiment" hidden></div>
+          </section>
+
+          <!-- Keep this hidden mount in case enhanced renderer targets it -->
+          <section id="place-details" hidden></section>
         </div>
 
         <aside class="detail-aside">
-          <div class="aside-box">
+          <!-- Actions (tool.js already fills the buttons in meta; this card can hold duplicates if you decide to) -->
+          <section class="card" id="actions-card">
+            <h3>Actions</h3>
+            <div id="d-actions"></div>
+          </section>
+
+          <!-- Hours -->
+          <section class="card" id="hours">
+            <h3>Opening Hours</h3>
+            <div id="d-hours"></div>
+          </section>
+
+          <!-- Quick facts / details -->
+          <section class="card" id="facts">
             <h3>Details</h3>
-            <dl id="d-details"></dl>
-          </div>
+            <dl id="d-details" class="facts"></dl>
+          </section>
+
+          <!-- Map -->
+          <section class="card" id="map">
+            <h3>Map</h3>
+            <!-- reuse your existing container so your current JS keeps working -->
+            <div id="d-location" class="map-embed"></div>
+          </section>
         </aside>
       </section>
+
 
       <!-- RELATED -->
       <section id="related">
