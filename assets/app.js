@@ -91,6 +91,11 @@
   const elShowHotels = document.getElementById("showcase-hotels");
   const elShowRests  = document.getElementById("showcase-restaurants");
   const elShowSchools= document.getElementById("showcase-schools");
+  const elShowGarages  = document.getElementById("showcase-garages");
+  const elShowHome     = document.getElementById("showcase-home");
+  const elShowCatering = document.getElementById("showcase-catering");
+  const elShowEvents   = document.getElementById("showcase-events");
+  const elShowMoving   = document.getElementById("showcase-moving");
   // NEW: back-to-directory row (hidden by default in index.html)
   const elBack       = document.getElementById("bt-back");
 
@@ -469,6 +474,11 @@ function renderShowcases() {
   renderInto(elShowHotels,  pick('hotels'));
   renderInto(elShowRests,   pick('restaurants'));
   renderInto(elShowSchools, pick('schools'));
+  renderInto(elShowGarages,  pick('car-repair-garages'));
+  renderInto(elShowHome,     pick('home-maintenance-and-repair'));
+  renderInto(elShowCatering, pick('catering-services'));
+  renderInto(elShowEvents,   pick('event-planning-and-decorations'));
+  renderInto(elShowMoving,   pick('moving-and-storage'));
 }
 renderShowcases();
 
