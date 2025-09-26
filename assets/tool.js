@@ -24,13 +24,8 @@
 
   function esc(s){ return String(s||""); }
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
-  function titleCase(s){ 
-  return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); 
-  }
-  function numberOrDash(v, digits=2){
-  return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—";
-  }
-
+  function titleCase(s){ return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); }
+  function numberOrDash(v, digits=2){ return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—"; }
 
   async function load() {
     if (!slug) { el.title.textContent = "Not found"; return; }
@@ -60,12 +55,11 @@
     const hero = item.image || (item.images && (item.images.hero || item.images.logo)) || item.hero_url || item.logo_url || "";
     if (hero) { el.hero.src = hero; el.hero.alt = item.name; } else { el.hero.style.display = "none"; }
 
-    // Actions (aligned to your pipeline fields)
+    // Actions
     const website = item.actions?.website || item.url || "";
     const phone   = item.actions?.phone   || "";
     const maps    = item.actions?.maps_url || (item.location?.lat && item.location?.lng
                     ? `https://www.google.com/maps?q=${item.location.lat},${item.location.lng}` : "");
-
     if (website) { el.btnVisit.href = website; el.btnVisit.hidden = false; }
     if (phone)   { el.btnCall.href  = `tel:${phone}`; el.btnCall.hidden = false; }
     if (maps)    { el.btnMaps.href  = maps; el.btnMaps.hidden = false; }
@@ -78,9 +72,9 @@
     // Pills
     const price = item.price || item.pricing || "";
     if (price)       { el.price.textContent = String(price).toUpperCase(); el.price.hidden = false; }
-    if (primaryCat)  { el.cat.textContent   = primaryCat;                 el.cat.hidden = false; }
+    if (primaryCat)  { el.cat.textContent   = primaryCat;                  el.cat.hidden = false; }
 
-    // Rating (optional)
+    // Rating pill in header (legacy overall, if present)
     if (typeof item.rating === "number" || (typeof item.rating === "string" && item.rating.trim())) {
       el.rating.textContent = `${item.rating}/10`;
       el.rating.hidden = false;
@@ -92,100 +86,9 @@
 
     // About
     el.about.textContent = item.description || item.tagline || "—";
-    // ===== Rating block (after About) =====
-    const aboutH = document.getElementById("h-about");
-
-    // overall rating (item.rating_overall or item.rating)
-    const overall = (typeof item.rating_overall === "number")
-      ? item.rating_overall
-      : (typeof item.rating === "number" ? item.rating : null);
-
-      // subscores: prefer item.subscores; fall back to item.scores
-      const subs = (item.subscores && typeof item.subscores === "object")
-        ? item.subscores
-        : ((item.scores && typeof item.scores === "object") ? item.scores : null);
-      
-      // optional methodology
-      const methodology = item.methodology_note || "";
-      
-      // optional public review sentiment
-      const pub = item.public_sentiment; // {count, source, summary, last_updated}
-      
-      // optional best times
-      const best = Array.isArray(item.best_times) ? item.best_times : null;
-      const bestNote = item.best_times_note || "";
-      
-      // Build the rating HTML only if something exists
-      let ratingHTML = "";
-      if (overall || subs || pub || best) {
-        ratingHTML += `<section id="rating" class="section">`;
-        ratingHTML += `<h2>Rating</h2>`;
-      
-        if (overall) {
-          ratingHTML += `
-            <p style="font-size:2rem;font-weight:800;margin:0 0 6px;">
-              ${numberOrDash(overall)}<small>/10</small>
-            </p>
-          `;
-        }
-        if (methodology) {
-          ratingHTML += `<p>${esc(methodology)}</p>`;
-        }
-      
-        // Subscores (grid of pills)
-        if (subs) {
-          ratingHTML += `<div class="subscores">`;
-          for (const [k,v] of Object.entries(subs)) {
-            ratingHTML += `<span class="subscore">${esc(titleCase(k))} ${numberOrDash(v)}</span>`;
-          }
-          ratingHTML += `</div>`;
-        }
-      
-        // Public review sentiment
-        if (pub && (pub.count || pub.summary || pub.last_updated)) {
-          ratingHTML += `
-            <div class="card-block" style="margin-top:12px;">
-              <h3>Public Review Sentiment</h3>
-              ${pub.count ? `<p>Based on ${esc(String(pub.count))} ${esc(pub.source || "reviews")}</p>` : ""}
-              ${pub.summary ? `<p>${esc(pub.summary)}</p>` : ""}
-              ${pub.last_updated ? `<p style="font-size:.85rem;color:#777;">Last updated ${esc(pub.last_updated)}</p>` : ""}
-            </div>
-          `;
-        }
-      
-        // Best times to visit
-        if (best && best.length) {
-          const chips = best.map(b => `<span class="chip">${esc(b.label)} — ${esc(b.window)}</span>`).join(" ");
-          ratingHTML += `
-            <div class="card-block" style="margin-top:12px;">
-              <h3>Best Times to Visit</h3>
-              ${bestNote ? `<p>${esc(bestNote)}</p>` : ""}
-              <div class="card-chips">${chips}</div>
-            </div>
-          `;
-        }
-      
-        ratingHTML += `</section>`;
-      }
-      
-      // Inject the rating block right after About (before Opening Hours)
-      if (ratingHTML && aboutH) {
-        const holder = document.createElement("div");
-        holder.innerHTML = ratingHTML;
-        el.about.parentNode.insertBefore(holder, document.getElementById("h-hours"));
-      }
-
 
     // Hours
     el.hours.innerHTML = renderHours(item.hours);
-    // Move the Details box before Opening Hours
-    const detailsBox = document.querySelector('.detail-aside .aside-box');
-    const hoursHead  = document.getElementById('h-hours');
-    if (detailsBox && hoursHead && hoursHead.parentNode) {
-    detailsBox.classList.add('aside-box'); // keep card styling
-    hoursHead.parentNode.insertBefore(detailsBox, hoursHead);
-    }
-
 
     // Location
     el.loc.innerHTML = renderLocation(item);
@@ -193,15 +96,68 @@
     // Aside details
     fillDetails(item);
 
-    // Scores (optional object)
-    if (item.scores && typeof item.scores === "object") {
-      el.scores.hidden = false;
-      el.scores.innerHTML = Object.entries(item.scores).map(([k,v]) => {
-        const label = k.replace(/_/g," ").replace(/\b\w/g,m=>m.toUpperCase());
-        const val = (v && typeof v === "number") ? v.toFixed(2) : v;
-        return `<div class="score"><span class="score-name">${esc(label)}</span><span class="score-val">${esc(val)}</span></div>`;
-      }).join("");
-    }
+    // --- Rating pill & subscores (card in main column) ---
+    (function renderRating() {
+      const pill = document.getElementById('rating-pill');
+      const grid = document.getElementById('d-scores');
+      if (!pill || !grid) return;
+
+      // Overall: prefer item.rating_overall, fallback to numeric item.rating
+      const overall = (typeof item.rating_overall === 'number')
+        ? item.rating_overall
+        : (typeof item.rating === 'number' ? item.rating : null);
+
+      if (typeof overall === 'number') {
+        pill.textContent = overall.toFixed(1);
+        pill.hidden = false;
+      }
+
+      // Subscores object: prefer item.subscores; fallback to item.scores
+      const subs = (item.subscores && typeof item.subscores === 'object')
+        ? item.subscores
+        : ((item.scores && typeof item.scores === 'object') ? item.scores : null);
+
+      if (subs) {
+        const rows = Object.entries(subs)
+          .filter(([, v]) => typeof v === 'number')
+          .map(([k, v]) => `<div class="score-row"><span>${esc((k||'').replace(/_/g,' '))}</span><strong>${v.toFixed(2)}</strong></div>`)
+          .join('');
+        if (rows) {
+          grid.innerHTML = rows;
+          grid.hidden = false;
+        }
+      }
+
+      // Public sentiment (optional)
+      const ps = item.public_sentiment;
+      const psBox = document.getElementById('d-public-sentiment');
+      if (ps && psBox) {
+        const bits = [];
+        if (ps.source)       bits.push(`<strong>${esc(ps.source)}</strong>`);
+        if (ps.count)        bits.push(`${esc(String(ps.count))} reviews`);
+        if (ps.summary)      bits.push(esc(ps.summary));
+        if (ps.last_updated) bits.push(`<span class="muted">Updated ${esc(ps.last_updated)}</span>`);
+        psBox.innerHTML = bits.join(' · ');
+        psBox.hidden = bits.length === 0;
+      }
+    })();
+
+    // --- Chips for amenities / cuisines / meals ---
+    (function renderChips() {
+      function fill(id, values) {
+        const root = document.getElementById(id);
+        if (!root) return;
+        if (!values || !values.length) {
+          root.closest('.card')?.setAttribute('hidden','');
+          return;
+        }
+        root.innerHTML = values.map(v => `<span class="chip">${esc(v)}</span>`).join('');
+        root.closest('.card')?.removeAttribute('hidden');
+      }
+      fill('d-amenities', item.amenities);
+      fill('d-cuisines',  item.cuisines);
+      fill('d-meals',     item.meals);
+    })();
 
     // Related: same primary category, exclude current
     const rel = (all||[]).filter(t =>
@@ -277,56 +233,55 @@
   }
 
   function renderLocation(item){
-  const loc = item.location || {};
-  const n = item.neighborhood || loc.neighborhood || "";
-  const a = item.address || loc.address || "";
-  const c = item.city || loc.city || "Muscat";
-  const country = item.country || loc.country || "Oman";
+    const loc = item.location || {};
+    const n = item.neighborhood || loc.neighborhood || "";
+    const a = item.address || loc.address || "";
+    const c = item.city || loc.city || "Muscat";
+    const country = item.country || loc.country || "Oman";
 
-  // Build a query for Maps: prefer address → lat,lng → name
-  const hasAddr = (a || "").trim().length > 0;
-  const hasLatLng = (typeof loc.lat === "number" && typeof loc.lng === "number");
-  const q = hasAddr
-    ? encodeURIComponent(a)
-    : (hasLatLng
-        ? encodeURIComponent(`${loc.lat},${loc.lng}`)
-        : encodeURIComponent(item.name || "Muscat"));
+    // Build a query for Maps: prefer address → lat,lng → name
+    const hasAddr = (a || "").trim().length > 0;
+    const hasLatLng = (typeof loc.lat === "number" && typeof loc.lng === "number");
+    const q = hasAddr
+      ? encodeURIComponent(a)
+      : (hasLatLng
+          ? encodeURIComponent(`${loc.lat},${loc.lng}`)
+          : encodeURIComponent(item.name || "Muscat"));
 
-  // If your data already provided a custom embed (loc.map_embed), use it
-  const mapEmbedHTML = loc.map_embed
-    ? `<div class="map-embed">${loc.map_embed}</div>`
-    : (q
-        ? `<div class="map-embed">
-             <iframe
-               style="width:100%;height:320px;border:0;border-radius:12px;"
-               loading="lazy"
-               referrerpolicy="no-referrer-when-downgrade"
-               src="https://www.google.com/maps?q=${q}&output=embed">
-             </iframe>
-           </div>`
-        : "");
+    // If your data already provided a custom embed (loc.map_embed), use it
+    const mapEmbedHTML = loc.map_embed
+      ? `<div class="map-embed">${loc.map_embed}</div>`
+      : (q
+          ? `<div class="map-embed">
+               <iframe
+                 style="width:100%;height:320px;border:0;border-radius:12px;"
+                 loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade"
+                 src="https://www.google.com/maps?q=${q}&output=embed">
+               </iframe>
+             </div>`
+          : "");
 
-  // Helpful action links
-  const website = item.actions?.website || item.url || loc.website || "";
-  const phone   = item.actions?.phone   || loc.phone || "";
-  const goHref  = item.actions?.maps_url
-                  || (q ? `https://www.google.com/maps/search/?api=1&query=${q}` : "");
+    // Helpful action links
+    const website = item.actions?.website || item.url || loc.website || "";
+    const phone   = item.actions?.phone   || loc.phone || "";
+    const goHref  = item.actions?.maps_url
+                    || (q ? `https://www.google.com/maps/search/?api=1&query=${q}` : "");
 
-  const websiteRow   = website ? `<p><a href="${esc(website)}" target="_blank" rel="noopener">Website ↗</a></p>` : "";
-  const phoneRow     = phone   ? `<p><a href="tel:${esc(phone)}">Call</a></p>` : "";
-  const directionsRow= goHref  ? `<p><a href="${esc(goHref)}" target="_blank" rel="noopener">Get Directions ↗</a></p>` : "";
+    const websiteRow    = website ? `<p><a href="${esc(website)}" target="_blank" rel="noopener">Website ↗</a></p>` : "";
+    const phoneRow      = phone   ? `<p><a href="tel:${esc(phone)}">Call</a></p>` : "";
+    const directionsRow = goHref  ? `<p><a href="${esc(goHref)}" target="_blank" rel="noopener">Get Directions ↗</a></p>` : "";
 
-  const lines = [];
-  if (n) lines.push(`<div><strong>Neighbourhood:</strong> ${esc(n)}</div>`);
-  if (a || c || country) lines.push(`<div><strong>Address:</strong> ${esc([a,c,country].filter(Boolean).join(", "))}</div>`);
+    const lines = [];
+    if (n) lines.push(`<div><strong>Neighbourhood:</strong> ${esc(n)}</div>`);
+    if (a || c || country) lines.push(`<div><strong>Address:</strong> ${esc([a,c,country].filter(Boolean).join(", "))}</div>`);
 
-  return `
-    ${mapEmbedHTML}
-    ${lines.join("") || "<div class='muted'>—</div>"}
-    ${websiteRow}${phoneRow}${directionsRow}
-  `;
-}
-
+    return `
+      ${mapEmbedHTML}
+      ${lines.join("") || "<div class='muted'>—</div>"}
+      ${websiteRow}${phoneRow}${directionsRow}
+    `;
+  }
 
   function fillDetails(item){
     const push = (k,v)=>{
@@ -341,6 +296,40 @@
     if (item.location?.lat && item.location?.lng)                 push("Coordinates", `${item.location.lat}, ${item.location.lng}`);
   }
 
-  // start
+  // start: load data and render
   load().catch(()=>{ document.getElementById("d-title").textContent="Error loading"; });
+
+  // --- Scroll spy for .detail-subnav ---
+  (function setupScrollSpy() {
+    const nav = document.querySelector('.detail-subnav');
+    if (!nav) return;
+    const links = [...nav.querySelectorAll('a[href^="#"]')];
+    const ids = links.map(a => a.getAttribute('href').slice(1));
+    const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+
+    const activate = (id) => {
+      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    };
+
+    const obs = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(e => e.isIntersecting)
+        .sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (visible?.target?.id) activate(visible.target.id);
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.33, 0.66, 1] });
+
+    sections.forEach(s => obs.observe(s));
+
+    // Smooth scroll
+    nav.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      e.preventDefault();
+      const id = a.getAttribute('href').slice(1);
+      const el2 = document.getElementById(id);
+      if (!el2) return;
+      el2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      activate(id);
+    });
+  })();
 })();
