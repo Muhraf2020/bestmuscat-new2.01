@@ -1299,7 +1299,7 @@ img.logo {
 .detail-hero img { width: 100%; height: auto; border-radius: 12px; display: block; }
 .detail-meta h1 { margin: 6px 0 8px; font-size: 1.6rem; }
 .d-sub .pill { display: inline-block; margin: 4px 6px 0 0; padding: 4px 8px; border-radius: 999px; background: #f2f3f4; font-size: .85rem; }
-.pill--rating { background: #eef7ef; }
+.pill--rating { background: #16a34a;color: #fff;border-color: transparent;}
 .d-actions .btn { margin: 10px 8px 0 0; }
 .detail-body { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-top: 24px; }
 .detail-aside .aside-box { background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 14px; }
