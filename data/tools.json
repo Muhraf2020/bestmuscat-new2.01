@@ -1,5 +1,76 @@
 [
   {
+    "id": "catering-1",
+    "slug": "catering-1",
+    "name": "Al Qurum Catering",
+    "categories": [
+      "Catering services"
+    ],
+    "tagline": "Events • Corporate • Weddings",
+    "tags": [
+      "Wedding",
+      "Corporate",
+      "Buffet"
+    ],
+    "neighborhood": "Al Qurum",
+    "address": "Street 7 Way 2107",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.605,
+    "lng": 58.475,
+    "actions": {
+      "website": "https://www.example.com/catering-1",
+      "phone": "+968-24500003",
+      "maps_url": "https://www.google.com/maps?q=Al%20Qurum%20Catering%20Muscat"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "fri": [],
+        "sat": [],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": "10000003",
+    "wikidata_id": null,
+    "url": "https://catering-1.example.com"
+  },
+  {
     "id": "clinic-1",
     "slug": "clinic-1",
     "name": "Azaiba Family Clinic",
@@ -800,6 +871,234 @@
     "osm_id": "1000011",
     "wikidata_id": null,
     "url": "https://clinic-12.example.com"
+  },
+  {
+    "id": "events-1",
+    "slug": "events-1",
+    "name": "Dreamscape Events",
+    "categories": [
+      "Event planning and decorations"
+    ],
+    "tagline": "Weddings • Birthdays • Corporate",
+    "tags": [
+      "Decor",
+      "Floral",
+      "Lighting"
+    ],
+    "neighborhood": "Shatti Al Qurum",
+    "address": "Street 15 Way 3502",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.596,
+    "lng": 58.437,
+    "actions": {
+      "website": "https://www.example.com/events-1",
+      "phone": "+968-24500004",
+      "maps_url": "https://www.google.com/maps?q=Dreamscape%20Events%20Muscat"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "fri": [],
+        "sat": [],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": "10000004",
+    "wikidata_id": null,
+    "url": "https://events-1.example.com"
+  },
+  {
+    "id": "garage-1",
+    "slug": "garage-1",
+    "name": "Premier Auto Garage",
+    "categories": [
+      "Car repair garages"
+    ],
+    "tagline": "Quality repairs & diagnostics",
+    "tags": [
+      "Tyres",
+      "Batteries",
+      "AC Service"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Street 12 Way 3121",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.585,
+    "lng": 58.407,
+    "actions": {
+      "website": "https://www.example.com/garage-1",
+      "phone": "+968-24500001",
+      "maps_url": "https://www.google.com/maps?q=Premier%20Auto%20Garage%20Muscat"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "13:00"
+          }
+        ],
+        "sat": [],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": "10000001",
+    "wikidata_id": null,
+    "url": "https://garage-1.example.com"
+  },
+  {
+    "id": "home-1",
+    "slug": "home-1",
+    "name": "FixRight Home Services",
+    "categories": [
+      "Home maintenance and repair"
+    ],
+    "tagline": "Electrical • Plumbing • AC",
+    "tags": [
+      "Plumbing",
+      "Electrical",
+      "AC Service"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Street 20 Way 4010",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.562,
+    "lng": 58.431,
+    "actions": {
+      "website": "https://www.example.com/home-1",
+      "phone": "+968-24500002",
+      "maps_url": "https://www.google.com/maps?q=FixRight%20Home%20Services%20Muscat"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": "10000002",
+    "wikidata_id": null,
+    "url": "https://home-1.example.com"
   },
   {
     "id": "al-bustan-palace",
@@ -2124,6 +2423,87 @@
     "images": {
       "hero": "assets/images/city-walk-mall-5/hero.webp"
     }
+  },
+  {
+    "id": "moving-1",
+    "slug": "moving-1",
+    "name": "SwiftMove Logistics",
+    "categories": [
+      "Moving and storage"
+    ],
+    "tagline": "Local & international moves",
+    "tags": [
+      "Packing",
+      "Storage",
+      "Relocation"
+    ],
+    "neighborhood": "Ghubrah",
+    "address": "Street 9 Way 2204",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.575,
+    "lng": 58.445,
+    "actions": {
+      "website": "https://www.example.com/moving-1",
+      "phone": "+968-24500005",
+      "maps_url": "https://www.google.com/maps?q=SwiftMove%20Logistics%20Muscat"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/default.webp",
+    "hero_url": "assets/images/placeholder.webp",
+    "image_credit": "Example",
+    "image_source_url": "https://example.com/placeholder",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": "10000005",
+    "wikidata_id": null,
+    "url": "https://moving-1.example.com"
   },
   {
     "id": "kargeen-cafe",
