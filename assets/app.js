@@ -26,7 +26,7 @@
     { name: "Car Repair Garages",          slug: "car-repair-garages" },
     { name: "Home Maintenance and Repair", slug: "home-maintenance-and-repair" },
     { name: "Catering Services",           slug: "catering-services" },
-    { name: "Events", slug: "events" },
+    { name: "Events Planning", slug: "events" },
     { name: "Moving and Storage",          slug: "moving-and-storage" }
   ];
   const CATEGORY_SLUG_SET = new Set(CATEGORIES.map(c => c.slug));
