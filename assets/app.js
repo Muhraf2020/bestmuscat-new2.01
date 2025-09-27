@@ -2,18 +2,18 @@
 (function () {
   // ---------- CONFIG ----------
   const CONFIG = {
-    // The Google form is not used in the Best Muscat directory. Leave this blank or replace with your own form URL.
+    // The Google form is not used in the Best Muscat directory. Leave this blank or replace with your own form URL.
     GOOGLE_FORM_URL: "",
-    // Show up to nine items per page. This value is tuned for a three‑column layout (3×3)
+    // Show up to nine items per page. This value is tuned for a three-column layout (3×3)
     ITEMS_PER_PAGE: 9,
-    // Set the canonical site URL for JSON‑LD and og tags. Update this when you deploy the site.
+    // Set the canonical site URL for JSON-LD and og tags. Update this when you deploy the site.
     SITE_URL: "https://bestmuscat.com/",
     // When you update the banner images, bump this number to bust the cache on clients.
     ASSET_VERSION: "1"
   };
 
   // ---------- CATEGORY DEFINITIONS ----------
-  // The Best Muscat directory focuses on six core categories. Each entry must include
+  // The Best Muscat directory focuses on six core categories. Each entry must include
   // exactly one of these categories. Chips on the homepage reflect these values.
   const CATEGORIES = [
     { name: "Hotels",      slug: "hotels" },
@@ -124,7 +124,7 @@
     const parts=(name||"").split(/\s+/).slice(0,2);
     return parts.map(p=>p[0]?.toUpperCase()||"").join("");
   }
-  // Pricing badges and feature icons are unused in the Best Muscat directory.
+  // Pricing badges and feature icons are unused in the Best Muscat directory.
   // Return an empty string so that existing markup in cardHTML renders nothing.
   function pricingBadge() { return ""; }
   function iconRow() { return ""; }
@@ -137,61 +137,76 @@
     // treat *.example.com as placeholder, not a real website
     try{ return /(^|\.)example\.com$/i.test(new URL(u).hostname); }catch{ return false; }
   }
-  
+
+  // === NEW: Local-image enforcement helpers for cards/listing ===
+  function isRemoteUrl(u) {
+    return /^https?:\/\//i.test(String(u || ""));
+  }
+  function pickLocalCardImage(obj) {
+    const cands = [
+      obj.image, obj.hero, obj.photo, obj.hero_url, obj.logo, obj.logo_url,
+      obj.images && obj.images.hero,
+      obj.images && obj.images.logo
+    ].filter(Boolean);
+    for (const c of cands) {
+      if (!isRemoteUrl(c)) return c; // accept only relative/same-origin paths
+    }
+    return ""; // force placeholder if nothing local
+  }
 
   /* =======================
    LOGO FALLBACK HELPERS
    ======================= */
 
-// Extracts the hostname from a URL (used to fetch a site icon if the main logo fails)
-function hostnameFromUrl(u) {
-  try { return new URL(u).hostname; } catch { return ""; }
-}
+  // Extracts the hostname from a URL (used to fetch a site icon if the main logo fails)
+  function hostnameFromUrl(u) {
+    try { return new URL(u).hostname; } catch { return ""; }
+  }
 
-// Installs a robust error handler on each logo <img> to:
-// 1) try icon.horse, 2) try Google s2 favicons, 3) fall back to initials
-function installLogoErrorFallback() {
-  document.querySelectorAll('img.logo[data-domain]').forEach(img => {
-    if (img.dataset._wired) return; // avoid double-binding after re-renders
-    img.dataset._wired = "1";
+  // Installs a robust error handler on each logo <img> to:
+  // 1) try icon.horse, 2) try Google s2 favicons, 3) fall back to initials
+  function installLogoErrorFallback() {
+    document.querySelectorAll('img.logo[data-domain]').forEach(img => {
+      if (img.dataset._wired) return; // avoid double-binding after re-renders
+      img.dataset._wired = "1";
 
-    img.addEventListener('error', () => {
-      const domain = img.dataset.domain;
-      // No domain? swap to initials block and exit
-      if (!domain) {
+      img.addEventListener('error', () => {
+        const domain = img.dataset.domain;
+        // No domain? swap to initials block and exit
+        if (!domain) {
+          const name = img.getAttribute('alt')?.replace(/ logo$/i, '') || 'AI';
+          const div = document.createElement('div');
+          div.className = 'logo';
+          div.setAttribute('aria-hidden', 'true');
+          div.textContent = (name.split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')) || 'AI';
+          img.replaceWith(div);
+          return;
+        }
+
+        // 1st fallback: icon.horse
+        if (!img.dataset.triedHorse) {
+          img.dataset.triedHorse = "1";
+          img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`;
+          return;
+        }
+
+        // 2nd fallback: Google s2 favicons
+        if (!img.dataset.triedS2) {
+          img.dataset.triedS2 = "1";
+          img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
+          return;
+        }
+
+        // Final fallback: initials
         const name = img.getAttribute('alt')?.replace(/ logo$/i, '') || 'AI';
         const div = document.createElement('div');
         div.className = 'logo';
         div.setAttribute('aria-hidden', 'true');
         div.textContent = (name.split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')) || 'AI';
         img.replaceWith(div);
-        return;
-      }
-
-      // 1st fallback: icon.horse
-      if (!img.dataset.triedHorse) {
-        img.dataset.triedHorse = "1";
-        img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`;
-        return;
-      }
-
-      // 2nd fallback: Google s2 favicons
-      if (!img.dataset.triedS2) {
-        img.dataset.triedS2 = "1";
-        img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
-        return;
-      }
-
-      // Final fallback: initials
-      const name = img.getAttribute('alt')?.replace(/ logo$/i, '') || 'AI';
-      const div = document.createElement('div');
-      div.className = 'logo';
-      div.setAttribute('aria-hidden', 'true');
-      div.textContent = (name.split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')) || 'AI';
-      img.replaceWith(div);
-    }, { once: false });
-  });
-}
+      }, { once: false });
+    });
+  }
 
   // ----- PAGINATION HELPERS -----
   function getPageWindow(curr, total, width = 5) {
@@ -269,112 +284,112 @@ function installLogoErrorFallback() {
 
 
   // ---------- FETCH & INIT ----------
-async function init() {
+  async function init() {
 
-  // === Router: handle tool.html separately and exit early ===
-  if (/tool\.html$/i.test(location.pathname)) {
-    try {
-      // 1) read slug from URL
-      const slug = (new URLSearchParams(location.search)).get("slug") || "";
+    // === Router: handle tool.html separately and exit early ===
+    if (/tool\.html$/i.test(location.pathname)) {
+      try {
+        // 1) read slug from URL
+        const slug = (new URLSearchParams(location.search)).get("slug") || "";
 
-      // 2) load tools.json
-      const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
-      if (!res.ok) throw new Error("tools.json not found");
-      const data = await res.json();
-      if (!Array.isArray(data)) throw new Error("tools.json must be an array");
+        // 2) load tools.json
+        const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error("tools.json not found");
+        const data = await res.json();
+        if (!Array.isArray(data)) throw new Error("tools.json must be an array");
 
-      // 3) normalize tools (consistent with index mapping)
-      const normalized = data.map(t => ({
-        id: t.id || t.slug || Math.random().toString(36).slice(2),
-        slug: (t.slug || (t.name||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g,"")).slice(0,128),
-        name: t.name || "Untitled",
-        url: t.url || "#",
-        tagline: t.tagline || "",
-        description: t.description || "",
-        pricing: ["free","freemium","paid"].includes(t.pricing) ? t.pricing : "freemium",
-        categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
-        tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
-        logo: t.logo || "",
-        image: t.image || "",                 // optional hero image per tool
-        short_description: t.short_description || t.tagline || "",
-        price: t.price || t.pricing || ""
-      }));
+        // 3) normalize tools (consistent with index mapping)
+        const normalized = data.map(t => ({
+          id: t.id || t.slug || Math.random().toString(36).slice(2),
+          slug: (t.slug || (t.name||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g,"")).slice(0,128),
+          name: t.name || "Untitled",
+          url: t.url || "#",
+          tagline: t.tagline || "",
+          description: t.description || "",
+          pricing: ["free","freemium","paid"].includes(t.pricing) ? t.pricing : "freemium",
+          categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
+          tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
+          logo: t.logo || "",
+          image: t.image || "",                 // optional hero image per tool
+          short_description: t.short_description || t.tagline || "",
+          price: t.price || t.pricing || ""
+        }));
 
-      // 4) find the tool by slug
-      const tool = normalized.find(t => t.slug === slug);
-      if (!tool) {
-        document.title = "Tool not found — Academia with AI";
-        setMeta("description", "This tool could not be found.");
-        setCanonical(`${CONFIG.SITE_URL}tool.html`);
-        return;
+        // 4) find the tool by slug
+        const tool = normalized.find(t => t.slug === slug);
+        if (!tool) {
+          document.title = "Tool not found — Academia with AI";
+          setMeta("description", "This tool could not be found.");
+          setCanonical(`${CONFIG.SITE_URL}tool.html`);
+          return;
+        }
+
+        // 5) === Per-tool SEO ===
+        const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
+        const toolUrl = `${siteUrl}tool.html?slug=${encodeURIComponent(tool.slug)}`;
+        const categoryName = (tool.categories && tool.categories[0]) || "Tools";
+
+        document.title = `${tool.name} — ${categoryName} | Academia with AI`;
+        setMeta("description", tool.short_description || `Learn about ${tool.name} for academic workflows.`);
+        setCanonical(toolUrl);
+
+        setOG("og:title", document.title);
+        setOG("og:description", tool.short_description || `Learn about ${tool.name}.`);
+        setOG("og:url", toolUrl);
+
+        setMeta("twitter:title", document.title);
+        setMeta("twitter:description", tool.short_description || `Learn about ${tool.name}.`);
+        // Optional: per-tool social image
+        if (tool.image && /^https?:/i.test(tool.image)) {
+          setOG("og:image", tool.image);
+          setMeta("twitter:image", tool.image);
+        }
+        /* === ADD THESE LINES HERE (force-update placeholders in <head>) === */
+        document.querySelector('meta[name="twitter:title"]')
+        ?.setAttribute('content', document.title);
+
+        document.querySelector('meta[name="twitter:description"]')
+        ?.setAttribute('content', tool.short_description || `Learn about ${tool.name}.`);
+
+        document.querySelector('meta[name="twitter:image"]')
+        ?.setAttribute('content',
+        (tool.image && /^https?:/i.test(tool.image))
+        ? tool.image
+        : 'https://academiawithai.com/assets/og-default.jpg'
+      );
+        /* === END ADD === */
+
+        // JSON-LD: SoftwareApplication
+        addJSONLD({
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": tool.name,
+          "url": toolUrl,
+          "operatingSystem": "Any",
+          "applicationCategory": "EducationalApplication",
+          "description": tool.short_description || undefined,
+          "offers": (tool.price && String(tool.price).toLowerCase().includes("free"))
+            ? { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+            : undefined
+        });
+
+        // JSON-LD: Breadcrumbs
+        const catSlug = slugify(categoryName);
+        addJSONLD({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+            { "@type": "ListItem", "position": 2, "name": categoryName, "item": `${siteUrl}category/${catSlug}.html` },
+            { "@type": "ListItem", "position": 3, "name": tool.name, "item": toolUrl }
+          ]
+        });
+      } catch (e) {
+        console.warn("tool.html SEO init failed:", e);
       }
-
-      // 5) === Per-tool SEO ===
-      const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
-      const toolUrl = `${siteUrl}tool.html?slug=${encodeURIComponent(tool.slug)}`;
-      const categoryName = (tool.categories && tool.categories[0]) || "Tools";
-
-      document.title = `${tool.name} — ${categoryName} | Academia with AI`;
-      setMeta("description", tool.short_description || `Learn about ${tool.name} for academic workflows.`);
-      setCanonical(toolUrl);
-
-      setOG("og:title", document.title);
-      setOG("og:description", tool.short_description || `Learn about ${tool.name}.`);
-      setOG("og:url", toolUrl);
-
-      setMeta("twitter:title", document.title);
-      setMeta("twitter:description", tool.short_description || `Learn about ${tool.name}.`);
-      // Optional: per-tool social image
-      if (tool.image && /^https?:/i.test(tool.image)) {
-        setOG("og:image", tool.image);
-        setMeta("twitter:image", tool.image);
-      }
-      /* === ADD THESE LINES HERE (force-update placeholders in <head>) === */
-      document.querySelector('meta[name="twitter:title"]')
-      ?.setAttribute('content', document.title);
-
-      document.querySelector('meta[name="twitter:description"]')
-      ?.setAttribute('content', tool.short_description || `Learn about ${tool.name}.`);
-
-      document.querySelector('meta[name="twitter:image"]')
-      ?.setAttribute('content',
-      (tool.image && /^https?:/i.test(tool.image))
-      ? tool.image
-      : 'https://academiawithai.com/assets/og-default.jpg'
-  );
-      /* === END ADD === */
-
-      // JSON-LD: SoftwareApplication
-      addJSONLD({
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": tool.name,
-        "url": toolUrl,
-        "operatingSystem": "Any",
-        "applicationCategory": "EducationalApplication",
-        "description": tool.short_description || undefined,
-        "offers": (tool.price && String(tool.price).toLowerCase().includes("free"))
-          ? { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-          : undefined
-      });
-
-      // JSON-LD: Breadcrumbs
-      const catSlug = slugify(categoryName);
-      addJSONLD({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-          { "@type": "ListItem", "position": 2, "name": categoryName, "item": `${siteUrl}category/${catSlug}.html` },
-          { "@type": "ListItem", "position": 3, "name": tool.name, "item": toolUrl }
-        ]
-      });
-    } catch (e) {
-      console.warn("tool.html SEO init failed:", e);
+      return; // IMPORTANT: stop here so index-page code doesn't run on tool.html
     }
-    return; // IMPORTANT: stop here so index-page code doesn't run on tool.html
-  }
-  // === end tool.html SEO router ===
+    // === end tool.html SEO router ===
     // Suggest form
     elSuggest.href = CONFIG.GOOGLE_FORM_URL || "#";
 
@@ -408,26 +423,26 @@ async function init() {
     // --- Special landing: "?q=Best Things to Do" ---
     const isBestThingsLanding = (q || "").trim().toLowerCase() === "best things to do";
     if (isBestThingsLanding) {
-    // 1) Keep URL as-is, but don't let search/filter logic treat it as a query
-    forceBestThingsView = true;
-    currentQuery = "";
-    elSearch.value = "";
+      // 1) Keep URL as-is, but don't let search/filter logic treat it as a query
+      forceBestThingsView = true;
+      currentQuery = "";
+      elSearch.value = "";
 
-    // 2) Show the "← Back to directory" row
-    if (elBack) elBack.hidden = false;
+      // 2) Show the "← Back to directory" row
+      if (elBack) elBack.hidden = false;
 
-    // 3) Hide the list UI that would otherwise say "0–0 of 0"
-    const toolbar = document.querySelector(".toolbar");
-    if (toolbar) toolbar.style.display = "none";
-    if (elChips)      elChips.style.display      = "none";
-    if (elCount)      elCount.style.display      = "none";
-    if (elGrid)       elGrid.style.display       = "none";
-    if (elPagination) elPagination.style.display = "none";
-    if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
-    // 4) HIDE the homepage showcase rows (Best Malls/Hotels/Restaurants/Schools)
-    if (elShowcase) elShowcase.style.display = "none";
-    // Hide/remove the Clear filters chip if it exists
-    document.getElementById('clear-filters')?.remove();
+      // 3) Hide the list UI that would otherwise say "0–0 of 0"
+      const toolbar = document.querySelector(".toolbar");
+      if (toolbar) toolbar.style.display = "none";
+      if (elChips)      elChips.style.display      = "none";
+      if (elCount)      elCount.style.display      = "none";
+      if (elGrid)       elGrid.style.display       = "none";
+      if (elPagination) elPagination.style.display = "none";
+      if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
+      // 4) HIDE the homepage showcase rows (Best Malls/Hotels/Restaurants/Schools)
+      if (elShowcase) elShowcase.style.display = "none";
+      // Hide/remove the Clear filters chip if it exists
+      document.getElementById('clear-filters')?.remove();
     }
 
 
@@ -438,67 +453,67 @@ async function init() {
     // Load tools
     let data = [];
     try {
-    // cache-busted so GH Pages/CDN can't serve stale JSON
-    const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
-    if (!res.ok) throw new Error("tools.json not found");
-    data = await res.json();
-    if (!Array.isArray(data)) throw new Error("tools.json must be an array");
-    toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // lookup for cards
-  } catch (err) {
-    console.warn(err);
-    elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
-    elCount.textContent = "";
-    elPagination.hidden = true;
-    return;
-  }
+      // cache-busted so GH Pages/CDN can't serve stale JSON
+      const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("tools.json not found");
+      data = await res.json();
+      if (!Array.isArray(data)) throw new Error("tools.json must be an array");
+      toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // lookup for cards
+    } catch (err) {
+      console.warn(err);
+      elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
+      elCount.textContent = "";
+      elPagination.hidden = true;
+      return;
+    }
 
-// Support `?cat=events` (or any category slug) even if no chip exists for it.
-// We add it to the selected set so the existing filter path handles it.
-const selectedCatSlug = slugify(qs.get("cat") || "");
-if (selectedCatSlug) selectedCategories.add(selectedCatSlug);
+    // Support `?cat=events` (or any category slug) even if no chip exists for it.
+    // We add it to the selected set so the existing filter path handles it.
+    const selectedCatSlug = slugify(qs.get("cat") || "");
+    if (selectedCatSlug) selectedCategories.add(selectedCatSlug);
 
 
     tools = data.map(t => ({
-  id: t.id || t.slug || Math.random().toString(36).slice(2),
-  slug: (t.slug || (t.name||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g,"")).slice(0,128),
-  name: t.name || "Untitled",
-  url: t.url || "#",
-  tagline: t.tagline || "",
-  description: t.description || "",
-  pricing: ["free","freemium","paid"].includes(t.pricing) ? t.pricing : "freemium",
-  categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
-  tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
-  logo: t.logo || "",
-  image: t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
-       (t.images && (t.images.hero || t.images.logo)) || "",
-  
-  evidence_cites: Boolean(t.evidence_cites),
-  local_onprem: Boolean(t.local_onprem),
-  edu_discount: Boolean(t.edu_discount),
-  free_tier: "free"===t.pricing || Boolean(t.free_tier),
-  beta: Boolean(t.beta),
-  created_at: t.created_at || new Date().toISOString().slice(0,10)
-}));
+      id: t.id || t.slug || Math.random().toString(36).slice(2),
+      slug: (t.slug || (t.name||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g,"")).slice(0,128),
+      name: t.name || "Untitled",
+      url: t.url || "#",
+      tagline: t.tagline || "",
+      description: t.description || "",
+      pricing: ["free","freemium","paid"].includes(t.pricing) ? t.pricing : "freemium",
+      categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
+      tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
+      logo: t.logo || "",
+      image: t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
+             (t.images && (t.images.hero || t.images.logo)) || "",
 
-  // Render the 3 showcase rows (first 6 items per category)
-function renderShowcases() {
-  const pick = (slug) => tools
-    .filter(t => (t.categories || []).some(c => slugify(c) === slug || c === slug))
-    .slice(0, 6);
+      evidence_cites: Boolean(t.evidence_cites),
+      local_onprem: Boolean(t.local_onprem),
+      edu_discount: Boolean(t.edu_discount),
+      free_tier: "free"===t.pricing || Boolean(t.free_tier),
+      beta: Boolean(t.beta),
+      created_at: t.created_at || new Date().toISOString().slice(0,10)
+    }));
 
-  const renderInto = (el, items) => { if (el) el.innerHTML = items.map(cardHTML).join(""); };
+    // Render the 3 showcase rows (first 6 items per category)
+    function renderShowcases() {
+      const pick = (slug) => tools
+        .filter(t => (t.categories || []).some(c => slugify(c) === slug || c === slug))
+        .slice(0, 6);
 
-  renderInto(elShowMalls,   pick('malls'));
-  renderInto(elShowHotels,  pick('hotels'));
-  renderInto(elShowRests,   pick('restaurants'));
-  renderInto(elShowSchools, pick('schools'));
-  renderInto(elShowGarages,  pick('car-repair-garages'));
-  renderInto(elShowHome,     pick('home-maintenance-and-repair'));
-  renderInto(elShowCatering, pick('catering-services'));
-  renderInto(elShowEvents,   pick('events'));
-  renderInto(elShowMoving,   pick('moving-and-storage'));
-}
-renderShowcases();
+      const renderInto = (el, items) => { if (el) el.innerHTML = items.map(cardHTML).join(""); };
+
+      renderInto(elShowMalls,   pick('malls'));
+      renderInto(elShowHotels,  pick('hotels'));
+      renderInto(elShowRests,   pick('restaurants'));
+      renderInto(elShowSchools, pick('schools'));
+      renderInto(elShowGarages,  pick('car-repair-garages'));
+      renderInto(elShowHome,     pick('home-maintenance-and-repair'));
+      renderInto(elShowCatering, pick('catering-services'));
+      renderInto(elShowEvents,   pick('events'));
+      renderInto(elShowMoving,   pick('moving-and-storage'));
+    }
+    renderShowcases();
 
 
     // Fuse index
@@ -539,63 +554,62 @@ renderShowcases();
     });
     // Clear filters button (auto-create if missing) — SKIP on Best Things landing
     if (!forceBestThingsView) {
-    let elClear = document.getElementById('clear-filters');
-    if (!elClear) {
-    elClear = document.createElement('button');
-    elClear.id = 'clear-filters';
-    elClear.type = 'button';
-    elClear.className = 'chip';
-    elClear.title = 'Reset search, pricing, and categories';
-    elClear.textContent = 'Clear filters';
-    // place right after the chips row
-    if (elChips && elChips.parentNode) {
-      elChips.parentNode.insertBefore(elClear, elChips.nextSibling);
-    } else {
-      // fallback: append somewhere visible
-      document.body.appendChild(elClear);
-    }
-    }
-    elClear.addEventListener('click', () => {
-    // reset state
-    selectedCategories.clear();
-    currentQuery = '';
-    currentPage = 1;
+      let elClear = document.getElementById('clear-filters');
+      if (!elClear) {
+        elClear = document.createElement('button');
+        elClear.id = 'clear-filters';
+        elClear.type = 'button';
+        elClear.className = 'chip';
+        elClear.title = 'Reset search, pricing, and categories';
+        elClear.textContent = 'Clear filters';
+        // place right after the chips row
+        if (elChips && elChips.parentNode) {
+          elChips.parentNode.insertBefore(elClear, elChips.nextSibling);
+        } else {
+          // fallback: append somewhere visible
+          document.body.appendChild(elClear);
+        }
+      }
+      elClear.addEventListener('click', () => {
+        // reset state
+        selectedCategories.clear();
+        currentQuery = '';
+        currentPage = 1;
 
-    // reset UI controls
-    elSearch.value = '';
-    setQueryParam('category', null);
-    setQueryParam('q', null);
-    setQueryParam('page', 1);
+        // reset UI controls
+        elSearch.value = '';
+        setQueryParam('category', null);
+        setQueryParam('q', null);
+        setQueryParam('page', 1);
 
-    updateChipsActive();
-    applyFilters();
-    });
+        updateChipsActive();
+        applyFilters();
+      });
     } else {
-    // Special landing: ensure it's gone if present
-    document.getElementById('clear-filters')?.remove();
+      // Special landing: ensure it's gone if present
+      document.getElementById('clear-filters')?.remove();
     }
 
     applyFilters(true);
-    }
+  }
 
-  // ---------- FILTERING ----------
   // ---------- FILTERING ----------
   function applyFilters(first=false) {
     // NEW: special landing — show ONLY the Best Things section
     if (forceBestThingsView) {
-    // Ensure homepage showcase stays hidden
-    if (elShowcase) elShowcase.style.display = "none";
+      // Ensure homepage showcase stays hidden
+      if (elShowcase) elShowcase.style.display = "none";
 
-    // Keep listing bits hidden
-    if (elGrid)       elGrid.style.display       = "none";
-    if (elPagination) elPagination.style.display = "none";
-    if (elCount)      elCount.style.display      = "none";
-    if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
+      // Keep listing bits hidden
+      if (elGrid)       elGrid.style.display       = "none";
+      if (elPagination) elPagination.style.display = "none";
+      if (elCount)      elCount.style.display      = "none";
+      if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
 
-    // Do not proceed to normal filtering/pagination/rendering
-    return;
-  }
-  // ... (existing code continues)
+      // Do not proceed to normal filtering/pagination/rendering
+      return;
+    }
+    // ... (existing code continues)
     const catFilter = Array.from(selectedCategories);
     let arr = tools.slice();
 
@@ -607,7 +621,7 @@ renderShowcases();
     }
     // If the filter produced zero items (e.g., old ?cat value), show all instead of blank page
     if (catFilter.length > 0 && arr.length === 0) {
-    arr = tools.slice();
+      arr = tools.slice();
     }
 
 
@@ -633,22 +647,22 @@ renderShowcases();
     }
     updateChipCounts(countsBySlug);
     // Toggle home sections (showcase + topics) vs. listing grid
-const isHome = (selectedCategories.size === 0) && !currentQuery;
+    const isHome = (selectedCategories.size === 0) && !currentQuery;
 
-if (elShowcase) elShowcase.style.display = isHome ? "" : "none";
+    if (elShowcase) elShowcase.style.display = isHome ? "" : "none";
 
-const elVisit = document.getElementById('visit-muscat');
-if (elVisit) elVisit.style.display = isHome ? "" : "none";
+    const elVisit = document.getElementById('visit-muscat');
+    if (elVisit) elVisit.style.display = isHome ? "" : "none";
 
-// Grid/pagination/count/meta should only show on filtered/search views
-if (elGrid)       elGrid.style.display       = isHome ? "none" : "";
-if (elPagination) elPagination.style.display = isHome ? "none" : "";
-if (elCount)      elCount.style.display      = isHome ? "none" : "";
+    // Grid/pagination/count/meta should only show on filtered/search views
+    if (elGrid)       elGrid.style.display       = isHome ? "none" : "";
+    if (elPagination) elPagination.style.display = isHome ? "none" : "";
+    if (elCount)      elCount.style.display      = isHome ? "none" : "";
 
-// The "page-info" lives inside a toolbar row; hide that row if empty
-if (elPageInfo && elPageInfo.parentElement) {
-  elPageInfo.parentElement.style.display = isHome ? "none" : "";
-}
+    // The "page-info" lives inside a toolbar row; hide that row if empty
+    if (elPageInfo && elPageInfo.parentElement) {
+      elPageInfo.parentElement.style.display = isHome ? "none" : "";
+    }
 
 
     // --- END CATEGORY COUNTS ---
@@ -689,63 +703,58 @@ if (elPageInfo && elPageInfo.parentElement) {
   }
 
   function cardHTML(t) {
-  const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
-  // use the canonical record (has actions.website) if available
-  const src = toolsBySlug[t.slug] || t;
+    const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
+    // use the canonical record (has actions.website) if available
+    const src = toolsBySlug[t.slug] || t;
 
-  // --- Title/subtitle & badges (keep these available for the template) ---
-  const title    = esc(t.name);
-  const subtitle = esc(t.tagline || t.description.slice(0, 120) || "");
-  const cats     = (t.categories || []).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ");
-  const tagChips = (t.tags || []).slice(0,5).map(c=>`<span class="tag">${esc(c)}</span>`).join(" ");
-  
-  // --- CTAs: real Website → Website; else if Google Maps → Google Maps; always View ---
-  const websiteRaw = src.website || src.url || "";
-  const mapsUrl    = (src.maps_url && String(src.maps_url).startsWith('https://www.google.com/maps/')) ? src.maps_url : "";
-  const hasRealWebsite = isValidUrl(websiteRaw) && !isExampleDomain(websiteRaw);
-  
-  const ctas = [];
-  if (hasRealWebsite) {
-    ctas.push(`<a class="link-btn" href="${esc(websiteRaw)}" target="_blank" rel="noopener" aria-label="Visit ${title} website">Website</a>`);
-  } else if (mapsUrl) {
-    ctas.push(`<a class="link-btn" href="${esc(mapsUrl)}" target="_blank" rel="noopener" aria-label="Open ${title} on Google Maps">Google Maps</a>`);
+    // --- Title/subtitle & badges (keep these available for the template) ---
+    const title    = esc(t.name);
+    const subtitle = esc(t.tagline || t.description.slice(0, 120) || "");
+    const cats     = (t.categories || []).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ");
+    const tagChips = (t.tags || []).slice(0,5).map(c=>`<span class="tag">${esc(c)}</span>`).join(" ");
+    
+    // --- CTAs: real Website → Website; else if Google Maps → Google Maps; always View ---
+    const websiteRaw = src.website || src.url || "";
+    const mapsUrl    = (src.maps_url && String(src.maps_url).startsWith('https://www.google.com/maps/')) ? src.maps_url : "";
+    const hasRealWebsite = isValidUrl(websiteRaw) && !isExampleDomain(websiteRaw);
+    
+    const ctas = [];
+    if (hasRealWebsite) {
+      ctas.push(`<a class="link-btn" href="${esc(websiteRaw)}" target="_blank" rel="noopener" aria-label="Visit ${title} website">Website</a>`);
+    } else if (mapsUrl) {
+      ctas.push(`<a class="link-btn" href="${esc(mapsUrl)}" target="_blank" rel="noopener" aria-label="Open ${title} on Google Maps">Google Maps</a>`);
+    }
+    // Always include a View button to open the detail page (uses existing detailUrl)
+    ctas.push(`<a class="link-btn" href="${detailUrl}" aria-label="View ${title} details">View</a>`);
+    
+    // --- Image source: LOCAL ONLY on cards (ignore http/https) ---
+    const imgSrc = pickLocalCardImage(src);
+
+    // Full-bleed image on top; if missing, show initials placeholder
+    const topImage = imgSrc
+      ? `
+        <a href="${detailUrl}" class="card-img" aria-label="${title} details">
+          <img src="${esc(imgSrc)}" alt="${title}" loading="lazy" decoding="async"
+               onerror="this.closest('.card-img').classList.add('img-fallback'); this.remove();" />
+        </a>`
+      : `
+        <a href="${detailUrl}" class="card-img img-fallback" aria-label="${title} details">
+          <div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
+        </a>`;
+
+    return `
+      <article class="card card--place">
+        ${topImage}
+        <div class="card-body">
+          <h2 class="card-title"><a href="${detailUrl}" title="${title}" class="card-link">${title}</a></h2>
+          <p class="card-sub">${subtitle}</p>
+          <div class="badges">${cats}</div>
+          <div class="tags">${tagChips}</div>
+          <div class="ctas">${ctas.join(" ")}</div>
+        </div>
+      </article>
+    `;
   }
-  // Always include a View button to open the detail page (uses existing detailUrl)
-  ctas.push(`<a class="link-btn" href="${detailUrl}" aria-label="View ${title} details">View</a>`);
-  
-  // --- Image source (prefer real photo; fallback to logo) ---
-  const imgSrc =
-  t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
-  (t.images && (t.images.hero || t.images.logo)) || "";
-
-
-  // Full-bleed image on top; if missing, show initials placeholder
-  const topImage = imgSrc
-    ? `
-      <a href="${detailUrl}" class="card-img" aria-label="${title} details">
-        <img src="${esc(imgSrc)}" alt="${title}" loading="lazy" decoding="async"
-             onerror="this.closest('.card-img').classList.add('img-fallback'); this.remove();" />
-      </a>`
-    : `
-      <a href="${detailUrl}" class="card-img img-fallback" aria-label="${title} details">
-        <div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
-      </a>`;
-
-  return `
-    <article class="card card--place">
-      ${topImage}
-      <div class="card-body">
-        <h2 class="card-title"><a href="${detailUrl}" title="${title}" class="card-link">${title}</a></h2>
-        <p class="card-sub">${subtitle}</p>
-        <div class="badges">${cats}</div>
-        <div class="tags">${tagChips}</div>
-        <div class="ctas">${ctas.join(" ")}</div>
-      </div>
-    </article>
-  `;
-}
-
-
 
 
   // ---------- JSON-LD ----------
@@ -775,9 +784,9 @@ if (elPageInfo && elPageInfo.parentElement) {
 
   // ---------- START ----------
   if (document.readyState === "loading") {
-  window.addEventListener("DOMContentLoaded", init);
-} else {
-  init();
-}
+    window.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
 
 })();
