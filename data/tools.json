@@ -2074,7 +2074,7 @@
     "slug": "events-co-1",
     "name": "Events Co 1",
     "categories": [
-      "Events Planning"
+      "Events"
     ],
     "tagline": "We craft unforgettable events",
     "tags": [
@@ -2088,7 +2088,7 @@
     "city": "Muscat",
     "country": "Oman",
     "lat": 23.581,
-    "lng": 58.400999999999996,
+    "lng": 58.401,
     "actions": {
       "website": "https://events1.example",
       "phone": "+968 9000001",
@@ -2252,7 +2252,7 @@
     "pricing": "Packages from 300 OMR",
     "price_range": "$$",
     "busyness_hint": null,
-    "last_updated": "2025-10-01",
+    "last_updated": "10/1/2025",
     "amenities": [
       "On-site visit",
       "Free quote"
@@ -2266,7 +2266,7 @@
       "count": 24,
       "source": "Google",
       "summary": "Clients praise responsiveness and creative decor.",
-      "last_updated": "2025-10-01"
+      "last_updated": "10/1/2025"
     },
     "about": {
       "short": "From concept to cleanup.",
@@ -2278,7 +2278,7 @@
     "slug": "events-co-2",
     "name": "Events Co 2",
     "categories": [
-      "Events Planning"
+      "Events"
     ],
     "tagline": "We craft unforgettable events",
     "tags": [
@@ -2291,7 +2291,7 @@
     "address": "Building 2, Qurum Street",
     "city": "Muscat",
     "country": "Oman",
-    "lat": 23.581999999999997,
+    "lat": 23.582,
     "lng": 58.402,
     "actions": {
       "website": "https://events2.example",
@@ -2456,7 +2456,7 @@
     "pricing": "Packages from 300 OMR",
     "price_range": "$$",
     "busyness_hint": null,
-    "last_updated": "2025-10-01",
+    "last_updated": "10/1/2025",
     "amenities": [
       "On-site visit",
       "Free quote"
@@ -2470,7 +2470,7 @@
       "count": 22,
       "source": "Google",
       "summary": "Clients praise responsiveness and creative decor.",
-      "last_updated": "2025-10-01"
+      "last_updated": "10/1/2025"
     },
     "about": {
       "short": "From concept to cleanup.",
@@ -2482,7 +2482,7 @@
     "slug": "events-co-3",
     "name": "Events Co 3",
     "categories": [
-      "Events Planning"
+      "Events"
     ],
     "tagline": "We craft unforgettable events",
     "tags": [
@@ -2660,7 +2660,7 @@
     "pricing": "Packages from 300 OMR",
     "price_range": "$$",
     "busyness_hint": null,
-    "last_updated": "2025-10-01",
+    "last_updated": "10/1/2025",
     "amenities": [
       "On-site visit",
       "Free quote"
@@ -2674,7 +2674,7 @@
       "count": 18,
       "source": "Google",
       "summary": "Clients praise responsiveness and creative decor.",
-      "last_updated": "2025-10-01"
+      "last_updated": "10/1/2025"
     },
     "about": {
       "short": "From concept to cleanup.",
@@ -2686,7 +2686,7 @@
     "slug": "events-co-4",
     "name": "Events Co 4",
     "categories": [
-      "Events Planning"
+      "Events"
     ],
     "tagline": "We craft unforgettable events",
     "tags": [
@@ -2700,7 +2700,7 @@
     "city": "Muscat",
     "country": "Oman",
     "lat": 23.584,
-    "lng": 58.403999999999996,
+    "lng": 58.404,
     "actions": {
       "website": "https://events4.example",
       "phone": "+968 9000004",
@@ -2864,7 +2864,7 @@
     "pricing": "Packages from 300 OMR",
     "price_range": "$$",
     "busyness_hint": null,
-    "last_updated": "2025-10-01",
+    "last_updated": "10/1/2025",
     "amenities": [
       "On-site visit",
       "Free quote"
@@ -2878,7 +2878,7 @@
       "count": 35,
       "source": "Google",
       "summary": "Clients praise responsiveness and creative decor.",
-      "last_updated": "2025-10-01"
+      "last_updated": "10/1/2025"
     },
     "about": {
       "short": "From concept to cleanup.",
@@ -2890,7 +2890,7 @@
     "slug": "events-co-5",
     "name": "Events Co 5",
     "categories": [
-      "Events Planning"
+      "Events"
     ],
     "tagline": "We craft unforgettable events",
     "tags": [
@@ -2903,7 +2903,7 @@
     "address": "Building 5, Qurum Street",
     "city": "Muscat",
     "country": "Oman",
-    "lat": 23.584999999999997,
+    "lat": 23.585,
     "lng": 58.405,
     "actions": {
       "website": "https://events5.example",
@@ -3068,7 +3068,7 @@
     "pricing": "Packages from 300 OMR",
     "price_range": "$$",
     "busyness_hint": null,
-    "last_updated": "2025-10-01",
+    "last_updated": "10/1/2025",
     "amenities": [
       "On-site visit",
       "Free quote"
@@ -3082,7 +3082,7 @@
       "count": 29,
       "source": "Google",
       "summary": "Clients praise responsiveness and creative decor.",
-      "last_updated": "2025-10-01"
+      "last_updated": "10/1/2025"
     },
     "about": {
       "short": "From concept to cleanup.",
