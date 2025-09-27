@@ -151,6 +151,22 @@
     (features.details   ? showCard : hideCard)('facts');
     (features.eventFacts ? showCard : hideCard)('event-facts');
 
+    // Hide dead sub-nav links for sections that are hidden/absent
+    (function hideEmptyNavLinks() {
+      const nav = document.querySelector('.detail-subnav');
+      if (!nav) return;
+      // Your tool.html subnav currently has these anchors:
+      const ids = ['about','amenities','cuisines','meals','rating','hours','map'];
+      ids.forEach(id => {
+        const section = document.getElementById(id);
+        const link = nav.querySelector(`a[href="#${id}"]`);
+        if (link && (!section || section.hasAttribute('hidden'))) {
+          link.style.display = 'none';
+        }
+      });
+    })();
+
+
     // --- Subnav: remove links to sections that are hidden/missing ---
     (function pruneSubnav() {
       const nav    = document.querySelector('.detail-subnav');
