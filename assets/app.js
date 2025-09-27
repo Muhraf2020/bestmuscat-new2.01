@@ -469,7 +469,9 @@ if (selectedCatSlug) selectedCategories.add(selectedCatSlug);
   categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
   tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
   logo: t.logo || "",
-  image: t.image || t.hero || t.photo || t.logo || "",   // NEW: prefer real photo, fallback to logo
+  image: t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
+       (t.images && (t.images.hero || t.images.logo)) || "",
+  
   evidence_cites: Boolean(t.evidence_cites),
   local_onprem: Boolean(t.local_onprem),
   edu_discount: Boolean(t.edu_discount),
@@ -713,8 +715,9 @@ if (elPageInfo && elPageInfo.parentElement) {
   
   // --- Image source (prefer real photo; fallback to logo) ---
   const imgSrc =
-    t.image || t.hero || t.photo || t.logo ||
-    (t.images && (t.images.hero || t.images.logo)) || "";
+  t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
+  (t.images && (t.images.hero || t.images.logo)) || "";
+
 
   // Full-bleed image on top; if missing, show initials placeholder
   const topImage = imgSrc
