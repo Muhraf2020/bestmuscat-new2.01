@@ -99,6 +99,171 @@
     // make sure this exists:
     eventFacts: { cols: ["fact_venue","fact_date","fact_time","fact_ticket_price"] }
   };
+  // ── Per-category preferred fields (by CSV column name) in the "Details" card.
+  // Use the column names exactly as they appear in your CSVs.
+  const CATEGORY_FACTS = {
+    "hotels": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Price Range", "price_range"],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: [] // show all applicable sections
+    },
+    "restaurants": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Price Range", "price_range"],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: [] // cuisines/meals are already handled as separate cards
+    },
+    "spas": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Price Range", "price_range"],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+    "clinics": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+    "malls": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+    "car-repair-garages": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+    "home-maintenance-and-repair": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+    "catering-services": {
+      fields: [
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Price Range", "price_range"],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+  
+    // Events / Events Planning (support both labels)
+    "events": {
+      fields: [
+        ["Venue", "fact_venue"],
+        ["Date", "fact_date"],
+        ["Time", "fact_time"],
+        ["Ticket Price", "fact_ticket_price"],
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"] // events shouldn't show cuisines/meals
+    },
+    "events-planning": { // if you use this label anywhere
+      fields: [
+        ["Venue", "fact_venue"],
+        ["Date", "fact_date"],
+        ["Time", "fact_time"],
+        ["Ticket Price", "fact_ticket_price"],
+        ["Neighbourhood", "neighborhood"],
+        ["City / Country", null],
+        ["Tags", "tags"],
+        ["Website", null],
+        ["Phone", null],
+      ],
+      hideSections: ["cuisines","meals"]
+    },
+  };
+  
+  // Keys we never echo in Details (already used elsewhere or internal)
+  const EXCLUDE_DETAIL_KEYS = new Set([
+    "id","slug","name","category","categories","tagline",
+    "description","about","about_short","about_long",
+    "logo_url","hero_url","image_credit","image_source_url",
+    "place_id","osm_type","osm_id","wikidata_id",
+    "pricing","price","price_range",
+    "rating","rating_overall","subscores","scores",
+    "public_sentiment","public_reviews",
+    "review_count","review_source","review_insight","last_updated",
+    "hours_raw","hours",
+    "neighborhood","address","city","country","lat","lng",
+    "website","phone","maps_url","url",
+    "actions","images","image","hero","gallery",
+    "schema_keys","present_keys","location","created_at",
+    "amenities","cuisines","meals" // rendered as dedicated cards
+  ]);
+  
+  // Treat these prefixes as non-detail/system
+  const EXCLUDE_PREFIXES = ["sub_", "review_", "image_", "actions.", "location.", "images."];
+  
+  // Pretty label from a CSV key (fact_venue -> Venue; foo_bar -> Foo Bar)
+  function labelFromKey(k){
+    if (!k) return "";
+    let name = String(k);
+    if (name.startsWith("fact_")) name = name.slice(5);
+    name = name.replace(/[_\-]+/g, " ").trim();
+    return name.replace(/\b\w/g, c => c.toUpperCase());
+  }
+  
+  // Should this key be auto-rendered as an extra?
+  function shouldAutoShowKey(k){
+    if (!k) return false;
+    if (EXCLUDE_DETAIL_KEYS.has(k)) return false;
+    if (EXCLUDE_PREFIXES.some(p => k.startsWith(p))) return false;
+    // prefer keys that start with fact_ or are simple scalars (string/number/bool)
+    return true;
+  }
+  
+  // Grab the category config by slug of the primary category
+  function getCategoryConfig(primaryCatLabel){
+    const slug = (primaryCatLabel||"").toLowerCase()
+      .replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+    return CATEGORY_FACTS[slug] || null;
+  }
+
   // ─────────────────────────────────────────────────────────────────────────────
 
   async function load() {
@@ -464,18 +629,79 @@
     `;
   }
 
-  function fillDetails(item){
-    const push = (k,v)=>{
-      if (!v) return;
-      el.aside.insertAdjacentHTML("beforeend", `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`);
+    function fillDetails(item){
+    // utility to add a row
+    const push = (label, value) => {
+      if (value === undefined || value === null) return;
+      const str = Array.isArray(value) ? value.join(", ") : String(value).trim();
+      if (!str) return;
+      el.aside.insertAdjacentHTML("beforeend", `<dt>${esc(label)}</dt><dd>${esc(str)}</dd>`);
     };
-    if (Array.isArray(item.categories) && item.categories.length) push("Category", item.categories[0]);
-    if (Array.isArray(item.tags) && item.tags.length)             push("Tags", item.tags.join(", "));
-    if (item.price || item.pricing)                               push("Price Range", String(item.price||item.pricing));
-    if (item.neighborhood)                                        push("Neighbourhood", item.neighborhood);
-    if (item.city || item.country)                                push("City / Country", [item.city, item.country].filter(Boolean).join(", "));
-    if (item.location?.lat && item.location?.lng)                 push("Coordinates", `${item.location.lat}, ${item.location.lng}`);
+  
+    // Basics always first
+    const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
+    if (primaryCat) push("Category", primaryCat);
+  
+    const cfg = getCategoryConfig(primaryCat);
+  
+    // Preferred rows for this category (in your chosen order)
+    if (cfg && Array.isArray(cfg.fields)) {
+      cfg.fields.forEach(([label, key]) => {
+        if (label === "City / Country" && key === null) {
+          const cc = [item.city, item.country].filter(Boolean).join(", ");
+          if (cc) push(label, cc);
+          return;
+        }
+        if (label === "Website" && key === null) {
+          const url = item.actions?.website || item.url;
+          if (url) push(label, url);
+          return;
+        }
+        if (label === "Phone" && key === null) {
+          const phone = item.actions?.phone;
+          if (phone) push(label, phone);
+          return;
+        }
+        if (key) {
+          const v = item[key];
+          if (v !== undefined && v !== null && String(v).trim() !== "") push(label, v);
+        }
+      });
+    } else {
+      // Generic fallback when no per-category config: show common basics
+      if (item.neighborhood) push("Neighbourhood", item.neighborhood);
+      const cc = [item.city, item.country].filter(Boolean).join(", ");
+      if (cc) push("City / Country", cc);
+      if (item.price_range || item.pricing) push("Price Range", item.price_range || item.pricing);
+      if (Array.isArray(item.tags) && item.tags.length) push("Tags", item.tags.join(", "));
+      const url = item.actions?.website || item.url;
+      if (url) push("Website", url);
+      if (item.actions?.phone) push("Phone", item.actions.phone);
+    }
+  
+    // Coordinates (nice to have, if present)
+    if (item.location?.lat && item.location?.lng) {
+      push("Coordinates", `${item.location.lat}, ${item.location.lng}`);
+    }
+  
+    // Auto-include any extra CSV columns not already shown, e.g., fact_* fields
+    const shownLabels = new Set([...el.aside.querySelectorAll("dt")].map(dt => dt.textContent.trim().toLowerCase()));
+    const schema = Array.isArray(item.schema_keys) ? item.schema_keys : [];
+    schema.forEach((k) => {
+      if (!shouldAutoShowKey(k)) return;
+      const v = item[k];
+      if (v === undefined || v === null) return;
+      const str = Array.isArray(v) ? v.join(", ") : String(v).trim();
+      if (!str) return;
+  
+      const label = labelFromKey(k);
+      // Avoid duplicates (case-insensitive)
+      if (shownLabels.has(label.toLowerCase())) return;
+  
+      push(label, str);
+    });
   }
+
 
   // start: load data and render
   load().catch(()=>{ document.getElementById("d-title").textContent="Error loading"; });
