@@ -28,6 +28,46 @@
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
   function titleCase(s){ return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); }
   function numberOrDash(v, digits=2){ return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—"; }
+  // ── Category gating: which sections are allowed for which categories ──
+  // Keys are lowercased slugs for your primary categories (slugify of the label in CSV).
+  // If a category is not listed here, sections default to "allowed" (still need data present).
+  const CATEGORY_ALLOW = {
+    // Food venues
+    "restaurants": {
+      cuisines: true, meals: true, eventFacts: false
+    },
+    // Cafes (if you ever have them)
+    "cafes": {
+      cuisines: true, meals: true, eventFacts: false
+    },
+    // Catering: sometimes cuisines yes, meals usually no
+    "catering-services": {
+      cuisines: true, meals: false, eventFacts: false
+    },
+    // Events: show event facts, never cuisines/meals
+    "events": {
+      cuisines: false, meals: false, eventFacts: true
+    },
+    // Everything else uses defaults (no special extras)
+    "hotels": {},
+    "spas": {},
+    "clinics": {},
+    "schools": {},
+    "malls": {},
+    "car-repair-garages": {},
+    "home-maintenance-and-repair": {},
+    "moving-and-storage": {}
+  };
+  
+  // Helper: is a feature allowed for this category?
+  function allowedForCategory(sectionKey, catSlug) {
+    const cfg = CATEGORY_ALLOW[catSlug] || CATEGORY_ALLOW[catSlugify(catSlug)] || {};
+    // default allow = true unless explicitly set to false
+    if (sectionKey in cfg) return !!cfg[sectionKey];
+    return true;
+  }
+  function catSlugify(s){ return slugify(s || ""); }
+
   function hideCard(id){ document.getElementById(id)?.setAttribute('hidden',''); }
   function showCard(id){ document.getElementById(id)?.removeAttribute('hidden'); }
 
@@ -56,6 +96,8 @@
     map:       { cols: ["address","lat","lng","maps_url"] },
     details:   { cols: ["categories","tags","pricing","price_range","neighborhood","city","country","lat","lng"] },
     headerRatingPill: { cols: ["rating_overall","rating"] },
+    // make sure this exists:
+    eventFacts: { cols: ["fact_venue","fact_date","fact_time","fact_ticket_price"] }
   };
   // ─────────────────────────────────────────────────────────────────────────────
 
@@ -90,8 +132,10 @@
       const cols = req.cols || [];
       const schemaOK = hasSchema(item, cols);
       const dataOK   = hasData(item, cols, extra[key] || []);
-      features[key]  = schemaOK && dataOK;
+      const catOK    = allowedForCategory(key, catSlug);   // NEW: category gating
+      features[key]  = schemaOK && dataOK && catOK;
     });
+
 
     // Optional: category class hook for CSS
     document.body.classList.add(`cat-${catSlug || 'unknown'}`);
@@ -105,11 +149,13 @@
     (features.hours     ? showCard : hideCard)('hours');
     (features.map       ? showCard : hideCard)('map');
     (features.details   ? showCard : hideCard)('facts');
+    (features.eventFacts ? showCard : hideCard)('event-facts');
+
     // --- Subnav: remove links to sections that are hidden/missing ---
-(function pruneSubnav() {
-  const nav    = document.querySelector('.detail-subnav');
-  const spacer = document.getElementById('detail-subnav-spacer');
-  if (!nav) return;
+    (function pruneSubnav() {
+      const nav    = document.querySelector('.detail-subnav');
+      const spacer = document.getElementById('detail-subnav-spacer');
+    if (!nav) return;
 
   // List the section IDs that might appear in the subnav
   const ids = ['about','amenities','cuisines','meals','rating','hours','map','facts'];
