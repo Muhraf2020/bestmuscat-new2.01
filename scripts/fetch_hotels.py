@@ -367,7 +367,8 @@ def parse_cli():
     parser.add_argument("--radius", type=int, default=8000, help="Search radius per center in meters.")
     parser.add_argument("--no-photos", action="store_true", help="Skip photo downloads (faster).")
     parser.add_argument("--max-pages-per-query", type=int, default=3, help="Max pages per (keyword,center).")
-    parser.add_argument("--max-places", type=int, default=0, help="Stop after N unique places overall (0 = no cap).")
+    # >>> Default to 100 for Muscat-wide runs <<<
+    parser.add_argument("--max-places", type=int, default=100, help="Stop after N unique places overall.")
     parser.add_argument("--wall-timeout-sec", type=int, default=1200, help="Abort run after this many seconds.")
     return parser.parse_args()
 
@@ -385,20 +386,27 @@ def main():
             pass
     radius_m = int(args.radius)
 
-    print(f"Fetching hotels… {len(keywords)} keywords × {len(centers)} centers (radius {radius_m} m)")
+    print(f"Fetching hotels… {len(keywords)} keywords × {len(centers)} centers (radius {radius_m} m, max={args.max_places})")
     rows_by_pid = {}
+    stop_all = False
 
     for kw in keywords:
         for (lat, lng) in centers:
             # Wall clock guard
             if args.wall_timeout_sec and (time.time() - start_ts) > args.wall_timeout_sec:
                 print("[guard] Wall timeout reached; stopping…")
+                stop_all = True
+                break
+            if args.max_places and len(rows_by_pid) >= args.max_places:
+                stop_all = True
                 break
             print(f"→ Query '{kw}' @ {lat:.3f},{lng:.3f}")
             fetch_for_center_keyword(lat, lng, radius_m, kw, rows_by_pid, args)
-        else:
-            continue
-        break
+            if args.max_places and len(rows_by_pid) >= args.max_places:
+                stop_all = True
+                break
+        if stop_all:
+            break
 
     rows = list(rows_by_pid.values())
     rows.sort(key=lambda r: (r.get("name",""), r.get("city","")))
