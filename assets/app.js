@@ -128,6 +128,15 @@
   // Return an empty string so that existing markup in cardHTML renders nothing.
   function pricingBadge() { return ""; }
   function iconRow() { return ""; }
+
+  // ---- URL helpers for CTA logic (Website vs Google Maps vs View) ----
+  function isValidUrl(u){
+    try{ const x=new URL(u); return ['http:','https:'].includes(x.protocol); }catch{ return false; }
+  }
+  function isExampleDomain(u){
+    // treat *.example.com as placeholder, not a real website
+    try{ return /(^|\.)example\.com$/i.test(new URL(u).hostname); }catch{ return false; }
+  }
   
 
   /* =======================
@@ -682,25 +691,30 @@ if (elPageInfo && elPageInfo.parentElement) {
   // use the canonical record (has actions.website) if available
   const src = toolsBySlug[t.slug] || t;
 
-  const websiteUrl =
-  (src.actions && (src.actions.website || src.actions.maps_url))
-    ? esc(src.actions.website || src.actions.maps_url)
-    : (src.url ? esc(src.url) : "");
-  
-  // prefer explicit top-level fields; fall back to nested images.{hero|logo}
-  const imgSrc =
-  t.image || t.hero || t.photo || t.logo ||
-  (t.images && (t.images.hero || t.images.logo)) || "";
-
-  const title      = esc(t.name);
-  const subtitle   = esc(t.tagline || t.description.slice(0, 120) || "");
-
-  const cats = (t.categories || []).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ");
+  // --- Title/subtitle & badges (keep these available for the template) ---
+  const title    = esc(t.name);
+  const subtitle = esc(t.tagline || t.description.slice(0, 120) || "");
+  const cats     = (t.categories || []).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ");
   const tagChips = (t.tags || []).slice(0,5).map(c=>`<span class="tag">${esc(c)}</span>`).join(" ");
-
-  const websiteBtn = websiteUrl
-    ? `<div class="cta"><a href="${websiteUrl}" aria-label="Visit ${title} website" target="_blank" rel="noopener">Website ↗</a></div>`
-    : "";
+  
+  // --- CTAs: real Website → Website; else if Google Maps → Google Maps; always View ---
+  const websiteRaw = src.website || src.url || "";
+  const mapsUrl    = (src.maps_url && String(src.maps_url).startsWith('https://www.google.com/maps/')) ? src.maps_url : "";
+  const hasRealWebsite = isValidUrl(websiteRaw) && !isExampleDomain(websiteRaw);
+  
+  const ctas = [];
+  if (hasRealWebsite) {
+    ctas.push(`<a class="link-btn" href="${esc(websiteRaw)}" target="_blank" rel="noopener" aria-label="Visit ${title} website">Website</a>`);
+  } else if (mapsUrl) {
+    ctas.push(`<a class="link-btn" href="${esc(mapsUrl)}" target="_blank" rel="noopener" aria-label="Open ${title} on Google Maps">Google Maps</a>`);
+  }
+  // Always include a View button to open the detail page (uses existing detailUrl)
+  ctas.push(`<a class="link-btn" href="${detailUrl}" aria-label="View ${title} details">View</a>`);
+  
+  // --- Image source (prefer real photo; fallback to logo) ---
+  const imgSrc =
+    t.image || t.hero || t.photo || t.logo ||
+    (t.images && (t.images.hero || t.images.logo)) || "";
 
   // Full-bleed image on top; if missing, show initials placeholder
   const topImage = imgSrc
