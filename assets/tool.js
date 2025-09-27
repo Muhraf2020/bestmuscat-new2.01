@@ -22,10 +22,42 @@
     verify:  document.getElementById("d-verify"),
   };
 
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Helpers
   function esc(s){ return String(s||""); }
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
   function titleCase(s){ return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); }
   function numberOrDash(v, digits=2){ return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—"; }
+
+  // Data-driven visibility helpers
+  function hasSchema(item, cols = []) {
+    const keys = Array.isArray(item.schema_keys) ? item.schema_keys : [];
+    return cols.some(c => keys.includes(c)); // CSV has ANY of these columns
+  }
+  function hasData(item, cols = [], extraChecks = []) {
+    const valHit = cols.some(c => {
+      const v = item[c];
+      return Array.isArray(v) ? v.length > 0 : (v !== undefined && v !== null && String(v).trim() !== "");
+    });
+    const extraHit = extraChecks.some(fn => { try { return !!fn(item); } catch { return false; } });
+    return valHit || extraHit;
+  }
+  function hideCard(id){ document.getElementById(id)?.setAttribute('hidden',''); }
+  function showCard(id){ document.getElementById(id)?.removeAttribute('hidden'); }
+
+  // One-time mapping from UI sections → relevant CSV columns
+  const FEATURE_REQUIREMENTS = {
+    about:     { cols: ["about_short","about_long","description","tagline"] },
+    amenities: { cols: ["amenities"] },
+    cuisines:  { cols: ["cuisines"] },
+    meals:     { cols: ["meals"] },
+    rating:    { cols: ["rating_overall","sub_food_quality","sub_service","sub_ambience","sub_value","sub_accessibility","subscores","scores","public_sentiment"] },
+    hours:     { cols: ["hours_raw"] }, // parsed into item.hours
+    map:       { cols: ["address","lat","lng","maps_url"] },
+    details:   { cols: ["categories","tags","pricing","price_range","neighborhood","city","country","lat","lng"] },
+    headerRatingPill: { cols: ["rating_overall","rating"] },
+  };
+  // ─────────────────────────────────────────────────────────────────────────────
 
   async function load() {
     if (!slug) { el.title.textContent = "Not found"; return; }
@@ -42,6 +74,36 @@
     el.title.textContent = item.name || "Untitled";
     const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
     const catSlug = slugify(primaryCat);
+
+    // ── Data-driven visibility: compute once per item
+    const features = {};
+    const extra = {
+      rating: [(it) => typeof it.rating_overall === 'number'
+                     || typeof it.rating === 'number'
+                     || (it.subscores && Object.keys(it.subscores).length)],
+      hours:  [(it) => !!(it.hours && it.hours.weekly)],
+      map:    [(it) => !!(it.location && (it.location.lat || it.location.lng || it.address))],
+      details:[(it) => true], // we still hide later if nothing ultimately renders
+    };
+    Object.entries(FEATURE_REQUIREMENTS).forEach(([key, req]) => {
+      const cols = req.cols || [];
+      const schemaOK = hasSchema(item, cols);
+      const dataOK   = hasData(item, cols, extra[key] || []);
+      features[key]  = schemaOK && dataOK;
+    });
+
+    // Optional: category class hook for CSS
+    document.body.classList.add(`cat-${catSlug || 'unknown'}`);
+
+    // Apply visibility to cards immediately
+    (features.about     ? showCard : hideCard)('about');
+    (features.amenities ? showCard : hideCard)('amenities');
+    (features.cuisines  ? showCard : hideCard)('cuisines');
+    (features.meals     ? showCard : hideCard)('meals');
+    (features.rating    ? showCard : hideCard)('rating');
+    (features.hours     ? showCard : hideCard)('hours');
+    (features.map       ? showCard : hideCard)('map');
+    (features.details   ? showCard : hideCard)('facts');
 
     // Minimal SEO updates
     document.title = `${item.name} — ${primaryCat || "Place"} | Best Muscat`;
@@ -74,30 +136,40 @@
     if (price)       { el.price.textContent = String(price).toUpperCase(); el.price.hidden = false; }
     if (primaryCat)  { el.cat.textContent   = primaryCat;                  el.cat.hidden = false; }
 
-    // Rating pill in header (legacy overall, if present)
+    // Header rating pill (legacy overall, if present)
     if (typeof item.rating === "number" || (typeof item.rating === "string" && item.rating.trim())) {
       el.rating.textContent = `${item.rating}/10`;
       el.rating.hidden = false;
     }
+    // Hide header pill if feature says so
+    if (!features.headerRatingPill) { document.getElementById('d-rating')?.setAttribute('hidden',''); }
 
     // Open/Closed (if hours.weekly exists)
     const state = openState(item.hours);
     if (state) { el.open.textContent = state; el.open.hidden = false; }
 
     // About
-    el.about.textContent = item.description || item.tagline || "—";
+    if (features.about) {
+      el.about.textContent = item.description || item.tagline || "—";
+    }
 
     // Hours
-    el.hours.innerHTML = renderHours(item.hours);
+    if (features.hours) {
+      el.hours.innerHTML = renderHours(item.hours);
+    }
 
     // Location
-    el.loc.innerHTML = renderLocation(item);
+    if (features.map) {
+      el.loc.innerHTML = renderLocation(item);
+    }
 
     // Aside details
-    fillDetails(item);
+    if (features.details) {
+      fillDetails(item);
+    }
 
     // --- Rating pill & subscores (card in main column) ---
-    (function renderRating() {
+    if (features.rating) (function renderRating() {
       const pill = document.getElementById('rating-pill');
       const grid = document.getElementById('d-scores');
       if (!pill || !grid) return;
@@ -155,9 +227,9 @@
         root.innerHTML = values.map(v => `<span class="chip">${esc(v)}</span>`).join('');
         root.closest('.card')?.removeAttribute('hidden');
       }
-      fill('d-amenities', item.amenities);
-      fill('d-cuisines',  item.cuisines);
-      fill('d-meals',     item.meals);
+      if (features.amenities) fill('d-amenities', item.amenities);
+      if (features.cuisines)  fill('d-cuisines',  item.cuisines);
+      if (features.meals)     fill('d-meals',     item.meals);
     })();
 
     // Related: same primary category, exclude current
@@ -301,59 +373,60 @@
   load().catch(()=>{ document.getElementById("d-title").textContent="Error loading"; });
 
   // --- Floating subnav + Scroll spy for .detail-subnav ---
-(function setupFloatingSubnav() {
-  const header = document.querySelector('.site-header');
-  const nav = document.querySelector('.detail-subnav');
-  const spacer = document.getElementById('detail-subnav-spacer');
-  if (!nav || !spacer) return;
+  (function setupFloatingSubnav() {
+    const header = document.querySelector('.site-header');
+    const nav = document.querySelector('.detail-subnav');
+    const spacer = document.getElementById('detail-subnav-spacer');
+    if (!nav || !spacer) return;
 
-  // 1) Make it fixed and position it right below the header
-  function positionNav() {
-    const headH = header ? header.offsetHeight : 0;
-    nav.classList.add('fixed');
-    nav.style.top = headH + 'px';
+    // 1) Make it fixed and position it right below the header
+    function positionNav() {
+      const headH = header ? header.offsetHeight : 0;
+      nav.classList.add('fixed');
+      nav.style.top = headH + 'px';
 
-    // After it's fixed, measure its height and set spacer
-    const navH = nav.offsetHeight;
-    spacer.style.height = navH + 'px';
-  }
+      // After it's fixed, measure its height and set spacer
+      const navH = nav.offsetHeight;
+      spacer.style.height = navH + 'px';
+    }
 
-  // 2) Scroll-spy (active link highlight)
-  const links = [...nav.querySelectorAll('a[href^="#"]')];
-  const ids = links.map(a => a.getAttribute('href').slice(1));
-  const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+    // 2) Scroll-spy (active link highlight)
+    const links = [...nav.querySelectorAll('a[href^="#"]')];
+    const ids = links.map(a => a.getAttribute('href').slice(1));
+    const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
 
-  const activate = (id) => {
-    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
-  };
+    const activate = (id) => {
+      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    };
 
-  const obs = new IntersectionObserver((entries) => {
-    const visible = entries
-      .filter(e => e.isIntersecting)
-      .sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-    if (visible?.target?.id) activate(visible.target.id);
-  }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.33, 0.66, 1] });
+    const obs = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(e => e.isIntersecting)
+        .sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (visible?.target?.id) activate(visible.target.id);
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: [0, 0.33, 0.66, 1] });
 
-  sections.forEach(s => obs.observe(s));
+    sections.forEach(s => obs.observe(s));
 
-  // Smooth scroll
-  nav.addEventListener('click', (e) => {
-    const a = e.target.closest('a[href^="#"]');
-    if (!a) return;
-    e.preventDefault();
-    const id = a.getAttribute('href').slice(1);
-    const el = document.getElementById(id);
-    if (!el) return;
-    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    activate(id);
-  });
+    // Smooth scroll
+    nav.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      e.preventDefault();
+      const id = a.getAttribute('href').slice(1);
+      const el2 = document.getElementById(id);
+      if (!el2) return;
+      el2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      activate(id);
+    });
 
-  // 3) Initialize and update on resize (header height can change on responsive)
-  function onReady() { positionNav(); }
-  window.addEventListener('resize', positionNav);
-  // If fonts load and change sizes, remeasure shortly after load
-  window.addEventListener('load', () => setTimeout(positionNav, 50));
+    // 3) Initialize and update on resize (header height can change on responsive)
+    function onReady() { positionNav(); }
+    window.addEventListener('resize', positionNav);
+    // If fonts load and change sizes, remeasure shortly after load
+    window.addEventListener('load', () => setTimeout(positionNav, 50));
 
-  // Run immediately
-  onReady();
+    // Run immediately
+    onReady();
+  })();
 })();
