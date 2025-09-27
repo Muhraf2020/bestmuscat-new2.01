@@ -320,6 +320,14 @@
     (features.map       ? showCard : hideCard)('map');
     (features.details   ? showCard : hideCard)('facts');
     (features.eventFacts ? showCard : hideCard)('event-facts');
+    
+    // Enforce per-category hides (e.g., hide cuisines/meals for Events)
+    (function enforceCategoryHides(){
+      const cfg = getCategoryConfig(primaryCat);
+      if (!cfg || !Array.isArray(cfg.hideSections)) return;
+      cfg.hideSections.forEach(id => hideCard(id));
+    })();
+
 
     // Hide dead sub-nav links for sections that are hidden/absent
     (function hideEmptyNavLinks() {
