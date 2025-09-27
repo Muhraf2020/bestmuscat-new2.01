@@ -382,13 +382,7 @@
     const q = parseQuery();
     if (!q.slug) return;
 
-    // Prefer new ingestion output (tools.json); fallback to old (places.json)
-    let rows = null;
-    try {
-      rows = await loadJSON("data/tools.json?ts=" + Date.now());
-    } catch (e) {
-      rows = await loadJSON("data/places.json");
-    }
+    const rows = await loadJSON("data/tools.json?ts=" + Date.now());
 
     const place = Array.isArray(rows) ? rows.find((p) => p.slug === q.slug) : null;
     if (!place) return;
