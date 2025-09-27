@@ -319,7 +319,7 @@
     (features.hours     ? showCard : hideCard)('hours');
     (features.map       ? showCard : hideCard)('map');
     (features.details   ? showCard : hideCard)('facts');
-    (features.eventFacts ? showCard : hideCard)('event-facts');
+    
     
     // Enforce per-category hides (e.g., hide cuisines/meals for Events)
     (function enforceCategoryHides(){
