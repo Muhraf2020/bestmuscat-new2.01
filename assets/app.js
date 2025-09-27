@@ -736,7 +736,7 @@ if (elPageInfo && elPageInfo.parentElement) {
         <p class="card-sub">${subtitle}</p>
         <div class="badges">${cats}</div>
         <div class="tags">${tagChips}</div>
-        ${websiteBtn}
+        <div class="ctas">${ctas.join(" ")}</div>
       </div>
     </article>
   `;
