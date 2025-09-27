@@ -28,6 +28,13 @@
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
   function titleCase(s){ return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); }
   function numberOrDash(v, digits=2){ return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—"; }
+  function isValidUrl(u){
+  try{ const x=new URL(u); return ['http:','https:'].includes(x.protocol); }catch{ return false; }
+  }
+  function isExampleDomain(u){
+    return /(^|\.)example\.com$/i.test((()=>{try{return new URL(u).hostname;}catch{return''}})());
+  }
+
   // ── Category gating: which sections are allowed for which categories ──
   // Keys are lowercased slugs for your primary categories (slugify of the label in CSV).
   // If a category is not listed here, sections default to "allowed" (still need data present).
@@ -385,14 +392,41 @@
     const hero = item.image || (item.images && (item.images.hero || item.images.logo)) || item.hero_url || item.logo_url || "";
     if (hero) { el.hero.src = hero; el.hero.alt = item.name; } else { el.hero.style.display = "none"; }
 
-    // Actions
-    const website = item.actions?.website || item.url || "";
-    const phone   = item.actions?.phone   || "";
-    const maps    = item.actions?.maps_url || (item.location?.lat && item.location?.lng
-                    ? `https://www.google.com/maps?q=${item.location.lat},${item.location.lng}` : "");
-    if (website) { el.btnVisit.href = website; el.btnVisit.hidden = false; }
-    if (phone)   { el.btnCall.href  = `tel:${phone}`; el.btnCall.hidden = false; }
-    if (maps)    { el.btnMaps.href  = maps; el.btnMaps.hidden = false; }
+    // Prefer canonical fields from CSV; fall back to legacy/actions if present
+    const websiteRaw = item.website || item.actions?.website || item.url || "";
+    const phone      = item.phone   || item.actions?.phone   || "";
+    const maps       = (item.maps_url && item.maps_url.startsWith('https://www.google.com/maps/'))
+      ? item.maps_url
+      : (item.location?.lat && item.location?.lng
+          ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.name||'')}&query_place_id=${encodeURIComponent(item.place_id||'')}`
+          : "");
+    
+    // 1) Maps — always show if we can build a Google Maps link
+    if (maps) {
+      el.btnMaps.href  = maps;
+      el.btnMaps.hidden = false;
+    }
+    
+    // 2) Website / Suggest Website
+    const hasRealWebsite = isValidUrl(websiteRaw) && !isExampleDomain(websiteRaw);
+    if (hasRealWebsite) {
+      el.btnVisit.textContent = "Visit";
+      el.btnVisit.href = websiteRaw;
+      el.btnVisit.hidden = false;
+    } else {
+      // Point to our suggestion page with the current slug
+      const suggestUrl = `suggest.html?slug=${encodeURIComponent(item.slug || '')}`;
+      el.btnVisit.textContent = "Suggest Website";
+      el.btnVisit.href = suggestUrl;
+      el.btnVisit.hidden = false;
+    }
+    
+    // 3) Phone (optional)
+    if (phone) {
+      el.btnCall.href  = `tel:${phone}`;
+      el.btnCall.hidden = false;
+    }
+
 
     el.btnShare.addEventListener("click", async ()=>{
       try { await navigator.clipboard.writeText(location.href); el.btnShare.textContent = "Copied!"; setTimeout(()=> el.btnShare.textContent="Share Link", 1200); }
