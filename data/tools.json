@@ -1612,75 +1612,39 @@
     "last_updated": null
   },
   {
-    "id": "events-1",
-    "slug": "events-1",
-    "name": "Dreamscape Events",
+    "id": "e001",
+    "slug": "oman-food-fest-2025",
+    "name": "Oman Food Fest",
     "categories": [
       "Event planning and decorations"
     ],
-    "tagline": "Weddings • Birthdays • Corporate",
+    "tagline": "Street eats & music",
     "tags": [
-      "Decor",
-      "Floral",
-      "Lighting"
+      "festival",
+      "food",
+      "family"
     ],
-    "neighborhood": "Shatti Al Qurum",
-    "address": "Street 15 Way 3502",
+    "neighborhood": "Qurum",
+    "address": "Qurum Park, main gate",
     "city": "Muscat",
     "country": "Oman",
-    "lat": 23.596,
-    "lng": 58.437,
+    "lat": 23.611,
+    "lng": 58.471,
     "actions": {
-      "website": "https://www.example.com/events-1",
-      "phone": "+968-24500004",
-      "maps_url": "https://www.google.com/maps?q=Dreamscape%20Events%20Muscat"
+      "website": "https://omanfoodfest.example",
+      "phone": "+968-1234",
+      "maps_url": "https://goo.gl/maps/abc"
     },
-    "hours": {
-      "tz": "Asia/Muscat",
-      "weekly": {
-        "mon": [
-          {
-            "open": "10:00",
-            "close": "19:00"
-          }
-        ],
-        "tue": [
-          {
-            "open": "10:00",
-            "close": "19:00"
-          }
-        ],
-        "wed": [
-          {
-            "open": "10:00",
-            "close": "19:00"
-          }
-        ],
-        "thu": [
-          {
-            "open": "10:00",
-            "close": "19:00"
-          }
-        ],
-        "fri": [],
-        "sat": [],
-        "sun": [
-          {
-            "open": "10:00",
-            "close": "19:00"
-          }
-        ]
-      }
-    },
-    "logo_url": "assets/images/default.webp",
-    "hero_url": "assets/images/placeholder.webp",
-    "image_credit": "Example",
-    "image_source_url": "https://example.com/placeholder",
+    "hours": null,
+    "logo_url": "assets/events/foodfest-logo.png",
+    "hero_url": "assets/events/foodfest-hero.jpg",
+    "image_credit": "Photog X",
+    "image_source_url": "https://images.example",
     "place_id": null,
     "osm_type": null,
-    "osm_id": "10000004",
+    "osm_id": null,
     "wikidata_id": null,
-    "url": "https://events-1.example.com",
+    "url": "https://omanfoodfest.example",
     "schema_keys": [
       "id",
       "slug",
@@ -1706,9 +1670,110 @@
       "osm_type",
       "osm_id",
       "wikidata_id",
-      "url"
+      "url",
+      "description",
+      "price_range",
+      "about_short",
+      "about_long",
+      "amenities",
+      "rating_overall",
+      "sub_service",
+      "last_updated",
+      "fact_venue",
+      "fact_date",
+      "fact_time",
+      "fact_ticket_price"
     ],
     "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "url",
+      "description",
+      "price_range",
+      "about_short",
+      "about_long",
+      "amenities",
+      "rating_overall",
+      "sub_service",
+      "last_updated",
+      "fact_venue",
+      "fact_date",
+      "fact_time",
+      "fact_ticket_price"
+    ],
+    "description": "Annual outdoor food festival with live music and kids zone.",
+    "pricing": null,
+    "price_range": "$$",
+    "busyness_hint": null,
+    "last_updated": "2025-10-01",
+    "amenities": [
+      "Parking",
+      "Restrooms",
+      "Wheelchair Access"
+    ],
+    "rating_overall": 8.6,
+    "subscores": {
+      "Service": 8.9
+    },
+    "public_sentiment": {
+      "last_updated": "2025-10-01"
+    },
+    "about": {
+      "short": "Bites • Beats • Family",
+      "long": "Expect 50+ vendors, live bands, and kids activities from 4–10pm."
+    }
+  },
+  {
+    "id": "e002",
+    "slug": "opera-gala-night-royal-opera",
+    "name": "Opera Gala Night",
+    "categories": [
+      "Events"
+    ],
+    "tagline": "Elegant evening at ROHM",
+    "tags": [
+      "opera",
+      "gala",
+      "music"
+    ],
+    "neighborhood": "Shatti",
+    "address": "Royal Opera House Muscat",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.608,
+    "lng": 58.454,
+    "actions": {
+      "website": "https://rohmuscat.example",
+      "maps_url": "https://goo.gl/maps/def"
+    },
+    "hours": null,
+    "logo_url": "assets/events/opera-logo.png",
+    "hero_url": "assets/events/opera-hero.jpg",
+    "image_credit": "ROHM PR",
+    "image_source_url": "https://images.example",
+    "place_id": null,
+    "osm_type": null,
+    "osm_id": null,
+    "wikidata_id": null,
+    "url": "https://rohmuscat.example",
+    "schema_keys": [
       "id",
       "slug",
       "name",
@@ -1729,14 +1794,71 @@
       "hero_url",
       "image_credit",
       "image_source_url",
+      "place_id",
+      "osm_type",
       "osm_id",
-      "url"
+      "wikidata_id",
+      "url",
+      "description",
+      "price_range",
+      "about_short",
+      "about_long",
+      "amenities",
+      "rating_overall",
+      "sub_service",
+      "last_updated",
+      "fact_venue",
+      "fact_date",
+      "fact_time",
+      "fact_ticket_price"
     ],
-    "description": null,
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "maps_url",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "url",
+      "description",
+      "price_range",
+      "about_short",
+      "about_long",
+      "amenities",
+      "last_updated",
+      "fact_venue",
+      "fact_date",
+      "fact_time",
+      "fact_ticket_price"
+    ],
+    "description": "A black-tie gala featuring international soloists.",
     "pricing": null,
-    "price_range": null,
+    "price_range": "$$$",
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": "2025-11-15",
+    "amenities": [
+      "Valet Parking",
+      "Cloakroom"
+    ],
+    "public_sentiment": {
+      "last_updated": "2025-11-15"
+    },
+    "about": {
+      "short": "Black-tie gala night",
+      "long": "Seating from 7:00pm; performance at 7:30pm."
+    }
   },
   {
     "id": "garage-1",
