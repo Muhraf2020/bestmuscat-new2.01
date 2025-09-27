@@ -30,6 +30,12 @@ CATEGORY_FROM_FILENAME = {
     "events": "Event Planning and Decorations",
     "moving": "Moving and Storage",
 }
+# Canonical display labels for categories (normalize variants)
+CATEGORY_ALIASES = {
+    "events": "Events",
+    "event planning and decorations": "Events",
+    # add more synonyms if needed
+}
 
 REQUIRED = [
     "id","slug","name","category","tagline","tags",
@@ -79,11 +85,14 @@ def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
     # ensure required keys exist
     for k in REQUIRED:
         r.setdefault(k, "")
-    # Normalize category casing and export as array "categories"
+   # Normalize category via aliases → canonical "Events" etc.
     cat = (r.get("category") or "").strip()
     if cat:
-        cat = cat[0].upper() + cat[1:].lower()  # “clinics” → “Clinics”
+    key = cat.strip().lower()
+    cat = CATEGORY_ALIASES.get(key, cat.strip())
+    # else: empty will already have been set from filename in read_all_csvs()
     cats = [cat] if cat else []
+
 
     item = OrderedDict({
         "id": r["id"].strip() or (r.get("slug") or ""),
