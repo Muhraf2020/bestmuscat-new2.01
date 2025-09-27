@@ -3,6 +3,8 @@
 
 import csv, os, time, math, urllib.parse, requests, sys, re, json
 from pathlib import Path
+import mimetypes
+from time import sleep
 
 API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 if not API_KEY:
@@ -34,6 +36,21 @@ def price_level_to_symbols(level):
     mapping = {0:"$", 1:"$", 2:"$$", 3:"$$$", 4:"$$$$"}
     return mapping.get(level, "")
 
+# --- helper: robust GET with simple retries ---
+def http_get(url, params=None, timeout=30, allow_redirects=True, max_retries=3, backoff=1.5):
+    attempt = 0
+    while True:
+        try:
+            r = requests.get(url, params=params, timeout=timeout, allow_redirects=allow_redirects)
+            r.raise_for_status()
+            return r
+        except Exception:
+            attempt += 1
+            if attempt >= max_retries:
+                raise
+            time.sleep(backoff ** attempt)
+
+# Use http_get in API wrappers
 def places_text_search(page_token=None):
     url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
     params = {
@@ -45,8 +62,7 @@ def places_text_search(page_token=None):
     }
     if page_token:
         params = {"pagetoken": page_token, "key": API_KEY}
-    r = requests.get(url, params=params, timeout=30)
-    r.raise_for_status()
+    r = http_get(url, params=params, timeout=30)
     return r.json()
 
 def place_details(place_id: str):
@@ -63,8 +79,7 @@ def place_details(place_id: str):
         "fields": ",".join(fields),
         "key": API_KEY,
     }
-    r = requests.get(url, params=params, timeout=30)
-    r.raise_for_status()
+    r = http_get(url, params=params, timeout=30)
     return r.json()
 
 def choose_best_photo(photos):
@@ -74,7 +89,6 @@ def choose_best_photo(photos):
     """
     if not photos:
         return None
-    # landscape first
     landscapes = [p for p in photos if (p.get("width",0) >= p.get("height",0))]
     pick = (landscapes[0] if landscapes else photos[0])
     return pick.get("photo_reference")
@@ -83,20 +97,21 @@ def download_photo(photo_ref: str, out_path: Path, maxwidth=1600):
     """
     Download the image from the Google Photos endpoint so your site
     serves a local file (no API key exposure on the frontend).
+    Returns the final path (with inferred extension) or False.
     """
     if not photo_ref:
         return False
     base = "https://maps.googleapis.com/maps/api/place/photo"
-    qs = {
-        "photoreference": photo_ref,
-        "maxwidth": str(maxwidth),
-        "key": API_KEY
-    }
-    # allow redirects to final CDN image
-    resp = requests.get(base, params=qs, timeout=60, allow_redirects=True)
+    qs = {"photoreference": photo_ref, "maxwidth": str(maxwidth), "key": API_KEY}
+    # retry the photo download a couple of times
+    resp = http_get(base, params=qs, timeout=60, allow_redirects=True, max_retries=3)
     if resp.status_code == 200 and resp.content:
+        # infer extension from content-type
+        ct = resp.headers.get("Content-Type", "")
+        ext = mimetypes.guess_extension(ct) or ".jpg"
+        out_path = out_path.with_suffix(ext)
         out_path.write_bytes(resp.content)
-        return True
+        return out_path
     return False
 
 CSV_HEADERS = [
@@ -118,13 +133,12 @@ def normalize_row(d): return {k: d.get(k, "") for k in CSV_HEADERS}
 def main():
     print("Fetching Muscat hotels…")
     rows, seen = [], set()
-    token, loops = None, 0
 
+    # Initial fetch
+    data = places_text_search(page_token=None)
     while True:
-        loops += 1
-        data = places_text_search(page_token=token)
         status = data.get("status")
-        if status not in ("OK","ZERO_RESULTS"):
+        if status not in ("OK", "ZERO_RESULTS"):
             print("TextSearch status:", status, data.get("error_message",""), file=sys.stderr)
             break
 
@@ -141,7 +155,7 @@ def main():
             p = det.get("result", {})
 
             name = p.get("name","").strip()
-            if not name: 
+            if not name:
                 continue
             slug = slugify(name)
 
@@ -156,14 +170,17 @@ def main():
             ratings_total = p.get("user_ratings_total") or ""
             price_range = price_level_to_symbols(p.get("price_level"))
 
-            # Hero: pick best photo and download locally
+            # Photos: prefer Details photos, else fall back to TextSearch photos
+            details_photos = p.get("photos") or []
+            seed_photos = it.get("photos") or []
+            chosen_ref = choose_best_photo(details_photos) or choose_best_photo(seed_photos)
+
             hero_local = ""
-            photo_ref = choose_best_photo(p.get("photos") or [])
-            if photo_ref:
-                out_path = ASSETS_DIR / f"{slug}.jpg"
-                ok = download_photo(photo_ref, out_path, maxwidth=1600)
-                if ok:
-                    hero_local = str(out_path.relative_to(ROOT)).replace("\\","/")
+            if chosen_ref:
+                out_path = ASSETS_DIR / f"{slug}"
+                saved = download_photo(chosen_ref, out_path, maxwidth=1600)
+                if saved:
+                    hero_local = str(saved.relative_to(ROOT)).replace("\\","/")
 
             # Hours → store JSON raw for your parser
             hours_raw = ""
@@ -174,6 +191,11 @@ def main():
                     hours_raw = ""
 
             editorial = (p.get("editorial_summary") or {}).get("overview","").strip()
+
+            # Website fallback: if missing, use Maps URL so CSV isn't blank
+            maps_url = maps_place_url(p.get("place_id",""))
+            if not web:
+                web = maps_url
 
             row = {
                 "id": p.get("place_id",""),
@@ -188,16 +210,14 @@ def main():
                 "country": "Oman",
                 "lat": f"{lat:.6f}" if isinstance(lat,(int,float)) else "",
                 "lng": f"{lng:.6f}" if isinstance(lng,(int,float)) else "",
-                "website": web,
+                "website": web,                       # fallback ensures non-empty
                 "phone": phone,
-                "maps_url": maps_place_url(p.get("place_id","")),
-                "osm_type": "",                                     # never carry OSM into CSV
-                "osm_id": "",
+                "maps_url": maps_url,
                 "hours_raw": hours_raw,
                 "logo_url": "",
-                "hero_url": hero_local,                     # LOCAL file (no key leak)
+                "hero_url": hero_local,               # LOCAL file (no key leak)
                 "image_credit": "Image © Google",
-                "image_source_url": maps_place_url(p.get("place_id","")),
+                "image_source_url": maps_url,
                 "place_id": p.get("place_id",""),
                 "osm_type": "",
                 "osm_id": "",
@@ -207,15 +227,15 @@ def main():
                 "price_range": price_range,
                 "about_short": "",
                 "about_long": "",
-                "amenities": "",                            # can enrich later
+                "amenities": "",
                 "rating_overall": f"{rating:.2f}" if isinstance(rating,(int,float)) else "",
                 "sub_service": "",
                 "sub_ambience": "",
                 "sub_value": "",
                 "sub_accessibility": "",
-                "review_count": ratings_total,              # <- GOOGLE total reviews
+                "review_count": ratings_total,        # GOOGLE total reviews
                 "review_source": "Google",
-                "review_insight": "",                      # keep blank or your own short note
+                "review_insight": "",
                 "last_updated": time.strftime("%Y-%m-%d"),
                 # hotel-specific (blank for now)
                 "star_rating": "",
@@ -230,10 +250,23 @@ def main():
             }
             rows.append(normalize_row(row))
 
+        # --- improved next_page_token handling ---
         token = data.get("next_page_token")
-        if not token: break
-        time.sleep(2.0)
-        if loops > 6: break
+        if not token:
+            break
+
+        # Wait up to ~12s for token to become valid
+        advanced = False
+        for _ in range(6):
+            time.sleep(2)  # 2s * 6 = 12s max
+            nxt = places_text_search(page_token=token)
+            if nxt.get("status") == "OK":
+                data = nxt
+                advanced = True
+                break
+        if not advanced:
+            # never became OK; stop
+            break
 
     with OUT_CSV.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=CSV_HEADERS)
