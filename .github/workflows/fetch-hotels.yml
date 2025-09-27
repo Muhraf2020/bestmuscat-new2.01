@@ -1,0 +1,59 @@
+name: Fetch Hotels from Google
+
+on:
+  workflow_dispatch: {}   # Run it manually from the Actions tab
+  # schedule:
+  #   - cron: "0 3 * * 1"  # (optional) every Monday 03:00 UTC
+
+permissions:
+  contents: write   # allow the workflow to commit changes
+
+jobs:
+  fetch-hotels:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure folders exist
+        run: |
+          mkdir -p data/sources
+          mkdir -p assets/hotels
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run fetcher
+        run: python3 scripts/fetch_hotels.py
+
+      # If you have an ingest step, run it here.
+      # Replace the command below with the one your repo uses.
+      - name: Build tools.json from CSV
+        run: |
+          if [ -f "scripts/ingest.py" ]; then
+            python3 scripts/ingest.py
+          elif python3 -c "import importlib; importlib.import_module('scripts.ingest.csv_to_tools')" 2>/dev/null; then
+            python3 -m scripts.ingest.csv_to_tools
+          else
+            echo "No ingest step found. Skipping." 
+          fi
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Fetch hotels from Google & rebuild tools.json"
+          branch: ${{ github.ref_name }}
+          file_pattern: |
+            data/sources/hotels.csv
+            assets/hotels/**
+            data/tools.json
