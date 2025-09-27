@@ -114,6 +114,10 @@ def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
         "wikidata_id": r["wikidata_id"].strip() or None,
         "url": r["url"].strip() or None,
     })
+    # Record source CSV schema & data presence for this row
+    item["schema_keys"]  = list(r.keys())
+    item["present_keys"] = [k for k, v in r.items() if (v or "").strip()]
+
     # ── BEGIN: Extend mapping for richer fields (description, pricing, ratings, amenities, etc.) ──
     # Simple string fields (trimmed; keep None if empty)
     item["description"]   = (r.get("description")   or "").strip() or None
