@@ -1,0 +1,82 @@
+name: Cache & Optimize Hotel Images
+
+on:
+  workflow_dispatch: {}          # manual trigger
+  push:
+    paths:
+      - "scripts/**"
+      - "data/sources/hotels.csv"
+      - ".github/workflows/cache-hero-images.yml"
+  schedule:
+    - cron: "17 2 * * 1"         # every Monday 02:17 UTC (adjust as you like)
+
+permissions:
+  contents: write                # needed to push changes
+
+jobs:
+  build-cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          # If you have a requirements.txt, use that; otherwise install what the scripts need:
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install Pillow>=10.0.0 requests>=2.31.0
+          fi
+
+      # OPTIONAL: refresh hotels.csv first (keeps your dataset fresh)
+      # Remove this step if you only want to cache images from the existing CSV.
+      - name: Fetch hotels (optional, online photos preferred)
+        run: |
+          python scripts/fetch_hotels.py --online-photos --prefer-site-image --max-places 100
+        continue-on-error: true   # don't fail the whole run if API quota is hit
+
+      - name: Cache & optimize hero images → WebP
+        run: |
+          python scripts/images/cache_hero_images.py
+
+      # OPTIONAL: if your site builds data/tools.json from CSV, regenerate it here
+      - name: Rebuild tools.json (optional)
+        run: |
+          if [ -f scripts/ingest/csv_to_tools.py ]; then
+            python scripts/ingest/csv_to_tools.py
+          fi
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # show status and decide if there’s anything to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore(images): cache & optimize hotel hero images (webp) and update CSV"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      # OPTIONAL: upload optimized images as a build artifact (handy for debugging)
+      - name: Upload optimized images artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: optimized-hotel-images
+          path: assets/hotels/*.webp
+          if-no-files-found: ignore
