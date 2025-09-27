@@ -88,8 +88,8 @@ def row_to_item(r: Dict[str, str]) -> Dict[str, Any]:
    # Normalize category via aliases → canonical "Events" etc.
     cat = (r.get("category") or "").strip()
     if cat:
-    key = cat.strip().lower()
-    cat = CATEGORY_ALIASES.get(key, cat.strip())
+        key = cat.strip().lower()
+        cat = CATEGORY_ALIASES.get(key, cat.strip())
     # else: empty will already have been set from filename in read_all_csvs()
     cats = [cat] if cat else []
 
