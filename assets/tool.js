@@ -28,6 +28,8 @@
   function slugify(s){ return (s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
   function titleCase(s){ return String(s||"").replace(/_/g," ").replace(/\b\w/g, m => m.toUpperCase()); }
   function numberOrDash(v, digits=2){ return (typeof v === "number" && isFinite(v)) ? v.toFixed(digits) : "—"; }
+  function hideCard(id){ document.getElementById(id)?.setAttribute('hidden',''); }
+  function showCard(id){ document.getElementById(id)?.removeAttribute('hidden'); }
 
   // Data-driven visibility helpers
   function hasSchema(item, cols = []) {
@@ -42,8 +44,6 @@
     const extraHit = extraChecks.some(fn => { try { return !!fn(item); } catch { return false; } });
     return valHit || extraHit;
   }
-  function hideCard(id){ document.getElementById(id)?.setAttribute('hidden',''); }
-  function showCard(id){ document.getElementById(id)?.removeAttribute('hidden'); }
 
   // One-time mapping from UI sections → relevant CSV columns
   const FEATURE_REQUIREMENTS = {
@@ -61,7 +61,8 @@
 
   async function load() {
     if (!slug) { el.title.textContent = "Not found"; return; }
-    const res = await fetch("data/tools.json", { cache: "no-store" });
+    // CACHE-BUSTED FETCH (step ⑤)
+    const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
     if (!res.ok) { el.title.textContent = "Not found"; return; }
     const data = await res.json();
     const tool = (data || []).find(t => (t.slug||"").toLowerCase() === slug);
@@ -168,6 +169,35 @@
       fillDetails(item);
     }
 
+    // --- Chips for amenities / cuisines / meals ---
+    // Hides the entire section when the array is missing/empty.  (step ④)
+    (function renderChips() {
+      function mountChips(sectionId, chipRootId, values) {
+        const section = document.getElementById(sectionId);
+        const root    = document.getElementById(chipRootId);
+        if (!section || !root) return;
+
+        if (!Array.isArray(values) || values.length === 0) {
+          section.setAttribute('hidden','');  // hide whole card
+          root.innerHTML = '';
+          return;
+        }
+        root.innerHTML = values.map(v => `<span class="chip">${String(v)}</span>`).join('');
+        section.removeAttribute('hidden');
+      }
+
+      mountChips('amenities', 'd-amenities', item.amenities);
+      mountChips('cuisines',  'd-cuisines',  item.cuisines);
+      mountChips('meals',     'd-meals',     item.meals);
+    })();
+
+    // ---- DEFENSIVE: enforce hide if no data (catches any later un-hide) ----
+    (function enforceChipVisibility() {
+      if (!Array.isArray(item.amenities) || item.amenities.length === 0) hideCard('amenities');
+      if (!Array.isArray(item.cuisines)  || item.cuisines.length  === 0) hideCard('cuisines');
+      if (!Array.isArray(item.meals)     || item.meals.length     === 0) hideCard('meals');
+    })();
+
     // --- Rating pill & subscores (card in main column) ---
     if (features.rating) (function renderRating() {
       const pill = document.getElementById('rating-pill');
@@ -181,7 +211,7 @@
 
       if (typeof overall === 'number') {
         pill.textContent = `${overall.toFixed(1)} / 10`;
-        pill.classList.add('pill--rating');  // ensures green style on this pill too
+        pill.classList.add('pill--rating');
         pill.hidden = false;
       }
 
@@ -213,23 +243,6 @@
         psBox.innerHTML = bits.join(' · ');
         psBox.hidden = bits.length === 0;
       }
-    })();
-
-    // --- Chips for amenities / cuisines / meals ---
-    (function renderChips() {
-      function fill(id, values) {
-        const root = document.getElementById(id);
-        if (!root) return;
-        if (!values || !values.length) {
-          root.closest('.card')?.setAttribute('hidden','');
-          return;
-        }
-        root.innerHTML = values.map(v => `<span class="chip">${esc(v)}</span>`).join('');
-        root.closest('.card')?.removeAttribute('hidden');
-      }
-      if (features.amenities) fill('d-amenities', item.amenities);
-      if (features.cuisines)  fill('d-cuisines',  item.cuisines);
-      if (features.meals)     fill('d-meals',     item.meals);
     })();
 
     // Related: same primary category, exclude current
