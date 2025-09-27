@@ -191,6 +191,8 @@ def main():
                 "website": web,
                 "phone": phone,
                 "maps_url": maps_place_url(p.get("place_id","")),
+                "osm_type": "",                                     # never carry OSM into CSV
+                "osm_id": "",
                 "hours_raw": hours_raw,
                 "logo_url": "",
                 "hero_url": hero_local,                     # LOCAL file (no key leak)
