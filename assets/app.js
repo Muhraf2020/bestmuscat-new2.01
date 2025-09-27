@@ -26,7 +26,7 @@
     { name: "Car Repair Garages",          slug: "car-repair-garages" },
     { name: "Home Maintenance and Repair", slug: "home-maintenance-and-repair" },
     { name: "Catering Services",           slug: "catering-services" },
-    { name: "Event Planning and Decorations", slug: "event-planning-and-decorations" },
+    { name: "Events", slug: "events" },
     { name: "Moving and Storage",          slug: "moving-and-storage" }
   ];
   const CATEGORY_SLUG_SET = new Set(CATEGORIES.map(c => c.slug));
@@ -269,7 +269,7 @@ async function init() {
       const slug = (new URLSearchParams(location.search)).get("slug") || "";
 
       // 2) load tools.json
-      const res = await fetch("data/tools.json", { cache: "no-store" });
+      const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("tools.json not found");
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error("tools.json must be an array");
