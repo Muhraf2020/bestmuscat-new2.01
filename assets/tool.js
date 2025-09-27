@@ -117,6 +117,11 @@
     el.title.textContent = item.name || "Untitled";
     const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
     const catSlug = slugify(primaryCat);
+    // Display-only rename: keep data as "Events" but show "Events Planning"
+    const displayCat = (primaryCat || "").toLowerCase() === "events"
+      ? "Events Planning"
+      : primaryCat;
+
 
     // ── Data-driven visibility: compute once per item
     const features = {};
@@ -224,7 +229,8 @@
     // Pills
     const price = item.price || item.pricing || "";
     if (price)       { el.price.textContent = String(price).toUpperCase(); el.price.hidden = false; }
-    if (primaryCat)  { el.cat.textContent   = primaryCat;                  el.cat.hidden = false; }
+    if (displayCat)  { el.cat.textContent   = displayCat;                  el.cat.hidden = false; }
+
 
     // Header rating pill (legacy overall, if present)
     if (typeof item.rating === "number" || (typeof item.rating === "string" && item.rating.trim())) {
