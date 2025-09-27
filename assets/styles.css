@@ -10,6 +10,10 @@
   --bg:#fafafa;
   --brand:#0b57d0;
 }
+/* Ensure any element marked hidden stays hidden */
+[hidden] { display: none !important; }
+.card[hidden], section[hidden] { display: none !important; }
+
 * { box-sizing: border-box; }
 body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#111; background:#fff; }
 a { color: var(--brand); }
