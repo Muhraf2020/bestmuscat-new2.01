@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Suggest a Website — Best Muscat</title>
+  <link rel="stylesheet" href="assets/styles.css?v=5"/>
+  <style>
+    .wrap { max-width: 720px; }
+    form .row { display:flex; gap:10px; flex-wrap:wrap; margin:8px 0; }
+    form input[type="url"], form input[type="text"] { flex: 1; padding:10px 12px; border:1px solid #ddd; border-radius:8px; }
+    form button { padding:10px 14px; border-radius:8px; border:1px solid #0b5fff; background:#0b5fff; color:#fff; cursor:pointer; }
+    .muted { color:#666; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-wrap">
+      <a href="index.html" class="header-logo"><img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" height="40"/></a>
+      <div class="header-actions"><a class="btn-suggest" href="index.html">← Home</a></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Suggest a Website</h1>
+      <p id="place-line" class="muted">Loading…</p>
+      <form id="suggest-form">
+        <div class="row">
+          <input id="your-name" type="text" placeholder="Your name (optional)"/>
+        </div>
+        <div class="row">
+          <input id="site-url" type="url" placeholder="https://official-website.example" required/>
+        </div>
+        <div class="row">
+          <button type="submit">Send Suggestion</button>
+          <a id="maps-link" class="link-btn" href="#" target="_blank" rel="noopener">Open Google Maps</a>
+          <a id="detail-link" class="link-btn" href="#">Back to Details</a>
+        </div>
+        <p class="muted">We’ll review and update the listing if the site is valid.</p>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    (async function(){
+      const qs = new URLSearchParams(location.search);
+      const slug = (qs.get('slug')||'').trim().toLowerCase();
+      const placeLine = document.getElementById('place-line');
+      const mapsLink  = document.getElementById('maps-link');
+      const detailLink= document.getElementById('detail-link');
+
+      detailLink.href = 'tool.html?slug=' + encodeURIComponent(slug);
+
+      try{
+        const res = await fetch('data/tools.json?ts=' + Date.now(), {cache:'no-store'});
+        const rows = await res.json();
+        const p = rows.find(r => (r.slug||'').toLowerCase() === slug);
+        if (p) {
+          placeLine.textContent = `No website is registered for “${p.name}”. You can suggest one below.`;
+          const gm = (p.maps_url && p.maps_url.startsWith('https://www.google.com/maps/'))
+            ? p.maps_url
+            : (p.location && (p.location.lat && p.location.lng)
+                ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name||'')}&query_place_id=${encodeURIComponent(p.place_id||'')}`
+                : '#');
+          mapsLink.href = gm;
+        } else {
+          placeLine.textContent = 'Listing not found.';
+          mapsLink.style.display = 'none';
+        }
+      }catch{
+        placeLine.textContent = 'Could not load listing.';
+        mapsLink.style.display = 'none';
+      }
+
+      const form = document.getElementById('suggest-form');
+      form.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        const name = document.getElementById('your-name').value.trim();
+        const url  = document.getElementById('site-url').value.trim();
+        // Simple mailto fallback. Replace with Google Form later if you prefer.
+        const subject = encodeURIComponent('Website suggestion');
+        const body = encodeURIComponent(`Slug: ${slug}\nSuggested URL: ${url}\nFrom: ${name||'(anonymous)'}`);
+        location.href = `mailto:hello@bestmuscat.com?subject=${subject}&body=${body}`;
+      });
+    })();
+  </script>
+</body>
+</html>
