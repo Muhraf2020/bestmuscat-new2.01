@@ -385,7 +385,7 @@
     // Prefer new ingestion output (tools.json); fallback to old (places.json)
     let rows = null;
     try {
-      rows = await loadJSON("data/tools.json");
+      rows = await loadJSON("data/tools.json?ts=" + Date.now());
     } catch (e) {
       rows = await loadJSON("data/places.json");
     }
