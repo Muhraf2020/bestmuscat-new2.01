@@ -429,18 +429,25 @@ async function init() {
     // Load tools
     let data = [];
     try {
-      const res = await fetch("data/tools.json", { cache: "no-store" });
-      if (!res.ok) throw new Error("tools.json not found");
-      data = await res.json();
-      if (!Array.isArray(data)) throw new Error("tools.json must be an array");
-      toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // NEW
-    } catch (err) {
-      console.warn(err);
-      elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
-      elCount.textContent = "";
-      elPagination.hidden = true;
-      return;
-    }
+    // cache-busted so GH Pages/CDN can't serve stale JSON
+    const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("tools.json not found");
+    data = await res.json();
+    if (!Array.isArray(data)) throw new Error("tools.json must be an array");
+    toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // lookup for cards
+  } catch (err) {
+    console.warn(err);
+    elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
+    elCount.textContent = "";
+    elPagination.hidden = true;
+    return;
+  }
+
+// Support `?cat=events` (or any category slug) even if no chip exists for it.
+// We add it to the selected set so the existing filter path handles it.
+const selectedCatSlug = slugify(qs.get("cat") || "");
+if (selectedCatSlug) selectedCategories.add(selectedCatSlug);
+
 
     tools = data.map(t => ({
   id: t.id || t.slug || Math.random().toString(36).slice(2),
@@ -477,7 +484,7 @@ function renderShowcases() {
   renderInto(elShowGarages,  pick('car-repair-garages'));
   renderInto(elShowHome,     pick('home-maintenance-and-repair'));
   renderInto(elShowCatering, pick('catering-services'));
-  renderInto(elShowEvents,   pick('event-planning-and-decorations'));
+  renderInto(elShowEvents,   pick('events'));
   renderInto(elShowMoving,   pick('moving-and-storage'));
 }
 renderShowcases();
@@ -587,6 +594,11 @@ renderShowcases();
         t.categories.some(c => catFilter.includes(slugify(c)) || catFilter.includes(c))
       );
     }
+    // If the filter produced zero items (e.g., old ?cat value), show all instead of blank page
+    if (catFilter.length > 0 && arr.length === 0) {
+    arr = tools.slice();
+    }
+
 
     // 2) Apply search filter (Fuse) to the working set
     if (currentQuery) {
