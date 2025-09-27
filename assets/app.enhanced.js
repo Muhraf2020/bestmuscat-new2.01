@@ -177,6 +177,32 @@
 
     const wrap = document.createElement("section");
     wrap.className = "bm-extras";
+    // --- Keep base sections hidden if there's no data; optionally fill them if there is ---
+    const secCuisines = document.getElementById('cuisines');
+    const secMeals    = document.getElementById('meals');
+    const rootCuis    = document.getElementById('d-cuisines');
+    const rootMeals   = document.getElementById('d-meals');
+    
+    // Hide when empty
+    if (!Array.isArray(place.cuisines) || place.cuisines.length === 0) {
+      secCuisines?.setAttribute('hidden','');
+      if (rootCuis) rootCuis.innerHTML = '';
+    }
+    if (!Array.isArray(place.meals) || place.meals.length === 0) {
+      secMeals?.setAttribute('hidden','');
+      if (rootMeals) rootMeals.innerHTML = '';
+    }
+    
+    // If data exists, (re)fill and unhide (safe if these sections exist in tool.html)
+    if (Array.isArray(place.cuisines) && place.cuisines.length && secCuisines && rootCuis) {
+      rootCuis.innerHTML = place.cuisines.map(v => `<span class="chip">${escapeHTML(v)}</span>`).join('');
+      secCuisines.removeAttribute('hidden');
+    }
+    if (Array.isArray(place.meals) && place.meals.length && secMeals && rootMeals) {
+      rootMeals.innerHTML = place.meals.map(v => `<span class="chip">${escapeHTML(v)}</span>`).join('');
+      secMeals.removeAttribute('hidden');
+    }
+
 
     // ---------- Top chips (price / busyness) ----------
     const chips = [];
