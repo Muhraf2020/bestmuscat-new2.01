@@ -105,6 +105,33 @@
     (features.hours     ? showCard : hideCard)('hours');
     (features.map       ? showCard : hideCard)('map');
     (features.details   ? showCard : hideCard)('facts');
+    // --- Subnav: remove links to sections that are hidden/missing ---
+(function pruneSubnav() {
+  const nav    = document.querySelector('.detail-subnav');
+  const spacer = document.getElementById('detail-subnav-spacer');
+  if (!nav) return;
+
+  // List the section IDs that might appear in the subnav
+  const ids = ['about','amenities','cuisines','meals','rating','hours','map','facts'];
+
+  // Remove any <a> whose target section is hidden or missing
+  let kept = 0;
+  ids.forEach(id => {
+    const a   = nav.querySelector(`a[href="#${id}"]`);
+    const sec = document.getElementById(id);
+    if (!a) return;
+    const hide = !sec || sec.hasAttribute('hidden');
+    if (hide) a.remove();
+    else kept++;
+  });
+
+  // If nothing left, hide the subnav and spacer
+  if (kept === 0) {
+    nav.style.display = 'none';
+    if (spacer) spacer.style.display = 'none';
+  }
+})();
+
 
     // Minimal SEO updates
     document.title = `${item.name} — ${primaryCat || "Place"} | Best Muscat`;
