@@ -95,6 +95,76 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
+      # --- Muscat polygon filter (extended to Al Bustan / Qantab / Yiti / Shangri-La) ---
+      - name: Filter to Muscat polygon
+        run: |
+          python - << 'PY'
+import csv
+from pathlib import Path
+
+csv_path = Path("data/sources/hotels.csv")
+
+def point_in_poly(lat, lng, poly):
+    inside = False
+    n = len(poly)
+    for i in range(n):
+        (x1, y1) = poly[i-1]     # prev vertex (lng, lat)
+        (x2, y2) = poly[i]       # curr vertex (lng, lat)
+        if ((y1 > lat) != (y2 > lat)):
+            xinters = (x2 - x1) * (lat - y1) / (y2 - y1 + 1e-12) + x1
+            if lng < xinters:
+                inside = not inside
+    return inside
+
+# Polygon vertices (lng, lat) with annotations:
+MUSCAT_POLY = [
+    (58.260, 23.655),  # NW of Al Mouj (offshore a bit)
+    (58.225, 23.610),  # Seeb coast W
+    (58.260, 23.560),  # Seeb inland
+    (58.360, 23.540),  # Al Khoudh / Athaiba inland
+    (58.430, 23.540),  # Ghubrah/Bausher inland
+    (58.510, 23.520),  # Ruwi/Al Wadi Al Kabir inland
+    (58.590, 23.520),  # Amerat ridge line
+    (58.650, 23.560),  # Off Qantab coast (coastal)
+    (58.705, 23.555),  # Yiti Beach offshore
+    (58.735, 23.545),  # Shangri-La / Barr Al Jissah offshore
+    (58.625, 23.575),  # Al Bustan coast
+    (58.690, 23.600),  # off Muttrah coast (east)
+    (58.600, 23.650),  # off Muttrah coast (north)
+    (58.520, 23.640),  # off Shatti/Qurum coast
+    (58.420, 23.640),  # off Athaiba/Qurum coast
+    (58.340, 23.650),  # off Al Mouj coast
+]
+
+# Expanded bbox guard to include far SE (lng_min, lng_max, lat_min, lat_max)
+BBOX = (58.20, 58.76, 23.48, 23.70)
+
+rows_out = []
+with csv_path.open(newline="", encoding="utf-8") as f:
+    rdr = csv.DictReader(f)
+    fieldnames = rdr.fieldnames or []
+    for r in rdr:
+        try:
+            lat = float((r.get("lat") or "").strip())
+            lng = float((r.get("lng") or "").strip())
+        except Exception:
+            continue
+
+        in_bbox = (BBOX[0] <= lng <= BBOX[1]) and (BBOX[2] <= lat <= BBOX[3])
+        if not in_bbox:
+            continue
+
+        if point_in_poly(lat, lng, MUSCAT_POLY):
+            rows_out.append(r)
+
+with csv_path.open("w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=fieldnames)
+    w.writeheader()
+    w.writerows(rows_out)
+
+print(f"Kept {len(rows_out)} rows within Muscat polygon (incl. Al Bustan, Qantab, Yiti, Shangri-La).")
+PY
+
       # Make 'scripts' a proper Python package so imports work
       - name: Ensure Python packages
         run: |
@@ -112,7 +182,7 @@ jobs:
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Fetch hotels (image-free) & rebuild tools.json"
+          commit_message: "Fetch hotels (image-free), filter to Muscat (incl. Yiti/Shangri-La/Al Bustan), & rebuild tools.json"
           branch: ${{ github.ref_name }}
           file_pattern: |
             data/sources/hotels.csv
