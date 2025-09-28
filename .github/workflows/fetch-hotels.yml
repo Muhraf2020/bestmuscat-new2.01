@@ -40,7 +40,7 @@ on:
         type: boolean
         default: false
 
-      # ---- NEW: region selection controls ----
+      # ---- Region selection controls ----
       region_mode:
         description: "How to select the geography to keep"
         type: choice
@@ -83,12 +83,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ensure folders exist
-        run: |
-          mkdir -p data/sources
-          mkdir -p assets/hotels
-          mkdir -p scripts/post
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -103,6 +97,10 @@ jobs:
             pip install requests
           fi
 
+      - name: Ensure folders exist
+        run: |
+          mkdir -p data/sources assets/hotels scripts/post
+
       - name: Run fetcher
         working-directory: scripts
         run: |
@@ -114,26 +112,21 @@ jobs:
           ARGS+=(--max-places "${{ github.event.inputs.max_places }}")
           ARGS+=(--details-throttle-sec "${{ github.event.inputs.details_throttle_sec }}")
           ARGS+=(--wall-timeout-sec "${{ github.event.inputs.wall_timeout_sec }}")
-          if [ "${{ github.event.inputs.basic_only }}" = "true" ]; then
-            ARGS+=(--basic-only)
-          fi
-          if [ "${{ github.event.inputs.no_favicons }}" = "true" ]; then
-            ARGS+=(--no-favicons)
-          fi
+          if [ "${{ github.event.inputs.basic_only }}" = "true" ]; then ARGS+=(--basic-only); fi
+          if [ "${{ github.event.inputs.no_favicons }}" = "true" ]; then ARGS+=(--no-favicons); fi
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      - name: Filter by selected geography
+      - name: Geo-filter
         env:
           REGION_MODE: ${{ github.event.inputs.region_mode }}
           REGION_CHOICE: ${{ github.event.inputs.region_choice }}
           CUSTOM_POLYGON: ${{ github.event.inputs.custom_polygon }}
           BBOX: ${{ github.event.inputs.bbox }}
           NEIGHBORHOODS: ${{ github.event.inputs.neighborhoods }}
-        run: |
-          python scripts/post/filter_poly.py
+        run: python scripts/post/filter_poly.py
 
-      - name: Build tools.json from CSV (optional)
+      - name: Build tools.json (optional)
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
@@ -151,4 +144,3 @@ jobs:
           file_pattern: |
             data/sources/hotels.csv
             data/tools.json
-
