@@ -1,4 +1,4 @@
-name: Ingest CSV → Build Data
+name: Ingest CSV → Enrich → Build Data
 
 on:
   workflow_dispatch:
@@ -23,8 +23,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,7 +45,8 @@ jobs:
       - name: CSV → tools.json
         run: python -m scripts.ingest.csv_to_tools
 
-      # (Removed hydrate step to avoid Google API usage/cost)
+      - name: Enrich with Places/OSM/Wikidata
+        run: python -m scripts.ingest.hydrate_details
 
       - name: Sanitize hours after enrich (remove empty weekly)
         run: |
@@ -98,7 +97,7 @@ jobs:
           git diff --staged --quiet || git commit -m "data: update tools + images"
           git push
 
-      # ---- Deploy to GitHub Pages ----
+      # ---- Inline deploy to GitHub Pages (same job; bullet-proof) ----
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
