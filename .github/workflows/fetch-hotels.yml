@@ -9,7 +9,7 @@ on:
       centers:
         description: 'Semicolon-separated "lat,lng" points'
         # Use as many centers as you like to tile ALL of Muscat
-        default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
+        default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520;23.545,58.735"
       radius:
         description: "Search radius (meters)"
         default: "8000"
