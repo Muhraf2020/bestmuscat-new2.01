@@ -10,7 +10,6 @@ on:
       centers:
         description: 'Semicolon-separated "lat,lng" points'
         type: string
-        # Muscat area sample points (no ellipses!)
         default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
       radius:
         description: "Search radius (meters)"
@@ -70,9 +69,8 @@ jobs:
             pip install requests
           fi
 
-      - name: Run fetcher (image-free, low-cost)
+      - name: Run fetcher
         working-directory: scripts
-        shell: bash
         run: |
           ARGS=()
           ARGS+=(--keywords "${{ github.event.inputs.keywords }}")
@@ -91,16 +89,11 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      - name: Build tools.json from CSV (if script exists)
+      - name: Build tools.json from CSV (optional)
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: |
-          if [ -f scripts/ingest/csv_to_tools.py ] || python - <<'PY'
-import importlib.util, sys, os
-p = os.path.join('scripts','ingest','csv_to_tools.py')
-sys.exit(0 if os.path.exists(p) else 1)
-PY
-          then
+          if [ -f scripts/ingest/csv_to_tools.py ]; then
             python -m scripts.ingest.csv_to_tools || true
           else
             echo "csv_to_tools.py not found; skipping."
