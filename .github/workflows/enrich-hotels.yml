@@ -39,15 +39,14 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
-          else
-            pip install beautifulsoup4 requests
           fi
+          # Always ensure these are present (even if requirements.txt exists)
+          pip install beautifulsoup4 requests
 
       - name: Run enrichment (free)
         run: |
           python scripts/enrich/enrich_hotels.py --csv "${{ github.event.inputs.csv_path }}" --sleep "${{ github.event.inputs.sleep_sec }}"
 
-      # Optional: build tools.json after enrichment
       - name: Ensure Python packages (for ingest)
         if: ${{ github.event.inputs.run_ingest == 'true' }}
         run: |
