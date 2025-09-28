@@ -51,9 +51,10 @@ jobs:
       - name: Ensure Python packages (for ingest)
         if: ${{ github.event.inputs.run_ingest == 'true' }}
         run: |
-          mkdir -p scripts/utils
+          mkdir -p scripts/utils scripts/ingest
           touch scripts/__init__.py
           touch scripts/utils/__init__.py
+          touch scripts/ingest/__init__.py
 
       - name: Build tools.json from CSV
         if: ${{ github.event.inputs.run_ingest == 'true' }}
