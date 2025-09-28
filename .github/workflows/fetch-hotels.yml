@@ -99,7 +99,6 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      # --- Muscat polygon filter without heredoc ---
       - name: Filter to Muscat polygon
         shell: bash
         run: |
@@ -113,15 +112,14 @@ def point_in_poly(lat, lng, poly):
     inside = False
     n = len(poly)
     for i in range(n):
-        (x1, y1) = poly[i-1]     # prev vertex (lng, lat)
-        (x2, y2) = poly[i]       # curr vertex (lng, lat)
+        (x1, y1) = poly[i-1]
+        (x2, y2) = poly[i]
         if ((y1 > lat) != (y2 > lat)):
             xinters = (x2 - x1) * (lat - y1) / (y2 - y1 + 1e-12) + x1
             if lng < xinters:
                 inside = not inside
     return inside
 
-# Polygon vertices (lng, lat)
 MUSCAT_POLY = [
     (58.260, 23.655),
     (58.225, 23.610),
@@ -141,7 +139,6 @@ MUSCAT_POLY = [
     (58.340, 23.650),
 ]
 
-# Bounding box guard (lng_min, lng_max, lat_min, lat_max)
 BBOX = (58.20, 58.76, 23.48, 23.70)
 
 rows_out = []
