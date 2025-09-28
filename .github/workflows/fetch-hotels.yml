@@ -40,6 +40,39 @@ on:
         type: boolean
         default: false
 
+      # ---- NEW: region selection controls ----
+      region_mode:
+        description: "How to select the geography to keep"
+        type: choice
+        options:
+          - polygon_choice
+          - custom_polygon
+          - bbox
+          - neighborhoods
+          - none
+        default: polygon_choice
+      region_choice:
+        description: "Preset polygon (used when region_mode = polygon_choice)"
+        type: choice
+        options:
+          - Core-Muscat
+          - Qurum-Mutrah-AlBustan
+          - Seeb-Coast
+          - Yiti-ShangriLa
+        default: Core-Muscat
+      custom_polygon:
+        description: 'Custom polygon as "lat,lng; lat,lng; ..."'
+        type: string
+        default: ""
+      bbox:
+        description: 'Optional quick filter: "lng_min,lng_max,lat_min,lat_max"'
+        type: string
+        default: "58.20,58.76,23.48,23.70"
+      neighborhoods:
+        description: 'Optional whitelist: semicolon-separated names (e.g., "Qurum;Mutrah;Al Bustan")'
+        type: string
+        default: ""
+
 permissions:
   contents: write
 
@@ -54,6 +87,7 @@ jobs:
         run: |
           mkdir -p data/sources
           mkdir -p assets/hotels
+          mkdir -p scripts/post
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -89,76 +123,15 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      - name: Filter to Muscat polygon
-        shell: bash
+      - name: Filter by selected geography
+        env:
+          REGION_MODE: ${{ github.event.inputs.region_mode }}
+          REGION_CHOICE: ${{ github.event.inputs.region_choice }}
+          CUSTOM_POLYGON: ${{ github.event.inputs.custom_polygon }}
+          BBOX: ${{ github.event.inputs.bbox }}
+          NEIGHBORHOODS: ${{ github.event.inputs.neighborhoods }}
         run: |
-          cat > /tmp/filter_poly.py <<'PY'
-import csv
-from pathlib import Path
-
-csv_path = Path("data/sources/hotels.csv")
-
-# Polygon defined as list of (lng, lat) pairs, clockwise or counterclockwise.
-# This example outlines coastal Muscat incl. Yiti/Shangri-La/Al Bustan/Qurum/Seeb.
-MUSCAT_POLY = [
-    (58.260, 23.655),
-    (58.225, 23.610),
-    (58.260, 23.560),
-    (58.360, 23.540),
-    (58.430, 23.540),
-    (58.510, 23.520),
-    (58.590, 23.520),
-    (58.650, 23.560),
-    (58.705, 23.555),
-    (58.735, 23.545),
-    (58.625, 23.575),
-    (58.690, 23.600),
-    (58.600, 23.650),
-    (58.520, 23.640),
-    (58.420, 23.640),
-    (58.340, 23.650),
-]
-
-# Loose bounding box (lng_min, lng_max, lat_min, lat_max) for quick reject
-BBOX = (58.20, 58.76, 23.48, 23.70)
-
-def point_in_poly(lat, lng, poly):
-    # Even-odd rule, expects 'poly' as [(lng,lat),...]
-    inside = False
-    j = len(poly) - 1
-    for i in range(len(poly)):
-        xi, yi = poly[i]
-        xj, yj = poly[j]
-        intersect = ((yi > lat) != (yj > lat)) and \
-                    (lng < (xj - xi) * (lat - yi) / (yj - yi + 1e-12) + xi)
-        if intersect:
-            inside = not inside
-        j = i
-    return inside
-
-rows_out = []
-with csv_path.open(newline="", encoding="utf-8") as f:
-    rdr = csv.DictReader(f)
-    fieldnames = rdr.fieldnames or []
-    for r in rdr:
-        try:
-            lat = float((r.get("lat") or "").strip())
-            lng = float((r.get("lng") or "").strip())
-        except Exception:
-            continue
-        if not (BBOX[0] <= lng <= BBOX[1] and BBOX[2] <= lat <= BBOX[3]):
-            continue
-        if point_in_poly(lat, lng, MUSCAT_POLY):
-            rows_out.append(r)
-
-with csv_path.open("w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=fieldnames)
-    w.writeheader()
-    w.writerows(rows_out)
-
-print(f"[filter_poly] kept {len(rows_out)} rows inside Muscat polygon.")
-PY
-          python /tmp/filter_poly.py
+          python scripts/post/filter_poly.py
 
       - name: Build tools.json from CSV (optional)
         env:
@@ -173,8 +146,9 @@ PY
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Fetch hotels, filter to Muscat polygon, rebuild tools.json"
+          commit_message: "Fetch hotels, geo-filter, rebuild tools.json"
           branch: ${{ github.ref_name }}
           file_pattern: |
             data/sources/hotels.csv
             data/tools.json
+
