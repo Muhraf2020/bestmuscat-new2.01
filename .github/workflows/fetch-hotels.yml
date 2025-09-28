@@ -13,28 +13,28 @@ on:
         default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
       radius:
         description: "Search radius (meters)"
-        type: number
-        default: 8000
+        type: string
+        default: "8000"
       basic_only:
         description: "Cheapest: only core detail fields (no hours/editorial)"
         type: boolean
         default: true
       max_pages_per_query:
         description: "Max pages per (keyword,center)"
-        type: number
-        default: 2
+        type: string
+        default: "2"
       max_places:
         description: "Stop after N unique places overall"
-        type: number
-        default: 150
+        type: string
+        default: "150"
       details_throttle_sec:
         description: "Sleep seconds between Details calls"
-        type: number
-        default: 0.2
+        type: string
+        default: "0.2"
       wall_timeout_sec:
         description: "Abort run after this many seconds"
-        type: number
-        default: 1200
+        type: string
+        default: "1200"
       no_favicons:
         description: "Do NOT set favicon URLs in logo_url"
         type: boolean
