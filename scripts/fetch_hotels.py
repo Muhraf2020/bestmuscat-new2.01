@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import csv, os, time, requests, sys, re, json, argparse, mimetypes
+import csv, os, time, requests, sys, re, json, argparse
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlparse
 
 # ───────────────────────── Basics ─────────────────────────
 API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
@@ -11,14 +11,11 @@ if not API_KEY:
     print("ERROR: Set GOOGLE_MAPS_API_KEY in your environment.", file=sys.stderr)
     sys.exit(1)
 
-# Project paths (adjust if your tree differs)
+# Project paths (kept same layout as your repo)
 ROOT = Path(__file__).resolve().parents[1]   # scripts/ under repo root
 SRC_DIR = ROOT / "data" / "sources"
 SRC_DIR.mkdir(parents=True, exist_ok=True)
 OUT_CSV = SRC_DIR / "hotels.csv"
-
-ASSETS_DIR = ROOT / "assets" / "hotels"
-ASSETS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ──────────────────────── Utilities ───────────────────────
 def slugify(s: str) -> str:
@@ -35,7 +32,10 @@ def is_maps_fallback(url: str) -> bool:
 
 def price_level_to_symbols(level):
     mapping = {0:"$", 1:"$", 2:"$$", 3:"$$$", 4:"$$$$"}
-    return mapping.get(level, "")
+    try:
+        return mapping.get(int(level), "")
+    except Exception:
+        return ""
 
 def is_http_url(u: str) -> bool:
     try:
@@ -44,15 +44,12 @@ def is_http_url(u: str) -> bool:
     except Exception:
         return False
 
-# Robust GET/HEAD with retries/backoff
-def http_get(url, params=None, timeout=30, allow_redirects=True, max_retries=3, backoff=1.5, method="GET"):
+# Robust GET with retries/backoff (for Places endpoints only)
+def http_get(url, params=None, timeout=30, allow_redirects=True, max_retries=3, backoff=1.5):
     attempt = 0
     while True:
         try:
-            if method == "HEAD":
-                r = requests.head(url, params=params, timeout=timeout, allow_redirects=allow_redirects)
-            else:
-                r = requests.get(url, params=params, timeout=timeout, allow_redirects=allow_redirects)
+            r = requests.get(url, params=params, timeout=timeout, allow_redirects=allow_redirects)
             r.raise_for_status()
             return r
         except Exception:
@@ -77,105 +74,34 @@ def places_text_search(keyword: str, lat: float, lng: float, radius_m: int, page
     r = http_get(url, params=params, timeout=30)
     return r.json()
 
-def place_details(place_id: str):
+def place_details(place_id: str, basic_only: bool):
+    """
+    Request only non-image fields to reduce cost.
+    Excludes 'photos' entirely.
+    """
     url = "https://maps.googleapis.com/maps/api/place/details/json"
+    # Basic, Contact, and a bit of Atmosphere—no photos.
     fields = [
         "place_id","name","formatted_address","geometry/location",
         "international_phone_number","website","url","business_status",
         "current_opening_hours","editorial_summary","rating","user_ratings_total",
-        "price_level","photos"
+        "price_level"
     ]
+    if basic_only:
+        # Even cheaper: just core basics (no editorial summary, no hours)
+        fields = [
+            "place_id","name","formatted_address","geometry/location",
+            "international_phone_number","website","url",
+            "rating","user_ratings_total","price_level"
+        ]
     params = {"place_id": place_id, "fields": ",".join(fields), "key": API_KEY}
     r = http_get(url, params=params, timeout=30)
     return r.json()
 
-def choose_best_photo(photos):
-    """Prefer a landscape image (width >= height), else first."""
-    if not photos:
-        return None
-    landscapes = [p for p in photos if (p.get("width",0) >= p.get("height",0))]
-    pick = landscapes[0] if landscapes else photos[0]
-    return pick.get("photo_reference")
-
-# ---------- Photos: local file OR online URL ----------
-def download_photo(photo_ref: str, out_path: Path, maxwidth=1600):
+def favicon_url_for(site_url: str, size: int = 128) -> str:
     """
-    Save image locally; returns Path (with inferred extension) or False.
-    """
-    if not photo_ref:
-        return False
-    base = "https://maps.googleapis.com/maps/api/place/photo"
-    qs = {"photoreference": photo_ref, "maxwidth": str(maxwidth), "key": API_KEY}
-    resp = http_get(base, params=qs, timeout=60, allow_redirects=True, max_retries=3)
-    if resp.status_code == 200 and resp.content:
-        ct = resp.headers.get("Content-Type", "")
-        ext = mimetypes.guess_extension(ct) or ".jpg"
-        out = out_path.with_suffix(ext)
-        out.write_bytes(resp.content)
-        return out
-    return False
-
-def resolve_photo_cdn_url(photo_ref: str, maxwidth=1600):
-    """
-    Resolve a stable googleusercontent.com CDN URL (no API key in URL).
-    """
-    if not photo_ref:
-        return ""
-    base = "https://maps.googleapis.com/maps/api/place/photo"
-    qs = {"photoreference": photo_ref, "maxwidth": str(maxwidth), "key": API_KEY}
-
-    # Try no-redirect first to read Location
-    try:
-        r = http_get(base, params=qs, timeout=30, allow_redirects=False)
-        if r.status_code in (302, 303) and r.headers.get("Location"):
-            return r.headers["Location"]
-    except Exception:
-        pass
-
-    # Fallback: follow redirects and use final URL
-    try:
-        r2 = http_get(base, params=qs, timeout=60, allow_redirects=True)
-        return r2.url
-    except Exception:
-        return ""
-
-# ---------- Website image & favicon ----------
-_META_IMG_RE = re.compile(
-    r'<meta[^>]+(?:property|name)\s*=\s*["\'](?:og:image|twitter:image)["\'][^>]*content\s*=\s*["\']([^"\']+)["\']',
-    re.I
-)
-_LINK_IMG_RE = re.compile(
-    r'<link[^>]+rel\s*=\s*["\'][^"\']*(?:image_src|apple-touch-icon|icon)[^"\']*["\'][^>]*href\s*=\s*["\']([^"\']+)["\']',
-    re.I
-)
-
-def resolve_site_social_image(site_url: str) -> str:
-    """
-    Try to get a 'hero' image from the website:
-    1) <meta property="og:image"> or <meta name="twitter:image">
-    2) <link rel="image_src">, <link rel="apple-touch-icon">, <link rel="icon">
-    Returns absolute URL or "".
-    """
-    if not is_http_url(site_url):
-        return ""
-    try:
-        resp = http_get(site_url, timeout=20, allow_redirects=True)
-        html = resp.text[:300_000]  # cap parse window
-        # Prefer OG/Twitter first
-        m = _META_IMG_RE.search(html)
-        if m:
-            return urljoin(resp.url, m.group(1).strip())
-        # Fallback to link rels
-        m2 = _LINK_IMG_RE.search(html)
-        if m2:
-            return urljoin(resp.url, m2.group(1).strip())
-    except Exception:
-        return ""
-    return ""
-
-def guess_favicon(site_url: str, size: int = 128) -> str:
-    """
-    Return a stable online favicon for the domain using Google S2 favicons.
+    Construct a Google S2 favicon URL (no request here).
+    This does not consume Places quota.
     """
     try:
         host = urlparse(site_url).hostname or ""
@@ -203,7 +129,7 @@ CSV_HEADERS = [
 def normalize_row(d):
     return {k: d.get(k, "") for k in CSV_HEADERS}
 
-# Fill blanks, prefer official website over Maps fallback, keep better hero/review_count
+# Fill blanks, prefer official website over Maps fallback, keep better review_count
 def merge_rows(old, new):
     merged = dict(old)
     for k, v in new.items():
@@ -212,12 +138,6 @@ def merge_rows(old, new):
             if (not ov) or is_maps_fallback(ov):
                 if v:
                     merged[k] = v
-        elif k == "hero_url":
-            if not ov and v:
-                merged[k] = v
-        elif k == "logo_url":
-            if not ov and v:
-                merged[k] = v
         elif k == "review_count":
             try:
                 oi = int(ov) if str(ov).strip().isdigit() else -1
@@ -247,57 +167,30 @@ def build_row(text_item: dict, details: dict, args):
     ratings_total = p.get("user_ratings_total") or ""
     price_range = price_level_to_symbols(p.get("price_level"))
 
-    # Photos: prefer Details photos, else fall back to TextSearch photos
-    details_photos = p.get("photos") or []
-    seed_photos = text_item.get("photos") or []
-    chosen_ref = choose_best_photo(details_photos) or choose_best_photo(seed_photos)
-
-    # Decide hero image source: Google Photo (local/online) and/or Website social image
+    # No photos, no site image scraping: hero_url stays empty
     hero = ""
-    site_image = ""
-
-    # If the place has a real website (not the maps fallback), consider its social image
-    has_real_site = is_http_url(web) and not is_maps_fallback(web)
-
-    if args.prefer_site_image and has_real_site:
-        site_image = resolve_site_social_image(web)
-        if site_image:
-            hero = site_image
-
-    if not hero and chosen_ref and not args.no_photos:
-        if args.online_photos:
-            cdn_url = resolve_photo_cdn_url(chosen_ref, maxwidth=1600)
-            if cdn_url:
-                hero = cdn_url
-        else:
-            out_path = ASSETS_DIR / f"{slug}"
-            saved = download_photo(chosen_ref, out_path, maxwidth=1600)
-            if saved:
-                hero = str(saved.relative_to(ROOT)).replace("\\","/")
-
-    # Still no hero? Try website social image as a fallback
-    if not hero and has_real_site:
-        site_image = site_image or resolve_site_social_image(web)
-        if site_image:
-            hero = site_image
 
     # Website fallback to Maps URL if missing
     maps_url = maps_place_url(p.get("place_id",""))
     if not web:
         web = maps_url
 
-    # Always set a stable online favicon into logo_url if we have a real site
-    logo_online = guess_favicon(web) if has_real_site else ""
+    # Optional: favicon URL string (no request performed)
+    logo_online = ""
+    if not args.no_favicons and web:
+        logo_online = favicon_url_for(web, size=128)
 
-    # Hours: store raw JSON
+    # Hours: store raw JSON if present (free field when requested)
     hours_raw = ""
-    if p.get("current_opening_hours"):
+    if p.get("current_opening_hours") and not args.basic_only:
         try:
             hours_raw = json.dumps(p["current_opening_hours"], ensure_ascii=False)
         except Exception:
             hours_raw = ""
 
-    editorial = (p.get("editorial_summary") or {}).get("overview","").strip()
+    editorial = ""
+    if not args.basic_only:
+        editorial = (p.get("editorial_summary") or {}).get("overview","").strip()
 
     row = {
         "id": p.get("place_id",""),
@@ -316,10 +209,10 @@ def build_row(text_item: dict, details: dict, args):
         "phone": phone,
         "maps_url": maps_url,
         "hours_raw": hours_raw,
-        "logo_url": logo_online,                 # online favicon (nice fallback)
-        "hero_url": hero,                        # local path OR online URL (Google CDN or site)
-        "image_credit": "Image © Google" if (hero and "googleusercontent.com" in hero) else "",
-        "image_source_url": maps_url,
+        "logo_url": logo_online,        # cheap constructed URL; no request
+        "hero_url": "",                 # intentionally blank (handled later)
+        "image_credit": "",
+        "image_source_url": "",
         "place_id": p.get("place_id",""),
         "osm_type": "",
         "osm_id": "",
@@ -336,7 +229,7 @@ def build_row(text_item: dict, details: dict, args):
         "sub_value": "",
         "sub_accessibility": "",
         "review_count": ratings_total,
-        "review_source": "Google",
+        "review_source": "Google" if ratings_total else "",
         "review_insight": "",
         "last_updated": time.strftime("%Y-%m-%d"),
         # hotel-specific (blank for now)
@@ -352,10 +245,9 @@ def build_row(text_item: dict, details: dict, args):
     }
     return normalize_row(row)
 
-# One (center, keyword) with strong guards
+# One (center, keyword) with guards
 def fetch_for_center_keyword(lat, lng, radius_m, keyword, rows_by_pid, args):
     data = places_text_search(keyword, lat, lng, radius_m, page_token=None)
-
     seen_tokens = set()
     pages_fetched = 0
     last_page_pids = set()
@@ -375,12 +267,12 @@ def fetch_for_center_keyword(lat, lng, radius_m, keyword, rows_by_pid, args):
                 continue
             curr_page_pids.add(pid)
 
-            # Fetch Details only if this PID is new (prevents re-fetch spam)
+            # Skip already-known PIDs to avoid repeated Details calls
             if pid in rows_by_pid:
                 continue
 
-            time.sleep(0.2)  # be gentle with Details quota
-            det = place_details(pid)
+            time.sleep(args.details_throttle_sec)  # gentle on Details quota
+            det = place_details(pid, basic_only=args.basic_only)
             if det.get("status") != "OK":
                 continue
 
@@ -395,22 +287,18 @@ def fetch_for_center_keyword(lat, lng, radius_m, keyword, rows_by_pid, args):
             else:
                 rows_by_pid[pid] = row
 
-            # Optional: progress heartbeat
             if len(rows_by_pid) % 25 == 0:
                 print(f"[progress] {len(rows_by_pid)} unique places so far…")
 
-            # Global hard cap
             if args.max_places and len(rows_by_pid) >= args.max_places:
                 print(f"[guard] Reached --max-places={args.max_places}; stopping this query.")
                 return
 
-        # Duplicate page guard
         if curr_page_pids and curr_page_pids == last_page_pids:
             print("[guard] Duplicate page detected; breaking pagination loop.")
             break
         last_page_pids = curr_page_pids
 
-        # Page count guard
         pages_fetched += 1
         if args.max_pages_per_query and pages_fetched >= args.max_pages_per_query:
             break
@@ -450,7 +338,7 @@ def fetch_for_center_keyword(lat, lng, radius_m, keyword, rows_by_pid, args):
 # ──────────────────────── CLI / Main ─────────────────────
 def parse_cli():
     parser = argparse.ArgumentParser(
-        description="Fetch Muscat hotels via Google Places with multi-center, multi-keyword merge (safe guards)."
+        description="Fetch Muscat hotels via Google Places with low-cost, image-free details."
     )
     parser.add_argument(
         "--keywords",
@@ -462,27 +350,28 @@ def parse_cli():
         "23.611,58.471",  # Qurum
         "23.585,58.407",  # Al Khuwair / Ghubrah
         "23.620,58.280",  # Al Mouj / Seeb
-        "23.600,58.545",  # Ruwi / Mutrah side
+        "23.600,58.545",  # Ruwi / Mutrah
         "23.560,58.640",  # Qantab / Bandar Jissah
         "23.570,58.420",  # Bausher / Athaiba
-        "23.520,58.385",  # Airport / Al Matar area
+        "23.520,58.385",  # Airport / Al Matar
         "23.640,58.520",  # Mutrah corniche north
     ]
-    parser.add_argument(
-        "--centers",
-        type=str,
-        default=";".join(default_centers),
-        help='Semicolon-separated "lat,lng" points to tile the city.'
-    )
+    parser.add_argument("--centers", type=str, default=";".join(default_centers),
+                        help='Semicolon-separated "lat,lng" points to tile the city.')
     parser.add_argument("--radius", type=int, default=8000, help="Search radius per center in meters.")
-    parser.add_argument("--no-photos", action="store_true", help="Skip photo handling (fastest).")
-    parser.add_argument("--online-photos", action="store_true",
-                        help="Do not download; store the final googleusercontent.com image URL in hero_url.")
-    parser.add_argument("--prefer-site-image", action="store_true",
-                        help="Prefer website social image (og:image / twitter:image) over Google Photo when available.")
     parser.add_argument("--max-pages-per-query", type=int, default=3, help="Max pages per (keyword,center).")
     parser.add_argument("--max-places", type=int, default=100, help="Stop after N unique places overall.")
     parser.add_argument("--wall-timeout-sec", type=int, default=1200, help="Abort run after this many seconds.")
+
+    # Cost/latency controls:
+    parser.add_argument("--basic-only", action="store_true",
+                        help="Request only core detail fields (cheapest)—no hours/editorial.")
+    parser.add_argument("--details-throttle-sec", type=float, default=0.2,
+                        help="Sleep seconds between Place Details calls.")
+
+    # Cosmetic (free) favicon string:
+    parser.add_argument("--no-favicons", action="store_true",
+                        help="Do not include Google S2 favicon URL in logo_url.")
     return parser.parse_args()
 
 def main():
@@ -499,13 +388,12 @@ def main():
             pass
     radius_m = int(args.radius)
 
-    print(f"Fetching hotels… {len(keywords)} keywords × {len(centers)} centers (radius {radius_m} m, max={args.max_places}, online_photos={args.online_photos}, prefer_site_image={args.prefer_site_image})")
+    print(f"Fetching hotels (image-free)… {len(keywords)} keywords × {len(centers)} centers (radius {radius_m} m, max={args.max_places}, basic_only={args.basic_only})")
     rows_by_pid = {}
     stop_all = False
 
     for kw in keywords:
         for (lat, lng) in centers:
-            # Wall clock guard
             if args.wall_timeout_sec and (time.time() - start_ts) > args.wall_timeout_sec:
                 print("[guard] Wall timeout reached; stopping…")
                 stop_all = True
@@ -530,10 +418,7 @@ def main():
         w.writerows(rows)
 
     print(f"Wrote {len(rows)} unique hotels → {OUT_CSV}")
-    if args.online_photos:
-        print("Images are referenced via googleusercontent.com URLs (not downloaded).")
-    else:
-        print(f"Images saved to: {ASSETS_DIR}")
+    print("Note: hero_url intentionally left blank. Use your enrichment/cache steps later to add images.")
 
 if __name__ == "__main__":
     main()
