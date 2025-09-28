@@ -78,6 +78,7 @@ jobs:
 
       - name: Run fetcher (image-free, low-cost)
         working-directory: scripts
+        shell: bash
         run: |
           ARGS=()
           ARGS+=(--keywords "${{ github.event.inputs.keywords }}")
@@ -88,7 +89,6 @@ jobs:
           ARGS+=(--details-throttle-sec "${{ github.event.inputs.details_throttle_sec }}")
           ARGS+=(--wall-timeout-sec "${{ github.event.inputs.wall_timeout_sec }}")
 
-          # Booleans
           if [ "${{ github.event.inputs.basic_only }}" = "true" ]; then
             ARGS+=(--basic-only)
           fi
@@ -99,10 +99,11 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      # --- Muscat polygon filter (incl. Al Bustan / Qantab / Yiti / Shangri-La) ---
+      # --- Muscat polygon filter without heredoc ---
       - name: Filter to Muscat polygon
+        shell: bash
         run: |
-          python - << 'PY'
+          cat > /tmp/filter_muscat.py <<'EOF'
 import csv
 from pathlib import Path
 
@@ -167,16 +168,15 @@ with csv_path.open("w", newline="", encoding="utf-8") as f:
     w.writerows(rows_out)
 
 print(f"Kept {len(rows_out)} rows within Muscat polygon.")
-PY
+EOF
+          python /tmp/filter_muscat.py
 
-      # Make 'scripts' a proper Python package so imports work
       - name: Ensure Python packages
         run: |
           mkdir -p scripts/utils
           touch scripts/__init__.py
           touch scripts/utils/__init__.py
 
-      # Ingest: run as a module from repo root with PYTHONPATH set
       - name: Build tools.json from CSV
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -191,4 +191,3 @@ PY
           file_pattern: |
             data/sources/hotels.csv
             data/tools.json
-
