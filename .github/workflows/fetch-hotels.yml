@@ -40,7 +40,7 @@ on:
         type: boolean
         default: false
   # schedule:
-  #   - cron: "0 3 * * 1"  # (optional) every Monday 03:00 UTC
+  #   - cron: "0 3 * * 1"
 
 permissions:
   contents: write
@@ -95,7 +95,6 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      # --- Muscat polygon filter (extended to Al Bustan / Qantab / Yiti / Shangri-La) ---
       - name: Filter to Muscat polygon
         run: |
           python - << 'PY'
@@ -108,15 +107,14 @@ def point_in_poly(lat, lng, poly):
     inside = False
     n = len(poly)
     for i in range(n):
-        (x1, y1) = poly[i-1]     # prev vertex (lng, lat)
-        (x2, y2) = poly[i]       # curr vertex (lng, lat)
+        (x1, y1) = poly[i-1]
+        (x2, y2) = poly[i]
         if ((y1 > lat) != (y2 > lat)):
             xinters = (x2 - x1) * (lat - y1) / (y2 - y1 + 1e-12) + x1
             if lng < xinters:
                 inside = not inside
     return inside
 
-# Polygon vertices (lng, lat) with annotations:
 MUSCAT_POLY = [
     (58.260, 23.655),  # NW of Al Mouj (offshore a bit)
     (58.225, 23.610),  # Seeb coast W
@@ -136,7 +134,6 @@ MUSCAT_POLY = [
     (58.340, 23.650),  # off Al Mouj coast
 ]
 
-# Expanded bbox guard to include far SE (lng_min, lng_max, lat_min, lat_max)
 BBOX = (58.20, 58.76, 23.48, 23.70)
 
 rows_out = []
@@ -165,14 +162,12 @@ with csv_path.open("w", newline="", encoding="utf-8") as f:
 print(f"Kept {len(rows_out)} rows within Muscat polygon (incl. Al Bustan, Qantab, Yiti, Shangri-La).")
 PY
 
-      # Make 'scripts' a proper Python package so imports work
       - name: Ensure Python packages
         run: |
           mkdir -p scripts/utils
           touch scripts/__init__.py
           touch scripts/utils/__init__.py
 
-      # Ingest: run as a module from repo root with PYTHONPATH set
       - name: Build tools.json from CSV
         env:
           PYTHONPATH: ${{ github.workspace }}
