@@ -95,16 +95,19 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
-      # If you have an ingest step, run it here.
-      - name: Build tools.json from CSV
+      # Make 'scripts' a proper Python package so imports work
+      - name: Ensure Python packages
         run: |
-          if [ -f "scripts/ingest.py" ]; then
-            python3 scripts/ingest.py
-          elif python3 -c "import importlib; importlib.import_module('scripts.ingest.csv_to_tools')" 2>/dev/null; then
-            python3 -m scripts.ingest.csv_to_tools
-          else
-            echo "No ingest step found. Skipping."
-          fi
+          mkdir -p scripts/utils
+          touch scripts/__init__.py
+          touch scripts/utils/__init__.py
+
+      # Ingest: run as a module from repo root with PYTHONPATH set
+      - name: Build tools.json from CSV
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -m scripts.ingest.csv_to_tools
 
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
