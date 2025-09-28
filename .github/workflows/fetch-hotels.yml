@@ -5,40 +5,31 @@ on:
     inputs:
       keywords:
         description: "Comma-separated search keywords"
-        type: string
         default: "hotel,resort,guest house,aparthotel,boutique hotel,hostel,camp"
       centers:
         description: 'Semicolon-separated "lat,lng" points'
-        type: string
         default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
       radius:
         description: "Search radius (meters)"
-        type: string
         default: "8000"
       basic_only:
-        description: "Cheapest: only core detail fields (no hours/editorial)"
-        type: boolean
-        default: true
+        description: "Cheapest: only core detail fields (true/false)"
+        default: "true"
       max_pages_per_query:
         description: "Max pages per (keyword,center)"
-        type: string
         default: "2"
       max_places:
         description: "Stop after N unique places overall"
-        type: string
         default: "150"
       details_throttle_sec:
         description: "Sleep seconds between Details calls"
-        type: string
         default: "0.2"
       wall_timeout_sec:
         description: "Abort run after this many seconds"
-        type: string
         default: "1200"
       no_favicons:
-        description: "Do NOT set favicon URLs in logo_url"
-        type: boolean
-        default: false
+        description: "Do NOT set favicon URLs in logo_url (true/false)"
+        default: "false"
   # schedule:
   #   - cron: "0 3 * * 1"
 
@@ -78,27 +69,39 @@ jobs:
 
       - name: Run fetcher (image-free, low-cost)
         working-directory: scripts
+        shell: bash
         run: |
-          ARGS=()
-          ARGS+=(--keywords "${{ github.event.inputs.keywords }}")
-          ARGS+=(--centers "${{ github.event.inputs.centers }}")
-          ARGS+=(--radius "${{ github.event.inputs.radius }}")
-          ARGS+=(--max-pages-per-query "${{ github.event.inputs.max_pages_per_query }}")
-          ARGS+=(--max-places "${{ github.event.inputs.max_places }}")
-          ARGS+=(--details-throttle-sec "${{ github.event.inputs.details_throttle_sec }}")
-          ARGS+=(--wall-timeout-sec "${{ github.event.inputs.wall_timeout_sec }}")
+          # Read inputs as strings and coerce booleans manually
+          KW="${{ github.event.inputs.keywords }}"
+          CTRS="${{ github.event.inputs.centers }}"
+          RAD="${{ github.event.inputs.radius }}"
+          PAGES="${{ github.event.inputs.max_pages_per_query }}"
+          MAXP="${{ github.event.inputs.max_places }}"
+          THROTTLE="${{ github.event.inputs.details_throttle_sec }}"
+          WALL="${{ github.event.inputs.wall_timeout_sec }}"
+          BASIC="${{ github.event.inputs.basic_only }}"
+          NOFAV="${{ github.event.inputs.no_favicons }}"
 
-          if [ "${{ github.event.inputs.basic_only }}" = "true" ]; then
-            ARGS+=(--basic-only)
-          fi
-          if [ "${{ github.event.inputs.no_favicons }}" = "true" ]; then
-            ARGS+=(--no-favicons)
-          fi
+          ARGS=()
+          ARGS+=(--keywords "$KW")
+          ARGS+=(--centers "$CTRS")
+          ARGS+=(--radius "$RAD")
+          ARGS+=(--max-pages-per-query "$PAGES")
+          ARGS+=(--max-places "$MAXP")
+          ARGS+=(--details-throttle-sec "$THROTTLE")
+          ARGS+=(--wall-timeout-sec "$WALL")
+
+          # Accept true/false in any case
+          shopt -s nocasematch
+          if [[ "$BASIC" == "true" ]]; then ARGS+=(--basic-only); fi
+          if [[ "$NOFAV" == "true" ]]; then ARGS+=(--no-favicons); fi
+          shopt -u nocasematch
 
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
       - name: Filter to Muscat polygon
+        shell: bash
         run: |
           python - << 'PY'
 import csv
@@ -145,22 +148,17 @@ with csv_path.open(newline="", encoding="utf-8") as f:
     fieldnames = rdr.fieldnames or []
     for r in rdr:
         try:
-            lat = float((r.get("lat") or "").strip())
-            lng = float((r.get("lng") or "").strip())
+            lat = float((r.get("lat") or "").strip()); lng = float((r.get("lng") or "").strip())
         except Exception:
             continue
-
         in_bbox = (BBOX[0] <= lng <= BBOX[1]) and (BBOX[2] <= lat <= BBOX[3])
-        if not in_bbox:
-            continue
-
+        if not in_bbox: continue
         if point_in_poly(lat, lng, MUSCAT_POLY):
             rows_out.append(r)
 
 with csv_path.open("w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=fieldnames)
-    w.writeheader()
-    w.writerows(rows_out)
+    w.writeheader(); w.writerows(rows_out)
 
 print(f"Kept {len(rows_out)} rows within Muscat polygon (incl. Al Bustan, Qantab, Yiti, Shangri-La).")
 PY
