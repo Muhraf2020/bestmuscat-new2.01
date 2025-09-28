@@ -70,7 +70,11 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests
+          fi
 
       - name: Run fetcher (image-free, low-cost)
         working-directory: scripts
@@ -95,6 +99,7 @@ jobs:
           echo "Running: python fetch_hotels.py ${ARGS[*]}"
           python fetch_hotels.py "${ARGS[@]}"
 
+      # --- Muscat polygon filter (incl. Al Bustan / Qantab / Yiti / Shangri-La) ---
       - name: Filter to Muscat polygon
         run: |
           python - << 'PY'
@@ -107,33 +112,35 @@ def point_in_poly(lat, lng, poly):
     inside = False
     n = len(poly)
     for i in range(n):
-        (x1, y1) = poly[i-1]
-        (x2, y2) = poly[i]
+        (x1, y1) = poly[i-1]     # prev vertex (lng, lat)
+        (x2, y2) = poly[i]       # curr vertex (lng, lat)
         if ((y1 > lat) != (y2 > lat)):
             xinters = (x2 - x1) * (lat - y1) / (y2 - y1 + 1e-12) + x1
             if lng < xinters:
                 inside = not inside
     return inside
 
+# Polygon vertices (lng, lat)
 MUSCAT_POLY = [
-    (58.260, 23.655),  # NW of Al Mouj (offshore a bit)
-    (58.225, 23.610),  # Seeb coast W
-    (58.260, 23.560),  # Seeb inland
-    (58.360, 23.540),  # Al Khoudh / Athaiba inland
-    (58.430, 23.540),  # Ghubrah/Bausher inland
-    (58.510, 23.520),  # Ruwi/Al Wadi Al Kabir inland
-    (58.590, 23.520),  # Amerat ridge line
-    (58.650, 23.560),  # Off Qantab coast (coastal)
-    (58.705, 23.555),  # Yiti Beach offshore
-    (58.735, 23.545),  # Shangri-La / Barr Al Jissah offshore
-    (58.625, 23.575),  # Al Bustan coast
-    (58.690, 23.600),  # off Muttrah coast (east)
-    (58.600, 23.650),  # off Muttrah coast (north)
-    (58.520, 23.640),  # off Shatti/Qurum coast
-    (58.420, 23.640),  # off Athaiba/Qurum coast
-    (58.340, 23.650),  # off Al Mouj coast
+    (58.260, 23.655),
+    (58.225, 23.610),
+    (58.260, 23.560),
+    (58.360, 23.540),
+    (58.430, 23.540),
+    (58.510, 23.520),
+    (58.590, 23.520),
+    (58.650, 23.560),
+    (58.705, 23.555),
+    (58.735, 23.545),
+    (58.625, 23.575),
+    (58.690, 23.600),
+    (58.600, 23.650),
+    (58.520, 23.640),
+    (58.420, 23.640),
+    (58.340, 23.650),
 ]
 
+# Bounding box guard (lng_min, lng_max, lat_min, lat_max)
 BBOX = (58.20, 58.76, 23.48, 23.70)
 
 rows_out = []
@@ -159,15 +166,17 @@ with csv_path.open("w", newline="", encoding="utf-8") as f:
     w.writeheader()
     w.writerows(rows_out)
 
-print(f"Kept {len(rows_out)} rows within Muscat polygon (incl. Al Bustan, Qantab, Yiti, Shangri-La).")
+print(f"Kept {len(rows_out)} rows within Muscat polygon.")
 PY
 
+      # Make 'scripts' a proper Python package so imports work
       - name: Ensure Python packages
         run: |
           mkdir -p scripts/utils
           touch scripts/__init__.py
           touch scripts/utils/__init__.py
 
+      # Ingest: run as a module from repo root with PYTHONPATH set
       - name: Build tools.json from CSV
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -182,3 +191,4 @@ PY
           file_pattern: |
             data/sources/hotels.csv
             data/tools.json
+
