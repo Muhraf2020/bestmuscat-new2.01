@@ -209,7 +209,11 @@
     "about": {
       "short": "Taste that travels.",
       "long": "Buffets, plated dinners, canapés, and live stations."
-    }
+    },
+    "images": {
+      "hero": "assets/catering/hero-1.jpg"
+    },
+    "banner_image": "assets/catering/hero-1.jpg"
   },
   {
     "id": "ca002",
@@ -421,7 +425,11 @@
     "about": {
       "short": "Taste that travels.",
       "long": "Buffets, plated dinners, canapés, and live stations."
-    }
+    },
+    "images": {
+      "hero": "assets/catering/hero-2.jpg"
+    },
+    "banner_image": "assets/catering/hero-2.jpg"
   },
   {
     "id": "ca003",
@@ -633,7 +641,11 @@
     "about": {
       "short": "Taste that travels.",
       "long": "Buffets, plated dinners, canapés, and live stations."
-    }
+    },
+    "images": {
+      "hero": "assets/catering/hero-3.jpg"
+    },
+    "banner_image": "assets/catering/hero-3.jpg"
   },
   {
     "id": "ca004",
@@ -845,7 +857,11 @@
     "about": {
       "short": "Taste that travels.",
       "long": "Buffets, plated dinners, canapés, and live stations."
-    }
+    },
+    "images": {
+      "hero": "assets/catering/hero-4.jpg"
+    },
+    "banner_image": "assets/catering/hero-4.jpg"
   },
   {
     "id": "ca005",
@@ -1057,7 +1073,11 @@
     "about": {
       "short": "Taste that travels.",
       "long": "Buffets, plated dinners, canapés, and live stations."
-    }
+    },
+    "images": {
+      "hero": "assets/catering/hero-5.jpg"
+    },
+    "banner_image": "assets/catering/hero-5.jpg"
   },
   {
     "id": "c001",
@@ -1259,7 +1279,11 @@
     "about": {
       "short": "Trusted neighborhood clinic.",
       "long": "Comprehensive services including diagnostics and pharmacy."
-    }
+    },
+    "images": {
+      "hero": "assets/clinics/hero-1.jpg"
+    },
+    "banner_image": "assets/clinics/hero-1.jpg"
   },
   {
     "id": "c002",
@@ -1461,7 +1485,11 @@
     "about": {
       "short": "Trusted neighborhood clinic.",
       "long": "Comprehensive services including diagnostics and pharmacy."
-    }
+    },
+    "images": {
+      "hero": "assets/clinics/hero-2.jpg"
+    },
+    "banner_image": "assets/clinics/hero-2.jpg"
   },
   {
     "id": "c003",
@@ -1663,7 +1691,11 @@
     "about": {
       "short": "Trusted neighborhood clinic.",
       "long": "Comprehensive services including diagnostics and pharmacy."
-    }
+    },
+    "images": {
+      "hero": "assets/clinics/hero-3.jpg"
+    },
+    "banner_image": "assets/clinics/hero-3.jpg"
   },
   {
     "id": "c004",
@@ -1865,7 +1897,11 @@
     "about": {
       "short": "Trusted neighborhood clinic.",
       "long": "Comprehensive services including diagnostics and pharmacy."
-    }
+    },
+    "images": {
+      "hero": "assets/clinics/hero-4.jpg"
+    },
+    "banner_image": "assets/clinics/hero-4.jpg"
   },
   {
     "id": "c005",
@@ -2067,7 +2103,11 @@
     "about": {
       "short": "Trusted neighborhood clinic.",
       "long": "Comprehensive services including diagnostics and pharmacy."
-    }
+    },
+    "images": {
+      "hero": "assets/clinics/hero-5.jpg"
+    },
+    "banner_image": "assets/clinics/hero-5.jpg"
   },
   {
     "id": "e001",
@@ -2271,7 +2311,11 @@
     "about": {
       "short": "From concept to cleanup.",
       "long": "We manage venue, decor, AV, catering coordination, and entertainment."
-    }
+    },
+    "images": {
+      "hero": "assets/events/hero-1.jpg"
+    },
+    "banner_image": "assets/events/hero-1.jpg"
   },
   {
     "id": "e002",
@@ -2475,7 +2519,11 @@
     "about": {
       "short": "From concept to cleanup.",
       "long": "We manage venue, decor, AV, catering coordination, and entertainment."
-    }
+    },
+    "images": {
+      "hero": "assets/events/hero-2.jpg"
+    },
+    "banner_image": "assets/events/hero-2.jpg"
   },
   {
     "id": "e003",
@@ -2679,7 +2727,11 @@
     "about": {
       "short": "From concept to cleanup.",
       "long": "We manage venue, decor, AV, catering coordination, and entertainment."
-    }
+    },
+    "images": {
+      "hero": "assets/events/hero-3.jpg"
+    },
+    "banner_image": "assets/events/hero-3.jpg"
   },
   {
     "id": "e004",
@@ -2883,7 +2935,11 @@
     "about": {
       "short": "From concept to cleanup.",
       "long": "We manage venue, decor, AV, catering coordination, and entertainment."
-    }
+    },
+    "images": {
+      "hero": "assets/events/hero-4.jpg"
+    },
+    "banner_image": "assets/events/hero-4.jpg"
   },
   {
     "id": "e005",
@@ -3087,7 +3143,11 @@
     "about": {
       "short": "From concept to cleanup.",
       "long": "We manage venue, decor, AV, catering coordination, and entertainment."
-    }
+    },
+    "images": {
+      "hero": "assets/events/hero-5.jpg"
+    },
+    "banner_image": "assets/events/hero-5.jpg"
   },
   {
     "id": "g001",
@@ -3284,7 +3344,11 @@
     "about": {
       "short": "Your car’s best friend.",
       "long": "From minor service to engine rebuilds, we do it all."
-    }
+    },
+    "images": {
+      "hero": "assets/garages/hero-1.jpg"
+    },
+    "banner_image": "assets/garages/hero-1.jpg"
   },
   {
     "id": "g002",
@@ -3481,7 +3545,11 @@
     "about": {
       "short": "Your car’s best friend.",
       "long": "From minor service to engine rebuilds, we do it all."
-    }
+    },
+    "images": {
+      "hero": "assets/garages/hero-2.jpg"
+    },
+    "banner_image": "assets/garages/hero-2.jpg"
   },
   {
     "id": "g003",
@@ -3678,7 +3746,11 @@
     "about": {
       "short": "Your car’s best friend.",
       "long": "From minor service to engine rebuilds, we do it all."
-    }
+    },
+    "images": {
+      "hero": "assets/garages/hero-3.jpg"
+    },
+    "banner_image": "assets/garages/hero-3.jpg"
   },
   {
     "id": "g004",
@@ -3875,7 +3947,11 @@
     "about": {
       "short": "Your car’s best friend.",
       "long": "From minor service to engine rebuilds, we do it all."
-    }
+    },
+    "images": {
+      "hero": "assets/garages/hero-4.jpg"
+    },
+    "banner_image": "assets/garages/hero-4.jpg"
   },
   {
     "id": "g005",
@@ -4072,7 +4148,11 @@
     "about": {
       "short": "Your car’s best friend.",
       "long": "From minor service to engine rebuilds, we do it all."
-    }
+    },
+    "images": {
+      "hero": "assets/garages/hero-5.jpg"
+    },
+    "banner_image": "assets/garages/hero-5.jpg"
   },
   {
     "id": "hm001",
@@ -4221,7 +4301,11 @@
     "about": {
       "short": "Fast, reliable, guaranteed.",
       "long": "Plumbing, electrical, AC, carpentry and more with warranty."
-    }
+    },
+    "images": {
+      "hero": "assets/home/hero-1.jpg"
+    },
+    "banner_image": "assets/home/hero-1.jpg"
   },
   {
     "id": "hm002",
@@ -4370,7 +4454,11 @@
     "about": {
       "short": "Fast, reliable, guaranteed.",
       "long": "Plumbing, electrical, AC, carpentry and more with warranty."
-    }
+    },
+    "images": {
+      "hero": "assets/home/hero-2.jpg"
+    },
+    "banner_image": "assets/home/hero-2.jpg"
   },
   {
     "id": "hm003",
@@ -4519,7 +4607,11 @@
     "about": {
       "short": "Fast, reliable, guaranteed.",
       "long": "Plumbing, electrical, AC, carpentry and more with warranty."
-    }
+    },
+    "images": {
+      "hero": "assets/home/hero-3.jpg"
+    },
+    "banner_image": "assets/home/hero-3.jpg"
   },
   {
     "id": "hm004",
@@ -4668,7 +4760,11 @@
     "about": {
       "short": "Fast, reliable, guaranteed.",
       "long": "Plumbing, electrical, AC, carpentry and more with warranty."
-    }
+    },
+    "images": {
+      "hero": "assets/home/hero-4.jpg"
+    },
+    "banner_image": "assets/home/hero-4.jpg"
   },
   {
     "id": "hm005",
@@ -4817,7 +4913,11 @@
     "about": {
       "short": "Fast, reliable, guaranteed.",
       "long": "Plumbing, electrical, AC, carpentry and more with warranty."
-    }
+    },
+    "images": {
+      "hero": "assets/home/hero-5.jpg"
+    },
+    "banner_image": "assets/home/hero-5.jpg"
   },
   {
     "id": "ChIJ9QtwdFj_kT4RTN4zcILQ1os",
@@ -4943,7 +5043,11 @@
     },
     "about": {
       "long": "*No additional charge for Children from age 1 to 12. *Children above the age of 12 will be considered as an adult and is charged 10 OMR/night. This charge is to be paid at the Hotel at the time of Check-in."
-    }
+    },
+    "images": {
+      "hero": "http://www.almuroojgrand.com/images/social/facebook.png"
+    },
+    "banner_image": "http://www.almuroojgrand.com/images/social/facebook.png"
   },
   {
     "id": "ChIJ042t8AX-jT4R-Mdbum89R6c",
@@ -5071,7 +5175,11 @@
     "about": {
       "short": "Aerotel Muscat is located airside in the Departure Terminal. A perfect stop for rest and refreshment inside Muscat International Airport.",
       "long": "Aerotel Muscat is located airside in the Departure Terminal. A perfect stop for rest and refreshment inside Muscat International Airport. Situated in Oman’s capital - the country’s gateway and a busy transit point - is Aerotel Muscat International Airport, Transit Hotel, a one-of-a-kind airport transit hotel strategically located at Level 5 within Departures (airport secured area) of Muscat International Airport. Stay in our comfortable rooms, which are thoughtfully designed for couples or solo passengers to refresh, relax and recharge before your next flight. Designed by travellers for…"
-    }
+    },
+    "images": {
+      "hero": "https://www.myaerotel.com/MyAerotel/media/assets/Default/Banner/Aerotel_MetaImage_Web_1200x628px.jpg"
+    },
+    "banner_image": "https://www.myaerotel.com/MyAerotel/media/assets/Default/Banner/Aerotel_MetaImage_Web_1200x628px.jpg"
   },
   {
     "id": "ChIJVxuNmsv5kT4ROCy-fCtQGUk",
@@ -5199,7 +5307,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTe_CgOwgEciSX36tr8lnkKJVux42Rt0zC92hNwUXgvFn-gPNUdkQb5Zob5hYIlHgjdqhicaNse6Vk1U-XnVXiRf1CKIGjXlTMfnjzBTpw1jWgTax5t7qSCbeeSbC0dGJZAdRI=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTe_CgOwgEciSX36tr8lnkKJVux42Rt0zC92hNwUXgvFn-gPNUdkQb5Zob5hYIlHgjdqhicaNse6Vk1U-XnVXiRf1CKIGjXlTMfnjzBTpw1jWgTax5t7qSCbeeSbC0dGJZAdRI=w900-h900-p-k-no"
   },
   {
     "id": "ChIJgUYW6zrxkT4RIaJvt4wvA_Q",
@@ -5338,7 +5450,11 @@
     "about": {
       "short": "Experience five-star amenities at The Ritz-Carlton, Al Bustan Palace and indulge in luxury accomodations. Book your stay today.",
       "long": "Experience five-star amenities at The Ritz-Carlton, Al Bustan Palace and indulge in luxury accomodations. Book your stay today. Meticulously designed for comfort and convenience, our hotel's 250 charming guest rooms and suites have been uniquely appointed to reflect both local and art deco influences. Al Bustan Palace, a Ritz-Carlton Hotel, features magnificent mountain, sea or garden views from each of its luxurious rooms and suites. Our resort is the ideal location for travelers seeking both business and leisure alike. Whether your interests lie in exploring the rich history of our…"
-    }
+    },
+    "images": {
+      "hero": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Wide-Hor?wid=1336&fit=constrain"
+    },
+    "banner_image": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Wide-Hor?wid=1336&fit=constrain"
   },
   {
     "id": "ChIJqfUBNqL4kT4Rkj5XVyUVJdE",
@@ -5473,7 +5589,11 @@
     "about": {
       "short": "Looking for a lavish hotel in Muscat? Then look no further than Al Falaj Hotel Muscat, which offers stylish rooms, and culinary delights. Official website",
       "long": "Looking for a lavish hotel in Muscat? Then look no further than Al Falaj Hotel Muscat, which offers stylish rooms, and culinary delights. Official website Nestled in the heart of Muscat since 1971, Al Falaj Hotel in Muscat is more than just a place to reside; it’s a testament to the rich tapestry of Omani heritage. For years, this icon has gracefully woven the timeless allure of tradition with the sophisticated demands of the contemporary traveler. Situated in Ruwi, the vibrant commercial heart of Muscat, guests are perfectly positioned to immerse themselves in the city’s pulse. Iconic…"
-    }
+    },
+    "images": {
+      "hero": "https://droky2nrez9sj.cloudfront.net/2022/05/alfalahlogo-fix.png"
+    },
+    "banner_image": "https://droky2nrez9sj.cloudfront.net/2022/05/alfalahlogo-fix.png"
   },
   {
     "id": "ChIJO3lj0I73kT4R6R_Db_EdcMg",
@@ -5601,7 +5721,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VDwJvRKb64DpLlQ_9wcTLw&cb_client=search.gws-prod.gps&w=900&h=900&yaw=165.58434&pitch=0&thumbfov=100"
+    },
+    "banner_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VDwJvRKb64DpLlQ_9wcTLw&cb_client=search.gws-prod.gps&w=900&h=900&yaw=165.58434&pitch=0&thumbfov=100"
   },
   {
     "id": "ChIJkTg0lpz8jT4Ro5RCb_vcqyc",
@@ -5776,7 +5900,11 @@
     "about": {
       "short": "Discover modern seaside comfort in Muscat at the breathtaking Al Hail Hotel managed by Centara. Book our selection of elegant rooms and suites today.",
       "long": "Discover modern seaside comfort in Muscat at the breathtaking Al Hail Hotel managed by Centara. Book our selection of elegant rooms and suites today. Centara Hotels & Resorts has six hotel brands covering a broad spectrum of the travel market."
-    }
+    },
+    "images": {
+      "hero": "https://www.centarahotelsresorts.com/managed-hotels/sites/centara-managed-hotels/files/2025-03/Centara-Reserve.png"
+    },
+    "banner_image": "https://www.centarahotelsresorts.com/managed-hotels/sites/centara-managed-hotels/files/2025-03/Centara-Reserve.png"
   },
   {
     "id": "ChIJnW1Vk5_9jT4Rdf6CI77moPg",
@@ -5904,7 +6032,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipMa3R_1eCMe2y0wPVl9xvsdoS9H0us6s2puoPRh=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipMa3R_1eCMe2y0wPVl9xvsdoS9H0us6s2puoPRh=w900-h900-p-k-no"
   },
   {
     "id": "ChIJS3NqUML5kT4RMxovitgmvWA",
@@ -6032,7 +6164,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipNMvLkLwQZLO4VruaG6koVDpLYYasTuwLeB1TvH=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipNMvLkLwQZLO4VruaG6koVDpLYYasTuwLeB1TvH=w900-h900-p-k-no"
   },
   {
     "id": "ChIJHcmKXrz_kT4RccohiaHwWHM",
@@ -6160,7 +6296,11 @@
     "about": {
       "short": "Located halfway between the Arabian Sea and Sultan Qaboos Grand Mosque, Al Maha offers modern accommodations.",
       "long": "Located halfway between the Arabian Sea and Sultan Qaboos Grand Mosque, Al Maha offers modern accommodations. WHILE WORKING ON THE SITE, WE RECOMMEND THAT RESERVATIONS BE MADE THROUGH BOOKING.COM !"
-    }
+    },
+    "images": {
+      "hero": "https://www.almahainternationalhotelwg.com/img1.jpg"
+    },
+    "banner_image": "https://www.almahainternationalhotelwg.com/img1.jpg"
   },
   {
     "id": "ChIJU9MBYeH_kT4RIyEcpoCbiDM",
@@ -6288,7 +6428,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhG1QKqyBfbWVDMiazYzBa0bNsgAxCoQyw-joRgnsMup_kQLmvapnhlxOZB6x0gPW4287hK8xVziID_0kJy8hNqMM2Tfca2dIJNtiOpZLE8kUmpwR-pUD0oxAK9OgmBwe7-3E-oQakiG1GkCM8-JC8eqwMMgkqbp1u38EXaZNU1TdGLxXnMLg4IM=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhG1QKqyBfbWVDMiazYzBa0bNsgAxCoQyw-joRgnsMup_kQLmvapnhlxOZB6x0gPW4287hK8xVziID_0kJy8hNqMM2Tfca2dIJNtiOpZLE8kUmpwR-pUD0oxAK9OgmBwe7-3E-oQakiG1GkCM8-JC8eqwMMgkqbp1u38EXaZNU1TdGLxXnMLg4IM=w900-h900-p-k-no"
   },
   {
     "id": "ChIJByX4Zrz_kT4RfKf4tsPQw2M",
@@ -6416,7 +6560,11 @@
     "about": {
       "short": "For a delightful stay book OYO 132 Al Reef Hotel at ﷼6/night..",
       "long": "For a delightful stay book OYO 132 Al Reef Hotel at ﷼6/night.. A popular budget hotel in Muscat OYO 132 Al Reef Hotel remains in limelight for multiple reasons. This budget hotel in Muscat, Muscat is located at a distance of about 1."
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/98086/71cd4a50a0ca76b6.jpg"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/98086/71cd4a50a0ca76b6.jpg"
   },
   {
     "id": "ChIJVxpLT8vzkT4R2WeXOTXrmTY",
@@ -6544,7 +6692,11 @@
     "about": {
       "short": "Book direct for offers and packages at the best rate guaranteed. Join Shangri-La Circle to enjoy exclusive member rates with more flexibility and privileges.",
       "long": "Book direct for offers and packages at the best rate guaranteed. Join Shangri-La Circle to enjoy exclusive member rates with more flexibility and privileges. Whether you’re here for a bite or a string of nights, join as a member to enjoy exclusive benefits and a seamless digital experience."
-    }
+    },
+    "images": {
+      "hero": "https://sitecore-cd.shangri-la.com/-/media/Shangri-La/header_footer/Global_SLCHeaderLogo.png?h=60&iar=0&w=540&hash=0FE7A7A2E8BD9DD3215AF8CD8EA6C34B"
+    },
+    "banner_image": "https://sitecore-cd.shangri-la.com/-/media/Shangri-La/header_footer/Global_SLCHeaderLogo.png?h=60&iar=0&w=540&hash=0FE7A7A2E8BD9DD3215AF8CD8EA6C34B"
   },
   {
     "id": "ChIJMzqo8TL8jT4RdrvHk0r6mqE",
@@ -6672,7 +6824,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noeEIZQOdhEcRvZHHaq4mbpvsLYTfTEg5moiKq_VGJl5uC45YCll6hLqOfN09WMqCHkCq1olmxc4iRjowgFF5bLCglPvp6Q2lJH2R0E10cUt-83OgS8P_5P-e_IPG9dGZo1ZUQo=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noeEIZQOdhEcRvZHHaq4mbpvsLYTfTEg5moiKq_VGJl5uC45YCll6hLqOfN09WMqCHkCq1olmxc4iRjowgFF5bLCglPvp6Q2lJH2R0E10cUt-83OgS8P_5P-e_IPG9dGZo1ZUQo=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ4eFOjiH9jT4Ruzvkbk4SzRo",
@@ -6789,7 +6945,8 @@
       "count": 5,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJK4SgP7MBjj4RaFnnsseHnEU",
@@ -6909,7 +7066,11 @@
       "count": 770,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/5/50/Deira_City_Centre_on_6_June_2007_Pict_1.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Deira_City_Centre_on_6_June_2007_Pict_1.jpg"
   },
   {
     "id": "ChIJbYEl4lb9jT4RL1gDnXeXzkk",
@@ -7037,7 +7198,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipMKpNOzZbFe9h0yR_uP4EMse0W6h5rqYF3bJ5el=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipMKpNOzZbFe9h0yR_uP4EMse0W6h5rqYF3bJ5el=w900-h900-p-k-no"
   },
   {
     "id": "ChIJp7ukHAD_kT4R0zWEFS5TXj8",
@@ -7162,7 +7327,8 @@
     "about": {
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJ87zLGYABjj4R3BxlAxoqdwo",
@@ -7291,7 +7457,11 @@
     "about": {
       "short": "A’Sinamar Hotel Apartments is one of the Best Hotel with Modern Amenities in Muscat. Book Your Room now!",
       "long": "A’Sinamar Hotel Apartments is one of the Best Hotel with Modern Amenities in Muscat. Book Your Room now! Located on the hills of Ghala Heights, A’Sinamar Hotel Apartments overlooks the mountains and the sea. Embodying traditional design and Arabic architecture, the hotel is rich in culture. Inside, fully furnished rooms and suites makes for comfortable living for both short and long stay guests. The hotel is situated minutes away from Muscat International Airport and the Oman Exhibition & Convention Center. And with quick access to both of Muscat’s main highways, guests will find that they…"
-    }
+    },
+    "images": {
+      "hero": "http://asinamarhotel.com/wp-content/uploads/2018/09/logo.png"
+    },
+    "banner_image": "http://asinamarhotel.com/wp-content/uploads/2018/09/logo.png"
   },
   {
     "id": "ChIJR2ck00b_kT4RecCyo7ufKBY",
@@ -7419,7 +7589,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEl_QQPPc3E7SePm_L5fU6-cbvFS72qquIKjU_Ke_CrzA98cJ7hq-0K_o22hoJ8CMuTa1ZG0pXIgm5JdkbAtIeHCiKxOwrbG-OYca4Mqcaa_mV9eunTzwbAx13NgsbIsuRVNktUI6zXuEJvczG3RqQ1ht9u_8wvI7d-Am-GZgZPyifwKeSNKqZp=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEl_QQPPc3E7SePm_L5fU6-cbvFS72qquIKjU_Ke_CrzA98cJ7hq-0K_o22hoJ8CMuTa1ZG0pXIgm5JdkbAtIeHCiKxOwrbG-OYca4Mqcaa_mV9eunTzwbAx13NgsbIsuRVNktUI6zXuEJvczG3RqQ1ht9u_8wvI7d-Am-GZgZPyifwKeSNKqZp=w900-h900-p-k-no"
   },
   {
     "id": "ChIJq8KFxuSVkT4RKEA-vlC1l-s",
@@ -7547,7 +7721,11 @@
     "about": {
       "short": "★★★★★ · Serviced accommodation",
       "long": "★★★★★ · Serviced accommodation"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4oUko9HQeIHXqtrKu8ch49rQM5dZy4cxkWwmxxAfdvecOGSNnyFEtCsqShxBnBHVLgXPFPqIdWNISI2-CxyJDs_LUlFGI6u2KZBfROg4X1WbInbi4tpY1QK5PwbWmXhocktbQ5g=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4oUko9HQeIHXqtrKu8ch49rQM5dZy4cxkWwmxxAfdvecOGSNnyFEtCsqShxBnBHVLgXPFPqIdWNISI2-CxyJDs_LUlFGI6u2KZBfROg4X1WbInbi4tpY1QK5PwbWmXhocktbQ5g=w900-h900-p-k-no"
   },
   {
     "id": "ChIJMYpD8bT4kT4RJtjatHkMtNI",
@@ -7675,7 +7853,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no-KXp2i7yM8ix00H_Mnm81D-pb1DgLijxnP9GB391H9-EA40z20dBC4_00Yi34ee5p5LmZ3xAdnVmz_bjRe0vdi_pRxaTM8sTyNfKXRVFUBa0mpS96xVV6OCmGrJp5n7q3tK8H=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no-KXp2i7yM8ix00H_Mnm81D-pb1DgLijxnP9GB391H9-EA40z20dBC4_00Yi34ee5p5LmZ3xAdnVmz_bjRe0vdi_pRxaTM8sTyNfKXRVFUBa0mpS96xVV6OCmGrJp5n7q3tK8H=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ13uRVAQAjj4Rf5lzaRzqlxs",
@@ -7804,7 +7986,11 @@
     "about": {
       "short": "Behlys offers an unparalleled experience in Oman with exceptional stays, luxurious amenities, and captivating sights to explore. Plan your next trip and discover the beauty of this enchanting…",
       "long": "Behlys offers an unparalleled experience in Oman with exceptional stays, luxurious amenities, and captivating sights to explore. Plan your next trip and discover the beauty of this enchanting destination! Immerse yourself in the comforts of home with top-notch amenities."
-    }
+    },
+    "images": {
+      "hero": "https://behlys.netlify.app/img/og.png"
+    },
+    "banner_image": "https://behlys.netlify.app/img/og.png"
   },
   {
     "id": "ChIJlWR2xRf_kT4RaHTSezzjA_s",
@@ -7923,7 +8109,8 @@
       "count": 1721,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJewRTHbLxkT4RZSuUC3fUIbU",
@@ -8046,7 +8233,8 @@
     "about": {
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJ4QIYCCT7kT4RCzxlkjK__KM",
@@ -8174,7 +8362,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJHaskwAXzM91MWZPN0cbgLPOBXkFR_QdfXySJLNueQD1k-n48bRkB-ICCNOwRxuFjtzSf1_x_jdM1xPM0yOAFUgBa7zEUaHQyW-opK2i631AHgc2IK9j57v1DbTfAy3FIzqc7hA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJHaskwAXzM91MWZPN0cbgLPOBXkFR_QdfXySJLNueQD1k-n48bRkB-ICCNOwRxuFjtzSf1_x_jdM1xPM0yOAFUgBa7zEUaHQyW-opK2i631AHgc2IK9j57v1DbTfAy3FIzqc7hA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJa2T6qBIAjj4RQ9TTRUsfZmA",
@@ -8301,7 +8493,11 @@
     },
     "about": {
       "long": "Discover unparalleled comfort and sophistication at Carnelian Hotels. As a premier four-star destination just moments from Muscat International Airport, we offer a tranquil oasis for both business and leisure travelers. Indulge in exquisite amenities, elegant accommodations, and personalized service, ensuring a truly memorable stay in the heart of Azaiba. Your luxurious Omani escape begins here."
-    }
+    },
+    "images": {
+      "hero": "https://www.carnelianhotels.com/img/logo.png"
+    },
+    "banner_image": "https://www.carnelianhotels.com/img/logo.png"
   },
   {
     "id": "ChIJJ_-4TRH_kT4Rspi_XHtG0ro",
@@ -8620,7 +8816,11 @@
     "about": {
       "short": "With stunning panoramas of the expansive sand dunes and the nearby Grand Mosque, Centara Life Muscat Dunes Hotel provides all the warmth and care of Omani Hospitality",
       "long": "With stunning panoramas of the expansive sand dunes and the nearby Grand Mosque, Centara Life Muscat Dunes Hotel provides all the warmth and care of Omani Hospitality Centara Hotels & Resorts has six hotel brands covering a broad spectrum of the travel market."
-    }
+    },
+    "images": {
+      "hero": "https://www.centarahotelsresorts.com/centara-life/sites/centara-centara-life/files/2023-04/reserve-mono.png"
+    },
+    "banner_image": "https://www.centarahotelsresorts.com/centara-life/sites/centara-centara-life/files/2023-04/reserve-mono.png"
   },
   {
     "id": "ChIJgY1ZZyAAjj4RQrufH6P03nI",
@@ -8902,7 +9102,11 @@
     "about": {
       "short": "Discover Centara Muscat Hotel, a 4-star getaway near the Sultan Qaboos Grand Mosque and Oman International Exhibition Centre. Book today!",
       "long": "Discover Centara Muscat Hotel, a 4-star getaway near the Sultan Qaboos Grand Mosque and Oman International Exhibition Centre. Book today! Centara Hotels & Resorts has six hotel brands covering a broad spectrum of the travel market."
-    }
+    },
+    "images": {
+      "hero": "https://www.centarahotelsresorts.com/centara/sites/centara-centara/files/styles/brand_logos_style/public/2023-04/reserve-mono.png.JPG?itok=i1f1mkrX"
+    },
+    "banner_image": "https://www.centarahotelsresorts.com/centara/sites/centara-centara/files/styles/brand_logos_style/public/2023-04/reserve-mono.png.JPG?itok=i1f1mkrX"
   },
   {
     "id": "ChIJz_KvlD7_kT4RjhAyOaFHCko",
@@ -9066,7 +9270,11 @@
     "about": {
       "short": "Situated in the Central Business District with close proximity to popular attractions, Citadines Al Ghubrah serviced apartments in Muscat is an oasis for both business & leisure travellers.",
       "long": "Situated in the Central Business District with close proximity to popular attractions, Citadines Al Ghubrah serviced apartments in Muscat is an oasis for both business & leisure travellers."
-    }
+    },
+    "images": {
+      "hero": "https://www.discoverasr.com/content/dam/tal/common/assets/logos/Stay-Your-Way_Assets_Web_Discoverasr.com-Thumbnail-OG-Image_1200x630px.jpg"
+    },
+    "banner_image": "https://www.discoverasr.com/content/dam/tal/common/assets/logos/Stay-Your-Way_Assets_Web_Discoverasr.com-Thumbnail-OG-Image_1200x630px.jpg"
   },
   {
     "id": "ChIJIRGgLJH9jT4RUSBS02AQ50U",
@@ -9194,7 +9402,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqxOhX8hT9orahoYcc5CLGyjzBmODwPm8Mka0NXe049K-U_MlJxulq5-HKpSxZagBCEtJwlSuY1g-_ETWjRHjm5DdqtM-RlCQnNAuPjDTGi0ALyKFXzDbIsPOasRH27Tp0rdFlz3g=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqxOhX8hT9orahoYcc5CLGyjzBmODwPm8Mka0NXe049K-U_MlJxulq5-HKpSxZagBCEtJwlSuY1g-_ETWjRHjm5DdqtM-RlCQnNAuPjDTGi0ALyKFXzDbIsPOasRH27Tp0rdFlz3g=w900-h900-p-k-no"
   },
   {
     "id": "ChIJqWWopQf3kT4RWYRv2w4GeYY",
@@ -9331,7 +9543,11 @@
     "about": {
       "short": "Welcome to City Seasons Muscat Official Site. Our Muscat 4-star hotel combines unparalleled luxury with contemporary elegance and comfort. Book online now!",
       "long": "Welcome to City Seasons Muscat Official Site. Our Muscat 4-star hotel combines unparalleled luxury with contemporary elegance and comfort. Book online now! City Seasons Hotel Muscat redefines the business 4-star hotel category in Muscat, Oman, combining unparalleled luxury with contemporary elegance and comfort ."
-    }
+    },
+    "images": {
+      "hero": "https://www.cityseasonshotels.com/integration/tc-theme/public/svg/svg-icons.svg"
+    },
+    "banner_image": "https://www.cityseasonshotels.com/integration/tc-theme/public/svg/svg-icons.svg"
   },
   {
     "id": "ChIJP5bZSoD_kT4RiiTrnKMokKE",
@@ -9459,7 +9675,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipNXqT3Yv5EPTDlzFxkVwnUbcQ_IHkX0Y484SvJC=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipNXqT3Yv5EPTDlzFxkVwnUbcQ_IHkX0Y484SvJC=w900-h900-p-k-no"
   },
   {
     "id": "ChIJD54_vVgAjj4RPSYjdCWMbpU",
@@ -9578,7 +9798,8 @@
       "count": 3667,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJqfUBNqL4kT4RAG70h4DQXoY",
@@ -9697,7 +9918,8 @@
       "count": 5236,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJ9W0_Y1n3kT4RjEtZQ1TmpOw",
@@ -9825,7 +10047,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEd2KFRlwZ3JWUtkZGOgDmofNQY9VmxXpA3VotayRUwfHw23487wXkqGaoaGH2V95qGQQeX9bPkUS7JFhDC30seaXOmKyRtLnr-zjJRKSnMQ1EZ-1ZbUD2QOAMtdlGqmLylv3LnLuDWKaHGmKwmmSAvXR8bV1cbSo6DCdS-7D9pUWne-PXWT5ZDAA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEd2KFRlwZ3JWUtkZGOgDmofNQY9VmxXpA3VotayRUwfHw23487wXkqGaoaGH2V95qGQQeX9bPkUS7JFhDC30seaXOmKyRtLnr-zjJRKSnMQ1EZ-1ZbUD2QOAMtdlGqmLylv3LnLuDWKaHGmKwmmSAvXR8bV1cbSo6DCdS-7D9pUWne-PXWT5ZDAA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJK3bpDlD3kT4RsHLla1du2hs",
@@ -9944,7 +10170,8 @@
       "count": 272,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJyRzq3ur5kT4RfAnzJ2M4U80",
@@ -10063,7 +10290,8 @@
       "count": 421,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJz7opx9P_kT4RpmTA2z5wRxI",
@@ -10183,7 +10411,11 @@
     "about": {
       "short": "Hotel",
       "long": "Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RYEIXdzyXOwm6zxXbMqiNQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=46.464962&pitch=0&thumbfov=100"
+    },
+    "banner_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RYEIXdzyXOwm6zxXbMqiNQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=46.464962&pitch=0&thumbfov=100"
   },
   {
     "id": "ChIJeZMGejD3kT4RTkZkIMYbPvI",
@@ -10311,7 +10543,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipMtNcZMHVSuOQHeFz4TgDK6UtF5Q_jRAvnf2tp5=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipMtNcZMHVSuOQHeFz4TgDK6UtF5Q_jRAvnf2tp5=w900-h900-p-k-no"
   },
   {
     "id": "ChIJC4_u6FP_kT4RHXOA86DBTBI",
@@ -10437,7 +10673,11 @@
     },
     "about": {
       "long": "Experience the epitome of Omani hospitality at our luxurious hotel in Muscat, Oman. Nestled amidst stunning landscapes and rich cultural heritage, our hotel offers a perfect blend of modern comforts and traditional charm."
-    }
+    },
+    "images": {
+      "hero": "https://www.frankincensehotel.com/public/assets/images/logo.png"
+    },
+    "banner_image": "https://www.frankincensehotel.com/public/assets/images/logo.png"
   },
   {
     "id": "ChIJGbehgav_kT4RJdPFVM0eoAE",
@@ -10576,7 +10816,11 @@
     "about": {
       "short": "Located in Central Business District, Fraser Suites Muscat is a 5-star hotel serviced apartment offers comfort accommodation for business & leisure travellers.",
       "long": "Located in Central Business District, Fraser Suites Muscat is a 5-star hotel serviced apartment offers comfort accommodation for business & leisure travellers. At Frasers Hospitality, we promise you the best deals at our properties when you book directly with us on our website. Our Best Rate Guarantee ensures that you will not find a lower rate on other websites or anywhere else."
-    }
+    },
+    "images": {
+      "hero": "https://www.frasersproperty.com/content/dam/frasers-hospitality/english/properties/united-kingdom/offers/More%20to%20Explore%202025.jpg"
+    },
+    "banner_image": "https://www.frasersproperty.com/content/dam/frasers-hospitality/english/properties/united-kingdom/offers/More%20to%20Explore%202025.jpg"
   },
   {
     "id": "ChIJZXgsOCeVkT4R1UmQGqOa1H0",
@@ -10702,7 +10946,11 @@
     "about": {
       "short": "22 Rue du 9 Juin 1944, 19000 Tulle, France. Siret No.: 914 873 492 Opérateurs de voyages/Tour Operator: IM019220001 Guarantor: APST, 15 Avenue Carnot, 75017 Paris, France Insurance: HISCOX SA, 38…",
       "long": "22 Rue du 9 Juin 1944, 19000 Tulle, France. Siret No.: 914 873 492 Opérateurs de voyages/Tour Operator: IM019220001 Guarantor: APST, 15 Avenue Carnot, 75017 Paris, France Insurance: HISCOX SA, 38 Avenue de l'Opera, 75002, Paris, France 06-09-2025 GET – Destination management for International Schools and Educational Institutes to world-wide locations."
-    }
+    },
+    "images": {
+      "hero": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9nbG9iYWxlZHZlbnR1cmV0cmF2ZWwuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIyXC8wOVwvR0VULUlOVC1TQVMtTG9nby13aGl0ZS1kcmFmdC0yLnBuZz9maXQ9NzAwNSUyQzQ5MjYmc3NsPTEiLCJ0eHQiOiJHRVQgSW50ZXJuYXRpb25hbCAiLCJ0ZW1wbGF0ZSI6ImVkZ2UiLCJmb250IjoiIiwiYmxvZ19pZCI6MTA3NjE2MjM4fQ.hIoK9U48nOLguZZcjQ3BOaDpwmoGLdiKkidCdVtySP8MQ"
+    },
+    "banner_image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9nbG9iYWxlZHZlbnR1cmV0cmF2ZWwuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIyXC8wOVwvR0VULUlOVC1TQVMtTG9nby13aGl0ZS1kcmFmdC0yLnBuZz9maXQ9NzAwNSUyQzQ5MjYmc3NsPTEiLCJ0eHQiOiJHRVQgSW50ZXJuYXRpb25hbCAiLCJ0ZW1wbGF0ZSI6ImVkZ2UiLCJmb250IjoiIiwiYmxvZ19pZCI6MTA3NjE2MjM4fQ.hIoK9U48nOLguZZcjQ3BOaDpwmoGLdiKkidCdVtySP8MQ"
   },
   {
     "id": "ChIJM6aHe9v5kT4RQG45CPnAP5A",
@@ -10830,7 +11078,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np1uEShQN06sR67qM9A4GDu9gtrSsLuZjaHybSsAeJ42eSUpgrYfPl-eqV7NQgmhY1Rcp-D8lFzERSdJxJuOLF0Hza_h3U9-PE4UgORy_l0Wlvg0dGpJ7As2F3X65euB5tF1Lgs=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np1uEShQN06sR67qM9A4GDu9gtrSsLuZjaHybSsAeJ42eSUpgrYfPl-eqV7NQgmhY1Rcp-D8lFzERSdJxJuOLF0Hza_h3U9-PE4UgORy_l0Wlvg0dGpJ7As2F3X65euB5tF1Lgs=w900-h900-p-k-no"
   },
   {
     "id": "ChIJjYXGINv_kT4RMyhQLY1u-3o",
@@ -10949,7 +11201,8 @@
       "count": 1232,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJbRVtGaP4kT4R7xbwGYS7D1g",
@@ -11069,7 +11322,11 @@
       "count": 4448,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/9/9e/John_Barry_by_Gilbert_Stuart.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/John_Barry_by_Gilbert_Stuart.jpg"
   },
   {
     "id": "ChIJxVABVur_kT4ROhCAwaIFSaM",
@@ -11189,7 +11446,11 @@
       "count": 3812,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/4/44/Al_Alam_Palace.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Al_Alam_Palace.jpg"
   },
   {
     "id": "ChIJR09kFoX_kT4R2z54dwIhaFw",
@@ -11317,7 +11578,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gCFRcvKsVdzG2p6IA2s86w&cb_client=search.gws-prod.gps&w=900&h=900&yaw=292.34973&pitch=0&thumbfov=100"
+    },
+    "banner_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gCFRcvKsVdzG2p6IA2s86w&cb_client=search.gws-prod.gps&w=900&h=900&yaw=292.34973&pitch=0&thumbfov=100"
   },
   {
     "id": "ChIJ4xqorr3_kT4RgvCoWvJT-I8",
@@ -11445,7 +11710,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFjCAkO0y6uFH97-y5TOmODYdhXALrByDHTtPAoZeuew8hV5T6qvJSj0zbnCTt0BTuHmgqjuUBt4vQ6-Z_ySOFBUwhjAvMGMRJvBo-hGOcoyjfB6usax1_htvMrvxEvX2-Lkzg5TLHDjnrkFQSXIw2DN-PYdqcsBTnxCjf76edxYPyyB6Tf9YgB=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFjCAkO0y6uFH97-y5TOmODYdhXALrByDHTtPAoZeuew8hV5T6qvJSj0zbnCTt0BTuHmgqjuUBt4vQ6-Z_ySOFBUwhjAvMGMRJvBo-hGOcoyjfB6usax1_htvMrvxEvX2-Lkzg5TLHDjnrkFQSXIw2DN-PYdqcsBTnxCjf76edxYPyyB6Tf9YgB=w900-h900-p-k-no"
   },
   {
     "id": "ChIJe55bV0b5kT4RAomWqgAG72c",
@@ -11567,7 +11836,11 @@
     "about": {
       "short": "Hotel",
       "long": "Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9ItmCsESKqfWV_EyhRGQyA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=258.37875&pitch=0&thumbfov=100"
+    },
+    "banner_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9ItmCsESKqfWV_EyhRGQyA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=258.37875&pitch=0&thumbfov=100"
   },
   {
     "id": "ChIJxTIG8Ab3kT4R94UXmT4NdM4",
@@ -11697,7 +11970,11 @@
     "about": {
       "short": "In an area with shops, businesses, and restaurants, this informal hotel off Highway 1 is 10 km from both Qurum Beach and the local history exhibits of the National Museum of the Sultanate of Oman on…",
       "long": "In an area with shops, businesses, and restaurants, this informal hotel off Highway 1 is 10 km from both Qurum Beach and the local history exhibits of the National Museum of the Sultanate of Oman on Haffa house Hotel. The unfussy rooms come with Wi-Fi, flat-screen TVs, and minibars, as well as living areas; some add dining areas. Suites pr..."
-    }
+    },
+    "images": {
+      "hero": "https://static.wixstatic.com/media/deab04_76a852f37d6343ce8024b978e66e564e~mv2.png/v1/crop/x_420,y_1860,w_3500,h_1030/fill/w_252,h_74,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Haffa%20House%20Transparent%20logo%20-01.png"
+    },
+    "banner_image": "https://static.wixstatic.com/media/deab04_76a852f37d6343ce8024b978e66e564e~mv2.png/v1/crop/x_420,y_1860,w_3500,h_1030/fill/w_252,h_74,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Haffa%20House%20Transparent%20logo%20-01.png"
   },
   {
     "id": "ChIJP-jOfwn_kT4RKeiGrbevJDQ",
@@ -11816,7 +12093,8 @@
       "count": 2589,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJryVTzXX9jT4RIPQj5oeTeHE",
@@ -11935,7 +12213,8 @@
       "count": 3386,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJOW4a1tH8jT4RxNVSb49tbKI",
@@ -12062,7 +12341,11 @@
     },
     "about": {
       "long": "Horizon Hotel Apartments is a distinguished 3-star , offering a luxurious experience in perfect harmony with standards of comfort and modern amenities. Nestled in the vibrant Al Khoud, directly Near Sultan Qaboos Mosque. The hotel features contemporary décor with thoughtful touches designed to enhance your stay. Each room is meticulously crafted to provide a serene and stylish retreat, complete with high-quality furnishings and modern conveniences."
-    }
+    },
+    "images": {
+      "hero": "https://hha-om.com/Images/HeroImage.webp"
+    },
+    "banner_image": "https://hha-om.com/Images/HeroImage.webp"
   },
   {
     "id": "ChIJLZbntuEBjj4RaFxLboiBjrc",
@@ -12190,7 +12473,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH1DVk49WiCh0YOTKijj0aU-F6Sh2Mb27qde5hujdx2y1u54Dg26w-r9UxKc7m6iFGMKy74wTuyV2JnDxba_P4kgJe3FhvUWOVQhj02YBJRcvpP7SpxUqLd79XidrMPee2Plbayoku7nqcSSPAY0Zn5ZHb_sNEC7EbNjq3NidhMLzD7eSyEMru7=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH1DVk49WiCh0YOTKijj0aU-F6Sh2Mb27qde5hujdx2y1u54Dg26w-r9UxKc7m6iFGMKy74wTuyV2JnDxba_P4kgJe3FhvUWOVQhj02YBJRcvpP7SpxUqLd79XidrMPee2Plbayoku7nqcSSPAY0Zn5ZHb_sNEC7EbNjq3NidhMLzD7eSyEMru7=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ6SSwzM35kT4R0ysFDKaJUJ8",
@@ -12318,7 +12605,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipMe_0uLgVMqUOzN7Ow6iV7zGmmBDHChG-cWkFms=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipMe_0uLgVMqUOzN7Ow6iV7zGmmBDHChG-cWkFms=w900-h900-p-k-no"
   },
   {
     "id": "ChIJTS95dhP_kT4RyjG3DMH-74w",
@@ -12444,7 +12735,11 @@
     },
     "about": {
       "long": "The Hotel Muscat Holiday is very conveniently situated from famous sights and sounds of Muscat â Like the Sultan Qaboos Grand Mosque and The Royal Opera House, and the picturesque beaches of Muscat."
-    }
+    },
+    "images": {
+      "hero": "http://www.holidayhotelsoman.com/img/Hotel-logo.png"
+    },
+    "banner_image": "http://www.holidayhotelsoman.com/img/Hotel-logo.png"
   },
   {
     "id": "ChIJTR7Vbcj8jT4RbK1njLFrDNU",
@@ -12572,7 +12867,11 @@
     "about": {
       "short": "★★★★☆ · Extended stay hotel",
       "long": "★★★★☆ · Extended stay hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noKlJ5bSOYccJ52lhD-LWv3eeeHjO2QOMpkL1VPEWRqSbHMu3hlcywcXkNh1-W1qf6XyQyNzfnP4u4YmIzt8j79WQS1ESkBSDBMOSu_896vJkXoxdAJifOXQEc0ZstxcoFH4m1lMQ=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noKlJ5bSOYccJ52lhD-LWv3eeeHjO2QOMpkL1VPEWRqSbHMu3hlcywcXkNh1-W1qf6XyQyNzfnP4u4YmIzt8j79WQS1ESkBSDBMOSu_896vJkXoxdAJifOXQEc0ZstxcoFH4m1lMQ=w900-h900-p-k-no"
   },
   {
     "id": "ChIJjfRbf875kT4Rb1muCo6Mw3k",
@@ -12720,7 +13019,11 @@
     "about": {
       "short": "Looking for accommodation in Muscat? ibis Muscat offers breakfast, restaurant, and car park. Book online hassle-free!",
       "long": "Looking for accommodation in Muscat? ibis Muscat offers breakfast, restaurant, and car park. Book online hassle-free! Conveniently located close to the shopping and commercial hub, ibis Muscat caters to both leisure and business travellers. Meals can be delivered to your room or you can enjoy them at Oopen Restaurant. Complimentary Wi-Fi, basement parking, fitness centre & 24 hours front desk are key highlights. Sultan Qaboos Mosque, Royal Opera House, Grand Mall, Avenues Mall, Sultan Qaboos Sports Complex are a short drive away. Oman Convention & Exhibition Centre and Muscat International…"
-    }
+    },
+    "images": {
+      "hero": "https://www.ahstatic.com/photos/6587_ho_00_p_1024x768.jpg"
+    },
+    "banner_image": "https://www.ahstatic.com/photos/6587_ho_00_p_1024x768.jpg"
   },
   {
     "id": "ChIJ61iGebP4kT4RpGdtHCkzDtw",
@@ -12839,7 +13142,8 @@
       "count": 8486,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJxytsh1b_kT4RkkgLB5EcfK4",
@@ -12976,7 +13280,11 @@
     "about": {
       "short": "Official website - IntercityHotel Bawshar at Mall of Oman in Muscat book online now | Central location ✓ Earn points ✓",
       "long": "Official website - IntercityHotel Bawshar at Mall of Oman in Muscat book online now | Central location ✓ Earn points ✓ The IntercityHotel Bawshar Muscat is located just 1 km from the Mall of Oman shopping center and 4.9 km from the Muscat Grand Sultan Qabus Mosque. It is 15 km to Muscat International Airport and 16 km to the Royal Opera House."
-    }
+    },
+    "images": {
+      "hero": "https://hrewards.com/_next/static/media/hrewards.96db3594.svg"
+    },
+    "banner_image": "https://hrewards.com/_next/static/media/hrewards.96db3594.svg"
   },
   {
     "id": "ChIJA1fyEfT_kT4Rf7CY0HBvjTE",
@@ -13114,7 +13422,11 @@
     "about": {
       "short": "IntercityHotel Muscat: book city or business hotel conveniently & online at low rates. Central location ✓ Collect bonus points ✓ - hrewards.com",
       "long": "IntercityHotel Muscat: book city or business hotel conveniently & online at low rates. Central location ✓ Collect bonus points ✓ - hrewards.com The IntercityHotel Muscat is opened at the heart of the Ministries and Embassies area of Al Khuwair. The IntercityHotel Muscat is perfectly located between Muscat International Airport, which is 15 km away and the cultural sights of Al Alam Palace and Mutrah Corniche, a 3km long promenade. You can either take a taxi or your own car to get there. Being located less than 10 minutes away of walking distance from Al Khuwair Beach, the IntercityHotel…"
-    }
+    },
+    "images": {
+      "hero": "https://hrewards.com/_next/static/media/hrewards.96db3594.svg"
+    },
+    "banner_image": "https://hrewards.com/_next/static/media/hrewards.96db3594.svg"
   },
   {
     "id": "ChIJGRHr2DH4kT4Rn94KKeONZsQ",
@@ -13243,7 +13555,11 @@
     "about": {
       "short": "Stay at Al Shorouq Hotel Apartments in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Al Shorouq Hotel Apartments in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 33,00 (USD $) SEARCH AVAILABILITY"
-    }
+    },
+    "images": {
+      "hero": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
+    },
+    "banner_image": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
   },
   {
     "id": "ChIJgY0d2J3_kT4RLvVSl3RVhTg",
@@ -13362,7 +13678,8 @@
       "count": 1250,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJ5duXEFiUkT4RORNzuT3tDSg",
@@ -13490,7 +13807,11 @@
     "about": {
       "short": "Jebel Sifah - Experience the best of beachfront living in Oman's premium destination. Discover a range of homes, apartments, and investment opportunities in one of the country's most sought-after…",
       "long": "Jebel Sifah - Experience the best of beachfront living in Oman's premium destination. Discover a range of homes, apartments, and investment opportunities in one of the country's most sought-after locations. Live the dream at Jebel Sifah."
-    }
+    },
+    "images": {
+      "hero": "https://app.jebelsifah.com/api/media/file/jebel-sifah-video-thumbnail.png"
+    },
+    "banner_image": "https://app.jebelsifah.com/api/media/file/jebel-sifah-video-thumbnail.png"
   },
   {
     "id": "ChIJBVRHTdmVkT4REHO-EqYsq5Q",
@@ -13618,7 +13939,11 @@
     "about": {
       "short": "★★★★☆ · Lodge",
       "long": "★★★★☆ · Lodge"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npWnM6n19emvL-qmTzU9SOep4tNQzhiPIwIW92s7v5P-B86crDBd4VTw1NHCAX8qyFNdkqA5-Rp_Nw9A-aANelJL2WF8Hs1M_2LtKEvA9V1TR1-vLnLFjDyfa4JDpVy2bDYpwBA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npWnM6n19emvL-qmTzU9SOep4tNQzhiPIwIW92s7v5P-B86crDBd4VTw1NHCAX8qyFNdkqA5-Rp_Nw9A-aANelJL2WF8Hs1M_2LtKEvA9V1TR1-vLnLFjDyfa4JDpVy2bDYpwBA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ8YB34ESVkT4RoBlvNS30EFs",
@@ -13743,7 +14068,8 @@
     "about": {
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJFUAcxHP3kT4RuBTCYlR2u50",
@@ -13871,7 +14197,11 @@
     "about": {
       "short": "We give luxury something to look up to",
       "long": "We give luxury something to look up to JOHNY INTERNATIONAL HOLDINGS is an Investment Company with a wide range of investments in Hotels, Hostels, Chemicals, Car Rentals, Gold, Precious Metals, Education, Legal Counsels & Real Estate in the Middle East and Indian Subcontinent."
-    }
+    },
+    "images": {
+      "hero": "https://img1.wsimg.com/isteam/stock/7db5a02eb2a10967316696b968604ab0844030f7b8b1a91a54a7cff08bbccd6f"
+    },
+    "banner_image": "https://img1.wsimg.com/isteam/stock/7db5a02eb2a10967316696b968604ab0844030f7b8b1a91a54a7cff08bbccd6f"
   },
   {
     "id": "ChIJsdXrAX3xkT4R_mJXEvtoIiw",
@@ -14006,7 +14336,11 @@
     "about": {
       "short": "Welcome to Jumeirah Muscat Bay, Oman. A serene beach resort set between the dramatic Al Hajar mountains and the sparkling Arabian Sea.",
       "long": "Welcome to Jumeirah Muscat Bay, Oman. A serene beach resort set between the dramatic Al Hajar mountains and the sparkling Arabian Sea. Muscat Bay is a destination of extraordinary variety, with inviting shores, inspiring mountains and a historic city on your doorstep. Melding adventure and wellbeing, we encourage you to reconnect with nature, immersed in our mesmerising landscapes."
-    }
+    },
+    "images": {
+      "hero": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/oman/jumeirah-muscat-bay/new-website-content/hotel-detail-page/hotel-gallery/jmu_gallery_image-1.jpg?h=1080&w=1620&revision=336dbe98-5e19-492d-8947-29d1057cc71b"
+    },
+    "banner_image": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/oman/jumeirah-muscat-bay/new-website-content/hotel-detail-page/hotel-gallery/jmu_gallery_image-1.jpg?h=1080&w=1620&revision=336dbe98-5e19-492d-8947-29d1057cc71b"
   },
   {
     "id": "ChIJz5RPANP9jT4R2gbyhNKtzJ0",
@@ -14135,7 +14469,11 @@
     "about": {
       "short": "Book a stay at Kempinski Hotel Muscat located in Muscat and enjoy 5 star luxury. Book direct for the best rates.",
       "long": "Book a stay at Kempinski Hotel Muscat located in Muscat and enjoy 5 star luxury. Book direct for the best rates. Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness."
-    }
+    },
+    "images": {
+      "hero": "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/7/3/7/0/510737-1-eng-GB/81b29f8b9793-74577850_4K.jpg"
+    },
+    "banner_image": "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/7/3/7/0/510737-1-eng-GB/81b29f8b9793-74577850_4K.jpg"
   },
   {
     "id": "ChIJp1vlWxABjj4RtLTQESnIwvM",
@@ -14254,7 +14592,8 @@
       "count": 203,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJf72sopn_kT4RyuJdcWW2-Hs",
@@ -14373,7 +14712,8 @@
       "count": 398,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJG8ZPDL2VkT4RjoRhC3IdtWY",
@@ -14499,7 +14839,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrJQc_ZtzHjaLZfy-v5U1xcaoLF_DzN2EF56Hb1CDR8JfU66Xuc2mC1wPeoFehnyUUI13u3jKcZP_DY4eSpBzjB4BtOq4MsRdb7T1hhcx1z9avTaC7Du6AexDjn5JGj9Djk1QUIUA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrJQc_ZtzHjaLZfy-v5U1xcaoLF_DzN2EF56Hb1CDR8JfU66Xuc2mC1wPeoFehnyUUI13u3jKcZP_DY4eSpBzjB4BtOq4MsRdb7T1hhcx1z9avTaC7Du6AexDjn5JGj9Djk1QUIUA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJW9MwLnPljT4RQEPaJkCNETw",
@@ -14627,7 +14971,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipPsyYmWdS7dS_M1A4ku7xl1JwrV_ul7vFmAYjsC=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipPsyYmWdS7dS_M1A4ku7xl1JwrV_ul7vFmAYjsC=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ9QPMHNb_kT4R1yNMOE70jRs",
@@ -14765,7 +15113,11 @@
     "about": {
       "short": "Mandarin Oriental, Muscat is an urban oasis located in the heart of Shatti Al-Qurum, Muscat’s most prominent address.",
       "long": "Mandarin Oriental, Muscat is an urban oasis located in the heart of Shatti Al-Qurum, Muscat’s most prominent address."
-    }
+    },
+    "images": {
+      "hero": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/t6T519YtkLq28Nm4ExKA.svg"
+    },
+    "banner_image": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/t6T519YtkLq28Nm4ExKA.svg"
   },
   {
     "id": "ChIJbYFPipv_kT4RBw8jQjI9IgA",
@@ -14916,7 +15268,11 @@
     "about": {
       "short": "Located in the heart of the Muscat city with an easy access to the commercial districts, extensive building area and surrounded by a green wadi area with open breathtaking view of Oman sea. Only 15…",
       "long": "Located in the heart of the Muscat city with an easy access to the commercial districts, extensive building area and surrounded by a green wadi area with open breathtaking view of Oman sea. Only 15 min from MCT Int Airport, less than 1 km from Oman Ave... Hotel for travellers looking for local and authentic experiences"
-    }
+    },
+    "images": {
+      "hero": "https://www.ahstatic.com/photos/c339_ho_00_p_1024x768.jpg"
+    },
+    "banner_image": "https://www.ahstatic.com/photos/c339_ho_00_p_1024x768.jpg"
   },
   {
     "id": "ChIJhQaj9M7_kT4RxDqrHYYRpFg",
@@ -15043,7 +15399,11 @@
     },
     "about": {
       "long": "Haima Hotel Management LLC. A Group of Hotels is privately owned Omani hotel company."
-    }
+    },
+    "images": {
+      "hero": "https://muscatexpresshotel.com/beta/wp-content/uploads/2022/06/Muscat_express_logo-e1657002672100.png"
+    },
+    "banner_image": "https://muscatexpresshotel.com/beta/wp-content/uploads/2022/06/Muscat_express_logo-e1657002672100.png"
   },
   {
     "id": "ChIJiRJw0tz_kT4RI_c6SxYShzQ",
@@ -15163,7 +15523,11 @@
       "count": 525,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/3/30/Aerial_view_of_Muscat_International_Airport_%28Ank_Kunar%2C_Infosys_Limited%29_02.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Aerial_view_of_Muscat_International_Airport_%28Ank_Kunar%2C_Infosys_Limited%29_02.jpg"
   },
   {
     "id": "ChIJfz5wOEMAjj4RA3uJ-JHfDjg",
@@ -15291,7 +15655,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipMTF9YzlxcsT5CJKktU3Qvh4v9u9xupgtC9P64F=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipMTF9YzlxcsT5CJKktU3Qvh4v9u9xupgtC9P64F=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ1-thF2z9jT4RdvmFiac5LKw",
@@ -15413,7 +15781,11 @@
       "count": 272,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://static.wixstatic.com/media/8d13be_26b2ca532f274f9c872151277af05214.png/v1/fill/w_48,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d13be_26b2ca532f274f9c872151277af05214.png"
+    },
+    "banner_image": "https://static.wixstatic.com/media/8d13be_26b2ca532f274f9c872151277af05214.png/v1/fill/w_48,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8d13be_26b2ca532f274f9c872151277af05214.png"
   },
   {
     "id": "ChIJZYTyMxf_kT4R5TzhNFLv3JE",
@@ -15533,7 +15905,11 @@
       "count": 490,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/4/44/Al_Alam_Palace.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Al_Alam_Palace.jpg"
   },
   {
     "id": "ChIJIRRnehH_kT4RuTUMaAz4XpU",
@@ -15655,7 +16031,11 @@
       "count": 1190,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/sitesv/AICyYdbUXap8OTMVC43BESa_cDAgVOSGqHuq4LYiLLp5s6SSrNo8u2ZdDlhqE3DnB8fdWyqp-ZiJzLv39_SUrrP4ouna16qz-8AtCkbB9GdMRsdUirAj8agHovBYlnxIw4ekAuGPYWpqhwXUdRXBqxqnLKSuxegmwn5OJ8JvpQxVKZVM0U5jdAc7PxkQ=w16383"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/sitesv/AICyYdbUXap8OTMVC43BESa_cDAgVOSGqHuq4LYiLLp5s6SSrNo8u2ZdDlhqE3DnB8fdWyqp-ZiJzLv39_SUrrP4ouna16qz-8AtCkbB9GdMRsdUirAj8agHovBYlnxIw4ekAuGPYWpqhwXUdRXBqxqnLKSuxegmwn5OJ8JvpQxVKZVM0U5jdAc7PxkQ=w16383"
   },
   {
     "id": "ChIJ38ZOlir4kT4RGzYU9xdUXvo",
@@ -15783,7 +16163,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHZ8ZFSa9sbYpmeFEhstMhVdvmVFNwX5H-hfz2frnkxXJxYTPVfN7q8vu5lTabS2zDTDsx71o3LHPwkRCnSrRUAwGjKLZAByWPvfzp4HSJlDt2vtvNx1ZNetH_GPGhNzF0TJcbYtPWMSDTrHhHaDx-tEd6-H2iEFZQX2F-41ZyRVNw0_WwvYC0=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHZ8ZFSa9sbYpmeFEhstMhVdvmVFNwX5H-hfz2frnkxXJxYTPVfN7q8vu5lTabS2zDTDsx71o3LHPwkRCnSrRUAwGjKLZAByWPvfzp4HSJlDt2vtvNx1ZNetH_GPGhNzF0TJcbYtPWMSDTrHhHaDx-tEd6-H2iEFZQX2F-41ZyRVNw0_WwvYC0=w900-h900-p-k-no"
   },
   {
     "id": "ChIJi5WTwTL8jT4R11x4VekEVlc",
@@ -15911,7 +16295,11 @@
     "about": {
       "short": "Experience delectable dining, comfortable rooms and friendly service at Mysk Al Mouj. We are a trendy theatre of life in the heart of vibrant Marina in Muscat.",
       "long": "Experience delectable dining, comfortable rooms and friendly service at Mysk Al Mouj. We are a trendy theatre of life in the heart of vibrant Marina in Muscat. We use cookies to help us offer you the best online experience. By continuing to use our website and/or clicking OK, you agree to our use of cookies in accordance with our Privacy Policy."
-    }
+    },
+    "images": {
+      "hero": "https://d3ohewoijz8t8g.cloudfront.net/wp-content/uploads/2018/07/mysk-al-mouj-muscat.svg"
+    },
+    "banner_image": "https://d3ohewoijz8t8g.cloudfront.net/wp-content/uploads/2018/07/mysk-al-mouj-muscat.svg"
   },
   {
     "id": "ChIJP9TlF_sBjj4R8iiKFNder6Y",
@@ -16050,7 +16438,11 @@
     "about": {
       "short": "Mövenpick Hotel & Apartments Ghala Muscat is a 5-star modern hotel with apartments, situated in the city centre of lively Muscat. Book your stay today.",
       "long": "Mövenpick Hotel & Apartments Ghala Muscat is a 5-star modern hotel with apartments, situated in the city centre of lively Muscat. Book your stay today. Welcome to the first Mövenpick Hotel & Apartments in Muscat, marking the introduction of the renowned Swiss hospitality brand to the Sultanate of Oman. The 5-star hotel offers you renowned Omani hospitality complemented by Mövenpick’s philosophy of doing ordinary things extraordinarily."
-    }
+    },
+    "images": {
+      "hero": "https://movenpick.accor.com/content/dam/movenpick/header/HeaderLogo280X96.svg"
+    },
+    "banner_image": "https://movenpick.accor.com/content/dam/movenpick/header/HeaderLogo280X96.svg"
   },
   {
     "id": "ChIJ04H5SsPxkT4RT_6T_ENGcEY",
@@ -16178,7 +16570,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipOBuFs9qkURCB0O3TBFP3-9QoAjc9celavTMqw=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipOBuFs9qkURCB0O3TBFP3-9QoAjc9celavTMqw=w900-h900-p-k-no"
   },
   {
     "id": "ChIJgVWWbI_3kT4RmPK48sHYhn8",
@@ -16303,7 +16699,8 @@
     "about": {
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJayFT4qIAjj4RxhyFXY38OmA",
@@ -16453,7 +16850,11 @@
     "about": {
       "short": "Looking for accommodation Near Muscat Hotel? The Novotel Muscat Airport is family-friendly and offers restaurant, meeting room, and wifi.",
       "long": "Looking for accommodation Near Muscat Hotel? The Novotel Muscat Airport is family-friendly and offers restaurant, meeting room, and wifi. Comfort, convenience and modern elegance come together at Novotel Muscat Airport, a contemporary upscale business hotel located minutes away from the Muscat International Airport and Oman Convention & Exhibition Centre. Ideal for corporate and leisure travelers, the property introduces four unique dining experiences to Muscat. For guests staging meetings and events, we offer an elegant ballroom and six flexible meeting rooms, supported by the latest…"
-    }
+    },
+    "images": {
+      "hero": "https://www.ahstatic.com/photos/b7a7_ho_00_p_1024x768.jpg"
+    },
+    "banner_image": "https://www.ahstatic.com/photos/b7a7_ho_00_p_1024x768.jpg"
   },
   {
     "id": "ChIJ--Z5d8r9jT4RpZ_nsz4HsEA",
@@ -16579,7 +16980,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqXw3QsihpyUVCvIJDBPSC-qmaSYNkwFQxJq0royGad6hWsBHOPedGHbaXU0w7Ur3U2fIG32eHoL5dNc62btw5L1py3T49O2otHM-cvCXjRGBIb5XJrb9psV3J41aW-sKb_hrZSyA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqXw3QsihpyUVCvIJDBPSC-qmaSYNkwFQxJq0royGad6hWsBHOPedGHbaXU0w7Ur3U2fIG32eHoL5dNc62btw5L1py3T49O2otHM-cvCXjRGBIb5XJrb9psV3J41aW-sKb_hrZSyA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJNfsCr173kT4R67lswaGXG5s",
@@ -16707,7 +17112,11 @@
     "about": {
       "short": "For a delightful stay book OYO 117 Majestic Hotel at ﷼6/night..",
       "long": "For a delightful stay book OYO 117 Majestic Hotel at ﷼6/night.. Location The OYO 117 Majestic Hotel is located in Muscat. The hotel is located a short drive away from the shopping area and the beaches."
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/87322/34f739dff473efb6.jpg"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/87322/34f739dff473efb6.jpg"
   },
   {
     "id": "ChIJZctQfMvkjT4R0szw2poYLjE",
@@ -16835,7 +17244,11 @@
     "about": {
       "short": "For a delightful stay book OYO 120 Seeb Guest House at ﷼6/night..",
       "long": "For a delightful stay book OYO 120 Seeb Guest House at ﷼6/night.. Location OYO 120 Seeb Guest House is located in Muscat in the heart of a busy shopping area in Seeb Market. Special Features All the rooms are designed and decorated to make guests feel right at home."
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/87403/770a4969dacf7ba2.jpg"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/87403/770a4969dacf7ba2.jpg"
   },
   {
     "id": "ChIJzWNmf4T3kT4R77hvcv2-qTQ",
@@ -16963,7 +17376,11 @@
     "about": {
       "short": "For a delightful stay book OYO 137 Marina Hotel at ﷼12/night..",
       "long": "For a delightful stay book OYO 137 Marina Hotel at ﷼12/night.. (Translated by Google) A very beautiful, elegant and clean hotel, and the best thing they have is towels followed by soap and their follow-up for free. The price of the room is 40 Saudi riyals, which is very beautiful. Their treatment is nice, their prices are competitive for everyone, and their morals are high. I wish you a pleasant time ❤️🌹😘🇾🇪🌹🇴🇲 (Original) فندق جميل جدا وراقي ونظيف بامتياز واحلى شي لديهم المناشف ويتبعها الصابون و ملاحقتها مجانا وسعر الغرفه ٤٠ ريال سعودي شي جميل جدا ومعاملتهم حلوه واسعارها منافسه للجميع وأخلاقهم…"
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/189228/f302d88521ca8c3e.JPG"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/189228/f302d88521ca8c3e.JPG"
   },
   {
     "id": "ChIJV7lNaCQBjj4RVCEZXUcAA4Y",
@@ -17082,7 +17499,8 @@
       "count": 483,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJU15m-935kT4RKXW0j0uZ394",
@@ -17210,7 +17628,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrQr3JHfZWKzvReWyJ179ukBnGEQMrKvNBuVTPC9EI3c44Zp0OB2qRof5VOod_kbki10WEtTAtJZXxucWs-XsKrXWyeWEr9EHS6lkwJmbH0KrA4LRdy6AIL5plR4u-ZIbg_3NA6KQ=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrQr3JHfZWKzvReWyJ179ukBnGEQMrKvNBuVTPC9EI3c44Zp0OB2qRof5VOod_kbki10WEtTAtJZXxucWs-XsKrXWyeWEr9EHS6lkwJmbH0KrA4LRdy6AIL5plR4u-ZIbg_3NA6KQ=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ6S6il1r3kT4Rs-Pfweeb9jU",
@@ -17338,7 +17760,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np6PXM8OjrjfRPHHeb2sFy5VCtnM_D1U8UF8MZfKEyxxItXl-Y09YqbtnNODAB4dV_VJifDOuVbW6kRaFltd-YJt9-OviaO7LIXRyvz1Q6x6Xi5jxP005m0MBtCok-GcPqCaRK7tg=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np6PXM8OjrjfRPHHeb2sFy5VCtnM_D1U8UF8MZfKEyxxItXl-Y09YqbtnNODAB4dV_VJifDOuVbW6kRaFltd-YJt9-OviaO7LIXRyvz1Q6x6Xi5jxP005m0MBtCok-GcPqCaRK7tg=w900-h900-p-k-no"
   },
   {
     "id": "ChIJcdlqfwABjj4Ra5oUxU6_1Kw",
@@ -17458,7 +17884,11 @@
       "count": 299,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dr._Mohammed_Al_Barawani.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dr._Mohammed_Al_Barawani.jpg"
   },
   {
     "id": "ChIJp8nD2MjwkT4RH97kK_tksGQ",
@@ -17584,7 +18014,11 @@
     "about": {
       "short": "For a delightful stay book OYO 136 Pioneer Hotel Apartments at ﷼6/night..",
       "long": "For a delightful stay book OYO 136 Pioneer Hotel Apartments at ﷼6/night.."
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/178330/5ffc995ab37bf413.jpg"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/178330/5ffc995ab37bf413.jpg"
   },
   {
     "id": "ChIJf5Wnf5j4kT4R7c5L46cPI5Y",
@@ -17712,7 +18146,11 @@
     "about": {
       "short": "QBH Discover the City’s Soul, Sleep in Serenity Experience the epitome of luxury Escape the rush of the city without leaving its pulse. View our rooms More about Our hotel HOTEL SERVICE IN YOUR ROOM…",
       "long": "QBH Discover the City’s Soul, Sleep in Serenity Experience the epitome of luxury Escape the rush of the city without leaving its pulse. View our rooms More about Our hotel HOTEL SERVICE IN YOUR ROOM Exclusive From QBH Luxury Resort Whether you’re a hotel guest or a local looking for a memorable dining experience, QURUM BEACH HOTEL Restaurant offers Whether you’re a hotel guest or a local looking for a memorable dining experience, QURUM BEACH HOTEL Restaurant offers impeccable service, a refined atmosphere, and a menu that caters to every taste and occasion. Join us and savor the art of dining…"
-    }
+    },
+    "images": {
+      "hero": "https://hotel.adsoman.com/wp-content/uploads/2025/04/ads-logo-1382x1097px-bgremove.png"
+    },
+    "banner_image": "https://hotel.adsoman.com/wp-content/uploads/2025/04/ads-logo-1382x1097px-bgremove.png"
   },
   {
     "id": "ChIJf3Ka08L5kT4RL-bsI4f0ucM",
@@ -17840,7 +18278,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFBOLRJSk6Qr-V81oq1qPtSCVhivVvm7x2XtslCtmiDgnEIivCcnzLBnDc-TPHu7ELtA-oJmLlRY550sm0kLlZJuM-dPfDn_Sv12gpRvTQI-1UMjoo4Hd5fcjEJxnDbpnyZ8bRJU8p0RDBMV_2CZQ639pVNlrEPAt1yZZo4Zjep9991TUopxU4=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFBOLRJSk6Qr-V81oq1qPtSCVhivVvm7x2XtslCtmiDgnEIivCcnzLBnDc-TPHu7ELtA-oJmLlRY550sm0kLlZJuM-dPfDn_Sv12gpRvTQI-1UMjoo4Hd5fcjEJxnDbpnyZ8bRJU8p0RDBMV_2CZQ639pVNlrEPAt1yZZo4Zjep9991TUopxU4=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ7-Hyahv_kT4RJw8tOoDq9qc",
@@ -17960,7 +18402,11 @@
       "count": 4873,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mandarin_Oriental_Hotel_Group_logo.svg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mandarin_Oriental_Hotel_Group_logo.svg"
   },
   {
     "id": "ChIJiabZCboAjj4RUW_LVMJShog",
@@ -18079,7 +18525,8 @@
       "count": 4134,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJWR3ZByv_kT4Rd6jHr3NsxEw",
@@ -18199,7 +18646,11 @@
       "count": 1611,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Trader_vics_london.JPG"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Trader_vics_london.JPG"
   },
   {
     "id": "ChIJzStgUaX_kT4RYLapwcgvuJs",
@@ -18338,7 +18789,11 @@
     "about": {
       "short": "At Ramada Encore by Wyndham Muscat Al-Ghubra, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM.",
       "long": "At Ramada Encore by Wyndham Muscat Al-Ghubra, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM. Bundle together your room, flights, and more for a seamless booking experience."
-    }
+    },
+    "images": {
+      "hero": "https://www.wyndhamhotels.com/content/dam/images/global/logos/ra_bywynd_rgb_ko.svg"
+    },
+    "banner_image": "https://www.wyndhamhotels.com/content/dam/images/global/logos/ra_bywynd_rgb_ko.svg"
   },
   {
     "id": "ChIJ_yYrTikHjj4RyiwepPJBca8",
@@ -18476,7 +18931,11 @@
     "about": {
       "short": "At Ramada by Wyndham Qurum Beach, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM.",
       "long": "At Ramada by Wyndham Qurum Beach, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM. Bundle together your room, flights, and more for a seamless booking experience."
-    }
+    },
+    "images": {
+      "hero": "https://www.wyndhamhotels.com/content/dam/images/global/logos/ra_bywynd_rgb_ko.svg"
+    },
+    "banner_image": "https://www.wyndhamhotels.com/content/dam/images/global/logos/ra_bywynd_rgb_ko.svg"
   },
   {
     "id": "ChIJD28Lrd_kjT4ReugPyQwR8Qk",
@@ -18595,7 +19054,8 @@
       "count": 947,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJxTIG8Ab3kT4RCuuX6kFg1l0",
@@ -18714,7 +19174,8 @@
       "count": 1475,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJe4qej3b_kT4RBPx856JQmbA",
@@ -18840,7 +19301,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipODvokn2qiWLulhHyqJSDjhs1LhkVXwf7w9DqAM=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipODvokn2qiWLulhHyqJSDjhs1LhkVXwf7w9DqAM=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ82ukUSv4kT4RXAN7atU8ZhE",
@@ -18969,7 +19434,11 @@
     "about": {
       "short": "Stay at Riyam Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Riyam Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 40,00 (USD $) SEARCH AVAILABILITY"
-    }
+    },
+    "images": {
+      "hero": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
+    },
+    "banner_image": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
   },
   {
     "id": "ChIJEWs0DOz_kT4RTezLdcdjvzM",
@@ -19097,7 +19566,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npOa5W8tzCpuhnNr9j64rR7MOCVKQVvJnRSYEw48IrvX7VnYcyDfsoIqjihMLsokHdvD3uaI4FjBzU00FHYYSshVhakJAi0R5YH7fADfrKxMjSc80XlToSIpLQPHQniYn1mIsBncQ=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npOa5W8tzCpuhnNr9j64rR7MOCVKQVvJnRSYEw48IrvX7VnYcyDfsoIqjihMLsokHdvD3uaI4FjBzU00FHYYSshVhakJAi0R5YH7fADfrKxMjSc80XlToSIpLQPHQniYn1mIsBncQ=w900-h900-p-k-no"
   },
   {
     "id": "ChIJMYkJSCv_kT4RT5wOX1NBaUA",
@@ -19216,7 +19689,8 @@
       "count": 2079,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJeQrHF4D_kT4RsyHdqsFZiuk",
@@ -19334,7 +19808,8 @@
       "count": 659,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJDVYyrWv_kT4R78B8Pw45Iu8",
@@ -19462,7 +19937,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFkz2kYGAx4_469iKB5Thu4JAFM8MWHBcvsVs0bY4gM-gQgORic8XBJ5X1MPDaLJNEAsLlKhRnLJ9-gAR1c60E5bd-TWci8LSO9JY-n54NaRZeALwlxiwz6qSnm5UvwCGo7hCufNiXh6yZ70lM5HVN7teExt5i1VtG8TkVe0_0yP0iI2LxTP_xx0g=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFkz2kYGAx4_469iKB5Thu4JAFM8MWHBcvsVs0bY4gM-gQgORic8XBJ5X1MPDaLJNEAsLlKhRnLJ9-gAR1c60E5bd-TWci8LSO9JY-n54NaRZeALwlxiwz6qSnm5UvwCGo7hCufNiXh6yZ70lM5HVN7teExt5i1VtG8TkVe0_0yP0iI2LxTP_xx0g=w900-h900-p-k-no"
   },
   {
     "id": "ChIJNV-3KQT_kT4RE-33B-izsFE",
@@ -19590,7 +20069,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhG0MguNh1XRS8t1UAM0GHaSTfIIcEzSx3WWhHZ6MfwUgnISuStr3eWSVT5NTJKDKPunAngKpFxBm95_ISJIB82fwfCocNU48ySfkYMntZsSScp9ulx3HaYHPuamFL7AGNNilqj12rqcuM2uUkPL1ujko3h1nRj0GnM_2DAWv9xx3AVsCKrzdTVRlA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhG0MguNh1XRS8t1UAM0GHaSTfIIcEzSx3WWhHZ6MfwUgnISuStr3eWSVT5NTJKDKPunAngKpFxBm95_ISJIB82fwfCocNU48ySfkYMntZsSScp9ulx3HaYHPuamFL7AGNNilqj12rqcuM2uUkPL1ujko3h1nRj0GnM_2DAWv9xx3AVsCKrzdTVRlA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJz_YKPjv_kT4RHXoUvLzqUc8",
@@ -19718,7 +20201,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHb9wXuHM1_cta3DycDEpVKA3WSjKdSFUlYYpuFRj68rw2RQ7TcdZJI-Rw-fEp4KwfSGfQEx4txVKF4uuNUhC_Hl7h6aCIK06MG9kb6lHvk-rThxcAh2pRALQFCgnb4L3XB6k-XCPP-9cyPpmRDP1UKq-mNcWgywlJ00jddxq8Q4qtyZvXRVOkg=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHb9wXuHM1_cta3DycDEpVKA3WSjKdSFUlYYpuFRj68rw2RQ7TcdZJI-Rw-fEp4KwfSGfQEx4txVKF4uuNUhC_Hl7h6aCIK06MG9kb6lHvk-rThxcAh2pRALQFCgnb4L3XB6k-XCPP-9cyPpmRDP1UKq-mNcWgywlJ00jddxq8Q4qtyZvXRVOkg=w900-h900-p-k-no"
   },
   {
     "id": "ChIJNw2DDiTxkT4ROqHPODkkMpQ",
@@ -19844,7 +20331,11 @@
     },
     "about": {
       "long": "Explore yourself, explore Oman. Join us for yoga, meditation, mindful art, stand-up paddleboarding, unique cultural experiences and more."
-    }
+    },
+    "images": {
+      "hero": "http://static1.squarespace.com/static/5d467b4855e66a0001ec004a/t/5d46852446f3930001f23441/1564902718252/190318OMAN+YOGA+low+res+VERSION+2-+MARIAN+DUVEN0018.jpg?format=1500w"
+    },
+    "banner_image": "http://static1.squarespace.com/static/5d467b4855e66a0001ec004a/t/5d46852446f3930001f23441/1564902718252/190318OMAN+YOGA+low+res+VERSION+2-+MARIAN+DUVEN0018.jpg?format=1500w"
   },
   {
     "id": "ChIJm3X1K63_kT4R5s55E75WfqQ",
@@ -19972,7 +20463,11 @@
     "about": {
       "short": "Amongst numerous hotels in Oman, our hotels are strategically positioned in most prominent towns of Oman to delight both business traveler and holiday maker.",
       "long": "Amongst numerous hotels in Oman, our hotels are strategically positioned in most prominent towns of Oman to delight both business traveler and holiday maker. Sand View Hotel is a part of the New Chain Hospitality Group, a conglomerate with diversified interests in a range of other business sectors, such as Real Estate, Consultancy work servicing, fragrance perfumes company. Established in 1995, the Sand View Hotel has steadily and successfully expanded its presence across the Sultanate of Oman."
-    }
+    },
+    "images": {
+      "hero": "https://hotelsandview.com/assets/logo.png"
+    },
+    "banner_image": "https://hotelsandview.com/assets/logo.png"
   },
   {
     "id": "ChIJTaTVCtH_kT4RamCOydGmaH4",
@@ -20100,7 +20595,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noXLVReV2fEl6JPd03ZVhzHb9qdjng9gROFrHNrXaRpeb9Gt5yOl5gTxoQxTafLnR9Vm5-e8RRkJfSZDSIczVA0X02yi6-YV9Ya6B0KMG8zr0IUtE0C08bwkBkfHBRnuiC3Cx_baA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noXLVReV2fEl6JPd03ZVhzHb9qdjng9gROFrHNrXaRpeb9Gt5yOl5gTxoQxTafLnR9Vm5-e8RRkJfSZDSIczVA0X02yi6-YV9Ya6B0KMG8zr0IUtE0C08bwkBkfHBRnuiC3Cx_baA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ8_q9eBgAjj4RlIfStaKhgSc",
@@ -20226,7 +20725,11 @@
     },
     "about": {
       "long": "ROYAL GROUP of company’s were formed in 2001 and in a short period of time since its inception"
-    }
+    },
+    "images": {
+      "hero": "https://royalgroupoman.com/wp-content/uploads/2021/05/royal-removebg-preview.png"
+    },
+    "banner_image": "https://royalgroupoman.com/wp-content/uploads/2021/05/royal-removebg-preview.png"
   },
   {
     "id": "ChIJ29sX72j9jT4RMIfEXXjKA8Y",
@@ -20354,7 +20857,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhwGU7qbCDQG2bbXKb4RVl3b_Yex9rc0e3w1ER5LpU6YCwkEZ5c5N3Ub4ZIlQ9KsNFxiDKvW2yrEopJeph-svxoxTRKzyMmNJKoelXQw8UmFF3sN9QedIhtB6sNMQhCEiHRE0F=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhwGU7qbCDQG2bbXKb4RVl3b_Yex9rc0e3w1ER5LpU6YCwkEZ5c5N3Ub4ZIlQ9KsNFxiDKvW2yrEopJeph-svxoxTRKzyMmNJKoelXQw8UmFF3sN9QedIhtB6sNMQhCEiHRE0F=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ8eYbt83zkT4RIqFkCxhXScU",
@@ -20484,7 +20991,11 @@
     "about": {
       "short": "Our luxury adults-only beach resort at Shangri-La Al Husn offers exquisite rooms & suites, many dining options and complimentary WiFi. Book on the official site for the best rate.<br/>",
       "long": "Our luxury adults-only beach resort at Shangri-La Al Husn offers exquisite rooms & suites, many dining options and complimentary WiFi. Book on the official site for the best rate.<br/>"
-    }
+    },
+    "images": {
+      "hero": "https://sitecore-cd-imgr.shangri-la.com/MediaFiles/9/9/8/{998A3088-BADE-4161-BC2D-D6B63CA8B80B}202504_SLMH_Eat-Play-Love_1180x535.jpg?w=360&h=175&mode=crop&quality=100&scale=both"
+    },
+    "banner_image": "https://sitecore-cd-imgr.shangri-la.com/MediaFiles/9/9/8/{998A3088-BADE-4161-BC2D-D6B63CA8B80B}202504_SLMH_Eat-Play-Love_1180x535.jpg?w=360&h=175&mode=crop&quality=100&scale=both"
   },
   {
     "id": "ChIJbePBy83zkT4RZJe1BOYjSD0",
@@ -20612,7 +21123,11 @@
     "about": {
       "short": "Book direct for offers and packages at the best rate guaranteed. Join Shangri-La Circle to enjoy exclusive member rates with more flexibility and privileges.",
       "long": "Book direct for offers and packages at the best rate guaranteed. Join Shangri-La Circle to enjoy exclusive member rates with more flexibility and privileges. Whether you’re here for a bite or a string of nights, join as a member to enjoy exclusive benefits and a seamless digital experience."
-    }
+    },
+    "images": {
+      "hero": "https://sitecore-cd.shangri-la.com/-/media/Shangri-La/header_footer/Global_SLCHeaderLogo.png?h=60&iar=0&w=540&hash=0FE7A7A2E8BD9DD3215AF8CD8EA6C34B"
+    },
+    "banner_image": "https://sitecore-cd.shangri-la.com/-/media/Shangri-La/header_footer/Global_SLCHeaderLogo.png?h=60&iar=0&w=540&hash=0FE7A7A2E8BD9DD3215AF8CD8EA6C34B"
   },
   {
     "id": "ChIJGYqTsi34kT4Rgr-rLR0VR98",
@@ -20731,7 +21246,8 @@
       "count": 4056,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {}
   },
   {
     "id": "ChIJBzFk-TuVkT4RyTQcgr02JeE",
@@ -20865,7 +21381,11 @@
     "about": {
       "short": "Sifah Poolside Paradise, a property with a bar, is set in Muscat, less than 1 km from Al Sifah Beach, 45 km from Central Business District, as well as 45...",
       "long": "Sifah Poolside Paradise, a property with a bar, is set in Muscat, less than 1 km from Al Sifah Beach, 45 km from Central Business District, as well as 45..."
-    }
+    },
+    "images": {
+      "hero": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/660810952.jpg?k=9a397c8e20af93122956b5a1554b3778b08304e1da6b41a8695c6679a0e526aa&o=&hp=1"
+    },
+    "banner_image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/660810952.jpg?k=9a397c8e20af93122956b5a1554b3778b08304e1da6b41a8695c6679a0e526aa&o=&hp=1"
   },
   {
     "id": "ChIJPTBzQ1CUkT4R27Fqf9rRD4A",
@@ -20993,7 +21513,11 @@
     "about": {
       "short": "The 4-Star Sifawy Boutique Hotel In Oman Offers You A Warm & Friendly Atmosphere, Located in Jebal Sifah resort, 45 minutes from Muscat. Book Now Your Stay.",
       "long": "The 4-Star Sifawy Boutique Hotel In Oman Offers You A Warm & Friendly Atmosphere, Located in Jebal Sifah resort, 45 minutes from Muscat. Book Now Your Stay. The Sifawy Boutique Hotel offers a warm and friendly atmosphere, reflecting the hospitable nature of the Omani people. The Sifawy Boutique Hotel is in the Sultanate of Oman, only 45 minutes drive from the capital city Muscat. Sifawy, meaning those “From Sifah”, is located within the world-class Jebel Sifah Resort, and offers a contemporary blend of European design with a strong essence of traditional Omani influence; both in the concept…"
-    }
+    },
+    "images": {
+      "hero": "https://app.jebelsifah.com/assets/seo/default-seo.webp"
+    },
+    "banner_image": "https://app.jebelsifah.com/assets/seo/default-seo.webp"
   },
   {
     "id": "ChIJ27tNfwD9jT4RA_u8GRyknH4",
@@ -21113,7 +21637,11 @@
       "count": 81,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Emma_Muscat%2C_Turquoise_Carpet_2022.png"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Emma_Muscat%2C_Turquoise_Carpet_2022.png"
   },
   {
     "id": "ChIJN4hZoJb5kT4RAdJ0i5ukwAM",
@@ -21241,7 +21769,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipNvTYmmw4_Oc0G0ehW5w_pFV-5nGWvpKWvEQW7o=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipNvTYmmw4_Oc0G0ehW5w_pFV-5nGWvpKWvEQW7o=w900-h900-p-k-no"
   },
   {
     "id": "ChIJTSBifdr5kT4RZT8jLt_dwfQ",
@@ -21378,7 +21910,11 @@
     "about": {
       "short": "Stay at Sun City Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Sun City Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 25,00 (USD $) SEARCH AVAILABILITY"
-    }
+    },
+    "images": {
+      "hero": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
+    },
+    "banner_image": "https://www.facebook.com/tr?id=1835932373189977&ev=PageView&noscript=1"
   },
   {
     "id": "ChIJaaMcKkD9jT4RA1JOrkHGa2I",
@@ -21507,7 +22043,11 @@
     "about": {
       "short": "For a delightful stay book Super OYO 106 Muscat Grand Hotel Apartment at ﷼11/night..",
       "long": "For a delightful stay book Super OYO 106 Muscat Grand Hotel Apartment at ﷼11/night.. Location OYO 106 Muscat Grand Hotel Apartment is located in Seeb. Special Features The rooms are large in size, clean, well-lit and decorated with long hanging curtains and upscale furniture."
-    }
+    },
+    "images": {
+      "hero": "https://images.oyoroomscdn.com/uploads/hotel_image/86520/98546b93d9c8749d.jpg"
+    },
+    "banner_image": "https://images.oyoroomscdn.com/uploads/hotel_image/86520/98546b93d9c8749d.jpg"
   },
   {
     "id": "ChIJuYHxpa4Bjj4R6mtIQT01It4",
@@ -21637,7 +22177,11 @@
     "about": {
       "short": "Book directly with Swiss-Belhotel International and enjoy exclusive rates, special perks, and the best available offers. Discover our global collection of hotels and resorts across Asia-Pacific, the…",
       "long": "Book directly with Swiss-Belhotel International and enjoy exclusive rates, special perks, and the best available offers. Discover our global collection of hotels and resorts across Asia-Pacific, the Middle East, and beyond—perfect for business or leisure stays."
-    }
+    },
+    "images": {
+      "hero": "https://lirp.cdn-website.com/1074ee8b/dms3rep/multi/opt/8a58c64f2b15adfa4bf1a11a57bf981a780db6da+%281%29-1920w.jpg"
+    },
+    "banner_image": "https://lirp.cdn-website.com/1074ee8b/dms3rep/multi/opt/8a58c64f2b15adfa4bf1a11a57bf981a780db6da+%281%29-1920w.jpg"
   },
   {
     "id": "ChIJVbivKAIBjj4RRZ2pO3Rd44Q",
@@ -21766,7 +22310,11 @@
     "about": {
       "short": "3-star comfort 8 minutes from Muscat's International Airport ✈️ For Reservations, call +968 76722243",
       "long": "3-star comfort 8 minutes from Muscat's International Airport ✈️ For Reservations, call +968 76722243"
-    }
+    },
+    "images": {
+      "hero": "https://linktr.ee/og/image/theairporthotel.jpg"
+    },
+    "banner_image": "https://linktr.ee/og/image/theairporthotel.jpg"
   },
   {
     "id": "ChIJzV-UtyuVkT4RFrP4AqwfbrQ",
@@ -21904,7 +22452,11 @@
     "about": {
       "short": "Featuring mountain views, The Beach House Deux provides accommodation with a private beach area, an infinity pool and a garden, around 2.",
       "long": "Featuring mountain views, The Beach House Deux provides accommodation with a private beach area, an infinity pool and a garden, around 2."
-    }
+    },
+    "images": {
+      "hero": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671077311.jpg?k=05efb97ad699888cdb2dbe07a33422a9fb69c3a652ac7154efdf429a0f18cf04&o=&hp=1"
+    },
+    "banner_image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671077311.jpg?k=05efb97ad699888cdb2dbe07a33422a9fb69c3a652ac7154efdf429a0f18cf04&o=&hp=1"
   },
   {
     "id": "the-chedi-muscat",
@@ -22044,7 +22596,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/the-chedi-muscat/hero.webp"
+    },
+    "banner_image": "assets/media/the-chedi-muscat/hero.webp"
   },
   {
     "id": "ChIJgz_mxg__kT4RwHsf3Z_JX_g",
@@ -22166,7 +22722,11 @@
       "count": 1121,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://s.turbifycdn.com/yf/nrp/image/turbify/turbify-logo-v1-purple.svg"
+    },
+    "banner_image": "https://s.turbifycdn.com/yf/nrp/image/turbify/turbify-logo-v1-purple.svg"
   },
   {
     "id": "ChIJLRvuyYT_kT4RdzS3-H3ZYD8",
@@ -22286,7 +22846,11 @@
       "count": 729,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/9/98/The_Kingsbury_Hotel.JPG"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/9/98/The_Kingsbury_Hotel.JPG"
   },
   {
     "id": "ChIJeZ3uMxj_jT4RRT8ajpMFAEU",
@@ -22406,7 +22970,11 @@
       "count": 752,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/f/f2/21147-Tianjin_%2849063967052%29.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/21147-Tianjin_%2849063967052%29.jpg"
   },
   {
     "id": "ChIJNaGHJdzzkT4Rdlu-z9QKFfk",
@@ -22531,7 +23099,11 @@
     "about": {
       "short": "Our luxury family-friendly beach resort at Shangri-La Barr Al Jissah, Muscat offers exquisite rooms & suites, many dining options and complimentary WiFi. Book on the official site for the best rate.",
       "long": "Our luxury family-friendly beach resort at Shangri-La Barr Al Jissah, Muscat offers exquisite rooms & suites, many dining options and complimentary WiFi. Book on the official site for the best rate."
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Al-alamPalace.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Al-alamPalace.jpg"
   },
   {
     "id": "ChIJheoqcQCVkT4Ratvx6TffsiE",
@@ -22651,7 +23223,11 @@
     "about": {
       "short": "Hotel",
       "long": "Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcrjux0J3168MGBFBHgLXGpcgfQKIvJq5X1kEcF6-Vy6PUh_y_A-tn-Hsx_59O2-RlN958DxsX_lf4XgbZAZRP_71tb-KlPUnw1e8UFbFpGr_omVz7cC5XyfDuBR9peHzPGndvac42H5PM=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcrjux0J3168MGBFBHgLXGpcgfQKIvJq5X1kEcF6-Vy6PUh_y_A-tn-Hsx_59O2-RlN958DxsX_lf4XgbZAZRP_71tb-KlPUnw1e8UFbFpGr_omVz7cC5XyfDuBR9peHzPGndvac42H5PM=w900-h900-p-k-no"
   },
   {
     "id": "ChIJ5cFsCrT4kT4RrgTEB502G-M",
@@ -22771,7 +23347,11 @@
       "count": 3363,
       "source": "Google",
       "last_updated": "2025-09-28"
-    }
+    },
+    "images": {
+      "hero": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Melbourne_Victory_Chairman_Anthony_Di_Pietro_with_Melbourne_Victory_coach_Kevin_Muscat_%28cropped%29.jpg"
+    },
+    "banner_image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Melbourne_Victory_Chairman_Anthony_Di_Pietro_with_Melbourne_Victory_coach_Kevin_Muscat_%28cropped%29.jpg"
   },
   {
     "id": "ChIJEYPJ5Rb5kT4RsnNI5O2SljY",
@@ -22899,7 +23479,11 @@
     "about": {
       "short": "Sep 28, 2025 - Entire villa for $340. Soak up the modern and coozie charm. Perfect getaway with an amazing beach view and privacy. The villa is located in Fins which is just 8 minutes d...",
       "long": "Sep 28, 2025 - Entire villa for $340. Soak up the modern and coozie charm. Perfect getaway with an amazing beach view and privacy. The villa is located in Fins which is just 8 minutes d..."
-    }
+    },
+    "images": {
+      "hero": "https://a0.muscache.com/im/pictures/hosting/Hosting-41194729/original/0acf03d9-63ca-4a88-a01b-7ffa9665e2dd.jpeg?im_w=720&width=720&quality=70&auto=webp"
+    },
+    "banner_image": "https://a0.muscache.com/im/pictures/hosting/Hosting-41194729/original/0acf03d9-63ca-4a88-a01b-7ffa9665e2dd.jpeg?im_w=720&width=720&quality=70&auto=webp"
   },
   {
     "id": "ChIJQ7lWwg_9jT4RER0gTNora88",
@@ -23026,7 +23610,11 @@
     },
     "about": {
       "long": "The Wanasa Group of Hotels & Apartment is located in short distance from the Airport as well as all other major attractions, whether is be for leisure or business. Cinemas, dining, and other entertainment venues are but a short distance away."
-    }
+    },
+    "images": {
+      "hero": "https://www.wanasahotel.com/images/logo.png"
+    },
+    "banner_image": "https://www.wanasahotel.com/images/logo.png"
   },
   {
     "id": "ChIJf_WIyzz9jT4RYfFmpTqgqiU",
@@ -23154,7 +23742,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrOlb4sk6eoM3qneqv6Mi5QaXFlHcwjd3RKFIZkjZNVaRsVfWj6tbC4hYtoVAIDUJ-WzbrI0iYm4VN7MV1c8Mun-XueIrD3GmCRhU6ecIfXW-ix-g4biJG63vMYjxSkw1Xg41QUDA=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrOlb4sk6eoM3qneqv6Mi5QaXFlHcwjd3RKFIZkjZNVaRsVfWj6tbC4hYtoVAIDUJ-WzbrI0iYm4VN7MV1c8Mun-XueIrD3GmCRhU6ecIfXW-ix-g4biJG63vMYjxSkw1Xg41QUDA=w900-h900-p-k-no"
   },
   {
     "id": "ChIJZeqkk0X9jT4RghOpi1qlmn0",
@@ -23282,7 +23874,11 @@
     "about": {
       "short": "★★★★☆ · Hotel",
       "long": "★★★★☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipM-mHxrEzupAyEuCBoAWBfO-pwzdOF9FyhXePwI=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipM-mHxrEzupAyEuCBoAWBfO-pwzdOF9FyhXePwI=w900-h900-p-k-no"
   },
   {
     "id": "ChIJMW5xsFT_kT4RV4xfgD5cMkg",
@@ -23410,7 +24006,11 @@
     "about": {
       "short": "Enjoy the beauty of Oman and its capital city is easy when you stay at Wyndham Garden Muscat Al Khuwair. The hotel is near to the malls as is just 15 minutes drive from Muscat International airport.",
       "long": "Enjoy the beauty of Oman and its capital city is easy when you stay at Wyndham Garden Muscat Al Khuwair. The hotel is near to the malls as is just 15 minutes drive from Muscat International airport. Enjoying the beauty of Oman and its capital city is easy when you stay at Wyndham Garden Muscat Al Khuwair. Each of the 143 rooms and suites has been beautifully designed to reflect the natural world and create a peaceful comfortable retreat for business and leisure travellers alike. The hotel is near to the malls as is just 15 mins drive from Muscat International airport."
-    }
+    },
+    "images": {
+      "hero": "https://wyndhamgardenmuscat.com/wp-content/uploads/2020/01/logo.png"
+    },
+    "banner_image": "https://wyndhamgardenmuscat.com/wp-content/uploads/2020/01/logo.png"
   },
   {
     "id": "ChIJ1d0Gq-X9jT4RU9RF_g9WCJE",
@@ -23538,7 +24138,11 @@
     "about": {
       "short": "★★★★★ · Hotel",
       "long": "★★★★★ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipOUhXwRCGS6XDg_yDZI104WL1aGs-3wqIYgqzvK=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipOUhXwRCGS6XDg_yDZI104WL1aGs-3wqIYgqzvK=w900-h900-p-k-no"
   },
   {
     "id": "ChIJz-Tqe_j8jT4REWLBfjIxSMs",
@@ -23665,7 +24269,11 @@
     },
     "about": {
       "long": "Jarzez Hotel Apartments offers a perfect blend of modern living and warm hospitality. Strategically located near Seeb International Airport, our hotel provides stylish accommodations, world-class amenities, and exceptional service. Whether you’re traveling for business or leisure, enjoy a relaxing stay with spacious apartments, premium facilities, and a dedicated team ready to cater to your needs."
-    }
+    },
+    "images": {
+      "hero": "https://jarzezhotel.com/wp-content/uploads/2023/06/new-1.png"
+    },
+    "banner_image": "https://jarzezhotel.com/wp-content/uploads/2023/06/new-1.png"
   },
   {
     "id": "ChIJlSpa8Gv9jT4RzT6fCAtwh8c",
@@ -23792,7 +24400,11 @@
     "about": {
       "short": "★★★☆☆ · Hotel",
       "long": "★★★☆☆ · Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://lh3.googleusercontent.com/p/AF1QipO1ZRGGKB_sxSE3DZnyhiAp3hk-2fqcFCXBsvMe=w900-h900-p-k-no"
+    },
+    "banner_image": "https://lh3.googleusercontent.com/p/AF1QipO1ZRGGKB_sxSE3DZnyhiAp3hk-2fqcFCXBsvMe=w900-h900-p-k-no"
   },
   {
     "id": "ChIJB2j8jq7_kT4RdTXHKc1EhAc",
@@ -23919,7 +24531,11 @@
     "about": {
       "short": "About US Muscat Oasis Residence The perfect setting to host your next event! Muscat Oasis Residence is the ultimate in contemporary design. Built to meet every need of a 21st-century family, single…",
       "long": "About US Muscat Oasis Residence The perfect setting to host your next event! Muscat Oasis Residence is the ultimate in contemporary design. Built to meet every need of a 21st-century family, single or couple, the complex includes 19 buildings with 2, 3, 4, and 5 bedroom apartments, duplexes, and penthouses in each. When you choose […] Muscat Oasis Residence is the ultimate in contemporary design. Built to meet every need of a 21st-century family, single or couple, the complex includes 19 buildings with 2, 3, 4, and 5 bedroom apartments, duplexes, and penthouses in each. When you choose to…"
-    }
+    },
+    "images": {
+      "hero": "https://muscatoasisresidence.com/wp-content/uploads/2021/12/MOR-Logo.png"
+    },
+    "banner_image": "https://muscatoasisresidence.com/wp-content/uploads/2021/12/MOR-Logo.png"
   },
   {
     "id": "ChIJVyGw_kr7kT4R0UNUlhEr6vY",
@@ -24047,7 +24663,11 @@
     "about": {
       "short": "يقع مكان إقامة \"Sunset hotel\" في Al Bajarīyah، ضمن 17 كم من محمية القرم الطبيعية و17 كم من نادي رأس الحمرا للجولف.",
       "long": "يقع مكان إقامة \"Sunset hotel\" في Al Bajarīyah، ضمن 17 كم من محمية القرم الطبيعية و17 كم من نادي رأس الحمرا للجولف. عذراً، مكان الإقامة هذا لا يستقبل حجوزات على موقعنا في الوقت الحالي. لا تقلق، يمكنك العثور على العديد من أماكن الإقامة القريبة من نفس الموقع هنا ."
-    }
+    },
+    "images": {
+      "hero": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/610995906.jpg?k=577b8cfa1003e1e40c0ed5afce7829cf93eee4f4465c6886e23446d1c9462152&o=&hp=1"
+    },
+    "banner_image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/610995906.jpg?k=577b8cfa1003e1e40c0ed5afce7829cf93eee4f4465c6886e23446d1c9462152&o=&hp=1"
   },
   {
     "id": "ChIJYe2JUwD_kT4RNVeC8C7E1I8",
@@ -24166,7 +24786,11 @@
     "about": {
       "short": "Hotel",
       "long": "Hotel"
-    }
+    },
+    "images": {
+      "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Od3q-V11K8TTYF0p-fdhxQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=123.89194&pitch=0&thumbfov=100"
+    },
+    "banner_image": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Od3q-V11K8TTYF0p-fdhxQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=123.89194&pitch=0&thumbfov=100"
   },
   {
     "id": "oman-avenues-mall",
@@ -24306,7 +24930,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/oman-avenues-mall/hero.webp"
+    },
+    "banner_image": "assets/media/oman-avenues-mall/hero.webp"
   },
   {
     "id": "city-walk-mall-1",
@@ -24400,7 +25028,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/city-walk-mall-1/hero.webp"
+    },
+    "banner_image": "assets/media/city-walk-mall-1/hero.webp"
   },
   {
     "id": "city-walk-mall-2",
@@ -24540,7 +25172,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/city-walk-mall-2/hero.webp"
+    },
+    "banner_image": "assets/media/city-walk-mall-2/hero.webp"
   },
   {
     "id": "city-walk-mall-3",
@@ -24680,7 +25316,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/city-walk-mall-3/hero.webp"
+    },
+    "banner_image": "assets/media/city-walk-mall-3/hero.webp"
   },
   {
     "id": "city-walk-mall-4",
@@ -24820,7 +25460,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/city-walk-mall-4/hero.webp"
+    },
+    "banner_image": "assets/media/city-walk-mall-4/hero.webp"
   },
   {
     "id": "city-walk-mall-5",
@@ -24960,7 +25604,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/city-walk-mall-5/hero.webp"
+    },
+    "banner_image": "assets/media/city-walk-mall-5/hero.webp"
   },
   {
     "id": "m001",
@@ -25149,7 +25797,11 @@
     "about": {
       "short": "Trusted movers.",
       "long": "Professional teams with proper packing materials and insurance options."
-    }
+    },
+    "images": {
+      "hero": "assets/moving/hero-1.jpg"
+    },
+    "banner_image": "assets/moving/hero-1.jpg"
   },
   {
     "id": "m002",
@@ -25338,7 +25990,11 @@
     "about": {
       "short": "Trusted movers.",
       "long": "Professional teams with proper packing materials and insurance options."
-    }
+    },
+    "images": {
+      "hero": "assets/moving/hero-2.jpg"
+    },
+    "banner_image": "assets/moving/hero-2.jpg"
   },
   {
     "id": "m003",
@@ -25527,7 +26183,11 @@
     "about": {
       "short": "Trusted movers.",
       "long": "Professional teams with proper packing materials and insurance options."
-    }
+    },
+    "images": {
+      "hero": "assets/moving/hero-3.jpg"
+    },
+    "banner_image": "assets/moving/hero-3.jpg"
   },
   {
     "id": "m004",
@@ -25716,7 +26376,11 @@
     "about": {
       "short": "Trusted movers.",
       "long": "Professional teams with proper packing materials and insurance options."
-    }
+    },
+    "images": {
+      "hero": "assets/moving/hero-4.jpg"
+    },
+    "banner_image": "assets/moving/hero-4.jpg"
   },
   {
     "id": "m005",
@@ -25905,7 +26569,11 @@
     "about": {
       "short": "Trusted movers.",
       "long": "Professional teams with proper packing materials and insurance options."
-    }
+    },
+    "images": {
+      "hero": "assets/moving/hero-5.jpg"
+    },
+    "banner_image": "assets/moving/hero-5.jpg"
   },
   {
     "id": "al-bustan-palace",
@@ -26045,7 +26713,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Pano-Hor?wid=1200&fit=constrain"
+    },
+    "banner_image": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Pano-Hor?wid=1200&fit=constrain"
   },
   {
     "id": "kargeen-cafe",
@@ -26175,7 +26847,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/kargeen-cafe/hero.webp"
+    },
+    "banner_image": "assets/media/kargeen-cafe/hero.webp"
   },
   {
     "id": "royal-opera-house-muscat",
@@ -26315,7 +26991,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/royal-opera-house-muscat/hero.webp"
+    },
+    "banner_image": "assets/media/royal-opera-house-muscat/hero.webp"
   },
   {
     "id": "sultan-qaboos-grand-mosque",
@@ -26454,7 +27134,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/sultan-qaboos-grand-mosque/hero.webp"
+    },
+    "banner_image": "assets/media/sultan-qaboos-grand-mosque/hero.webp"
   },
   {
     "id": "bait-al-zubair-museum",
@@ -26584,7 +27268,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/bait-al-zubair-museum/hero.webp"
+    },
+    "banner_image": "assets/media/bait-al-zubair-museum/hero.webp"
   },
   {
     "id": "qurum-natural-park",
@@ -26678,7 +27366,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/qurum-natural-park/hero.webp"
+    },
+    "banner_image": "assets/media/qurum-natural-park/hero.webp"
   },
   {
     "id": "al-mouj-marina",
@@ -26808,7 +27500,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/al-mouj-marina/hero.webp"
+    },
+    "banner_image": "assets/media/al-mouj-marina/hero.webp"
   },
   {
     "id": "shangri-la-barr-al-jissah",
@@ -26903,7 +27599,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/shangri-la-barr-al-jissah/hero.webp"
+    },
+    "banner_image": "assets/media/shangri-la-barr-al-jissah/hero.webp"
   },
   {
     "id": "souq-bite-1",
@@ -27033,7 +27733,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-1/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-1/hero.webp"
   },
   {
     "id": "souq-bite-2",
@@ -27173,7 +27877,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-2/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-2/hero.webp"
   },
   {
     "id": "souq-bite-3",
@@ -27267,7 +27975,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-3/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-3/hero.webp"
   },
   {
     "id": "souq-bite-4",
@@ -27361,7 +28073,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-4/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-4/hero.webp"
   },
   {
     "id": "souq-bite-5",
@@ -27455,7 +28171,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-5/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-5/hero.webp"
   },
   {
     "id": "souq-bite-6",
@@ -27595,7 +28315,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-6/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-6/hero.webp"
   },
   {
     "id": "souq-bite-7",
@@ -27735,7 +28459,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-7/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-7/hero.webp"
   },
   {
     "id": "souq-bite-8",
@@ -27829,7 +28557,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-8/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-8/hero.webp"
   },
   {
     "id": "souq-bite-9",
@@ -27923,7 +28655,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-9/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-9/hero.webp"
   },
   {
     "id": "souq-bite-10",
@@ -28053,7 +28789,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-10/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-10/hero.webp"
   },
   {
     "id": "souq-bite-11",
@@ -28147,7 +28887,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-11/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-11/hero.webp"
   },
   {
     "id": "souq-bite-12",
@@ -28241,7 +28985,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-12/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-12/hero.webp"
   },
   {
     "id": "souq-bite-13",
@@ -28381,7 +29129,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-13/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-13/hero.webp"
   },
   {
     "id": "souq-bite-14",
@@ -28475,7 +29227,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-14/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-14/hero.webp"
   },
   {
     "id": "souq-bite-15",
@@ -28615,7 +29371,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-15/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-15/hero.webp"
   },
   {
     "id": "souq-bite-16",
@@ -28745,7 +29505,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-16/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-16/hero.webp"
   },
   {
     "id": "souq-bite-17",
@@ -28885,7 +29649,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-17/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-17/hero.webp"
   },
   {
     "id": "souq-bite-18",
@@ -29025,7 +29793,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-18/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-18/hero.webp"
   },
   {
     "id": "souq-bite-19",
@@ -29119,7 +29891,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-19/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-19/hero.webp"
   },
   {
     "id": "souq-bite-20",
@@ -29259,7 +30035,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/souq-bite-20/hero.webp"
+    },
+    "banner_image": "assets/media/souq-bite-20/hero.webp"
   },
   {
     "id": "palm-grill-1",
@@ -29353,7 +30133,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-1/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-1/hero.webp"
   },
   {
     "id": "palm-grill-2",
@@ -29493,7 +30277,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-2/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-2/hero.webp"
   },
   {
     "id": "palm-grill-3",
@@ -29633,7 +30421,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-3/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-3/hero.webp"
   },
   {
     "id": "palm-grill-4",
@@ -29773,7 +30565,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-4/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-4/hero.webp"
   },
   {
     "id": "palm-grill-5",
@@ -29903,7 +30699,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-5/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-5/hero.webp"
   },
   {
     "id": "palm-grill-6",
@@ -30033,7 +30833,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-6/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-6/hero.webp"
   },
   {
     "id": "palm-grill-7",
@@ -30127,7 +30931,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-7/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-7/hero.webp"
   },
   {
     "id": "palm-grill-8",
@@ -30267,7 +31075,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-8/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-8/hero.webp"
   },
   {
     "id": "palm-grill-9",
@@ -30407,7 +31219,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-9/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-9/hero.webp"
   },
   {
     "id": "palm-grill-10",
@@ -30547,7 +31363,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/palm-grill-10/hero.webp"
+    },
+    "banner_image": "assets/media/palm-grill-10/hero.webp"
   },
   {
     "id": "khareef-coffee-1",
@@ -30641,7 +31461,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-1/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-1/hero.webp"
   },
   {
     "id": "khareef-coffee-2",
@@ -30735,7 +31559,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-2/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-2/hero.webp"
   },
   {
     "id": "khareef-coffee-3",
@@ -30875,7 +31703,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-3/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-3/hero.webp"
   },
   {
     "id": "khareef-coffee-4",
@@ -30969,7 +31801,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-4/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-4/hero.webp"
   },
   {
     "id": "khareef-coffee-5",
@@ -31063,7 +31899,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-5/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-5/hero.webp"
   },
   {
     "id": "khareef-coffee-6",
@@ -31203,7 +32043,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-6/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-6/hero.webp"
   },
   {
     "id": "khareef-coffee-7",
@@ -31297,7 +32141,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-7/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-7/hero.webp"
   },
   {
     "id": "khareef-coffee-8",
@@ -31437,7 +32285,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-8/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-8/hero.webp"
   },
   {
     "id": "khareef-coffee-9",
@@ -31577,7 +32429,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-9/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-9/hero.webp"
   },
   {
     "id": "khareef-coffee-10",
@@ -31671,7 +32527,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-10/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-10/hero.webp"
   },
   {
     "id": "khareef-coffee-11",
@@ -31765,7 +32625,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-11/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-11/hero.webp"
   },
   {
     "id": "khareef-coffee-12",
@@ -31905,7 +32769,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-12/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-12/hero.webp"
   },
   {
     "id": "khareef-coffee-13",
@@ -31999,7 +32867,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-13/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-13/hero.webp"
   },
   {
     "id": "khareef-coffee-14",
@@ -32139,7 +33011,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-14/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-14/hero.webp"
   },
   {
     "id": "khareef-coffee-15",
@@ -32269,7 +33145,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/khareef-coffee-15/hero.webp"
+    },
+    "banner_image": "assets/media/khareef-coffee-15/hero.webp"
   },
   {
     "id": "date-cardamom-1",
@@ -32409,7 +33289,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/date-cardamom-1/hero.webp"
+    },
+    "banner_image": "assets/media/date-cardamom-1/hero.webp"
   },
   {
     "id": "date-cardamom-2",
@@ -32549,7 +33433,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/date-cardamom-2/hero.webp"
+    },
+    "banner_image": "assets/media/date-cardamom-2/hero.webp"
   },
   {
     "id": "date-cardamom-3",
@@ -32689,7 +33577,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/date-cardamom-3/hero.webp"
+    },
+    "banner_image": "assets/media/date-cardamom-3/hero.webp"
   },
   {
     "id": "date-cardamom-4",
@@ -32829,7 +33721,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/date-cardamom-4/hero.webp"
+    },
+    "banner_image": "assets/media/date-cardamom-4/hero.webp"
   },
   {
     "id": "date-cardamom-5",
@@ -32969,7 +33865,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/date-cardamom-5/hero.webp"
+    },
+    "banner_image": "assets/media/date-cardamom-5/hero.webp"
   },
   {
     "id": "muscat-stay-1",
@@ -33109,7 +34009,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-1/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-1/hero.webp"
   },
   {
     "id": "muscat-stay-2",
@@ -33239,7 +34143,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-2/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-2/hero.webp"
   },
   {
     "id": "muscat-stay-3",
@@ -33379,7 +34287,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-3/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-3/hero.webp"
   },
   {
     "id": "muscat-stay-4",
@@ -33519,7 +34431,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-4/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-4/hero.webp"
   },
   {
     "id": "muscat-stay-5",
@@ -33613,7 +34529,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-5/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-5/hero.webp"
   },
   {
     "id": "muscat-stay-6",
@@ -33753,7 +34673,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-6/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-6/hero.webp"
   },
   {
     "id": "muscat-stay-7",
@@ -33847,7 +34771,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-7/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-7/hero.webp"
   },
   {
     "id": "muscat-stay-8",
@@ -33987,7 +34915,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-8/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-8/hero.webp"
   },
   {
     "id": "muscat-stay-9",
@@ -34081,7 +35013,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-9/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-9/hero.webp"
   },
   {
     "id": "muscat-stay-10",
@@ -34221,7 +35157,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/muscat-stay-10/hero.webp"
+    },
+    "banner_image": "assets/media/muscat-stay-10/hero.webp"
   },
   {
     "id": "heritage-fort-1",
@@ -34361,7 +35301,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-1/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-1/hero.webp"
   },
   {
     "id": "heritage-fort-2",
@@ -34501,7 +35445,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-2/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-2/hero.webp"
   },
   {
     "id": "heritage-fort-3",
@@ -34595,7 +35543,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-3/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-3/hero.webp"
   },
   {
     "id": "heritage-fort-4",
@@ -34689,7 +35641,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-4/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-4/hero.webp"
   },
   {
     "id": "heritage-fort-5",
@@ -34783,7 +35739,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-5/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-5/hero.webp"
   },
   {
     "id": "heritage-fort-6",
@@ -34877,7 +35837,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-6/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-6/hero.webp"
   },
   {
     "id": "heritage-fort-7",
@@ -35017,7 +35981,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/heritage-fort-7/hero.webp"
+    },
+    "banner_image": "assets/media/heritage-fort-7/hero.webp"
   },
   {
     "id": "seeb-center-1",
@@ -35157,7 +36125,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-1/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-1/hero.webp"
   },
   {
     "id": "seeb-center-2",
@@ -35251,7 +36223,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-2/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-2/hero.webp"
   },
   {
     "id": "seeb-center-3",
@@ -35345,7 +36321,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-3/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-3/hero.webp"
   },
   {
     "id": "seeb-center-4",
@@ -35439,7 +36419,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-4/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-4/hero.webp"
   },
   {
     "id": "seeb-center-5",
@@ -35579,7 +36563,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-5/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-5/hero.webp"
   },
   {
     "id": "seeb-center-6",
@@ -35673,7 +36661,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-6/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-6/hero.webp"
   },
   {
     "id": "seeb-center-7",
@@ -35803,7 +36795,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/seeb-center-7/hero.webp"
+    },
+    "banner_image": "assets/media/seeb-center-7/hero.webp"
   },
   {
     "id": "lotus-spa-1",
@@ -35943,7 +36939,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-1/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-1/hero.webp"
   },
   {
     "id": "lotus-spa-2",
@@ -36083,7 +37083,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-2/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-2/hero.webp"
   },
   {
     "id": "lotus-spa-3",
@@ -36223,7 +37227,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-3/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-3/hero.webp"
   },
   {
     "id": "lotus-spa-4",
@@ -36317,7 +37325,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-4/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-4/hero.webp"
   },
   {
     "id": "lotus-spa-5",
@@ -36457,7 +37469,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-5/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-5/hero.webp"
   },
   {
     "id": "lotus-spa-6",
@@ -36587,7 +37603,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-6/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-6/hero.webp"
   },
   {
     "id": "lotus-spa-7",
@@ -36727,7 +37747,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/lotus-spa-7/hero.webp"
+    },
+    "banner_image": "assets/media/lotus-spa-7/hero.webp"
   },
   {
     "id": "knowledge-hub-1",
@@ -36821,7 +37845,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/knowledge-hub-1/hero.webp"
+    },
+    "banner_image": "assets/media/knowledge-hub-1/hero.webp"
   },
   {
     "id": "knowledge-hub-2",
@@ -36961,7 +37989,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/knowledge-hub-2/hero.webp"
+    },
+    "banner_image": "assets/media/knowledge-hub-2/hero.webp"
   },
   {
     "id": "knowledge-hub-3",
@@ -37055,7 +38087,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/knowledge-hub-3/hero.webp"
+    },
+    "banner_image": "assets/media/knowledge-hub-3/hero.webp"
   },
   {
     "id": "knowledge-hub-4",
@@ -37195,7 +38231,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/knowledge-hub-4/hero.webp"
+    },
+    "banner_image": "assets/media/knowledge-hub-4/hero.webp"
   },
   {
     "id": "knowledge-hub-5",
@@ -37325,7 +38365,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/knowledge-hub-5/hero.webp"
+    },
+    "banner_image": "assets/media/knowledge-hub-5/hero.webp"
   },
   {
     "id": "gulf-maritime-museum-1",
@@ -37419,7 +38463,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/gulf-maritime-museum-1/hero.webp"
+    },
+    "banner_image": "assets/media/gulf-maritime-museum-1/hero.webp"
   },
   {
     "id": "gulf-maritime-museum-2",
@@ -37513,7 +38561,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/gulf-maritime-museum-2/hero.webp"
+    },
+    "banner_image": "assets/media/gulf-maritime-museum-2/hero.webp"
   },
   {
     "id": "gulf-maritime-museum-3",
@@ -37653,7 +38705,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/gulf-maritime-museum-3/hero.webp"
+    },
+    "banner_image": "assets/media/gulf-maritime-museum-3/hero.webp"
   },
   {
     "id": "gulf-maritime-museum-4",
@@ -37793,7 +38849,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/gulf-maritime-museum-4/hero.webp"
+    },
+    "banner_image": "assets/media/gulf-maritime-museum-4/hero.webp"
   },
   {
     "id": "gulf-maritime-museum-5",
@@ -37887,7 +38947,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/gulf-maritime-museum-5/hero.webp"
+    },
+    "banner_image": "assets/media/gulf-maritime-museum-5/hero.webp"
   },
   {
     "id": "wadi-green-park-1",
@@ -38027,7 +39091,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/wadi-green-park-1/hero.webp"
+    },
+    "banner_image": "assets/media/wadi-green-park-1/hero.webp"
   },
   {
     "id": "wadi-green-park-2",
@@ -38121,7 +39189,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/wadi-green-park-2/hero.webp"
+    },
+    "banner_image": "assets/media/wadi-green-park-2/hero.webp"
   },
   {
     "id": "wadi-green-park-3",
@@ -38215,7 +39287,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/wadi-green-park-3/hero.webp"
+    },
+    "banner_image": "assets/media/wadi-green-park-3/hero.webp"
   },
   {
     "id": "wadi-green-park-4",
@@ -38355,7 +39431,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/wadi-green-park-4/hero.webp"
+    },
+    "banner_image": "assets/media/wadi-green-park-4/hero.webp"
   },
   {
     "id": "wadi-green-park-5",
@@ -38485,7 +39565,11 @@
     "pricing": null,
     "price_range": null,
     "busyness_hint": null,
-    "last_updated": null
+    "last_updated": null,
+    "images": {
+      "hero": "assets/media/wadi-green-park-5/hero.webp"
+    },
+    "banner_image": "assets/media/wadi-green-park-5/hero.webp"
   },
   {
     "id": "r001",
@@ -38710,7 +39794,11 @@
     "about": {
       "short": "Relaxed dining.",
       "long": "Menu spans grills, salads, and desserts with seasonal specials."
-    }
+    },
+    "images": {
+      "hero": "assets/restaurants/hero-1.jpg"
+    },
+    "banner_image": "assets/restaurants/hero-1.jpg"
   },
   {
     "id": "r002",
@@ -38935,7 +40023,11 @@
     "about": {
       "short": "Relaxed dining.",
       "long": "Menu spans grills, salads, and desserts with seasonal specials."
-    }
+    },
+    "images": {
+      "hero": "assets/restaurants/hero-2.jpg"
+    },
+    "banner_image": "assets/restaurants/hero-2.jpg"
   },
   {
     "id": "r003",
@@ -39160,7 +40252,11 @@
     "about": {
       "short": "Relaxed dining.",
       "long": "Menu spans grills, salads, and desserts with seasonal specials."
-    }
+    },
+    "images": {
+      "hero": "assets/restaurants/hero-3.jpg"
+    },
+    "banner_image": "assets/restaurants/hero-3.jpg"
   },
   {
     "id": "r004",
@@ -39385,7 +40481,11 @@
     "about": {
       "short": "Relaxed dining.",
       "long": "Menu spans grills, salads, and desserts with seasonal specials."
-    }
+    },
+    "images": {
+      "hero": "assets/restaurants/hero-4.jpg"
+    },
+    "banner_image": "assets/restaurants/hero-4.jpg"
   },
   {
     "id": "r005",
@@ -39610,7 +40710,11 @@
     "about": {
       "short": "Relaxed dining.",
       "long": "Menu spans grills, salads, and desserts with seasonal specials."
-    }
+    },
+    "images": {
+      "hero": "assets/restaurants/hero-5.jpg"
+    },
+    "banner_image": "assets/restaurants/hero-5.jpg"
   },
   {
     "id": "sc001",
@@ -39810,7 +40914,11 @@
     "about": {
       "short": "Inspiring futures.",
       "long": "Wide extracurriculars, robotics, arts, and sports programs."
-    }
+    },
+    "images": {
+      "hero": "assets/schools/hero-1.jpg"
+    },
+    "banner_image": "assets/schools/hero-1.jpg"
   },
   {
     "id": "sc002",
@@ -40010,7 +41118,11 @@
     "about": {
       "short": "Inspiring futures.",
       "long": "Wide extracurriculars, robotics, arts, and sports programs."
-    }
+    },
+    "images": {
+      "hero": "assets/schools/hero-2.jpg"
+    },
+    "banner_image": "assets/schools/hero-2.jpg"
   },
   {
     "id": "sc003",
@@ -40210,7 +41322,11 @@
     "about": {
       "short": "Inspiring futures.",
       "long": "Wide extracurriculars, robotics, arts, and sports programs."
-    }
+    },
+    "images": {
+      "hero": "assets/schools/hero-3.jpg"
+    },
+    "banner_image": "assets/schools/hero-3.jpg"
   },
   {
     "id": "sc004",
@@ -40410,7 +41526,11 @@
     "about": {
       "short": "Inspiring futures.",
       "long": "Wide extracurriculars, robotics, arts, and sports programs."
-    }
+    },
+    "images": {
+      "hero": "assets/schools/hero-4.jpg"
+    },
+    "banner_image": "assets/schools/hero-4.jpg"
   },
   {
     "id": "sc005",
@@ -40610,7 +41730,11 @@
     "about": {
       "short": "Inspiring futures.",
       "long": "Wide extracurriculars, robotics, arts, and sports programs."
-    }
+    },
+    "images": {
+      "hero": "assets/schools/hero-5.jpg"
+    },
+    "banner_image": "assets/schools/hero-5.jpg"
   },
   {
     "id": "s001",
@@ -40809,7 +41933,11 @@
     "about": {
       "short": "Your city retreat.",
       "long": "Hammam, deep tissue massage, facials, nails, and packages."
-    }
+    },
+    "images": {
+      "hero": "assets/spas/hero-1.jpg"
+    },
+    "banner_image": "assets/spas/hero-1.jpg"
   },
   {
     "id": "s002",
@@ -41008,7 +42136,11 @@
     "about": {
       "short": "Your city retreat.",
       "long": "Hammam, deep tissue massage, facials, nails, and packages."
-    }
+    },
+    "images": {
+      "hero": "assets/spas/hero-2.jpg"
+    },
+    "banner_image": "assets/spas/hero-2.jpg"
   },
   {
     "id": "s003",
@@ -41207,7 +42339,11 @@
     "about": {
       "short": "Your city retreat.",
       "long": "Hammam, deep tissue massage, facials, nails, and packages."
-    }
+    },
+    "images": {
+      "hero": "assets/spas/hero-3.jpg"
+    },
+    "banner_image": "assets/spas/hero-3.jpg"
   },
   {
     "id": "s004",
@@ -41406,7 +42542,11 @@
     "about": {
       "short": "Your city retreat.",
       "long": "Hammam, deep tissue massage, facials, nails, and packages."
-    }
+    },
+    "images": {
+      "hero": "assets/spas/hero-4.jpg"
+    },
+    "banner_image": "assets/spas/hero-4.jpg"
   },
   {
     "id": "s005",
@@ -41605,6 +42745,10 @@
     "about": {
       "short": "Your city retreat.",
       "long": "Hammam, deep tissue massage, facials, nails, and packages."
-    }
+    },
+    "images": {
+      "hero": "assets/spas/hero-5.jpg"
+    },
+    "banner_image": "assets/spas/hero-5.jpg"
   }
 ]
