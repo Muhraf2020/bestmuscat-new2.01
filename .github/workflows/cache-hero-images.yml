@@ -1,29 +1,26 @@
 name: Cache & Optimize Hotel Images
 
 on:
-  workflow_dispatch: {}          # manual trigger
+  workflow_dispatch: {}
+  # Optional: run whenever tools.json changes
   push:
     paths:
-      - "scripts/**"
-      - "data/sources/hotels.csv"
-      - ".github/workflows/cache-hero-images.yml"
-  schedule:
-    - cron: "17 2 * * 1"         # every Monday 02:17 UTC (adjust as you like)
+      - "data/tools.json"
 
 permissions:
-  contents: write                # needed to push changes
+  contents: write
 
 jobs:
   build-cache:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
     env:
-      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
-      - name: Check out repo
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,50 +30,101 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          # If you have a requirements.txt, use that; otherwise install what the scripts need:
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
+          pip install pillow requests
+
+      # Make 'scripts' a proper package so imports like `from scripts.utils…` work later if needed
+      - name: Ensure Python packages
+        run: |
+          mkdir -p scripts/ingest scripts/utils
+          touch scripts/__init__.py
+          touch scripts/ingest/__init__.py
+          touch scripts/utils/__init__.py
+
+      # Only rebuild tools.json if it's missing (avoids failing imports you saw)
+      - name: Ensure data/tools.json exists (optional rebuild)
+        run: |
+          if [ ! -f data/tools.json ]; then
+            echo "data/tools.json not found; trying to build from CSV…"
+            python -m scripts.ingest.csv_to_tools || {
+              echo "csv_to_tools not available; skipping rebuild";
+            }
           else
-            pip install Pillow>=10.0.0 requests>=2.31.0
+            echo "data/tools.json present."
           fi
 
-      # OPTIONAL: refresh hotels.csv first (keeps your dataset fresh)
-      # Remove this step if you only want to cache images from the existing CSV.
-      - name: Fetch hotels (optional, online photos preferred)
+      # Download hero images and rewrite tools.json to local paths
+      - name: Cache hero images → assets/images/<slug>/hero.webp
         run: |
-          python scripts/fetch_hotels.py --online-photos --prefer-site-image --max-places 100
-        continue-on-error: true   # don't fail the whole run if API quota is hit
+          python - << 'PY'
+          import json, re
+          from pathlib import Path
+          from io import BytesIO
+          import requests
+          from PIL import Image
 
-      - name: Cache & optimize hero images → WebP
+          DATA = Path("data/tools.json")
+          if not DATA.exists():
+              raise SystemExit("data/tools.json not found. Run ingest first or provide the file.")
+
+          out_base = Path("assets/images")
+          out_base.mkdir(parents=True, exist_ok=True)
+
+          def slugify(s: str) -> str:
+              s = (s or "").strip().lower()
+              s = re.sub(r"[^a-z0-9]+","-", s)
+              s = re.sub(r"(^-|-$)","", s)
+              return s or "item"
+
+          def download_to_webp(url: str, out_path: Path, max_w=1600, quality=80) -> bool:
+              try:
+                  out_path.parent.mkdir(parents=True, exist_ok=True)
+                  r = requests.get(url, timeout=30)
+                  r.raise_for_status()
+                  img = Image.open(BytesIO(r.content)).convert("RGB")
+                  if img.width > max_w:
+                      new_h = int(img.height * (max_w / img.width))
+                      img = img.resize((max_w, new_h))
+                  img.save(out_path, format="WEBP", quality=quality, method=6)
+                  return True
+              except Exception:
+                  return False
+
+          data = json.loads(DATA.read_text(encoding="utf-8"))
+          changed = 0
+          downloaded = 0
+
+          for obj in data:
+              slug = obj.get("slug") or slugify(obj.get("name",""))
+              images = obj.get("images") or {}
+              hero = images.get("hero") or obj.get("hero_url") or ""
+
+              # If already local path, skip
+              if isinstance(hero, str) and hero and not hero.lower().startswith("http"):
+                  continue
+
+              # Only attempt http(s)
+              if not (isinstance(hero, str) and hero.lower().startswith(("http://","https://"))):
+                  continue
+
+              out_path = out_base / slug / "hero.webp"
+              if download_to_webp(hero, out_path):
+                  images["hero"] = str(out_path)  # local path
+                  obj["images"] = images
+                  # Back-compat if templates read top-level hero_url:
+                  obj["hero_url"] = str(out_path)
+                  downloaded += 1
+                  changed += 1
+
+          if changed:
+              DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(f"Downloaded {downloaded} hero image(s); updated entries: {changed}")
+          PY
+
+      - name: Commit & push images + data
         run: |
-          python scripts/images/cache_hero_images.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/images data/tools.json || true
+          git diff --staged --quiet || git commit -m "cache: download hero images → assets/images and update tools.json"
+          git push
 
-      # OPTIONAL: if your site builds data/tools.json from CSV, regenerate it here
-      - name: Rebuild tools.json (optional)
-        run: |
-          if [ -f scripts/ingest/csv_to_tools.py ]; then
-            python scripts/ingest/csv_to_tools.py
-          fi
-
-      - name: Commit changes (if any)
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # show status and decide if there’s anything to commit
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "chore(images): cache & optimize hotel hero images (webp) and update CSV"
-            git push
-          else
-            echo "No changes to commit."
-          fi
-
-      # OPTIONAL: upload optimized images as a build artifact (handy for debugging)
-      - name: Upload optimized images artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: optimized-hotel-images
-          path: assets/hotels/*.webp
-          if-no-files-found: ignore
