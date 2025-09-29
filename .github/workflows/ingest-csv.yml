@@ -47,11 +47,11 @@ jobs:
       - name: CSV → tools.json
         run: python -m scripts.ingest.csv_to_tools
 
-      # ---- Map CSV fields to what the frontend expects (images/actions/categories) ----
-      - name: Patch tools.json for images/actions (mapping fixes)
+      # ---- Map CSV fields to what the frontend expects (images/actions/categories), but only if hero file exists ----
+      - name: Patch tools.json for images/actions (safe mapping)
         run: |
           python - << 'PY'
-          import json, pathlib, re
+          import json, pathlib, re, os
           P = pathlib.Path("data/tools.json")
           d = json.loads(P.read_text(encoding="utf-8"))
           changed = 0
@@ -62,43 +62,50 @@ jobs:
               s = re.sub(r"(^-|-$)","", s)
               return s or "item"
 
+          def norm_local(path: str) -> str:
+              return (path or "").lstrip("/")  # make relative for GH Pages project sites
+
+          def local_exists(path: str) -> bool:
+              return path and not path.lower().startswith(("http://","https://")) and os.path.exists(path)
+
           for o in d:
-              # 1) actions.website / actions.phone from top-level (fallback)
+              # 1) actions.website / actions.phone fallback
               actions = o.setdefault("actions", {})
               if o.get("website") and not actions.get("website"):
                   actions["website"] = o["website"]
               if o.get("phone") and not actions.get("phone"):
                   actions["phone"] = o["phone"]
 
-              # 2) Preferred hero path: local image downloaded by cache workflow.
-              #    Accept either images.hero or top-level hero_url.
+              # 2) Prefer an actual local hero image that EXISTS
               imgs = o.setdefault("images", {})
               hero = imgs.get("hero") or o.get("hero_url") or ""
 
-              # Normalize to relative repo path (no leading slash) for GH Pages project sites.
-              if isinstance(hero, str) and hero and not hero.lower().startswith(("http://","https://")):
-                  hero = hero.lstrip("/")
-                  imgs["hero"] = hero
-                  o["hero_url"] = hero  # back-compat
+              # Normalize if already local
+              if hero and not hero.lower().startswith(("http://","https://")):
+                  hero = norm_local(hero)
 
-              # If still missing, build a conventional path from slug.
-              if not imgs.get("hero"):
+              use_hero = ""
+              if local_exists(hero):
+                  use_hero = hero
+              else:
                   slug = o.get("slug") or slugify(o.get("name",""))
                   candidate = f"assets/images/{slug}/hero.webp"
-                  imgs["hero"] = candidate
-                  o.setdefault("hero_url", candidate)
+                  if local_exists(candidate):
+                      use_hero = norm_local(candidate)
 
-              # 3) Provide multiple aliases some templates might read
-              hero_rel = imgs.get("hero") or o.get("hero_url")
-              if hero_rel:
-                  o.setdefault("banner_image", hero_rel)
-                  o.setdefault("image", hero_rel)
-                  o.setdefault("cover", hero_rel)
-                  o.setdefault("cover_image", hero_rel)
-                  o.setdefault("heroImage", hero_rel)
-                  o.setdefault("thumbnail", hero_rel)
+              # Only set image fields if we have a real local file
+              if use_hero:
+                  imgs["hero"] = use_hero
+                  o["hero_url"] = use_hero  # back-compat
+                  # Common aliases some templates use
+                  o.setdefault("banner_image", use_hero)
+                  o.setdefault("image", use_hero)
+                  o.setdefault("cover", use_hero)
+                  o.setdefault("cover_image", use_hero)
+                  o.setdefault("heroImage", use_hero)
+                  o.setdefault("thumbnail", use_hero)
 
-              # 4) Ensure categories[] exists
+              # 3) Ensure categories[] exists
               if not o.get("categories"):
                   cat = o.get("category")
                   if cat:
@@ -107,7 +114,30 @@ jobs:
               changed += 1
 
           P.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
-          print(f"Patched {changed} items in data/tools.json")
+          print(f"Patched {changed} items in data/tools.json (images set only when local file exists)")
+          PY
+
+      # ---- Optional: print which items still don't have a local hero.webp (for debugging) ----
+      - name: Report items missing local hero.webp
+        run: |
+          python - << 'PY'
+          import json, pathlib, os
+          P = pathlib.Path("data/tools.json")
+          d = json.loads(P.read_text(encoding="utf-8"))
+          missing = []
+          for o in d:
+              hero = (o.get("images") or {}).get("hero") or o.get("hero_url")
+              if not hero or hero.startswith("http"):
+                  missing.append(o.get("name") or o.get("slug"))
+              else:
+                  if not os.path.exists(hero.lstrip("/")):
+                      missing.append(o.get("name") or o.get("slug"))
+          if missing:
+              print("Missing local hero.webp for:")
+              for m in missing:
+                  print(" -", m)
+          else:
+              print("All items have local hero.webp")
           PY
 
       # (Removed hydrate step to avoid Google API usage/cost)
