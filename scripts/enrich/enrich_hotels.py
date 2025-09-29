@@ -6,7 +6,7 @@ Enrich hotels CSV with free web signals (no Google paid APIs).
 Fills empty fields only:
 - logo_url, about_short, about_long, price_range, star_rating,
   checkin_time, checkout_time, hotel_amenities, amenities,
-  image_credit, image_source_url, wikidata_id, distance_to_airport,
+  hero_url, image_credit, image_source_url, wikidata_id, distance_to_airport,
   breakfast_included, parking
 
 Input CSV must have columns observed in your current file:
@@ -32,12 +32,19 @@ HEADERS = {
     "User-Agent": "BestMuscatBot/1.0 (+https://bestmuscat.com/; admin@bestmuscat.com)"
 }
 TIMEOUT = 20
-PAUSE = 0.8  # be polite between domains
-RETRIES = 2  # lightweight retry for flaky sites
+PAUSE = 0.8   # be polite between domains
+RETRIES = 2   # lightweight retry for flaky sites
 
 # Muscat International Airport (MCT)
 MCT_LAT, MCT_LNG = 23.5933, 58.2844
 
+# Meta image selectors for site hero discovery
+META_OG_TW = [
+    ('meta[property="og:image"]', "content"),
+    ('meta[name="og:image"]', "content"),
+    ('meta[name="twitter:image"]', "content"),
+    ('meta[property="twitter:image"]', "content"),
+]
 
 # ----- Helpers -----
 def is_http(u: Optional[str]) -> bool:
@@ -58,7 +65,7 @@ def fetch(sess: requests.Session, url: str) -> Optional[requests.Response]:
         try:
             r = sess.get(url, timeout=TIMEOUT, allow_redirects=True)
             r.raise_for_status()
-            # cap the body size we’ll parse to avoid huge pages
+            # Cap the body size we’ll parse to avoid huge pages
             r._content = r.content[:350_000]
             return r
         except Exception:
@@ -186,7 +193,7 @@ def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     R = 6371.0088
     from math import radians, sin, cos, asin, sqrt
     dlat = radians(lat2 - lat1)
-    dlon = radians(lon2 - lon1)
+    dlon = radians(lat2 - lon1)
     a = sin(dlat/2) ** 2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon/2) ** 2
     return round(2 * R * asin(sqrt(a)), 2)
 
@@ -200,8 +207,7 @@ def wikidata_qid(sess: requests.Session, name: str, city: str) -> Optional[str]:
         "limit": 1,
     }
     try:
-        r = sess.get("https://www.wikidata.org/w/api.php", params=params,
-                     timeout=TIMEOUT)
+        r = sess.get("https://www.wikidata.org/w/api.php", params=params, timeout=TIMEOUT)
         if r.ok:
             j = r.json()
             hits = j.get("search") or []
@@ -211,6 +217,29 @@ def wikidata_qid(sess: requests.Session, name: str, city: str) -> Optional[str]:
         return None
     return None
 
+def wikidata_main_image(sess: requests.Session, qid: str) -> Optional[str]:
+    """Return a Wikimedia 'Special:FilePath/...' URL for the entity's main image (P18)."""
+    if not qid:
+        return None
+    try:
+        r = sess.get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json", timeout=TIMEOUT)
+        r.raise_for_status()
+        ent = next(iter(r.json().get("entities", {}).values()))
+        claims = ent.get("claims", {})
+        if "P18" in claims:
+            file_name = claims["P18"][0]["mainsnak"]["datavalue"]["value"]
+            return f"https://commons.wikimedia.org/wiki/Special:FilePath/{file_name.replace(' ', '_')}"
+    except Exception:
+        return None
+    return None
+
+def site_hero_from_meta(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    for sel, attr in META_OG_TW:
+        for tag in soup.select(sel):
+            val = clean(tag.get(attr))
+            if val:
+                return absolute(base_url, val)
+    return None
 
 # ----- Main enrichment per row -----
 def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
@@ -227,8 +256,8 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
     ld = jsonld_blocks(soup) if soup else []
     hotel_ld = first_hotel_like(ld) if ld else None
 
-    # logo_url
-    if not clean(row.get("logo_url")) and soup:
+    # logo_url (favicon or icon link)
+    if not clean(row.get("logo_url")) and soup and page_resp is not None:
         icon = find_icons(soup, page_resp.url)
         if is_http(icon):
             row["logo_url"] = icon
@@ -301,10 +330,37 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
                 "valet parking" in txt):
                 row["parking"] = "Yes"
 
-    # image_credit/source for remote hero
+    # --- HERO URL (free) ---
+    if not clean(row.get("hero_url")):
+        # 1) Try site OG/Twitter image
+        if soup and page_resp is not None:
+            hero_meta = site_hero_from_meta(soup, page_resp.url)
+            if is_http(hero_meta):
+                row["hero_url"] = hero_meta
+                # Set source/credit right away for site-based images
+                if not clean(row.get("image_credit")):
+                    row["image_credit"] = "Official site"
+                if not clean(row.get("image_source_url")):
+                    row["image_source_url"] = page_resp.url
+
+    if not clean(row.get("hero_url")) and name:
+        # 2) Try Wikidata main image (P18)
+        qid = clean(row.get("wikidata_id")) or wikidata_qid(sess, name, city)
+        if qid:
+            hero_wd = wikidata_main_image(sess, qid)
+            if is_http(hero_wd):
+                row["hero_url"] = hero_wd
+                if not clean(row.get("wikidata_id")):
+                    row["wikidata_id"] = qid
+                if not clean(row.get("image_credit")):
+                    row["image_credit"] = "Wikimedia Commons"
+                if not clean(row.get("image_source_url")):
+                    row["image_source_url"] = hero_wd
+
+    # image_credit/source normalization if hero already present
     hero = clean(row.get("hero_url"))
     if is_http(hero):
-        if "wikimedia.org" in hero or "commons.wikimedia.org" in hero:
+        if ("wikimedia.org" in hero) or ("commons.wikimedia.org" in hero):
             if not clean(row.get("image_credit")):
                 row["image_credit"] = "Wikimedia Commons"
             if not clean(row.get("image_source_url")):
@@ -315,7 +371,7 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
             if not clean(row.get("image_source_url")) and page_resp is not None:
                 row["image_source_url"] = page_resp.url
 
-    # wikidata_id
+    # wikidata_id (if still missing and we haven't looked it up yet)
     if not clean(row.get("wikidata_id")) and name:
         qid = wikidata_qid(sess, name, city)
         if qid:
@@ -326,7 +382,6 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
         row["distance_to_airport"] = str(haversine_km(latf, lngf, MCT_LAT, MCT_LNG))
 
     return row
-
 
 # ----- CLI / Main -----
 def main():
@@ -349,8 +404,8 @@ def main():
         must_have = [
             "logo_url","about_short","about_long","price_range","star_rating",
             "checkin_time","checkout_time","hotel_amenities","amenities",
-            "image_credit","image_source_url","wikidata_id","distance_to_airport",
-            "breakfast_included","parking"
+            "hero_url","image_credit","image_source_url","wikidata_id",
+            "distance_to_airport","breakfast_included","parking"
         ]
         rows: List[Dict[str, str]] = []
         for r in rdr:
