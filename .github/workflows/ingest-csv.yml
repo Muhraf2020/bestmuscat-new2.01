@@ -47,40 +47,66 @@ jobs:
       - name: CSV → tools.json
         run: python -m scripts.ingest.csv_to_tools
 
-      # ---- NEW: Map CSV fields to what the frontend expects (images/actions/categories) ----
+      # ---- Map CSV fields to what the frontend expects (images/actions/categories) ----
       - name: Patch tools.json for images/actions (mapping fixes)
         run: |
           python - << 'PY'
-          import json, pathlib
-          p = pathlib.Path("data/tools.json")
-          d = json.loads(p.read_text(encoding="utf-8"))
+          import json, pathlib, re
+          P = pathlib.Path("data/tools.json")
+          d = json.loads(P.read_text(encoding="utf-8"))
           changed = 0
+
+          def slugify(s: str) -> str:
+              s = (s or "").strip().lower()
+              s = re.sub(r"[^a-z0-9]+","-", s)
+              s = re.sub(r"(^-|-$)","", s)
+              return s or "item"
+
           for o in d:
-              # actions.website / actions.phone from top-level
+              # 1) actions.website / actions.phone from top-level (fallback)
               actions = o.setdefault("actions", {})
               if o.get("website") and not actions.get("website"):
                   actions["website"] = o["website"]
               if o.get("phone") and not actions.get("phone"):
                   actions["phone"] = o["phone"]
 
-              # images.hero from hero_url (produced by enrich step)
+              # 2) Preferred hero path: local image downloaded by cache workflow.
+              #    Accept either images.hero or top-level hero_url.
               imgs = o.setdefault("images", {})
-              if not imgs.get("hero") and o.get("hero_url"):
-                  imgs["hero"] = o["hero_url"]
+              hero = imgs.get("hero") or o.get("hero_url") or ""
 
-              # categories[] from category (fallback)
+              # Normalize to relative repo path (no leading slash) for GH Pages project sites.
+              if isinstance(hero, str) and hero and not hero.lower().startswith(("http://","https://")):
+                  hero = hero.lstrip("/")
+                  imgs["hero"] = hero
+                  o["hero_url"] = hero  # back-compat
+
+              # If still missing, build a conventional path from slug.
+              if not imgs.get("hero"):
+                  slug = o.get("slug") or slugify(o.get("name",""))
+                  candidate = f"assets/images/{slug}/hero.webp"
+                  imgs["hero"] = candidate
+                  o.setdefault("hero_url", candidate)
+
+              # 3) Provide multiple aliases some templates might read
+              hero_rel = imgs.get("hero") or o.get("hero_url")
+              if hero_rel:
+                  o.setdefault("banner_image", hero_rel)
+                  o.setdefault("image", hero_rel)
+                  o.setdefault("cover", hero_rel)
+                  o.setdefault("cover_image", hero_rel)
+                  o.setdefault("heroImage", hero_rel)
+                  o.setdefault("thumbnail", hero_rel)
+
+              # 4) Ensure categories[] exists
               if not o.get("categories"):
                   cat = o.get("category")
                   if cat:
                       o["categories"] = [cat]
 
-              # Optional: homepage banner alias
-              if not o.get("banner_image") and imgs.get("hero"):
-                  o["banner_image"] = imgs["hero"]
-
               changed += 1
 
-          p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+          P.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
           print(f"Patched {changed} items in data/tools.json")
           PY
 
