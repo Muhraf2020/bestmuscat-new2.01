@@ -47,6 +47,43 @@ jobs:
       - name: CSV → tools.json
         run: python -m scripts.ingest.csv_to_tools
 
+      # ---- NEW: Map CSV fields to what the frontend expects (images/actions/categories) ----
+      - name: Patch tools.json for images/actions (mapping fixes)
+        run: |
+          python - << 'PY'
+          import json, pathlib
+          p = pathlib.Path("data/tools.json")
+          d = json.loads(p.read_text(encoding="utf-8"))
+          changed = 0
+          for o in d:
+              # actions.website / actions.phone from top-level
+              actions = o.setdefault("actions", {})
+              if o.get("website") and not actions.get("website"):
+                  actions["website"] = o["website"]
+              if o.get("phone") and not actions.get("phone"):
+                  actions["phone"] = o["phone"]
+
+              # images.hero from hero_url (produced by enrich step)
+              imgs = o.setdefault("images", {})
+              if not imgs.get("hero") and o.get("hero_url"):
+                  imgs["hero"] = o["hero_url"]
+
+              # categories[] from category (fallback)
+              if not o.get("categories"):
+                  cat = o.get("category")
+                  if cat:
+                      o["categories"] = [cat]
+
+              # Optional: homepage banner alias
+              if not o.get("banner_image") and imgs.get("hero"):
+                  o["banner_image"] = imgs["hero"]
+
+              changed += 1
+
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(f"Patched {changed} items in data/tools.json")
+          PY
+
       # (Removed hydrate step to avoid Google API usage/cost)
 
       - name: Sanitize hours after enrich (remove empty weekly)
