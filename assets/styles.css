@@ -1781,3 +1781,79 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   text-decoration: none; color: #111; font-weight: 500;
 }
 .detail-subnav a:hover { background: #f4f6f8; }
+
+/* ===== Detail header: content ABOVE the image ===== */
+
+/* Layout container */
+.detail-head { margin-bottom: 16px; }
+
+/* Meta block that sits above the hero */
+.detail-meta.top {
+  margin: 0 0 12px;
+}
+
+.detail-meta.top h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.4rem, 2.4vw, 2.1rem);
+  line-height: 1.15;
+  color: #111;
+}
+
+/* Pills in the top meta (light theme) */
+.detail-meta.top .d-sub .pill {
+  display: inline-block;
+  margin: 4px 8px 0 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f2f4f7;
+  border: 1px solid var(--border);
+  color: #333;
+  font-size: .88rem;
+}
+
+.detail-meta.top .pill--rating {
+  background: #16a34a;
+  border-color: transparent;
+  color: #fff;
+}
+
+/* Top meta buttons (solid + subtle) */
+.detail-meta.top .btn {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #0b57d0;
+  color: #fff;
+  border: 1px solid #0b57d0;
+  font-weight: 600;
+}
+.detail-meta.top .btn:hover { filter: brightness(.97); }
+
+.detail-meta.top .btn:not(#btn-share) {
+  background: #fff;
+  color: #111;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+/* Hero image becomes a normal, non-overlay block */
+.detail-hero {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #e9eef3;
+}
+
+/* Make the image a standard block element (no absolute overlay) */
+.detail-hero img {
+  position: static;        /* override earlier absolute */
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;    /* keeps a consistent height */
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Remove the gradient overlay if it exists */
+.detail-hero::after { content: none; }
