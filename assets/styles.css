@@ -1857,7 +1857,7 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;    /* keeps a consistent height */
+  aspect-ratio: 21 / 9;    /* keeps a consistent height */
   object-fit: cover;
   object-position: center;
 }
