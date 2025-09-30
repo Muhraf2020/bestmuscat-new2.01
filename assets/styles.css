@@ -1686,7 +1686,6 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  min-height: 340px;
   background: #e9eef3;
 }
 
@@ -1696,7 +1695,7 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;    /* consistent height */
+  aspect-ratio: 21 / 9;    /* consistent height */
   object-fit: cover;
   object-position: center;
 }
