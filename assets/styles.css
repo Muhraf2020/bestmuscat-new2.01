@@ -1556,3 +1556,43 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 /* Spacer gets its height from JS when subnav becomes fixed */
 #detail-subnav-spacer { height: 0; }
+
+/* ==== Place cards: edge-to-edge hero image (no inner white border) ==== */
+.card.card--place {
+  padding: 0;                 /* override the global .card padding */
+  border-radius: 16px;        /* keep nice rounded corners */
+  overflow: hidden;           /* clip the image to the same radius */
+}
+
+/* Top image block (full bleed) */
+.card.card--place .card-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;       /* consistent height without CLS */
+  background: #f4f6f8;
+}
+
+/* The image should completely cover the area */
+.card.card--place .card-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;          /* full bleed */
+  border: 0;                  /* no extra borders */
+}
+
+/* Put padding only on the text area, not the whole card */
+.card.card--place .card-body {
+  padding: 12px 14px 14px;
+}
+
+/* Optional: slightly larger corner radius like your reference */
+.card.card--place {
+  border: 1px solid #e7e7e7;  /* keep subtle card outline */
+  box-shadow: 0 4px 14px rgba(0,0,0,.04);
+}
+.card.card--place:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+}
+
