@@ -1298,7 +1298,21 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 /* detail page layout (safe, minimal) */
 
-.detail-body { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-top: 24px; }
+/* Single-column detail layout */
+.detail-body { 
+  display: block;          /* was: grid */
+  margin-top: 24px;
+}
+
+/* Sidebar becomes full-width and follows the main content */
+.detail-aside { 
+  margin-top: 16px; 
+}
+.detail-aside .aside-box { 
+  width: 100%;             /* ensure full width cards */
+}
+
+
 .detail-aside .aside-box { background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 14px; }
 .score-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 10px; margin: 12px 0; }
 .score { display: flex; justify-content: space-between; background:#fafafa; border:1px solid #eee; border-radius:8px; padding:8px 10px; }
