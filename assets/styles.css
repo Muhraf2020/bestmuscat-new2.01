@@ -1399,18 +1399,16 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 #related .card.card--place { min-width: 230px; }
 #related .card.card--place .card-img { height: 140px; }
 
-/* --- Detail layout --- */
+/* --- Detail layout (single column) --- */
 .detail-body {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
-  gap: 24px;
-  align-items: start;
+  display: block;          /* single column */
+  margin-top: 24px;
 }
-@media (max-width: 980px) {
-  .detail-body {
-    grid-template-columns: 1fr;
-  }
-}
+
+/* keep the aside full-width below the main */
+.detail-aside { margin-top: 16px; }
+.detail-aside .aside-box { width: 100%; }
+
 
 /* --- Cards --- */
 .card {
@@ -1692,25 +1690,21 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   background: #e9eef3;
 }
 
-/* Full-bleed hero image */
+/* Full-bleed hero image as a normal block (no overlay) */
 .detail-hero img {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%;
-  object-fit: cover; object-position: center;
+  position: static;        /* was: absolute */
   display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;    /* consistent height */
+  object-fit: cover;
+  object-position: center;
 }
 
-/* Soft bottom gradient for legibility */
-.detail-hero::after {
-  content: "";
-  position: absolute; inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,.55) 0%,
-    rgba(0,0,0,.18) 55%,
-    rgba(0,0,0,0) 85%
-  );
-}
+/* No gradient overlay */
+.detail-hero::after { content: none; }
+
+
 
 /* Overlay panel inside the hero (matches your new HTML: .detail-meta.overlay) */
 .detail-meta.overlay {
