@@ -1596,3 +1596,93 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   box-shadow: 0 10px 24px rgba(0,0,0,.08);
 }
 
+/* ========== Sleek Detail Header ========== */
+.place-hero {
+  position: relative;
+  margin: 0 0 16px;
+}
+
+.place-hero__media {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 36vw, 420px);
+  overflow: hidden;
+}
+
+.place-hero__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.place-hero__overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.0) 20%, rgba(0,0,0,.35) 100%);
+}
+
+.place-hero__panel {
+  position: relative;
+  margin-top: -84px;           /* floats panel over the hero */
+  padding: 0 18px 6px;
+}
+
+@media (max-width: 700px){
+  .place-hero__panel { margin-top: -56px; }
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+  display: flex; align-items: center; gap: 8px;
+  color: #eef2f7; font-size: .9rem; margin-bottom: 6px;
+}
+.breadcrumbs a { color: #f3f5f8; text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; }
+.breadcrumbs span { opacity: .9; }
+
+/* top row: badges + rating pill right */
+.place-hero__top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; margin-bottom: 6px;
+}
+
+/* badges on dark background */
+.place-hero .badge {
+  background: rgba(255,255,255,.9);
+  border: 1px solid var(--border);
+  color: #243447;
+}
+
+/* rating pill */
+.rating-pill {
+  background: #0b57d0; color:#fff; border-radius: 999px;
+  padding: 6px 10px; font-weight: 800; min-width: 44px; text-align: center;
+  box-shadow: 0 4px 12px rgba(11,87,208,.25);
+}
+
+/* title & meta on top of image */
+.place-hero h1 {
+  margin: 6px 0 4px;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  color: #fff;
+  letter-spacing: .2px;
+}
+
+.place-hero__meta {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+  color: #f1f5fb; font-size: .98rem; margin-bottom: 10px;
+}
+.place-hero__meta .pill {
+  background: #10b981; color: #fff; border-color: transparent; font-weight: 700;
+}
+.place-hero__meta .dot { opacity: .8; }
+
+/* actions */
+.place-hero__actions {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.place-hero__actions .btn {
+  border-radius: 999px;
+  padding: 9px 14px;
+}
+
