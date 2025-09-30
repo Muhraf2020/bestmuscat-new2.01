@@ -35,27 +35,29 @@
   <main>
     <div class="wrap" id="detail">
       <!-- HERO + META -->
-      <section class="detail-head">
-        <div class="detail-hero">
-          <img id="d-hero" alt="" loading="lazy" decoding="async" />
-        </div>
-        <div class="detail-meta">
+  <section class="detail-head">
+      <div class="detail-hero">
+        <img id="d-hero" alt="" loading="lazy" decoding="async" />
+        <div class="detail-meta overlay">
           <h1 id="d-title"></h1>
+    
           <div class="d-sub">
             <span id="d-rating" class="pill pill--rating" hidden></span>
             <span id="d-open" class="pill" hidden></span>
             <span id="d-price" class="pill" hidden></span>
             <span id="d-category" class="pill" hidden></span>
           </div>
-
+    
           <div class="d-actions">
-            <button id="btn-share" class="btn">Share Link</button>
-            <a id="btn-visit" class="btn" target="_blank" rel="noopener" hidden>Visit</a>
+            <button id="btn-share" class="btn">Share</button>
+            <a id="btn-visit" class="btn" target="_blank" rel="noopener" hidden>Website</a>
             <a id="btn-call" class="btn" target="_blank" rel="noopener" hidden>Call</a>
-            <a id="btn-maps" class="btn" target="_blank" rel="noopener" hidden>Get Directions ↗</a>
+            <a id="btn-maps" class="btn" target="_blank" rel="noopener" hidden>Directions ↗</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
       <!-- Sticky sub-navigation for detail sections -->
       <nav class="detail-subnav" aria-label="Section navigation">
         <a href="#about">About</a>
