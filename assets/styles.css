@@ -9,6 +9,7 @@
   --border:#e6e6e6;
   --bg:#fafafa;
   --brand:#0b57d0;
+  --site-header-h: 64px;   /* height of sticky header */
 }
 /* Ensure any element marked hidden stays hidden */
 [hidden] { display: none !important; }
@@ -1508,10 +1509,11 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 .map-embed { height: 220px; border-radius: 12px; overflow: hidden; background: #f3f3f3; }
 @media (max-width: 980px) { .map-embed { height: 200px; } }
 
-/* --- Floating subnav (fixed under header) --- */
+/* --- Floating subnav: keep it purely sticky under the site header --- */
 .detail-subnav {
-  position: relative;        /* default before JS fixes it */
-  z-index: 100;
+  position: sticky;
+  top: var(--site-header-h);
+  z-index: 50;
   display: flex;
   gap: 12px;
   padding: 10px 0;
@@ -1521,13 +1523,13 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 }
 
 .detail-subnav.fixed {
-  position: fixed;
-  left: 0;
-  right: 0;
-  /* 'top' is set dynamically in JS to sit below the site header */
-  padding: 10px 16px;
-  margin: 0;                 /* remove margins when fixed */
-  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  position: sticky;
+  top: var(--site-header-h);
+  left: auto;
+  right: auto;
+  padding: 10px 0;
+  margin: 12px 0 16px;
+  box-shadow: none;
 }
 
 .detail-subnav a {
