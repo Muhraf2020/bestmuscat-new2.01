@@ -1434,7 +1434,7 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 /* --- Subnav --- */
 .detail-subnav {
   position: sticky;
-  top: 0;       /* make sticky under your site header; adjust if header is fixed */
+  top: var(--site-header-h);       /* make sticky under your site header; adjust if header is fixed */
   z-index: 50;
   display: flex;
   gap: 12px;
@@ -1776,7 +1776,7 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 
 .detail-subnav {
-  position: sticky; top: 0; z-index: 30;
+  position: sticky; top: var(--site-header-h); z-index: 30;
   display: flex; gap: 8px; padding: 10px;
   background: rgba(255,255,255,.85);
   backdrop-filter: blur(8px);
@@ -1864,3 +1864,9 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 /* Remove the gradient overlay if it exists */
 .detail-hero::after { content: none; }
+
+/* Ensure anchored sections land below the sticky header */
+#about, #amenities, #cuisines, #meals, #rating, #hours, #map {
+  scroll-margin-top: calc(var(--site-header-h) + 8px);
+}
+
