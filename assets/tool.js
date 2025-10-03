@@ -4,6 +4,7 @@
 
   const el = {
     title:   document.getElementById("d-title"),
+    excerpt: document.getElementById("d-excerpt"),
     rating:  document.getElementById("d-rating"),
     open:    document.getElementById("d-open"),
     price:   document.getElementById("d-price"),
@@ -287,6 +288,15 @@
   function render(item, all) {
     // Identity
     el.title.textContent = item.name || "Untitled";
+    // Short blurb under the title
+    const short = item.about_short || item.tagline || item.description || "";
+    if (short && String(short).trim()) {
+      el.excerpt.textContent = short;
+      el.excerpt.hidden = false;
+    } else {
+      el.excerpt.hidden = true;
+    }
+
     const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
     const catSlug = slugify(primaryCat);
     // Display-only rename: keep data as "Events" but show "Events Planning"
@@ -451,9 +461,11 @@
     const state = openState(item.hours);
     if (state) { el.open.textContent = state; el.open.hidden = false; }
 
-    // About
+    // About (prefer long → short → description → tagline)
     if (features.about) {
-      el.about.textContent = item.description || item.tagline || "—";
+      const longTxt =
+        item.about_long || item.about_short || item.description || item.tagline || "—";
+      el.about.textContent = longTxt;
     }
 
     // Hours
