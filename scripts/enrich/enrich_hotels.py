@@ -3,16 +3,18 @@
 """
 Enrich hotels CSV with free web signals (no Google paid APIs).
 
-New in this version:
-- Find hero_url from official site (og:image, twitter:image, common hero <img> patterns)
-- Fallback to Wikidata P18, or Wikipedia page image if Wikidata/QID missing
-- Keep everything free; do not download images, only store URLs + credits
+This version:
+- Finds hero_url from official site (og:image, twitter:image, common hero <img> patterns)
+- Falls back to Wikidata P18, or Wikipedia page image if Wikidata/QID missing
+- Rejects logos/icons/pixels as hero images (by filename pattern, MIME, and size)
+- Final fallback: a curated set of Muscat city images (can be replaced with your local assets)
+- Keeps everything free; does not download images, only stores URLs + credits
 """
 
 from __future__ import annotations
-import csv, re, time, json
+import csv, re, time, json, hashlib
 from pathlib import Path
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 import html
 import requests
 from bs4 import BeautifulSoup
@@ -92,9 +94,9 @@ def first_hotel_like(ldjson_list: List[Dict[str, Any]]) -> Optional[Dict[str, An
         if not t and "@graph" in obj:
             for node in obj["@graph"]:
                 tt = clean(node.get("@type"))
-                if tt.lower() in {"hotel", "lodgingbusiness"}:
+                if str(tt).lower() in {"hotel", "lodgingbusiness"}:
                     return node
-        if t.lower() in {"hotel", "lodgingbusiness"}:
+        if str(t).lower() in {"hotel", "lodgingbusiness"}:
             return obj
     # Fallback: any with amenityFeature or starRating
     for obj in ldjson_list:
@@ -152,6 +154,65 @@ def extract_amenities_from_text(txt: str) -> List[str]:
     return sorted(found)
 
 
+# ----- Hero-quality filters & Muscat stock -----
+LOGO_PAT = re.compile(r"(?:^|/)(?:logo|logos?|brand|mark|icon|icons?|favicon|sprite|social)(?:[-_./]|$)", re.I)
+SVG_OR_ICO_PAT = re.compile(r"\.(?:svg|ico)(?:$|\?)", re.I)
+SOCIAL_PIXEL_PAT = re.compile(r"(?:facebook\.com/|/facebook\.png|/pixel\.gif|/analytics)", re.I)
+
+def looks_like_logo_or_icon(url: str) -> bool:
+    u = url or ""
+    return bool(
+        LOGO_PAT.search(u) or
+        SVG_OR_ICO_PAT.search(u) or
+        SOCIAL_PIXEL_PAT.search(u)
+    )
+
+def acceptable_content_type(ct: Optional[str]) -> bool:
+    # Only accept bitmap images; reject vector/svg and anything non-image
+    if not ct: return False
+    ct = ct.lower().strip()
+    if not ct.startswith("image/"): return False
+    if "svg" in ct: return False
+    return True
+
+def big_enough(bytes_len: Optional[int]) -> bool:
+    # Heuristic: require at least ~8KB; social badges/icons are often tiny
+    try:
+        return int(bytes_len or 0) >= 8000
+    except Exception:
+        return False
+
+def fetch_head_like(sess: requests.Session, url: str) -> Tuple[Optional[str], Optional[int]]:
+    """Best-effort content-type and size without downloading too much."""
+    try:
+        r = sess.get(url, timeout=TIMEOUT, allow_redirects=True, stream=True)
+        ct = r.headers.get("Content-Type")
+        cl = r.headers.get("Content-Length")
+        r.close()
+        return (ct, int(cl) if cl and cl.isdigit() else None)
+    except Exception:
+        return (None, None)
+
+# Curated, safe-to-use Muscat stock images (replace with your own if you prefer)
+MUSCAT_STOCK = [
+    # Wikimedia Commons originals (examples)
+    "https://upload.wikimedia.org/wikipedia/commons/4/4e/Muttrah_Corniche%2C_Muscat.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sultan_Qaboos_Grand_Mosque%2C_Muscat.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Riyam_Park_Incense_Burner%2C_Muscat.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Al_Alam_Palace%2C_Oman.jpg",
+    # If you have local assets, point to them instead, e.g.:
+    # "/assets/images/stock/muscat-1.webp",
+    # "/assets/images/stock/muscat-2.webp",
+]
+
+def pick_muscat_stock(key: str = "") -> Optional[str]:
+    """Deterministically pick a stock image based on a key (e.g., slug), for variety."""
+    if not MUSCAT_STOCK:
+        return None
+    h = int(hashlib.sha1((key or 'muscat').encode('utf-8')).hexdigest(), 16)
+    return MUSCAT_STOCK[h % len(MUSCAT_STOCK)]
+
+
 # ----- Image helpers (OFFICIAL SITE) -----
 def select_from_srcset(attr: str) -> Optional[str]:
     # Pick the last (usually largest) url in a srcset
@@ -165,22 +226,21 @@ def select_from_srcset(attr: str) -> Optional[str]:
     except Exception:
         return None
 
-def find_site_hero_url(soup: BeautifulSoup, base_url: str) -> Optional[str]:
+def find_site_hero_url(sess: requests.Session, soup: BeautifulSoup, base_url: str) -> Optional[str]:
+    """Return a 'photo-like' hero URL from the official site, rejecting logos/icons/pixels."""
     # 1) Meta tags first
+    metas: List[str] = []
     for name in ("property", "name"):
         for key in ("og:image", "twitter:image", "twitter:image:src"):
-            tag = soup.find("meta", {name: key})
-            if tag and tag.get("content"):
-                url = absolute(base_url, html.unescape(tag.get("content").strip()))
-                if is_http(url):
-                    return url
+            for tag in soup.find_all("meta", {name: key}):
+                val = clean(tag.get("content"))
+                if val:
+                    metas.append(absolute(base_url, html.unescape(val)))
 
     # 2) link[rel=image_src]
     link_tag = soup.find("link", {"rel": "image_src"})
     if link_tag and link_tag.get("href"):
-        url = absolute(base_url, link_tag["href"].strip())
-        if is_http(url):
-            return url
+        metas.append(absolute(base_url, link_tag["href"].strip()))
 
     # 3) Hero-ish <img> heuristics
     candidates: List[str] = []
@@ -194,13 +254,12 @@ def find_site_hero_url(soup: BeautifulSoup, base_url: str) -> Optional[str]:
                 val = img.get(key)
                 if val:
                     candidates.append(val)
-            # srcset can contain better/larger variant
             if img.get("srcset"):
                 ss = select_from_srcset(img["srcset"])
                 if ss:
                     candidates.append(ss)
 
-    # 4) If nothing matched hero-ish, consider first non-tiny image from srcset/src
+    # 4) Fallback: first non-tiny image anywhere
     if not candidates:
         for img in soup.find_all("img"):
             for key in ("data-src", "data-original", "src"):
@@ -213,20 +272,41 @@ def find_site_hero_url(soup: BeautifulSoup, base_url: str) -> Optional[str]:
                 if ss:
                     candidates.append(ss)
 
-    # Resolve absolutize and return first valid http(s)
-    for href in candidates:
+    # Normalize & de-dup
+    all_cands, seen = [], set()
+    for href in [*metas, *candidates]:
         if not href:
             continue
         url = absolute(base_url, html.unescape(href.strip()))
-        if is_http(url):
-            return url
+        if not is_http(url):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        all_cands.append(url)
+
+    # Filter out obvious logos/icons/pixels by pattern
+    filtered = [u for u in all_cands if not looks_like_logo_or_icon(u)]
+
+    # Validate by MIME/size; pick the first "photo-like"
+    for u in filtered:
+        ct, size = fetch_head_like(sess, u)
+        if acceptable_content_type(ct) and big_enough(size):
+            return u
+
+    # Last resort: accept if MIME is image/* (non-SVG), even if size unknown
+    for u in filtered:
+        ct, _ = fetch_head_like(sess, u)
+        if acceptable_content_type(ct):
+            return u
+
     return None
 
 
 # ----- Wikidata / Wikipedia fallbacks (FREE) -----
 WD_ENTITY = "https://www.wikidata.org/wiki/Special:EntityData/{qid}.json"
 WP_SEARCH = "https://en.wikipedia.org/w/api.php"
-WP_PAGEIMAGE = "https://en.wikipedia.org/w/api.php"
+WP_PAGEIMAGE = "https://www.en.wikipedia.org/w/api.php"
 
 def wikidata_main_image(sess: requests.Session, qid: str) -> Optional[str]:
     if not qid:
@@ -245,7 +325,7 @@ def wikidata_main_image(sess: requests.Session, qid: str) -> Optional[str]:
     return None
 
 def wikipedia_page_image(sess: requests.Session, name: str, city: str) -> Optional[str]:
-    """Find a likely Wikipedia article then fetch its page image (thumb/original)."""
+    """Find a likely Wikipedia article then fetch its page image (original)."""
     try:
         # 1) search
         params = {
@@ -351,7 +431,7 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
     hotel_ld = first_hotel_like(ld) if ld else None
 
     # logo_url
-    if not clean(row.get("logo_url")) and soup:
+    if not clean(row.get("logo_url")) and soup and page_resp is not None:
         icon = find_icons(soup, page_resp.url)
         if is_http(icon):
             row["logo_url"] = icon
@@ -417,17 +497,19 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
             if ("free parking" in txt or "parking available" in txt or "valet parking" in txt):
                 row["parking"] = "Yes"
 
+    # If an existing hero_url looks like a logo/icon/pixel, wipe it so we can refill
+    if clean(row.get("hero_url")) and looks_like_logo_or_icon(row["hero_url"]):
+        row["hero_url"] = ""
+
     # ----------------- HERO IMAGE PIPELINE -----------------
     if not clean(row.get("hero_url")):
         # (1) Official site meta/hero <img>
         if soup and page_resp is not None:
-            site_hero = find_site_hero_url(soup, page_resp.url)
-            if is_http(site_hero):
+            site_hero = find_site_hero_url(sess, soup, page_resp.url)
+            if is_http(site_hero) and not looks_like_logo_or_icon(site_hero):
                 row["hero_url"] = site_hero
-                if not clean(row.get("image_credit")):
-                    row["image_credit"] = "Official site"
-                if not clean(row.get("image_source_url")):
-                    row["image_source_url"] = page_resp.url
+                row.setdefault("image_credit", "Official site")
+                row.setdefault("image_source_url", page_resp.url)
 
         # (2) Wikidata main image if still missing (free)
         if not clean(row.get("hero_url")):
@@ -438,7 +520,7 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
                     row["wikidata_id"] = qid
             if qid:
                 wdi = wikidata_main_image(sess, qid)
-                if is_http(wdi):
+                if is_http(wdi) and not looks_like_logo_or_icon(wdi):
                     row["hero_url"] = wdi
                     row.setdefault("image_credit", "Wikimedia Commons")
                     row.setdefault("image_source_url", wdi)
@@ -446,10 +528,18 @@ def enrich_row(sess: requests.Session, row: Dict[str, str]) -> Dict[str, str]:
         # (3) Wikipedia page image if still missing (free)
         if not clean(row.get("hero_url")) and name:
             wpi = wikipedia_page_image(sess, name, city)
-            if is_http(wpi):
+            if is_http(wpi) and not looks_like_logo_or_icon(wpi):
                 row["hero_url"] = wpi
                 row.setdefault("image_credit", "Wikipedia")
                 row.setdefault("image_source_url", wpi)
+
+        # (4) Final fallback: curated Muscat city image
+        if not clean(row.get("hero_url")):
+            stock = pick_muscat_stock(key=name or row.get("slug","") or "")
+            if stock:
+                row["hero_url"] = stock
+                row.setdefault("image_credit", "Muscat stock")
+                row.setdefault("image_source_url", stock)
     # -------------------------------------------------------
 
     # Distance to airport
@@ -515,3 +605,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
