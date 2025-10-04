@@ -138,21 +138,37 @@
     try{ return /(^|\.)example\.com$/i.test(new URL(u).hostname); }catch{ return false; }
   }
 
-  // === NEW: Local-image enforcement helpers for cards/listing ===
-  function isRemoteUrl(u) {
-    return /^https?:\/\//i.test(String(u || ""));
-  }
-  function pickLocalCardImage(obj) {
-    const cands = [
-      obj.image, obj.hero, obj.photo, obj.hero_url, obj.logo, obj.logo_url,
-      obj.images && obj.images.hero,
-      obj.images && obj.images.logo
-    ].filter(Boolean);
-    for (const c of cands) {
-      if (!isRemoteUrl(c)) return c; // accept only relative/same-origin paths
+  // === Card image helpers: prefer local; allow safe remote hero_url fallback ===
+    function isRemoteUrl(u) {
+      return /^https?:\/\//i.test(String(u || ""));
     }
-    return ""; // force placeholder if nothing local
-  }
+    function looksLikeLogo(u) {
+      // reject obvious logo/icon/social/favicons and SVGs
+      return /(?:^|\/)(?:logo|logos?|brand|mark|icon|icons?|favicon|sprite|social)(?:[-_./]|$)/i.test(u || "")
+          || /\.svg(?:$|\?)/i.test(u || "");
+    }
+    function pickCardImage(obj) {
+      // 1) Prefer local assets first (fast + no hotlink risk)
+      const candidates = [
+        obj.image, obj.hero, obj.photo,
+        obj.images && obj.images.card,
+        obj.images && obj.images.hero
+      ].filter(Boolean);
+    
+      for (const c of candidates) {
+        if (!isRemoteUrl(c)) return c; // local path wins
+      }
+    
+      // 2) Safe remote fallback: allow hero_url / image if not a logo/icon
+      const remote = obj.hero_url || (obj.images && obj.images.hero) || obj.image || obj.logo_url;
+      if (remote && isRemoteUrl(remote) && !looksLikeLogo(remote)) {
+        return remote;
+      }
+    
+      // 3) Nothing usable → signal “no image”
+      return "";
+    }
+
 
   /* =======================
    LOGO FALLBACK HELPERS
@@ -728,19 +744,37 @@
     ctas.push(`<a class="link-btn" href="${detailUrl}" aria-label="View ${title} details">View</a>`);
     
     // --- Image source: LOCAL ONLY on cards (ignore http/https) ---
-    const imgSrc = pickLocalCardImage(src);
+    const imgSrc = pickCardImage(src);
 
-    // Full-bleed image on top; if missing, show initials placeholder
+    // Full-bleed image on top; if missing/broken, fall back to local stock, else initials
     const topImage = imgSrc
       ? `
         <a href="${detailUrl}" class="card-img" aria-label="${title} details">
-          <img src="${esc(imgSrc)}" alt="${title}" loading="lazy" decoding="async"
-               onerror="this.closest('.card-img').classList.add('img-fallback'); this.remove();" />
+          <img
+            src="${esc(imgSrc)}"
+            alt="${title}"
+            loading="lazy"
+            decoding="async"
+            onerror="
+              if (!this.dataset.triedStock) {
+                this.dataset.triedStock = '1';
+                this.src = '/assets/images/stock/muscat-1.webp';
+              } else {
+                // final fallback: initials block
+                const wrap = this.closest('.card-img');
+                if (wrap) {
+                  wrap.classList.add('img-fallback');
+                  wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
+                }
+              }
+            "
+          />
         </a>`
       : `
         <a href="${detailUrl}" class="card-img img-fallback" aria-label="${title} details">
           <div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
         </a>`;
+
 
     return `
       <article class="card card--place">
