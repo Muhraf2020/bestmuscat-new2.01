@@ -1196,7 +1196,13 @@
     },
     "images": {
       "hero": "assets/images/2-number/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/2-number/hero.webp",
+    "image": "assets/images/2-number/hero.webp",
+    "cover": "assets/images/2-number/hero.webp",
+    "cover_image": "assets/images/2-number/hero.webp",
+    "heroImage": "assets/images/2-number/hero.webp",
+    "thumbnail": "assets/images/2-number/hero.webp"
   },
   {
     "id": "ChIJyehcTw7_kT4R6LS6TA5CqUA",
@@ -1345,7 +1351,13 @@
     },
     "images": {
       "hero": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp",
+    "image": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp",
+    "cover": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp",
+    "cover_image": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp",
+    "heroImage": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp",
+    "thumbnail": "assets/images/al-amal-medical-health-care-centre-visa-medical-centre/hero.webp"
   },
   {
     "id": "ChIJ83Dpcrn8jT4R9ksoScHxtlc",
@@ -1494,7 +1506,13 @@
     },
     "images": {
       "hero": "assets/images/al-amal-medical-centre-al-khoud/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-amal-medical-centre-al-khoud/hero.webp",
+    "image": "assets/images/al-amal-medical-centre-al-khoud/hero.webp",
+    "cover": "assets/images/al-amal-medical-centre-al-khoud/hero.webp",
+    "cover_image": "assets/images/al-amal-medical-centre-al-khoud/hero.webp",
+    "heroImage": "assets/images/al-amal-medical-centre-al-khoud/hero.webp",
+    "thumbnail": "assets/images/al-amal-medical-centre-al-khoud/hero.webp"
   },
   {
     "id": "ChIJ_cbwd9_5kT4R8NnLYREZJlg",
@@ -1643,7 +1661,13 @@
     },
     "images": {
       "hero": "assets/images/al-amal-medical-centre-ruwi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-amal-medical-centre-ruwi/hero.webp",
+    "image": "assets/images/al-amal-medical-centre-ruwi/hero.webp",
+    "cover": "assets/images/al-amal-medical-centre-ruwi/hero.webp",
+    "cover_image": "assets/images/al-amal-medical-centre-ruwi/hero.webp",
+    "heroImage": "assets/images/al-amal-medical-centre-ruwi/hero.webp",
+    "thumbnail": "assets/images/al-amal-medical-centre-ruwi/hero.webp"
   },
   {
     "id": "ChIJeYY28uXljT4RphCjqkVJ2_A",
@@ -1785,7 +1809,13 @@
     },
     "images": {
       "hero": "assets/images/al-manasir-skin-clinic-seeb/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-manasir-skin-clinic-seeb/hero.webp",
+    "image": "assets/images/al-manasir-skin-clinic-seeb/hero.webp",
+    "cover": "assets/images/al-manasir-skin-clinic-seeb/hero.webp",
+    "cover_image": "assets/images/al-manasir-skin-clinic-seeb/hero.webp",
+    "heroImage": "assets/images/al-manasir-skin-clinic-seeb/hero.webp",
+    "thumbnail": "assets/images/al-manasir-skin-clinic-seeb/hero.webp"
   },
   {
     "id": "ChIJGbXcvWT5kT4RvWdi68t5Jn4",
@@ -1921,7 +1951,13 @@
     },
     "images": {
       "hero": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp",
+    "image": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp",
+    "cover": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp",
+    "cover_image": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp",
+    "heroImage": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp",
+    "thumbnail": "assets/images/al-shafi-dawakhana-sale-of-natural-herbal/hero.webp"
   },
   {
     "id": "ChIJLbcM5Dv_kT4RUid8SD0dgO0",
@@ -2076,7 +2112,13 @@
     },
     "images": {
       "hero": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp",
+    "image": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp",
+    "cover": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp",
+    "cover_image": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp",
+    "heroImage": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp",
+    "thumbnail": "assets/images/al-tabeeb-specialist-centre-msq/hero.webp"
   },
   {
     "id": "ChIJf7HQWQD_kT4Rfc69XSggQus",
@@ -2216,7 +2258,13 @@
     },
     "images": {
       "hero": "assets/images/al-khy/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-khy/hero.webp",
+    "image": "assets/images/al-khy/hero.webp",
+    "cover": "assets/images/al-khy/hero.webp",
+    "cover_image": "assets/images/al-khy/hero.webp",
+    "heroImage": "assets/images/al-khy/hero.webp",
+    "thumbnail": "assets/images/al-khy/hero.webp"
   },
   {
     "id": "ChIJAT3oMp39jT4Rppddgb_Otm0",
@@ -2352,7 +2400,13 @@
     },
     "images": {
       "hero": "assets/images/alila-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alila-clinic/hero.webp",
+    "image": "assets/images/alila-clinic/hero.webp",
+    "cover": "assets/images/alila-clinic/hero.webp",
+    "cover_image": "assets/images/alila-clinic/hero.webp",
+    "heroImage": "assets/images/alila-clinic/hero.webp",
+    "thumbnail": "assets/images/alila-clinic/hero.webp"
   },
   {
     "id": "ChIJVeRYYBoBjj4RyYs49BG_Pzs",
@@ -2492,7 +2546,13 @@
     },
     "images": {
       "hero": "assets/images/alturki-clinic-medical-checkup/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alturki-clinic-medical-checkup/hero.webp",
+    "image": "assets/images/alturki-clinic-medical-checkup/hero.webp",
+    "cover": "assets/images/alturki-clinic-medical-checkup/hero.webp",
+    "cover_image": "assets/images/alturki-clinic-medical-checkup/hero.webp",
+    "heroImage": "assets/images/alturki-clinic-medical-checkup/hero.webp",
+    "thumbnail": "assets/images/alturki-clinic-medical-checkup/hero.webp"
   },
   {
     "id": "ChIJtbmK9Vb_kT4Rir4103DlKh4",
@@ -2632,7 +2692,13 @@
     },
     "images": {
       "hero": "assets/images/amani-house/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/amani-house/hero.webp",
+    "image": "assets/images/amani-house/hero.webp",
+    "cover": "assets/images/amani-house/hero.webp",
+    "cover_image": "assets/images/amani-house/hero.webp",
+    "heroImage": "assets/images/amani-house/hero.webp",
+    "thumbnail": "assets/images/amani-house/hero.webp"
   },
   {
     "id": "ChIJb26Sc5b_kT4RtRZZXB9MbyY",
@@ -2774,7 +2840,13 @@
     },
     "images": {
       "hero": "assets/images/amara-dermatology-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/amara-dermatology-clinic/hero.webp",
+    "image": "assets/images/amara-dermatology-clinic/hero.webp",
+    "cover": "assets/images/amara-dermatology-clinic/hero.webp",
+    "cover_image": "assets/images/amara-dermatology-clinic/hero.webp",
+    "heroImage": "assets/images/amara-dermatology-clinic/hero.webp",
+    "thumbnail": "assets/images/amara-dermatology-clinic/hero.webp"
   },
   {
     "id": "ChIJvQroSTr5kT4RZHI97O3qdfs",
@@ -2916,7 +2988,13 @@
     },
     "images": {
       "hero": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp",
+    "image": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp",
+    "cover": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp",
+    "cover_image": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp",
+    "heroImage": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp",
+    "thumbnail": "assets/images/arabi-specialized-hospital-for-eye-ent/hero.webp"
   },
   {
     "id": "ChIJS2hsUAD_kT4R0B6k-ypsR8c",
@@ -3068,7 +3146,13 @@
     },
     "images": {
       "hero": "assets/images/azura-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/azura-clinic/hero.webp",
+    "image": "assets/images/azura-clinic/hero.webp",
+    "cover": "assets/images/azura-clinic/hero.webp",
+    "cover_image": "assets/images/azura-clinic/hero.webp",
+    "heroImage": "assets/images/azura-clinic/hero.webp",
+    "thumbnail": "assets/images/azura-clinic/hero.webp"
   },
   {
     "id": "ChIJVwVGF2IBjj4Rtnx3e1wiX24",
@@ -3208,7 +3292,13 @@
     },
     "images": {
       "hero": "assets/images/bec-staf-accommodation/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bec-staf-accommodation/hero.webp",
+    "image": "assets/images/bec-staf-accommodation/hero.webp",
+    "cover": "assets/images/bec-staf-accommodation/hero.webp",
+    "cover_image": "assets/images/bec-staf-accommodation/hero.webp",
+    "heroImage": "assets/images/bec-staf-accommodation/hero.webp",
+    "thumbnail": "assets/images/bec-staf-accommodation/hero.webp"
   },
   {
     "id": "ChIJh2utL2j_kT4RXPEQHl97Z2w",
@@ -3342,7 +3432,13 @@
     },
     "images": {
       "hero": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp",
+    "image": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp",
+    "cover": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp",
+    "cover_image": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp",
+    "heroImage": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp",
+    "thumbnail": "assets/images/brite-medical-center-dental-laser-dermatology-clinic/hero.webp"
   },
   {
     "id": "ChIJwypGiIz4kT4RUCQxIPOZ8OI",
@@ -3493,7 +3589,13 @@
     },
     "images": {
       "hero": "assets/images/beautiful-mind-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/beautiful-mind-clinic/hero.webp",
+    "image": "assets/images/beautiful-mind-clinic/hero.webp",
+    "cover": "assets/images/beautiful-mind-clinic/hero.webp",
+    "cover_image": "assets/images/beautiful-mind-clinic/hero.webp",
+    "heroImage": "assets/images/beautiful-mind-clinic/hero.webp",
+    "thumbnail": "assets/images/beautiful-mind-clinic/hero.webp"
   },
   {
     "id": "ChIJI1SFnln_kT4RYAV7fKcnTFM",
@@ -3642,7 +3744,13 @@
     },
     "images": {
       "hero": "assets/images/chic-clinic-derma-aesthetic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chic-clinic-derma-aesthetic/hero.webp",
+    "image": "assets/images/chic-clinic-derma-aesthetic/hero.webp",
+    "cover": "assets/images/chic-clinic-derma-aesthetic/hero.webp",
+    "cover_image": "assets/images/chic-clinic-derma-aesthetic/hero.webp",
+    "heroImage": "assets/images/chic-clinic-derma-aesthetic/hero.webp",
+    "thumbnail": "assets/images/chic-clinic-derma-aesthetic/hero.webp"
   },
   {
     "id": "ChIJW7UWolnjjT4RC3RFIra-wGI",
@@ -3784,7 +3892,13 @@
     },
     "images": {
       "hero": "assets/images/city-skin-center-al-maabilah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/city-skin-center-al-maabilah/hero.webp",
+    "image": "assets/images/city-skin-center-al-maabilah/hero.webp",
+    "cover": "assets/images/city-skin-center-al-maabilah/hero.webp",
+    "cover_image": "assets/images/city-skin-center-al-maabilah/hero.webp",
+    "heroImage": "assets/images/city-skin-center-al-maabilah/hero.webp",
+    "thumbnail": "assets/images/city-skin-center-al-maabilah/hero.webp"
   },
   {
     "id": "ChIJf45QaGb_kT4RT4FSEW5VOww",
@@ -3926,7 +4040,13 @@
     },
     "images": {
       "hero": "assets/images/clinica-victoria/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/clinica-victoria/hero.webp",
+    "image": "assets/images/clinica-victoria/hero.webp",
+    "cover": "assets/images/clinica-victoria/hero.webp",
+    "cover_image": "assets/images/clinica-victoria/hero.webp",
+    "heroImage": "assets/images/clinica-victoria/hero.webp",
+    "thumbnail": "assets/images/clinica-victoria/hero.webp"
   },
   {
     "id": "ChIJl2Cietr8jT4RqlzcvS6eOa4",
@@ -4068,7 +4188,13 @@
     },
     "images": {
       "hero": "assets/images/clnix/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/clnix/hero.webp",
+    "image": "assets/images/clnix/hero.webp",
+    "cover": "assets/images/clnix/hero.webp",
+    "cover_image": "assets/images/clnix/hero.webp",
+    "heroImage": "assets/images/clnix/hero.webp",
+    "thumbnail": "assets/images/clnix/hero.webp"
   },
   {
     "id": "ChIJafEVETn_kT4Rni4OQr9rcNc",
@@ -4377,7 +4503,13 @@
     },
     "images": {
       "hero": "assets/images/crown-dental-centre/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crown-dental-centre/hero.webp",
+    "image": "assets/images/crown-dental-centre/hero.webp",
+    "cover": "assets/images/crown-dental-centre/hero.webp",
+    "cover_image": "assets/images/crown-dental-centre/hero.webp",
+    "heroImage": "assets/images/crown-dental-centre/hero.webp",
+    "thumbnail": "assets/images/crown-dental-centre/hero.webp"
   },
   {
     "id": "ChIJJduZg939jT4RRwRNLxoz3gg",
@@ -4531,7 +4663,13 @@
     },
     "images": {
       "hero": "assets/images/crystal-visa-medical/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crystal-visa-medical/hero.webp",
+    "image": "assets/images/crystal-visa-medical/hero.webp",
+    "cover": "assets/images/crystal-visa-medical/hero.webp",
+    "cover_image": "assets/images/crystal-visa-medical/hero.webp",
+    "heroImage": "assets/images/crystal-visa-medical/hero.webp",
+    "thumbnail": "assets/images/crystal-visa-medical/hero.webp"
   },
   {
     "id": "ChIJbUG5pjo_WBQRHUOsWvqaYJc",
@@ -4680,7 +4818,13 @@
     },
     "images": {
       "hero": "assets/images/curexmed/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/curexmed/hero.webp",
+    "image": "assets/images/curexmed/hero.webp",
+    "cover": "assets/images/curexmed/hero.webp",
+    "cover_image": "assets/images/curexmed/hero.webp",
+    "heroImage": "assets/images/curexmed/hero.webp",
+    "thumbnail": "assets/images/curexmed/hero.webp"
   },
   {
     "id": "ChIJ0UThU-f5kT4RyCvqyPD7v5g",
@@ -4840,7 +4984,13 @@
     },
     "images": {
       "hero": "assets/images/dar-derma-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dar-derma-clinic/hero.webp",
+    "image": "assets/images/dar-derma-clinic/hero.webp",
+    "cover": "assets/images/dar-derma-clinic/hero.webp",
+    "cover_image": "assets/images/dar-derma-clinic/hero.webp",
+    "heroImage": "assets/images/dar-derma-clinic/hero.webp",
+    "thumbnail": "assets/images/dar-derma-clinic/hero.webp"
   },
   {
     "id": "ChIJ6YFv00P_kT4RXs-oW8wkZVE",
@@ -4992,7 +5142,13 @@
     },
     "images": {
       "hero": "assets/images/dr-fakhriya-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-fakhriya-clinics/hero.webp",
+    "image": "assets/images/dr-fakhriya-clinics/hero.webp",
+    "cover": "assets/images/dr-fakhriya-clinics/hero.webp",
+    "cover_image": "assets/images/dr-fakhriya-clinics/hero.webp",
+    "heroImage": "assets/images/dr-fakhriya-clinics/hero.webp",
+    "thumbnail": "assets/images/dr-fakhriya-clinics/hero.webp"
   },
   {
     "id": "ChIJb70X-dP_kT4RD-HlZX-ZhGI",
@@ -5134,7 +5290,13 @@
     },
     "images": {
       "hero": "assets/images/derma-clinica-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/derma-clinica-qurum/hero.webp",
+    "image": "assets/images/derma-clinica-qurum/hero.webp",
+    "cover": "assets/images/derma-clinica-qurum/hero.webp",
+    "cover_image": "assets/images/derma-clinica-qurum/hero.webp",
+    "heroImage": "assets/images/derma-clinica-qurum/hero.webp",
+    "thumbnail": "assets/images/derma-clinica-qurum/hero.webp"
   },
   {
     "id": "ChIJidQPKdMBjj4RjeaEHDB7G-4",
@@ -5270,7 +5432,13 @@
     },
     "images": {
       "hero": "assets/images/dermaglow-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dermaglow-muscat/hero.webp",
+    "image": "assets/images/dermaglow-muscat/hero.webp",
+    "cover": "assets/images/dermaglow-muscat/hero.webp",
+    "cover_image": "assets/images/dermaglow-muscat/hero.webp",
+    "heroImage": "assets/images/dermaglow-muscat/hero.webp",
+    "thumbnail": "assets/images/dermaglow-muscat/hero.webp"
   },
   {
     "id": "ChIJTYFpEbT9jT4RQw9S7TsDgmM",
@@ -5407,7 +5575,13 @@
     },
     "images": {
       "hero": "assets/images/dr-alaa-eddin-basmaji/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-alaa-eddin-basmaji/hero.webp",
+    "image": "assets/images/dr-alaa-eddin-basmaji/hero.webp",
+    "cover": "assets/images/dr-alaa-eddin-basmaji/hero.webp",
+    "cover_image": "assets/images/dr-alaa-eddin-basmaji/hero.webp",
+    "heroImage": "assets/images/dr-alaa-eddin-basmaji/hero.webp",
+    "thumbnail": "assets/images/dr-alaa-eddin-basmaji/hero.webp"
   },
   {
     "id": "ChIJ6VV6Jqn_kT4RmJ6mlVHajDs",
@@ -5562,7 +5736,13 @@
     },
     "images": {
       "hero": "assets/images/dr-deepak-nagathan/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-deepak-nagathan/hero.webp",
+    "image": "assets/images/dr-deepak-nagathan/hero.webp",
+    "cover": "assets/images/dr-deepak-nagathan/hero.webp",
+    "cover_image": "assets/images/dr-deepak-nagathan/hero.webp",
+    "heroImage": "assets/images/dr-deepak-nagathan/hero.webp",
+    "thumbnail": "assets/images/dr-deepak-nagathan/hero.webp"
   },
   {
     "id": "ChIJM0_Q97gsb4cRiiqNxRZ5bZQ",
@@ -5717,7 +5897,13 @@
     },
     "images": {
       "hero": "assets/images/dr-james-pallivathukkal/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-james-pallivathukkal/hero.webp",
+    "image": "assets/images/dr-james-pallivathukkal/hero.webp",
+    "cover": "assets/images/dr-james-pallivathukkal/hero.webp",
+    "cover_image": "assets/images/dr-james-pallivathukkal/hero.webp",
+    "heroImage": "assets/images/dr-james-pallivathukkal/hero.webp",
+    "thumbnail": "assets/images/dr-james-pallivathukkal/hero.webp"
   },
   {
     "id": "ChIJV-sQ5bn5kT4RIAssPQMd-sM",
@@ -5853,7 +6039,13 @@
     },
     "images": {
       "hero": "assets/images/dr-khalid-shaikh/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-khalid-shaikh/hero.webp",
+    "image": "assets/images/dr-khalid-shaikh/hero.webp",
+    "cover": "assets/images/dr-khalid-shaikh/hero.webp",
+    "cover_image": "assets/images/dr-khalid-shaikh/hero.webp",
+    "heroImage": "assets/images/dr-khalid-shaikh/hero.webp",
+    "thumbnail": "assets/images/dr-khalid-shaikh/hero.webp"
   },
   {
     "id": "ChIJQw0a4Or_kT4REjeHjeJz_Hw",
@@ -5995,7 +6187,13 @@
     },
     "images": {
       "hero": "assets/images/dr-naama-al-mamari/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-naama-al-mamari/hero.webp",
+    "image": "assets/images/dr-naama-al-mamari/hero.webp",
+    "cover": "assets/images/dr-naama-al-mamari/hero.webp",
+    "cover_image": "assets/images/dr-naama-al-mamari/hero.webp",
+    "heroImage": "assets/images/dr-naama-al-mamari/hero.webp",
+    "thumbnail": "assets/images/dr-naama-al-mamari/hero.webp"
   },
   {
     "id": "ChIJq9EAqy_9jT4RjRq_s88EBvQ",
@@ -6135,7 +6333,13 @@
     },
     "images": {
       "hero": "assets/images/dr-rothman-pt/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-rothman-pt/hero.webp",
+    "image": "assets/images/dr-rothman-pt/hero.webp",
+    "cover": "assets/images/dr-rothman-pt/hero.webp",
+    "cover_image": "assets/images/dr-rothman-pt/hero.webp",
+    "heroImage": "assets/images/dr-rothman-pt/hero.webp",
+    "thumbnail": "assets/images/dr-rothman-pt/hero.webp"
   },
   {
     "id": "ChIJR7tWeXX5kT4R_n3ya8mEbbQ",
@@ -6277,7 +6481,13 @@
     },
     "images": {
       "hero": "assets/images/dr-sanjay-kumar-gulani/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-sanjay-kumar-gulani/hero.webp",
+    "image": "assets/images/dr-sanjay-kumar-gulani/hero.webp",
+    "cover": "assets/images/dr-sanjay-kumar-gulani/hero.webp",
+    "cover_image": "assets/images/dr-sanjay-kumar-gulani/hero.webp",
+    "heroImage": "assets/images/dr-sanjay-kumar-gulani/hero.webp",
+    "thumbnail": "assets/images/dr-sanjay-kumar-gulani/hero.webp"
   },
   {
     "id": "ChIJ-SsVGnj_kT4RDOd9K6Y5BLw",
@@ -6419,7 +6629,13 @@
     },
     "images": {
       "hero": "assets/images/dr-shifana-attur/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-shifana-attur/hero.webp",
+    "image": "assets/images/dr-shifana-attur/hero.webp",
+    "cover": "assets/images/dr-shifana-attur/hero.webp",
+    "cover_image": "assets/images/dr-shifana-attur/hero.webp",
+    "heroImage": "assets/images/dr-shifana-attur/hero.webp",
+    "thumbnail": "assets/images/dr-shifana-attur/hero.webp"
   },
   {
     "id": "ChIJE0zNKQD_kT4RzTSsYrbB8OU",
@@ -6559,7 +6775,13 @@
     },
     "images": {
       "hero": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp",
+    "image": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp",
+    "cover": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp",
+    "cover_image": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp",
+    "heroImage": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp",
+    "thumbnail": "assets/images/dr-subirendra-kumar-ent-senior-consultant/hero.webp"
   },
   {
     "id": "ChIJn5NFTnj9jT4R37pXZe5knuQ",
@@ -6695,7 +6917,13 @@
     },
     "images": {
       "hero": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp",
+    "image": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp",
+    "cover": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp",
+    "cover_image": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp",
+    "heroImage": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp",
+    "thumbnail": "assets/images/dr-vijeev-sunny-pediatrician-in-mawalah/hero.webp"
   },
   {
     "id": "ChIJMxpLozz_kT4RF3vPeO1KZ0g",
@@ -6837,7 +7065,13 @@
     },
     "images": {
       "hero": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp",
+    "image": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp",
+    "cover": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp",
+    "cover_image": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp",
+    "heroImage": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp",
+    "thumbnail": "assets/images/dr-ilamaran-pediatrician-muscat/hero.webp"
   },
   {
     "id": "ChIJe-Uuma39jT4RL_WTrShP3M0",
@@ -6973,7 +7207,13 @@
     },
     "images": {
       "hero": "assets/images/dr-mohammad-alsalman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-mohammad-alsalman/hero.webp",
+    "image": "assets/images/dr-mohammad-alsalman/hero.webp",
+    "cover": "assets/images/dr-mohammad-alsalman/hero.webp",
+    "cover_image": "assets/images/dr-mohammad-alsalman/hero.webp",
+    "heroImage": "assets/images/dr-mohammad-alsalman/hero.webp",
+    "thumbnail": "assets/images/dr-mohammad-alsalman/hero.webp"
   },
   {
     "id": "ChIJZy_a4In_kT4R5xe1uc2pqLw",
@@ -7113,7 +7353,13 @@
     },
     "images": {
       "hero": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp",
+    "image": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp",
+    "cover": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp",
+    "cover_image": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp",
+    "heroImage": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp",
+    "thumbnail": "assets/images/dr-prateek-agarwal-laparoscopic-surgeon/hero.webp"
   },
   {
     "id": "ChIJ7dbTZbP9jT4RsX7Hes3_Zj4",
@@ -7266,7 +7512,13 @@
     },
     "images": {
       "hero": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp",
+    "image": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp",
+    "cover": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp",
+    "cover_image": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp",
+    "heroImage": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp",
+    "thumbnail": "assets/images/dr-shabana-s-bowsher-dental-al-khoud-branch/hero.webp"
   },
   {
     "id": "ChIJ2xZnP-n_kT4RBcPAxO5b59A",
@@ -7415,7 +7667,13 @@
     },
     "images": {
       "hero": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp",
+    "image": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp",
+    "cover": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp",
+    "cover_image": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp",
+    "heroImage": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp",
+    "thumbnail": "assets/images/dr-tariq-siddiqui-nose-job-oman-rhinoplasty-oman-ent-doctor-oman/hero.webp"
   },
   {
     "id": "ChIJ0w_XPzD_kT4RZv0_3rTbZkw",
@@ -7557,7 +7815,13 @@
     },
     "images": {
       "hero": "assets/images/dr-ayham-qanu/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-ayham-qanu/hero.webp",
+    "image": "assets/images/dr-ayham-qanu/hero.webp",
+    "cover": "assets/images/dr-ayham-qanu/hero.webp",
+    "cover_image": "assets/images/dr-ayham-qanu/hero.webp",
+    "heroImage": "assets/images/dr-ayham-qanu/hero.webp",
+    "thumbnail": "assets/images/dr-ayham-qanu/hero.webp"
   },
   {
     "id": "ChIJa6OW0uX_kT4RshWQUZYRntM",
@@ -7693,7 +7957,13 @@
     },
     "images": {
       "hero": "assets/images/dr-taraf/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dr-taraf/hero.webp",
+    "image": "assets/images/dr-taraf/hero.webp",
+    "cover": "assets/images/dr-taraf/hero.webp",
+    "cover_image": "assets/images/dr-taraf/hero.webp",
+    "heroImage": "assets/images/dr-taraf/hero.webp",
+    "thumbnail": "assets/images/dr-taraf/hero.webp"
   },
   {
     "id": "ChIJf3sYXAr_kT4RFsSdCG5lMIM",
@@ -7835,7 +8105,13 @@
     },
     "images": {
       "hero": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp",
+    "image": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp",
+    "cover": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp",
+    "cover_image": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp",
+    "heroImage": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp",
+    "thumbnail": "assets/images/emc-skin-clinic-oman-emc-muscat-dermatology-dentistry/hero.webp"
   },
   {
     "id": "ChIJyf-nrvH_kT4RrAmGAoEjbYs",
@@ -7984,7 +8260,13 @@
     },
     "images": {
       "hero": "assets/images/echo-wellness/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/echo-wellness/hero.webp",
+    "image": "assets/images/echo-wellness/hero.webp",
+    "cover": "assets/images/echo-wellness/hero.webp",
+    "cover_image": "assets/images/echo-wellness/hero.webp",
+    "heroImage": "assets/images/echo-wellness/hero.webp",
+    "thumbnail": "assets/images/echo-wellness/hero.webp"
   },
   {
     "id": "ChIJi6x-JMP_kT4RTdsuyyKvUXA",
@@ -8140,7 +8422,13 @@
     },
     "images": {
       "hero": "assets/images/enfield-royal-clinics-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/enfield-royal-clinics-oman/hero.webp",
+    "image": "assets/images/enfield-royal-clinics-oman/hero.webp",
+    "cover": "assets/images/enfield-royal-clinics-oman/hero.webp",
+    "cover_image": "assets/images/enfield-royal-clinics-oman/hero.webp",
+    "heroImage": "assets/images/enfield-royal-clinics-oman/hero.webp",
+    "thumbnail": "assets/images/enfield-royal-clinics-oman/hero.webp"
   },
   {
     "id": "ChIJ2Z4Iasn9jT4ROzpgD7lp5TU",
@@ -8292,7 +8580,13 @@
     },
     "images": {
       "hero": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp",
+    "image": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp",
+    "cover": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp",
+    "cover_image": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp",
+    "heroImage": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp",
+    "thumbnail": "assets/images/eve-medical-center-oman-derma-laser-hair-removal-and-dental/hero.webp"
   },
   {
     "id": "ChIJyzvo-nf9jT4RDWe1D1-ZOuU",
@@ -8428,7 +8722,13 @@
     },
     "images": {
       "hero": "assets/images/foot-care/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/foot-care/hero.webp",
+    "image": "assets/images/foot-care/hero.webp",
+    "cover": "assets/images/foot-care/hero.webp",
+    "cover_image": "assets/images/foot-care/hero.webp",
+    "heroImage": "assets/images/foot-care/hero.webp",
+    "thumbnail": "assets/images/foot-care/hero.webp"
   },
   {
     "id": "ChIJB-1L2CAAjj4RP8rcRzcpm1k",
@@ -8570,7 +8870,13 @@
     },
     "images": {
       "hero": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp",
+    "image": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp",
+    "cover": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp",
+    "cover_image": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp",
+    "heroImage": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp",
+    "thumbnail": "assets/images/fusion-medicare-polyclinic-gp-laboratory/hero.webp"
   },
   {
     "id": "ChIJf_xTC7njjT4RufPJO5s1PZY",
@@ -8706,7 +9012,13 @@
     },
     "images": {
       "hero": "assets/images/future-spine-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/future-spine-center/hero.webp",
+    "image": "assets/images/future-spine-center/hero.webp",
+    "cover": "assets/images/future-spine-center/hero.webp",
+    "cover_image": "assets/images/future-spine-center/hero.webp",
+    "heroImage": "assets/images/future-spine-center/hero.webp",
+    "thumbnail": "assets/images/future-spine-center/hero.webp"
   },
   {
     "id": "ChIJewWo-bj_kT4RJv_7UVfc_og",
@@ -8842,7 +9154,13 @@
     },
     "images": {
       "hero": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp",
+    "image": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp",
+    "cover": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp",
+    "cover_image": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp",
+    "heroImage": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp",
+    "thumbnail": "assets/images/ghala-clinic-pharmacy-al-ghubrah/hero.webp"
   },
   {
     "id": "ChIJ40JsLyb_kT4R6xbnQAwRdcE",
@@ -8984,7 +9302,13 @@
     },
     "images": {
       "hero": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp",
+    "image": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp",
+    "cover": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp",
+    "cover_image": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp",
+    "heroImage": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp",
+    "thumbnail": "assets/images/golden-eyes-vision-care-specialized-centre-of-myopia-management-contact-lens-clinic/hero.webp"
   },
   {
     "id": "ChIJkVMeUUD_kT4RlNCsr34X_zc",
@@ -9142,7 +9466,13 @@
     },
     "images": {
       "hero": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp",
+    "image": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp",
+    "cover": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp",
+    "cover_image": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp",
+    "heroImage": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp",
+    "thumbnail": "assets/images/grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine/hero.webp"
   },
   {
     "id": "ChIJvyObkzgAjj4RdJ9DUgjjxG4",
@@ -9284,7 +9614,13 @@
     },
     "images": {
       "hero": "assets/images/green-corner-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/green-corner-clinic/hero.webp",
+    "image": "assets/images/green-corner-clinic/hero.webp",
+    "cover": "assets/images/green-corner-clinic/hero.webp",
+    "cover_image": "assets/images/green-corner-clinic/hero.webp",
+    "heroImage": "assets/images/green-corner-clinic/hero.webp",
+    "thumbnail": "assets/images/green-corner-clinic/hero.webp"
   },
   {
     "id": "ChIJJcWeIFf4kT4RmJVlXsxDYs8",
@@ -9452,7 +9788,13 @@
     },
     "images": {
       "hero": "assets/images/gulf-specialized-hospital/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/gulf-specialized-hospital/hero.webp",
+    "image": "assets/images/gulf-specialized-hospital/hero.webp",
+    "cover": "assets/images/gulf-specialized-hospital/hero.webp",
+    "cover_image": "assets/images/gulf-specialized-hospital/hero.webp",
+    "heroImage": "assets/images/gulf-specialized-hospital/hero.webp",
+    "thumbnail": "assets/images/gulf-specialized-hospital/hero.webp"
   },
   {
     "id": "ChIJrX6KA5j4kT4RBqmWNUtd0ws",
@@ -9586,7 +9928,13 @@
     },
     "images": {
       "hero": "assets/images/gynecology-obstetrics-doctors/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/gynecology-obstetrics-doctors/hero.webp",
+    "image": "assets/images/gynecology-obstetrics-doctors/hero.webp",
+    "cover": "assets/images/gynecology-obstetrics-doctors/hero.webp",
+    "cover_image": "assets/images/gynecology-obstetrics-doctors/hero.webp",
+    "heroImage": "assets/images/gynecology-obstetrics-doctors/hero.webp",
+    "thumbnail": "assets/images/gynecology-obstetrics-doctors/hero.webp"
   },
   {
     "id": "ChIJMb310Jb4kT4R-iXtx7665aE",
@@ -9734,7 +10082,13 @@
     },
     "images": {
       "hero": "assets/images/hkc-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hkc-clinic/hero.webp",
+    "image": "assets/images/hkc-clinic/hero.webp",
+    "cover": "assets/images/hkc-clinic/hero.webp",
+    "cover_image": "assets/images/hkc-clinic/hero.webp",
+    "heroImage": "assets/images/hkc-clinic/hero.webp",
+    "thumbnail": "assets/images/hkc-clinic/hero.webp"
   },
   {
     "id": "ChIJY6y8noT5kT4RSRVE154Blwo",
@@ -9870,7 +10224,13 @@
     },
     "images": {
       "hero": "assets/images/hani-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hani-clinic/hero.webp",
+    "image": "assets/images/hani-clinic/hero.webp",
+    "cover": "assets/images/hani-clinic/hero.webp",
+    "cover_image": "assets/images/hani-clinic/hero.webp",
+    "heroImage": "assets/images/hani-clinic/hero.webp",
+    "thumbnail": "assets/images/hani-clinic/hero.webp"
   },
   {
     "id": "ChIJ6flFmR3_kT4RDlNxHDlNT50",
@@ -10006,7 +10366,13 @@
     },
     "images": {
       "hero": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp",
+    "image": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp",
+    "cover": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp",
+    "cover_image": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp",
+    "heroImage": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp",
+    "thumbnail": "assets/images/happy-feet-best-podiatry-clinic-in-muscat-oman/hero.webp"
   },
   {
     "id": "ChIJm-NfZI34kT4R57X7K9uYZYk",
@@ -10318,7 +10684,13 @@
     },
     "images": {
       "hero": "assets/images/hatat-speciality-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hatat-speciality-clinics/hero.webp",
+    "image": "assets/images/hatat-speciality-clinics/hero.webp",
+    "cover": "assets/images/hatat-speciality-clinics/hero.webp",
+    "cover_image": "assets/images/hatat-speciality-clinics/hero.webp",
+    "heroImage": "assets/images/hatat-speciality-clinics/hero.webp",
+    "thumbnail": "assets/images/hatat-speciality-clinics/hero.webp"
   },
   {
     "id": "ChIJKRVDvMD_kT4RrEXHp1CeDPI",
@@ -10479,7 +10851,13 @@
     },
     "images": {
       "hero": "assets/images/heart-vascular-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/heart-vascular-center/hero.webp",
+    "image": "assets/images/heart-vascular-center/hero.webp",
+    "cover": "assets/images/heart-vascular-center/hero.webp",
+    "cover_image": "assets/images/heart-vascular-center/hero.webp",
+    "heroImage": "assets/images/heart-vascular-center/hero.webp",
+    "thumbnail": "assets/images/heart-vascular-center/hero.webp"
   },
   {
     "id": "ChIJh8fENvz-kT4RPbKDMu8Yj_s",
@@ -10621,7 +10999,13 @@
     },
     "images": {
       "hero": "assets/images/hitech-lab/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hitech-lab/hero.webp",
+    "image": "assets/images/hitech-lab/hero.webp",
+    "cover": "assets/images/hitech-lab/hero.webp",
+    "cover_image": "assets/images/hitech-lab/hero.webp",
+    "heroImage": "assets/images/hitech-lab/hero.webp",
+    "thumbnail": "assets/images/hitech-lab/hero.webp"
   },
   {
     "id": "ChIJc3bqDML9jT4Rk7gOoh0qSZE",
@@ -10763,7 +11147,13 @@
     },
     "images": {
       "hero": "assets/images/hope-women-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hope-women-center/hero.webp",
+    "image": "assets/images/hope-women-center/hero.webp",
+    "cover": "assets/images/hope-women-center/hero.webp",
+    "cover_image": "assets/images/hope-women-center/hero.webp",
+    "heroImage": "assets/images/hope-women-center/hero.webp",
+    "thumbnail": "assets/images/hope-women-center/hero.webp"
   },
   {
     "id": "ChIJ4Xd-P1n5kT4RVWeS8H0hWI8",
@@ -10920,7 +11310,13 @@
     },
     "images": {
       "hero": "assets/images/humancare-world-wide-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/humancare-world-wide-oman/hero.webp",
+    "image": "assets/images/humancare-world-wide-oman/hero.webp",
+    "cover": "assets/images/humancare-world-wide-oman/hero.webp",
+    "cover_image": "assets/images/humancare-world-wide-oman/hero.webp",
+    "heroImage": "assets/images/humancare-world-wide-oman/hero.webp",
+    "thumbnail": "assets/images/humancare-world-wide-oman/hero.webp"
   },
   {
     "id": "ChIJGz6Uqn_9jT4Rr13FEP0eYeI",
@@ -11062,7 +11458,13 @@
     },
     "images": {
       "hero": "assets/images/infinity-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/infinity-clinic/hero.webp",
+    "image": "assets/images/infinity-clinic/hero.webp",
+    "cover": "assets/images/infinity-clinic/hero.webp",
+    "cover_image": "assets/images/infinity-clinic/hero.webp",
+    "heroImage": "assets/images/infinity-clinic/hero.webp",
+    "thumbnail": "assets/images/infinity-clinic/hero.webp"
   },
   {
     "id": "ChIJVS8INgD_kT4RejAI3Zk_sBU",
@@ -11202,7 +11604,13 @@
     },
     "images": {
       "hero": "assets/images/irana-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/irana-clinic/hero.webp",
+    "image": "assets/images/irana-clinic/hero.webp",
+    "cover": "assets/images/irana-clinic/hero.webp",
+    "cover_image": "assets/images/irana-clinic/hero.webp",
+    "heroImage": "assets/images/irana-clinic/hero.webp",
+    "thumbnail": "assets/images/irana-clinic/hero.webp"
   },
   {
     "id": "ChIJkd0lKDL_kT4R_oSdlrGEBXE",
@@ -11338,7 +11746,13 @@
     },
     "images": {
       "hero": "assets/images/isaacazari/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/isaacazari/hero.webp",
+    "image": "assets/images/isaacazari/hero.webp",
+    "cover": "assets/images/isaacazari/hero.webp",
+    "cover_image": "assets/images/isaacazari/hero.webp",
+    "heroImage": "assets/images/isaacazari/hero.webp",
+    "thumbnail": "assets/images/isaacazari/hero.webp"
   },
   {
     "id": "ChIJKWevxR4Bjj4R444SUgeT5oU",
@@ -11480,7 +11894,13 @@
     },
     "images": {
       "hero": "assets/images/jana-dermatology/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jana-dermatology/hero.webp",
+    "image": "assets/images/jana-dermatology/hero.webp",
+    "cover": "assets/images/jana-dermatology/hero.webp",
+    "cover_image": "assets/images/jana-dermatology/hero.webp",
+    "heroImage": "assets/images/jana-dermatology/hero.webp",
+    "thumbnail": "assets/images/jana-dermatology/hero.webp"
   },
   {
     "id": "ChIJY6keNZj_kT4RrrghiJgcCAM",
@@ -11616,7 +12036,13 @@
     },
     "images": {
       "hero": "assets/images/juman-speciality-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/juman-speciality-center/hero.webp",
+    "image": "assets/images/juman-speciality-center/hero.webp",
+    "cover": "assets/images/juman-speciality-center/hero.webp",
+    "cover_image": "assets/images/juman-speciality-center/hero.webp",
+    "heroImage": "assets/images/juman-speciality-center/hero.webp",
+    "thumbnail": "assets/images/juman-speciality-center/hero.webp"
   },
   {
     "id": "ChIJJzSlNzj_kT4RapYTokky_tc",
@@ -11758,7 +12184,13 @@
     },
     "images": {
       "hero": "assets/images/kaya-skin-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kaya-skin-clinic/hero.webp",
+    "image": "assets/images/kaya-skin-clinic/hero.webp",
+    "cover": "assets/images/kaya-skin-clinic/hero.webp",
+    "cover_image": "assets/images/kaya-skin-clinic/hero.webp",
+    "heroImage": "assets/images/kaya-skin-clinic/hero.webp",
+    "thumbnail": "assets/images/kaya-skin-clinic/hero.webp"
   },
   {
     "id": "ChIJLz7tTaP_kT4RqdjmEA8fnPI",
@@ -11912,7 +12344,13 @@
     },
     "images": {
       "hero": "assets/images/kazimi-international-laboratory/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kazimi-international-laboratory/hero.webp",
+    "image": "assets/images/kazimi-international-laboratory/hero.webp",
+    "cover": "assets/images/kazimi-international-laboratory/hero.webp",
+    "cover_image": "assets/images/kazimi-international-laboratory/hero.webp",
+    "heroImage": "assets/images/kazimi-international-laboratory/hero.webp",
+    "thumbnail": "assets/images/kazimi-international-laboratory/hero.webp"
   },
   {
     "id": "ChIJWSRrDdz5kT4Rz1RBVKqdYfQ",
@@ -12066,7 +12504,13 @@
     },
     "images": {
       "hero": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp",
+    "image": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp",
+    "cover": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp",
+    "cover_image": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp",
+    "heroImage": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp",
+    "thumbnail": "assets/images/kenz-dental-and-orthodontic-center-i-best-dental-clinic-in-muscat-oman-invisalign-provider-straumann-dental-implants/hero.webp"
   },
   {
     "id": "ChIJZ1ORjnz9jT4R6TzE1Nzqti4",
@@ -12219,7 +12663,13 @@
     },
     "images": {
       "hero": "assets/images/kids-paradise-dental-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kids-paradise-dental-center/hero.webp",
+    "image": "assets/images/kids-paradise-dental-center/hero.webp",
+    "cover": "assets/images/kids-paradise-dental-center/hero.webp",
+    "cover_image": "assets/images/kids-paradise-dental-center/hero.webp",
+    "heroImage": "assets/images/kids-paradise-dental-center/hero.webp",
+    "thumbnail": "assets/images/kids-paradise-dental-center/hero.webp"
   },
   {
     "id": "ChIJI_fj32H_kT4RueAIzrognLk",
@@ -12355,7 +12805,13 @@
     },
     "images": {
       "hero": "assets/images/lavora-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lavora-clinic/hero.webp",
+    "image": "assets/images/lavora-clinic/hero.webp",
+    "cover": "assets/images/lavora-clinic/hero.webp",
+    "cover_image": "assets/images/lavora-clinic/hero.webp",
+    "heroImage": "assets/images/lavora-clinic/hero.webp",
+    "thumbnail": "assets/images/lavora-clinic/hero.webp"
   },
   {
     "id": "ChIJDeTlh-D8jT4RLrRTT0_-GzU",
@@ -12497,7 +12953,13 @@
     },
     "images": {
       "hero": "assets/images/meraki-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/meraki-clinics/hero.webp",
+    "image": "assets/images/meraki-clinics/hero.webp",
+    "cover": "assets/images/meraki-clinics/hero.webp",
+    "cover_image": "assets/images/meraki-clinics/hero.webp",
+    "heroImage": "assets/images/meraki-clinics/hero.webp",
+    "thumbnail": "assets/images/meraki-clinics/hero.webp"
   },
   {
     "id": "ChIJBcECDY0Bjj4R3_nU-FmhSMQ",
@@ -12639,7 +13101,13 @@
     },
     "images": {
       "hero": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp",
+    "image": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp",
+    "cover": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp",
+    "cover_image": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp",
+    "heroImage": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp",
+    "thumbnail": "assets/images/mahbobeh-joint-and-spine-clinic/hero.webp"
   },
   {
     "id": "ChIJxb63CV__kT4Rx1DOWq20nlM",
@@ -12775,7 +13243,13 @@
     },
     "images": {
       "hero": "assets/images/max-healthcare-patient-assistance-centre/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/max-healthcare-patient-assistance-centre/hero.webp",
+    "image": "assets/images/max-healthcare-patient-assistance-centre/hero.webp",
+    "cover": "assets/images/max-healthcare-patient-assistance-centre/hero.webp",
+    "cover_image": "assets/images/max-healthcare-patient-assistance-centre/hero.webp",
+    "heroImage": "assets/images/max-healthcare-patient-assistance-centre/hero.webp",
+    "thumbnail": "assets/images/max-healthcare-patient-assistance-centre/hero.webp"
   },
   {
     "id": "ChIJC5lXVwMBjj4RNisFRE-7R-o",
@@ -12911,7 +13385,13 @@
     },
     "images": {
       "hero": "assets/images/mercy-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mercy-clinic/hero.webp",
+    "image": "assets/images/mercy-clinic/hero.webp",
+    "cover": "assets/images/mercy-clinic/hero.webp",
+    "cover_image": "assets/images/mercy-clinic/hero.webp",
+    "heroImage": "assets/images/mercy-clinic/hero.webp",
+    "thumbnail": "assets/images/mercy-clinic/hero.webp"
   },
   {
     "id": "ChIJg7u2ueT_kT4RgSpgMXnqSPg",
@@ -13217,7 +13697,13 @@
     },
     "images": {
       "hero": "assets/images/muscat-dermatology-laser-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/muscat-dermatology-laser-center/hero.webp",
+    "image": "assets/images/muscat-dermatology-laser-center/hero.webp",
+    "cover": "assets/images/muscat-dermatology-laser-center/hero.webp",
+    "cover_image": "assets/images/muscat-dermatology-laser-center/hero.webp",
+    "heroImage": "assets/images/muscat-dermatology-laser-center/hero.webp",
+    "thumbnail": "assets/images/muscat-dermatology-laser-center/hero.webp"
   },
   {
     "id": "ChIJKasDNzj_kT4RyAgwlKyzyzo",
@@ -13370,7 +13856,13 @@
     },
     "images": {
       "hero": "assets/images/muscat-eye-laser-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/muscat-eye-laser-center/hero.webp",
+    "image": "assets/images/muscat-eye-laser-center/hero.webp",
+    "cover": "assets/images/muscat-eye-laser-center/hero.webp",
+    "cover_image": "assets/images/muscat-eye-laser-center/hero.webp",
+    "heroImage": "assets/images/muscat-eye-laser-center/hero.webp",
+    "thumbnail": "assets/images/muscat-eye-laser-center/hero.webp"
   },
   {
     "id": "ChIJYeM976T_kT4RYVp1PF0V_w8",
@@ -13517,7 +14009,13 @@
     },
     "images": {
       "hero": "assets/images/natural-touch-by-dr-ansam/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/natural-touch-by-dr-ansam/hero.webp",
+    "image": "assets/images/natural-touch-by-dr-ansam/hero.webp",
+    "cover": "assets/images/natural-touch-by-dr-ansam/hero.webp",
+    "cover_image": "assets/images/natural-touch-by-dr-ansam/hero.webp",
+    "heroImage": "assets/images/natural-touch-by-dr-ansam/hero.webp",
+    "thumbnail": "assets/images/natural-touch-by-dr-ansam/hero.webp"
   },
   {
     "id": "ChIJ-eimOOn_kT4RYabGa2edtE0",
@@ -13819,7 +14317,13 @@
     },
     "images": {
       "hero": "assets/images/neuro-universe-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/neuro-universe-clinic/hero.webp",
+    "image": "assets/images/neuro-universe-clinic/hero.webp",
+    "cover": "assets/images/neuro-universe-clinic/hero.webp",
+    "cover_image": "assets/images/neuro-universe-clinic/hero.webp",
+    "heroImage": "assets/images/neuro-universe-clinic/hero.webp",
+    "thumbnail": "assets/images/neuro-universe-clinic/hero.webp"
   },
   {
     "id": "ChIJ6-cgZRn5kT4RV40InNVhx6E",
@@ -13961,7 +14465,13 @@
     },
     "images": {
       "hero": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp",
+    "image": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp",
+    "cover": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp",
+    "cover_image": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp",
+    "heroImage": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp",
+    "thumbnail": "assets/images/noone-national-clinic-llc-dr-manohar-noone/hero.webp"
   },
   {
     "id": "ChIJwzrIWmv_kT4Ra0C84tD_rxs",
@@ -14106,7 +14616,13 @@
     },
     "images": {
       "hero": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp",
+    "image": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp",
+    "cover": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp",
+    "cover_image": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp",
+    "heroImage": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp",
+    "thumbnail": "assets/images/oxy-clinic-arab-experience-medical-center/hero.webp"
   },
   {
     "id": "ChIJXfqCqOT5kT4RGt2HxHblvbw",
@@ -14271,7 +14787,13 @@
     },
     "images": {
       "hero": "assets/images/office-of-medical-coordination/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/office-of-medical-coordination/hero.webp",
+    "image": "assets/images/office-of-medical-coordination/hero.webp",
+    "cover": "assets/images/office-of-medical-coordination/hero.webp",
+    "cover_image": "assets/images/office-of-medical-coordination/hero.webp",
+    "heroImage": "assets/images/office-of-medical-coordination/hero.webp",
+    "thumbnail": "assets/images/office-of-medical-coordination/hero.webp"
   },
   {
     "id": "ChIJu8HWjC7fiz4R4FTV173A9q8",
@@ -14399,7 +14921,13 @@
     },
     "images": {
       "hero": "assets/images/pediatric-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/pediatric-clinic/hero.webp",
+    "image": "assets/images/pediatric-clinic/hero.webp",
+    "cover": "assets/images/pediatric-clinic/hero.webp",
+    "cover_image": "assets/images/pediatric-clinic/hero.webp",
+    "heroImage": "assets/images/pediatric-clinic/hero.webp",
+    "thumbnail": "assets/images/pediatric-clinic/hero.webp"
   },
   {
     "id": "ChIJr8tf-BoBjj4RG3-X6r17qr0",
@@ -14535,7 +15063,13 @@
     },
     "images": {
       "hero": "assets/images/resort-medical-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/resort-medical-center/hero.webp",
+    "image": "assets/images/resort-medical-center/hero.webp",
+    "cover": "assets/images/resort-medical-center/hero.webp",
+    "cover_image": "assets/images/resort-medical-center/hero.webp",
+    "heroImage": "assets/images/resort-medical-center/hero.webp",
+    "thumbnail": "assets/images/resort-medical-center/hero.webp"
   },
   {
     "id": "ChIJ--khwpP9jT4RynMoLPWPinc",
@@ -14680,7 +15214,13 @@
     },
     "images": {
       "hero": "assets/images/royal-body-medical-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/royal-body-medical-center/hero.webp",
+    "image": "assets/images/royal-body-medical-center/hero.webp",
+    "cover": "assets/images/royal-body-medical-center/hero.webp",
+    "cover_image": "assets/images/royal-body-medical-center/hero.webp",
+    "heroImage": "assets/images/royal-body-medical-center/hero.webp",
+    "thumbnail": "assets/images/royal-body-medical-center/hero.webp"
   },
   {
     "id": "ChIJi5nDqjn_kT4REbJw4DY4h0k",
@@ -14831,7 +15371,13 @@
     },
     "images": {
       "hero": "assets/images/royal-medical-centre/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/royal-medical-centre/hero.webp",
+    "image": "assets/images/royal-medical-centre/hero.webp",
+    "cover": "assets/images/royal-medical-centre/hero.webp",
+    "cover_image": "assets/images/royal-medical-centre/hero.webp",
+    "heroImage": "assets/images/royal-medical-centre/hero.webp",
+    "thumbnail": "assets/images/royal-medical-centre/hero.webp"
   },
   {
     "id": "ChIJT4JGw3X_kT4Rg-BTCgY-8HA",
@@ -14971,7 +15517,13 @@
     },
     "images": {
       "hero": "assets/images/samiee-chiropractic-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/samiee-chiropractic-center/hero.webp",
+    "image": "assets/images/samiee-chiropractic-center/hero.webp",
+    "cover": "assets/images/samiee-chiropractic-center/hero.webp",
+    "cover_image": "assets/images/samiee-chiropractic-center/hero.webp",
+    "heroImage": "assets/images/samiee-chiropractic-center/hero.webp",
+    "thumbnail": "assets/images/samiee-chiropractic-center/hero.webp"
   },
   {
     "id": "ChIJk41_OHvxkT4RynirTFRbqrY",
@@ -15105,7 +15657,13 @@
     },
     "images": {
       "hero": "assets/images/sandiane-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sandiane-clinics/hero.webp",
+    "image": "assets/images/sandiane-clinics/hero.webp",
+    "cover": "assets/images/sandiane-clinics/hero.webp",
+    "cover_image": "assets/images/sandiane-clinics/hero.webp",
+    "heroImage": "assets/images/sandiane-clinics/hero.webp",
+    "thumbnail": "assets/images/sandiane-clinics/hero.webp"
   },
   {
     "id": "ChIJa8OV6BoAjj4RUKfltuFXOxk",
@@ -15247,7 +15805,13 @@
     },
     "images": {
       "hero": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp",
+    "image": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp",
+    "cover": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp",
+    "cover_image": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp",
+    "heroImage": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp",
+    "thumbnail": "assets/images/sandiane-dermatology-clinic-in-oman-best-skin-laser-centre-muscat/hero.webp"
   },
   {
     "id": "ChIJb4nWuUn_kT4R-yYkpl4V-W8",
@@ -15383,7 +15947,13 @@
     },
     "images": {
       "hero": "assets/images/shatti-al-qurum-medical-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shatti-al-qurum-medical-center/hero.webp",
+    "image": "assets/images/shatti-al-qurum-medical-center/hero.webp",
+    "cover": "assets/images/shatti-al-qurum-medical-center/hero.webp",
+    "cover_image": "assets/images/shatti-al-qurum-medical-center/hero.webp",
+    "heroImage": "assets/images/shatti-al-qurum-medical-center/hero.webp",
+    "thumbnail": "assets/images/shatti-al-qurum-medical-center/hero.webp"
   },
   {
     "id": "ChIJR9r7FUH_kT4RUYjnERcvp-Q",
@@ -15525,7 +16095,13 @@
     },
     "images": {
       "hero": "assets/images/sinayar-polyclinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sinayar-polyclinic/hero.webp",
+    "image": "assets/images/sinayar-polyclinic/hero.webp",
+    "cover": "assets/images/sinayar-polyclinic/hero.webp",
+    "cover_image": "assets/images/sinayar-polyclinic/hero.webp",
+    "heroImage": "assets/images/sinayar-polyclinic/hero.webp",
+    "thumbnail": "assets/images/sinayar-polyclinic/hero.webp"
   },
   {
     "id": "ChIJ9WiWi5nljT4Rh90jXoq9R3w",
@@ -15827,7 +16403,13 @@
     },
     "images": {
       "hero": "assets/images/skinova-aesthetic-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/skinova-aesthetic-clinic/hero.webp",
+    "image": "assets/images/skinova-aesthetic-clinic/hero.webp",
+    "cover": "assets/images/skinova-aesthetic-clinic/hero.webp",
+    "cover_image": "assets/images/skinova-aesthetic-clinic/hero.webp",
+    "heroImage": "assets/images/skinova-aesthetic-clinic/hero.webp",
+    "thumbnail": "assets/images/skinova-aesthetic-clinic/hero.webp"
   },
   {
     "id": "ChIJH1RXs-7_kT4RaQc4Dyh-ubw",
@@ -15969,7 +16551,13 @@
     },
     "images": {
       "hero": "assets/images/smile-gallery-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/smile-gallery-clinics/hero.webp",
+    "image": "assets/images/smile-gallery-clinics/hero.webp",
+    "cover": "assets/images/smile-gallery-clinics/hero.webp",
+    "cover_image": "assets/images/smile-gallery-clinics/hero.webp",
+    "heroImage": "assets/images/smile-gallery-clinics/hero.webp",
+    "thumbnail": "assets/images/smile-gallery-clinics/hero.webp"
   },
   {
     "id": "ChIJEaVlLgb_kT4RVFe3Rmpgf1c",
@@ -16249,7 +16837,13 @@
     },
     "images": {
       "hero": "assets/images/tahereh-foroughifar/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tahereh-foroughifar/hero.webp",
+    "image": "assets/images/tahereh-foroughifar/hero.webp",
+    "cover": "assets/images/tahereh-foroughifar/hero.webp",
+    "cover_image": "assets/images/tahereh-foroughifar/hero.webp",
+    "heroImage": "assets/images/tahereh-foroughifar/hero.webp",
+    "thumbnail": "assets/images/tahereh-foroughifar/hero.webp"
   },
   {
     "id": "ChIJ1xDjO6T_kT4R01Q3Fl2lajE",
@@ -16543,7 +17137,13 @@
     },
     "images": {
       "hero": "assets/images/the-plastic-surgery-centre-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-plastic-surgery-centre-muscat/hero.webp",
+    "image": "assets/images/the-plastic-surgery-centre-muscat/hero.webp",
+    "cover": "assets/images/the-plastic-surgery-centre-muscat/hero.webp",
+    "cover_image": "assets/images/the-plastic-surgery-centre-muscat/hero.webp",
+    "heroImage": "assets/images/the-plastic-surgery-centre-muscat/hero.webp",
+    "thumbnail": "assets/images/the-plastic-surgery-centre-muscat/hero.webp"
   },
   {
     "id": "ChIJLYvqkg8Ajj4RH2eusbwpVwo",
@@ -16683,7 +17283,13 @@
     },
     "images": {
       "hero": "assets/images/the-pure-spa-barber-shop/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-pure-spa-barber-shop/hero.webp",
+    "image": "assets/images/the-pure-spa-barber-shop/hero.webp",
+    "cover": "assets/images/the-pure-spa-barber-shop/hero.webp",
+    "cover_image": "assets/images/the-pure-spa-barber-shop/hero.webp",
+    "heroImage": "assets/images/the-pure-spa-barber-shop/hero.webp",
+    "thumbnail": "assets/images/the-pure-spa-barber-shop/hero.webp"
   },
   {
     "id": "ChIJpRKb5an_kT4RnnIk4TTCQfM",
@@ -16825,7 +17431,13 @@
     },
     "images": {
       "hero": "assets/images/the-klinik/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-klinik/hero.webp",
+    "image": "assets/images/the-klinik/hero.webp",
+    "cover": "assets/images/the-klinik/hero.webp",
+    "cover_image": "assets/images/the-klinik/hero.webp",
+    "heroImage": "assets/images/the-klinik/hero.webp",
+    "thumbnail": "assets/images/the-klinik/hero.webp"
   },
   {
     "id": "ChIJuRZUHk_7kT4R1L5ubB4iPcg",
@@ -16967,7 +17579,13 @@
     },
     "images": {
       "hero": "assets/images/um-thuraiya-dental-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/um-thuraiya-dental-clinic/hero.webp",
+    "image": "assets/images/um-thuraiya-dental-clinic/hero.webp",
+    "cover": "assets/images/um-thuraiya-dental-clinic/hero.webp",
+    "cover_image": "assets/images/um-thuraiya-dental-clinic/hero.webp",
+    "heroImage": "assets/images/um-thuraiya-dental-clinic/hero.webp",
+    "thumbnail": "assets/images/um-thuraiya-dental-clinic/hero.webp"
   },
   {
     "id": "ChIJCxJ1jWUBjj4Rj6sMe-OHLJw",
@@ -17103,7 +17721,13 @@
     },
     "images": {
       "hero": "assets/images/united-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/united-clinics/hero.webp",
+    "image": "assets/images/united-clinics/hero.webp",
+    "cover": "assets/images/united-clinics/hero.webp",
+    "cover_image": "assets/images/united-clinics/hero.webp",
+    "heroImage": "assets/images/united-clinics/hero.webp",
+    "thumbnail": "assets/images/united-clinics/hero.webp"
   },
   {
     "id": "ChIJ2RFmGLWW56kRQIr0-RvWo8E",
@@ -17239,7 +17863,13 @@
     },
     "images": {
       "hero": "assets/images/vital-platinum-clinic-joint-spine/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/vital-platinum-clinic-joint-spine/hero.webp",
+    "image": "assets/images/vital-platinum-clinic-joint-spine/hero.webp",
+    "cover": "assets/images/vital-platinum-clinic-joint-spine/hero.webp",
+    "cover_image": "assets/images/vital-platinum-clinic-joint-spine/hero.webp",
+    "heroImage": "assets/images/vital-platinum-clinic-joint-spine/hero.webp",
+    "thumbnail": "assets/images/vital-platinum-clinic-joint-spine/hero.webp"
   },
   {
     "id": "ChIJqyODAAz_kT4RJXFFgOt5rrw",
@@ -17401,7 +18031,13 @@
     },
     "images": {
       "hero": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp",
+    "image": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp",
+    "cover": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp",
+    "cover_image": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp",
+    "heroImage": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp",
+    "thumbnail": "assets/images/wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry/hero.webp"
   },
   {
     "id": "ChIJD-yQ8ln4kT4RBfCYxgN4fVQ",
@@ -17543,7 +18179,13 @@
     },
     "images": {
       "hero": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp",
+    "image": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp",
+    "cover": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp",
+    "cover_image": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp",
+    "heroImage": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp",
+    "thumbnail": "assets/images/wattayah-complex-for-gynecology-obstetrics-diseases/hero.webp"
   },
   {
     "id": "ChIJxbDlfT_9jT4RudbEBeZaCs4",
@@ -17677,7 +18319,13 @@
     },
     "images": {
       "hero": "assets/images/zakariya-albahri/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/zakariya-albahri/hero.webp",
+    "image": "assets/images/zakariya-albahri/hero.webp",
+    "cover": "assets/images/zakariya-albahri/hero.webp",
+    "cover_image": "assets/images/zakariya-albahri/hero.webp",
+    "heroImage": "assets/images/zakariya-albahri/hero.webp",
+    "thumbnail": "assets/images/zakariya-albahri/hero.webp"
   },
   {
     "id": "ChIJnxPHcSMBjj4Ru1lytL1PEek",
@@ -17810,7 +18458,13 @@
     },
     "images": {
       "hero": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp",
+    "image": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp",
+    "cover": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp",
+    "cover_image": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp",
+    "heroImage": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp",
+    "thumbnail": "assets/images/chijnxphcsmbjj4ru1lytl1peek/hero.webp"
   },
   {
     "id": "ChIJ9RNdhmLljT4R5cLnlNPEFhQ",
@@ -17949,7 +18603,13 @@
     },
     "images": {
       "hero": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp",
+    "image": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp",
+    "cover": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp",
+    "cover_image": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp",
+    "heroImage": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp",
+    "thumbnail": "assets/images/chij9rndhmlljt4r5clnlnpefhq/hero.webp"
   },
   {
     "id": "ChIJPyUPyC7jjT4R9xQKw3exFHQ",
@@ -18091,7 +18751,13 @@
     },
     "images": {
       "hero": "assets/images/swedish-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/swedish-center/hero.webp",
+    "image": "assets/images/swedish-center/hero.webp",
+    "cover": "assets/images/swedish-center/hero.webp",
+    "cover_image": "assets/images/swedish-center/hero.webp",
+    "heroImage": "assets/images/swedish-center/hero.webp",
+    "thumbnail": "assets/images/swedish-center/hero.webp"
   },
   {
     "id": "ChIJMXTQw639jT4R8r3vm_Rz3Bg",
@@ -18232,7 +18898,13 @@
     },
     "images": {
       "hero": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp",
+    "image": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp",
+    "cover": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp",
+    "cover_image": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp",
+    "heroImage": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp",
+    "thumbnail": "assets/images/chijmxtqw639jt4r8r3vm_rz3bg/hero.webp"
   },
   {
     "id": "ChIJn2TGX_39jT4R-niRsI9TsO0",
@@ -18365,7 +19037,13 @@
     },
     "images": {
       "hero": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp",
+    "image": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp",
+    "cover": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp",
+    "cover_image": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp",
+    "heroImage": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp",
+    "thumbnail": "assets/images/chijn2tgx_39jt4r-nirsi9tso0/hero.webp"
   },
   {
     "id": "ChIJg0gEJwDljT4RVa2K2i6kjoU",
@@ -18500,7 +19178,13 @@
     },
     "images": {
       "hero": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp",
+    "image": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp",
+    "cover": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp",
+    "cover_image": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp",
+    "heroImage": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp",
+    "thumbnail": "assets/images/chijg0gejwdljt4rva2k2i6kjou/hero.webp"
   },
   {
     "id": "ChIJ6a3C58z_kT4Rg6mQ83foJSo",
@@ -18665,7 +19349,13 @@
     },
     "images": {
       "hero": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp",
+    "image": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp",
+    "cover": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp",
+    "cover_image": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp",
+    "heroImage": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp",
+    "thumbnail": "assets/images/chij6a3c58z_kt4rg6mq83fojso/hero.webp"
   },
   {
     "id": "ChIJG-nJmG3_kT4RnZXBT6MxevU",
@@ -18801,7 +19491,13 @@
     },
     "images": {
       "hero": "assets/images/arak-medical-clinics-bausher-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/arak-medical-clinics-bausher-branch/hero.webp",
+    "image": "assets/images/arak-medical-clinics-bausher-branch/hero.webp",
+    "cover": "assets/images/arak-medical-clinics-bausher-branch/hero.webp",
+    "cover_image": "assets/images/arak-medical-clinics-bausher-branch/hero.webp",
+    "heroImage": "assets/images/arak-medical-clinics-bausher-branch/hero.webp",
+    "thumbnail": "assets/images/arak-medical-clinics-bausher-branch/hero.webp"
   },
   {
     "id": "ChIJGfQFEBv9jT4Rk6-9y4gnWaY",
@@ -18937,7 +19633,13 @@
     },
     "images": {
       "hero": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp",
+    "image": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp",
+    "cover": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp",
+    "cover_image": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp",
+    "heroImage": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp",
+    "thumbnail": "assets/images/arak-medical-clinics-al-khoud-branch-vip/hero.webp"
   },
   {
     "id": "ChIJG5jcvNz9jT4R-wglK-xhTCc",
@@ -19079,7 +19781,13 @@
     },
     "images": {
       "hero": "assets/images/diamond-medical-clinics/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/diamond-medical-clinics/hero.webp",
+    "image": "assets/images/diamond-medical-clinics/hero.webp",
+    "cover": "assets/images/diamond-medical-clinics/hero.webp",
+    "cover_image": "assets/images/diamond-medical-clinics/hero.webp",
+    "heroImage": "assets/images/diamond-medical-clinics/hero.webp",
+    "thumbnail": "assets/images/diamond-medical-clinics/hero.webp"
   },
   {
     "id": "ChIJ_x546X77kT4RwlYqf7YV9Lk",
@@ -19220,7 +19928,13 @@
     },
     "images": {
       "hero": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp",
+    "image": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp",
+    "cover": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp",
+    "cover_image": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp",
+    "heroImage": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp",
+    "thumbnail": "assets/images/chij_x546x77kt4rwlyqf7yv9lk/hero.webp"
   },
   {
     "id": "ChIJfwR208b5kT4RneQeoKblrzI",
@@ -19361,7 +20075,13 @@
     },
     "images": {
       "hero": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp",
+    "image": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp",
+    "cover": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp",
+    "cover_image": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp",
+    "heroImage": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp",
+    "thumbnail": "assets/images/chijfwr208b5kt4rneqeokblrzi/hero.webp"
   },
   {
     "id": "ChIJbUSe95_ljT4RdXL0Hy32_0o",
@@ -19503,7 +20223,13 @@
     },
     "images": {
       "hero": "assets/images/i-pediatrician/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/i-pediatrician/hero.webp",
+    "image": "assets/images/i-pediatrician/hero.webp",
+    "cover": "assets/images/i-pediatrician/hero.webp",
+    "cover_image": "assets/images/i-pediatrician/hero.webp",
+    "heroImage": "assets/images/i-pediatrician/hero.webp",
+    "thumbnail": "assets/images/i-pediatrician/hero.webp"
   },
   {
     "id": "ChIJlVMfPgD9jT4Rro6-tzHjJ1s",
@@ -19637,7 +20363,13 @@
     },
     "images": {
       "hero": "assets/images/eye-clinic-in-military-polyclinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/eye-clinic-in-military-polyclinic/hero.webp",
+    "image": "assets/images/eye-clinic-in-military-polyclinic/hero.webp",
+    "cover": "assets/images/eye-clinic-in-military-polyclinic/hero.webp",
+    "cover_image": "assets/images/eye-clinic-in-military-polyclinic/hero.webp",
+    "heroImage": "assets/images/eye-clinic-in-military-polyclinic/hero.webp",
+    "thumbnail": "assets/images/eye-clinic-in-military-polyclinic/hero.webp"
   },
   {
     "id": "ChIJJ7rlh-P9jT4R7fhoim6Wyq0",
@@ -19778,7 +20510,13 @@
     },
     "images": {
       "hero": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp",
+    "image": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp",
+    "cover": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp",
+    "cover_image": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp",
+    "heroImage": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp",
+    "thumbnail": "assets/images/chijj7rlh-p9jt4r7fhoim6wyq0/hero.webp"
   },
   {
     "id": "ChIJ4wg15h39jT4RAiuwKyukuBs",
@@ -19919,7 +20657,13 @@
     },
     "images": {
       "hero": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp",
+    "image": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp",
+    "cover": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp",
+    "cover_image": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp",
+    "heroImage": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp",
+    "thumbnail": "assets/images/chij4wg15h39jt4raiuwkyukubs/hero.webp"
   },
   {
     "id": "ChIJ6SLM1bj7kT4RTHyrd-IKgt0",
@@ -20061,7 +20805,13 @@
     },
     "images": {
       "hero": "assets/images/secret-smile-dental-clinic/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/secret-smile-dental-clinic/hero.webp",
+    "image": "assets/images/secret-smile-dental-clinic/hero.webp",
+    "cover": "assets/images/secret-smile-dental-clinic/hero.webp",
+    "cover_image": "assets/images/secret-smile-dental-clinic/hero.webp",
+    "heroImage": "assets/images/secret-smile-dental-clinic/hero.webp",
+    "thumbnail": "assets/images/secret-smile-dental-clinic/hero.webp"
   },
   {
     "id": "ChIJGfdSWxf9jT4RdG5uzNREXMU",
@@ -20202,7 +20952,13 @@
     },
     "images": {
       "hero": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp",
+    "image": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp",
+    "cover": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp",
+    "cover_image": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp",
+    "heroImage": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp",
+    "thumbnail": "assets/images/chijgfdswxf9jt4rdg5uznrexmu/hero.webp"
   },
   {
     "id": "ChIJpZ4eXUABjj4RRZg20H7CxBU",
@@ -20341,7 +21097,13 @@
     },
     "images": {
       "hero": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp",
+    "image": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp",
+    "cover": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp",
+    "cover_image": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp",
+    "heroImage": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp",
+    "thumbnail": "assets/images/chijpz4exuabjj4rrzg20h7cxbu/hero.webp"
   },
   {
     "id": "ChIJ6SL7OA4Ajj4RmUaUU_0OX1I",
@@ -20505,7 +21267,13 @@
     },
     "images": {
       "hero": "assets/images/al-bushra-medical-specialty-complex/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-bushra-medical-specialty-complex/hero.webp",
+    "image": "assets/images/al-bushra-medical-specialty-complex/hero.webp",
+    "cover": "assets/images/al-bushra-medical-specialty-complex/hero.webp",
+    "cover_image": "assets/images/al-bushra-medical-specialty-complex/hero.webp",
+    "heroImage": "assets/images/al-bushra-medical-specialty-complex/hero.webp",
+    "thumbnail": "assets/images/al-bushra-medical-specialty-complex/hero.webp"
   },
   {
     "id": "ChIJYTqUw-3kjT4RDTUCHyasA6s",
@@ -20666,7 +21434,13 @@
     },
     "images": {
       "hero": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp",
+    "image": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp",
+    "cover": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp",
+    "cover_image": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp",
+    "heroImage": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp",
+    "thumbnail": "assets/images/chijytquw-3kjt4rdtuchyasa6s/hero.webp"
   },
   {
     "id": "ChIJvx18MQD5kT4RSElOXC3iu-c",
@@ -20807,7 +21581,13 @@
     },
     "images": {
       "hero": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp",
+    "image": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp",
+    "cover": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp",
+    "cover_image": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp",
+    "heroImage": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp",
+    "thumbnail": "assets/images/chijvx18mqd5kt4rseloxc3iu-c/hero.webp"
   },
   {
     "id": "ChIJL7_LsGD_kT4R-oKcihqgJB4",
@@ -20940,7 +21720,13 @@
     },
     "images": {
       "hero": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp",
+    "image": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp",
+    "cover": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp",
+    "cover_image": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp",
+    "heroImage": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp",
+    "thumbnail": "assets/images/chijl7_lsgd_kt4r-okcihqgjb4/hero.webp"
   },
   {
     "id": "ChIJq9RAD-b4kT4Rm95m9x2xRyg",
@@ -21091,7 +21877,13 @@
     },
     "images": {
       "hero": "assets/images/alreem-medical-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alreem-medical-center/hero.webp",
+    "image": "assets/images/alreem-medical-center/hero.webp",
+    "cover": "assets/images/alreem-medical-center/hero.webp",
+    "cover_image": "assets/images/alreem-medical-center/hero.webp",
+    "heroImage": "assets/images/alreem-medical-center/hero.webp",
+    "thumbnail": "assets/images/alreem-medical-center/hero.webp"
   },
   {
     "id": "ChIJ_Zd8b3H7kT4RVUmg0JPkg1s",
@@ -21232,7 +22024,13 @@
     },
     "images": {
       "hero": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp",
+    "image": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp",
+    "cover": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp",
+    "cover_image": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp",
+    "heroImage": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp",
+    "thumbnail": "assets/images/chij_zd8b3h7kt4rvumg0jpkg1s/hero.webp"
   },
   {
     "id": "ChIJ5bVBOr_9jT4Rv-IaYgYpFtU",
@@ -21382,7 +22180,13 @@
     },
     "images": {
       "hero": "assets/images/the-psychology-clinic-top-medical-care/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-psychology-clinic-top-medical-care/hero.webp",
+    "image": "assets/images/the-psychology-clinic-top-medical-care/hero.webp",
+    "cover": "assets/images/the-psychology-clinic-top-medical-care/hero.webp",
+    "cover_image": "assets/images/the-psychology-clinic-top-medical-care/hero.webp",
+    "heroImage": "assets/images/the-psychology-clinic-top-medical-care/hero.webp",
+    "thumbnail": "assets/images/the-psychology-clinic-top-medical-care/hero.webp"
   },
   {
     "id": "ChIJb1cYr1n_kT4R0ubunUmVWvs",
@@ -21517,7 +22321,13 @@
     },
     "images": {
       "hero": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp",
+    "image": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp",
+    "cover": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp",
+    "cover_image": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp",
+    "heroImage": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp",
+    "thumbnail": "assets/images/chijb1cyr1n_kt4r0ubunumvwvs/hero.webp"
   },
   {
     "id": "ChIJe_nMK0v9jT4RF3M8rlw2BGk",
@@ -21656,7 +22466,13 @@
     },
     "images": {
       "hero": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp",
+    "image": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp",
+    "cover": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp",
+    "cover_image": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp",
+    "heroImage": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp",
+    "thumbnail": "assets/images/chije_nmk0v9jt4rf3m8rlw2bgk/hero.webp"
   },
   {
     "id": "ChIJL6dRAnv_kT4RXIe26-VHZhI",
@@ -84606,7 +85422,13 @@
     },
     "images": {
       "hero": "assets/images/1948-men-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/1948-men-spa/hero.webp",
+    "image": "assets/images/1948-men-spa/hero.webp",
+    "cover": "assets/images/1948-men-spa/hero.webp",
+    "cover_image": "assets/images/1948-men-spa/hero.webp",
+    "heroImage": "assets/images/1948-men-spa/hero.webp",
+    "thumbnail": "assets/images/1948-men-spa/hero.webp"
   },
   {
     "id": "ChIJkdJR2-D_kT4R9OSvyXJklaQ",
@@ -84755,7 +85577,13 @@
     },
     "images": {
       "hero": "assets/images/4guys-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/4guys-spa/hero.webp",
+    "image": "assets/images/4guys-spa/hero.webp",
+    "cover": "assets/images/4guys-spa/hero.webp",
+    "cover_image": "assets/images/4guys-spa/hero.webp",
+    "heroImage": "assets/images/4guys-spa/hero.webp",
+    "thumbnail": "assets/images/4guys-spa/hero.webp"
   },
   {
     "id": "ChIJmTBUDd0Bjj4RJnXmI0S4DkE",
@@ -84896,7 +85724,13 @@
     },
     "images": {
       "hero": "assets/images/a-good-day-for-thai-massage/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/a-good-day-for-thai-massage/hero.webp",
+    "image": "assets/images/a-good-day-for-thai-massage/hero.webp",
+    "cover": "assets/images/a-good-day-for-thai-massage/hero.webp",
+    "cover_image": "assets/images/a-good-day-for-thai-massage/hero.webp",
+    "heroImage": "assets/images/a-good-day-for-thai-massage/hero.webp",
+    "thumbnail": "assets/images/a-good-day-for-thai-massage/hero.webp"
   },
   {
     "id": "ChIJo3iKvuX8jT4Rwj1X6FV8Wvk",
@@ -85031,7 +85865,13 @@
     },
     "images": {
       "hero": "assets/images/alila-men-salon-spa-al-hail/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alila-men-salon-spa-al-hail/hero.webp",
+    "image": "assets/images/alila-men-salon-spa-al-hail/hero.webp",
+    "cover": "assets/images/alila-men-salon-spa-al-hail/hero.webp",
+    "cover_image": "assets/images/alila-men-salon-spa-al-hail/hero.webp",
+    "heroImage": "assets/images/alila-men-salon-spa-al-hail/hero.webp",
+    "thumbnail": "assets/images/alila-men-salon-spa-al-hail/hero.webp"
   },
   {
     "id": "ChIJ7-s2LKX_kT4RDF2D09OxVoo",
@@ -85166,7 +86006,13 @@
     },
     "images": {
       "hero": "assets/images/alila-men-salon-spa-bawshar/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alila-men-salon-spa-bawshar/hero.webp",
+    "image": "assets/images/alila-men-salon-spa-bawshar/hero.webp",
+    "cover": "assets/images/alila-men-salon-spa-bawshar/hero.webp",
+    "cover_image": "assets/images/alila-men-salon-spa-bawshar/hero.webp",
+    "heroImage": "assets/images/alila-men-salon-spa-bawshar/hero.webp",
+    "thumbnail": "assets/images/alila-men-salon-spa-bawshar/hero.webp"
   },
   {
     "id": "ChIJbR3K0O75kT4Rd1OuYxntLMk",
@@ -85616,7 +86462,13 @@
     },
     "images": {
       "hero": "assets/images/amber-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/amber-spa/hero.webp",
+    "image": "assets/images/amber-spa/hero.webp",
+    "cover": "assets/images/amber-spa/hero.webp",
+    "cover_image": "assets/images/amber-spa/hero.webp",
+    "heroImage": "assets/images/amber-spa/hero.webp",
+    "thumbnail": "assets/images/amber-spa/hero.webp"
   },
   {
     "id": "ChIJP90t50j_kT4RRGpwHcft-Ek",
@@ -85766,7 +86618,13 @@
     },
     "images": {
       "hero": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp",
+    "image": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp",
+    "cover": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp",
+    "cover_image": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp",
+    "heroImage": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp",
+    "thumbnail": "assets/images/ayana-spa-exclusively-for-ladies/hero.webp"
   },
   {
     "id": "ChIJs4ZZcX_9jT4R2zcLHAczPjc",
@@ -85907,7 +86765,13 @@
     },
     "images": {
       "hero": "assets/images/bash-nail-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bash-nail-spa/hero.webp",
+    "image": "assets/images/bash-nail-spa/hero.webp",
+    "cover": "assets/images/bash-nail-spa/hero.webp",
+    "cover_image": "assets/images/bash-nail-spa/hero.webp",
+    "heroImage": "assets/images/bash-nail-spa/hero.webp",
+    "thumbnail": "assets/images/bash-nail-spa/hero.webp"
   },
   {
     "id": "ChIJqZHKVjj_kT4Rsq1OifeHbOs",
@@ -86048,7 +86912,13 @@
     },
     "images": {
       "hero": "assets/images/bamboo-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bamboo-spa/hero.webp",
+    "image": "assets/images/bamboo-spa/hero.webp",
+    "cover": "assets/images/bamboo-spa/hero.webp",
+    "cover_image": "assets/images/bamboo-spa/hero.webp",
+    "heroImage": "assets/images/bamboo-spa/hero.webp",
+    "thumbnail": "assets/images/bamboo-spa/hero.webp"
   },
   {
     "id": "ChIJgTrzFNj8jT4RRwZykgXkFr4",
@@ -86189,7 +87059,13 @@
     },
     "images": {
       "hero": "assets/images/bamboospa-alkhoud/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bamboospa-alkhoud/hero.webp",
+    "image": "assets/images/bamboospa-alkhoud/hero.webp",
+    "cover": "assets/images/bamboospa-alkhoud/hero.webp",
+    "cover_image": "assets/images/bamboospa-alkhoud/hero.webp",
+    "heroImage": "assets/images/bamboospa-alkhoud/hero.webp",
+    "thumbnail": "assets/images/bamboospa-alkhoud/hero.webp"
   },
   {
     "id": "ChIJ4YZ0AXb_kT4R242Do1ChTO0",
@@ -86330,7 +87206,13 @@
     },
     "images": {
       "hero": "assets/images/barbera-spa-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/barbera-spa-salon/hero.webp",
+    "image": "assets/images/barbera-spa-salon/hero.webp",
+    "cover": "assets/images/barbera-spa-salon/hero.webp",
+    "cover_image": "assets/images/barbera-spa-salon/hero.webp",
+    "heroImage": "assets/images/barbera-spa-salon/hero.webp",
+    "thumbnail": "assets/images/barbera-spa-salon/hero.webp"
   },
   {
     "id": "ChIJQzYKmc7_jT4RDsTMqCxzhiA",
@@ -86473,7 +87355,13 @@
     },
     "images": {
       "hero": "assets/images/be-relax-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/be-relax-spa/hero.webp",
+    "image": "assets/images/be-relax-spa/hero.webp",
+    "cover": "assets/images/be-relax-spa/hero.webp",
+    "cover_image": "assets/images/be-relax-spa/hero.webp",
+    "heroImage": "assets/images/be-relax-spa/hero.webp",
+    "thumbnail": "assets/images/be-relax-spa/hero.webp"
   },
   {
     "id": "ChIJT_zDsOD9jT4RuI3sLpxEgbM",
@@ -86608,7 +87496,13 @@
     },
     "images": {
       "hero": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp",
+    "image": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp",
+    "cover": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp",
+    "cover_image": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp",
+    "heroImage": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp",
+    "thumbnail": "assets/images/bin-mansoor-cupping-and-herbs/hero.webp"
   },
   {
     "id": "ChIJDQ9Un8f9jT4R3PBFSrCn04M",
@@ -86749,7 +87643,13 @@
     },
     "images": {
       "hero": "assets/images/blue-moon-men-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/blue-moon-men-salon/hero.webp",
+    "image": "assets/images/blue-moon-men-salon/hero.webp",
+    "cover": "assets/images/blue-moon-men-salon/hero.webp",
+    "cover_image": "assets/images/blue-moon-men-salon/hero.webp",
+    "heroImage": "assets/images/blue-moon-men-salon/hero.webp",
+    "thumbnail": "assets/images/blue-moon-men-salon/hero.webp"
   },
   {
     "id": "ChIJWQTiyyz9jT4RMIXNJBQrPoU",
@@ -86890,7 +87790,13 @@
     },
     "images": {
       "hero": "assets/images/body-and-sole-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/body-and-sole-spa/hero.webp",
+    "image": "assets/images/body-and-sole-spa/hero.webp",
+    "cover": "assets/images/body-and-sole-spa/hero.webp",
+    "cover_image": "assets/images/body-and-sole-spa/hero.webp",
+    "heroImage": "assets/images/body-and-sole-spa/hero.webp",
+    "thumbnail": "assets/images/body-and-sole-spa/hero.webp"
   },
   {
     "id": "ChIJCdxA_sz5kT4RPZSgXXOHJFE",
@@ -87040,7 +87946,13 @@
     },
     "images": {
       "hero": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp",
+    "image": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp",
+    "cover": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp",
+    "cover_image": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp",
+    "heroImage": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp",
+    "thumbnail": "assets/images/chi-the-spa-at-shangri-la-s-barr-al-jissah-resort-spa/hero.webp"
   },
   {
     "id": "ChIJp9k3uDv_kT4R19J08nVrW6U",
@@ -87181,7 +88093,13 @@
     },
     "images": {
       "hero": "assets/images/castle-of-beauty-salon-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/castle-of-beauty-salon-spa/hero.webp",
+    "image": "assets/images/castle-of-beauty-salon-spa/hero.webp",
+    "cover": "assets/images/castle-of-beauty-salon-spa/hero.webp",
+    "cover_image": "assets/images/castle-of-beauty-salon-spa/hero.webp",
+    "heroImage": "assets/images/castle-of-beauty-salon-spa/hero.webp",
+    "thumbnail": "assets/images/castle-of-beauty-salon-spa/hero.webp"
   },
   {
     "id": "ChIJz4ipifz5kT4RgtbzFYokQgk",
@@ -87322,7 +88240,13 @@
     },
     "images": {
       "hero": "assets/images/castle-spa-for-men/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/castle-spa-for-men/hero.webp",
+    "image": "assets/images/castle-spa-for-men/hero.webp",
+    "cover": "assets/images/castle-spa-for-men/hero.webp",
+    "cover_image": "assets/images/castle-spa-for-men/hero.webp",
+    "heroImage": "assets/images/castle-spa-for-men/hero.webp",
+    "thumbnail": "assets/images/castle-spa-for-men/hero.webp"
   },
   {
     "id": "ChIJMdMfQuz_kT4RnfsfKhHm3lw",
@@ -87457,7 +88381,13 @@
     },
     "images": {
       "hero": "assets/images/charm-head-spa-for-women-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/charm-head-spa-for-women-muscat/hero.webp",
+    "image": "assets/images/charm-head-spa-for-women-muscat/hero.webp",
+    "cover": "assets/images/charm-head-spa-for-women-muscat/hero.webp",
+    "cover_image": "assets/images/charm-head-spa-for-women-muscat/hero.webp",
+    "heroImage": "assets/images/charm-head-spa-for-women-muscat/hero.webp",
+    "thumbnail": "assets/images/charm-head-spa-for-women-muscat/hero.webp"
   },
   {
     "id": "ChIJf2JRuWX_kT4R77FIASbHwU0",
@@ -87598,7 +88528,13 @@
     },
     "images": {
       "hero": "assets/images/charm-spa-men/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/charm-spa-men/hero.webp",
+    "image": "assets/images/charm-spa-men/hero.webp",
+    "cover": "assets/images/charm-spa-men/hero.webp",
+    "cover_image": "assets/images/charm-spa-men/hero.webp",
+    "heroImage": "assets/images/charm-spa-men/hero.webp",
+    "thumbnail": "assets/images/charm-spa-men/hero.webp"
   },
   {
     "id": "ChIJPxlla7b_kT4RMToZMV614O4",
@@ -87739,7 +88675,13 @@
     },
     "images": {
       "hero": "assets/images/chicken-feet-day-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chicken-feet-day-spa/hero.webp",
+    "image": "assets/images/chicken-feet-day-spa/hero.webp",
+    "cover": "assets/images/chicken-feet-day-spa/hero.webp",
+    "cover_image": "assets/images/chicken-feet-day-spa/hero.webp",
+    "heroImage": "assets/images/chicken-feet-day-spa/hero.webp",
+    "thumbnail": "assets/images/chicken-feet-day-spa/hero.webp"
   },
   {
     "id": "ChIJ9buH7JT_kT4RozNO2t2ulmc",
@@ -87884,7 +88826,13 @@
     },
     "images": {
       "hero": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp",
+    "image": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp",
+    "cover": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp",
+    "cover_image": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp",
+    "heroImage": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp",
+    "thumbnail": "assets/images/coimbatore-ayurvedic-centre-ghubrah-ayurvedic-treatment-massage-therapy-in-muscat-oman/hero.webp"
   },
   {
     "id": "ChIJ5wyFMl7_kT4RzS8fk4tuVlQ",
@@ -88023,7 +88971,13 @@
     },
     "images": {
       "hero": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp",
+    "image": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp",
+    "cover": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp",
+    "cover_image": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp",
+    "heroImage": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp",
+    "thumbnail": "assets/images/corner-spa-2-massage-center-in-muscat-oman/hero.webp"
   },
   {
     "id": "ChIJY2Hhj-P_kT4RsC-I7u25AdI",
@@ -88163,7 +89117,13 @@
     },
     "images": {
       "hero": "assets/images/corner-spa-4/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/corner-spa-4/hero.webp",
+    "image": "assets/images/corner-spa-4/hero.webp",
+    "cover": "assets/images/corner-spa-4/hero.webp",
+    "cover_image": "assets/images/corner-spa-4/hero.webp",
+    "heroImage": "assets/images/corner-spa-4/hero.webp",
+    "thumbnail": "assets/images/corner-spa-4/hero.webp"
   },
   {
     "id": "ChIJdZgsaVrxkT4RoAA2qlo9CeQ",
@@ -88298,7 +89258,13 @@
     },
     "images": {
       "hero": "assets/images/crescent-spa-massage-al-wadi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crescent-spa-massage-al-wadi/hero.webp",
+    "image": "assets/images/crescent-spa-massage-al-wadi/hero.webp",
+    "cover": "assets/images/crescent-spa-massage-al-wadi/hero.webp",
+    "cover_image": "assets/images/crescent-spa-massage-al-wadi/hero.webp",
+    "heroImage": "assets/images/crescent-spa-massage-al-wadi/hero.webp",
+    "thumbnail": "assets/images/crescent-spa-massage-al-wadi/hero.webp"
   },
   {
     "id": "ChIJvS0xb8T_kT4RL9WOItYYheE",
@@ -88450,7 +89416,13 @@
     },
     "images": {
       "hero": "assets/images/crescent-spa-5-massage-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crescent-spa-5-massage-muscat/hero.webp",
+    "image": "assets/images/crescent-spa-5-massage-muscat/hero.webp",
+    "cover": "assets/images/crescent-spa-5-massage-muscat/hero.webp",
+    "cover_image": "assets/images/crescent-spa-5-massage-muscat/hero.webp",
+    "heroImage": "assets/images/crescent-spa-5-massage-muscat/hero.webp",
+    "thumbnail": "assets/images/crescent-spa-5-massage-muscat/hero.webp"
   },
   {
     "id": "ChIJzeNxUQ_5kT4RGcZetpD3NCQ",
@@ -88585,7 +89557,13 @@
     },
     "images": {
       "hero": "assets/images/cut-more-spa-and-barber/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/cut-more-spa-and-barber/hero.webp",
+    "image": "assets/images/cut-more-spa-and-barber/hero.webp",
+    "cover": "assets/images/cut-more-spa-and-barber/hero.webp",
+    "cover_image": "assets/images/cut-more-spa-and-barber/hero.webp",
+    "heroImage": "assets/images/cut-more-spa-and-barber/hero.webp",
+    "thumbnail": "assets/images/cut-more-spa-and-barber/hero.webp"
   },
   {
     "id": "ChIJ42uqE2ABjj4Rs75HKU3qLXA",
@@ -88726,7 +89704,13 @@
     },
     "images": {
       "hero": "assets/images/cut-and-shave/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/cut-and-shave/hero.webp",
+    "image": "assets/images/cut-and-shave/hero.webp",
+    "cover": "assets/images/cut-and-shave/hero.webp",
+    "cover_image": "assets/images/cut-and-shave/hero.webp",
+    "heroImage": "assets/images/cut-and-shave/hero.webp",
+    "thumbnail": "assets/images/cut-and-shave/hero.webp"
   },
   {
     "id": "ChIJ06zMSOz5kT4RKNLQ9YPNNgs",
@@ -88867,7 +89851,13 @@
     },
     "images": {
       "hero": "assets/images/do-my/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/do-my/hero.webp",
+    "image": "assets/images/do-my/hero.webp",
+    "cover": "assets/images/do-my/hero.webp",
+    "cover_image": "assets/images/do-my/hero.webp",
+    "heroImage": "assets/images/do-my/hero.webp",
+    "thumbnail": "assets/images/do-my/hero.webp"
   },
   {
     "id": "ChIJJaai9or_kT4Raoseko-BuCI",
@@ -89008,7 +89998,13 @@
     },
     "images": {
       "hero": "assets/images/dax-and-wax-barbershop-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dax-and-wax-barbershop-spa/hero.webp",
+    "image": "assets/images/dax-and-wax-barbershop-spa/hero.webp",
+    "cover": "assets/images/dax-and-wax-barbershop-spa/hero.webp",
+    "cover_image": "assets/images/dax-and-wax-barbershop-spa/hero.webp",
+    "heroImage": "assets/images/dax-and-wax-barbershop-spa/hero.webp",
+    "thumbnail": "assets/images/dax-and-wax-barbershop-spa/hero.webp"
   },
   {
     "id": "ChIJB4pCiIz4kT4Rw8jBNiDmFQ4",
@@ -89158,7 +90154,13 @@
     },
     "images": {
       "hero": "assets/images/dhekrayat-spa-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dhekrayat-spa-salon/hero.webp",
+    "image": "assets/images/dhekrayat-spa-salon/hero.webp",
+    "cover": "assets/images/dhekrayat-spa-salon/hero.webp",
+    "cover_image": "assets/images/dhekrayat-spa-salon/hero.webp",
+    "heroImage": "assets/images/dhekrayat-spa-salon/hero.webp",
+    "thumbnail": "assets/images/dhekrayat-spa-salon/hero.webp"
   },
   {
     "id": "ChIJ__9ievD_kT4RsSkxNFIC61k",
@@ -89306,7 +90308,13 @@
     },
     "images": {
       "hero": "assets/images/diamond-spa-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/diamond-spa-muscat/hero.webp",
+    "image": "assets/images/diamond-spa-muscat/hero.webp",
+    "cover": "assets/images/diamond-spa-muscat/hero.webp",
+    "cover_image": "assets/images/diamond-spa-muscat/hero.webp",
+    "heroImage": "assets/images/diamond-spa-muscat/hero.webp",
+    "thumbnail": "assets/images/diamond-spa-muscat/hero.webp"
   },
   {
     "id": "ChIJPwYd_cT5kT4RPX3hUNztu6M",
@@ -89447,7 +90455,13 @@
     },
     "images": {
       "hero": "assets/images/doux-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/doux-spa/hero.webp",
+    "image": "assets/images/doux-spa/hero.webp",
+    "cover": "assets/images/doux-spa/hero.webp",
+    "cover_image": "assets/images/doux-spa/hero.webp",
+    "heroImage": "assets/images/doux-spa/hero.webp",
+    "thumbnail": "assets/images/doux-spa/hero.webp"
   },
   {
     "id": "ChIJm6qQJsYBjj4RbK8JW78S5XA",
@@ -89588,7 +90602,13 @@
     },
     "images": {
       "hero": "assets/images/eith-z-spa-beauty-lounge/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/eith-z-spa-beauty-lounge/hero.webp",
+    "image": "assets/images/eith-z-spa-beauty-lounge/hero.webp",
+    "cover": "assets/images/eith-z-spa-beauty-lounge/hero.webp",
+    "cover_image": "assets/images/eith-z-spa-beauty-lounge/hero.webp",
+    "heroImage": "assets/images/eith-z-spa-beauty-lounge/hero.webp",
+    "thumbnail": "assets/images/eith-z-spa-beauty-lounge/hero.webp"
   },
   {
     "id": "ChIJCWgO26H7kT4RxA5mEsLFJuM",
@@ -89729,7 +90749,13 @@
     },
     "images": {
       "hero": "assets/images/enna-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/enna-spa/hero.webp",
+    "image": "assets/images/enna-spa/hero.webp",
+    "cover": "assets/images/enna-spa/hero.webp",
+    "cover_image": "assets/images/enna-spa/hero.webp",
+    "heroImage": "assets/images/enna-spa/hero.webp",
+    "thumbnail": "assets/images/enna-spa/hero.webp"
   },
   {
     "id": "ChIJpS3MazX_kT4RJNai1qh3kYY",
@@ -89870,7 +90896,13 @@
     },
     "images": {
       "hero": "assets/images/essence-spa-for-women/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/essence-spa-for-women/hero.webp",
+    "image": "assets/images/essence-spa-for-women/hero.webp",
+    "cover": "assets/images/essence-spa-for-women/hero.webp",
+    "cover_image": "assets/images/essence-spa-for-women/hero.webp",
+    "heroImage": "assets/images/essence-spa-for-women/hero.webp",
+    "thumbnail": "assets/images/essence-spa-for-women/hero.webp"
   },
   {
     "id": "ChIJJQbC7Xn_kT4RP2gzQexVykc",
@@ -90011,7 +91043,13 @@
     },
     "images": {
       "hero": "assets/images/foot-repose-ladies/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/foot-repose-ladies/hero.webp",
+    "image": "assets/images/foot-repose-ladies/hero.webp",
+    "cover": "assets/images/foot-repose-ladies/hero.webp",
+    "cover_image": "assets/images/foot-repose-ladies/hero.webp",
+    "heroImage": "assets/images/foot-repose-ladies/hero.webp",
+    "thumbnail": "assets/images/foot-repose-ladies/hero.webp"
   },
   {
     "id": "ChIJCemNDwD_kT4RJBcTvhiLwX8",
@@ -90152,7 +91190,13 @@
     },
     "images": {
       "hero": "assets/images/fr-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/fr-spa/hero.webp",
+    "image": "assets/images/fr-spa/hero.webp",
+    "cover": "assets/images/fr-spa/hero.webp",
+    "cover_image": "assets/images/fr-spa/hero.webp",
+    "heroImage": "assets/images/fr-spa/hero.webp",
+    "thumbnail": "assets/images/fr-spa/hero.webp"
   },
   {
     "id": "ChIJeT6KoMv7kT4RrMuZN-1mR-4",
@@ -90293,7 +91337,13 @@
     },
     "images": {
       "hero": "assets/images/four-seasons-spa-amerat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/four-seasons-spa-amerat/hero.webp",
+    "image": "assets/images/four-seasons-spa-amerat/hero.webp",
+    "cover": "assets/images/four-seasons-spa-amerat/hero.webp",
+    "cover_image": "assets/images/four-seasons-spa-amerat/hero.webp",
+    "heroImage": "assets/images/four-seasons-spa-amerat/hero.webp",
+    "thumbnail": "assets/images/four-seasons-spa-amerat/hero.webp"
   },
   {
     "id": "ChIJWdK5AKH9jT4R7c9wZwwqi4I",
@@ -90434,7 +91484,13 @@
     },
     "images": {
       "hero": "assets/images/friends-nails-hub/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/friends-nails-hub/hero.webp",
+    "image": "assets/images/friends-nails-hub/hero.webp",
+    "cover": "assets/images/friends-nails-hub/hero.webp",
+    "cover_image": "assets/images/friends-nails-hub/hero.webp",
+    "heroImage": "assets/images/friends-nails-hub/hero.webp",
+    "thumbnail": "assets/images/friends-nails-hub/hero.webp"
   },
   {
     "id": "ChIJ-Z4qp-j_kT4RC74ySpLDdtE",
@@ -90575,7 +91631,13 @@
     },
     "images": {
       "hero": "assets/images/gloria-s-nail-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/gloria-s-nail-spa/hero.webp",
+    "image": "assets/images/gloria-s-nail-spa/hero.webp",
+    "cover": "assets/images/gloria-s-nail-spa/hero.webp",
+    "cover_image": "assets/images/gloria-s-nail-spa/hero.webp",
+    "heroImage": "assets/images/gloria-s-nail-spa/hero.webp",
+    "thumbnail": "assets/images/gloria-s-nail-spa/hero.webp"
   },
   {
     "id": "ChIJl0TMQOL9jT4Rf87fuXjvENg",
@@ -90716,7 +91778,13 @@
     },
     "images": {
       "hero": "assets/images/gardenspa-om/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/gardenspa-om/hero.webp",
+    "image": "assets/images/gardenspa-om/hero.webp",
+    "cover": "assets/images/gardenspa-om/hero.webp",
+    "cover_image": "assets/images/gardenspa-om/hero.webp",
+    "heroImage": "assets/images/gardenspa-om/hero.webp",
+    "thumbnail": "assets/images/gardenspa-om/hero.webp"
   },
   {
     "id": "ChIJ6V5CcfP_kT4RnlWyAHdeah4",
@@ -90857,7 +91925,13 @@
     },
     "images": {
       "hero": "assets/images/grand-inn-spa-massage-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/grand-inn-spa-massage-spa/hero.webp",
+    "image": "assets/images/grand-inn-spa-massage-spa/hero.webp",
+    "cover": "assets/images/grand-inn-spa-massage-spa/hero.webp",
+    "cover_image": "assets/images/grand-inn-spa-massage-spa/hero.webp",
+    "heroImage": "assets/images/grand-inn-spa-massage-spa/hero.webp",
+    "thumbnail": "assets/images/grand-inn-spa-massage-spa/hero.webp"
   },
   {
     "id": "ChIJ71nj9QL_kT4RWTRsvQiE3AM",
@@ -90998,7 +92072,13 @@
     },
     "images": {
       "hero": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp",
+    "image": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp",
+    "cover": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp",
+    "cover_image": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp",
+    "heroImage": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp",
+    "thumbnail": "assets/images/green-grass-spa-body-massage-moroccan-bath/hero.webp"
   },
   {
     "id": "ChIJpSXe6AH_jT4RfgtZs0PtgQ0",
@@ -91293,7 +92373,13 @@
     },
     "images": {
       "hero": "assets/images/hana-massage-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hana-massage-oman/hero.webp",
+    "image": "assets/images/hana-massage-oman/hero.webp",
+    "cover": "assets/images/hana-massage-oman/hero.webp",
+    "cover_image": "assets/images/hana-massage-oman/hero.webp",
+    "heroImage": "assets/images/hana-massage-oman/hero.webp",
+    "thumbnail": "assets/images/hana-massage-oman/hero.webp"
   },
   {
     "id": "ChIJESHpqGr9jT4RcpLhdNRRO5k",
@@ -91434,7 +92520,13 @@
     },
     "images": {
       "hero": "assets/images/holiday-inn-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/holiday-inn-spa/hero.webp",
+    "image": "assets/images/holiday-inn-spa/hero.webp",
+    "cover": "assets/images/holiday-inn-spa/hero.webp",
+    "cover_image": "assets/images/holiday-inn-spa/hero.webp",
+    "heroImage": "assets/images/holiday-inn-spa/hero.webp",
+    "thumbnail": "assets/images/holiday-inn-spa/hero.webp"
   },
   {
     "id": "ChIJfe1gAdD7kT4RNF2ZBUAAIaQ",
@@ -91569,7 +92661,13 @@
     },
     "images": {
       "hero": "assets/images/janna-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/janna-spa/hero.webp",
+    "image": "assets/images/janna-spa/hero.webp",
+    "cover": "assets/images/janna-spa/hero.webp",
+    "cover_image": "assets/images/janna-spa/hero.webp",
+    "heroImage": "assets/images/janna-spa/hero.webp",
+    "thumbnail": "assets/images/janna-spa/hero.webp"
   },
   {
     "id": "ChIJQX4qg-r9jT4R6Obs8GgDL0I",
@@ -91710,7 +92808,13 @@
     },
     "images": {
       "hero": "assets/images/janna-spa-and-massage-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/janna-spa-and-massage-center/hero.webp",
+    "image": "assets/images/janna-spa-and-massage-center/hero.webp",
+    "cover": "assets/images/janna-spa-and-massage-center/hero.webp",
+    "cover_image": "assets/images/janna-spa-and-massage-center/hero.webp",
+    "heroImage": "assets/images/janna-spa-and-massage-center/hero.webp",
+    "thumbnail": "assets/images/janna-spa-and-massage-center/hero.webp"
   },
   {
     "id": "ChIJQznJHCn_kT4R8NVu27XrMmk",
@@ -91851,7 +92955,13 @@
     },
     "images": {
       "hero": "assets/images/jinanz-beauty-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jinanz-beauty-spa/hero.webp",
+    "image": "assets/images/jinanz-beauty-spa/hero.webp",
+    "cover": "assets/images/jinanz-beauty-spa/hero.webp",
+    "cover_image": "assets/images/jinanz-beauty-spa/hero.webp",
+    "heroImage": "assets/images/jinanz-beauty-spa/hero.webp",
+    "thumbnail": "assets/images/jinanz-beauty-spa/hero.webp"
   },
   {
     "id": "ChIJORkushL3kT4RnLcU9mNSqJ4",
@@ -91998,7 +93108,13 @@
     },
     "images": {
       "hero": "assets/images/johnny-spa-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/johnny-spa-muscat/hero.webp",
+    "image": "assets/images/johnny-spa-muscat/hero.webp",
+    "cover": "assets/images/johnny-spa-muscat/hero.webp",
+    "cover_image": "assets/images/johnny-spa-muscat/hero.webp",
+    "heroImage": "assets/images/johnny-spa-muscat/hero.webp",
+    "thumbnail": "assets/images/johnny-spa-muscat/hero.webp"
   },
   {
     "id": "ChIJK-EmbGb_kT4RxRcld1HYJnI",
@@ -92139,7 +93255,13 @@
     },
     "images": {
       "hero": "assets/images/kava-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kava-spa/hero.webp",
+    "image": "assets/images/kava-spa/hero.webp",
+    "cover": "assets/images/kava-spa/hero.webp",
+    "cover_image": "assets/images/kava-spa/hero.webp",
+    "heroImage": "assets/images/kava-spa/hero.webp",
+    "thumbnail": "assets/images/kava-spa/hero.webp"
   },
   {
     "id": "ChIJm3QMWbX_kT4R43Vv3y3KFcg",
@@ -92274,7 +93396,13 @@
     },
     "images": {
       "hero": "assets/images/kung-fu-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kung-fu-spa/hero.webp",
+    "image": "assets/images/kung-fu-spa/hero.webp",
+    "cover": "assets/images/kung-fu-spa/hero.webp",
+    "cover_image": "assets/images/kung-fu-spa/hero.webp",
+    "heroImage": "assets/images/kung-fu-spa/hero.webp",
+    "thumbnail": "assets/images/kung-fu-spa/hero.webp"
   },
   {
     "id": "ChIJ_dDDU7H_kT4Rvmn2IBXnYCg",
@@ -92415,7 +93543,13 @@
     },
     "images": {
       "hero": "assets/images/kanyakorn-beauty-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kanyakorn-beauty-spa/hero.webp",
+    "image": "assets/images/kanyakorn-beauty-spa/hero.webp",
+    "cover": "assets/images/kanyakorn-beauty-spa/hero.webp",
+    "cover_image": "assets/images/kanyakorn-beauty-spa/hero.webp",
+    "heroImage": "assets/images/kanyakorn-beauty-spa/hero.webp",
+    "thumbnail": "assets/images/kanyakorn-beauty-spa/hero.webp"
   },
   {
     "id": "ChIJbVwD0ez9jT4RtkA_TkEiNRg",
@@ -92562,7 +93696,13 @@
     },
     "images": {
       "hero": "assets/images/kempinski-the-spa-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kempinski-the-spa-muscat/hero.webp",
+    "image": "assets/images/kempinski-the-spa-muscat/hero.webp",
+    "cover": "assets/images/kempinski-the-spa-muscat/hero.webp",
+    "cover_image": "assets/images/kempinski-the-spa-muscat/hero.webp",
+    "heroImage": "assets/images/kempinski-the-spa-muscat/hero.webp",
+    "thumbnail": "assets/images/kempinski-the-spa-muscat/hero.webp"
   },
   {
     "id": "ChIJWdtrrMf_kT4R0jcIfDhfX60",
@@ -92697,7 +93837,13 @@
     },
     "images": {
       "hero": "assets/images/l-a-massage-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/l-a-massage-spa/hero.webp",
+    "image": "assets/images/l-a-massage-spa/hero.webp",
+    "cover": "assets/images/l-a-massage-spa/hero.webp",
+    "cover_image": "assets/images/l-a-massage-spa/hero.webp",
+    "heroImage": "assets/images/l-a-massage-spa/hero.webp",
+    "thumbnail": "assets/images/l-a-massage-spa/hero.webp"
   },
   {
     "id": "ChIJyc8ONtHjjT4RFkzk1VWffIg",
@@ -92838,7 +93984,13 @@
     },
     "images": {
       "hero": "assets/images/lavanta-salon-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lavanta-salon-spa/hero.webp",
+    "image": "assets/images/lavanta-salon-spa/hero.webp",
+    "cover": "assets/images/lavanta-salon-spa/hero.webp",
+    "cover_image": "assets/images/lavanta-salon-spa/hero.webp",
+    "heroImage": "assets/images/lavanta-salon-spa/hero.webp",
+    "thumbnail": "assets/images/lavanta-salon-spa/hero.webp"
   },
   {
     "id": "ChIJp1pDqQT9jT4R05OKLL7jPEE",
@@ -92973,7 +94125,13 @@
     },
     "images": {
       "hero": "assets/images/la-femme-spa-boutique/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/la-femme-spa-boutique/hero.webp",
+    "image": "assets/images/la-femme-spa-boutique/hero.webp",
+    "cover": "assets/images/la-femme-spa-boutique/hero.webp",
+    "cover_image": "assets/images/la-femme-spa-boutique/hero.webp",
+    "heroImage": "assets/images/la-femme-spa-boutique/hero.webp",
+    "thumbnail": "assets/images/la-femme-spa-boutique/hero.webp"
   },
   {
     "id": "ChIJYTNuOrf_kT4RAWJZIpvKjfQ",
@@ -93114,7 +94272,13 @@
     },
     "images": {
       "hero": "assets/images/lanna-grand-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lanna-grand-spa/hero.webp",
+    "image": "assets/images/lanna-grand-spa/hero.webp",
+    "cover": "assets/images/lanna-grand-spa/hero.webp",
+    "cover_image": "assets/images/lanna-grand-spa/hero.webp",
+    "heroImage": "assets/images/lanna-grand-spa/hero.webp",
+    "thumbnail": "assets/images/lanna-grand-spa/hero.webp"
   },
   {
     "id": "ChIJyX5Pb67_kT4R4AnLCPOOqw8",
@@ -93255,7 +94419,13 @@
     },
     "images": {
       "hero": "assets/images/lanna-thai-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lanna-thai-spa/hero.webp",
+    "image": "assets/images/lanna-thai-spa/hero.webp",
+    "cover": "assets/images/lanna-thai-spa/hero.webp",
+    "cover_image": "assets/images/lanna-thai-spa/hero.webp",
+    "heroImage": "assets/images/lanna-thai-spa/hero.webp",
+    "thumbnail": "assets/images/lanna-thai-spa/hero.webp"
   },
   {
     "id": "ChIJ7_dzN_X9jT4R1A9gysvFfnQ",
@@ -93406,7 +94576,13 @@
     },
     "images": {
       "hero": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp",
+    "image": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp",
+    "cover": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp",
+    "cover_image": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp",
+    "heroImage": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp",
+    "thumbnail": "assets/images/let-s-relax-spa-al-mouj-street/hero.webp"
   },
   {
     "id": "ChIJL75VR2j9jT4RuTxBclNTCI4",
@@ -93545,7 +94721,13 @@
     },
     "images": {
       "hero": "assets/images/lily-spa-main-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lily-spa-main-branch/hero.webp",
+    "image": "assets/images/lily-spa-main-branch/hero.webp",
+    "cover": "assets/images/lily-spa-main-branch/hero.webp",
+    "cover_image": "assets/images/lily-spa-main-branch/hero.webp",
+    "heroImage": "assets/images/lily-spa-main-branch/hero.webp",
+    "thumbnail": "assets/images/lily-spa-main-branch/hero.webp"
   },
   {
     "id": "ChIJsfZzzE7_kT4Rw4pflso9m2E",
@@ -93692,7 +94874,13 @@
     },
     "images": {
       "hero": "assets/images/lime-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lime-spa/hero.webp",
+    "image": "assets/images/lime-spa/hero.webp",
+    "cover": "assets/images/lime-spa/hero.webp",
+    "cover_image": "assets/images/lime-spa/hero.webp",
+    "heroImage": "assets/images/lime-spa/hero.webp",
+    "thumbnail": "assets/images/lime-spa/hero.webp"
   },
   {
     "id": "ChIJnwMTLfr_kT4Rq2VeZFXKpFQ",
@@ -93833,7 +95021,13 @@
     },
     "images": {
       "hero": "assets/images/lulu-land-kid-s-salon-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lulu-land-kid-s-salon-spa/hero.webp",
+    "image": "assets/images/lulu-land-kid-s-salon-spa/hero.webp",
+    "cover": "assets/images/lulu-land-kid-s-salon-spa/hero.webp",
+    "cover_image": "assets/images/lulu-land-kid-s-salon-spa/hero.webp",
+    "heroImage": "assets/images/lulu-land-kid-s-salon-spa/hero.webp",
+    "thumbnail": "assets/images/lulu-land-kid-s-salon-spa/hero.webp"
   },
   {
     "id": "ChIJnXjGIDf_kT4RYB21NP-xu-I",
@@ -93974,7 +95168,13 @@
     },
     "images": {
       "hero": "assets/images/lunar-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lunar-spa/hero.webp",
+    "image": "assets/images/lunar-spa/hero.webp",
+    "cover": "assets/images/lunar-spa/hero.webp",
+    "cover_image": "assets/images/lunar-spa/hero.webp",
+    "heroImage": "assets/images/lunar-spa/hero.webp",
+    "thumbnail": "assets/images/lunar-spa/hero.webp"
   },
   {
     "id": "ChIJvyXpntf9jT4RHuLijlDi7Rc",
@@ -94125,7 +95325,13 @@
     },
     "images": {
       "hero": "assets/images/m-beauty-spa-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/m-beauty-spa-salon/hero.webp",
+    "image": "assets/images/m-beauty-spa-salon/hero.webp",
+    "cover": "assets/images/m-beauty-spa-salon/hero.webp",
+    "cover_image": "assets/images/m-beauty-spa-salon/hero.webp",
+    "heroImage": "assets/images/m-beauty-spa-salon/hero.webp",
+    "thumbnail": "assets/images/m-beauty-spa-salon/hero.webp"
   },
   {
     "id": "ChIJG3ACCUv_kT4RvNpAOt1O1K0",
@@ -94260,7 +95466,13 @@
     },
     "images": {
       "hero": "assets/images/m-beauty-spa-salon-sarooj/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/m-beauty-spa-salon-sarooj/hero.webp",
+    "image": "assets/images/m-beauty-spa-salon-sarooj/hero.webp",
+    "cover": "assets/images/m-beauty-spa-salon-sarooj/hero.webp",
+    "cover_image": "assets/images/m-beauty-spa-salon-sarooj/hero.webp",
+    "heroImage": "assets/images/m-beauty-spa-salon-sarooj/hero.webp",
+    "thumbnail": "assets/images/m-beauty-spa-salon-sarooj/hero.webp"
   },
   {
     "id": "ChIJEQkLcZT_kT4RFXO_PMMMWZU",
@@ -94395,7 +95607,13 @@
     },
     "images": {
       "hero": "assets/images/maqas-spa-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/maqas-spa-salon/hero.webp",
+    "image": "assets/images/maqas-spa-salon/hero.webp",
+    "cover": "assets/images/maqas-spa-salon/hero.webp",
+    "cover_image": "assets/images/maqas-spa-salon/hero.webp",
+    "heroImage": "assets/images/maqas-spa-salon/hero.webp",
+    "thumbnail": "assets/images/maqas-spa-salon/hero.webp"
   },
   {
     "id": "ChIJy2XwXBj9jT4RByi7_o29MCc",
@@ -94536,7 +95754,13 @@
     },
     "images": {
       "hero": "assets/images/mancare/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mancare/hero.webp",
+    "image": "assets/images/mancare/hero.webp",
+    "cover": "assets/images/mancare/hero.webp",
+    "cover_image": "assets/images/mancare/hero.webp",
+    "heroImage": "assets/images/mancare/hero.webp",
+    "thumbnail": "assets/images/mancare/hero.webp"
   },
   {
     "id": "ChIJb4rnFQD_kT4RqCMh0yAa9y0",
@@ -94684,7 +95908,13 @@
     },
     "images": {
       "hero": "assets/images/massage-muscat-luna-vip/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/massage-muscat-luna-vip/hero.webp",
+    "image": "assets/images/massage-muscat-luna-vip/hero.webp",
+    "cover": "assets/images/massage-muscat-luna-vip/hero.webp",
+    "cover_image": "assets/images/massage-muscat-luna-vip/hero.webp",
+    "heroImage": "assets/images/massage-muscat-luna-vip/hero.webp",
+    "thumbnail": "assets/images/massage-muscat-luna-vip/hero.webp"
   },
   {
     "id": "ChIJM0JIE-z_kT4RWPgO9I0EwiE",
@@ -94825,7 +96055,13 @@
     },
     "images": {
       "hero": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp",
+    "image": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp",
+    "cover": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp",
+    "cover_image": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp",
+    "heroImage": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp",
+    "thumbnail": "assets/images/massage-head-foot-for-gent-bowshar/hero.webp"
   },
   {
     "id": "ChIJEblNcwD_kT4RBCiXpNsvyXk",
@@ -94964,7 +96200,13 @@
     },
     "images": {
       "hero": "assets/images/matcha-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/matcha-spa/hero.webp",
+    "image": "assets/images/matcha-spa/hero.webp",
+    "cover": "assets/images/matcha-spa/hero.webp",
+    "cover_image": "assets/images/matcha-spa/hero.webp",
+    "heroImage": "assets/images/matcha-spa/hero.webp",
+    "thumbnail": "assets/images/matcha-spa/hero.webp"
   },
   {
     "id": "ChIJA9l_VwD9jT4RuXZfu2BB5qs",
@@ -95249,7 +96491,13 @@
     },
     "images": {
       "hero": "assets/images/nice-lady-boutique-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nice-lady-boutique-spa/hero.webp",
+    "image": "assets/images/nice-lady-boutique-spa/hero.webp",
+    "cover": "assets/images/nice-lady-boutique-spa/hero.webp",
+    "cover_image": "assets/images/nice-lady-boutique-spa/hero.webp",
+    "heroImage": "assets/images/nice-lady-boutique-spa/hero.webp",
+    "thumbnail": "assets/images/nice-lady-boutique-spa/hero.webp"
   },
   {
     "id": "ChIJb_p-OwABjj4R-irr6zmsWXQ",
@@ -95396,7 +96644,13 @@
     },
     "images": {
       "hero": "assets/images/nove-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nove-spa/hero.webp",
+    "image": "assets/images/nove-spa/hero.webp",
+    "cover": "assets/images/nove-spa/hero.webp",
+    "cover_image": "assets/images/nove-spa/hero.webp",
+    "heroImage": "assets/images/nove-spa/hero.webp",
+    "thumbnail": "assets/images/nove-spa/hero.webp"
   },
   {
     "id": "ChIJdyCe_e39jT4Rj_lJNQfJ6RE",
@@ -95537,7 +96791,13 @@
     },
     "images": {
       "hero": "assets/images/ocean-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ocean-spa/hero.webp",
+    "image": "assets/images/ocean-spa/hero.webp",
+    "cover": "assets/images/ocean-spa/hero.webp",
+    "cover_image": "assets/images/ocean-spa/hero.webp",
+    "heroImage": "assets/images/ocean-spa/hero.webp",
+    "thumbnail": "assets/images/ocean-spa/hero.webp"
   },
   {
     "id": "ChIJj_XtDLf_kT4ROoXD_6uo8dk",
@@ -95690,7 +96950,13 @@
     },
     "images": {
       "hero": "assets/images/orange-salon-and-spa-ladies-only/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/orange-salon-and-spa-ladies-only/hero.webp",
+    "image": "assets/images/orange-salon-and-spa-ladies-only/hero.webp",
+    "cover": "assets/images/orange-salon-and-spa-ladies-only/hero.webp",
+    "cover_image": "assets/images/orange-salon-and-spa-ladies-only/hero.webp",
+    "heroImage": "assets/images/orange-salon-and-spa-ladies-only/hero.webp",
+    "thumbnail": "assets/images/orange-salon-and-spa-ladies-only/hero.webp"
   },
   {
     "id": "ChIJjdOtKQT9jT4RMMXfoXHylLM",
@@ -95829,7 +97095,13 @@
     },
     "images": {
       "hero": "assets/images/orchid-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/orchid-spa/hero.webp",
+    "image": "assets/images/orchid-spa/hero.webp",
+    "cover": "assets/images/orchid-spa/hero.webp",
+    "cover_image": "assets/images/orchid-spa/hero.webp",
+    "heroImage": "assets/images/orchid-spa/hero.webp",
+    "thumbnail": "assets/images/orchid-spa/hero.webp"
   },
   {
     "id": "ChIJr_CBPQz_kT4Ra1xr6GpPIOk",
@@ -95970,7 +97242,13 @@
     },
     "images": {
       "hero": "assets/images/palm-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/palm-spa/hero.webp",
+    "image": "assets/images/palm-spa/hero.webp",
+    "cover": "assets/images/palm-spa/hero.webp",
+    "cover_image": "assets/images/palm-spa/hero.webp",
+    "heroImage": "assets/images/palm-spa/hero.webp",
+    "thumbnail": "assets/images/palm-spa/hero.webp"
   },
   {
     "id": "ChIJ8z1Oa-z_kT4R4AZUe43Xjtk",
@@ -96111,7 +97389,13 @@
     },
     "images": {
       "hero": "assets/images/q-spa-and-salon/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/q-spa-and-salon/hero.webp",
+    "image": "assets/images/q-spa-and-salon/hero.webp",
+    "cover": "assets/images/q-spa-and-salon/hero.webp",
+    "cover_image": "assets/images/q-spa-and-salon/hero.webp",
+    "heroImage": "assets/images/q-spa-and-salon/hero.webp",
+    "thumbnail": "assets/images/q-spa-and-salon/hero.webp"
   },
   {
     "id": "ChIJHYJabpj9jT4R5GTuv8e1-lc",
@@ -96250,7 +97534,13 @@
     },
     "images": {
       "hero": "assets/images/recovery-zone-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/recovery-zone-oman/hero.webp",
+    "image": "assets/images/recovery-zone-oman/hero.webp",
+    "cover": "assets/images/recovery-zone-oman/hero.webp",
+    "cover_image": "assets/images/recovery-zone-oman/hero.webp",
+    "heroImage": "assets/images/recovery-zone-oman/hero.webp",
+    "thumbnail": "assets/images/recovery-zone-oman/hero.webp"
   },
   {
     "id": "ChIJLwxgRLoBjj4RhdCSckJOH5U",
@@ -96389,7 +97679,13 @@
     },
     "images": {
       "hero": "assets/images/riqueza-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/riqueza-spa/hero.webp",
+    "image": "assets/images/riqueza-spa/hero.webp",
+    "cover": "assets/images/riqueza-spa/hero.webp",
+    "cover_image": "assets/images/riqueza-spa/hero.webp",
+    "heroImage": "assets/images/riqueza-spa/hero.webp",
+    "thumbnail": "assets/images/riqueza-spa/hero.webp"
   },
   {
     "id": "ChIJU0mTVuf_kT4R_-yyJn-aP5U",
@@ -96530,7 +97826,13 @@
     },
     "images": {
       "hero": "assets/images/rosa-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/rosa-spa/hero.webp",
+    "image": "assets/images/rosa-spa/hero.webp",
+    "cover": "assets/images/rosa-spa/hero.webp",
+    "cover_image": "assets/images/rosa-spa/hero.webp",
+    "heroImage": "assets/images/rosa-spa/hero.webp",
+    "thumbnail": "assets/images/rosa-spa/hero.webp"
   },
   {
     "id": "ChIJk8_Fr6z9jT4RMZM1XlWyAuw",
@@ -96671,7 +97973,13 @@
     },
     "images": {
       "hero": "assets/images/sensess-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sensess-spa/hero.webp",
+    "image": "assets/images/sensess-spa/hero.webp",
+    "cover": "assets/images/sensess-spa/hero.webp",
+    "cover_image": "assets/images/sensess-spa/hero.webp",
+    "heroImage": "assets/images/sensess-spa/hero.webp",
+    "thumbnail": "assets/images/sensess-spa/hero.webp"
   },
   {
     "id": "ChIJdf7JMpb9jT4RctInfxsf01c",
@@ -96812,7 +98120,13 @@
     },
     "images": {
       "hero": "assets/images/shave/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shave/hero.webp",
+    "image": "assets/images/shave/hero.webp",
+    "cover": "assets/images/shave/hero.webp",
+    "cover_image": "assets/images/shave/hero.webp",
+    "heroImage": "assets/images/shave/hero.webp",
+    "thumbnail": "assets/images/shave/hero.webp"
   },
   {
     "id": "ChIJzWoEe5b_kT4R5TLPstj60T4",
@@ -96959,7 +98273,13 @@
     },
     "images": {
       "hero": "assets/images/sabino-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sabino-spa/hero.webp",
+    "image": "assets/images/sabino-spa/hero.webp",
+    "cover": "assets/images/sabino-spa/hero.webp",
+    "cover_image": "assets/images/sabino-spa/hero.webp",
+    "heroImage": "assets/images/sabino-spa/hero.webp",
+    "thumbnail": "assets/images/sabino-spa/hero.webp"
   },
   {
     "id": "ChIJN8s_OAD_kT4RSTnm8VCsNdY",
@@ -97100,7 +98420,13 @@
     },
     "images": {
       "hero": "assets/images/sakura-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sakura-spa/hero.webp",
+    "image": "assets/images/sakura-spa/hero.webp",
+    "cover": "assets/images/sakura-spa/hero.webp",
+    "cover_image": "assets/images/sakura-spa/hero.webp",
+    "heroImage": "assets/images/sakura-spa/hero.webp",
+    "thumbnail": "assets/images/sakura-spa/hero.webp"
   },
   {
     "id": "ChIJ4w1b-1H_kT4RzJX9gijEVos",
@@ -97241,7 +98567,13 @@
     },
     "images": {
       "hero": "assets/images/samaher-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/samaher-spa/hero.webp",
+    "image": "assets/images/samaher-spa/hero.webp",
+    "cover": "assets/images/samaher-spa/hero.webp",
+    "cover_image": "assets/images/samaher-spa/hero.webp",
+    "heroImage": "assets/images/samaher-spa/hero.webp",
+    "thumbnail": "assets/images/samaher-spa/hero.webp"
   },
   {
     "id": "ChIJCU6YD18Bjj4R_fUwQ2srIDk",
@@ -97382,7 +98714,13 @@
     },
     "images": {
       "hero": "assets/images/sawasdee-massage-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sawasdee-massage-spa/hero.webp",
+    "image": "assets/images/sawasdee-massage-spa/hero.webp",
+    "cover": "assets/images/sawasdee-massage-spa/hero.webp",
+    "cover_image": "assets/images/sawasdee-massage-spa/hero.webp",
+    "heroImage": "assets/images/sawasdee-massage-spa/hero.webp",
+    "thumbnail": "assets/images/sawasdee-massage-spa/hero.webp"
   },
   {
     "id": "ChIJj4QAqXn_kT4RuYZ-3tleOjY",
@@ -97517,7 +98855,13 @@
     },
     "images": {
       "hero": "assets/images/senza-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/senza-spa/hero.webp",
+    "image": "assets/images/senza-spa/hero.webp",
+    "cover": "assets/images/senza-spa/hero.webp",
+    "cover_image": "assets/images/senza-spa/hero.webp",
+    "heroImage": "assets/images/senza-spa/hero.webp",
+    "thumbnail": "assets/images/senza-spa/hero.webp"
   },
   {
     "id": "ChIJm43JseT_kT4RiNHNSgrK15A",
@@ -97658,7 +99002,13 @@
     },
     "images": {
       "hero": "assets/images/simia-medi-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/simia-medi-spa/hero.webp",
+    "image": "assets/images/simia-medi-spa/hero.webp",
+    "cover": "assets/images/simia-medi-spa/hero.webp",
+    "cover_image": "assets/images/simia-medi-spa/hero.webp",
+    "heroImage": "assets/images/simia-medi-spa/hero.webp",
+    "thumbnail": "assets/images/simia-medi-spa/hero.webp"
   },
   {
     "id": "ChIJN5Hqv8b_kT4RRPeQtzIUOfo",
@@ -97799,7 +99149,13 @@
     },
     "images": {
       "hero": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp",
+    "image": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp",
+    "cover": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp",
+    "cover_image": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp",
+    "heroImage": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp",
+    "thumbnail": "assets/images/spa-man-and-saloon-al-azaibah/hero.webp"
   },
   {
     "id": "ChIJ8wLXdtoBjj4REcRwvY3Uiz4",
@@ -98092,7 +99448,13 @@
     },
     "images": {
       "hero": "assets/images/studio-bless-beauty-therapy/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/studio-bless-beauty-therapy/hero.webp",
+    "image": "assets/images/studio-bless-beauty-therapy/hero.webp",
+    "cover": "assets/images/studio-bless-beauty-therapy/hero.webp",
+    "cover_image": "assets/images/studio-bless-beauty-therapy/hero.webp",
+    "heroImage": "assets/images/studio-bless-beauty-therapy/hero.webp",
+    "thumbnail": "assets/images/studio-bless-beauty-therapy/hero.webp"
   },
   {
     "id": "ChIJVUDAhWj19T4RZCKRouX5kko",
@@ -98231,7 +99593,13 @@
     },
     "images": {
       "hero": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp",
+    "image": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp",
+    "cover": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp",
+    "cover_image": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp",
+    "heroImage": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp",
+    "thumbnail": "assets/images/sunny-wellness-and-medical-center-fz-llc/hero.webp"
   },
   {
     "id": "ChIJowJGVJrxkT4RbV5r4pRasj8",
@@ -98378,7 +99746,13 @@
     },
     "images": {
       "hero": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp",
+    "image": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp",
+    "cover": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp",
+    "cover_image": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp",
+    "heroImage": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp",
+    "thumbnail": "assets/images/talise-spa-at-jumeirah-muscat-bay/hero.webp"
   },
   {
     "id": "ChIJ_btpwhn_kT4RotKjUCcMuco",
@@ -98524,7 +99898,13 @@
     },
     "images": {
       "hero": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp",
+    "image": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp",
+    "cover": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp",
+    "cover_image": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp",
+    "heroImage": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp",
+    "thumbnail": "assets/images/the-backyard-gents-spa-bousher-branch/hero.webp"
   },
   {
     "id": "ChIJtz_eKUn_kT4RrOHmrbHVHzU",
@@ -98665,7 +100045,13 @@
     },
     "images": {
       "hero": "assets/images/the-best-path-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-best-path-spa/hero.webp",
+    "image": "assets/images/the-best-path-spa/hero.webp",
+    "cover": "assets/images/the-best-path-spa/hero.webp",
+    "cover_image": "assets/images/the-best-path-spa/hero.webp",
+    "heroImage": "assets/images/the-best-path-spa/hero.webp",
+    "thumbnail": "assets/images/the-best-path-spa/hero.webp"
   },
   {
     "id": "ChIJ_SSXZgD_kT4RwIu_yZInaw4",
@@ -98806,7 +100192,13 @@
     },
     "images": {
       "hero": "assets/images/the-nails-society-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-nails-society-spa/hero.webp",
+    "image": "assets/images/the-nails-society-spa/hero.webp",
+    "cover": "assets/images/the-nails-society-spa/hero.webp",
+    "cover_image": "assets/images/the-nails-society-spa/hero.webp",
+    "heroImage": "assets/images/the-nails-society-spa/hero.webp",
+    "thumbnail": "assets/images/the-nails-society-spa/hero.webp"
   },
   {
     "id": "ChIJOdHYBGX5kT4REzdTy61e9vE",
@@ -98947,7 +100339,13 @@
     },
     "images": {
       "hero": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp",
+    "image": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp",
+    "cover": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp",
+    "cover_image": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp",
+    "heroImage": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp",
+    "thumbnail": "assets/images/the-orchid-spa-golden-tulip-headington-ruwi/hero.webp"
   },
   {
     "id": "ChIJdS2Sfaj9kT4Rzm7xztci3mA",
@@ -99088,7 +100486,13 @@
     },
     "images": {
       "hero": "assets/images/the-professor-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-professor-spa/hero.webp",
+    "image": "assets/images/the-professor-spa/hero.webp",
+    "cover": "assets/images/the-professor-spa/hero.webp",
+    "cover_image": "assets/images/the-professor-spa/hero.webp",
+    "heroImage": "assets/images/the-professor-spa/hero.webp",
+    "thumbnail": "assets/images/the-professor-spa/hero.webp"
   },
   {
     "id": "ChIJA7WYywP_kT4RGtp_KA7iGQE",
@@ -99231,7 +100635,13 @@
     },
     "images": {
       "hero": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp",
+    "image": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp",
+    "cover": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp",
+    "cover_image": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp",
+    "heroImage": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp",
+    "thumbnail": "assets/images/the-spa-at-mandarin-oriental-muscat/hero.webp"
   },
   {
     "id": "ChIJL7KkMlP_kT4RWSCYIQMW72s",
@@ -99372,7 +100782,13 @@
     },
     "images": {
       "hero": "assets/images/the-perfect-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-perfect-spa/hero.webp",
+    "image": "assets/images/the-perfect-spa/hero.webp",
+    "cover": "assets/images/the-perfect-spa/hero.webp",
+    "cover_image": "assets/images/the-perfect-spa/hero.webp",
+    "heroImage": "assets/images/the-perfect-spa/hero.webp",
+    "thumbnail": "assets/images/the-perfect-spa/hero.webp"
   },
   {
     "id": "ChIJC87VyeT_kT4RjKSh7J5RoA4",
@@ -99518,7 +100934,13 @@
     },
     "images": {
       "hero": "assets/images/tokyo-beauty-lounge/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tokyo-beauty-lounge/hero.webp",
+    "image": "assets/images/tokyo-beauty-lounge/hero.webp",
+    "cover": "assets/images/tokyo-beauty-lounge/hero.webp",
+    "cover_image": "assets/images/tokyo-beauty-lounge/hero.webp",
+    "heroImage": "assets/images/tokyo-beauty-lounge/hero.webp",
+    "thumbnail": "assets/images/tokyo-beauty-lounge/hero.webp"
   },
   {
     "id": "ChIJ-0DJYvz_kT4RYPzzlyHAZI8",
@@ -99659,7 +101081,13 @@
     },
     "images": {
       "hero": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp",
+    "image": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp",
+    "cover": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp",
+    "cover_image": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp",
+    "heroImage": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp",
+    "thumbnail": "assets/images/tribes-men-s-spa-and-salon-boshar/hero.webp"
   },
   {
     "id": "ChIJFePpTdb9jT4RBbxrw2QoD3w",
@@ -99800,7 +101228,13 @@
     },
     "images": {
       "hero": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp",
+    "image": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp",
+    "cover": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp",
+    "cover_image": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp",
+    "heroImage": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp",
+    "thumbnail": "assets/images/tribes-men-s-spa-and-salon-mazoon-st/hero.webp"
   },
   {
     "id": "ChIJE4iJYCD5kT4RXD3bRgBlqQc",
@@ -99941,7 +101375,13 @@
     },
     "images": {
       "hero": "assets/images/trimz-spa-barber/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/trimz-spa-barber/hero.webp",
+    "image": "assets/images/trimz-spa-barber/hero.webp",
+    "cover": "assets/images/trimz-spa-barber/hero.webp",
+    "cover_image": "assets/images/trimz-spa-barber/hero.webp",
+    "heroImage": "assets/images/trimz-spa-barber/hero.webp",
+    "thumbnail": "assets/images/trimz-spa-barber/hero.webp"
   },
   {
     "id": "ChIJW7N93D77kT4RgGYqZBixigc",
@@ -100082,7 +101522,13 @@
     },
     "images": {
       "hero": "assets/images/utopia-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/utopia-spa/hero.webp",
+    "image": "assets/images/utopia-spa/hero.webp",
+    "cover": "assets/images/utopia-spa/hero.webp",
+    "cover_image": "assets/images/utopia-spa/hero.webp",
+    "heroImage": "assets/images/utopia-spa/hero.webp",
+    "thumbnail": "assets/images/utopia-spa/hero.webp"
   },
   {
     "id": "ChIJ6Qo7ZwABjj4RgWugO2FS3xI",
@@ -100223,7 +101669,13 @@
     },
     "images": {
       "hero": "assets/images/vianne-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/vianne-spa/hero.webp",
+    "image": "assets/images/vianne-spa/hero.webp",
+    "cover": "assets/images/vianne-spa/hero.webp",
+    "cover_image": "assets/images/vianne-spa/hero.webp",
+    "heroImage": "assets/images/vianne-spa/hero.webp",
+    "thumbnail": "assets/images/vianne-spa/hero.webp"
   },
   {
     "id": "ChIJ_59XVd_9jT4R75uKLD5Sqew",
@@ -100364,7 +101816,13 @@
     },
     "images": {
       "hero": "assets/images/wara-spa-massage/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/wara-spa-massage/hero.webp",
+    "image": "assets/images/wara-spa-massage/hero.webp",
+    "cover": "assets/images/wara-spa-massage/hero.webp",
+    "cover_image": "assets/images/wara-spa-massage/hero.webp",
+    "heroImage": "assets/images/wara-spa-massage/hero.webp",
+    "thumbnail": "assets/images/wara-spa-massage/hero.webp"
   },
   {
     "id": "ChIJU0F5Qfm_tBUR4YzaIxgT4y4",
@@ -100518,7 +101976,13 @@
     },
     "images": {
       "hero": "assets/images/wellbeing-spa-wellness-center/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/wellbeing-spa-wellness-center/hero.webp",
+    "image": "assets/images/wellbeing-spa-wellness-center/hero.webp",
+    "cover": "assets/images/wellbeing-spa-wellness-center/hero.webp",
+    "cover_image": "assets/images/wellbeing-spa-wellness-center/hero.webp",
+    "heroImage": "assets/images/wellbeing-spa-wellness-center/hero.webp",
+    "thumbnail": "assets/images/wellbeing-spa-wellness-center/hero.webp"
   },
   {
     "id": "ChIJ3YuJtEbljT4Rm159-mVVk40",
@@ -100659,7 +102123,13 @@
     },
     "images": {
       "hero": "assets/images/yen-massage-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/yen-massage-oman/hero.webp",
+    "image": "assets/images/yen-massage-oman/hero.webp",
+    "cover": "assets/images/yen-massage-oman/hero.webp",
+    "cover_image": "assets/images/yen-massage-oman/hero.webp",
+    "heroImage": "assets/images/yen-massage-oman/hero.webp",
+    "thumbnail": "assets/images/yen-massage-oman/hero.webp"
   },
   {
     "id": "ChIJB7vxgXb9jT4RjiD9-510ZTg",
@@ -100800,7 +102270,13 @@
     },
     "images": {
       "hero": "assets/images/youth-foot-care/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/youth-foot-care/hero.webp",
+    "image": "assets/images/youth-foot-care/hero.webp",
+    "cover": "assets/images/youth-foot-care/hero.webp",
+    "cover_image": "assets/images/youth-foot-care/hero.webp",
+    "heroImage": "assets/images/youth-foot-care/hero.webp",
+    "thumbnail": "assets/images/youth-foot-care/hero.webp"
   },
   {
     "id": "ChIJvd7VOBj_kT4RMkq4IsUrbME",
@@ -100939,7 +102415,13 @@
     },
     "images": {
       "hero": "assets/images/zina-spa-al-khuwair/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/zina-spa-al-khuwair/hero.webp",
+    "image": "assets/images/zina-spa-al-khuwair/hero.webp",
+    "cover": "assets/images/zina-spa-al-khuwair/hero.webp",
+    "cover_image": "assets/images/zina-spa-al-khuwair/hero.webp",
+    "heroImage": "assets/images/zina-spa-al-khuwair/hero.webp",
+    "thumbnail": "assets/images/zina-spa-al-khuwair/hero.webp"
   },
   {
     "id": "ChIJMe0THzn_kT4Rvx1E0eu8NgE",
@@ -101080,7 +102562,13 @@
     },
     "images": {
       "hero": "assets/images/spazone/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/spazone/hero.webp",
+    "image": "assets/images/spazone/hero.webp",
+    "cover": "assets/images/spazone/hero.webp",
+    "cover_image": "assets/images/spazone/hero.webp",
+    "heroImage": "assets/images/spazone/hero.webp",
+    "thumbnail": "assets/images/spazone/hero.webp"
   },
   {
     "id": "ChIJdy8CrX79jT4RZlzdPWInl5U",
@@ -101226,7 +102714,13 @@
     },
     "images": {
       "hero": "assets/images/the-backyard-gents-spa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-backyard-gents-spa/hero.webp",
+    "image": "assets/images/the-backyard-gents-spa/hero.webp",
+    "cover": "assets/images/the-backyard-gents-spa/hero.webp",
+    "cover_image": "assets/images/the-backyard-gents-spa/hero.webp",
+    "heroImage": "assets/images/the-backyard-gents-spa/hero.webp",
+    "thumbnail": "assets/images/the-backyard-gents-spa/hero.webp"
   },
   {
     "id": "ChIJ6RYJ23VXfxURzkz8MjRZ_pM",
@@ -101360,6 +102854,12 @@
     },
     "images": {
       "hero": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp",
+    "image": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp",
+    "cover": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp",
+    "cover_image": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp",
+    "heroImage": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp",
+    "thumbnail": "assets/images/chij6ryj23vxfxurzkz8mjrz_pm/hero.webp"
   }
 ]
