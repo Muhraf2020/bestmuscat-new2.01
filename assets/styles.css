@@ -1936,3 +1936,18 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 /* Hide the unused sidebar Actions card */
 #actions-card { display: none; }
+
+/* Make all rating badges/chips green */
+.ctas .rating-chip,
+.card-img .rating-badge,
+.detail-hero .rating-badge{
+  background: #16a34a;   /* emerald green */
+  color: #fff;
+}
+
+/* Ensure the star icon shows in white on green */
+.ctas .rating-chip .star path,
+.card-img .rating-badge .star path,
+.detail-hero .rating-badge .star path{
+  fill: #fff;
+}
