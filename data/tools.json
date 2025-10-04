@@ -27400,7 +27400,13 @@
     },
     "images": {
       "hero": "assets/images/aagraham-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/aagraham-restaurant/hero.webp",
+    "image": "assets/images/aagraham-restaurant/hero.webp",
+    "cover": "assets/images/aagraham-restaurant/hero.webp",
+    "cover_image": "assets/images/aagraham-restaurant/hero.webp",
+    "heroImage": "assets/images/aagraham-restaurant/hero.webp",
+    "thumbnail": "assets/images/aagraham-restaurant/hero.webp"
   },
   {
     "id": "ChIJdcsXXOr_kT4RV_56wi0qFME",
@@ -27529,7 +27535,13 @@
     },
     "images": {
       "hero": "assets/images/abu-elzooz-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/abu-elzooz-restaurant/hero.webp",
+    "image": "assets/images/abu-elzooz-restaurant/hero.webp",
+    "cover": "assets/images/abu-elzooz-restaurant/hero.webp",
+    "cover_image": "assets/images/abu-elzooz-restaurant/hero.webp",
+    "heroImage": "assets/images/abu-elzooz-restaurant/hero.webp",
+    "thumbnail": "assets/images/abu-elzooz-restaurant/hero.webp"
   },
   {
     "id": "ChIJn4UeRez9jT4RJ-cpFekiltU",
@@ -27658,7 +27670,13 @@
     },
     "images": {
       "hero": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
+    "image": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
+    "cover": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
+    "cover_image": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
+    "heroImage": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
+    "thumbnail": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp"
   },
   {
     "id": "ChIJlfDBqcr5kT4RvpQIQRdhNJ8",
@@ -27788,7 +27806,13 @@
     },
     "images": {
       "hero": "assets/images/al-hawas-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-hawas-restaurant/hero.webp",
+    "image": "assets/images/al-hawas-restaurant/hero.webp",
+    "cover": "assets/images/al-hawas-restaurant/hero.webp",
+    "cover_image": "assets/images/al-hawas-restaurant/hero.webp",
+    "heroImage": "assets/images/al-hawas-restaurant/hero.webp",
+    "thumbnail": "assets/images/al-hawas-restaurant/hero.webp"
   },
   {
     "id": "ChIJd8qkSHH9jT4RmUx1n_cbjMw",
@@ -27918,7 +27942,13 @@
     },
     "images": {
       "hero": "assets/images/al-jood-restaurant-al-hail/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-jood-restaurant-al-hail/hero.webp",
+    "image": "assets/images/al-jood-restaurant-al-hail/hero.webp",
+    "cover": "assets/images/al-jood-restaurant-al-hail/hero.webp",
+    "cover_image": "assets/images/al-jood-restaurant-al-hail/hero.webp",
+    "heroImage": "assets/images/al-jood-restaurant-al-hail/hero.webp",
+    "thumbnail": "assets/images/al-jood-restaurant-al-hail/hero.webp"
   },
   {
     "id": "ChIJc312TRH9jT4Rb18tjJ2yp0o",
@@ -28047,7 +28077,13 @@
     },
     "images": {
       "hero": "assets/images/al-maida-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-maida-restaurant/hero.webp",
+    "image": "assets/images/al-maida-restaurant/hero.webp",
+    "cover": "assets/images/al-maida-restaurant/hero.webp",
+    "cover_image": "assets/images/al-maida-restaurant/hero.webp",
+    "heroImage": "assets/images/al-maida-restaurant/hero.webp",
+    "thumbnail": "assets/images/al-maida-restaurant/hero.webp"
   },
   {
     "id": "ChIJEczPNbb9jT4RlePgro2PVy4",
@@ -28177,7 +28213,13 @@
     },
     "images": {
       "hero": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
+    "image": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
+    "cover": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
+    "cover_image": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
+    "heroImage": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
+    "thumbnail": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp"
   },
   {
     "id": "ChIJLTbq9eP_kT4RNW_M4OFVv7o",
@@ -28306,7 +28348,13 @@
     },
     "images": {
       "hero": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
+    "image": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
+    "cover": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
+    "cover_image": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
+    "heroImage": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
+    "thumbnail": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp"
   },
   {
     "id": "ChIJm0q4wO34kT4RFFN0EsefWPY",
@@ -28435,7 +28483,13 @@
     },
     "images": {
       "hero": "assets/images/al-tarboosh-restaurant-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
+    "image": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
+    "cover": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
+    "cover_image": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
+    "heroImage": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
+    "thumbnail": "assets/images/al-tarboosh-restaurant-qurum/hero.webp"
   },
   {
     "id": "ChIJt2YOxaT_kT4RsieC5ai8PoI",
@@ -28565,7 +28619,13 @@
     },
     "images": {
       "hero": "assets/images/arab-world-restaurant-ghubra/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/arab-world-restaurant-ghubra/hero.webp",
+    "image": "assets/images/arab-world-restaurant-ghubra/hero.webp",
+    "cover": "assets/images/arab-world-restaurant-ghubra/hero.webp",
+    "cover_image": "assets/images/arab-world-restaurant-ghubra/hero.webp",
+    "heroImage": "assets/images/arab-world-restaurant-ghubra/hero.webp",
+    "thumbnail": "assets/images/arab-world-restaurant-ghubra/hero.webp"
   },
   {
     "id": "ChIJJ9UnuA8Bjj4Rt5EOQUF91FY",
@@ -28698,7 +28758,13 @@
     },
     "images": {
       "hero": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
+    "image": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
+    "cover": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
+    "cover_image": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
+    "heroImage": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
+    "thumbnail": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp"
   },
   {
     "id": "ChIJl0RjAPT8jT4RN87GbCQeEC4",
@@ -28828,7 +28894,13 @@
     },
     "images": {
       "hero": "assets/images/bab-al-hara-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bab-al-hara-restaurant/hero.webp",
+    "image": "assets/images/bab-al-hara-restaurant/hero.webp",
+    "cover": "assets/images/bab-al-hara-restaurant/hero.webp",
+    "cover_image": "assets/images/bab-al-hara-restaurant/hero.webp",
+    "heroImage": "assets/images/bab-al-hara-restaurant/hero.webp",
+    "thumbnail": "assets/images/bab-al-hara-restaurant/hero.webp"
   },
   {
     "id": "ChIJW1N2JJf4kT4RaOqWYHDCXFQ",
@@ -28958,7 +29030,13 @@
     },
     "images": {
       "hero": "assets/images/baba-salem-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/baba-salem-restaurant/hero.webp",
+    "image": "assets/images/baba-salem-restaurant/hero.webp",
+    "cover": "assets/images/baba-salem-restaurant/hero.webp",
+    "cover_image": "assets/images/baba-salem-restaurant/hero.webp",
+    "heroImage": "assets/images/baba-salem-restaurant/hero.webp",
+    "thumbnail": "assets/images/baba-salem-restaurant/hero.webp"
   },
   {
     "id": "ChIJQX6Ed23_kT4RKSG2b4agAyw",
@@ -29088,7 +29166,13 @@
     },
     "images": {
       "hero": "assets/images/bait-al-karam-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bait-al-karam-restaurant/hero.webp",
+    "image": "assets/images/bait-al-karam-restaurant/hero.webp",
+    "cover": "assets/images/bait-al-karam-restaurant/hero.webp",
+    "cover_image": "assets/images/bait-al-karam-restaurant/hero.webp",
+    "heroImage": "assets/images/bait-al-karam-restaurant/hero.webp",
+    "thumbnail": "assets/images/bait-al-karam-restaurant/hero.webp"
   },
   {
     "id": "ChIJh_rzw473kT4RdQEPuQTY0zo",
@@ -29212,7 +29296,13 @@
     },
     "images": {
       "hero": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
+    "image": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
+    "cover": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
+    "cover_image": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
+    "heroImage": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
+    "thumbnail": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp"
   },
   {
     "id": "ChIJU500cf__kT4RU931SY6pWSU",
@@ -29342,7 +29432,13 @@
     },
     "images": {
       "hero": "assets/images/bait-al-mandi-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bait-al-mandi-restaurant/hero.webp",
+    "image": "assets/images/bait-al-mandi-restaurant/hero.webp",
+    "cover": "assets/images/bait-al-mandi-restaurant/hero.webp",
+    "cover_image": "assets/images/bait-al-mandi-restaurant/hero.webp",
+    "heroImage": "assets/images/bait-al-mandi-restaurant/hero.webp",
+    "thumbnail": "assets/images/bait-al-mandi-restaurant/hero.webp"
   },
   {
     "id": "ChIJq8Adixv5kT4RPuLSYV10vRQ",
@@ -29472,7 +29568,13 @@
     },
     "images": {
       "hero": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
+    "image": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
+    "cover": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
+    "cover_image": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
+    "heroImage": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
+    "thumbnail": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp"
   },
   {
     "id": "ChIJe3Hspg7_kT4RWecO68Sh2Jg",
@@ -29601,7 +29703,13 @@
     },
     "images": {
       "hero": "assets/images/bait-fairuz/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bait-fairuz/hero.webp",
+    "image": "assets/images/bait-fairuz/hero.webp",
+    "cover": "assets/images/bait-fairuz/hero.webp",
+    "cover_image": "assets/images/bait-fairuz/hero.webp",
+    "heroImage": "assets/images/bait-fairuz/hero.webp",
+    "thumbnail": "assets/images/bait-fairuz/hero.webp"
   },
   {
     "id": "ChIJZ0x7iYz9jT4R0RneEBGGps4",
@@ -29730,7 +29838,13 @@
     },
     "images": {
       "hero": "assets/images/beit-adam-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/beit-adam-restaurant/hero.webp",
+    "image": "assets/images/beit-adam-restaurant/hero.webp",
+    "cover": "assets/images/beit-adam-restaurant/hero.webp",
+    "cover_image": "assets/images/beit-adam-restaurant/hero.webp",
+    "heroImage": "assets/images/beit-adam-restaurant/hero.webp",
+    "thumbnail": "assets/images/beit-adam-restaurant/hero.webp"
   },
   {
     "id": "ChIJjVoWKBv5kT4R_7c8EPoSs74",
@@ -29859,7 +29973,13 @@
     },
     "images": {
       "hero": "assets/images/buckets-buckets/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/buckets-buckets/hero.webp",
+    "image": "assets/images/buckets-buckets/hero.webp",
+    "cover": "assets/images/buckets-buckets/hero.webp",
+    "cover_image": "assets/images/buckets-buckets/hero.webp",
+    "heroImage": "assets/images/buckets-buckets/hero.webp",
+    "thumbnail": "assets/images/buckets-buckets/hero.webp"
   },
   {
     "id": "ChIJU9UTRLv_kT4RdEJ6QHOcrM8",
@@ -29989,7 +30109,13 @@
     },
     "images": {
       "hero": "assets/images/bukhari-house-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bukhari-house-restaurant/hero.webp",
+    "image": "assets/images/bukhari-house-restaurant/hero.webp",
+    "cover": "assets/images/bukhari-house-restaurant/hero.webp",
+    "cover_image": "assets/images/bukhari-house-restaurant/hero.webp",
+    "heroImage": "assets/images/bukhari-house-restaurant/hero.webp",
+    "thumbnail": "assets/images/bukhari-house-restaurant/hero.webp"
   },
   {
     "id": "ChIJsYA-FAoAjj4Rq7iyb5wPQhQ",
@@ -30119,7 +30245,13 @@
     },
     "images": {
       "hero": "assets/images/cafe-farah/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/cafe-farah/hero.webp",
+    "image": "assets/images/cafe-farah/hero.webp",
+    "cover": "assets/images/cafe-farah/hero.webp",
+    "cover_image": "assets/images/cafe-farah/hero.webp",
+    "heroImage": "assets/images/cafe-farah/hero.webp",
+    "thumbnail": "assets/images/cafe-farah/hero.webp"
   },
   {
     "id": "ChIJnZpXJdn5kT4RF5OHvSgXC7A",
@@ -30376,7 +30508,13 @@
     },
     "images": {
       "hero": "assets/images/clouds-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/clouds-restaurant/hero.webp",
+    "image": "assets/images/clouds-restaurant/hero.webp",
+    "cover": "assets/images/clouds-restaurant/hero.webp",
+    "cover_image": "assets/images/clouds-restaurant/hero.webp",
+    "heroImage": "assets/images/clouds-restaurant/hero.webp",
+    "thumbnail": "assets/images/clouds-restaurant/hero.webp"
   },
   {
     "id": "ChIJJVJrl038jT4RzSWhuIZzeBQ",
@@ -30506,7 +30644,13 @@
     },
     "images": {
       "hero": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
+    "image": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
+    "cover": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
+    "cover_image": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
+    "heroImage": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
+    "thumbnail": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp"
   },
   {
     "id": "ChIJV1ogxNb9jT4R83UEC4fDwFM",
@@ -30629,7 +30773,13 @@
     },
     "images": {
       "hero": "assets/images/dar-al-izz-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dar-al-izz-restaurant/hero.webp",
+    "image": "assets/images/dar-al-izz-restaurant/hero.webp",
+    "cover": "assets/images/dar-al-izz-restaurant/hero.webp",
+    "cover_image": "assets/images/dar-al-izz-restaurant/hero.webp",
+    "heroImage": "assets/images/dar-al-izz-restaurant/hero.webp",
+    "thumbnail": "assets/images/dar-al-izz-restaurant/hero.webp"
   },
   {
     "id": "ChIJ12dcbgD9jT4Rud3m9wqLeHQ",
@@ -30758,7 +30908,13 @@
     },
     "images": {
       "hero": "assets/images/doners-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/doners-restaurant/hero.webp",
+    "image": "assets/images/doners-restaurant/hero.webp",
+    "cover": "assets/images/doners-restaurant/hero.webp",
+    "cover_image": "assets/images/doners-restaurant/hero.webp",
+    "heroImage": "assets/images/doners-restaurant/hero.webp",
+    "thumbnail": "assets/images/doners-restaurant/hero.webp"
   },
   {
     "id": "ChIJFxz1qvz9jT4R4vEA7fqyxnk",
@@ -30888,7 +31044,13 @@
     },
     "images": {
       "hero": "assets/images/dosteen-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dosteen-restaurant/hero.webp",
+    "image": "assets/images/dosteen-restaurant/hero.webp",
+    "cover": "assets/images/dosteen-restaurant/hero.webp",
+    "cover_image": "assets/images/dosteen-restaurant/hero.webp",
+    "heroImage": "assets/images/dosteen-restaurant/hero.webp",
+    "thumbnail": "assets/images/dosteen-restaurant/hero.webp"
   },
   {
     "id": "ChIJt4ubfwD_kT4RoNWRbMZI-Bc",
@@ -31021,7 +31183,13 @@
     },
     "images": {
       "hero": "assets/images/embers-wood-fire-steak-house/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/embers-wood-fire-steak-house/hero.webp",
+    "image": "assets/images/embers-wood-fire-steak-house/hero.webp",
+    "cover": "assets/images/embers-wood-fire-steak-house/hero.webp",
+    "cover_image": "assets/images/embers-wood-fire-steak-house/hero.webp",
+    "heroImage": "assets/images/embers-wood-fire-steak-house/hero.webp",
+    "thumbnail": "assets/images/embers-wood-fire-steak-house/hero.webp"
   },
   {
     "id": "ChIJ4baHJQD_jT4REkdVecc7vOM",
@@ -31275,7 +31443,13 @@
     },
     "images": {
       "hero": "assets/images/enab-beirut/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/enab-beirut/hero.webp",
+    "image": "assets/images/enab-beirut/hero.webp",
+    "cover": "assets/images/enab-beirut/hero.webp",
+    "cover_image": "assets/images/enab-beirut/hero.webp",
+    "heroImage": "assets/images/enab-beirut/hero.webp",
+    "thumbnail": "assets/images/enab-beirut/hero.webp"
   },
   {
     "id": "ChIJ8bZAQwABjj4RabCx-OCtkd0",
@@ -31403,7 +31577,13 @@
     },
     "images": {
       "hero": "assets/images/fawazco-lebanese-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/fawazco-lebanese-restaurant/hero.webp",
+    "image": "assets/images/fawazco-lebanese-restaurant/hero.webp",
+    "cover": "assets/images/fawazco-lebanese-restaurant/hero.webp",
+    "cover_image": "assets/images/fawazco-lebanese-restaurant/hero.webp",
+    "heroImage": "assets/images/fawazco-lebanese-restaurant/hero.webp",
+    "thumbnail": "assets/images/fawazco-lebanese-restaurant/hero.webp"
   },
   {
     "id": "ChIJqW7_Ggz_kT4RryFDJdgUyBM",
@@ -31533,7 +31713,13 @@
     },
     "images": {
       "hero": "assets/images/foodlands-al-khuwair/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/foodlands-al-khuwair/hero.webp",
+    "image": "assets/images/foodlands-al-khuwair/hero.webp",
+    "cover": "assets/images/foodlands-al-khuwair/hero.webp",
+    "cover_image": "assets/images/foodlands-al-khuwair/hero.webp",
+    "heroImage": "assets/images/foodlands-al-khuwair/hero.webp",
+    "thumbnail": "assets/images/foodlands-al-khuwair/hero.webp"
   },
   {
     "id": "ChIJ29rtEiT9jT4RvEljSSPAmiU",
@@ -31662,7 +31848,13 @@
     },
     "images": {
       "hero": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
+    "image": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
+    "cover": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
+    "cover_image": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
+    "heroImage": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
+    "thumbnail": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp"
   },
   {
     "id": "ChIJ0XdHLNb3kT4RxXcbh7Nyq7o",
@@ -31791,7 +31983,13 @@
     },
     "images": {
       "hero": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
+    "image": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
+    "cover": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
+    "cover_image": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
+    "heroImage": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
+    "thumbnail": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp"
   },
   {
     "id": "ChIJr1Em_qIAjj4R3BubucdasI4",
@@ -31920,7 +32118,13 @@
     },
     "images": {
       "hero": "assets/images/ginger-all-day-dining/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ginger-all-day-dining/hero.webp",
+    "image": "assets/images/ginger-all-day-dining/hero.webp",
+    "cover": "assets/images/ginger-all-day-dining/hero.webp",
+    "cover_image": "assets/images/ginger-all-day-dining/hero.webp",
+    "heroImage": "assets/images/ginger-all-day-dining/hero.webp",
+    "thumbnail": "assets/images/ginger-all-day-dining/hero.webp"
   },
   {
     "id": "ChIJ5d0FVH7_kT4Ru7n9jOj0M-o",
@@ -32049,7 +32253,13 @@
     },
     "images": {
       "hero": "assets/images/golden-flame-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/golden-flame-restaurant/hero.webp",
+    "image": "assets/images/golden-flame-restaurant/hero.webp",
+    "cover": "assets/images/golden-flame-restaurant/hero.webp",
+    "cover_image": "assets/images/golden-flame-restaurant/hero.webp",
+    "heroImage": "assets/images/golden-flame-restaurant/hero.webp",
+    "thumbnail": "assets/images/golden-flame-restaurant/hero.webp"
   },
   {
     "id": "ChIJpzrg9vr_kT4RHt3uBpRKoDk",
@@ -32179,7 +32389,13 @@
     },
     "images": {
       "hero": "assets/images/huqqa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/huqqa/hero.webp",
+    "image": "assets/images/huqqa/hero.webp",
+    "cover": "assets/images/huqqa/hero.webp",
+    "cover_image": "assets/images/huqqa/hero.webp",
+    "heroImage": "assets/images/huqqa/hero.webp",
+    "thumbnail": "assets/images/huqqa/hero.webp"
   },
   {
     "id": "ChIJh9xftun_kT4R3tRL1epkehQ",
@@ -32307,7 +32523,13 @@
     },
     "images": {
       "hero": "assets/images/imperial-kitchen-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/imperial-kitchen-muscat/hero.webp",
+    "image": "assets/images/imperial-kitchen-muscat/hero.webp",
+    "cover": "assets/images/imperial-kitchen-muscat/hero.webp",
+    "cover_image": "assets/images/imperial-kitchen-muscat/hero.webp",
+    "heroImage": "assets/images/imperial-kitchen-muscat/hero.webp",
+    "thumbnail": "assets/images/imperial-kitchen-muscat/hero.webp"
   },
   {
     "id": "ChIJO_iUMlr9jT4RZZcc0QJsCV0",
@@ -32436,7 +32658,13 @@
     },
     "images": {
       "hero": "assets/images/irani-house-restaurent/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/irani-house-restaurent/hero.webp",
+    "image": "assets/images/irani-house-restaurent/hero.webp",
+    "cover": "assets/images/irani-house-restaurent/hero.webp",
+    "cover_image": "assets/images/irani-house-restaurent/hero.webp",
+    "heroImage": "assets/images/irani-house-restaurent/hero.webp",
+    "thumbnail": "assets/images/irani-house-restaurent/hero.webp"
   },
   {
     "id": "ChIJCYzzmL8Bjj4RgpJFrDnJghQ",
@@ -32566,7 +32794,13 @@
     },
     "images": {
       "hero": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
+    "image": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
+    "cover": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
+    "cover_image": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
+    "heroImage": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
+    "thumbnail": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp"
   },
   {
     "id": "ChIJlRfLiYz4kT4Rtiu8YfoUS_k",
@@ -32700,7 +32934,13 @@
     },
     "images": {
       "hero": "assets/images/italian-barrista-cafe/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/italian-barrista-cafe/hero.webp",
+    "image": "assets/images/italian-barrista-cafe/hero.webp",
+    "cover": "assets/images/italian-barrista-cafe/hero.webp",
+    "cover_image": "assets/images/italian-barrista-cafe/hero.webp",
+    "heroImage": "assets/images/italian-barrista-cafe/hero.webp",
+    "thumbnail": "assets/images/italian-barrista-cafe/hero.webp"
   },
   {
     "id": "ChIJ53FLNCL9jT4ReDZvWDxATFo",
@@ -32829,7 +33069,13 @@
     },
     "images": {
       "hero": "assets/images/joker-burger-mawaleh/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/joker-burger-mawaleh/hero.webp",
+    "image": "assets/images/joker-burger-mawaleh/hero.webp",
+    "cover": "assets/images/joker-burger-mawaleh/hero.webp",
+    "cover_image": "assets/images/joker-burger-mawaleh/hero.webp",
+    "heroImage": "assets/images/joker-burger-mawaleh/hero.webp",
+    "thumbnail": "assets/images/joker-burger-mawaleh/hero.webp"
   },
   {
     "id": "ChIJH7YvMlD_kT4RRiyfJNws1JU",
@@ -32958,7 +33204,13 @@
     },
     "images": {
       "hero": "assets/images/kaia/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kaia/hero.webp",
+    "image": "assets/images/kaia/hero.webp",
+    "cover": "assets/images/kaia/hero.webp",
+    "cover_image": "assets/images/kaia/hero.webp",
+    "heroImage": "assets/images/kaia/hero.webp",
+    "thumbnail": "assets/images/kaia/hero.webp"
   },
   {
     "id": "ChIJq1cB7tz5kT4R0RXpglLFgQ4",
@@ -33088,7 +33340,13 @@
     },
     "images": {
       "hero": "assets/images/kairali-palace-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kairali-palace-restaurant/hero.webp",
+    "image": "assets/images/kairali-palace-restaurant/hero.webp",
+    "cover": "assets/images/kairali-palace-restaurant/hero.webp",
+    "cover_image": "assets/images/kairali-palace-restaurant/hero.webp",
+    "heroImage": "assets/images/kairali-palace-restaurant/hero.webp",
+    "thumbnail": "assets/images/kairali-palace-restaurant/hero.webp"
   },
   {
     "id": "ChIJQf7cIvD5kT4RyDYj1exLDOE",
@@ -33212,7 +33470,13 @@
     },
     "images": {
       "hero": "assets/images/kalabash-restaurant-lounge/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kalabash-restaurant-lounge/hero.webp",
+    "image": "assets/images/kalabash-restaurant-lounge/hero.webp",
+    "cover": "assets/images/kalabash-restaurant-lounge/hero.webp",
+    "cover_image": "assets/images/kalabash-restaurant-lounge/hero.webp",
+    "heroImage": "assets/images/kalabash-restaurant-lounge/hero.webp",
+    "thumbnail": "assets/images/kalabash-restaurant-lounge/hero.webp"
   },
   {
     "id": "ChIJ8bAqKQD5kT4RlyF-TNTsbL0",
@@ -33342,7 +33606,13 @@
     },
     "images": {
       "hero": "assets/images/kelardasht-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kelardasht-restaurant/hero.webp",
+    "image": "assets/images/kelardasht-restaurant/hero.webp",
+    "cover": "assets/images/kelardasht-restaurant/hero.webp",
+    "cover_image": "assets/images/kelardasht-restaurant/hero.webp",
+    "heroImage": "assets/images/kelardasht-restaurant/hero.webp",
+    "thumbnail": "assets/images/kelardasht-restaurant/hero.webp"
   },
   {
     "id": "ChIJdQy4iYz4kT4RG33JyadAi_M",
@@ -33472,7 +33742,13 @@
     },
     "images": {
       "hero": "assets/images/kusharina/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kusharina/hero.webp",
+    "image": "assets/images/kusharina/hero.webp",
+    "cover": "assets/images/kusharina/hero.webp",
+    "cover_image": "assets/images/kusharina/hero.webp",
+    "heroImage": "assets/images/kusharina/hero.webp",
+    "thumbnail": "assets/images/kusharina/hero.webp"
   },
   {
     "id": "ChIJ4f9vCff8jT4Ro2cKlcQRGPI",
@@ -33601,7 +33877,13 @@
     },
     "images": {
       "hero": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
+    "image": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
+    "cover": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
+    "cover_image": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
+    "heroImage": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
+    "thumbnail": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp"
   },
   {
     "id": "ChIJ98x3aez9jT4RZ9Bnn4Hrsc4",
@@ -33730,7 +34012,13 @@
     },
     "images": {
       "hero": "assets/images/lovender/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lovender/hero.webp",
+    "image": "assets/images/lovender/hero.webp",
+    "cover": "assets/images/lovender/hero.webp",
+    "cover_image": "assets/images/lovender/hero.webp",
+    "heroImage": "assets/images/lovender/hero.webp",
+    "thumbnail": "assets/images/lovender/hero.webp"
   },
   {
     "id": "ChIJRVkSvY73kT4Rexd55ALcjyw",
@@ -33859,7 +34147,13 @@
     },
     "images": {
       "hero": "assets/images/la-brasserie-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/la-brasserie-restaurant/hero.webp",
+    "image": "assets/images/la-brasserie-restaurant/hero.webp",
+    "cover": "assets/images/la-brasserie-restaurant/hero.webp",
+    "cover_image": "assets/images/la-brasserie-restaurant/hero.webp",
+    "heroImage": "assets/images/la-brasserie-restaurant/hero.webp",
+    "thumbnail": "assets/images/la-brasserie-restaurant/hero.webp"
   },
   {
     "id": "ChIJ54bCyyj_kT4RiG7vBa0yboc",
@@ -33986,7 +34280,13 @@
     },
     "images": {
       "hero": "assets/images/lahab-kitchen-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lahab-kitchen-restaurant/hero.webp",
+    "image": "assets/images/lahab-kitchen-restaurant/hero.webp",
+    "cover": "assets/images/lahab-kitchen-restaurant/hero.webp",
+    "cover_image": "assets/images/lahab-kitchen-restaurant/hero.webp",
+    "heroImage": "assets/images/lahab-kitchen-restaurant/hero.webp",
+    "thumbnail": "assets/images/lahab-kitchen-restaurant/hero.webp"
   },
   {
     "id": "ChIJmf-dSKL9jT4R3WMxCLbx89c",
@@ -34115,7 +34415,13 @@
     },
     "images": {
       "hero": "assets/images/layali-al-saad-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/layali-al-saad-restaurant/hero.webp",
+    "image": "assets/images/layali-al-saad-restaurant/hero.webp",
+    "cover": "assets/images/layali-al-saad-restaurant/hero.webp",
+    "cover_image": "assets/images/layali-al-saad-restaurant/hero.webp",
+    "heroImage": "assets/images/layali-al-saad-restaurant/hero.webp",
+    "thumbnail": "assets/images/layali-al-saad-restaurant/hero.webp"
   },
   {
     "id": "ChIJWTuCTysBjj4Rz_H3vmjs3ao",
@@ -34245,7 +34551,13 @@
     },
     "images": {
       "hero": "assets/images/lo-chef-steak-house/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lo-chef-steak-house/hero.webp",
+    "image": "assets/images/lo-chef-steak-house/hero.webp",
+    "cover": "assets/images/lo-chef-steak-house/hero.webp",
+    "cover_image": "assets/images/lo-chef-steak-house/hero.webp",
+    "heroImage": "assets/images/lo-chef-steak-house/hero.webp",
+    "thumbnail": "assets/images/lo-chef-steak-house/hero.webp"
   },
   {
     "id": "ChIJWzp0MJf4kT4R40JaODOUzJo",
@@ -34375,7 +34687,13 @@
     },
     "images": {
       "hero": "assets/images/lokanta-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/lokanta-restaurant/hero.webp",
+    "image": "assets/images/lokanta-restaurant/hero.webp",
+    "cover": "assets/images/lokanta-restaurant/hero.webp",
+    "cover_image": "assets/images/lokanta-restaurant/hero.webp",
+    "heroImage": "assets/images/lokanta-restaurant/hero.webp",
+    "thumbnail": "assets/images/lokanta-restaurant/hero.webp"
   },
   {
     "id": "ChIJv4FIe57_kT4RkWeixRUvplw",
@@ -34506,7 +34824,13 @@
     },
     "images": {
       "hero": "assets/images/mls-steakhouse/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mls-steakhouse/hero.webp",
+    "image": "assets/images/mls-steakhouse/hero.webp",
+    "cover": "assets/images/mls-steakhouse/hero.webp",
+    "cover_image": "assets/images/mls-steakhouse/hero.webp",
+    "heroImage": "assets/images/mls-steakhouse/hero.webp",
+    "thumbnail": "assets/images/mls-steakhouse/hero.webp"
   },
   {
     "id": "ChIJAV-VHMD_kT4RSnO-OEuP04I",
@@ -34635,7 +34959,13 @@
     },
     "images": {
       "hero": "assets/images/maraheb-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/maraheb-restaurant/hero.webp",
+    "image": "assets/images/maraheb-restaurant/hero.webp",
+    "cover": "assets/images/maraheb-restaurant/hero.webp",
+    "cover_image": "assets/images/maraheb-restaurant/hero.webp",
+    "heroImage": "assets/images/maraheb-restaurant/hero.webp",
+    "thumbnail": "assets/images/maraheb-restaurant/hero.webp"
   },
   {
     "id": "ChIJo0fUvwn5kT4RSYFuFvVcfO0",
@@ -34765,7 +35095,13 @@
     },
     "images": {
       "hero": "assets/images/marhaba-restaurant-ruwi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/marhaba-restaurant-ruwi/hero.webp",
+    "image": "assets/images/marhaba-restaurant-ruwi/hero.webp",
+    "cover": "assets/images/marhaba-restaurant-ruwi/hero.webp",
+    "cover_image": "assets/images/marhaba-restaurant-ruwi/hero.webp",
+    "heroImage": "assets/images/marhaba-restaurant-ruwi/hero.webp",
+    "thumbnail": "assets/images/marhaba-restaurant-ruwi/hero.webp"
   },
   {
     "id": "ChIJSa5q8LP_kT4RDaKvjJSoAqI",
@@ -34894,7 +35230,13 @@
     },
     "images": {
       "hero": "assets/images/marhaba-world-al-bukhari/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/marhaba-world-al-bukhari/hero.webp",
+    "image": "assets/images/marhaba-world-al-bukhari/hero.webp",
+    "cover": "assets/images/marhaba-world-al-bukhari/hero.webp",
+    "cover_image": "assets/images/marhaba-world-al-bukhari/hero.webp",
+    "heroImage": "assets/images/marhaba-world-al-bukhari/hero.webp",
+    "thumbnail": "assets/images/marhaba-world-al-bukhari/hero.webp"
   },
   {
     "id": "ChIJp7jhvAj3kT4Rn8rlrWtxbpY",
@@ -35024,7 +35366,13 @@
     },
     "images": {
       "hero": "assets/images/mariyam-al-fauri-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
+    "image": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
+    "cover": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
+    "cover_image": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
+    "heroImage": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
+    "thumbnail": "assets/images/mariyam-al-fauri-restaurant/hero.webp"
   },
   {
     "id": "ChIJabjB0vv_kT4R8AqY07uocKE",
@@ -35154,7 +35502,13 @@
     },
     "images": {
       "hero": "assets/images/meraj-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/meraj-restaurant/hero.webp",
+    "image": "assets/images/meraj-restaurant/hero.webp",
+    "cover": "assets/images/meraj-restaurant/hero.webp",
+    "cover_image": "assets/images/meraj-restaurant/hero.webp",
+    "heroImage": "assets/images/meraj-restaurant/hero.webp",
+    "thumbnail": "assets/images/meraj-restaurant/hero.webp"
   },
   {
     "id": "ChIJL9QU-539jT4RvpA4RJUEHYg",
@@ -35283,7 +35637,13 @@
     },
     "images": {
       "hero": "assets/images/merdost-turkish-restaurant-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
+    "image": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
+    "cover": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
+    "cover_image": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
+    "heroImage": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
+    "thumbnail": "assets/images/merdost-turkish-restaurant-oman/hero.webp"
   },
   {
     "id": "ChIJE5VpiYz4kT4RCjAA7bwEYd4",
@@ -35411,7 +35771,13 @@
     },
     "images": {
       "hero": "assets/images/mezza-co/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mezza-co/hero.webp",
+    "image": "assets/images/mezza-co/hero.webp",
+    "cover": "assets/images/mezza-co/hero.webp",
+    "cover_image": "assets/images/mezza-co/hero.webp",
+    "heroImage": "assets/images/mezza-co/hero.webp",
+    "thumbnail": "assets/images/mezza-co/hero.webp"
   },
   {
     "id": "ChIJMyX--CT_kT4RzH6CM1uhyco",
@@ -35541,7 +35907,13 @@
     },
     "images": {
       "hero": "assets/images/mint-coco/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mint-coco/hero.webp",
+    "image": "assets/images/mint-coco/hero.webp",
+    "cover": "assets/images/mint-coco/hero.webp",
+    "cover_image": "assets/images/mint-coco/hero.webp",
+    "heroImage": "assets/images/mint-coco/hero.webp",
+    "thumbnail": "assets/images/mint-coco/hero.webp"
   },
   {
     "id": "ChIJZaIkcAD9jT4Rb-doI3R9rsg",
@@ -35670,7 +36042,13 @@
     },
     "images": {
       "hero": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
+    "image": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
+    "cover": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
+    "cover_image": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
+    "heroImage": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
+    "thumbnail": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp"
   },
   {
     "id": "ChIJU1EnsFgAjj4RbgSankWqnOQ",
@@ -35799,7 +36177,13 @@
     },
     "images": {
       "hero": "assets/images/mosaic-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mosaic-restaurant/hero.webp",
+    "image": "assets/images/mosaic-restaurant/hero.webp",
+    "cover": "assets/images/mosaic-restaurant/hero.webp",
+    "cover_image": "assets/images/mosaic-restaurant/hero.webp",
+    "heroImage": "assets/images/mosaic-restaurant/hero.webp",
+    "thumbnail": "assets/images/mosaic-restaurant/hero.webp"
   },
   {
     "id": "ChIJP0QygUb_kT4RxLZ95006jyM",
@@ -35929,7 +36313,13 @@
     },
     "images": {
       "hero": "assets/images/nana-s-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nana-s-restaurant/hero.webp",
+    "image": "assets/images/nana-s-restaurant/hero.webp",
+    "cover": "assets/images/nana-s-restaurant/hero.webp",
+    "cover_image": "assets/images/nana-s-restaurant/hero.webp",
+    "heroImage": "assets/images/nana-s-restaurant/hero.webp",
+    "thumbnail": "assets/images/nana-s-restaurant/hero.webp"
   },
   {
     "id": "ChIJD7wnMaT_kT4R94m7rkbaDvM",
@@ -36059,7 +36449,13 @@
     },
     "images": {
       "hero": "assets/images/nando-s-oman-avenues-mall/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nando-s-oman-avenues-mall/hero.webp",
+    "image": "assets/images/nando-s-oman-avenues-mall/hero.webp",
+    "cover": "assets/images/nando-s-oman-avenues-mall/hero.webp",
+    "cover_image": "assets/images/nando-s-oman-avenues-mall/hero.webp",
+    "heroImage": "assets/images/nando-s-oman-avenues-mall/hero.webp",
+    "thumbnail": "assets/images/nando-s-oman-avenues-mall/hero.webp"
   },
   {
     "id": "ChIJgaBcYe34kT4Rw4U95xhVmlA",
@@ -36189,7 +36585,13 @@
     },
     "images": {
       "hero": "assets/images/nando-s-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nando-s-qurum/hero.webp",
+    "image": "assets/images/nando-s-qurum/hero.webp",
+    "cover": "assets/images/nando-s-qurum/hero.webp",
+    "cover_image": "assets/images/nando-s-qurum/hero.webp",
+    "heroImage": "assets/images/nando-s-qurum/hero.webp",
+    "thumbnail": "assets/images/nando-s-qurum/hero.webp"
   },
   {
     "id": "ChIJUQpLuLr_kT4RhzF1rdIJM-M",
@@ -36319,7 +36721,13 @@
     },
     "images": {
       "hero": "assets/images/nizam-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/nizam-restaurant/hero.webp",
+    "image": "assets/images/nizam-restaurant/hero.webp",
+    "cover": "assets/images/nizam-restaurant/hero.webp",
+    "cover_image": "assets/images/nizam-restaurant/hero.webp",
+    "heroImage": "assets/images/nizam-restaurant/hero.webp",
+    "thumbnail": "assets/images/nizam-restaurant/hero.webp"
   },
   {
     "id": "ChIJDwwfTQX_kT4RgBM9nnNm2Qc",
@@ -36443,7 +36851,13 @@
     },
     "images": {
       "hero": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
+    "image": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
+    "cover": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
+    "cover_image": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
+    "heroImage": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
+    "thumbnail": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp"
   },
   {
     "id": "ChIJh3mfp8X_kT4RREfWo6JjESM",
@@ -36572,7 +36986,13 @@
     },
     "images": {
       "hero": "assets/images/olive-beach-restro/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/olive-beach-restro/hero.webp",
+    "image": "assets/images/olive-beach-restro/hero.webp",
+    "cover": "assets/images/olive-beach-restro/hero.webp",
+    "cover_image": "assets/images/olive-beach-restro/hero.webp",
+    "heroImage": "assets/images/olive-beach-restro/hero.webp",
+    "thumbnail": "assets/images/olive-beach-restro/hero.webp"
   },
   {
     "id": "ChIJVaEkR-f_kT4RrcvpnG1-muc",
@@ -36702,7 +37122,13 @@
     },
     "images": {
       "hero": "assets/images/orient-restaurant-cafe/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/orient-restaurant-cafe/hero.webp",
+    "image": "assets/images/orient-restaurant-cafe/hero.webp",
+    "cover": "assets/images/orient-restaurant-cafe/hero.webp",
+    "cover_image": "assets/images/orient-restaurant-cafe/hero.webp",
+    "heroImage": "assets/images/orient-restaurant-cafe/hero.webp",
+    "thumbnail": "assets/images/orient-restaurant-cafe/hero.webp"
   },
   {
     "id": "ChIJR0tHov_5kT4R3BFvOmlDxn0",
@@ -36831,7 +37257,13 @@
     },
     "images": {
       "hero": "assets/images/o-licious/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/o-licious/hero.webp",
+    "image": "assets/images/o-licious/hero.webp",
+    "cover": "assets/images/o-licious/hero.webp",
+    "cover_image": "assets/images/o-licious/hero.webp",
+    "heroImage": "assets/images/o-licious/hero.webp",
+    "thumbnail": "assets/images/o-licious/hero.webp"
   },
   {
     "id": "ChIJ-UJv563_kT4RleYWVbBDrzY",
@@ -36963,7 +37395,13 @@
     },
     "images": {
       "hero": "assets/images/pista-house/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/pista-house/hero.webp",
+    "image": "assets/images/pista-house/hero.webp",
+    "cover": "assets/images/pista-house/hero.webp",
+    "cover_image": "assets/images/pista-house/hero.webp",
+    "heroImage": "assets/images/pista-house/hero.webp",
+    "thumbnail": "assets/images/pista-house/hero.webp"
   },
   {
     "id": "ChIJRzsXRr79jT4RER7XFwLkD0c",
@@ -37092,7 +37530,13 @@
     },
     "images": {
       "hero": "assets/images/qasr-al-iraqi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/qasr-al-iraqi/hero.webp",
+    "image": "assets/images/qasr-al-iraqi/hero.webp",
+    "cover": "assets/images/qasr-al-iraqi/hero.webp",
+    "cover_image": "assets/images/qasr-al-iraqi/hero.webp",
+    "heroImage": "assets/images/qasr-al-iraqi/hero.webp",
+    "thumbnail": "assets/images/qasr-al-iraqi/hero.webp"
   },
   {
     "id": "ChIJeaJ2lCL5kT4RZwBiMWrX9XM",
@@ -37224,7 +37668,13 @@
     },
     "images": {
       "hero": "assets/images/ramssa-omani-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ramssa-omani-restaurant/hero.webp",
+    "image": "assets/images/ramssa-omani-restaurant/hero.webp",
+    "cover": "assets/images/ramssa-omani-restaurant/hero.webp",
+    "cover_image": "assets/images/ramssa-omani-restaurant/hero.webp",
+    "heroImage": "assets/images/ramssa-omani-restaurant/hero.webp",
+    "thumbnail": "assets/images/ramssa-omani-restaurant/hero.webp"
   },
   {
     "id": "ChIJ7UAinxb5kT4RoCculac4u-I",
@@ -37353,7 +37803,13 @@
     },
     "images": {
       "hero": "assets/images/reef-al-yemen/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/reef-al-yemen/hero.webp",
+    "image": "assets/images/reef-al-yemen/hero.webp",
+    "cover": "assets/images/reef-al-yemen/hero.webp",
+    "cover_image": "assets/images/reef-al-yemen/hero.webp",
+    "heroImage": "assets/images/reef-al-yemen/hero.webp",
+    "thumbnail": "assets/images/reef-al-yemen/hero.webp"
   },
   {
     "id": "ChIJRb3MBI75kT4Rrd_lVjsgdDo",
@@ -37482,7 +37938,13 @@
     },
     "images": {
       "hero": "assets/images/richy-dine-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/richy-dine-restaurant/hero.webp",
+    "image": "assets/images/richy-dine-restaurant/hero.webp",
+    "cover": "assets/images/richy-dine-restaurant/hero.webp",
+    "cover_image": "assets/images/richy-dine-restaurant/hero.webp",
+    "heroImage": "assets/images/richy-dine-restaurant/hero.webp",
+    "thumbnail": "assets/images/richy-dine-restaurant/hero.webp"
   },
   {
     "id": "ChIJjQtEKAD9jT4RinyfZdiGgtk",
@@ -37609,7 +38071,13 @@
     },
     "images": {
       "hero": "assets/images/rocas-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/rocas-restaurant/hero.webp",
+    "image": "assets/images/rocas-restaurant/hero.webp",
+    "cover": "assets/images/rocas-restaurant/hero.webp",
+    "cover_image": "assets/images/rocas-restaurant/hero.webp",
+    "heroImage": "assets/images/rocas-restaurant/hero.webp",
+    "thumbnail": "assets/images/rocas-restaurant/hero.webp"
   },
   {
     "id": "ChIJDXigEaj9jT4R-zvYcmEbOHo",
@@ -37738,7 +38206,13 @@
     },
     "images": {
       "hero": "assets/images/rooster-home/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/rooster-home/hero.webp",
+    "image": "assets/images/rooster-home/hero.webp",
+    "cover": "assets/images/rooster-home/hero.webp",
+    "cover_image": "assets/images/rooster-home/hero.webp",
+    "heroImage": "assets/images/rooster-home/hero.webp",
+    "thumbnail": "assets/images/rooster-home/hero.webp"
   },
   {
     "id": "ChIJKaEEFI_3kT4R97C_JA0iAaA",
@@ -37868,7 +38342,13 @@
     },
     "images": {
       "hero": "assets/images/royal-house-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/royal-house-restaurant/hero.webp",
+    "image": "assets/images/royal-house-restaurant/hero.webp",
+    "cover": "assets/images/royal-house-restaurant/hero.webp",
+    "cover_image": "assets/images/royal-house-restaurant/hero.webp",
+    "heroImage": "assets/images/royal-house-restaurant/hero.webp",
+    "thumbnail": "assets/images/royal-house-restaurant/hero.webp"
   },
   {
     "id": "ChIJLz77yecBjj4REJdnhZ2cXCQ",
@@ -38121,7 +38601,13 @@
     },
     "images": {
       "hero": "assets/images/rydan-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/rydan-restaurant/hero.webp",
+    "image": "assets/images/rydan-restaurant/hero.webp",
+    "cover": "assets/images/rydan-restaurant/hero.webp",
+    "cover_image": "assets/images/rydan-restaurant/hero.webp",
+    "heroImage": "assets/images/rydan-restaurant/hero.webp",
+    "thumbnail": "assets/images/rydan-restaurant/hero.webp"
   },
   {
     "id": "ChIJzfs-KQD9jT4R_21wbG5L_u8",
@@ -38250,7 +38736,13 @@
     },
     "images": {
       "hero": "assets/images/rydan-restaurant-al-hail/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/rydan-restaurant-al-hail/hero.webp",
+    "image": "assets/images/rydan-restaurant-al-hail/hero.webp",
+    "cover": "assets/images/rydan-restaurant-al-hail/hero.webp",
+    "cover_image": "assets/images/rydan-restaurant-al-hail/hero.webp",
+    "heroImage": "assets/images/rydan-restaurant-al-hail/hero.webp",
+    "thumbnail": "assets/images/rydan-restaurant-al-hail/hero.webp"
   },
   {
     "id": "ChIJMaX7Mdb5kT4R3eS5YJeYtVE",
@@ -38379,7 +38871,13 @@
     },
     "images": {
       "hero": "assets/images/sagar-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sagar-restaurant/hero.webp",
+    "image": "assets/images/sagar-restaurant/hero.webp",
+    "cover": "assets/images/sagar-restaurant/hero.webp",
+    "cover_image": "assets/images/sagar-restaurant/hero.webp",
+    "heroImage": "assets/images/sagar-restaurant/hero.webp",
+    "thumbnail": "assets/images/sagar-restaurant/hero.webp"
   },
   {
     "id": "ChIJH-SHTDb9jT4R22CiWY5ksXc",
@@ -38511,7 +39009,13 @@
     },
     "images": {
       "hero": "assets/images/salt-pepper-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/salt-pepper-restaurant/hero.webp",
+    "image": "assets/images/salt-pepper-restaurant/hero.webp",
+    "cover": "assets/images/salt-pepper-restaurant/hero.webp",
+    "cover_image": "assets/images/salt-pepper-restaurant/hero.webp",
+    "heroImage": "assets/images/salt-pepper-restaurant/hero.webp",
+    "thumbnail": "assets/images/salt-pepper-restaurant/hero.webp"
   },
   {
     "id": "ChIJSc9CLFX-kT4Rjs493sAg8u8",
@@ -38641,7 +39145,13 @@
     },
     "images": {
       "hero": "assets/images/samakmak-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/samakmak-restaurant/hero.webp",
+    "image": "assets/images/samakmak-restaurant/hero.webp",
+    "cover": "assets/images/samakmak-restaurant/hero.webp",
+    "cover_image": "assets/images/samakmak-restaurant/hero.webp",
+    "heroImage": "assets/images/samakmak-restaurant/hero.webp",
+    "thumbnail": "assets/images/samakmak-restaurant/hero.webp"
   },
   {
     "id": "ChIJVf3f9nv9jT4RS00t-b0DsjQ",
@@ -38770,7 +39280,13 @@
     },
     "images": {
       "hero": "assets/images/saweh-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/saweh-restaurant/hero.webp",
+    "image": "assets/images/saweh-restaurant/hero.webp",
+    "cover": "assets/images/saweh-restaurant/hero.webp",
+    "cover_image": "assets/images/saweh-restaurant/hero.webp",
+    "heroImage": "assets/images/saweh-restaurant/hero.webp",
+    "thumbnail": "assets/images/saweh-restaurant/hero.webp"
   },
   {
     "id": "ChIJe5uD7rT4kT4RDBo1_Xs4Ixo",
@@ -38900,7 +39416,13 @@
     },
     "images": {
       "hero": "assets/images/shandiz-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shandiz-restaurant/hero.webp",
+    "image": "assets/images/shandiz-restaurant/hero.webp",
+    "cover": "assets/images/shandiz-restaurant/hero.webp",
+    "cover_image": "assets/images/shandiz-restaurant/hero.webp",
+    "heroImage": "assets/images/shandiz-restaurant/hero.webp",
+    "thumbnail": "assets/images/shandiz-restaurant/hero.webp"
   },
   {
     "id": "ChIJiaFl9Gv9jT4R5bDUFRSFYBQ",
@@ -39031,7 +39553,13 @@
     },
     "images": {
       "hero": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
+    "image": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
+    "cover": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
+    "cover_image": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
+    "heroImage": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
+    "thumbnail": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp"
   },
   {
     "id": "ChIJKwGmwkz_kT4RyRnU_oJTL7g",
@@ -39161,7 +39689,13 @@
     },
     "images": {
       "hero": "assets/images/slider-station/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/slider-station/hero.webp",
+    "image": "assets/images/slider-station/hero.webp",
+    "cover": "assets/images/slider-station/hero.webp",
+    "cover_image": "assets/images/slider-station/hero.webp",
+    "heroImage": "assets/images/slider-station/hero.webp",
+    "thumbnail": "assets/images/slider-station/hero.webp"
   },
   {
     "id": "ChIJr3DnoCP_kT4R9rI1ZY63mAs",
@@ -39284,7 +39818,13 @@
     },
     "images": {
       "hero": "assets/images/smokey-blues/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/smokey-blues/hero.webp",
+    "image": "assets/images/smokey-blues/hero.webp",
+    "cover": "assets/images/smokey-blues/hero.webp",
+    "cover_image": "assets/images/smokey-blues/hero.webp",
+    "heroImage": "assets/images/smokey-blues/hero.webp",
+    "thumbnail": "assets/images/smokey-blues/hero.webp"
   },
   {
     "id": "ChIJfX-pQl_9jT4RKE7fpBkbV_w",
@@ -39414,7 +39954,13 @@
     },
     "images": {
       "hero": "assets/images/sukoon-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sukoon-restaurant/hero.webp",
+    "image": "assets/images/sukoon-restaurant/hero.webp",
+    "cover": "assets/images/sukoon-restaurant/hero.webp",
+    "cover_image": "assets/images/sukoon-restaurant/hero.webp",
+    "heroImage": "assets/images/sukoon-restaurant/hero.webp",
+    "thumbnail": "assets/images/sukoon-restaurant/hero.webp"
   },
   {
     "id": "ChIJ0cQzfvj8jT4RB5Ub8pIIVqE",
@@ -39544,7 +40090,13 @@
     },
     "images": {
       "hero": "assets/images/suleiman-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/suleiman-restaurant/hero.webp",
+    "image": "assets/images/suleiman-restaurant/hero.webp",
+    "cover": "assets/images/suleiman-restaurant/hero.webp",
+    "cover_image": "assets/images/suleiman-restaurant/hero.webp",
+    "heroImage": "assets/images/suleiman-restaurant/hero.webp",
+    "thumbnail": "assets/images/suleiman-restaurant/hero.webp"
   },
   {
     "id": "ChIJrTG9pdP9jT4RjdRRJWAdQ1A",
@@ -39673,7 +40225,13 @@
     },
     "images": {
       "hero": "assets/images/thor-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/thor-restaurant/hero.webp",
+    "image": "assets/images/thor-restaurant/hero.webp",
+    "cover": "assets/images/thor-restaurant/hero.webp",
+    "cover_image": "assets/images/thor-restaurant/hero.webp",
+    "heroImage": "assets/images/thor-restaurant/hero.webp",
+    "thumbnail": "assets/images/thor-restaurant/hero.webp"
   },
   {
     "id": "ChIJi3amfQD_kT4RZJdVUImkVMg",
@@ -39802,7 +40360,13 @@
     },
     "images": {
       "hero": "assets/images/taj-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/taj-restaurant/hero.webp",
+    "image": "assets/images/taj-restaurant/hero.webp",
+    "cover": "assets/images/taj-restaurant/hero.webp",
+    "cover_image": "assets/images/taj-restaurant/hero.webp",
+    "heroImage": "assets/images/taj-restaurant/hero.webp",
+    "thumbnail": "assets/images/taj-restaurant/hero.webp"
   },
   {
     "id": "ChIJB4LwQwD3kT4Rx9H5VDctnPA",
@@ -39925,7 +40489,13 @@
     },
     "images": {
       "hero": "assets/images/thalassa-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/thalassa-restaurant/hero.webp",
+    "image": "assets/images/thalassa-restaurant/hero.webp",
+    "cover": "assets/images/thalassa-restaurant/hero.webp",
+    "cover_image": "assets/images/thalassa-restaurant/hero.webp",
+    "heroImage": "assets/images/thalassa-restaurant/hero.webp",
+    "thumbnail": "assets/images/thalassa-restaurant/hero.webp"
   },
   {
     "id": "ChIJwdXVxjv4kT4Re9ukfDS9Y8Q",
@@ -40053,7 +40623,13 @@
     },
     "images": {
       "hero": "assets/images/the-cave/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-cave/hero.webp",
+    "image": "assets/images/the-cave/hero.webp",
+    "cover": "assets/images/the-cave/hero.webp",
+    "cover_image": "assets/images/the-cave/hero.webp",
+    "heroImage": "assets/images/the-cave/hero.webp",
+    "thumbnail": "assets/images/the-cave/hero.webp"
   },
   {
     "id": "ChIJczELTC39jT4RP7w_dpJutVo",
@@ -40186,7 +40762,13 @@
     },
     "images": {
       "hero": "assets/images/the-kitchen-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-kitchen-restaurant/hero.webp",
+    "image": "assets/images/the-kitchen-restaurant/hero.webp",
+    "cover": "assets/images/the-kitchen-restaurant/hero.webp",
+    "cover_image": "assets/images/the-kitchen-restaurant/hero.webp",
+    "heroImage": "assets/images/the-kitchen-restaurant/hero.webp",
+    "thumbnail": "assets/images/the-kitchen-restaurant/hero.webp"
   },
   {
     "id": "ChIJ80PYOr75kT4RPTT-2eyLG9s",
@@ -40318,7 +40900,13 @@
     },
     "images": {
       "hero": "assets/images/the-source-by-al-fakher/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-source-by-al-fakher/hero.webp",
+    "image": "assets/images/the-source-by-al-fakher/hero.webp",
+    "cover": "assets/images/the-source-by-al-fakher/hero.webp",
+    "cover_image": "assets/images/the-source-by-al-fakher/hero.webp",
+    "heroImage": "assets/images/the-source-by-al-fakher/hero.webp",
+    "thumbnail": "assets/images/the-source-by-al-fakher/hero.webp"
   },
   {
     "id": "ChIJ9RU04KIAjj4RoOFiATGjnVM",
@@ -40447,7 +41035,13 @@
     },
     "images": {
       "hero": "assets/images/theatrum-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/theatrum-restaurant/hero.webp",
+    "image": "assets/images/theatrum-restaurant/hero.webp",
+    "cover": "assets/images/theatrum-restaurant/hero.webp",
+    "cover_image": "assets/images/theatrum-restaurant/hero.webp",
+    "heroImage": "assets/images/theatrum-restaurant/hero.webp",
+    "thumbnail": "assets/images/theatrum-restaurant/hero.webp"
   },
   {
     "id": "ChIJ1df_FLP4kT4ROKq4BSBy_oY",
@@ -40571,7 +41165,13 @@
     },
     "images": {
       "hero": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
+    "image": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
+    "cover": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
+    "cover_image": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
+    "heroImage": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
+    "thumbnail": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp"
   },
   {
     "id": "ChIJe814kgT_kT4RW_z_grkersQ",
@@ -40701,7 +41301,13 @@
     },
     "images": {
       "hero": "assets/images/turkish-diwan-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/turkish-diwan-restaurant/hero.webp",
+    "image": "assets/images/turkish-diwan-restaurant/hero.webp",
+    "cover": "assets/images/turkish-diwan-restaurant/hero.webp",
+    "cover_image": "assets/images/turkish-diwan-restaurant/hero.webp",
+    "heroImage": "assets/images/turkish-diwan-restaurant/hero.webp",
+    "thumbnail": "assets/images/turkish-diwan-restaurant/hero.webp"
   },
   {
     "id": "ChIJRx5tExD_kT4RrmhAHkRlS6Q",
@@ -40836,7 +41442,13 @@
     },
     "images": {
       "hero": "assets/images/turkish-house-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/turkish-house-restaurant/hero.webp",
+    "image": "assets/images/turkish-house-restaurant/hero.webp",
+    "cover": "assets/images/turkish-house-restaurant/hero.webp",
+    "cover_image": "assets/images/turkish-house-restaurant/hero.webp",
+    "heroImage": "assets/images/turkish-house-restaurant/hero.webp",
+    "thumbnail": "assets/images/turkish-house-restaurant/hero.webp"
   },
   {
     "id": "ChIJGRM9e7D9jT4RF8ulYScKJlQ",
@@ -40966,7 +41578,13 @@
     },
     "images": {
       "hero": "assets/images/turkish-palace-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/turkish-palace-restaurant/hero.webp",
+    "image": "assets/images/turkish-palace-restaurant/hero.webp",
+    "cover": "assets/images/turkish-palace-restaurant/hero.webp",
+    "cover_image": "assets/images/turkish-palace-restaurant/hero.webp",
+    "heroImage": "assets/images/turkish-palace-restaurant/hero.webp",
+    "thumbnail": "assets/images/turkish-palace-restaurant/hero.webp"
   },
   {
     "id": "ChIJx5VM3rT4kT4Rmnp9inhaflE",
@@ -41222,7 +41840,13 @@
     },
     "images": {
       "hero": "assets/images/wabi-sabi-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/wabi-sabi-oman/hero.webp",
+    "image": "assets/images/wabi-sabi-oman/hero.webp",
+    "cover": "assets/images/wabi-sabi-oman/hero.webp",
+    "cover_image": "assets/images/wabi-sabi-oman/hero.webp",
+    "heroImage": "assets/images/wabi-sabi-oman/hero.webp",
+    "thumbnail": "assets/images/wabi-sabi-oman/hero.webp"
   },
   {
     "id": "ChIJTzGSwND5kT4RBoVOQ2YW-_k",
@@ -41353,7 +41977,13 @@
     },
     "images": {
       "hero": "assets/images/woodlands-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/woodlands-restaurant/hero.webp",
+    "image": "assets/images/woodlands-restaurant/hero.webp",
+    "cover": "assets/images/woodlands-restaurant/hero.webp",
+    "cover_image": "assets/images/woodlands-restaurant/hero.webp",
+    "heroImage": "assets/images/woodlands-restaurant/hero.webp",
+    "thumbnail": "assets/images/woodlands-restaurant/hero.webp"
   },
   {
     "id": "ChIJ2X-zOED_kT4R7T_Xp_xKwTs",
@@ -41604,7 +42234,13 @@
     },
     "images": {
       "hero": "assets/images/zher-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/zher-restaurant/hero.webp",
+    "image": "assets/images/zher-restaurant/hero.webp",
+    "cover": "assets/images/zher-restaurant/hero.webp",
+    "cover_image": "assets/images/zher-restaurant/hero.webp",
+    "heroImage": "assets/images/zher-restaurant/hero.webp",
+    "thumbnail": "assets/images/zher-restaurant/hero.webp"
   },
   {
     "id": "ChIJJ1JSS3z5kT4R9suBkx_sih0",
@@ -41734,7 +42370,13 @@
     },
     "images": {
       "hero": "assets/images/zuwadeh-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/zuwadeh-restaurant/hero.webp",
+    "image": "assets/images/zuwadeh-restaurant/hero.webp",
+    "cover": "assets/images/zuwadeh-restaurant/hero.webp",
+    "cover_image": "assets/images/zuwadeh-restaurant/hero.webp",
+    "heroImage": "assets/images/zuwadeh-restaurant/hero.webp",
+    "thumbnail": "assets/images/zuwadeh-restaurant/hero.webp"
   },
   {
     "id": "ChIJ91TTSLz_kT4RAthsDFttJTA",
@@ -41864,7 +42506,13 @@
     },
     "images": {
       "hero": "assets/images/pirates/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/pirates/hero.webp",
+    "image": "assets/images/pirates/hero.webp",
+    "cover": "assets/images/pirates/hero.webp",
+    "cover_image": "assets/images/pirates/hero.webp",
+    "heroImage": "assets/images/pirates/hero.webp",
+    "thumbnail": "assets/images/pirates/hero.webp"
   },
   {
     "id": "ChIJ8RHBoTn_kT4RN9WoGLr0114",
@@ -41993,7 +42641,13 @@
     },
     "images": {
       "hero": "assets/images/zomra-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/zomra-restaurant/hero.webp",
+    "image": "assets/images/zomra-restaurant/hero.webp",
+    "cover": "assets/images/zomra-restaurant/hero.webp",
+    "cover_image": "assets/images/zomra-restaurant/hero.webp",
+    "heroImage": "assets/images/zomra-restaurant/hero.webp",
+    "thumbnail": "assets/images/zomra-restaurant/hero.webp"
   },
   {
     "id": "ChIJsSFlMiIBjj4RPPTpnw_gUIQ",
@@ -42122,7 +42776,13 @@
     },
     "images": {
       "hero": "assets/images/al-marsa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-marsa/hero.webp",
+    "image": "assets/images/al-marsa/hero.webp",
+    "cover": "assets/images/al-marsa/hero.webp",
+    "cover_image": "assets/images/al-marsa/hero.webp",
+    "heroImage": "assets/images/al-marsa/hero.webp",
+    "thumbnail": "assets/images/al-marsa/hero.webp"
   },
   {
     "id": "ChIJSYkRHbQBjj4RS_C8agurxOg",
@@ -42251,7 +42911,13 @@
     },
     "images": {
       "hero": "assets/images/al-amira-coffee-shop-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
+    "image": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
+    "cover": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
+    "cover_image": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
+    "heroImage": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
+    "thumbnail": "assets/images/al-amira-coffee-shop-restaurant/hero.webp"
   },
   {
     "id": "ChIJPQZ0oBr_kT4RPQffI5gVAjQ",
@@ -42381,7 +43047,13 @@
     },
     "images": {
       "hero": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
+    "image": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
+    "cover": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
+    "cover_image": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
+    "heroImage": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
+    "thumbnail": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp"
   },
   {
     "id": "ChIJEz-fMAD5kT4RTDdgzygo44s",
@@ -42509,7 +43181,13 @@
     },
     "images": {
       "hero": "assets/images/baba-kebabs-turkish-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
+    "image": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
+    "cover": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
+    "cover_image": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
+    "heroImage": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
+    "thumbnail": "assets/images/baba-kebabs-turkish-restaurant/hero.webp"
   },
   {
     "id": "ChIJ4QXYuo73kT4R1NK9WQhe7pY",
@@ -42639,7 +43317,13 @@
     },
     "images": {
       "hero": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
+    "image": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
+    "cover": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
+    "cover_image": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
+    "heroImage": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
+    "thumbnail": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp"
   },
   {
     "id": "sc001",
