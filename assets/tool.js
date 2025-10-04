@@ -84,18 +84,33 @@
     const keys = Array.isArray(item.schema_keys) ? item.schema_keys : [];
     return cols.some(c => keys.includes(c)); // CSV has ANY of these columns
   }
-  function hasData(item, cols = [], extraChecks = []) {
+    function hasData(item, cols = [], extraChecks = []) {
     const valHit = cols.some(c => {
       const v = item[c];
+  
+      // Special-case the nested "about" object: treat as data if it has short/long
+      if (c === "about") {
+        const nested = item.about && (item.about.short || item.about.long);
+        return !!(nested && String(nested).trim());
+      }
+  
+      // If the value is an object, treat it as non-empty if any nested string is non-empty
+      if (v && typeof v === "object") {
+        return Object.values(v).some(x => x !== undefined && x !== null && String(x).trim() !== "");
+      }
+  
+      // Default checks
       return Array.isArray(v) ? v.length > 0 : (v !== undefined && v !== null && String(v).trim() !== "");
     });
-    const extraHit = extraChecks.some(fn => { try { return !!fn(item); } catch { return false; } });
+  
+    const extraHit = extraChecks.some(fn => { try { return !!fn(item); } catch(e){ return false; }});
     return valHit || extraHit;
   }
 
+
   // One-time mapping from UI sections → relevant CSV columns
   const FEATURE_REQUIREMENTS = {
-    about:     { cols: ["about_short","about_long","description","tagline"] },
+    about:     { cols: ["about","about_short","about_long","description","tagline"] },
     amenities: { cols: ["amenities"] },
     cuisines:  { cols: ["cuisines"] },
     meals:     { cols: ["meals"] },
