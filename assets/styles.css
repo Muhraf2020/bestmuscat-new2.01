@@ -811,6 +811,38 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   font-size: 14px;
 }
 
+  /* ===== Inline rating chip beside Website/View ===== */
+  .card-body .ctas{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .ctas .rating-chip{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #111;            /* dark pill so it stands out */
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+  }
+  
+  .ctas .rating-chip .star{
+    width: 14px; height: 14px; display: inline-block;
+  }
+  
+  .ctas .rating-chip .meta{
+    opacity: .8;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
 .card .cta a:hover { background: #0d356e; }
 
 /* Keep 3 columns behaving nicely on small screens */
