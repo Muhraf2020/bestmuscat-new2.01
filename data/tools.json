@@ -4972,12 +4972,12 @@
     "images": {
       "hero": "assets/images/al-murooj-grand-hotel-muscat/hero.webp"
     },
-    "banner_image": "http://www.almuroojgrand.com/images/sliders/2.jpg",
-    "image": "http://www.almuroojgrand.com/images/sliders/2.jpg",
-    "cover": "http://www.almuroojgrand.com/images/sliders/2.jpg",
-    "cover_image": "http://www.almuroojgrand.com/images/sliders/2.jpg",
-    "heroImage": "http://www.almuroojgrand.com/images/sliders/2.jpg",
-    "thumbnail": "http://www.almuroojgrand.com/images/sliders/2.jpg"
+    "banner_image": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
+    "image": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
+    "cover": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/al-murooj-grand-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJ042t8AX-jT4R-Mdbum89R6c",
@@ -6928,7 +6928,13 @@
     },
     "images": {
       "hero": "assets/images/al-afrah-guest-house/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-afrah-guest-house/hero.webp",
+    "image": "assets/images/al-afrah-guest-house/hero.webp",
+    "cover": "assets/images/al-afrah-guest-house/hero.webp",
+    "cover_image": "assets/images/al-afrah-guest-house/hero.webp",
+    "heroImage": "assets/images/al-afrah-guest-house/hero.webp",
+    "thumbnail": "assets/images/al-afrah-guest-house/hero.webp"
   },
   {
     "id": "ChIJK4SgP7MBjj4RaFnnsseHnEU",
@@ -7315,7 +7321,13 @@
     },
     "images": {
       "hero": "assets/images/alyas-musct-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/alyas-musct-hotel/hero.webp",
+    "image": "assets/images/alyas-musct-hotel/hero.webp",
+    "cover": "assets/images/alyas-musct-hotel/hero.webp",
+    "cover_image": "assets/images/alyas-musct-hotel/hero.webp",
+    "heroImage": "assets/images/alyas-musct-hotel/hero.webp",
+    "thumbnail": "assets/images/alyas-musct-hotel/hero.webp"
   },
   {
     "id": "ChIJ87zLGYABjj4R3BxlAxoqdwo",
@@ -8125,7 +8137,13 @@
     },
     "images": {
       "hero": "assets/images/best-western-premier-muscat-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/best-western-premier-muscat-hotel/hero.webp",
+    "image": "assets/images/best-western-premier-muscat-hotel/hero.webp",
+    "cover": "assets/images/best-western-premier-muscat-hotel/hero.webp",
+    "cover_image": "assets/images/best-western-premier-muscat-hotel/hero.webp",
+    "heroImage": "assets/images/best-western-premier-muscat-hotel/hero.webp",
+    "thumbnail": "assets/images/best-western-premier-muscat-hotel/hero.webp"
   },
   {
     "id": "ChIJewRTHbLxkT4RZSuUC3fUIbU",
@@ -8252,7 +8270,13 @@
     },
     "images": {
       "hero": "assets/images/blue-gate-santorini-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/blue-gate-santorini-oman/hero.webp",
+    "image": "assets/images/blue-gate-santorini-oman/hero.webp",
+    "cover": "assets/images/blue-gate-santorini-oman/hero.webp",
+    "cover_image": "assets/images/blue-gate-santorini-oman/hero.webp",
+    "heroImage": "assets/images/blue-gate-santorini-oman/hero.webp",
+    "thumbnail": "assets/images/blue-gate-santorini-oman/hero.webp"
   },
   {
     "id": "ChIJ4QIYCCT7kT4RCzxlkjK__KM",
@@ -9594,7 +9618,13 @@
     },
     "images": {
       "hero": "assets/images/city-seasons-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/city-seasons-hotel-muscat/hero.webp",
+    "image": "assets/images/city-seasons-hotel-muscat/hero.webp",
+    "cover": "assets/images/city-seasons-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/city-seasons-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/city-seasons-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/city-seasons-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJP5bZSoD_kT4RiiTrnKMokKE",
@@ -9854,7 +9884,13 @@
     },
     "images": {
       "hero": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
+    "image": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
+    "cover": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
+    "cover_image": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
+    "heroImage": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
+    "thumbnail": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp"
   },
   {
     "id": "ChIJqfUBNqL4kT4RAG70h4DQXoY",
@@ -9977,7 +10013,13 @@
     },
     "images": {
       "hero": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
+    "image": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
+    "cover": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
+    "cover_image": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
+    "heroImage": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
+    "thumbnail": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp"
   },
   {
     "id": "ChIJ9W0_Y1n3kT4RjEtZQ1TmpOw",
@@ -10237,7 +10279,13 @@
     },
     "images": {
       "hero": "assets/images/delmon-hotel-apartments/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/delmon-hotel-apartments/hero.webp",
+    "image": "assets/images/delmon-hotel-apartments/hero.webp",
+    "cover": "assets/images/delmon-hotel-apartments/hero.webp",
+    "cover_image": "assets/images/delmon-hotel-apartments/hero.webp",
+    "heroImage": "assets/images/delmon-hotel-apartments/hero.webp",
+    "thumbnail": "assets/images/delmon-hotel-apartments/hero.webp"
   },
   {
     "id": "ChIJyRzq3ur5kT4RfAnzJ2M4U80",
@@ -10360,7 +10408,13 @@
     },
     "images": {
       "hero": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
+    "image": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
+    "cover": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
+    "cover_image": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
+    "heroImage": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
+    "thumbnail": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp"
   },
   {
     "id": "ChIJz7opx9P_kT4RpmTA2z5wRxI",
@@ -11296,7 +11350,13 @@
     },
     "images": {
       "hero": "assets/images/golden-tulip-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/golden-tulip-muscat/hero.webp",
+    "image": "assets/images/golden-tulip-muscat/hero.webp",
+    "cover": "assets/images/golden-tulip-muscat/hero.webp",
+    "cover_image": "assets/images/golden-tulip-muscat/hero.webp",
+    "heroImage": "assets/images/golden-tulip-muscat/hero.webp",
+    "thumbnail": "assets/images/golden-tulip-muscat/hero.webp"
   },
   {
     "id": "ChIJbRVtGaP4kT4R7xbwGYS7D1g",
@@ -12205,7 +12265,13 @@
     },
     "images": {
       "hero": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
+    "image": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
+    "cover": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
+    "cover_image": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
+    "heroImage": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
+    "thumbnail": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp"
   },
   {
     "id": "ChIJryVTzXX9jT4RIPQj5oeTeHE",
@@ -12328,7 +12394,13 @@
     },
     "images": {
       "hero": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
+    "image": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
+    "cover": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
+    "cover_image": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
+    "heroImage": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
+    "thumbnail": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp"
   },
   {
     "id": "ChIJOW4a1tH8jT4RxNVSb49tbKI",
@@ -13290,7 +13362,13 @@
     },
     "images": {
       "hero": "assets/images/intercontinental-muscat-by-ihg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
+    "image": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
+    "cover": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
+    "cover_image": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
+    "heroImage": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
+    "thumbnail": "assets/images/intercontinental-muscat-by-ihg/hero.webp"
   },
   {
     "id": "ChIJxytsh1b_kT4RkkgLB5EcfK4",
@@ -13430,7 +13508,13 @@
     },
     "images": {
       "hero": "assets/images/intercityhotel-bawshar/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/intercityhotel-bawshar/hero.webp",
+    "image": "assets/images/intercityhotel-bawshar/hero.webp",
+    "cover": "assets/images/intercityhotel-bawshar/hero.webp",
+    "cover_image": "assets/images/intercityhotel-bawshar/hero.webp",
+    "heroImage": "assets/images/intercityhotel-bawshar/hero.webp",
+    "thumbnail": "assets/images/intercityhotel-bawshar/hero.webp"
   },
   {
     "id": "ChIJA1fyEfT_kT4Rf7CY0HBvjTE",
@@ -13571,7 +13655,13 @@
     },
     "images": {
       "hero": "assets/images/intercityhotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/intercityhotel-muscat/hero.webp",
+    "image": "assets/images/intercityhotel-muscat/hero.webp",
+    "cover": "assets/images/intercityhotel-muscat/hero.webp",
+    "cover_image": "assets/images/intercityhotel-muscat/hero.webp",
+    "heroImage": "assets/images/intercityhotel-muscat/hero.webp",
+    "thumbnail": "assets/images/intercityhotel-muscat/hero.webp"
   },
   {
     "id": "ChIJGRHr2DH4kT4Rn94KKeONZsQ",
@@ -13703,7 +13793,13 @@
     },
     "images": {
       "hero": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
+    "image": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
+    "cover": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJgY0d2J3_kT4RLvVSl3RVhTg",
@@ -13826,7 +13922,13 @@
     },
     "images": {
       "hero": "assets/images/jw-marriott-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jw-marriott-hotel-muscat/hero.webp",
+    "image": "assets/images/jw-marriott-hotel-muscat/hero.webp",
+    "cover": "assets/images/jw-marriott-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/jw-marriott-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/jw-marriott-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/jw-marriott-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJ5duXEFiUkT4RORNzuT3tDSg",
@@ -14229,7 +14331,13 @@
     },
     "images": {
       "hero": "assets/images/jebel-sifah-suites/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jebel-sifah-suites/hero.webp",
+    "image": "assets/images/jebel-sifah-suites/hero.webp",
+    "cover": "assets/images/jebel-sifah-suites/hero.webp",
+    "cover_image": "assets/images/jebel-sifah-suites/hero.webp",
+    "heroImage": "assets/images/jebel-sifah-suites/hero.webp",
+    "thumbnail": "assets/images/jebel-sifah-suites/hero.webp"
   },
   {
     "id": "ChIJFUAcxHP3kT4RuBTCYlR2u50",
@@ -14771,7 +14879,13 @@
     },
     "images": {
       "hero": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
+    "image": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
+    "cover": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
+    "cover_image": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
+    "heroImage": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
+    "thumbnail": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp"
   },
   {
     "id": "ChIJf72sopn_kT4RyuJdcWW2-Hs",
@@ -14894,7 +15008,13 @@
     },
     "images": {
       "hero": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
+    "image": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
+    "cover": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
+    "cover_image": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
+    "heroImage": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
+    "thumbnail": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp"
   },
   {
     "id": "ChIJG8ZPDL2VkT4RjoRhC3IdtWY",
@@ -15307,7 +15427,13 @@
     },
     "images": {
       "hero": "assets/images/mandarin-oriental-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mandarin-oriental-muscat/hero.webp",
+    "image": "assets/images/mandarin-oriental-muscat/hero.webp",
+    "cover": "assets/images/mandarin-oriental-muscat/hero.webp",
+    "cover_image": "assets/images/mandarin-oriental-muscat/hero.webp",
+    "heroImage": "assets/images/mandarin-oriental-muscat/hero.webp",
+    "thumbnail": "assets/images/mandarin-oriental-muscat/hero.webp"
   },
   {
     "id": "ChIJbYFPipv_kT4RBw8jQjI9IgA",
@@ -16496,7 +16622,13 @@
     },
     "images": {
       "hero": "assets/images/mysk-al-mouj/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/mysk-al-mouj/hero.webp",
+    "image": "assets/images/mysk-al-mouj/hero.webp",
+    "cover": "assets/images/mysk-al-mouj/hero.webp",
+    "cover_image": "assets/images/mysk-al-mouj/hero.webp",
+    "heroImage": "assets/images/mysk-al-mouj/hero.webp",
+    "thumbnail": "assets/images/mysk-al-mouj/hero.webp"
   },
   {
     "id": "ChIJP9TlF_sBjj4R8iiKFNder6Y",
@@ -16638,7 +16770,13 @@
     },
     "images": {
       "hero": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
+    "image": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
+    "cover": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
+    "cover_image": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
+    "heroImage": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
+    "thumbnail": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp"
   },
   {
     "id": "ChIJ04H5SsPxkT4RT_6T_ENGcEY",
@@ -16904,7 +17042,13 @@
     },
     "images": {
       "hero": "assets/images/naseem-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/naseem-hotel/hero.webp",
+    "image": "assets/images/naseem-hotel/hero.webp",
+    "cover": "assets/images/naseem-hotel/hero.webp",
+    "cover_image": "assets/images/naseem-hotel/hero.webp",
+    "heroImage": "assets/images/naseem-hotel/hero.webp",
+    "thumbnail": "assets/images/naseem-hotel/hero.webp"
   },
   {
     "id": "ChIJayFT4qIAjj4RxhyFXY38OmA",
@@ -17732,7 +17876,13 @@
     },
     "images": {
       "hero": "assets/images/parkside-plaza-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/parkside-plaza-hotel/hero.webp",
+    "image": "assets/images/parkside-plaza-hotel/hero.webp",
+    "cover": "assets/images/parkside-plaza-hotel/hero.webp",
+    "cover_image": "assets/images/parkside-plaza-hotel/hero.webp",
+    "heroImage": "assets/images/parkside-plaza-hotel/hero.webp",
+    "thumbnail": "assets/images/parkside-plaza-hotel/hero.webp"
   },
   {
     "id": "ChIJU15m-935kT4RKXW0j0uZ394",
@@ -18659,7 +18809,13 @@
     },
     "images": {
       "hero": "assets/images/radisson-blu-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/radisson-blu-hotel-muscat/hero.webp",
+    "image": "assets/images/radisson-blu-hotel-muscat/hero.webp",
+    "cover": "assets/images/radisson-blu-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/radisson-blu-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/radisson-blu-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/radisson-blu-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJiabZCboAjj4RUW_LVMJShog",
@@ -18782,7 +18938,13 @@
     },
     "images": {
       "hero": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
+    "image": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
+    "cover": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
+    "cover_image": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
+    "heroImage": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
+    "thumbnail": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp"
   },
   {
     "id": "ChIJWR3ZByv_kT4Rd6jHr3NsxEw",
@@ -19045,7 +19207,13 @@
     },
     "images": {
       "hero": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
+    "image": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
+    "cover": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
+    "cover_image": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
+    "heroImage": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
+    "thumbnail": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp"
   },
   {
     "id": "ChIJ_yYrTikHjj4RyiwepPJBca8",
@@ -19186,7 +19354,13 @@
     },
     "images": {
       "hero": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
+    "image": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
+    "cover": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
+    "cover_image": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
+    "heroImage": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
+    "thumbnail": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp"
   },
   {
     "id": "ChIJD28Lrd_kjT4ReugPyQwR8Qk",
@@ -19309,7 +19483,13 @@
     },
     "images": {
       "hero": "assets/images/ramee-dream-resort-seeb/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ramee-dream-resort-seeb/hero.webp",
+    "image": "assets/images/ramee-dream-resort-seeb/hero.webp",
+    "cover": "assets/images/ramee-dream-resort-seeb/hero.webp",
+    "cover_image": "assets/images/ramee-dream-resort-seeb/hero.webp",
+    "heroImage": "assets/images/ramee-dream-resort-seeb/hero.webp",
+    "thumbnail": "assets/images/ramee-dream-resort-seeb/hero.webp"
   },
   {
     "id": "ChIJxTIG8Ab3kT4RCuuX6kFg1l0",
@@ -19432,7 +19612,13 @@
     },
     "images": {
       "hero": "assets/images/ramee-guestline-hotel-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
+    "image": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
+    "cover": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
+    "cover_image": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
+    "heroImage": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
+    "thumbnail": "assets/images/ramee-guestline-hotel-qurum/hero.webp"
   },
   {
     "id": "ChIJe4qej3b_kT4RBPx856JQmbA",
@@ -19699,7 +19885,13 @@
     },
     "images": {
       "hero": "assets/images/riyam-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/riyam-hotel-muscat/hero.webp",
+    "image": "assets/images/riyam-hotel-muscat/hero.webp",
+    "cover": "assets/images/riyam-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/riyam-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/riyam-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/riyam-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJEWs0DOz_kT4RTezLdcdjvzM",
@@ -19959,7 +20151,13 @@
     },
     "images": {
       "hero": "assets/images/royal-tulip-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/royal-tulip-muscat/hero.webp",
+    "image": "assets/images/royal-tulip-muscat/hero.webp",
+    "cover": "assets/images/royal-tulip-muscat/hero.webp",
+    "cover_image": "assets/images/royal-tulip-muscat/hero.webp",
+    "heroImage": "assets/images/royal-tulip-muscat/hero.webp",
+    "thumbnail": "assets/images/royal-tulip-muscat/hero.webp"
   },
   {
     "id": "ChIJeQrHF4D_kT4RsyHdqsFZiuk",
@@ -21553,7 +21751,13 @@
     },
     "images": {
       "hero": "assets/images/sheraton-oman-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sheraton-oman-hotel/hero.webp",
+    "image": "assets/images/sheraton-oman-hotel/hero.webp",
+    "cover": "assets/images/sheraton-oman-hotel/hero.webp",
+    "cover_image": "assets/images/sheraton-oman-hotel/hero.webp",
+    "heroImage": "assets/images/sheraton-oman-hotel/hero.webp",
+    "thumbnail": "assets/images/sheraton-oman-hotel/hero.webp"
   },
   {
     "id": "ChIJBzFk-TuVkT4RyTQcgr02JeE",
@@ -22223,7 +22427,13 @@
     },
     "images": {
       "hero": "assets/images/sun-city-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sun-city-hotel-muscat/hero.webp",
+    "image": "assets/images/sun-city-hotel-muscat/hero.webp",
+    "cover": "assets/images/sun-city-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/sun-city-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/sun-city-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/sun-city-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJaaMcKkD9jT4RA1JOrkHGa2I",
@@ -22632,7 +22842,13 @@
     },
     "images": {
       "hero": "assets/images/the-airport-hotel-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-airport-hotel-muscat/hero.webp",
+    "image": "assets/images/the-airport-hotel-muscat/hero.webp",
+    "cover": "assets/images/the-airport-hotel-muscat/hero.webp",
+    "cover_image": "assets/images/the-airport-hotel-muscat/hero.webp",
+    "heroImage": "assets/images/the-airport-hotel-muscat/hero.webp",
+    "thumbnail": "assets/images/the-airport-hotel-muscat/hero.webp"
   },
   {
     "id": "ChIJzV-UtyuVkT4RFrP4AqwfbrQ",
@@ -23053,7 +23269,13 @@
     },
     "images": {
       "hero": "assets/images/the-platinum-hotel/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-platinum-hotel/hero.webp",
+    "image": "assets/images/the-platinum-hotel/hero.webp",
+    "cover": "assets/images/the-platinum-hotel/hero.webp",
+    "cover_image": "assets/images/the-platinum-hotel/hero.webp",
+    "heroImage": "assets/images/the-platinum-hotel/hero.webp",
+    "thumbnail": "assets/images/the-platinum-hotel/hero.webp"
   },
   {
     "id": "ChIJLRvuyYT_kT4RdzS3-H3ZYD8",
@@ -34224,6 +34446,1300 @@
     "cover_image": "assets/images/date-cardamom-5/hero.webp",
     "heroImage": "assets/images/date-cardamom-5/hero.webp",
     "thumbnail": "assets/images/date-cardamom-5/hero.webp"
+  },
+  {
+    "id": "muscat-stay-1",
+    "slug": "muscat-stay-1",
+    "name": "Muscat Stay 1",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Ruwi",
+    "address": "Al Mouj Blvd",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.55511,
+    "lng": 58.655836,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-1",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-1"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/images/muscat-stay-1/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 1",
+    "image_source_url": "https://images.example.com/muscat-stay-1/hero",
+    "place_id": "PL_MUSCAT-STAY-1",
+    "osm_type": "node",
+    "osm_id": "6061353",
+    "wikidata_id": "Q697578",
+    "url": "/tool.html?slug=muscat-stay-1",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {
+      "hero": "assets/images/muscat-stay-1/hero.webp"
+    },
+    "banner_image": "assets/images/muscat-stay-1/hero.webp",
+    "image": "assets/images/muscat-stay-1/hero.webp",
+    "cover": "assets/images/muscat-stay-1/hero.webp",
+    "cover_image": "assets/images/muscat-stay-1/hero.webp",
+    "heroImage": "assets/images/muscat-stay-1/hero.webp",
+    "thumbnail": "assets/images/muscat-stay-1/hero.webp"
+  },
+  {
+    "id": "muscat-stay-2",
+    "slug": "muscat-stay-2",
+    "name": "Muscat Stay 2",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Al Azaiba",
+    "address": "Al Sarooj St",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.552288,
+    "lng": 58.584409,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-2",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-2"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "fri": [],
+        "sat": [],
+        "sun": [
+          {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-2/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 2",
+    "image_source_url": "https://images.example.com/muscat-stay-2/hero",
+    "place_id": "PL_MUSCAT-STAY-2",
+    "osm_type": "node",
+    "osm_id": "3056003",
+    "wikidata_id": "Q106085",
+    "url": "/tool.html?slug=muscat-stay-2",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-3",
+    "slug": "muscat-stay-3",
+    "name": "Muscat Stay 3",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Al Mouj",
+    "address": "Dolphin St",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.55794,
+    "lng": 58.653905,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-3",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-3"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-3/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 3",
+    "image_source_url": "https://images.example.com/muscat-stay-3/hero",
+    "place_id": "PL_MUSCAT-STAY-3",
+    "osm_type": "node",
+    "osm_id": "4332335",
+    "wikidata_id": "Q15700",
+    "url": "/tool.html?slug=muscat-stay-3",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-4",
+    "slug": "muscat-stay-4",
+    "name": "Muscat Stay 4",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Ghubrah",
+    "address": "Al Sarooj St",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.533313,
+    "lng": 58.421802,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-4",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-4"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/images/muscat-stay-4/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 4",
+    "image_source_url": "https://images.example.com/muscat-stay-4/hero",
+    "place_id": "PL_MUSCAT-STAY-4",
+    "osm_type": "node",
+    "osm_id": "5194546",
+    "wikidata_id": "Q389091",
+    "url": "/tool.html?slug=muscat-stay-4",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {
+      "hero": "assets/images/muscat-stay-4/hero.webp"
+    },
+    "banner_image": "assets/images/muscat-stay-4/hero.webp",
+    "image": "assets/images/muscat-stay-4/hero.webp",
+    "cover": "assets/images/muscat-stay-4/hero.webp",
+    "cover_image": "assets/images/muscat-stay-4/hero.webp",
+    "heroImage": "assets/images/muscat-stay-4/hero.webp",
+    "thumbnail": "assets/images/muscat-stay-4/hero.webp"
+  },
+  {
+    "id": "muscat-stay-5",
+    "slug": "muscat-stay-5",
+    "name": "Muscat Stay 5",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Shatti Al Qurum",
+    "address": "Al Kharjiyah St",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.57916,
+    "lng": 58.52301,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-5",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-5"
+    },
+    "hours": null,
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-5/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 5",
+    "image_source_url": "https://images.example.com/muscat-stay-5/hero",
+    "place_id": "PL_MUSCAT-STAY-5",
+    "osm_type": "node",
+    "osm_id": "198214",
+    "wikidata_id": "Q148418",
+    "url": "/tool.html?slug=muscat-stay-5",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-6",
+    "slug": "muscat-stay-6",
+    "name": "Muscat Stay 6",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Wadi Kabir",
+    "address": "Al Araimi Blvd",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.546148,
+    "lng": 58.670528,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-6",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-6"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/images/muscat-stay-6/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 6",
+    "image_source_url": "https://images.example.com/muscat-stay-6/hero",
+    "place_id": "PL_MUSCAT-STAY-6",
+    "osm_type": "node",
+    "osm_id": "5280482",
+    "wikidata_id": "Q228044",
+    "url": "/tool.html?slug=muscat-stay-6",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {
+      "hero": "assets/images/muscat-stay-6/hero.webp"
+    },
+    "banner_image": "assets/images/muscat-stay-6/hero.webp",
+    "image": "assets/images/muscat-stay-6/hero.webp",
+    "cover": "assets/images/muscat-stay-6/hero.webp",
+    "cover_image": "assets/images/muscat-stay-6/hero.webp",
+    "heroImage": "assets/images/muscat-stay-6/hero.webp",
+    "thumbnail": "assets/images/muscat-stay-6/hero.webp"
+  },
+  {
+    "id": "muscat-stay-7",
+    "slug": "muscat-stay-7",
+    "name": "Muscat Stay 7",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Wattayah",
+    "address": "Al Maha St",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.545176,
+    "lng": 58.49906,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-7",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-7"
+    },
+    "hours": null,
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-7/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 7",
+    "image_source_url": "https://images.example.com/muscat-stay-7/hero",
+    "place_id": "PL_MUSCAT-STAY-7",
+    "osm_type": "node",
+    "osm_id": "2847576",
+    "wikidata_id": "Q555189",
+    "url": "/tool.html?slug=muscat-stay-7",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-8",
+    "slug": "muscat-stay-8",
+    "name": "Muscat Stay 8",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "North Ghubrah",
+    "address": "Al Mouj Blvd",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.583927,
+    "lng": 58.544508,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-8",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-8"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-8/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 8",
+    "image_source_url": "https://images.example.com/muscat-stay-8/hero",
+    "place_id": "PL_MUSCAT-STAY-8",
+    "osm_type": "node",
+    "osm_id": "2341453",
+    "wikidata_id": "Q811879",
+    "url": "/tool.html?slug=muscat-stay-8",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-9",
+    "slug": "muscat-stay-9",
+    "name": "Muscat Stay 9",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Al Mouj",
+    "address": "Al Mouj Blvd",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.602789,
+    "lng": 58.618083,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-9",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-9"
+    },
+    "hours": null,
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/media/muscat-stay-9/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 9",
+    "image_source_url": "https://images.example.com/muscat-stay-9/hero",
+    "place_id": "PL_MUSCAT-STAY-9",
+    "osm_type": "node",
+    "osm_id": "6458007",
+    "wikidata_id": "Q247580",
+    "url": "/tool.html?slug=muscat-stay-9",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {}
+  },
+  {
+    "id": "muscat-stay-10",
+    "slug": "muscat-stay-10",
+    "name": "Muscat Stay 10",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "neighborhood": "Al Khuwair",
+    "address": "Service Rd",
+    "city": "Muscat",
+    "country": "Oman",
+    "lat": 23.539796,
+    "lng": 58.572556,
+    "actions": {
+      "website": "https://www.example.com/muscat-stay-10",
+      "phone": "+968 24 000 000",
+      "maps_url": "https://www.openstreetmap.org/search?query=muscat-stay-10"
+    },
+    "hours": {
+      "tz": "Asia/Muscat",
+      "weekly": {
+        "mon": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "16:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "09:00",
+            "close": "21:00"
+          }
+        ]
+      }
+    },
+    "logo_url": "assets/images/hotels.png",
+    "hero_url": "assets/images/muscat-stay-10/hero.webp",
+    "image_credit": "Courtesy of Muscat Stay 10",
+    "image_source_url": "https://images.example.com/muscat-stay-10/hero",
+    "place_id": "PL_MUSCAT-STAY-10",
+    "osm_type": "node",
+    "osm_id": "2963960",
+    "wikidata_id": "Q515764",
+    "url": "/tool.html?slug=muscat-stay-10",
+    "schema_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "present_keys": [
+      "id",
+      "slug",
+      "name",
+      "category",
+      "tagline",
+      "tags",
+      "neighborhood",
+      "address",
+      "city",
+      "country",
+      "lat",
+      "lng",
+      "website",
+      "phone",
+      "maps_url",
+      "hours_raw",
+      "logo_url",
+      "hero_url",
+      "image_credit",
+      "image_source_url",
+      "place_id",
+      "osm_type",
+      "osm_id",
+      "wikidata_id",
+      "url"
+    ],
+    "description": null,
+    "pricing": null,
+    "price_range": null,
+    "busyness_hint": null,
+    "last_updated": null,
+    "images": {
+      "hero": "assets/images/muscat-stay-10/hero.webp"
+    },
+    "banner_image": "assets/images/muscat-stay-10/hero.webp",
+    "image": "assets/images/muscat-stay-10/hero.webp",
+    "cover": "assets/images/muscat-stay-10/hero.webp",
+    "cover_image": "assets/images/muscat-stay-10/hero.webp",
+    "heroImage": "assets/images/muscat-stay-10/hero.webp",
+    "thumbnail": "assets/images/muscat-stay-10/hero.webp"
   },
   {
     "id": "heritage-fort-1",
