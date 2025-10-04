@@ -144,6 +144,31 @@ function ratingBadgeHTML(t){
     ${starSVG}<span class="val">${r.toFixed(1)}</span>${rcHTML}
   </div>`;
 }
+  // Small inline rating chip shown beside Website/View on the card
+function ratingChipHTML(t){
+  // Prefer canonical numeric fields
+  const raw = t?.rating_overall ?? t?.star_rating ?? t?.rating;
+  const r = Number(raw);
+  if (!isFinite(r)) return ""; // no rating => no chip
+
+  const rc   = Number(t?.review_count);
+  const src  = t?.review_source || "Google";
+  const meta = [src, (isFinite(rc) && rc > 0) ? `${rc} reviews` : null]
+    .filter(Boolean)
+    .join(" · ");
+
+  const starSVG = `
+    <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
+    </svg>`;
+
+  return `<span class="rating-chip">
+    ${starSVG}<span class="val">${r.toFixed(1)}</span>${
+      meta ? `<span class="meta">${esc(meta)}</span>` : ""
+    }
+  </span>`;
+}
+
 
   // Pricing badges and feature icons are unused in the Best Muscat directory.
   // Return an empty string so that existing markup in cardHTML renders nothing.
@@ -810,7 +835,7 @@ function ratingBadgeHTML(t){
           <p class="card-sub">${subtitle}</p>
           <div class="badges">${cats}</div>
           <div class="tags">${tagChips}</div>
-          <div class="ctas">${ctas.join(" ")}</div>
+          <div class="ctas">${ratingChipHTML(src)} ${ctas.join(" ")}</div>
         </div>
       </article>
     `;
