@@ -4869,7 +4869,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.almuroojgrand.com&sz=128",
-    "hero_url": "http://www.almuroojgrand.com/images/sliders/2.jpg",
+    "hero_url": "assets/images/al-murooj-grand-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "http://www.almuroojgrand.com/",
     "place_id": "ChIJ9QtwdFj_kT4RTN4zcILQ1os",
@@ -4970,7 +4970,7 @@
       "long": "*No additional charge for Children from age 1 to 12. *Children above the age of 12 will be considered as an adult and is charged 10 OMR/night. This charge is to be paid at the Hotel at the time of Check-in."
     },
     "images": {
-      "hero": "http://www.almuroojgrand.com/images/sliders/2.jpg"
+      "hero": "assets/images/al-murooj-grand-hotel-muscat/hero.webp"
     },
     "banner_image": "http://www.almuroojgrand.com/images/sliders/2.jpg",
     "image": "http://www.almuroojgrand.com/images/sliders/2.jpg",
@@ -22527,7 +22527,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=linktr.ee&sz=128",
-    "hero_url": "https://linktr.ee/og/image/theairporthotel.jpg",
+    "hero_url": "assets/images/the-airport-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://linktr.ee/theairporthotel",
     "place_id": "ChIJVbivKAIBjj4RRZ2pO3Rd44Q",
@@ -22630,7 +22630,9 @@
       "short": "3-star comfort 8 minutes from Muscat's International Airport ✈️ For Reservations, call +968 76722243",
       "long": "3-star comfort 8 minutes from Muscat's International Airport ✈️ For Reservations, call +968 76722243"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-airport-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJzV-UtyuVkT4RFrP4AqwfbrQ",
