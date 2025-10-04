@@ -818,6 +818,33 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 @media (max-width: 820px)  { .card-img { height: 170px; } }
 @media (max-width: 680px)  { .card-img { height: 160px; } }
 
+/* ===== Rating badge on card images ===== */
+  .card-img .rating-badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0,0,0,.72);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    backdrop-filter: blur(4px);
+  }
+  .card-img .rating-badge .star{
+    width: 16px; height: 16px; display: inline-block;
+  }
+  .card-img .rating-badge .rc{
+    opacity: .85;
+    font-weight: 600;
+    margin-left: 2px;
+    font-size: 12px;
+  }
+
 /* ==============================
    Category showcase (horizontal)
    ============================== */
