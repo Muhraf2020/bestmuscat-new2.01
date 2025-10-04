@@ -835,7 +835,7 @@ function ratingChipHTML(t){
           <p class="card-sub">${subtitle}</p>
           <div class="badges">${cats}</div>
           <div class="tags">${tagChips}</div>
-          <div class="ctas">${ratingChipHTML(src)} ${ctas.join(" ")}</div>
+          <div class="ctas">${ctas.join(" ")} ${ratingChipHTML(src)}</div>
         </div>
       </article>
     `;
