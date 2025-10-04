@@ -6,6 +6,7 @@
     title:   document.getElementById("d-title"),
     excerpt: document.getElementById("d-excerpt"),
     rating:  document.getElementById("d-rating"),
+    bannerRating: document.getElementById("d-banner-rating"), // NEW
     open:    document.getElementById("d-open"),
     price:   document.getElementById("d-price"),
     cat:     document.getElementById("d-category"),
