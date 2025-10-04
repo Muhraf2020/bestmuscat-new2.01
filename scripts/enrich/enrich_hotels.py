@@ -196,10 +196,16 @@ def fetch_head_like(sess: requests.Session, url: str) -> Tuple[Optional[str], Op
 # Curated, safe-to-use Muscat stock images (replace with your own if you prefer)
 MUSCAT_STOCK = [
     # Wikimedia Commons originals (examples)
-    "https://upload.wikimedia.org/wikipedia/commons/4/4e/Muttrah_Corniche%2C_Muscat.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sultan_Qaboos_Grand_Mosque%2C_Muscat.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Riyam_Park_Incense_Burner%2C_Muscat.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Al_Alam_Palace%2C_Oman.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2024/08/25/2753987.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2024/10/02/2789872.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2024/12/19/2871209.jpg",
+    "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/12/3010444.jpg",
     # If you have local assets, point to them instead, e.g.:
     # "/assets/images/stock/muscat-1.webp",
     # "/assets/images/stock/muscat-2.webp",
