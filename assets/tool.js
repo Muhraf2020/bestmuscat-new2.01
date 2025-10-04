@@ -461,12 +461,12 @@
     const state = openState(item.hours);
     if (state) { el.open.textContent = state; el.open.hidden = false; }
 
-    // About (prefer long → short → description → tagline)
+    // About (prefer about_long → about → description → tagline)
     if (features.about) {
-      const longTxt =
-        item.about_long || item.about_short || item.description || item.tagline || "—";
-      el.about.textContent = longTxt;
+      el.about.textContent =
+        item.about_long || item.about || item.description || item.tagline || "—";
     }
+
 
     // Hours
     if (features.hours) {
