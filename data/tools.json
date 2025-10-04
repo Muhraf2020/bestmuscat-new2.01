@@ -43350,7 +43350,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=agsmuscat.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -43456,7 +43456,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJDQAusSD_kT4RXGfMm43aUvk",
@@ -43483,7 +43485,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.abaoman.org&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/aba-oman-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -43594,7 +43596,9 @@
       "short": "Leading, quality International Baccalaureate school in Muscat Oman offering global education for boys and girls from kindergarten to Grade 12.",
       "long": "Leading, quality International Baccalaureate school in Muscat Oman offering global education for boys and girls from kindergarten to Grade 12. In a world where business, education, sports and the arts transcend borders, a child with global citizenship is better equipped to achieve success in every aspect of their life. At ABA, your child will enjoy unparalleled opportunities to grasp their dreams, whatever their nationality and wherever in the world they choose to live, or go on to further education."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/aba-oman-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJ8WGh_3b_kT4Rp6gxjRr3yls",
@@ -43621,7 +43625,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=abq.edu.om&sz=128",
-    "hero_url": "https://fra1.digitaloceanspaces.com/abq.edu.om/wp-content/uploads/2022/08/20143257/Group-2.png",
+    "hero_url": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -43731,7 +43735,9 @@
       "short": "Welcome to ABQ Azzan Bin Qais International School, a beacon of educational excellence nestled in the heart of Muscat, Oman.",
       "long": "Welcome to ABQ Azzan Bin Qais International School, a beacon of educational excellence nestled in the heart of Muscat, Oman. Pre-KG to Grade 12, Cambridge International School in Madinat Sultan Qaboos, Muscat, offering Cambridge and GED Programmes"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp"
+    }
   },
   {
     "id": "ChIJ51aoDwABjj4RnaZtPI-L0ms",
@@ -43758,7 +43764,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.abq.edu.om&sz=128",
-    "hero_url": "https://fra1.digitaloceanspaces.com/abq.edu.om/wp-content/uploads/2024/02/14044252/Pre-KG-Muscat-Hills-info-page-2024-25-updated-page-001-scaled-e1707887514311-300x199.jpg",
+    "hero_url": "assets/images/abq-explorer-muscat-hills/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -43872,7 +43878,9 @@
     "about": {
       "long": "Pre-KG to Grade 12, Cambridge International School in Madinat Sultan Qaboos, Muscat, offering Cambridge and GED Programmes"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/abq-explorer-muscat-hills/hero.webp"
+    }
   },
   {
     "id": "ChIJXy54z7H8jT4RWgAOlIEgU-k",
@@ -43899,7 +43907,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=abq.edu.om&sz=128",
-    "hero_url": "https://fra1.digitaloceanspaces.com/abq.edu.om/wp-content/uploads/2022/08/20143136/Seeb-300x87.png",
+    "hero_url": "assets/images/abq-seeb-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44009,7 +44017,9 @@
       "short": "At ABQ Seeb International School, we pride ourselves on having a school where staff and students feel safe, have a sense of belonging, are treated with respect and have the right to learn and…",
       "long": "At ABQ Seeb International School, we pride ourselves on having a school where staff and students feel safe, have a sense of belonging, are treated with respect and have the right to learn and flourish. Pre-KG to Grade 12, Cambridge International School in Madinat Sultan Qaboos, Muscat, offering Cambridge and GED Programmes"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/abq-seeb-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJBzzNJAD_kT4RNVxXq0knhZM",
@@ -44036,7 +44046,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOoZiq-uP4B4GZHppyWtFifxEXstui7hylVmx2o=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44148,7 +44158,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-ibdaa-kingdom-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJ7WBilAQAjj4R0OxSlge8J-U",
@@ -44175,7 +44187,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=share.google&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/abjad-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44275,7 +44287,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/abjad-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJBSuSddsBjj4ReXpuSTcfkLY",
@@ -44301,7 +44315,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npFBjwKzix8hQmqzYkuABZjRy0Y3t0rsK-EzDV4PiEJ9EN0qAUnaFI8x2hi4fg3zKzt0tpIIPmCCASPBUmWd9Gh0_dFaBeyZ9-puRhDe41VvhYGR5wCtzXfV2Sk-W_3w5kKxJbLbw=w900-h900-p-k-no",
+    "hero_url": "assets/images/ahl-al-quran-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44406,7 +44420,9 @@
       "short": "Religious school",
       "long": "Religious school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ahl-al-quran-school/hero.webp"
+    }
   },
   {
     "id": "ChIJo7nvMMgBjj4REnTv9Hf2Zws",
@@ -44433,7 +44449,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNrGZVS1lK5NjngpXToB0pX7oDj0KElJUGdlVer=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-burj-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44539,7 +44555,9 @@
       "short": "Elementary school",
       "long": "Elementary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-burj-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJjai2aFf-kT4RWNV7Y04Wqmo",
@@ -44566,7 +44584,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nraRVO6pPWlAvLrkXqK9nhwzvQPiapevpORL9PBJmgicyo_OXUpC4pEyH-YD34XU34mnymczycA6HsmjpDNCvNISeDADT_GkMmhYg1-GovVAcEFFfG46JsnpJjeGAbXrXb9SFK6Ww=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-hikma-private-school-bousher/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44678,7 +44696,9 @@
       "short": "★★★☆☆ · Private educational institution",
       "long": "★★★☆☆ · Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-hikma-private-school-bousher/hero.webp"
+    }
   },
   {
     "id": "ChIJ61ur4hf4kT4RNN9oCNYVjPI",
@@ -44705,7 +44725,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=alhudasmart.org&sz=128",
-    "hero_url": "https://alhudasmart.org/wp-content/uploads/2024/10/cropped-1-2__1_-removebg-preview.png",
+    "hero_url": "assets/images/al-huda-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44816,7 +44836,9 @@
     "about": {
       "long": "نسعى في المدرسة باستمرار نحو التطوير على كافة المستويات وفي جميع المرافق وأدواتها، واضعين نصب أعيننا مواكبة التطور المتسارع الذي يشهده العالم المتحضر، وتلبية احتياجات ومتطلبات السلطنة من كوادر بشرية فائقة الجودة، للنهوض بها علمًا وخلقًا..."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-huda-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJGTJ6nsr_kT4R65Hjv3V91DU",
@@ -44843,7 +44865,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ibdaa.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/al-ibdaa-international-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -44943,7 +44965,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-ibdaa-international-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJaS3-w-oBjj4RkDrpTBWRCyk",
@@ -45115,7 +45139,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.almaha.edu.om&sz=128",
-    "hero_url": "https://static.wixstatic.com/media/cabb01_4fa1e67362a7429d9d15b0df748441f5~mv2.jpg/v1/crop/x_0,y_4,w_703,h_681/fill/w_141,h_137,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/cabb01_4fa1e67362a7429d9d15b0df748441f5~mv2.jpg",
+    "hero_url": "assets/images/al-maha-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -45224,7 +45248,9 @@
       "short": "Al Maha Private School is a brand new British curriculum Primary School located in Medinat Qaboos, Muscat. We welcome both expatriate and Omani children from the ages of 3 to 9. Contact us today to…",
       "long": "Al Maha Private School is a brand new British curriculum Primary School located in Medinat Qaboos, Muscat. We welcome both expatriate and Omani children from the ages of 3 to 9. Contact us today to explore the possibilities that our unique school offers. Al Maha Private School is a Primary School offering the Cambridge International Primary curriculum currently for Kindergarten 1 & 2 and Years 1 - 5 (Year 6 will begin in September 2026). We are located in Madinat Qaboos, Muscat, the Sultanate of Oman."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-maha-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJGTJ0R073kT4RcCqxcTI3zX8",
@@ -45250,7 +45276,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=arALjXpgW20xch1ImqEiiQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=66.02812&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/al-manhal-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -45355,7 +45381,9 @@
       "short": "Private educational institution",
       "long": "Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-manhal-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJk41m2af9jT4RLEoi5GSF6DA",
@@ -45382,7 +45410,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=mps.edu.om&sz=128",
-    "hero_url": "https://mps.edu.om/wp-content/uploads/2019/08/mps-logo.png",
+    "hero_url": "assets/images/al-mawaleh-private-school-mps/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -45500,7 +45528,9 @@
       "short": "إن نمو شخصية الطالب وتطويرها ونمو الذكاء العاطفي والاجتماعي يلقى أهمية في مناهجنا بقدر مستوى التركيز على التحصيل العلمي الاكاديمي، فنغرس القيم والمبادئ الأساسية للطلبة، نرعى مواهبهم و نعمل على صقلها،…",
       "long": "إن نمو شخصية الطالب وتطويرها ونمو الذكاء العاطفي والاجتماعي يلقى أهمية في مناهجنا بقدر مستوى التركيز على التحصيل العلمي الاكاديمي، فنغرس القيم والمبادئ الأساسية للطلبة، نرعى مواهبهم و نعمل على صقلها، كذلك ان التنمية المجتمعية المستدامة لها حيزها المتميز، فنهتم بالأنشطة المدرسية المختلفة، ونحقق معايير الامن والسلامة، نقدم التوعية للطلبة Welcome to the 2024-2025 Academic year! We wish our students a successful school year!"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-mawaleh-private-school-mps/hero.webp"
+    }
   },
   {
     "id": "ChIJ_xyLNAD5kT4R44JznKHsdZU",
@@ -45526,7 +45556,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=l2Q7HnWD-POaWKsLiliJeA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=81.07767&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/al-noor-madrasa/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -45631,7 +45661,9 @@
       "short": "Preschool",
       "long": "Preschool"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-noor-madrasa/hero.webp"
+    }
   },
   {
     "id": "ChIJvWypx4z4kT4RiQ-kfq_etXg",
@@ -45658,7 +45690,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://abs.twimg.com/rweb/ssr/default/v2/og/image.png",
+    "hero_url": "assets/images/al-qurum-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -45758,7 +45790,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-qurum-school/hero.webp"
+    }
   },
   {
     "id": "ChIJW7pO80j_kT4R1NkidE8sWCM",
@@ -45928,7 +45962,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mpNJMUhU2YI0J8r-OC4JzA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=299.90317&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/al-sahwa-schools-gate-1/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46033,7 +46067,9 @@
       "short": "General education school",
       "long": "General education school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-sahwa-schools-gate-1/hero.webp"
+    }
   },
   {
     "id": "ChIJmSGp3bTljT4RMov32CSBIdY",
@@ -46060,7 +46096,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.alshomoukh.com&sz=128",
-    "hero_url": "https://www.alshomoukh.com:443/cc-content/themes/alshomoukh/assets/img/covied-19.jpg",
+    "hero_url": "assets/images/al-shomoukh-international-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46170,7 +46206,9 @@
       "short": "AL SHOMOUKH INTERNATIONAL SCHOOL®",
       "long": "AL SHOMOUKH INTERNATIONAL SCHOOL® Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-shomoukh-international-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJ03ANF_X4kT4Ro2khCW2j0Lg",
@@ -46197,7 +46235,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPHKkAKPmwjMpQfM_SdvEivo7pz2y7r5EtsJSr7=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-shumus-nursery-qurum/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46309,7 +46347,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-shumus-nursery-qurum/hero.webp"
+    }
   },
   {
     "id": "ChIJVf_LSOH8jT4RCg1U2olILHk",
@@ -46336,7 +46376,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1586996897167949824/QXV82eDe_200x200.jpg",
+    "hero_url": "assets/images/al-waha-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46442,7 +46482,9 @@
       "short": "اهلا بكم في واحة الإبداع والتميز هنا عالم من الإبداع والمتعة في التعليم🏝️💕هذا الحساب يختص بعرض مناشط وفعاليات مدرسة الواحة✨",
       "long": "اهلا بكم في واحة الإبداع والتميز هنا عالم من الإبداع والمتعة في التعليم🏝️💕هذا الحساب يختص بعرض مناشط وفعاليات مدرسة الواحة✨"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-waha-school/hero.webp"
+    }
   },
   {
     "id": "ChIJo_ic1KX_kT4RCa6CD7NDr2E",
@@ -46610,7 +46652,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.americanlyceum.com&sz=128",
-    "hero_url": "https://thelyceumgroupbucket.sgp1.cdn.digitaloceanspaces.com/americanlyceum-muscat/alispak.png",
+    "hero_url": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46727,7 +46769,9 @@
       "short": "Top Private International School in Muscat",
       "long": "Top Private International School in Muscat Guide for early parenting with nurturing your child's growth and development."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp"
+    }
   },
   {
     "id": "ChIJ7Ucv9m3_kT4RJWkRyBhA6Tw",
@@ -46754,7 +46798,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=americanlyceum.com&sz=128",
-    "hero_url": "https://thelyceumgroupbucket.sgp1.cdn.digitaloceanspaces.com/americanlyceum-muscat/alispak.png",
+    "hero_url": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -46871,7 +46915,9 @@
       "short": "Top Private International School in Muscat",
       "long": "Top Private International School in Muscat Guide for early parenting with nurturing your child's growth and development."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp"
+    }
   },
   {
     "id": "ChIJj8bkInUAjj4Rr8j4j7YSFPk",
@@ -46898,7 +46944,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.americanlyceum.com&sz=128",
-    "hero_url": "https://thelyceumgroupbucket.sgp1.cdn.digitaloceanspaces.com/americanlyceum-muscat/header_img_nursery2.png",
+    "hero_url": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47014,7 +47060,9 @@
       "short": "Best Nursery & Daycare in Muscat | Top Early Learning School in Oman",
       "long": "Best Nursery & Daycare in Muscat | Top Early Learning School in Oman Guide for early parenting with nurturing your child's growth and development."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/american-lyceum-international-nursery-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJj9Li74oBjj4RDGoHN0vCvcc",
@@ -47041,7 +47089,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.americanlyceum.com&sz=128",
-    "hero_url": "https://thelyceumgroupbucket.sgp1.cdn.digitaloceanspaces.com/americanlyceum-muscat/alispak.png",
+    "hero_url": "assets/images/american-lyceum-international-school-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47152,7 +47200,9 @@
       "short": "Top Private International School in Muscat",
       "long": "Top Private International School in Muscat Guide for early parenting with nurturing your child's growth and development."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/american-lyceum-international-school-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJbdRCBjLEhz4REIMrINoF1xA",
@@ -47179,7 +47229,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.aqua-tots.com&sz=128",
-    "hero_url": "https://aquatots.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/04/INTL-Oman-Top_600x4505.jpg",
+    "hero_url": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47293,7 +47343,9 @@
       "short": "Aqua-Tots Swim Schools provide certified swimming lessons for kids in Muscat, Oman. Our Muscat swim school offers a variety of swim classes perfect for busy families.",
       "long": "Aqua-Tots Swim Schools provide certified swimming lessons for kids in Muscat, Oman. Our Muscat swim school offers a variety of swim classes perfect for busy families."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/aqua-tots-swim-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJGzVl5Y__kT4R0mMtL_xLEA0",
@@ -47320,7 +47372,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMVY0DPvwZU3IIE7HGwJKx7t61dEgz94cHG00Pi=w900-h900-p-k-no",
+    "hero_url": "assets/images/art-of-living-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47432,7 +47484,9 @@
       "short": "★★★★★ · Bilingual school",
       "long": "★★★★★ · Bilingual school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/art-of-living-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJqzrehbn8jT4R7wed1rm-EVA",
@@ -47459,7 +47513,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=assafwah.net&sz=128",
-    "hero_url": "https://assafwah.net/wp-content/uploads/2024/06/Assafwah-Schools-Logo.jpg",
+    "hero_url": "assets/images/assafwah-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47570,7 +47624,9 @@
       "short": "Discover Assafwah International Schools (KG-12) – nurturing students with a focus on academics, culture, sports & bilingual learning in Oman.",
       "long": "Discover Assafwah International Schools (KG-12) – nurturing students with a focus on academics, culture, sports & bilingual learning in Oman. “Assafwah International Schools impresses me the most with its emphasis on individualized learning.”"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/assafwah-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJPfMkoMUBjj4RDk5BkwDSaQU",
@@ -47597,7 +47653,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.assafwah.net&sz=128",
-    "hero_url": "https://assafwah.net/wp-content/uploads/2024/06/Assafwah-Schools-Logo.jpg",
+    "hero_url": "assets/images/a-ssafwah-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47708,7 +47764,9 @@
       "short": "Discover Assafwah International Schools (KG-12) – nurturing students with a focus on academics, culture, sports & bilingual learning in Oman.",
       "long": "Discover Assafwah International Schools (KG-12) – nurturing students with a focus on academics, culture, sports & bilingual learning in Oman. “Assafwah International Schools impresses me the most with its emphasis on individualized learning.”"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/a-ssafwah-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJcXDnq87wkT4RHuVstuyIj94",
@@ -47735,7 +47793,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npQs9yXO54D-21kW1zv4uAvbYTyQSxsr5fDiwBXd_XvSubIG8mNZYjg0pFdQaMKvOdVemovMzsbQSXrSHY1hrczDFEDGOAoq_RBHetHv3vp3tcUdwFnU-jVBoiwf8AQf5xZMKugWQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/baj-515/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47847,7 +47905,9 @@
       "short": "★★★★☆ · Lodge",
       "long": "★★★★☆ · Lodge"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/baj-515/hero.webp"
+    }
   },
   {
     "id": "ChIJtZY0d6L_kT4RLNz4RXGtQLo",
@@ -47874,7 +47934,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npXeq5G0QnbXBuWn8Nf9UntfHZpwo2YNFN5Noswco1AE-0L1tVQ5NIZ7vi04ggKsa_huWU1RQMBdzyzCL4evWIrdnjV7suskNckbJagv1BK0afJFsKOas5a4UNfbV8qBPS_sJ5yfg=w900-h900-p-k-no",
+    "hero_url": "assets/images/bangladesh-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -47980,7 +48040,9 @@
       "short": "Combined primary and secondary school",
       "long": "Combined primary and secondary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bangladesh-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJ3zPZ5J_5kT4Rb6XluBQpXzI",
@@ -48006,7 +48068,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq2D0LYaIgGCwo0tgOYJI0PtaXLz7mV4Q2VglWErDBD7wVsyvD3rxvKOMYn_-xH3Ytg3UQoyAk-nK19SPWL-UOldVZHhXRtVS3FBet6AkCH8AusGujB_ksSWfOWi_fiaHxuc_tUFg=w900-h900-p-k-no",
+    "hero_url": "assets/images/bardiha-thakur/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48111,7 +48173,9 @@
       "short": "Middle school",
       "long": "Middle school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bardiha-thakur/hero.webp"
+    }
   },
   {
     "id": "ChIJtfv5zXL-kT4RCsHIbaGS7fM",
@@ -48138,7 +48202,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1651753504074084356/jRUviIP1_200x200.jpg",
+    "hero_url": "assets/images/bousher-elementary-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48244,7 +48308,9 @@
       "short": "مدرسة بوشر للتعليم الاساسي(١-٤) شعارنا التميز والتألق لبناء جيل متعلم مديره المدرسه إبتسام الغابشية",
       "long": "مدرسة بوشر للتعليم الاساسي(١-٤) شعارنا التميز والتألق لبناء جيل متعلم مديره المدرسه إبتسام الغابشية"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bousher-elementary-school/hero.webp"
+    }
   },
   {
     "id": "ChIJPaYRhm39jT4RRvsRr4zWDBs",
@@ -48271,7 +48337,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=omanbrainobrain.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/brainobrain-mawalih/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48377,7 +48443,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/brainobrain-mawalih/hero.webp"
+    }
   },
   {
     "id": "ChIJjYfnqzX_kT4RDzj5_ttUkWo",
@@ -48404,7 +48472,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.britishschoolmuscat.com&sz=128",
-    "hero_url": "https://britishschoolmuscat.com/wp-content/uploads/2021/04/OG.png",
+    "hero_url": "assets/images/british-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48521,7 +48589,9 @@
       "short": "British School Muscat is a non-profit British international school for girls and boys aged 3-18. Established for 50 years, we are Oman's top British school.",
       "long": "British School Muscat is a non-profit British international school for girls and boys aged 3-18. Established for 50 years, we are Oman's top British school. We are proud to be the only not-for-profit British school in Muscat providing high quality education to children aged 3-18."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/british-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJyekd2Hv_kT4RRJwobj_sdGE",
@@ -48548,7 +48618,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMaWBdGV7RyGSguANk9YYZDY_awuhLo0h6NFt2C=w900-h900-p-k-no",
+    "hero_url": "assets/images/chapter-one-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48660,7 +48730,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chapter-one-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJWbjdcAH9jT4R0t8QZelSRho",
@@ -48686,7 +48758,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=iscmuscat.sabis.net&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/choueifat-school-administration-building/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48785,7 +48857,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/choueifat-school-administration-building/hero.webp"
+    }
   },
   {
     "id": "ChIJY_ODMSr5kT4RpKMfY8pr5Ec",
@@ -48812,7 +48886,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.compass-marine.global&sz=128",
-    "hero_url": "http://static1.squarespace.com/static/5f50983dcbf78e53fca32212/t/6457da5b08550a180da31252/1683479131616/CMSS+Logo+V8+Blue.png?format=1500w",
+    "hero_url": "assets/images/compass-marine-sea-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -48922,7 +48996,9 @@
     "about": {
       "long": "The next IYT Master of Yachts Limited 200 Tons courses will be held as follows:"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/compass-marine-sea-school/hero.webp"
+    }
   },
   {
     "id": "ChIJhTPT_qT5kT4RQs1UEvoqKBc",
@@ -48949,7 +49025,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWlXdkzLNu6OYvqRDP9qLyQhvOrd422kkDMZ23pStD4MWgQ0MRvJKX-fHVMz5E5xvKsBZ-J_v-uUK19ODmCV-g0_vRCmAQ8359C8hHzqBV5xMsN3nysIXyteO_mehTSbe_DeNn=w900-h900-p-k-no",
+    "hero_url": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49055,7 +49131,9 @@
       "short": "Religious school",
       "long": "Religious school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp"
+    }
   },
   {
     "id": "ChIJ_zMomnv_kT4RIPbUa0jcPz4",
@@ -49082,7 +49160,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=dps.edu.om&sz=128",
-    "hero_url": "https://www.dps.edu.om/storage/2022/10/lab-girl-scaled.jpg",
+    "hero_url": "assets/images/digital-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49189,7 +49267,9 @@
     "about": {
       "long": "DPS became an authorised IB PYP World School in December 2023. Our students and staff worked hard to achieve this first milestone on the school's IB journey."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/digital-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJk2Fz4b__kT4R-d0tc0UeDQU",
@@ -49216,7 +49296,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=dak.edu.om&sz=128",
-    "hero_url": "https://dak.edu.om/site/img/og-image.jpg",
+    "hero_url": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49327,7 +49407,9 @@
       "short": "Dorat Al-Khaleej Private School is a well-known pioneering educational institution in the Sultanate of Oman",
       "long": "Dorat Al-Khaleej Private School is a well-known pioneering educational institution in the Sultanate of Oman The curriculum in the early stage is designed to nurture the child's communication and language skills."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp"
+    }
   },
   {
     "id": "ChIJ2UB6TUb_kT4R-N2XsXk2GYc",
@@ -49354,7 +49436,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://maps.google.com/maps/api/staticmap?center=23.6091356%2C58.4494791&zoom=16&size=900x900&language=en&markers=23.6091356%2C58.4494791&sensor=false&client=google-maps-frontend&signature=D5wBp4yRLOLG5hGC_oWrj3JFkdY",
+    "hero_url": "assets/images/dovecote-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49466,7 +49548,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/dovecote-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJ9wRmpYT8jT4RihyClCvayvE",
@@ -49493,7 +49577,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nppvfzIb2femfpbrNlm0KdDNRk6GzPzPM-8FpzEm9R3N6LrsXdAdEEVSj3wPoxg7VaXMFMjh1GgUjDqR_kn-ptC0i9KgKI_ltc5r03SIMx2X5jl_rqzHfBkt_rRYP9KuI36Tx5D=w900-h900-p-k-no",
+    "hero_url": "assets/images/durat-al-agyal-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49599,7 +49683,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/durat-al-agyal-school/hero.webp"
+    }
   },
   {
     "id": "ChIJOed1MiH9jT4Ruzc0lBfU2YY",
@@ -49625,7 +49711,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ellesmeremuscat.com&sz=128",
-    "hero_url": "https://ellesmeremuscat.com/wp-content/uploads/2024/01/Ellesmere-Muscat-Site-Logo.png",
+    "hero_url": "assets/images/ellesmere-muscat-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49734,7 +49820,9 @@
       "short": "Life:Ready atEllesmere Muscat Ellesmere Muscat offers a world-class education from Kindergarten to Grade 12, blending traditional values with 21st-century l ...",
       "long": "Life:Ready atEllesmere Muscat Ellesmere Muscat offers a world-class education from Kindergarten to Grade 12, blending traditional values with 21st-century l ... Ellesmere Muscat is dedicated to providing a world-class education from Kindergarten to Grade 12. We go beyond textbooks, focusing on both traditional values and the dynamic needs of 21st-century learning, proudly offering the prestigious IB education. Join us on a journey where your child not only learns but also discovers their unique potential in a supportive and enriching environment."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ellesmere-muscat-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJXVPSF7r8jT4RJDg5DP7Ke4U",
@@ -49761,7 +49849,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.gis.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/ghars-international-school-gis/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49861,7 +49949,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ghars-international-school-gis/hero.webp"
+    }
   },
   {
     "id": "ChIJbS2Q8Fr3kT4RcFVgr0-ZTQI",
@@ -49887,7 +49977,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3gpTk9DXigQTBiZ7HSNKaA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=73.57814&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/goverment-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -49992,7 +50082,9 @@
       "short": "Government school",
       "long": "Government school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/goverment-school/hero.webp"
+    }
   },
   {
     "id": "ChIJt1Y3WfD9jT4RibUz5srU3KE",
@@ -50019,7 +50111,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.granadaprivateschool.com&sz=128",
-    "hero_url": "https://www.granadaprivateschool.com/wp-content/uploads/2022/06/granadaprivateschool.com-logo.png",
+    "hero_url": "assets/images/granada-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50128,7 +50220,9 @@
       "short": "At Granada, we focus on development and growth of our students and preparing them for all the types of challenges. It is one of the best schools in Muscat, Oman.",
       "long": "At Granada, we focus on development and growth of our students and preparing them for all the types of challenges. It is one of the best schools in Muscat, Oman. “ Granada Private School ” focus on total development and progress of our students (boys and girls) preparing them for all the types of challenges that life may bring in future. This school is considered one of the best schools in Muscat, Oman."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/granada-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJXXTLttn_kT4RsQG8_bXHq3g",
@@ -50154,7 +50248,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://maps.google.com/maps/api/staticmap?center=23.5752003%2C58.4315767&zoom=16&size=900x900&language=en&markers=23.5752003%2C58.4315767&sensor=false&client=google-maps-frontend&signature=G0BgJWVBYFf96ORmT5ZAET2uF8E",
+    "hero_url": "assets/images/high-school-land-mark/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50259,7 +50353,9 @@
       "short": "High school",
       "long": "High school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/high-school-land-mark/hero.webp"
+    }
   },
   {
     "id": "ChIJVTBjo4n3kT4RmdeFij7xetg",
@@ -50285,7 +50381,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrRG7XbTCuHbxjvsGV5qo6-tE7ukj9-5-2BafArpwwR6HP9RX_m72kuQXe4osS7hgJ4_szQuaAg5FgzM0D-CxlxvqlDztcZGeWZjW5Rt7iaybX7Q3z8gj7K894XC6F9qgNx1c7YL0PIkEcB=w900-h900-p-k-no",
+    "hero_url": "assets/images/ism-primary-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50390,7 +50486,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ism-primary-school/hero.webp"
+    }
   },
   {
     "id": "ChIJAyv2NLTwkT4RysfrHAH5s2g",
@@ -50417,7 +50515,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.iswkoman.com&sz=128",
-    "hero_url": "https://www.iswkoman.com/files/images/slider-01.jpg",
+    "hero_url": "assets/images/iswk-kg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50527,7 +50625,9 @@
       "short": "ISWK- Indian School Wadi Kabir is one of best Indian schools in Oman",
       "long": "ISWK- Indian School Wadi Kabir is one of best Indian schools in Oman It began to take its present shape in 1987 as Indian School Muttrah, with English as the medium of instruction. It was named Indian School AL Wadi Al Kabir because of its location when it moved into its new premises in September 1993."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/iswk-kg/hero.webp"
+    }
   },
   {
     "id": "ChIJZWiYGrbwkT4RgLepnpUVibU",
@@ -50688,7 +50788,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipP09F4pnJhyn2O10hv3SMgWZTCA5ZkzgdZxOe5B=w900-h900-p-k-no",
+    "hero_url": "assets/images/ibn-khaldoun-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50794,7 +50894,9 @@
       "short": "Bilingual school",
       "long": "Bilingual school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ibn-khaldoun-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJbaJBNr__kT4RKqlWG5owRSU",
@@ -50821,7 +50923,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=indianschool.com&sz=128",
-    "hero_url": "https://indianschool.com/upload/HomeBanner_images/7ZTJkTKKxRABvTSK57kqAqeclHTDOEoiqPES0fTR.jpg",
+    "hero_url": "assets/images/indian-school-al-ghubra/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -50935,7 +51037,9 @@
     "about": {
       "long": "Indian School Ghubra students shine in the CBSE Class 10 results, bringing home a slew of top honours and accolades."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-al-ghubra/hero.webp"
+    }
   },
   {
     "id": "ChIJQ_adAlv3kT4Rdc3xWKncmgU",
@@ -50962,7 +51066,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.iswkoman.com&sz=128",
-    "hero_url": "https://www.iswkoman.com/files/images/slider-01.jpg",
+    "hero_url": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51078,7 +51182,9 @@
       "short": "ISWK- Indian School Wadi Kabir is one of best Indian schools in Oman",
       "long": "ISWK- Indian School Wadi Kabir is one of best Indian schools in Oman It began to take its present shape in 1987 as Indian School Muttrah, with English as the medium of instruction. It was named Indian School AL Wadi Al Kabir because of its location when it moved into its new premises in September 1993."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-al-wadi-al-kabir/hero.webp"
+    }
   },
   {
     "id": "ChIJRe4q7Bf4kT4RxauZgJf002I",
@@ -51105,7 +51211,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.isdoman.com&sz=128",
-    "hero_url": "https://www.isdoman.com/img/ISD-icon2.png",
+    "hero_url": "assets/images/indian-school-darsait-isd-senior/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51213,7 +51319,9 @@
     "about": {
       "long": "Located at Darsait, Muscat City, in the dynamic, progressive and forward looking land of Sultanate of Oman, Indian School Darsait, a dream come true for many enterprising expatriate men and women with a vision of the future, came into existence in 1992."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-darsait-isd-senior/hero.webp"
+    }
   },
   {
     "id": "ChIJU5AAtRf4kT4RUqd4IzmdXb8",
@@ -51240,7 +51348,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.isdoman.com&sz=128",
-    "hero_url": "https://www.isdoman.com/img/ISD-icon2.png",
+    "hero_url": "assets/images/indian-school-darsait-junior/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51348,7 +51456,9 @@
     "about": {
       "long": "Located at Darsait, Muscat City, in the dynamic, progressive and forward looking land of Sultanate of Oman, Indian School Darsait, a dream come true for many enterprising expatriate men and women with a vision of the future, came into existence in 1992."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-darsait-junior/hero.webp"
+    }
   },
   {
     "id": "ChIJJ4cuPTr4kT4RSIgb-1RN_P8",
@@ -51375,7 +51485,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ismoman.com&sz=128",
-    "hero_url": "http://ismoman.com/images/Gallery/ISMONAM2025/ISMONAM20251.JPG",
+    "hero_url": "assets/images/indian-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51488,7 +51598,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJk47P1X73kT4RTlxnB1FqTAM",
@@ -51515,7 +51627,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ismoman.com&sz=128",
-    "hero_url": "http://ismoman.com/images/Gallery/ISMONAM2025/ISMONAM20251.JPG",
+    "hero_url": "assets/images/indian-school-muscat-kindergarten/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51622,7 +51734,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/indian-school-muscat-kindergarten/hero.webp"
+    }
   },
   {
     "id": "ChIJT76U3b4Ajj4RLa0bL8KLQG8",
@@ -51649,7 +51763,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.lfm.om&sz=128",
-    "hero_url": "https://www.lfm.om/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feduka-logo.d7b0605e.png&w=3840&q=75",
+    "hero_url": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51759,7 +51873,9 @@
       "short": "Lycée Français International De Mascate",
       "long": "Lycée Français International De Mascate **BREAKING NEWS : Here you will find an interview of the LFIM **"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp"
+    }
   },
   {
     "id": "ChIJ1bxOv8_4kT4RFesgXc-n2jc",
@@ -51786,7 +51902,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.isooman.com&sz=128",
-    "hero_url": "https://isooman.com/wp-content/uploads/2024/09/Picture15.jpg",
+    "hero_url": "assets/images/international-school-of-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -51894,7 +52010,9 @@
     "about": {
       "long": "Embrace a vibrant and inclusive environment where every student is empowered to learn, grow, and thrive."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/international-school-of-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJb9QHg97_kT4RINJXu3TdLdo",
@@ -51921,7 +52039,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=school-muscat.ir&sz=128",
-    "hero_url": "https://school-muscat.ir/wp-content/uploads/2021/02/iran-flag-4-1.png",
+    "hero_url": "assets/images/iranian-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52021,7 +52139,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/iranian-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJk4ZJYeQBjj4RpHSjXitFsho",
@@ -52048,7 +52168,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=rD5UCLXGLVMtq36jHzuO6A&cb_client=search.gws-prod.gps&w=900&h=900&yaw=114.785965&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/itlalat-almajd-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52160,7 +52280,9 @@
       "short": "★★★★★ · Private educational institution",
       "long": "★★★★★ · Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/itlalat-almajd-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJxUyT3hv9jT4RAajmuNtZpMs",
@@ -52187,7 +52309,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.jijps.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52287,7 +52409,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJfVft2k33kT4RpNVEQDRtIWk",
@@ -52314,7 +52438,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nopdivATe-cz_QajJLg2ZMkYU9jITBtOeAZ67Pw8Wf7gv11WMVpFrKk0d2fWuuFZDxCsd9A9xA1blT0rr57AVKsGPY7wJ_N5ghzwRet0BlnEMgYY8tqBMcCHXkrdSBQeQmqlpU-DJMlFU4=w900-h900-p-k-no",
+    "hero_url": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52426,7 +52550,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJoTUbTZP8jT4R0D2huE6oYAI",
@@ -52453,7 +52579,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kgis.edu.om&sz=128",
-    "hero_url": "https://d24d7vsshzrslo.cloudfront.net/sites/school102/files/styles/ins_banner_mobile/public/2024-01/18199_KGIS%20entrance%20area%20.jpg.jpeg?itok=wdnolR8V",
+    "hero_url": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52571,7 +52697,9 @@
       "short": "Our International British School in Muscat, Al Hail is ᐅ No1 private school in Oman for academic, sports & arts tuition. Choose the best international education in Muscat",
       "long": "Our International British School in Muscat, Al Hail is ᐅ No1 private school in Oman for academic, sports & arts tuition. Choose the best international education in Muscat Knowledge Gate International School (KGIS) is a private international British school in Muscat, Oman, providing premium British education from Kindergarten to Sixth Form. We are proud to pioneer high-quality education that is anchored in traditional local values and driven by a global outlook. At our international school in Muscat, students achieve exceptional exam results that exceed national and global averages while exploring their talents with Oman's No.1 extracurricular activities programme."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/knowledge-gate-international-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJjfsPMhb9jT4R4c3PucgMuxc",
@@ -52598,7 +52726,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=laughnlearnoman.com&sz=128",
-    "hero_url": "https://img1.wsimg.com/isteam/stock/100513",
+    "hero_url": "assets/images/laugh-n-learn-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52712,7 +52840,9 @@
       "short": "Enroll your child in Laugh N Learn Nursery School for a fun and educational preschool experience. Join us for nurturing and engaging learning!",
       "long": "Enroll your child in Laugh N Learn Nursery School for a fun and educational preschool experience. Join us for nurturing and engaging learning! At LaughN’ Learn our curriculum is inspired by the very best aspects of respected Early Child Education philosophies of Montessori combined with the Reggio Emilia approach while following the Early Years Foundation Stage (EYFS). At LaughNLearn the curriculum is designed around the child, there is no \"One Size Fits All\""
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/laugh-n-learn-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJKeydX879jT4R86kVtZUfwnM",
@@ -52739,7 +52869,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.leadersschool.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/leaders-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52839,7 +52969,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/leaders-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJcd8X7mX5kT4R06iylbsketE",
@@ -52866,7 +52998,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nou-2qERNfvHEyO95Y8R_OulisBt5nDw_pw-DVrgBKYVhwsnCUWsnCBK7QiGuG6sxj6bQqQKDZ5zq7sQyWwlioHeEceInkEiJfqFrHACgGG3YnJmfiCQ2GeZ6iwsUQhONsJ97GCwA=w900-h900-p-k-no",
+    "hero_url": "assets/images/little-dreams-nursery-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -52978,7 +53110,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/little-dreams-nursery-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJxVlAtcT9jT4RrdeeCBuuU3o",
@@ -53144,7 +53278,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrSueqhKbJkxTDqI2ErjO3CxM_Pfqy9mlZYcSs7M3m-UVIqkyqBSOoWrnqg0XtcX52HuDVGBTGWAtVJQCFYXQV2onKI0FPCU72WRUcwFcw8sHdJqaUTwDwZUB48HmRLbx7Qfhgqjg=w900-h900-p-k-no",
+    "hero_url": "assets/images/little-flowers-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -53256,7 +53390,9 @@
       "short": "★★★★☆ · Nursery school",
       "long": "★★★★☆ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/little-flowers-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJCWKmbCz_kT4RCqrgb921Ogk",
@@ -53283,7 +53419,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=msqps.edu.om&sz=128",
-    "hero_url": "https://msqps.edu.om/Portals/0/EasyDNNRotator/600/Gallery/MSQPS-35-Year-LOGO.jpg",
+    "hero_url": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -53390,7 +53526,9 @@
     "about": {
       "long": "MSQPS is committed to providing quality bilingual program that ensures academic success by offering a holistic, values-driven and future- oriented education through differentiated instructions."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/madinat-sultan-qaboos-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJL4Hq6MD5kT4Rx8aFfddWLw4",
@@ -53416,7 +53554,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqyl6LN1VRd1ciQY6o6ZxIdgIiaxy2rlp-e_G1BpJZNP_2DrG7EWwXOnuxlgZqcgIBqw3Ka8wLuuR-d6RfQ8cmmwgbPQs7h0nXWB-jmEscoPEn8hU5VX_n9mXakzNe5hXTb-8Su=w900-h900-p-k-no",
+    "hero_url": "assets/images/manba-al-huda-islamic-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -53521,7 +53659,9 @@
       "short": "Public educational institution",
       "long": "Public educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/manba-al-huda-islamic-school/hero.webp"
+    }
   },
   {
     "id": "ChIJ_1fJS9b_kT4R9CORpORWxEw",
@@ -53548,7 +53688,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.maplebeargulfschools.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/maple-bear-preschool-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -53661,7 +53801,9 @@
       "short": "Maple Bear Muscat is a trusted nursery & preschool in Muscat offering a safe, caring, and inspiring environment for your child’s early learning journey.",
       "long": "Maple Bear Muscat is a trusted nursery & preschool in Muscat offering a safe, caring, and inspiring environment for your child’s early learning journey. Maple Bear Preschool Muscat is located in Bawshar which is a thriving and culturally rich district in Muscat, Oman, an ideal location for families and professionals seeking contemporary living."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/maple-bear-preschool-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJX76iqTb4kT4RCAp9V0ZKrtQ",
@@ -53688,7 +53830,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npx9ZJXCm1vqE0C4noTVppxUFV2t9U83aD4DNbFj_3X5aiMIUTZsITRk19S3uZM8AIWn1Ulq5uM1DGziRrm8kn0Wpw0e2Zu-6FYZKJOYiqmOxS_BiHRgsvJdRPoe-ofm92QKQAN=w900-h900-p-k-no",
+    "hero_url": "assets/images/middle-east-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -53800,7 +53942,9 @@
       "short": "★★★★☆ · Nursery school",
       "long": "★★★★☆ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/middle-east-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJl7Wx-gwAjj4Rcm5C-tVRGA4",
@@ -53970,7 +54114,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://maps.google.com/maps/api/staticmap?center=23.5272737%2C58.3492624&zoom=16&size=900x900&language=en&markers=23.5272737%2C58.3492624&sensor=false&client=google-maps-frontend&signature=eupqKDjUP0rGTltdmVIYPTZrPwM",
+    "hero_url": "assets/images/my-little-world-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54082,7 +54226,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/my-little-world-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJ-Uac5u_8jT4RoimplsKavE4",
@@ -54109,7 +54255,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.myschool.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/my-school-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54209,7 +54355,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/my-school-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJaxTBkhr_kT4RJYtkGsc4EKQ",
@@ -54379,7 +54527,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.nativeenglishoman.com&sz=128",
-    "hero_url": "https://nativeenglishoman.com/uploads/gallery_image/93584/medium_meeting_room_oman.jpg",
+    "hero_url": "assets/images/native-english-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54493,7 +54641,9 @@
       "short": "Native English Oman | British and American native MA CELTA English teachers. 15 + years of teaching all subjects to set British and American",
       "long": "Native English Oman | British and American native MA CELTA English teachers. 15 + years of teaching all subjects to set British and American British and American native MA CELTA English teachers can advance your English speaking, reading, writing and listening skills to high level with accelerated English learning courses, everyday/business English, exam preparation, IELTS - TOEFL - IGCSE - A level - BA/MA. 15 + years of teaching all subjects to set British and American curriculums. Results and privacy assured for all age levels. Please telephone or WhatsApp for all information 0096896366761"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/native-english-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJs1hdBGf-kT4R6aH88IzrnU8",
@@ -54520,7 +54670,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=omanprivateschool.com&sz=128",
-    "hero_url": "https://omanprivateschool.com/wp-content/uploads/elementor/thumbs/landing-page--q7gj636nibra1pu1baqu09v7rflx7hzbxjcl9wwd4g.jpg",
+    "hero_url": "assets/images/oman-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54628,7 +54778,9 @@
     "about": {
       "long": "OPS has a great learning environment for my kids. The small class sizes gives them more one-on-one time with their teachers."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/oman-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJ0RlQTzb_kT4RWkkfaVNyREQ",
@@ -54655,7 +54807,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ourplanet-muscat.com&sz=128",
-    "hero_url": "https://www.ourplanet-muscat.com/wp-content/themes/ourplanet/img/IB.png",
+    "hero_url": "assets/images/our-planet-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54764,7 +54916,9 @@
     "about": {
       "long": "OurPlanet International School was established in 2012 with a mission of bringing quality education to Muscat. We are a KG-G9 IB World School (PYP & MYP*). With more than 235 students benefiting from an IB education, the school skillfully navigated and adopted its education delivery mechanism by introducing state of the art online and hybrid teaching methods. Capitalising on technology, the school is ready for any education disruption such as COVID-19 or unpredicted weather conditions. OurPlanet International School welcomes all students to our family."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/our-planet-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJjccxuob4kT4RQus5Uz_UGAA",
@@ -54791,7 +54945,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.pdoschool.org&sz=128",
-    "hero_url": "https://static.wixstatic.com/media/4700a3_391f7019ff2b41169b11c03628066e77%7Emv2.png/v1/fit/w_2500,h_1330,al_c/4700a3_391f7019ff2b41169b11c03628066e77%7Emv2.png",
+    "hero_url": "assets/images/pdo-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -54897,7 +55051,9 @@
     "about": {
       "long": "At PDO School we combine the English curricula for Maths and English with the international IPC & IEYC curricula."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/pdo-school/hero.webp"
+    }
   },
   {
     "id": "ChIJtdS1sTb4kT4RRxCEwppT64s",
@@ -55061,7 +55217,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPfiVBq4n0T1XmAHV4DjlKcdyexYH8ONhJRJkyi=w900-h900-p-k-no",
+    "hero_url": "assets/images/playday-kids-club/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55173,7 +55329,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/playday-kids-club/hero.webp"
+    }
   },
   {
     "id": "ChIJ410arfD5kT4RgdOg7AkNSb0",
@@ -55200,7 +55358,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=polyglot.org&sz=128",
-    "hero_url": "https://polyglot.org/juniors/wp-content/plugins/clever-fox/inc/eduvert/images/slider/slide1.png",
+    "hero_url": "assets/images/polyglot-juniors-montessori/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55314,7 +55472,9 @@
     "about": {
       "long": "There are many variations of passages of Lorem Ipsum available but the majority have suffered injected humour dummy now."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/polyglot-juniors-montessori/hero.webp"
+    }
   },
   {
     "id": "ChIJVbXWyKL4kT4R9DvLEjfq1pU",
@@ -55341,7 +55501,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.qps.edu.om&sz=128",
-    "hero_url": "https://qps.edu.om/images/og/QPS OG home.jpg",
+    "hero_url": "assets/images/qurum-international-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55458,7 +55618,9 @@
       "short": "QIPS is one of the leading and renowned International Private Schools located in Muscat. It is known best for its success rate of students passing international exams and as well GED exams.",
       "long": "QIPS is one of the leading and renowned International Private Schools located in Muscat. It is known best for its success rate of students passing international exams and as well GED exams. Thank you for taking time to visit the website of Qurum International Private School, a distinctive educational institution with one of the best school campuses in Oman, a genuinely breathtaking region of the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/qurum-international-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJE6YFylH3kT4RcyYFNIVQ1KU",
@@ -55485,7 +55647,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.slsm.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/sri-lankan-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55592,7 +55754,9 @@
     "about": {
       "long": "The establishment of the Sri Lankan School in Muscat in 1989 was not merely the founding of another educational institution; it was the manifestation of a dream. A dream to carve out a space where Sri Lankan culture, values, and educational standards would thrive amidst a foreign land, ensuring that Sri Lankan children in Oman wouldn’t feel estranged from their roots. It all began with a handful of far-sighted Sri Lankans who recognized the need for a nationalistic educational institution in Oman. Their idea was revolutionary, especially given the context of the time – setting up a school infused with Sri Lankan values and helmed entirely by Sri Lankan educational professionals, from its…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sri-lankan-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJoXwNN-YBjj4Ry0A-Xstd0t8",
@@ -55619,7 +55783,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nocRVHV3dPnKuyWeF1j_VB4Aeb6xnAwqrtS3Bx8fJjsiWW9gmyskLZhltC8dv8XfQ7zX8R62DYafTtX4fqUDU8vs9ju0s8Kfl2vjtt8sgt8lZWGtx2Mc49HzKzaehIyjpj8OUDcA0uy7iUT=w900-h900-p-k-no",
+    "hero_url": "assets/images/safya-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55731,7 +55895,9 @@
       "short": "★★★★★ · General education school",
       "long": "★★★★★ · General education school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/safya-school/hero.webp"
+    }
   },
   {
     "id": "ChIJRwnUc2r5kT4RXJgBtVLNGJ4",
@@ -55758,7 +55924,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=sarhalibdaa.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/sarh-alibdaa-international-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55864,7 +56030,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sarh-alibdaa-international-school/hero.webp"
+    }
   },
   {
     "id": "ChIJ02cStOwBjj4RUHlMa4KcVAM",
@@ -55891,7 +56059,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1124902012510986240/zGZIjLZa_200x200.jpg",
+    "hero_url": "assets/images/school-hazim-bin-hammam/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -55997,7 +56165,9 @@
       "short": "‏‏‏‏‏مدرسة حازم بن همام للتعليم اﻷساسي(٥-٩) محافظة مسقط - ولاية بوشر.",
       "long": "‏‏‏‏‏مدرسة حازم بن همام للتعليم اﻷساسي(٥-٩) محافظة مسقط - ولاية بوشر."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/school-hazim-bin-hammam/hero.webp"
+    }
   },
   {
     "id": "ChIJufcXJI_3kT4R8cq5HuztxfM",
@@ -56024,7 +56194,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1566853856696406016/R5pKTkVJ_200x200.jpg",
+    "hero_url": "assets/images/school-saidia/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56130,7 +56300,9 @@
       "short": "الحساب الرسمي للمدرسة السعيدية للتعليم الأساسي (١-٤) محافظة مسقط| ولاية مطرح ⠀ ⠀ ⠀⠀ ⠀⠀ ⠀⠀ ⠀ ⠀⠀ ⠀⠀ ⠀ ⠀ ⠀ ⠀⠀ ⠀⠀ ⠀",
       "long": "الحساب الرسمي للمدرسة السعيدية للتعليم الأساسي (١-٤) محافظة مسقط| ولاية مطرح ⠀ ⠀ ⠀⠀ ⠀⠀ ⠀⠀ ⠀ ⠀⠀ ⠀⠀ ⠀ ⠀ ⠀ ⠀⠀ ⠀⠀ ⠀"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/school-saidia/hero.webp"
+    }
   },
   {
     "id": "ChIJ-7o1yPz-kT4Rk0R0vbdQQbE",
@@ -56157,7 +56329,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1691798985760030720/tN0EXkZQ_200x200.jpg",
+    "hero_url": "assets/images/shams-al-marif-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56263,7 +56435,9 @@
       "short": "حساب لعرض مناشط المدرسة 📚 | مديرة المدرسة: أ. علياء الحبسية",
       "long": "حساب لعرض مناشط المدرسة 📚 | مديرة المدرسة: أ. علياء الحبسية"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/shams-al-marif-school/hero.webp"
+    }
   },
   {
     "id": "ChIJGSWgGlX9jT4RdUWvb6oPiPk",
@@ -56290,7 +56464,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=shomoukh.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56402,7 +56576,9 @@
     "about": {
       "long": "Providing your babies brain with a strong foundation for learning and growing."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp"
+    }
   },
   {
     "id": "ChIJ5Y45xkf_kT4Ry1DQ0OpwVm4",
@@ -56429,7 +56605,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=shomoukh.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56541,7 +56717,9 @@
     "about": {
       "long": "Providing your babies brain with a strong foundation for learning and growing."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp"
+    }
   },
   {
     "id": "ChIJ6zyN5BD_kT4R30V1q4y6Yrg",
@@ -56568,7 +56746,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEWl2ksuvajVJa7zdHySQliDePeQW7u5ic1JFpaF8wfbRJOYW0WnUmgftAdW4SPDe-L57PCKKGpwedEget_pVwNNCsbpnNgr9Tk32T-3GjyEkMeks4GsKkC5drp59evp8XrUM=w900-h900-p-k-no",
+    "hero_url": "assets/images/stellar-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56674,7 +56852,9 @@
       "short": "Private educational institution",
       "long": "Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/stellar-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJeRPRTi7_kT4RSwttmHwM-PI",
@@ -56701,7 +56881,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.indian-nursery.com&sz=128",
-    "hero_url": "https://static.wixstatic.com/media/41d000_9bace29101c0110bf92b86118c5802c4.png/v1/fill/w_96,h_54,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/41d000_9bace29101c0110bf92b86118c5802c4.png",
+    "hero_url": "assets/images/the-indian-nursery-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56811,7 +56991,9 @@
     "about": {
       "long": "We’re more than educators. We help children build confidence for life. At Indian Nursery, we believe that showering our children with love and affection can unlock their full potential."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-indian-nursery-school/hero.webp"
+    }
   },
   {
     "id": "ChIJBSKUC_3_kT4RwwZmODlkK2w",
@@ -56838,7 +57020,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.tlcoman.edu.om&sz=128",
-    "hero_url": "https://tlcoman.edu.om/wp-content/uploads/2025/01/file-7-1.png",
+    "hero_url": "assets/images/tlc-oman-international-nursery-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -56955,7 +57137,9 @@
       "short": "At TLC Oman International School, we believe that every child deserves an education that not only builds strong academic foundations but also nurtures their social, emotional, and creative growth.",
       "long": "At TLC Oman International School, we believe that every child deserves an education that not only builds strong academic foundations but also nurtures their social, emotional, and creative growth. A place where academic excellence meets heartfelt care. Since 2008, we have been a home away from home for children of all nationalities, nurturing their intellectual curiosity and emotional development in a secure, loving environment. At TLC International School, we believe that every child deserves an education that not only builds strong academic foundations but also nurtures their social, emotional, and creative growth. Our innovative approach to teaching and learning ensures that your child…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/tlc-oman-international-nursery-school/hero.webp"
+    }
   },
   {
     "id": "ChIJWXbqJYP_kT4RFRHgfuKvFtU",
@@ -56982,7 +57166,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.facebook.com&sz=128",
-    "hero_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/302833496_474082711396267_564758985677180274_n.jpg?stp=dst-jpg_tt6&cstp=mx822x822&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nnRgEjAuG4IQ7kNvwEMX-k_&_nc_oc=AdlWhjDuutAKb304jdVicY7q4OCVLpGAbIEA4JtkFKONLD9z8_LOkX7Tkd815jrDqe8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=T43SFLU5pqkmioiDF_1pcg&oh=00_Affdu7Mfb7gG7YYriDoKN2sstpi93WndS-499pFPQzpGkA&oe=68E71BA0",
+    "hero_url": "assets/images/tunisian-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57088,7 +57272,9 @@
       "short": "‎المدرسة التونسية بمسقط-سلطنة عمان‎. 10,183 likes · 159 talking about this · 26 were here. ‎آليا مرحبا بكم في صفحة المدرسة التونسية بمسقط‎",
       "long": "‎المدرسة التونسية بمسقط-سلطنة عمان‎. 10,183 likes · 159 talking about this · 26 were here. ‎آليا مرحبا بكم في صفحة المدرسة التونسية بمسقط‎"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/tunisian-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJZdJ_Wy3-kT4RlkWqGEuXJkI",
@@ -57115,7 +57301,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.taism.com&sz=128",
-    "hero_url": "https://resources.finalsite.net/images/v1619285829/taismcom/w9qotb5afwdmlcqvjjqn/TAISM_og_image.png",
+    "hero_url": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57225,7 +57411,9 @@
       "short": "TAISM is a leading international school for early childhood to grade 12 in Muscat, Oman.",
       "long": "TAISM is a leading international school for early childhood to grade 12 in Muscat, Oman. Providing your child with hands-on learning experiences that encourage motor skill development, offers individualized learning, and develops their social skills in a safe, engaging environment."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-american-international-school-of-muscat-taism/hero.webp"
+    }
   },
   {
     "id": "ChIJxdwF94n5kT4Rkmi7ESCgqE4",
@@ -57252,7 +57440,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.thechampoman.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57358,7 +57546,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-champ-sports-arts-ruwi/hero.webp"
+    }
   },
   {
     "id": "ChIJMXDc2Jf_kT4RcbPguNOsQ9Q",
@@ -57385,7 +57575,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noCxDnQGfYdYve345sHKkJd0COyPxKbG4iI_Gkwl2XDgFQ54sLyXne0TUIlzlXTK0tBDHc-YJrpqKGKd9o2KjnSvPLFkPM6psXb0obO7t_4bFXT1VNu56B2V6hAUwHvtEyYeg08=w900-h900-p-k-no",
+    "hero_url": "assets/images/the-indian-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57497,7 +57687,9 @@
       "short": "★★★★☆ · Nursery school",
       "long": "★★★★☆ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-indian-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJtU2iaQH9jT4R3VGdbqw1Szs",
@@ -57524,7 +57716,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.iscmuscat.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57630,7 +57822,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-international-school-of-choueifat-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJtZOgWJX8jT4R2mj0XVkXG8k",
@@ -57657,7 +57851,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.sultansschool.edu.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/the-sultan-s-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57763,7 +57957,9 @@
       "short": "Welcome to The Sultan's School official website. Explore academic programs, extracurricular activities, events, community offerings, and the school's rich history and values.",
       "long": "Welcome to The Sultan's School official website. Explore academic programs, extracurricular activities, events, community offerings, and the school's rich history and values."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-sultan-s-school/hero.webp"
+    }
   },
   {
     "id": "ChIJd_y2jq_jjT4RrgIbqFnVOoQ",
@@ -57790,7 +57986,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=m.facebook.com&sz=128",
-    "hero_url": "https://static.xx.fbcdn.net/rsrc.php/v4/y8/r/k97pj8-or6s.png",
+    "hero_url": "assets/images/the-wave-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -57897,7 +58093,9 @@
       "short": "See posts, photos and more on Facebook.",
       "long": "See posts, photos and more on Facebook."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-wave-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJNR1kLEn-kT4R1dg9fYSmILo",
@@ -57924,7 +58122,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=upsschools.edu.om&sz=128",
-    "hero_url": "https://upsschools.edu.om/wpupsschool/wp-content/uploads/2024/11/34001256-409d-45f6-9cb4-04d531bd7153.jpeg",
+    "hero_url": "assets/images/united-private-schools-al-muna/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58035,7 +58233,9 @@
     "about": {
       "long": "Welcome to United International Schools online registration process. This admissions section provides details about the admissions process and fees, location and transportation,"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/united-private-schools-al-muna/hero.webp"
+    }
   },
   {
     "id": "ChIJDZ5TIrT_kT4Rc-v8MF9k6xs",
@@ -58062,7 +58262,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.willowbrooknursery.org&sz=128",
-    "hero_url": "https://static.wixstatic.com/media/6daf02_5f6e3325bd7b4a4d9575bbbb77dab211~mv2.jpg/v1/fill/w_429,h_538,al_c/6daf02_5f6e3325bd7b4a4d9575bbbb77dab211~mv2.jpg",
+    "hero_url": "assets/images/willowbrook-nursery-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58177,7 +58377,9 @@
       "short": "Willowbrook Nursery is a high quality Early Years nursery offering premium education and top quality childcare facilities for children aged between 4 months – 3.5 years. We are a British managed…",
       "long": "Willowbrook Nursery is a high quality Early Years nursery offering premium education and top quality childcare facilities for children aged between 4 months – 3.5 years. We are a British managed nursery that follow the EYFS curriculum. Our nursery welcomes children from all nationalities. Willowbrook Nursery is a high quality Early Years nursery offering premium education and top quality childcare facilities for children aged between 3 months – 3.5 years. We are a British managed nursery that follow the EYFS curriculum. Our nursery welcomes children from all nationalities."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/willowbrook-nursery-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJ644gwMH5kT4RSoUBZ2dfAFQ",
@@ -58203,7 +58405,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqYT0cxmGDzOldKZ-J9uokg1PwQzF2TRQ7lzDvqu_JTRCZ13RTMV1v0Cme6ox1uTrKATO9B7PIGbSWX5f-tZZz3RkXCjyrCt8aZsliPPZb45BCucXI0qWTKBWVSZ7md9u92fks=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58314,7 +58516,9 @@
       "short": "★★★★★ · Preschool",
       "long": "★★★★★ · Preschool"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-fitrah-islamic-pre-school/hero.webp"
+    }
   },
   {
     "id": "ChIJMQd2kOL_kT4RMV-uEwsSLUs",
@@ -58341,7 +58545,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrGh8HGDQ4bxIThAPaz5cJEGwq8rqRBwsTbgRhtwXes5Y5Ggo95VRlOgJhOxGtnyNK_aeBfCrf5HVANMdNEl4G8L7ehvP2nRaHO_bTBwHRUMDSg5CvYS0nCo6wTB1TKIjp8Frkg=w900-h900-p-k-no",
+    "hero_url": "assets/images/capital-private-school-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58447,7 +58651,9 @@
       "short": "High school",
       "long": "High school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/capital-private-school-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJGZf324L_kT4Rcks1oC5zktQ",
@@ -58474,7 +58680,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=wL4qZOupXgA5n632Zb3HTw&cb_client=search.gws-prod.gps&w=900&h=900&yaw=101.24224&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58579,7 +58785,9 @@
       "short": "Elementary school",
       "long": "Elementary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp"
+    }
   },
   {
     "id": "ChIJ1Vuq8Qb3kT4RsePrDM8D3DQ",
@@ -58606,7 +58814,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=m.facebook.com&sz=128",
-    "hero_url": "https://static.xx.fbcdn.net/rsrc.php/v4/y8/r/k97pj8-or6s.png",
+    "hero_url": "assets/images/5-12/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58713,7 +58921,9 @@
       "short": "See posts, photos and more on Facebook.",
       "long": "See posts, photos and more on Facebook."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/5-12/hero.webp"
+    }
   },
   {
     "id": "ChIJlaSdnR7_kT4RF_mwDvzRD64",
@@ -58740,7 +58950,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nowRA7Gcl25Zfk23LxoQ3vVbb0bFtEUaLUdNI_ZNNM6k7cKiwV5GWogZ3aT2X9LY1EyN5OhiCf7TE7DfImKz14EmlDFT0r3eHGKucDGmB9ytbjrjj7G_rLIyWbrkbCxvu1oB5Qh=w900-h900-p-k-no-pi-20-ya357-ro-0-fo100",
+    "hero_url": "assets/images/al-fikriya-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58846,7 +59056,9 @@
       "short": "Private educational institution",
       "long": "Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-fikriya-school/hero.webp"
+    }
   },
   {
     "id": "ChIJu2AybCf_kT4RGAc4O4Xm80M",
@@ -58873,7 +59085,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.pso.edu.om&sz=128",
-    "hero_url": "https://www.pso.edu.om/images/pl-school-logo.png",
+    "hero_url": "assets/images/philippine-school-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -58980,7 +59192,9 @@
     "about": {
       "long": "The philippine school has one of the best library facilities.."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/philippine-school-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJ8Y9272YBjj4Rmsj2DW9ljUc",
@@ -59007,7 +59221,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4notYdilk7ethSVbsYICkg9AA_ZiES4U5YPT_9JRXA1XgTpAtMNFGdtjuxFTlX8Qa8XhWxZZV2wDxxodPCgBl3TrxRhuv_4rt9KPE0VMQIZEzXG8NMjI2RN1wM7hk3nt1_X7v_qG=w900-h900-p-k-no",
+    "hero_url": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59112,7 +59326,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp"
+    }
   },
   {
     "id": "ChIJWeMyuub9jT4Rp0Rws2zvlmg",
@@ -59139,7 +59355,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noF9meFfyRG5fuTZRmWS1u6Ili0cODc-KhSA8RXMtcERu04Qy7pB8BZpdBi2fURXRmArE5k723hKJ42_EGMEBtpNkDRW90jkj-FKS9JBaGBlO24U2hohpuw6b2FG8I7jebs2qaS=w900-h900-p-k-no",
+    "hero_url": "assets/images/read-learn-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59251,7 +59467,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/read-learn-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJ2eD061z3kT4RNwrruXDznoo",
@@ -59278,7 +59496,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np_vuxhTyu9qCoCbMDByZzCxpjF1PkQ-janRgAlqPyzQCVaM2ooIXphL_NgpP-Cbva6jgsaK6h8nWm5034PReb3lwCQr0KguvKLKOa1aymFq9wrI0UCDwiLGZSjLA5ZjR7i7fUq=w900-h900-p-k-no",
+    "hero_url": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59389,7 +59607,9 @@
       "short": "★★★★☆ · Nursery school",
       "long": "★★★★☆ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp"
+    }
   },
   {
     "id": "ChIJS5YARpb5kT4RvtZ228QddQ8",
@@ -59416,7 +59636,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqtyS5dtb-dyw7z0kos6DYHzhIJSduazNRaSN8Qjav_YnC4RyK1Yy5v7ERKbIyXSZ-MB5JCOIj44JEgxxWx13a5a7L7HqLrpRewP4wlbLEf2z3JSBLA53R52Pjo144aTDQz0ps=w900-h900-p-k-no",
+    "hero_url": "assets/images/kids-kingdom-nursery/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59528,7 +59748,9 @@
       "short": "★★★★★ · Nursery school",
       "long": "★★★★★ · Nursery school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kids-kingdom-nursery/hero.webp"
+    }
   },
   {
     "id": "ChIJuSnc5Sz9jT4Rv5DZ1m5veSo",
@@ -59555,7 +59777,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.akpkmuscat.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59661,7 +59883,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ambitious-kids-private-kindergarten/hero.webp"
+    }
   },
   {
     "id": "ChIJg4l1S0v_kT4REdp3ZUcIzn8",
@@ -59688,7 +59912,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNhXOQFNUkJA6zZ3Sc2wMV5_o1lRm1VUDQobvNi=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59799,7 +60023,9 @@
       "short": "★★★★★ · Kindergarten",
       "long": "★★★★★ · Kindergarten"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp"
+    }
   },
   {
     "id": "ChIJ9cbz8Hj_kT4R7N0DajvqwJ0",
@@ -59825,7 +60051,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://maps.google.com/maps/api/staticmap?center=23.5457041%2C58.3738003&zoom=16&size=900x900&language=en&markers=23.5457041%2C58.3738003&sensor=false&client=google-maps-frontend&signature=iD10lZ9KEDzcOLcwyksNrZXsXek",
+    "hero_url": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -59935,7 +60161,9 @@
       "short": "★★★★★ · Military school",
       "long": "★★★★★ · Military school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp"
+    }
   },
   {
     "id": "ChIJEbhu1F_9jT4R4-T5wObou1g",
@@ -59962,7 +60190,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=rgsgm.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60068,7 +60296,9 @@
       "short": "Site will be available soon. Thank you for your patience!",
       "long": "Site will be available soon. Thank you for your patience!"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp"
+    }
   },
   {
     "id": "ChIJW2gisgj_kT4RmbZMo7FssWU",
@@ -60095,7 +60325,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/5-10/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60195,7 +60425,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/5-10/hero.webp"
+    }
   },
   {
     "id": "ChIJo_lv5fr5kT4RaMJ9_gb9dws",
@@ -60222,7 +60454,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60321,7 +60553,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp"
+    }
   },
   {
     "id": "ChIJKxDN_V74kT4R8JPHnYfvxus",
@@ -60348,7 +60582,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60447,7 +60681,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp"
+    }
   },
   {
     "id": "ChIJrXUYUMz5kT4RZE7JCBOVSFw",
@@ -60474,7 +60710,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npeEHs_thV-fp5FSGFncXU_lWUZ7abT000OUyMMp9l_xODJur7lkHPwK0O0eaQMiEeDNAz7QtqxwT1kE-iN0bZd0ja9vgY-b6BDZMrPGHHqsXZ1Erw9Nga8v6ExNj1WzZCHTD3a=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60579,7 +60815,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp"
+    }
   },
   {
     "id": "ChIJPVdOFZj9jT4RZ7DR_srp3Tc",
@@ -60606,7 +60844,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/albayan-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60706,7 +60944,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/albayan-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJaexU6Rr3kT4RL4V1BFQYQnY",
@@ -60733,7 +60973,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=CMyzE9oyA0YlkgNyu5VqeA&cb_client=search.gws-prod.gps&w=900&h=900&yaw=205.31593&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60838,7 +61078,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp"
+    }
   },
   {
     "id": "ChIJ8ai4J8f9jT4RYag6Qoe8MX4",
@@ -60865,7 +61107,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMayWuXElRnnUyX_xVwXGOanGHnv1zPg_n8t59A=w900-h900-p-k-no",
+    "hero_url": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -60976,7 +61218,9 @@
       "short": "★★★★★ · Primary school",
       "long": "★★★★★ · Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp"
+    }
   },
   {
     "id": "ChIJN0q4SJH5kT4RXoFvayqOhWw",
@@ -61003,7 +61247,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61102,7 +61346,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp"
+    }
   },
   {
     "id": "ChIJjSuZuAv3kT4R7w6EjfX1LVw",
@@ -61129,7 +61375,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=90CplzZzj5A1F6HA6AQ8tQ&cb_client=search.gws-prod.gps&w=900&h=900&yaw=62.271736&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61234,7 +61480,9 @@
       "short": "General education school",
       "long": "General education school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp"
+    }
   },
   {
     "id": "ChIJWXPiyE33kT4RTV8aJ3oU5ms",
@@ -61261,7 +61509,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMipmCerBlLDCNCmPt2P7acHge0lRWzEXl0h6In=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61366,7 +61614,9 @@
       "short": "Religious school",
       "long": "Religious school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp"
+    }
   },
   {
     "id": "ChIJHfoAupX7kT4RmXofW6oGiq4",
@@ -61393,7 +61643,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNCUOEh6IrCvHFmBhUuGADHIbdYs_OXoRQBdld8=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61498,7 +61748,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp"
+    }
   },
   {
     "id": "ChIJZfBwrHr_kT4RA7j7I3wHEl4",
@@ -61525,7 +61777,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ghubrapvts.com&sz=128",
-    "hero_url": "https://ghubrapvts.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-12-09-at-5.53.43-AM.jpeg",
+    "hero_url": "assets/images/al-ghubra-private-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61631,7 +61883,9 @@
     "about": {
       "long": "To provide a nurturing and inclusive educational environment that promotes academic excellence, bilingual proficiency, and the holistic development of students. We aim to empower learners with the skills, values, and knowledge needed to thrive in a dynamic global society while fostering a strong sense of cultural identity and social responsibility."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-ghubra-private-school/hero.webp"
+    }
   },
   {
     "id": "ChIJUceCvC3_kT4RpergSCf3H4I",
@@ -61658,7 +61912,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=g-reader-school.com&sz=128",
-    "hero_url": "https://g-reader-school.com/wp-content/uploads/2025/06/صور-رابط-المدرسة-02.jpg",
+    "hero_url": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61763,7 +62017,9 @@
       "short": "مدرسة القارئ العبقري أسسها عبدالله العيسري؛ مؤسس مركز العيسري قبل ٢٠ عامًا ؛ سجلوا في برامج سنا الصيفية وفي البرنامج الدراسي الدائم؛ كنا وما نزال نعدهم للحياة ونصنعهم على أعيننا كي تقر بهم أعينكم",
       "long": "مدرسة القارئ العبقري أسسها عبدالله العيسري؛ مؤسس مركز العيسري قبل ٢٠ عامًا ؛ سجلوا في برامج سنا الصيفية وفي البرنامج الدراسي الدائم؛ كنا وما نزال نعدهم للحياة ونصنعهم على أعيننا كي تقر بهم أعينكم جعلنا التعليم رواءً : سقيًا على مهل، جذورًا تغور، وأغصانًا تعلو."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp"
+    }
   },
   {
     "id": "ChIJt70bqH_9jT4RH6mBycw1G5Q",
@@ -61789,7 +62045,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -61887,7 +62143,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp"
+    }
   },
   {
     "id": "ChIJDV99Y835kT4R99B6VvCbg-M",
@@ -61914,7 +62172,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqngeqgRCmeTZAspEzKyT_G3xMaJMUbRZkXLGMZJEr-f0kMHEol0XciU-enEn_7S63vU3pM8ZCKUum08N6xy5PAnVtZ5qZ4TnnKI86zOx1rVKOlL-aVOCbIadc4r9esJdFFQZkD=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62019,7 +62277,9 @@
       "short": "Private educational institution",
       "long": "Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp"
+    }
   },
   {
     "id": "ChIJ5V135Vv3kT4RmGaCC14dmBw",
@@ -62046,7 +62306,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noLyNbCrk-fSu4YHONZ7hrifU3N43YrTbvl-gUUbdSEJNp2WfDYaP0vqcrYgKXXu8s0xwzdlOLdYKtUG1B5lIB-hzdAw8wYHaIwQdlHrEV2BJqhAilqFD90Njxzm8P3AC6yNHZ2=w900-h900-p-k-no",
+    "hero_url": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62151,7 +62411,9 @@
       "short": "Primary school",
       "long": "Primary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp"
+    }
   },
   {
     "id": "ChIJ_UrrUQD5kT4Rv_tiD-VuLV4",
@@ -62177,7 +62439,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5Kh4NGFwkAfT2We--aw0-w&cb_client=search.gws-prod.gps&w=900&h=900&yaw=193.04848&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62281,7 +62543,9 @@
       "short": "Religious school",
       "long": "Religious school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp"
+    }
   },
   {
     "id": "ChIJhQlusdT5kT4RCkgIFG7ndg0",
@@ -62308,7 +62572,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1790837098414530562/07R2sBM7_200x200.jpg",
+    "hero_url": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62419,7 +62683,9 @@
       "short": "الحساب الرسمي لـمدرسة حسان بن ثابت للتعليم الأساسي (٩-١٢) - ولاية مطرح - نقل الفعاليات والأنشطة المدرسية",
       "long": "الحساب الرسمي لـمدرسة حسان بن ثابت للتعليم الأساسي (٩-١٢) - ولاية مطرح - نقل الفعاليات والأنشطة المدرسية"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp"
+    }
   },
   {
     "id": "ChIJLfoiKOb3kT4RRlAv2xQaQAY",
@@ -62446,7 +62712,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1364246678488907779/LWDVUkgG_200x200.jpg",
+    "hero_url": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62551,7 +62817,9 @@
       "short": "ولاية مسقط سداب هاتف المدرسة ٢٤٧٣٧٦٤٤ #مدرسة_راشد_بن_النضر",
       "long": "ولاية مسقط سداب هاتف المدرسة ٢٤٧٣٧٦٤٤ #مدرسة_راشد_بن_النضر"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp"
+    }
   },
   {
     "id": "ChIJIad_gcv3kT4RrSifzF8cmRg",
@@ -62578,7 +62846,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/23668260_890984661061469_599766318593343488_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=106&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40ODAuQzMifQ%3D%3D&_nc_ohc=P3xAWWO-q3kQ7kNvwFW3cm4&_nc_oc=Adk2wvHFhvgFbCgyNRVLFre8E2bcBLiPE4V0t0J5u5lXYj3gYqU1cRea9StGBKZAFqo&_nc_zt=24&_nc_ht=scontent-ord5-3.cdninstagram.com&oh=00_AffgDPjaCSkartc3imXNnl6OPaIzIb22snkJKGuN9waznQ&oe=68E6F818",
+    "hero_url": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62683,7 +62951,9 @@
       "short": "536 Followers, 123 Following, 114 Posts - ‎مدرسة زبيدة أم الأمين ١٠-١٢ (@zubidaschool83)‎ on Instagram: \"\"",
       "long": "536 Followers, 123 Following, 114 Posts - ‎مدرسة زبيدة أم الأمين ١٠-١٢ (@zubidaschool83)‎ on Instagram: \"\""
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp"
+    }
   },
   {
     "id": "ChIJMfU2zHf9jT4Rl5ymE31Uk3Q",
@@ -62710,7 +62980,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=muscatmaps.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/maps-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62810,7 +63080,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/maps-school/hero.webp"
+    }
   },
   {
     "id": "ChIJfSohogMAjj4RDba5mNhbzv0",
@@ -62837,7 +63109,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMfPlvx12jPu159lIcZA1CGBUDJrDkIMJyGTX7v=w900-h900-p-k-no",
+    "hero_url": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -62942,7 +63214,9 @@
       "short": "Private educational institution",
       "long": "Private educational institution"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp"
+    }
   },
   {
     "id": "ChIJ9UGhlgnjjT4RXWbjtuT4FEw",
@@ -62969,7 +63243,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNC8ARUVanlybCysJ9ctXXPOTrhEKYsxvibSTRa=w900-h900-p-k-no",
+    "hero_url": "assets/images/manazil-al-huroof-school/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -63081,7 +63355,9 @@
       "short": "★★★★★ · Preschool",
       "long": "★★★★★ · Preschool"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/manazil-al-huroof-school/hero.webp"
+    }
   },
   {
     "id": "ChIJX6cBst0Bjj4RwHXlVTRCt34",
@@ -63108,7 +63384,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1074371759552516102/0pw-IN6J_200x200.jpg",
+    "hero_url": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -63213,7 +63489,9 @@
       "short": "‏مدرسة منبع الإيمان للتعليم الاساسي (1-4) تقع في ولاية بوشر منطقة الانصب / مسقط",
       "long": "‏مدرسة منبع الإيمان للتعليم الاساسي (1-4) تقع في ولاية بوشر منطقة الانصب / مسقط"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp"
+    }
   },
   {
     "id": "ChIJER5rKArykT4RCauM4zUKDrs",
@@ -63240,7 +63518,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -63339,7 +63617,9 @@
     "public_sentiment": {
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp"
+    }
   },
   {
     "id": "ChIJv0NbHpT3kT4RkZhOb2jm7ek",
@@ -63365,7 +63645,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://maps.google.com/maps/api/staticmap?center=23.6147446%2C58.5884649&zoom=16&size=900x900&language=en&markers=23.6147446%2C58.5884649&sensor=false&client=google-maps-frontend&signature=x3Cs072VW7fs-PnGmx8nMOanjB4",
+    "hero_url": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -63469,7 +63749,9 @@
       "short": "Religious school",
       "long": "Religious school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp"
+    }
   },
   {
     "id": "ChIJl56KVa79jT4RicFOkTkFrG4",
@@ -63496,7 +63778,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P4wm6TVM9hANcar-vkRZtw&cb_client=search.gws-prod.gps&w=900&h=900&yaw=84.82446&pitch=0&thumbfov=100",
+    "hero_url": "assets/images/n/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -63602,7 +63884,9 @@
       "short": "Elementary school",
       "long": "Elementary school"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/n/hero.webp"
+    }
   },
   {
     "id": "s001",
