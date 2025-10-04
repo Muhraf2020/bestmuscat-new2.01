@@ -288,8 +288,11 @@
   function render(item, all) {
     // Identity
     el.title.textContent = item.name || "Untitled";
-    // Short blurb under the title
-    const short = item.about_short || item.tagline || item.description || "";
+    // Short blurb under the title: nested about.short → flat → description → tagline
+    const short =
+      (item.about && (item.about.short || item.about.long)) ||
+      item.about_short || item.about_long ||
+      item.description || item.tagline || "";
     if (short && String(short).trim()) {
       el.excerpt.textContent = short;
       el.excerpt.hidden = false;
@@ -461,11 +464,15 @@
     const state = openState(item.hours);
     if (state) { el.open.textContent = state; el.open.hidden = false; }
 
-    // About (prefer about_long → about → description → tagline)
+    // About (prefer nested about.long/short → flat → description → tagline)
     if (features.about) {
-      el.about.textContent =
-        item.about_long || item.about || item.description || item.tagline || "—";
+      const longTxt =
+        (item.about && (item.about.long || item.about.short)) ||
+        item.about_long || item.about_short ||
+        item.description || item.tagline || "—";
+      el.about.textContent = longTxt;
     }
+
 
 
     // Hours
