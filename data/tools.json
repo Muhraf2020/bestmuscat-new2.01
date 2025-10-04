@@ -43458,7 +43458,13 @@
     },
     "images": {
       "hero": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
+    "image": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
+    "cover": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
+    "cover_image": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
+    "heroImage": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp",
+    "thumbnail": "assets/images/a-soud-global-school-al-seeb-muscat/hero.webp"
   },
   {
     "id": "ChIJDQAusSD_kT4RXGfMm43aUvk",
@@ -43598,7 +43604,13 @@
     },
     "images": {
       "hero": "assets/images/aba-oman-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/aba-oman-international-school/hero.webp",
+    "image": "assets/images/aba-oman-international-school/hero.webp",
+    "cover": "assets/images/aba-oman-international-school/hero.webp",
+    "cover_image": "assets/images/aba-oman-international-school/hero.webp",
+    "heroImage": "assets/images/aba-oman-international-school/hero.webp",
+    "thumbnail": "assets/images/aba-oman-international-school/hero.webp"
   },
   {
     "id": "ChIJ8WGh_3b_kT4Rp6gxjRr3yls",
@@ -43737,7 +43749,13 @@
     },
     "images": {
       "hero": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
+    "image": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
+    "cover": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
+    "cover_image": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
+    "heroImage": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp",
+    "thumbnail": "assets/images/abq-azzan-bin-qais-international-school-mq-campus/hero.webp"
   },
   {
     "id": "ChIJ51aoDwABjj4RnaZtPI-L0ms",
@@ -43880,7 +43898,13 @@
     },
     "images": {
       "hero": "assets/images/abq-explorer-muscat-hills/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/abq-explorer-muscat-hills/hero.webp",
+    "image": "assets/images/abq-explorer-muscat-hills/hero.webp",
+    "cover": "assets/images/abq-explorer-muscat-hills/hero.webp",
+    "cover_image": "assets/images/abq-explorer-muscat-hills/hero.webp",
+    "heroImage": "assets/images/abq-explorer-muscat-hills/hero.webp",
+    "thumbnail": "assets/images/abq-explorer-muscat-hills/hero.webp"
   },
   {
     "id": "ChIJXy54z7H8jT4RWgAOlIEgU-k",
@@ -44019,7 +44043,13 @@
     },
     "images": {
       "hero": "assets/images/abq-seeb-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/abq-seeb-international-school/hero.webp",
+    "image": "assets/images/abq-seeb-international-school/hero.webp",
+    "cover": "assets/images/abq-seeb-international-school/hero.webp",
+    "cover_image": "assets/images/abq-seeb-international-school/hero.webp",
+    "heroImage": "assets/images/abq-seeb-international-school/hero.webp",
+    "thumbnail": "assets/images/abq-seeb-international-school/hero.webp"
   },
   {
     "id": "ChIJBzzNJAD_kT4RNVxXq0knhZM",
@@ -44160,7 +44190,13 @@
     },
     "images": {
       "hero": "assets/images/al-ibdaa-kingdom-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
+    "image": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
+    "cover": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
+    "cover_image": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
+    "heroImage": "assets/images/al-ibdaa-kingdom-nursery/hero.webp",
+    "thumbnail": "assets/images/al-ibdaa-kingdom-nursery/hero.webp"
   },
   {
     "id": "ChIJ7WBilAQAjj4R0OxSlge8J-U",
@@ -44289,7 +44325,13 @@
     },
     "images": {
       "hero": "assets/images/abjad-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/abjad-private-school/hero.webp",
+    "image": "assets/images/abjad-private-school/hero.webp",
+    "cover": "assets/images/abjad-private-school/hero.webp",
+    "cover_image": "assets/images/abjad-private-school/hero.webp",
+    "heroImage": "assets/images/abjad-private-school/hero.webp",
+    "thumbnail": "assets/images/abjad-private-school/hero.webp"
   },
   {
     "id": "ChIJBSuSddsBjj4ReXpuSTcfkLY",
@@ -44422,7 +44464,13 @@
     },
     "images": {
       "hero": "assets/images/ahl-al-quran-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ahl-al-quran-school/hero.webp",
+    "image": "assets/images/ahl-al-quran-school/hero.webp",
+    "cover": "assets/images/ahl-al-quran-school/hero.webp",
+    "cover_image": "assets/images/ahl-al-quran-school/hero.webp",
+    "heroImage": "assets/images/ahl-al-quran-school/hero.webp",
+    "thumbnail": "assets/images/ahl-al-quran-school/hero.webp"
   },
   {
     "id": "ChIJo7nvMMgBjj4REnTv9Hf2Zws",
@@ -44557,7 +44605,13 @@
     },
     "images": {
       "hero": "assets/images/al-burj-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-burj-private-school/hero.webp",
+    "image": "assets/images/al-burj-private-school/hero.webp",
+    "cover": "assets/images/al-burj-private-school/hero.webp",
+    "cover_image": "assets/images/al-burj-private-school/hero.webp",
+    "heroImage": "assets/images/al-burj-private-school/hero.webp",
+    "thumbnail": "assets/images/al-burj-private-school/hero.webp"
   },
   {
     "id": "ChIJjai2aFf-kT4RWNV7Y04Wqmo",
@@ -44698,7 +44752,13 @@
     },
     "images": {
       "hero": "assets/images/al-hikma-private-school-bousher/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-hikma-private-school-bousher/hero.webp",
+    "image": "assets/images/al-hikma-private-school-bousher/hero.webp",
+    "cover": "assets/images/al-hikma-private-school-bousher/hero.webp",
+    "cover_image": "assets/images/al-hikma-private-school-bousher/hero.webp",
+    "heroImage": "assets/images/al-hikma-private-school-bousher/hero.webp",
+    "thumbnail": "assets/images/al-hikma-private-school-bousher/hero.webp"
   },
   {
     "id": "ChIJ61ur4hf4kT4RNN9oCNYVjPI",
@@ -44838,7 +44898,13 @@
     },
     "images": {
       "hero": "assets/images/al-huda-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-huda-private-school/hero.webp",
+    "image": "assets/images/al-huda-private-school/hero.webp",
+    "cover": "assets/images/al-huda-private-school/hero.webp",
+    "cover_image": "assets/images/al-huda-private-school/hero.webp",
+    "heroImage": "assets/images/al-huda-private-school/hero.webp",
+    "thumbnail": "assets/images/al-huda-private-school/hero.webp"
   },
   {
     "id": "ChIJGTJ6nsr_kT4R65Hjv3V91DU",
@@ -44967,7 +45033,13 @@
     },
     "images": {
       "hero": "assets/images/al-ibdaa-international-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-ibdaa-international-private-school/hero.webp",
+    "image": "assets/images/al-ibdaa-international-private-school/hero.webp",
+    "cover": "assets/images/al-ibdaa-international-private-school/hero.webp",
+    "cover_image": "assets/images/al-ibdaa-international-private-school/hero.webp",
+    "heroImage": "assets/images/al-ibdaa-international-private-school/hero.webp",
+    "thumbnail": "assets/images/al-ibdaa-international-private-school/hero.webp"
   },
   {
     "id": "ChIJaS3-w-oBjj4RkDrpTBWRCyk",
@@ -45250,7 +45322,13 @@
     },
     "images": {
       "hero": "assets/images/al-maha-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-maha-private-school/hero.webp",
+    "image": "assets/images/al-maha-private-school/hero.webp",
+    "cover": "assets/images/al-maha-private-school/hero.webp",
+    "cover_image": "assets/images/al-maha-private-school/hero.webp",
+    "heroImage": "assets/images/al-maha-private-school/hero.webp",
+    "thumbnail": "assets/images/al-maha-private-school/hero.webp"
   },
   {
     "id": "ChIJGTJ0R073kT4RcCqxcTI3zX8",
@@ -45383,7 +45461,13 @@
     },
     "images": {
       "hero": "assets/images/al-manhal-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-manhal-private-school/hero.webp",
+    "image": "assets/images/al-manhal-private-school/hero.webp",
+    "cover": "assets/images/al-manhal-private-school/hero.webp",
+    "cover_image": "assets/images/al-manhal-private-school/hero.webp",
+    "heroImage": "assets/images/al-manhal-private-school/hero.webp",
+    "thumbnail": "assets/images/al-manhal-private-school/hero.webp"
   },
   {
     "id": "ChIJk41m2af9jT4RLEoi5GSF6DA",
@@ -45530,7 +45614,13 @@
     },
     "images": {
       "hero": "assets/images/al-mawaleh-private-school-mps/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-mawaleh-private-school-mps/hero.webp",
+    "image": "assets/images/al-mawaleh-private-school-mps/hero.webp",
+    "cover": "assets/images/al-mawaleh-private-school-mps/hero.webp",
+    "cover_image": "assets/images/al-mawaleh-private-school-mps/hero.webp",
+    "heroImage": "assets/images/al-mawaleh-private-school-mps/hero.webp",
+    "thumbnail": "assets/images/al-mawaleh-private-school-mps/hero.webp"
   },
   {
     "id": "ChIJ_xyLNAD5kT4R44JznKHsdZU",
@@ -45663,7 +45753,13 @@
     },
     "images": {
       "hero": "assets/images/al-noor-madrasa/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-noor-madrasa/hero.webp",
+    "image": "assets/images/al-noor-madrasa/hero.webp",
+    "cover": "assets/images/al-noor-madrasa/hero.webp",
+    "cover_image": "assets/images/al-noor-madrasa/hero.webp",
+    "heroImage": "assets/images/al-noor-madrasa/hero.webp",
+    "thumbnail": "assets/images/al-noor-madrasa/hero.webp"
   },
   {
     "id": "ChIJvWypx4z4kT4RiQ-kfq_etXg",
@@ -45792,7 +45888,13 @@
     },
     "images": {
       "hero": "assets/images/al-qurum-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-qurum-school/hero.webp",
+    "image": "assets/images/al-qurum-school/hero.webp",
+    "cover": "assets/images/al-qurum-school/hero.webp",
+    "cover_image": "assets/images/al-qurum-school/hero.webp",
+    "heroImage": "assets/images/al-qurum-school/hero.webp",
+    "thumbnail": "assets/images/al-qurum-school/hero.webp"
   },
   {
     "id": "ChIJW7pO80j_kT4R1NkidE8sWCM",
@@ -46069,7 +46171,13 @@
     },
     "images": {
       "hero": "assets/images/al-sahwa-schools-gate-1/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-sahwa-schools-gate-1/hero.webp",
+    "image": "assets/images/al-sahwa-schools-gate-1/hero.webp",
+    "cover": "assets/images/al-sahwa-schools-gate-1/hero.webp",
+    "cover_image": "assets/images/al-sahwa-schools-gate-1/hero.webp",
+    "heroImage": "assets/images/al-sahwa-schools-gate-1/hero.webp",
+    "thumbnail": "assets/images/al-sahwa-schools-gate-1/hero.webp"
   },
   {
     "id": "ChIJmSGp3bTljT4RMov32CSBIdY",
@@ -46208,7 +46316,13 @@
     },
     "images": {
       "hero": "assets/images/al-shomoukh-international-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-shomoukh-international-private-school/hero.webp",
+    "image": "assets/images/al-shomoukh-international-private-school/hero.webp",
+    "cover": "assets/images/al-shomoukh-international-private-school/hero.webp",
+    "cover_image": "assets/images/al-shomoukh-international-private-school/hero.webp",
+    "heroImage": "assets/images/al-shomoukh-international-private-school/hero.webp",
+    "thumbnail": "assets/images/al-shomoukh-international-private-school/hero.webp"
   },
   {
     "id": "ChIJ03ANF_X4kT4Ro2khCW2j0Lg",
@@ -46349,7 +46463,13 @@
     },
     "images": {
       "hero": "assets/images/al-shumus-nursery-qurum/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-shumus-nursery-qurum/hero.webp",
+    "image": "assets/images/al-shumus-nursery-qurum/hero.webp",
+    "cover": "assets/images/al-shumus-nursery-qurum/hero.webp",
+    "cover_image": "assets/images/al-shumus-nursery-qurum/hero.webp",
+    "heroImage": "assets/images/al-shumus-nursery-qurum/hero.webp",
+    "thumbnail": "assets/images/al-shumus-nursery-qurum/hero.webp"
   },
   {
     "id": "ChIJVf_LSOH8jT4RCg1U2olILHk",
@@ -46484,7 +46604,13 @@
     },
     "images": {
       "hero": "assets/images/al-waha-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-waha-school/hero.webp",
+    "image": "assets/images/al-waha-school/hero.webp",
+    "cover": "assets/images/al-waha-school/hero.webp",
+    "cover_image": "assets/images/al-waha-school/hero.webp",
+    "heroImage": "assets/images/al-waha-school/hero.webp",
+    "thumbnail": "assets/images/al-waha-school/hero.webp"
   },
   {
     "id": "ChIJo_ic1KX_kT4RCa6CD7NDr2E",
@@ -46771,7 +46897,13 @@
     },
     "images": {
       "hero": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
+    "image": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
+    "cover": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
+    "cover_image": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
+    "heroImage": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp",
+    "thumbnail": "assets/images/american-lyceum-international-nursery-al-azaiba/hero.webp"
   },
   {
     "id": "ChIJ7Ucv9m3_kT4RJWkRyBhA6Tw",
@@ -46917,7 +47049,13 @@
     },
     "images": {
       "hero": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
+    "image": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
+    "cover": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
+    "cover_image": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
+    "heroImage": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp",
+    "thumbnail": "assets/images/american-lyceum-international-nursery-ghubrah-branch/hero.webp"
   },
   {
     "id": "ChIJj8bkInUAjj4Rr8j4j7YSFPk",
@@ -47062,7 +47200,13 @@
     },
     "images": {
       "hero": "assets/images/american-lyceum-international-nursery-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
+    "image": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
+    "cover": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
+    "cover_image": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
+    "heroImage": "assets/images/american-lyceum-international-nursery-muscat/hero.webp",
+    "thumbnail": "assets/images/american-lyceum-international-nursery-muscat/hero.webp"
   },
   {
     "id": "ChIJj9Li74oBjj4RDGoHN0vCvcc",
@@ -47202,7 +47346,13 @@
     },
     "images": {
       "hero": "assets/images/american-lyceum-international-school-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/american-lyceum-international-school-oman/hero.webp",
+    "image": "assets/images/american-lyceum-international-school-oman/hero.webp",
+    "cover": "assets/images/american-lyceum-international-school-oman/hero.webp",
+    "cover_image": "assets/images/american-lyceum-international-school-oman/hero.webp",
+    "heroImage": "assets/images/american-lyceum-international-school-oman/hero.webp",
+    "thumbnail": "assets/images/american-lyceum-international-school-oman/hero.webp"
   },
   {
     "id": "ChIJbdRCBjLEhz4REIMrINoF1xA",
@@ -47345,7 +47495,13 @@
     },
     "images": {
       "hero": "assets/images/aqua-tots-swim-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
+    "image": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
+    "cover": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
+    "cover_image": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
+    "heroImage": "assets/images/aqua-tots-swim-school-muscat/hero.webp",
+    "thumbnail": "assets/images/aqua-tots-swim-school-muscat/hero.webp"
   },
   {
     "id": "ChIJGzVl5Y__kT4R0mMtL_xLEA0",
@@ -47486,7 +47642,13 @@
     },
     "images": {
       "hero": "assets/images/art-of-living-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/art-of-living-private-school/hero.webp",
+    "image": "assets/images/art-of-living-private-school/hero.webp",
+    "cover": "assets/images/art-of-living-private-school/hero.webp",
+    "cover_image": "assets/images/art-of-living-private-school/hero.webp",
+    "heroImage": "assets/images/art-of-living-private-school/hero.webp",
+    "thumbnail": "assets/images/art-of-living-private-school/hero.webp"
   },
   {
     "id": "ChIJqzrehbn8jT4R7wed1rm-EVA",
@@ -47626,7 +47788,13 @@
     },
     "images": {
       "hero": "assets/images/assafwah-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/assafwah-international-school/hero.webp",
+    "image": "assets/images/assafwah-international-school/hero.webp",
+    "cover": "assets/images/assafwah-international-school/hero.webp",
+    "cover_image": "assets/images/assafwah-international-school/hero.webp",
+    "heroImage": "assets/images/assafwah-international-school/hero.webp",
+    "thumbnail": "assets/images/assafwah-international-school/hero.webp"
   },
   {
     "id": "ChIJPfMkoMUBjj4RDk5BkwDSaQU",
@@ -47766,7 +47934,13 @@
     },
     "images": {
       "hero": "assets/images/a-ssafwah-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/a-ssafwah-private-school/hero.webp",
+    "image": "assets/images/a-ssafwah-private-school/hero.webp",
+    "cover": "assets/images/a-ssafwah-private-school/hero.webp",
+    "cover_image": "assets/images/a-ssafwah-private-school/hero.webp",
+    "heroImage": "assets/images/a-ssafwah-private-school/hero.webp",
+    "thumbnail": "assets/images/a-ssafwah-private-school/hero.webp"
   },
   {
     "id": "ChIJcXDnq87wkT4RHuVstuyIj94",
@@ -47907,7 +48081,13 @@
     },
     "images": {
       "hero": "assets/images/baj-515/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/baj-515/hero.webp",
+    "image": "assets/images/baj-515/hero.webp",
+    "cover": "assets/images/baj-515/hero.webp",
+    "cover_image": "assets/images/baj-515/hero.webp",
+    "heroImage": "assets/images/baj-515/hero.webp",
+    "thumbnail": "assets/images/baj-515/hero.webp"
   },
   {
     "id": "ChIJtZY0d6L_kT4RLNz4RXGtQLo",
@@ -48042,7 +48222,13 @@
     },
     "images": {
       "hero": "assets/images/bangladesh-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bangladesh-school-muscat/hero.webp",
+    "image": "assets/images/bangladesh-school-muscat/hero.webp",
+    "cover": "assets/images/bangladesh-school-muscat/hero.webp",
+    "cover_image": "assets/images/bangladesh-school-muscat/hero.webp",
+    "heroImage": "assets/images/bangladesh-school-muscat/hero.webp",
+    "thumbnail": "assets/images/bangladesh-school-muscat/hero.webp"
   },
   {
     "id": "ChIJ3zPZ5J_5kT4Rb6XluBQpXzI",
@@ -48175,7 +48361,13 @@
     },
     "images": {
       "hero": "assets/images/bardiha-thakur/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bardiha-thakur/hero.webp",
+    "image": "assets/images/bardiha-thakur/hero.webp",
+    "cover": "assets/images/bardiha-thakur/hero.webp",
+    "cover_image": "assets/images/bardiha-thakur/hero.webp",
+    "heroImage": "assets/images/bardiha-thakur/hero.webp",
+    "thumbnail": "assets/images/bardiha-thakur/hero.webp"
   },
   {
     "id": "ChIJtfv5zXL-kT4RCsHIbaGS7fM",
@@ -48310,7 +48502,13 @@
     },
     "images": {
       "hero": "assets/images/bousher-elementary-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/bousher-elementary-school/hero.webp",
+    "image": "assets/images/bousher-elementary-school/hero.webp",
+    "cover": "assets/images/bousher-elementary-school/hero.webp",
+    "cover_image": "assets/images/bousher-elementary-school/hero.webp",
+    "heroImage": "assets/images/bousher-elementary-school/hero.webp",
+    "thumbnail": "assets/images/bousher-elementary-school/hero.webp"
   },
   {
     "id": "ChIJPaYRhm39jT4RRvsRr4zWDBs",
@@ -48445,7 +48643,13 @@
     },
     "images": {
       "hero": "assets/images/brainobrain-mawalih/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/brainobrain-mawalih/hero.webp",
+    "image": "assets/images/brainobrain-mawalih/hero.webp",
+    "cover": "assets/images/brainobrain-mawalih/hero.webp",
+    "cover_image": "assets/images/brainobrain-mawalih/hero.webp",
+    "heroImage": "assets/images/brainobrain-mawalih/hero.webp",
+    "thumbnail": "assets/images/brainobrain-mawalih/hero.webp"
   },
   {
     "id": "ChIJjYfnqzX_kT4RDzj5_ttUkWo",
@@ -48591,7 +48795,13 @@
     },
     "images": {
       "hero": "assets/images/british-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/british-school-muscat/hero.webp",
+    "image": "assets/images/british-school-muscat/hero.webp",
+    "cover": "assets/images/british-school-muscat/hero.webp",
+    "cover_image": "assets/images/british-school-muscat/hero.webp",
+    "heroImage": "assets/images/british-school-muscat/hero.webp",
+    "thumbnail": "assets/images/british-school-muscat/hero.webp"
   },
   {
     "id": "ChIJyekd2Hv_kT4RRJwobj_sdGE",
@@ -48732,7 +48942,13 @@
     },
     "images": {
       "hero": "assets/images/chapter-one-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chapter-one-nursery/hero.webp",
+    "image": "assets/images/chapter-one-nursery/hero.webp",
+    "cover": "assets/images/chapter-one-nursery/hero.webp",
+    "cover_image": "assets/images/chapter-one-nursery/hero.webp",
+    "heroImage": "assets/images/chapter-one-nursery/hero.webp",
+    "thumbnail": "assets/images/chapter-one-nursery/hero.webp"
   },
   {
     "id": "ChIJWbjdcAH9jT4R0t8QZelSRho",
@@ -48859,7 +49075,13 @@
     },
     "images": {
       "hero": "assets/images/choueifat-school-administration-building/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/choueifat-school-administration-building/hero.webp",
+    "image": "assets/images/choueifat-school-administration-building/hero.webp",
+    "cover": "assets/images/choueifat-school-administration-building/hero.webp",
+    "cover_image": "assets/images/choueifat-school-administration-building/hero.webp",
+    "heroImage": "assets/images/choueifat-school-administration-building/hero.webp",
+    "thumbnail": "assets/images/choueifat-school-administration-building/hero.webp"
   },
   {
     "id": "ChIJY_ODMSr5kT4RpKMfY8pr5Ec",
@@ -48998,7 +49220,13 @@
     },
     "images": {
       "hero": "assets/images/compass-marine-sea-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/compass-marine-sea-school/hero.webp",
+    "image": "assets/images/compass-marine-sea-school/hero.webp",
+    "cover": "assets/images/compass-marine-sea-school/hero.webp",
+    "cover_image": "assets/images/compass-marine-sea-school/hero.webp",
+    "heroImage": "assets/images/compass-marine-sea-school/hero.webp",
+    "thumbnail": "assets/images/compass-marine-sea-school/hero.webp"
   },
   {
     "id": "ChIJhTPT_qT5kT4RQs1UEvoqKBc",
@@ -49133,7 +49361,13 @@
     },
     "images": {
       "hero": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
+    "image": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
+    "cover": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
+    "cover_image": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
+    "heroImage": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp",
+    "thumbnail": "assets/images/dar-al-ma-arej-school-for-memorizing-qur-an/hero.webp"
   },
   {
     "id": "ChIJ_zMomnv_kT4RIPbUa0jcPz4",
@@ -49269,7 +49503,13 @@
     },
     "images": {
       "hero": "assets/images/digital-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/digital-private-school/hero.webp",
+    "image": "assets/images/digital-private-school/hero.webp",
+    "cover": "assets/images/digital-private-school/hero.webp",
+    "cover_image": "assets/images/digital-private-school/hero.webp",
+    "heroImage": "assets/images/digital-private-school/hero.webp",
+    "thumbnail": "assets/images/digital-private-school/hero.webp"
   },
   {
     "id": "ChIJk2Fz4b__kT4R-d0tc0UeDQU",
@@ -49409,7 +49649,13 @@
     },
     "images": {
       "hero": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
+    "image": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
+    "cover": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
+    "cover_image": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
+    "heroImage": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp",
+    "thumbnail": "assets/images/dorat-al-khaleej-international-private-school-al-ghubra-branch/hero.webp"
   },
   {
     "id": "ChIJ2UB6TUb_kT4R-N2XsXk2GYc",
@@ -49550,7 +49796,13 @@
     },
     "images": {
       "hero": "assets/images/dovecote-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/dovecote-nursery/hero.webp",
+    "image": "assets/images/dovecote-nursery/hero.webp",
+    "cover": "assets/images/dovecote-nursery/hero.webp",
+    "cover_image": "assets/images/dovecote-nursery/hero.webp",
+    "heroImage": "assets/images/dovecote-nursery/hero.webp",
+    "thumbnail": "assets/images/dovecote-nursery/hero.webp"
   },
   {
     "id": "ChIJ9wRmpYT8jT4RihyClCvayvE",
@@ -49685,7 +49937,13 @@
     },
     "images": {
       "hero": "assets/images/durat-al-agyal-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/durat-al-agyal-school/hero.webp",
+    "image": "assets/images/durat-al-agyal-school/hero.webp",
+    "cover": "assets/images/durat-al-agyal-school/hero.webp",
+    "cover_image": "assets/images/durat-al-agyal-school/hero.webp",
+    "heroImage": "assets/images/durat-al-agyal-school/hero.webp",
+    "thumbnail": "assets/images/durat-al-agyal-school/hero.webp"
   },
   {
     "id": "ChIJOed1MiH9jT4Ruzc0lBfU2YY",
@@ -49822,7 +50080,13 @@
     },
     "images": {
       "hero": "assets/images/ellesmere-muscat-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ellesmere-muscat-international-school/hero.webp",
+    "image": "assets/images/ellesmere-muscat-international-school/hero.webp",
+    "cover": "assets/images/ellesmere-muscat-international-school/hero.webp",
+    "cover_image": "assets/images/ellesmere-muscat-international-school/hero.webp",
+    "heroImage": "assets/images/ellesmere-muscat-international-school/hero.webp",
+    "thumbnail": "assets/images/ellesmere-muscat-international-school/hero.webp"
   },
   {
     "id": "ChIJXVPSF7r8jT4RJDg5DP7Ke4U",
@@ -49951,7 +50215,13 @@
     },
     "images": {
       "hero": "assets/images/ghars-international-school-gis/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ghars-international-school-gis/hero.webp",
+    "image": "assets/images/ghars-international-school-gis/hero.webp",
+    "cover": "assets/images/ghars-international-school-gis/hero.webp",
+    "cover_image": "assets/images/ghars-international-school-gis/hero.webp",
+    "heroImage": "assets/images/ghars-international-school-gis/hero.webp",
+    "thumbnail": "assets/images/ghars-international-school-gis/hero.webp"
   },
   {
     "id": "ChIJbS2Q8Fr3kT4RcFVgr0-ZTQI",
@@ -50084,7 +50354,13 @@
     },
     "images": {
       "hero": "assets/images/goverment-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/goverment-school/hero.webp",
+    "image": "assets/images/goverment-school/hero.webp",
+    "cover": "assets/images/goverment-school/hero.webp",
+    "cover_image": "assets/images/goverment-school/hero.webp",
+    "heroImage": "assets/images/goverment-school/hero.webp",
+    "thumbnail": "assets/images/goverment-school/hero.webp"
   },
   {
     "id": "ChIJt1Y3WfD9jT4RibUz5srU3KE",
@@ -50222,7 +50498,13 @@
     },
     "images": {
       "hero": "assets/images/granada-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/granada-private-school/hero.webp",
+    "image": "assets/images/granada-private-school/hero.webp",
+    "cover": "assets/images/granada-private-school/hero.webp",
+    "cover_image": "assets/images/granada-private-school/hero.webp",
+    "heroImage": "assets/images/granada-private-school/hero.webp",
+    "thumbnail": "assets/images/granada-private-school/hero.webp"
   },
   {
     "id": "ChIJXXTLttn_kT4RsQG8_bXHq3g",
@@ -50355,7 +50637,13 @@
     },
     "images": {
       "hero": "assets/images/high-school-land-mark/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/high-school-land-mark/hero.webp",
+    "image": "assets/images/high-school-land-mark/hero.webp",
+    "cover": "assets/images/high-school-land-mark/hero.webp",
+    "cover_image": "assets/images/high-school-land-mark/hero.webp",
+    "heroImage": "assets/images/high-school-land-mark/hero.webp",
+    "thumbnail": "assets/images/high-school-land-mark/hero.webp"
   },
   {
     "id": "ChIJVTBjo4n3kT4RmdeFij7xetg",
@@ -50488,7 +50776,13 @@
     },
     "images": {
       "hero": "assets/images/ism-primary-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ism-primary-school/hero.webp",
+    "image": "assets/images/ism-primary-school/hero.webp",
+    "cover": "assets/images/ism-primary-school/hero.webp",
+    "cover_image": "assets/images/ism-primary-school/hero.webp",
+    "heroImage": "assets/images/ism-primary-school/hero.webp",
+    "thumbnail": "assets/images/ism-primary-school/hero.webp"
   },
   {
     "id": "ChIJAyv2NLTwkT4RysfrHAH5s2g",
@@ -50627,7 +50921,13 @@
     },
     "images": {
       "hero": "assets/images/iswk-kg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/iswk-kg/hero.webp",
+    "image": "assets/images/iswk-kg/hero.webp",
+    "cover": "assets/images/iswk-kg/hero.webp",
+    "cover_image": "assets/images/iswk-kg/hero.webp",
+    "heroImage": "assets/images/iswk-kg/hero.webp",
+    "thumbnail": "assets/images/iswk-kg/hero.webp"
   },
   {
     "id": "ChIJZWiYGrbwkT4RgLepnpUVibU",
@@ -50896,7 +51196,13 @@
     },
     "images": {
       "hero": "assets/images/ibn-khaldoun-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ibn-khaldoun-private-school/hero.webp",
+    "image": "assets/images/ibn-khaldoun-private-school/hero.webp",
+    "cover": "assets/images/ibn-khaldoun-private-school/hero.webp",
+    "cover_image": "assets/images/ibn-khaldoun-private-school/hero.webp",
+    "heroImage": "assets/images/ibn-khaldoun-private-school/hero.webp",
+    "thumbnail": "assets/images/ibn-khaldoun-private-school/hero.webp"
   },
   {
     "id": "ChIJbaJBNr__kT4RKqlWG5owRSU",
@@ -51039,7 +51345,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-al-ghubra/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-al-ghubra/hero.webp",
+    "image": "assets/images/indian-school-al-ghubra/hero.webp",
+    "cover": "assets/images/indian-school-al-ghubra/hero.webp",
+    "cover_image": "assets/images/indian-school-al-ghubra/hero.webp",
+    "heroImage": "assets/images/indian-school-al-ghubra/hero.webp",
+    "thumbnail": "assets/images/indian-school-al-ghubra/hero.webp"
   },
   {
     "id": "ChIJQ_adAlv3kT4Rdc3xWKncmgU",
@@ -51184,7 +51496,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-al-wadi-al-kabir/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
+    "image": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
+    "cover": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
+    "cover_image": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
+    "heroImage": "assets/images/indian-school-al-wadi-al-kabir/hero.webp",
+    "thumbnail": "assets/images/indian-school-al-wadi-al-kabir/hero.webp"
   },
   {
     "id": "ChIJRe4q7Bf4kT4RxauZgJf002I",
@@ -51321,7 +51639,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-darsait-isd-senior/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-darsait-isd-senior/hero.webp",
+    "image": "assets/images/indian-school-darsait-isd-senior/hero.webp",
+    "cover": "assets/images/indian-school-darsait-isd-senior/hero.webp",
+    "cover_image": "assets/images/indian-school-darsait-isd-senior/hero.webp",
+    "heroImage": "assets/images/indian-school-darsait-isd-senior/hero.webp",
+    "thumbnail": "assets/images/indian-school-darsait-isd-senior/hero.webp"
   },
   {
     "id": "ChIJU5AAtRf4kT4RUqd4IzmdXb8",
@@ -51458,7 +51782,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-darsait-junior/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-darsait-junior/hero.webp",
+    "image": "assets/images/indian-school-darsait-junior/hero.webp",
+    "cover": "assets/images/indian-school-darsait-junior/hero.webp",
+    "cover_image": "assets/images/indian-school-darsait-junior/hero.webp",
+    "heroImage": "assets/images/indian-school-darsait-junior/hero.webp",
+    "thumbnail": "assets/images/indian-school-darsait-junior/hero.webp"
   },
   {
     "id": "ChIJJ4cuPTr4kT4RSIgb-1RN_P8",
@@ -51600,7 +51930,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-muscat/hero.webp",
+    "image": "assets/images/indian-school-muscat/hero.webp",
+    "cover": "assets/images/indian-school-muscat/hero.webp",
+    "cover_image": "assets/images/indian-school-muscat/hero.webp",
+    "heroImage": "assets/images/indian-school-muscat/hero.webp",
+    "thumbnail": "assets/images/indian-school-muscat/hero.webp"
   },
   {
     "id": "ChIJk47P1X73kT4RTlxnB1FqTAM",
@@ -51736,7 +52072,13 @@
     },
     "images": {
       "hero": "assets/images/indian-school-muscat-kindergarten/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/indian-school-muscat-kindergarten/hero.webp",
+    "image": "assets/images/indian-school-muscat-kindergarten/hero.webp",
+    "cover": "assets/images/indian-school-muscat-kindergarten/hero.webp",
+    "cover_image": "assets/images/indian-school-muscat-kindergarten/hero.webp",
+    "heroImage": "assets/images/indian-school-muscat-kindergarten/hero.webp",
+    "thumbnail": "assets/images/indian-school-muscat-kindergarten/hero.webp"
   },
   {
     "id": "ChIJT76U3b4Ajj4RLa0bL8KLQG8",
@@ -51875,7 +52217,13 @@
     },
     "images": {
       "hero": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
+    "image": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
+    "cover": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
+    "cover_image": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
+    "heroImage": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp",
+    "thumbnail": "assets/images/international-french-school-of-muscat-lyc-e-fran-ais-international-de-mascate/hero.webp"
   },
   {
     "id": "ChIJ1bxOv8_4kT4RFesgXc-n2jc",
@@ -52012,7 +52360,13 @@
     },
     "images": {
       "hero": "assets/images/international-school-of-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/international-school-of-oman/hero.webp",
+    "image": "assets/images/international-school-of-oman/hero.webp",
+    "cover": "assets/images/international-school-of-oman/hero.webp",
+    "cover_image": "assets/images/international-school-of-oman/hero.webp",
+    "heroImage": "assets/images/international-school-of-oman/hero.webp",
+    "thumbnail": "assets/images/international-school-of-oman/hero.webp"
   },
   {
     "id": "ChIJb9QHg97_kT4RINJXu3TdLdo",
@@ -52141,7 +52495,13 @@
     },
     "images": {
       "hero": "assets/images/iranian-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/iranian-school-muscat/hero.webp",
+    "image": "assets/images/iranian-school-muscat/hero.webp",
+    "cover": "assets/images/iranian-school-muscat/hero.webp",
+    "cover_image": "assets/images/iranian-school-muscat/hero.webp",
+    "heroImage": "assets/images/iranian-school-muscat/hero.webp",
+    "thumbnail": "assets/images/iranian-school-muscat/hero.webp"
   },
   {
     "id": "ChIJk4ZJYeQBjj4RpHSjXitFsho",
@@ -52282,7 +52642,13 @@
     },
     "images": {
       "hero": "assets/images/itlalat-almajd-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/itlalat-almajd-private-school/hero.webp",
+    "image": "assets/images/itlalat-almajd-private-school/hero.webp",
+    "cover": "assets/images/itlalat-almajd-private-school/hero.webp",
+    "cover_image": "assets/images/itlalat-almajd-private-school/hero.webp",
+    "heroImage": "assets/images/itlalat-almajd-private-school/hero.webp",
+    "thumbnail": "assets/images/itlalat-almajd-private-school/hero.webp"
   },
   {
     "id": "ChIJxUyT3hv9jT4RAajmuNtZpMs",
@@ -52411,7 +52777,13 @@
     },
     "images": {
       "hero": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
+    "image": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
+    "cover": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
+    "cover_image": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
+    "heroImage": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp",
+    "thumbnail": "assets/images/jaifar-ibn-al-julanda-private-school/hero.webp"
   },
   {
     "id": "ChIJfVft2k33kT4RpNVEQDRtIWk",
@@ -52552,7 +52924,13 @@
     },
     "images": {
       "hero": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
+    "image": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
+    "cover": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
+    "cover_image": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
+    "heroImage": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp",
+    "thumbnail": "assets/images/jingles-nursery-daycare-playgroup-nursery/hero.webp"
   },
   {
     "id": "ChIJoTUbTZP8jT4R0D2huE6oYAI",
@@ -52699,7 +53077,13 @@
     },
     "images": {
       "hero": "assets/images/knowledge-gate-international-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
+    "image": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
+    "cover": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
+    "cover_image": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
+    "heroImage": "assets/images/knowledge-gate-international-school-muscat/hero.webp",
+    "thumbnail": "assets/images/knowledge-gate-international-school-muscat/hero.webp"
   },
   {
     "id": "ChIJjfsPMhb9jT4R4c3PucgMuxc",
@@ -52842,7 +53226,13 @@
     },
     "images": {
       "hero": "assets/images/laugh-n-learn-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/laugh-n-learn-oman/hero.webp",
+    "image": "assets/images/laugh-n-learn-oman/hero.webp",
+    "cover": "assets/images/laugh-n-learn-oman/hero.webp",
+    "cover_image": "assets/images/laugh-n-learn-oman/hero.webp",
+    "heroImage": "assets/images/laugh-n-learn-oman/hero.webp",
+    "thumbnail": "assets/images/laugh-n-learn-oman/hero.webp"
   },
   {
     "id": "ChIJKeydX879jT4R86kVtZUfwnM",
@@ -52971,7 +53361,13 @@
     },
     "images": {
       "hero": "assets/images/leaders-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/leaders-private-school/hero.webp",
+    "image": "assets/images/leaders-private-school/hero.webp",
+    "cover": "assets/images/leaders-private-school/hero.webp",
+    "cover_image": "assets/images/leaders-private-school/hero.webp",
+    "heroImage": "assets/images/leaders-private-school/hero.webp",
+    "thumbnail": "assets/images/leaders-private-school/hero.webp"
   },
   {
     "id": "ChIJcd8X7mX5kT4R06iylbsketE",
@@ -53112,7 +53508,13 @@
     },
     "images": {
       "hero": "assets/images/little-dreams-nursery-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/little-dreams-nursery-muscat/hero.webp",
+    "image": "assets/images/little-dreams-nursery-muscat/hero.webp",
+    "cover": "assets/images/little-dreams-nursery-muscat/hero.webp",
+    "cover_image": "assets/images/little-dreams-nursery-muscat/hero.webp",
+    "heroImage": "assets/images/little-dreams-nursery-muscat/hero.webp",
+    "thumbnail": "assets/images/little-dreams-nursery-muscat/hero.webp"
   },
   {
     "id": "ChIJxVlAtcT9jT4RrdeeCBuuU3o",
@@ -53392,7 +53794,13 @@
     },
     "images": {
       "hero": "assets/images/little-flowers-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/little-flowers-nursery/hero.webp",
+    "image": "assets/images/little-flowers-nursery/hero.webp",
+    "cover": "assets/images/little-flowers-nursery/hero.webp",
+    "cover_image": "assets/images/little-flowers-nursery/hero.webp",
+    "heroImage": "assets/images/little-flowers-nursery/hero.webp",
+    "thumbnail": "assets/images/little-flowers-nursery/hero.webp"
   },
   {
     "id": "ChIJCWKmbCz_kT4RCqrgb921Ogk",
@@ -53528,7 +53936,13 @@
     },
     "images": {
       "hero": "assets/images/madinat-sultan-qaboos-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
+    "image": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
+    "cover": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
+    "cover_image": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
+    "heroImage": "assets/images/madinat-sultan-qaboos-private-school/hero.webp",
+    "thumbnail": "assets/images/madinat-sultan-qaboos-private-school/hero.webp"
   },
   {
     "id": "ChIJL4Hq6MD5kT4Rx8aFfddWLw4",
@@ -53661,7 +54075,13 @@
     },
     "images": {
       "hero": "assets/images/manba-al-huda-islamic-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/manba-al-huda-islamic-school/hero.webp",
+    "image": "assets/images/manba-al-huda-islamic-school/hero.webp",
+    "cover": "assets/images/manba-al-huda-islamic-school/hero.webp",
+    "cover_image": "assets/images/manba-al-huda-islamic-school/hero.webp",
+    "heroImage": "assets/images/manba-al-huda-islamic-school/hero.webp",
+    "thumbnail": "assets/images/manba-al-huda-islamic-school/hero.webp"
   },
   {
     "id": "ChIJ_1fJS9b_kT4R9CORpORWxEw",
@@ -53803,7 +54223,13 @@
     },
     "images": {
       "hero": "assets/images/maple-bear-preschool-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/maple-bear-preschool-muscat/hero.webp",
+    "image": "assets/images/maple-bear-preschool-muscat/hero.webp",
+    "cover": "assets/images/maple-bear-preschool-muscat/hero.webp",
+    "cover_image": "assets/images/maple-bear-preschool-muscat/hero.webp",
+    "heroImage": "assets/images/maple-bear-preschool-muscat/hero.webp",
+    "thumbnail": "assets/images/maple-bear-preschool-muscat/hero.webp"
   },
   {
     "id": "ChIJX76iqTb4kT4RCAp9V0ZKrtQ",
@@ -53944,7 +54370,13 @@
     },
     "images": {
       "hero": "assets/images/middle-east-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/middle-east-nursery/hero.webp",
+    "image": "assets/images/middle-east-nursery/hero.webp",
+    "cover": "assets/images/middle-east-nursery/hero.webp",
+    "cover_image": "assets/images/middle-east-nursery/hero.webp",
+    "heroImage": "assets/images/middle-east-nursery/hero.webp",
+    "thumbnail": "assets/images/middle-east-nursery/hero.webp"
   },
   {
     "id": "ChIJl7Wx-gwAjj4Rcm5C-tVRGA4",
@@ -54228,7 +54660,13 @@
     },
     "images": {
       "hero": "assets/images/my-little-world-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/my-little-world-nursery/hero.webp",
+    "image": "assets/images/my-little-world-nursery/hero.webp",
+    "cover": "assets/images/my-little-world-nursery/hero.webp",
+    "cover_image": "assets/images/my-little-world-nursery/hero.webp",
+    "heroImage": "assets/images/my-little-world-nursery/hero.webp",
+    "thumbnail": "assets/images/my-little-world-nursery/hero.webp"
   },
   {
     "id": "ChIJ-Uac5u_8jT4RoimplsKavE4",
@@ -54357,7 +54795,13 @@
     },
     "images": {
       "hero": "assets/images/my-school-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/my-school-oman/hero.webp",
+    "image": "assets/images/my-school-oman/hero.webp",
+    "cover": "assets/images/my-school-oman/hero.webp",
+    "cover_image": "assets/images/my-school-oman/hero.webp",
+    "heroImage": "assets/images/my-school-oman/hero.webp",
+    "thumbnail": "assets/images/my-school-oman/hero.webp"
   },
   {
     "id": "ChIJaxTBkhr_kT4RJYtkGsc4EKQ",
@@ -54643,7 +55087,13 @@
     },
     "images": {
       "hero": "assets/images/native-english-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/native-english-oman/hero.webp",
+    "image": "assets/images/native-english-oman/hero.webp",
+    "cover": "assets/images/native-english-oman/hero.webp",
+    "cover_image": "assets/images/native-english-oman/hero.webp",
+    "heroImage": "assets/images/native-english-oman/hero.webp",
+    "thumbnail": "assets/images/native-english-oman/hero.webp"
   },
   {
     "id": "ChIJs1hdBGf-kT4R6aH88IzrnU8",
@@ -54780,7 +55230,13 @@
     },
     "images": {
       "hero": "assets/images/oman-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/oman-private-school/hero.webp",
+    "image": "assets/images/oman-private-school/hero.webp",
+    "cover": "assets/images/oman-private-school/hero.webp",
+    "cover_image": "assets/images/oman-private-school/hero.webp",
+    "heroImage": "assets/images/oman-private-school/hero.webp",
+    "thumbnail": "assets/images/oman-private-school/hero.webp"
   },
   {
     "id": "ChIJ0RlQTzb_kT4RWkkfaVNyREQ",
@@ -54918,7 +55374,13 @@
     },
     "images": {
       "hero": "assets/images/our-planet-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/our-planet-international-school/hero.webp",
+    "image": "assets/images/our-planet-international-school/hero.webp",
+    "cover": "assets/images/our-planet-international-school/hero.webp",
+    "cover_image": "assets/images/our-planet-international-school/hero.webp",
+    "heroImage": "assets/images/our-planet-international-school/hero.webp",
+    "thumbnail": "assets/images/our-planet-international-school/hero.webp"
   },
   {
     "id": "ChIJjccxuob4kT4RQus5Uz_UGAA",
@@ -55053,7 +55515,13 @@
     },
     "images": {
       "hero": "assets/images/pdo-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/pdo-school/hero.webp",
+    "image": "assets/images/pdo-school/hero.webp",
+    "cover": "assets/images/pdo-school/hero.webp",
+    "cover_image": "assets/images/pdo-school/hero.webp",
+    "heroImage": "assets/images/pdo-school/hero.webp",
+    "thumbnail": "assets/images/pdo-school/hero.webp"
   },
   {
     "id": "ChIJtdS1sTb4kT4RRxCEwppT64s",
@@ -55331,7 +55799,13 @@
     },
     "images": {
       "hero": "assets/images/playday-kids-club/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/playday-kids-club/hero.webp",
+    "image": "assets/images/playday-kids-club/hero.webp",
+    "cover": "assets/images/playday-kids-club/hero.webp",
+    "cover_image": "assets/images/playday-kids-club/hero.webp",
+    "heroImage": "assets/images/playday-kids-club/hero.webp",
+    "thumbnail": "assets/images/playday-kids-club/hero.webp"
   },
   {
     "id": "ChIJ410arfD5kT4RgdOg7AkNSb0",
@@ -55474,7 +55948,13 @@
     },
     "images": {
       "hero": "assets/images/polyglot-juniors-montessori/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/polyglot-juniors-montessori/hero.webp",
+    "image": "assets/images/polyglot-juniors-montessori/hero.webp",
+    "cover": "assets/images/polyglot-juniors-montessori/hero.webp",
+    "cover_image": "assets/images/polyglot-juniors-montessori/hero.webp",
+    "heroImage": "assets/images/polyglot-juniors-montessori/hero.webp",
+    "thumbnail": "assets/images/polyglot-juniors-montessori/hero.webp"
   },
   {
     "id": "ChIJVbXWyKL4kT4R9DvLEjfq1pU",
@@ -55620,7 +56100,13 @@
     },
     "images": {
       "hero": "assets/images/qurum-international-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/qurum-international-private-school/hero.webp",
+    "image": "assets/images/qurum-international-private-school/hero.webp",
+    "cover": "assets/images/qurum-international-private-school/hero.webp",
+    "cover_image": "assets/images/qurum-international-private-school/hero.webp",
+    "heroImage": "assets/images/qurum-international-private-school/hero.webp",
+    "thumbnail": "assets/images/qurum-international-private-school/hero.webp"
   },
   {
     "id": "ChIJE6YFylH3kT4RcyYFNIVQ1KU",
@@ -55756,7 +56242,13 @@
     },
     "images": {
       "hero": "assets/images/sri-lankan-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sri-lankan-school-muscat/hero.webp",
+    "image": "assets/images/sri-lankan-school-muscat/hero.webp",
+    "cover": "assets/images/sri-lankan-school-muscat/hero.webp",
+    "cover_image": "assets/images/sri-lankan-school-muscat/hero.webp",
+    "heroImage": "assets/images/sri-lankan-school-muscat/hero.webp",
+    "thumbnail": "assets/images/sri-lankan-school-muscat/hero.webp"
   },
   {
     "id": "ChIJoXwNN-YBjj4Ry0A-Xstd0t8",
@@ -55897,7 +56389,13 @@
     },
     "images": {
       "hero": "assets/images/safya-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/safya-school/hero.webp",
+    "image": "assets/images/safya-school/hero.webp",
+    "cover": "assets/images/safya-school/hero.webp",
+    "cover_image": "assets/images/safya-school/hero.webp",
+    "heroImage": "assets/images/safya-school/hero.webp",
+    "thumbnail": "assets/images/safya-school/hero.webp"
   },
   {
     "id": "ChIJRwnUc2r5kT4RXJgBtVLNGJ4",
@@ -56032,7 +56530,13 @@
     },
     "images": {
       "hero": "assets/images/sarh-alibdaa-international-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/sarh-alibdaa-international-school/hero.webp",
+    "image": "assets/images/sarh-alibdaa-international-school/hero.webp",
+    "cover": "assets/images/sarh-alibdaa-international-school/hero.webp",
+    "cover_image": "assets/images/sarh-alibdaa-international-school/hero.webp",
+    "heroImage": "assets/images/sarh-alibdaa-international-school/hero.webp",
+    "thumbnail": "assets/images/sarh-alibdaa-international-school/hero.webp"
   },
   {
     "id": "ChIJ02cStOwBjj4RUHlMa4KcVAM",
@@ -56167,7 +56671,13 @@
     },
     "images": {
       "hero": "assets/images/school-hazim-bin-hammam/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/school-hazim-bin-hammam/hero.webp",
+    "image": "assets/images/school-hazim-bin-hammam/hero.webp",
+    "cover": "assets/images/school-hazim-bin-hammam/hero.webp",
+    "cover_image": "assets/images/school-hazim-bin-hammam/hero.webp",
+    "heroImage": "assets/images/school-hazim-bin-hammam/hero.webp",
+    "thumbnail": "assets/images/school-hazim-bin-hammam/hero.webp"
   },
   {
     "id": "ChIJufcXJI_3kT4R8cq5HuztxfM",
@@ -56302,7 +56812,13 @@
     },
     "images": {
       "hero": "assets/images/school-saidia/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/school-saidia/hero.webp",
+    "image": "assets/images/school-saidia/hero.webp",
+    "cover": "assets/images/school-saidia/hero.webp",
+    "cover_image": "assets/images/school-saidia/hero.webp",
+    "heroImage": "assets/images/school-saidia/hero.webp",
+    "thumbnail": "assets/images/school-saidia/hero.webp"
   },
   {
     "id": "ChIJ-7o1yPz-kT4Rk0R0vbdQQbE",
@@ -56437,7 +56953,13 @@
     },
     "images": {
       "hero": "assets/images/shams-al-marif-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shams-al-marif-school/hero.webp",
+    "image": "assets/images/shams-al-marif-school/hero.webp",
+    "cover": "assets/images/shams-al-marif-school/hero.webp",
+    "cover_image": "assets/images/shams-al-marif-school/hero.webp",
+    "heroImage": "assets/images/shams-al-marif-school/hero.webp",
+    "thumbnail": "assets/images/shams-al-marif-school/hero.webp"
   },
   {
     "id": "ChIJGSWgGlX9jT4RdUWvb6oPiPk",
@@ -56578,7 +57100,13 @@
     },
     "images": {
       "hero": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
+    "image": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
+    "cover": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
+    "cover_image": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
+    "heroImage": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp",
+    "thumbnail": "assets/images/shomoukh-early-childhood-education-al-mouj-campus/hero.webp"
   },
   {
     "id": "ChIJ5Y45xkf_kT4Ry1DQ0OpwVm4",
@@ -56719,7 +57247,13 @@
     },
     "images": {
       "hero": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
+    "image": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
+    "cover": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
+    "cover_image": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
+    "heroImage": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp",
+    "thumbnail": "assets/images/shomoukh-early-childhood-education-al-qurum-campus/hero.webp"
   },
   {
     "id": "ChIJ6zyN5BD_kT4R30V1q4y6Yrg",
@@ -56854,7 +57388,13 @@
     },
     "images": {
       "hero": "assets/images/stellar-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/stellar-private-school/hero.webp",
+    "image": "assets/images/stellar-private-school/hero.webp",
+    "cover": "assets/images/stellar-private-school/hero.webp",
+    "cover_image": "assets/images/stellar-private-school/hero.webp",
+    "heroImage": "assets/images/stellar-private-school/hero.webp",
+    "thumbnail": "assets/images/stellar-private-school/hero.webp"
   },
   {
     "id": "ChIJeRPRTi7_kT4RSwttmHwM-PI",
@@ -56993,7 +57533,13 @@
     },
     "images": {
       "hero": "assets/images/the-indian-nursery-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-indian-nursery-school/hero.webp",
+    "image": "assets/images/the-indian-nursery-school/hero.webp",
+    "cover": "assets/images/the-indian-nursery-school/hero.webp",
+    "cover_image": "assets/images/the-indian-nursery-school/hero.webp",
+    "heroImage": "assets/images/the-indian-nursery-school/hero.webp",
+    "thumbnail": "assets/images/the-indian-nursery-school/hero.webp"
   },
   {
     "id": "ChIJBSKUC_3_kT4RwwZmODlkK2w",
@@ -57139,7 +57685,13 @@
     },
     "images": {
       "hero": "assets/images/tlc-oman-international-nursery-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tlc-oman-international-nursery-school/hero.webp",
+    "image": "assets/images/tlc-oman-international-nursery-school/hero.webp",
+    "cover": "assets/images/tlc-oman-international-nursery-school/hero.webp",
+    "cover_image": "assets/images/tlc-oman-international-nursery-school/hero.webp",
+    "heroImage": "assets/images/tlc-oman-international-nursery-school/hero.webp",
+    "thumbnail": "assets/images/tlc-oman-international-nursery-school/hero.webp"
   },
   {
     "id": "ChIJWXbqJYP_kT4RFRHgfuKvFtU",
@@ -57274,7 +57826,13 @@
     },
     "images": {
       "hero": "assets/images/tunisian-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/tunisian-school-muscat/hero.webp",
+    "image": "assets/images/tunisian-school-muscat/hero.webp",
+    "cover": "assets/images/tunisian-school-muscat/hero.webp",
+    "cover_image": "assets/images/tunisian-school-muscat/hero.webp",
+    "heroImage": "assets/images/tunisian-school-muscat/hero.webp",
+    "thumbnail": "assets/images/tunisian-school-muscat/hero.webp"
   },
   {
     "id": "ChIJZdJ_Wy3-kT4RlkWqGEuXJkI",
@@ -57413,7 +57971,13 @@
     },
     "images": {
       "hero": "assets/images/the-american-international-school-of-muscat-taism/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
+    "image": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
+    "cover": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
+    "cover_image": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
+    "heroImage": "assets/images/the-american-international-school-of-muscat-taism/hero.webp",
+    "thumbnail": "assets/images/the-american-international-school-of-muscat-taism/hero.webp"
   },
   {
     "id": "ChIJxdwF94n5kT4Rkmi7ESCgqE4",
@@ -57548,7 +58112,13 @@
     },
     "images": {
       "hero": "assets/images/the-champ-sports-arts-ruwi/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
+    "image": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
+    "cover": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
+    "cover_image": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
+    "heroImage": "assets/images/the-champ-sports-arts-ruwi/hero.webp",
+    "thumbnail": "assets/images/the-champ-sports-arts-ruwi/hero.webp"
   },
   {
     "id": "ChIJMXDc2Jf_kT4RcbPguNOsQ9Q",
@@ -57689,7 +58259,13 @@
     },
     "images": {
       "hero": "assets/images/the-indian-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-indian-nursery/hero.webp",
+    "image": "assets/images/the-indian-nursery/hero.webp",
+    "cover": "assets/images/the-indian-nursery/hero.webp",
+    "cover_image": "assets/images/the-indian-nursery/hero.webp",
+    "heroImage": "assets/images/the-indian-nursery/hero.webp",
+    "thumbnail": "assets/images/the-indian-nursery/hero.webp"
   },
   {
     "id": "ChIJtU2iaQH9jT4R3VGdbqw1Szs",
@@ -57824,7 +58400,13 @@
     },
     "images": {
       "hero": "assets/images/the-international-school-of-choueifat-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
+    "image": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
+    "cover": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
+    "cover_image": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
+    "heroImage": "assets/images/the-international-school-of-choueifat-muscat/hero.webp",
+    "thumbnail": "assets/images/the-international-school-of-choueifat-muscat/hero.webp"
   },
   {
     "id": "ChIJtZOgWJX8jT4R2mj0XVkXG8k",
@@ -57959,7 +58541,13 @@
     },
     "images": {
       "hero": "assets/images/the-sultan-s-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-sultan-s-school/hero.webp",
+    "image": "assets/images/the-sultan-s-school/hero.webp",
+    "cover": "assets/images/the-sultan-s-school/hero.webp",
+    "cover_image": "assets/images/the-sultan-s-school/hero.webp",
+    "heroImage": "assets/images/the-sultan-s-school/hero.webp",
+    "thumbnail": "assets/images/the-sultan-s-school/hero.webp"
   },
   {
     "id": "ChIJd_y2jq_jjT4RrgIbqFnVOoQ",
@@ -58095,7 +58683,13 @@
     },
     "images": {
       "hero": "assets/images/the-wave-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/the-wave-private-school/hero.webp",
+    "image": "assets/images/the-wave-private-school/hero.webp",
+    "cover": "assets/images/the-wave-private-school/hero.webp",
+    "cover_image": "assets/images/the-wave-private-school/hero.webp",
+    "heroImage": "assets/images/the-wave-private-school/hero.webp",
+    "thumbnail": "assets/images/the-wave-private-school/hero.webp"
   },
   {
     "id": "ChIJNR1kLEn-kT4R1dg9fYSmILo",
@@ -58235,7 +58829,13 @@
     },
     "images": {
       "hero": "assets/images/united-private-schools-al-muna/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/united-private-schools-al-muna/hero.webp",
+    "image": "assets/images/united-private-schools-al-muna/hero.webp",
+    "cover": "assets/images/united-private-schools-al-muna/hero.webp",
+    "cover_image": "assets/images/united-private-schools-al-muna/hero.webp",
+    "heroImage": "assets/images/united-private-schools-al-muna/hero.webp",
+    "thumbnail": "assets/images/united-private-schools-al-muna/hero.webp"
   },
   {
     "id": "ChIJDZ5TIrT_kT4Rc-v8MF9k6xs",
@@ -58379,7 +58979,13 @@
     },
     "images": {
       "hero": "assets/images/willowbrook-nursery-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/willowbrook-nursery-muscat/hero.webp",
+    "image": "assets/images/willowbrook-nursery-muscat/hero.webp",
+    "cover": "assets/images/willowbrook-nursery-muscat/hero.webp",
+    "cover_image": "assets/images/willowbrook-nursery-muscat/hero.webp",
+    "heroImage": "assets/images/willowbrook-nursery-muscat/hero.webp",
+    "thumbnail": "assets/images/willowbrook-nursery-muscat/hero.webp"
   },
   {
     "id": "ChIJ644gwMH5kT4RSoUBZ2dfAFQ",
@@ -58518,7 +59124,13 @@
     },
     "images": {
       "hero": "assets/images/al-fitrah-islamic-pre-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
+    "image": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
+    "cover": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
+    "cover_image": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
+    "heroImage": "assets/images/al-fitrah-islamic-pre-school/hero.webp",
+    "thumbnail": "assets/images/al-fitrah-islamic-pre-school/hero.webp"
   },
   {
     "id": "ChIJMQd2kOL_kT4RMV-uEwsSLUs",
@@ -58653,7 +59265,13 @@
     },
     "images": {
       "hero": "assets/images/capital-private-school-muscat/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/capital-private-school-muscat/hero.webp",
+    "image": "assets/images/capital-private-school-muscat/hero.webp",
+    "cover": "assets/images/capital-private-school-muscat/hero.webp",
+    "cover_image": "assets/images/capital-private-school-muscat/hero.webp",
+    "heroImage": "assets/images/capital-private-school-muscat/hero.webp",
+    "thumbnail": "assets/images/capital-private-school-muscat/hero.webp"
   },
   {
     "id": "ChIJGZf324L_kT4Rcks1oC5zktQ",
@@ -58787,7 +59405,13 @@
     },
     "images": {
       "hero": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
+    "image": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
+    "cover": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
+    "cover_image": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
+    "heroImage": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp",
+    "thumbnail": "assets/images/chijgzf324l_kt4rcks1oc5zktq/hero.webp"
   },
   {
     "id": "ChIJ1Vuq8Qb3kT4RsePrDM8D3DQ",
@@ -58923,7 +59547,13 @@
     },
     "images": {
       "hero": "assets/images/5-12/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/5-12/hero.webp",
+    "image": "assets/images/5-12/hero.webp",
+    "cover": "assets/images/5-12/hero.webp",
+    "cover_image": "assets/images/5-12/hero.webp",
+    "heroImage": "assets/images/5-12/hero.webp",
+    "thumbnail": "assets/images/5-12/hero.webp"
   },
   {
     "id": "ChIJlaSdnR7_kT4RF_mwDvzRD64",
@@ -59058,7 +59688,13 @@
     },
     "images": {
       "hero": "assets/images/al-fikriya-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-fikriya-school/hero.webp",
+    "image": "assets/images/al-fikriya-school/hero.webp",
+    "cover": "assets/images/al-fikriya-school/hero.webp",
+    "cover_image": "assets/images/al-fikriya-school/hero.webp",
+    "heroImage": "assets/images/al-fikriya-school/hero.webp",
+    "thumbnail": "assets/images/al-fikriya-school/hero.webp"
   },
   {
     "id": "ChIJu2AybCf_kT4RGAc4O4Xm80M",
@@ -59194,7 +59830,13 @@
     },
     "images": {
       "hero": "assets/images/philippine-school-oman/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/philippine-school-oman/hero.webp",
+    "image": "assets/images/philippine-school-oman/hero.webp",
+    "cover": "assets/images/philippine-school-oman/hero.webp",
+    "cover_image": "assets/images/philippine-school-oman/hero.webp",
+    "heroImage": "assets/images/philippine-school-oman/hero.webp",
+    "thumbnail": "assets/images/philippine-school-oman/hero.webp"
   },
   {
     "id": "ChIJ8Y9272YBjj4Rmsj2DW9ljUc",
@@ -59328,7 +59970,13 @@
     },
     "images": {
       "hero": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
+    "image": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
+    "cover": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
+    "cover_image": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
+    "heroImage": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp",
+    "thumbnail": "assets/images/chij8y9272ybjj4rmsj2dw9ljuc/hero.webp"
   },
   {
     "id": "ChIJWeMyuub9jT4Rp0Rws2zvlmg",
@@ -59469,7 +60117,13 @@
     },
     "images": {
       "hero": "assets/images/read-learn-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/read-learn-nursery/hero.webp",
+    "image": "assets/images/read-learn-nursery/hero.webp",
+    "cover": "assets/images/read-learn-nursery/hero.webp",
+    "cover_image": "assets/images/read-learn-nursery/hero.webp",
+    "heroImage": "assets/images/read-learn-nursery/hero.webp",
+    "thumbnail": "assets/images/read-learn-nursery/hero.webp"
   },
   {
     "id": "ChIJ2eD061z3kT4RNwrruXDznoo",
@@ -59609,7 +60263,13 @@
     },
     "images": {
       "hero": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
+    "image": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
+    "cover": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
+    "cover_image": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
+    "heroImage": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp",
+    "thumbnail": "assets/images/chij2ed061z3kt4rnwrruxdznoo/hero.webp"
   },
   {
     "id": "ChIJS5YARpb5kT4RvtZ228QddQ8",
@@ -59750,7 +60410,13 @@
     },
     "images": {
       "hero": "assets/images/kids-kingdom-nursery/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/kids-kingdom-nursery/hero.webp",
+    "image": "assets/images/kids-kingdom-nursery/hero.webp",
+    "cover": "assets/images/kids-kingdom-nursery/hero.webp",
+    "cover_image": "assets/images/kids-kingdom-nursery/hero.webp",
+    "heroImage": "assets/images/kids-kingdom-nursery/hero.webp",
+    "thumbnail": "assets/images/kids-kingdom-nursery/hero.webp"
   },
   {
     "id": "ChIJuSnc5Sz9jT4Rv5DZ1m5veSo",
@@ -59885,7 +60551,13 @@
     },
     "images": {
       "hero": "assets/images/ambitious-kids-private-kindergarten/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
+    "image": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
+    "cover": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
+    "cover_image": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
+    "heroImage": "assets/images/ambitious-kids-private-kindergarten/hero.webp",
+    "thumbnail": "assets/images/ambitious-kids-private-kindergarten/hero.webp"
   },
   {
     "id": "ChIJg4l1S0v_kT4REdp3ZUcIzn8",
@@ -60025,7 +60697,13 @@
     },
     "images": {
       "hero": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
+    "image": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
+    "cover": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
+    "cover_image": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
+    "heroImage": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp",
+    "thumbnail": "assets/images/chijg4l1s0v_kt4redp3zucizn8/hero.webp"
   },
   {
     "id": "ChIJ9cbz8Hj_kT4R7N0DajvqwJ0",
@@ -60163,7 +60841,13 @@
     },
     "images": {
       "hero": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
+    "image": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
+    "cover": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
+    "cover_image": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
+    "heroImage": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp",
+    "thumbnail": "assets/images/chij9cbz8hj_kt4r7n0dajvqwj0/hero.webp"
   },
   {
     "id": "ChIJEbhu1F_9jT4R4-T5wObou1g",
@@ -60298,7 +60982,13 @@
     },
     "images": {
       "hero": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
+    "image": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
+    "cover": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
+    "cover_image": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
+    "heroImage": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp",
+    "thumbnail": "assets/images/royal-grammar-school-guildford-muscat-rgsg/hero.webp"
   },
   {
     "id": "ChIJW2gisgj_kT4RmbZMo7FssWU",
@@ -60427,7 +61117,13 @@
     },
     "images": {
       "hero": "assets/images/5-10/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/5-10/hero.webp",
+    "image": "assets/images/5-10/hero.webp",
+    "cover": "assets/images/5-10/hero.webp",
+    "cover_image": "assets/images/5-10/hero.webp",
+    "heroImage": "assets/images/5-10/hero.webp",
+    "thumbnail": "assets/images/5-10/hero.webp"
   },
   {
     "id": "ChIJo_lv5fr5kT4RaMJ9_gb9dws",
@@ -60555,7 +61251,13 @@
     },
     "images": {
       "hero": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
+    "image": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
+    "cover": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
+    "cover_image": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
+    "heroImage": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp",
+    "thumbnail": "assets/images/chijo_lv5fr5kt4ramj9_gb9dws/hero.webp"
   },
   {
     "id": "ChIJKxDN_V74kT4R8JPHnYfvxus",
@@ -60683,7 +61385,13 @@
     },
     "images": {
       "hero": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
+    "image": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
+    "cover": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
+    "cover_image": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
+    "heroImage": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp",
+    "thumbnail": "assets/images/chijkxdn_v74kt4r8jphnyfvxus/hero.webp"
   },
   {
     "id": "ChIJrXUYUMz5kT4RZE7JCBOVSFw",
@@ -60817,7 +61525,13 @@
     },
     "images": {
       "hero": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
+    "image": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
+    "cover": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
+    "cover_image": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
+    "heroImage": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp",
+    "thumbnail": "assets/images/chijrxuyumz5kt4rze7jcbovsfw/hero.webp"
   },
   {
     "id": "ChIJPVdOFZj9jT4RZ7DR_srp3Tc",
@@ -60946,7 +61660,13 @@
     },
     "images": {
       "hero": "assets/images/albayan-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/albayan-private-school/hero.webp",
+    "image": "assets/images/albayan-private-school/hero.webp",
+    "cover": "assets/images/albayan-private-school/hero.webp",
+    "cover_image": "assets/images/albayan-private-school/hero.webp",
+    "heroImage": "assets/images/albayan-private-school/hero.webp",
+    "thumbnail": "assets/images/albayan-private-school/hero.webp"
   },
   {
     "id": "ChIJaexU6Rr3kT4RL4V1BFQYQnY",
@@ -61080,7 +61800,13 @@
     },
     "images": {
       "hero": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
+    "image": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
+    "cover": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
+    "cover_image": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
+    "heroImage": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp",
+    "thumbnail": "assets/images/chijaexu6rr3kt4rl4v1bfqyqny/hero.webp"
   },
   {
     "id": "ChIJ8ai4J8f9jT4RYag6Qoe8MX4",
@@ -61220,7 +61946,13 @@
     },
     "images": {
       "hero": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
+    "image": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
+    "cover": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
+    "cover_image": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
+    "heroImage": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp",
+    "thumbnail": "assets/images/chij8ai4j8f9jt4ryag6qoe8mx4/hero.webp"
   },
   {
     "id": "ChIJN0q4SJH5kT4RXoFvayqOhWw",
@@ -61348,7 +62080,13 @@
     },
     "images": {
       "hero": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
+    "image": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
+    "cover": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
+    "cover_image": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
+    "heroImage": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp",
+    "thumbnail": "assets/images/chijn0q4sjh5kt4rxofvayqohww/hero.webp"
   },
   {
     "id": "ChIJjSuZuAv3kT4R7w6EjfX1LVw",
@@ -61482,7 +62220,13 @@
     },
     "images": {
       "hero": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
+    "image": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
+    "cover": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
+    "cover_image": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
+    "heroImage": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp",
+    "thumbnail": "assets/images/chijjsuzuav3kt4r7w6ejfx1lvw/hero.webp"
   },
   {
     "id": "ChIJWXPiyE33kT4RTV8aJ3oU5ms",
@@ -61616,7 +62360,13 @@
     },
     "images": {
       "hero": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
+    "image": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
+    "cover": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
+    "cover_image": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
+    "heroImage": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp",
+    "thumbnail": "assets/images/chijwxpiye33kt4rtv8aj3ou5ms/hero.webp"
   },
   {
     "id": "ChIJHfoAupX7kT4RmXofW6oGiq4",
@@ -61750,7 +62500,13 @@
     },
     "images": {
       "hero": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
+    "image": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
+    "cover": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
+    "cover_image": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
+    "heroImage": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp",
+    "thumbnail": "assets/images/chijhfoaupx7kt4rmxofw6ogiq4/hero.webp"
   },
   {
     "id": "ChIJZfBwrHr_kT4RA7j7I3wHEl4",
@@ -61885,7 +62641,13 @@
     },
     "images": {
       "hero": "assets/images/al-ghubra-private-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/al-ghubra-private-school/hero.webp",
+    "image": "assets/images/al-ghubra-private-school/hero.webp",
+    "cover": "assets/images/al-ghubra-private-school/hero.webp",
+    "cover_image": "assets/images/al-ghubra-private-school/hero.webp",
+    "heroImage": "assets/images/al-ghubra-private-school/hero.webp",
+    "thumbnail": "assets/images/al-ghubra-private-school/hero.webp"
   },
   {
     "id": "ChIJUceCvC3_kT4RpergSCf3H4I",
@@ -62019,7 +62781,13 @@
     },
     "images": {
       "hero": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
+    "image": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
+    "cover": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
+    "cover_image": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
+    "heroImage": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp",
+    "thumbnail": "assets/images/chijucecvc3_kt4rpergscf3h4i/hero.webp"
   },
   {
     "id": "ChIJt70bqH_9jT4RH6mBycw1G5Q",
@@ -62145,7 +62913,13 @@
     },
     "images": {
       "hero": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
+    "image": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
+    "cover": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
+    "cover_image": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
+    "heroImage": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp",
+    "thumbnail": "assets/images/chijt70bqh_9jt4rh6mbycw1g5q/hero.webp"
   },
   {
     "id": "ChIJDV99Y835kT4R99B6VvCbg-M",
@@ -62279,7 +63053,13 @@
     },
     "images": {
       "hero": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
+    "image": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
+    "cover": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
+    "cover_image": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
+    "heroImage": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp",
+    "thumbnail": "assets/images/chijdv99y835kt4r99b6vvcbg-m/hero.webp"
   },
   {
     "id": "ChIJ5V135Vv3kT4RmGaCC14dmBw",
@@ -62413,7 +63193,13 @@
     },
     "images": {
       "hero": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
+    "image": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
+    "cover": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
+    "cover_image": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
+    "heroImage": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp",
+    "thumbnail": "assets/images/chij5v135vv3kt4rmgacc14dmbw/hero.webp"
   },
   {
     "id": "ChIJ_UrrUQD5kT4Rv_tiD-VuLV4",
@@ -62545,7 +63331,13 @@
     },
     "images": {
       "hero": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
+    "image": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
+    "cover": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
+    "cover_image": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
+    "heroImage": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp",
+    "thumbnail": "assets/images/chij_urruqd5kt4rv_tid-vulv4/hero.webp"
   },
   {
     "id": "ChIJhQlusdT5kT4RCkgIFG7ndg0",
@@ -62685,7 +63477,13 @@
     },
     "images": {
       "hero": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
+    "image": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
+    "cover": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
+    "cover_image": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
+    "heroImage": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp",
+    "thumbnail": "assets/images/chijhqlusdt5kt4rckgifg7ndg0/hero.webp"
   },
   {
     "id": "ChIJLfoiKOb3kT4RRlAv2xQaQAY",
@@ -62819,7 +63617,13 @@
     },
     "images": {
       "hero": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
+    "image": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
+    "cover": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
+    "cover_image": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
+    "heroImage": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp",
+    "thumbnail": "assets/images/chijlfoikob3kt4rrlav2xqaqay/hero.webp"
   },
   {
     "id": "ChIJIad_gcv3kT4RrSifzF8cmRg",
@@ -62953,7 +63757,13 @@
     },
     "images": {
       "hero": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
+    "image": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
+    "cover": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
+    "cover_image": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
+    "heroImage": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp",
+    "thumbnail": "assets/images/chijiad_gcv3kt4rrsifzf8cmrg/hero.webp"
   },
   {
     "id": "ChIJMfU2zHf9jT4Rl5ymE31Uk3Q",
@@ -63082,7 +63892,13 @@
     },
     "images": {
       "hero": "assets/images/maps-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/maps-school/hero.webp",
+    "image": "assets/images/maps-school/hero.webp",
+    "cover": "assets/images/maps-school/hero.webp",
+    "cover_image": "assets/images/maps-school/hero.webp",
+    "heroImage": "assets/images/maps-school/hero.webp",
+    "thumbnail": "assets/images/maps-school/hero.webp"
   },
   {
     "id": "ChIJfSohogMAjj4RDba5mNhbzv0",
@@ -63216,7 +64032,13 @@
     },
     "images": {
       "hero": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
+    "image": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
+    "cover": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
+    "cover_image": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
+    "heroImage": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp",
+    "thumbnail": "assets/images/chijfsohogmajj4rdba5mnhbzv0/hero.webp"
   },
   {
     "id": "ChIJ9UGhlgnjjT4RXWbjtuT4FEw",
@@ -63357,7 +64179,13 @@
     },
     "images": {
       "hero": "assets/images/manazil-al-huroof-school/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/manazil-al-huroof-school/hero.webp",
+    "image": "assets/images/manazil-al-huroof-school/hero.webp",
+    "cover": "assets/images/manazil-al-huroof-school/hero.webp",
+    "cover_image": "assets/images/manazil-al-huroof-school/hero.webp",
+    "heroImage": "assets/images/manazil-al-huroof-school/hero.webp",
+    "thumbnail": "assets/images/manazil-al-huroof-school/hero.webp"
   },
   {
     "id": "ChIJX6cBst0Bjj4RwHXlVTRCt34",
@@ -63491,7 +64319,13 @@
     },
     "images": {
       "hero": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
+    "image": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
+    "cover": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
+    "cover_image": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
+    "heroImage": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp",
+    "thumbnail": "assets/images/chijx6cbst0bjj4rwhxlvtrct34/hero.webp"
   },
   {
     "id": "ChIJER5rKArykT4RCauM4zUKDrs",
@@ -63619,7 +64453,13 @@
     },
     "images": {
       "hero": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
+    "image": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
+    "cover": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
+    "cover_image": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
+    "heroImage": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp",
+    "thumbnail": "assets/images/chijer5rkarykt4rcaum4zukdrs/hero.webp"
   },
   {
     "id": "ChIJv0NbHpT3kT4RkZhOb2jm7ek",
@@ -63751,7 +64591,13 @@
     },
     "images": {
       "hero": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
+    "image": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
+    "cover": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
+    "cover_image": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
+    "heroImage": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp",
+    "thumbnail": "assets/images/chijv0nbhpt3kt4rkzhob2jm7ek/hero.webp"
   },
   {
     "id": "ChIJl56KVa79jT4RicFOkTkFrG4",
@@ -63886,7 +64732,13 @@
     },
     "images": {
       "hero": "assets/images/n/hero.webp"
-    }
+    },
+    "banner_image": "assets/images/n/hero.webp",
+    "image": "assets/images/n/hero.webp",
+    "cover": "assets/images/n/hero.webp",
+    "cover_image": "assets/images/n/hero.webp",
+    "heroImage": "assets/images/n/hero.webp",
+    "thumbnail": "assets/images/n/hero.webp"
   },
   {
     "id": "s001",
