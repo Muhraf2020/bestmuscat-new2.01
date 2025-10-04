@@ -1,0 +1,75 @@
+name: Enrich Restaurants (Free Sources)
+
+on:
+  workflow_dispatch:
+    inputs:
+      csv_path:
+        description: "Path to restaurants CSV"
+        type: string
+        default: "data/sources/restaurants.csv"
+      sleep_sec:
+        description: "Pause between rows (seconds)"
+        type: number
+        default: 0.8
+      run_ingest:
+        description: "Rebuild tools.json after enrichment"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-restaurants:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+          # Ensure these are present even if requirements.txt exists
+          pip install beautifulsoup4 requests
+
+      - name: Run enrichment (free)
+        run: |
+          # If your file lives at scripts/enrich/enrich_restaurants.py
+          python scripts/enrich/enrich_restaurants.py \
+            --csv "${{ github.event.inputs.csv_path }}" \
+            --sleep "${{ github.event.inputs.sleep_sec }}"
+
+      - name: Ensure Python packages (for ingest)
+        if: ${{ github.event.inputs.run_ingest == 'true' }}
+        run: |
+          mkdir -p scripts/utils scripts/ingest
+          touch scripts/__init__.py
+          touch scripts/utils/__init__.py
+          touch scripts/ingest/__init__.py
+
+      - name: Build tools.json from CSV
+        if: ${{ github.event.inputs.run_ingest == 'true' }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -m scripts.ingest.csv_to_tools
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Enrich restaurants (free sources)${{ github.event.inputs.run_ingest == 'true' && ' & rebuild tools.json' || '' }}"
+          branch: ${{ github.ref_name }}
+          file_pattern: |
+            data/sources/restaurants.csv
+            data/tools.json
