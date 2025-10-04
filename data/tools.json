@@ -6833,7 +6833,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.daleel1010.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/12/19/2871209.jpg",
+    "hero_url": "assets/images/al-afrah-guest-house/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4eFOjiH9jT4Ruzvkbk4SzRo",
@@ -6926,7 +6926,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-afrah-guest-house/hero.webp"
+    }
   },
   {
     "id": "ChIJK4SgP7MBjj4RaFnnsseHnEU",
@@ -7211,7 +7213,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/543053452_17917812180169310_4281628874874544793_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy42MTkuQzMifQ%3D%3D&_nc_ohc=JEZwd8KtWOoQ7kNvwE_LfCF&_nc_oc=AdkfAETjz-njp4Aod5vOLk_ANyDBWMmMJodcpF1r-Q2-EBwxMaL-DEDwSBmQUDn1Ocw&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=152cXz4_nBlcj8x-E7idkg&oh=00_Afdh0xwZ5FGgtTVj5AYOtvg5_KtfcOmMe8qJTrJQc335Ww&oe=68E6C99F",
+    "hero_url": "assets/images/alyas-musct-hotel/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJp7ukHAD_kT4R0zWEFS5TXj8",
@@ -7311,7 +7313,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/alyas-musct-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJ87zLGYABjj4R3BxlAxoqdwo",
@@ -8025,7 +8029,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.bestwestern.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/best-western-premier-muscat-hotel/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJlWR2xRf_kT4RaHTSezzjA_s",
@@ -8119,7 +8123,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/best-western-premier-muscat-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJewRTHbLxkT4RZSuUC3fUIbU",
@@ -8145,7 +8151,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/blue-gate-santorini-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJewRTHbLxkT4RZSuUC3fUIbU",
@@ -8244,7 +8250,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/blue-gate-santorini-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJ4QIYCCT7kT4RCzxlkjK__KM",
@@ -9473,7 +9481,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.cityseasonshotels.com&sz=128",
-    "hero_url": "https://image-tc.galaxy.tf/wipng-6ez94hu6wol77mjzypyer6kkb/file.png",
+    "hero_url": "assets/images/city-seasons-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://www.cityseasonshotels.com/muscat",
     "place_id": "ChIJqWWopQf3kT4RWYRv2w4GeYY",
@@ -9584,7 +9592,9 @@
       "short": "Welcome to City Seasons Muscat Official Site. Our Muscat 4-star hotel combines unparalleled luxury with contemporary elegance and comfort. Book online now!",
       "long": "Welcome to City Seasons Muscat Official Site. Our Muscat 4-star hotel combines unparalleled luxury with contemporary elegance and comfort. Book online now! City Seasons Hotel Muscat redefines the business 4-star hotel category in Muscat, Oman, combining unparalleled luxury with contemporary elegance and comfort ."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/city-seasons-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJP5bZSoD_kT4RiiTrnKMokKE",
@@ -9748,7 +9758,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ihg.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJD54_vVgAjj4RPSYjdCWMbpU",
@@ -9842,7 +9852,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/crowne-plaza-muscat-ocec-by-ihg/hero.webp"
+    }
   },
   {
     "id": "ChIJqfUBNqL4kT4RAG70h4DQXoY",
@@ -9869,7 +9881,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ihg.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJqfUBNqL4kT4RAG70h4DQXoY",
@@ -9963,7 +9975,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/crowne-plaza-muscat-by-ihg/hero.webp"
+    }
   },
   {
     "id": "ChIJ9W0_Y1n3kT4RjEtZQ1TmpOw",
@@ -10127,7 +10141,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=delmonmuscat.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/delmon-hotel-apartments/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJK3bpDlD3kT4RsHLla1du2hs",
@@ -10221,7 +10235,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/delmon-hotel-apartments/hero.webp"
+    }
   },
   {
     "id": "ChIJyRzq3ur5kT4RfAnzJ2M4U80",
@@ -10248,7 +10264,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.hilton.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJyRzq3ur5kT4RfAnzJ2M4U80",
@@ -10342,7 +10358,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/doubletree-by-hilton-muscat-qurum/hero.webp"
+    }
   },
   {
     "id": "ChIJz7opx9P_kT4RpmTA2z5wRxI",
@@ -11182,7 +11200,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=muscat.goldentulip.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/10/02/2789872.jpg",
+    "hero_url": "assets/images/golden-tulip-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJjYXGINv_kT4RMyhQLY1u-3o",
@@ -11276,7 +11294,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/golden-tulip-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJbRVtGaP4kT4R7xbwGYS7D1g",
@@ -12089,7 +12109,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.hilton.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJP-jOfwn_kT4RKeiGrbevJDQ",
@@ -12183,7 +12203,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/hilton-garden-inn-muscat-al-khuwair/hero.webp"
+    }
   },
   {
     "id": "ChIJryVTzXX9jT4RIPQj5oeTeHE",
@@ -12210,7 +12232,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ihg.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJryVTzXX9jT4RIPQj5oeTeHE",
@@ -12304,7 +12326,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/holiday-inn-muscat-al-seeb-by-ihg/hero.webp"
+    }
   },
   {
     "id": "ChIJOW4a1tH8jT4RxNVSb49tbKI",
@@ -13170,7 +13194,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ihg.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/intercontinental-muscat-by-ihg/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ61iGebP4kT4RpGdtHCkzDtw",
@@ -13264,7 +13288,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/intercontinental-muscat-by-ihg/hero.webp"
+    }
   },
   {
     "id": "ChIJxytsh1b_kT4RkkgLB5EcfK4",
@@ -13291,7 +13317,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=hrewards.com&sz=128",
-    "hero_url": "https://assets.hrewards.com/assets/jpg.xxlarge_ICH_Bashar_Muscat_public_lobby_1_792462a51e.jpg?optimize",
+    "hero_url": "assets/images/intercityhotel-bawshar/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://hrewards.com/en/intercityhotel-bawshar-muscat",
     "place_id": "ChIJxytsh1b_kT4RkkgLB5EcfK4",
@@ -13402,7 +13428,9 @@
       "short": "Official website - IntercityHotel Bawshar at Mall of Oman in Muscat book online now | Central location ✓ Earn points ✓",
       "long": "Official website - IntercityHotel Bawshar at Mall of Oman in Muscat book online now | Central location ✓ Earn points ✓ The IntercityHotel Bawshar Muscat is located just 1 km from the Mall of Oman shopping center and 4.9 km from the Muscat Grand Sultan Qabus Mosque. It is 15 km to Muscat International Airport and 16 km to the Royal Opera House."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/intercityhotel-bawshar/hero.webp"
+    }
   },
   {
     "id": "ChIJA1fyEfT_kT4Rf7CY0HBvjTE",
@@ -13429,7 +13457,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=hrewards.com&sz=128",
-    "hero_url": "https://assets.hrewards.com/assets/jpg.xxlarge_ICH_Muscat_Public_Lobby_6_96b06897c4.jpg?optimize",
+    "hero_url": "assets/images/intercityhotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://hrewards.com/en/intercityhotel-muscat?wt_mc=seo_listing.ich.yext.maskat.hotel_link.text_cta",
     "place_id": "ChIJA1fyEfT_kT4Rf7CY0HBvjTE",
@@ -13541,7 +13569,9 @@
       "short": "IntercityHotel Muscat: book city or business hotel conveniently & online at low rates. Central location ✓ Collect bonus points ✓ - hrewards.com",
       "long": "IntercityHotel Muscat: book city or business hotel conveniently & online at low rates. Central location ✓ Collect bonus points ✓ - hrewards.com The IntercityHotel Muscat is opened at the heart of the Ministries and Embassies area of Al Khuwair. The IntercityHotel Muscat is perfectly located between Muscat International Airport, which is 15 km away and the cultural sights of Al Alam Palace and Mutrah Corniche, a 3km long promenade. You can either take a taxi or your own car to get there. Being located less than 10 minutes away of walking distance from Al Khuwair Beach, the IntercityHotel…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/intercityhotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJGRHr2DH4kT4Rn94KKeONZsQ",
@@ -13568,7 +13598,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=alshorouqhotelapartments.muscat-hotel.com&sz=128",
-    "hero_url": "https://static31.travel-trends-now.com/uploads/hotel/212846/photo/al-shorouq-hotel-apartments_173181579112.jpg",
+    "hero_url": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://alshorouqhotelapartments.muscat-hotel.com/en/",
     "place_id": "ChIJGRHr2DH4kT4Rn94KKeONZsQ",
@@ -13671,7 +13701,9 @@
       "short": "Stay at Al Shorouq Hotel Apartments in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Al Shorouq Hotel Apartments in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 33,00 (USD $) SEARCH AVAILABILITY"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/itlalat-al-shorouq-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJgY0d2J3_kT4RLvVSl3RVhTg",
@@ -13698,7 +13730,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.marriott.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/jw-marriott-hotel-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJgY0d2J3_kT4RLvVSl3RVhTg",
@@ -13792,7 +13824,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/jw-marriott-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJ5duXEFiUkT4RORNzuT3tDSg",
@@ -14093,7 +14127,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/338249965_582322433962930_6409292189822199673_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=109&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=GpjiwIJVsQcQ7kNvwG7XvZo&_nc_oc=AdmnowX8Jd5wpqOwvc8biKIIy9REEg2JH6P8O_1ckGDFbca5LTgCBbAQo1j0dFgzcXk&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=00_AfcYCHsk9dF-zuSYAIcgmhrZB4c9n9hpqWleVvjpKBhMBA&oe=68E6C61A",
+    "hero_url": "assets/images/jebel-sifah-suites/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8YB34ESVkT4RoBlvNS30EFs",
@@ -14193,7 +14227,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/jebel-sifah-suites/hero.webp"
+    }
   },
   {
     "id": "ChIJFUAcxHP3kT4RuBTCYlR2u50",
@@ -14639,7 +14675,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=muscat.kyriad.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJp1vlWxABjj4RtLTQESnIwvM",
@@ -14733,7 +14769,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kyriad-muscat-tourism-license-l1932995/hero.webp"
+    }
   },
   {
     "id": "ChIJf72sopn_kT4RyuJdcWW2-Hs",
@@ -14760,7 +14798,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.radissonhotels.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJf72sopn_kT4RyuJdcWW2-Hs",
@@ -14854,7 +14892,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/levatio-suites-muscat-a-member-of-radisson-individuals/hero.webp"
+    }
   },
   {
     "id": "ChIJG8ZPDL2VkT4RjoRhC3IdtWY",
@@ -15153,7 +15193,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.mandarinoriental.com&sz=128",
-    "hero_url": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/NmweEGF3Ud3ExtEUDCvW.jpg",
+    "hero_url": "assets/images/mandarin-oriental-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://www.mandarinoriental.com/en/muscat/shatti-al-qurum",
     "place_id": "ChIJ9QPMHNb_kT4R1yNMOE70jRs",
@@ -15265,7 +15305,9 @@
       "short": "Mandarin Oriental, Muscat is an urban oasis located in the heart of Shatti Al-Qurum, Muscat’s most prominent address.",
       "long": "Mandarin Oriental, Muscat is an urban oasis located in the heart of Shatti Al-Qurum, Muscat’s most prominent address."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mandarin-oriental-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJbYFPipv_kT4RBw8jQjI9IgA",
@@ -16350,7 +16392,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=myskhotels.com&sz=128",
-    "hero_url": "https://d3ohewoijz8t8g.cloudfront.net/wp-content/uploads/2018/07/pink-pin-Mysk-Al-Mouj-by-Shaza-1.jpg",
+    "hero_url": "assets/images/mysk-al-mouj/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://myskhotels.com/en/our-hotels/mysk-al-mouj/",
     "place_id": "ChIJi5WTwTL8jT4R11x4VekEVlc",
@@ -16452,7 +16494,9 @@
       "short": "Experience delectable dining, comfortable rooms and friendly service at Mysk Al Mouj. We are a trendy theatre of life in the heart of vibrant Marina in Muscat.",
       "long": "Experience delectable dining, comfortable rooms and friendly service at Mysk Al Mouj. We are a trendy theatre of life in the heart of vibrant Marina in Muscat. We use cookies to help us offer you the best online experience. By continuing to use our website and/or clicking OK, you agree to our use of cookies in accordance with our Privacy Policy."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mysk-al-mouj/hero.webp"
+    }
   },
   {
     "id": "ChIJP9TlF_sBjj4R8iiKFNder6Y",
@@ -16479,7 +16523,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=movenpick.accor.com&sz=128",
-    "hero_url": "https://m.ahstatic.com/is/image/accorhotels/aja_p_7075-90",
+    "hero_url": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://movenpick.accor.com/en/middle-east/oman/muscat/hotel-and-apartments-ghala-muscat.html?goto=fiche_hotel&code_hotel=B4W2&merchantid=seo-maps-OM-B4W2&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps",
     "place_id": "ChIJP9TlF_sBjj4R8iiKFNder6Y",
@@ -16592,7 +16636,9 @@
       "short": "Mövenpick Hotel & Apartments Ghala Muscat is a 5-star modern hotel with apartments, situated in the city centre of lively Muscat. Book your stay today.",
       "long": "Mövenpick Hotel & Apartments Ghala Muscat is a 5-star modern hotel with apartments, situated in the city centre of lively Muscat. Book your stay today. Welcome to the first Mövenpick Hotel & Apartments in Muscat, marking the introduction of the renowned Swiss hospitality brand to the Sultanate of Oman. The 5-star hotel offers you renowned Omani hospitality complemented by Mövenpick’s philosophy of doing ordinary things extraordinarily."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/m-venpick-hotel-and-apartments-ghala-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJ04H5SsPxkT4RT_6T_ENGcEY",
@@ -16756,7 +16802,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/08/25/2753987.jpg",
+    "hero_url": "assets/images/naseem-hotel/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJgVWWbI_3kT4RmPK48sHYhn8",
@@ -16856,7 +16902,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/naseem-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJayFT4qIAjj4RxhyFXY38OmA",
@@ -17588,7 +17636,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.parksideplazahotel.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/parkside-plaza-hotel/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJV7lNaCQBjj4RVCEZXUcAA4Y",
@@ -17682,7 +17730,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/parkside-plaza-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJU15m-935kT4RKXW0j0uZ394",
@@ -18513,7 +18563,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.radissonhotels.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/radisson-blu-hotel-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ7-Hyahv_kT4RJw8tOoDq9qc",
@@ -18607,7 +18657,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/radisson-blu-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJiabZCboAjj4RUW_LVMJShog",
@@ -18634,7 +18686,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.radissonhotels.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJiabZCboAjj4RUW_LVMJShog",
@@ -18728,7 +18780,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/radisson-collection-muscat-hormuz-grand/hero.webp"
+    }
   },
   {
     "id": "ChIJWR3ZByv_kT4Rd6jHr3NsxEw",
@@ -18876,7 +18930,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.wyndhamhotels.com&sz=128",
-    "hero_url": "https://www.wyndhamhotels.com/content/dam/creative-images/en-us/um/text/3x2/whr_3x2_text_travel_packages_family_airport_oct24.jpg",
+    "hero_url": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://www.wyndhamhotels.com/ramada/muscat-oman/ramada-encore-muscat-al-ghubra/overview?CID=LC:RA::GGL:RIO:National:49291&iata=00093796",
     "place_id": "ChIJzStgUaX_kT4RYLapwcgvuJs",
@@ -18989,7 +19043,9 @@
       "short": "At Ramada Encore by Wyndham Muscat Al-Ghubra, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM.",
       "long": "At Ramada Encore by Wyndham Muscat Al-Ghubra, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM. Bundle together your room, flights, and more for a seamless booking experience."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ramada-encore-by-wyndham-muscat-al-ghubra/hero.webp"
+    }
   },
   {
     "id": "ChIJ_yYrTikHjj4RyiwepPJBca8",
@@ -19016,7 +19072,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.wyndhamhotels.com&sz=128",
-    "hero_url": "https://www.wyndhamhotels.com/content/dam/creative-images/en-us/um/text/3x2/whr_3x2_text_travel_packages_family_airport_oct24.jpg",
+    "hero_url": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://www.wyndhamhotels.com/ramada/muscat-oman/ramada-qurum-beach/overview?CID=LC:wmcic5n98gs1g0r:15179&iata=00093796",
     "place_id": "ChIJ_yYrTikHjj4RyiwepPJBca8",
@@ -19128,7 +19184,9 @@
       "short": "At Ramada by Wyndham Qurum Beach, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM.",
       "long": "At Ramada by Wyndham Qurum Beach, our welcoming atmosphere and convenient amenities, such as free WiFi, offer an ideal stay in Muscat, OM. Bundle together your room, flights, and more for a seamless booking experience."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ramada-by-wyndham-qurum-beach/hero.webp"
+    }
   },
   {
     "id": "ChIJD28Lrd_kjT4ReugPyQwR8Qk",
@@ -19155,7 +19213,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.rameehotels.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/ramee-dream-resort-seeb/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJD28Lrd_kjT4ReugPyQwR8Qk",
@@ -19249,7 +19307,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ramee-dream-resort-seeb/hero.webp"
+    }
   },
   {
     "id": "ChIJxTIG8Ab3kT4RCuuX6kFg1l0",
@@ -19276,7 +19336,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.rameehotels.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/ramee-guestline-hotel-qurum/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJxTIG8Ab3kT4RCuuX6kFg1l0",
@@ -19370,7 +19430,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ramee-guestline-hotel-qurum/hero.webp"
+    }
   },
   {
     "id": "ChIJe4qej3b_kT4RBPx856JQmbA",
@@ -19532,7 +19594,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=riyamhotel.muscat-hotel.com&sz=128",
-    "hero_url": "https://static31.travel-trends-now.com/uploads/hotel/212857/photo/riyam-hotel_173181624816.jpg",
+    "hero_url": "assets/images/riyam-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://riyamhotel.muscat-hotel.com/en/",
     "place_id": "ChIJ82ukUSv4kT4RXAN7atU8ZhE",
@@ -19635,7 +19697,9 @@
       "short": "Stay at Riyam Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Riyam Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 40,00 (USD $) SEARCH AVAILABILITY"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/riyam-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJEWs0DOz_kT4RTezLdcdjvzM",
@@ -19799,7 +19863,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.royaltulipmuscat.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/royal-tulip-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMYkJSCv_kT4RT5wOX1NBaUA",
@@ -19893,7 +19957,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/royal-tulip-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJeQrHF4D_kT4RsyHdqsFZiuk",
@@ -21391,7 +21457,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.marriott.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/sheraton-oman-hotel/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJGYqTsi34kT4Rgr-rLR0VR98",
@@ -21485,7 +21551,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sheraton-oman-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJBzFk-TuVkT4RyTQcgr02JeE",
@@ -22042,7 +22110,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=suncityhotel.muscat-hotel.com&sz=128",
-    "hero_url": "https://static31.travel-trends-now.com/uploads/hotel/333089/photo/sun-city-hotel-1_174560821611.jpg",
+    "hero_url": "assets/images/sun-city-hotel-muscat/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "https://suncityhotel.muscat-hotel.com/en/",
     "place_id": "ChIJTSBifdr5kT4RZT8jLt_dwfQ",
@@ -22153,7 +22221,9 @@
       "short": "Stay at Sun City Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025!",
       "long": "Stay at Sun City Hotel in Muscat. Enjoy up to 15% off when you book directly through our official website. Limited-time offers available for September 2025! Online booking Best price guaranteed | FROM 25,00 (USD $) SEARCH AVAILABILITY"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sun-city-hotel-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJaaMcKkD9jT4RA1JOrkHGa2I",
@@ -22883,7 +22953,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.theplatinumoman.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/the-platinum-hotel/hero.webp",
     "image_credit": "Official site",
     "image_source_url": "http://www.theplatinumoman.com/",
     "place_id": "ChIJgz_mxg__kT4RwHsf3Z_JX_g",
@@ -22979,7 +23049,9 @@
       "source": "Google",
       "last_updated": "2025-09-28"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-platinum-hotel/hero.webp"
+    }
   },
   {
     "id": "ChIJLRvuyYT_kT4RdzS3-H3ZYD8",
