@@ -27304,7 +27304,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.aagraham.co&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/aagraham-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ-1v67nP5kT4ROeewj-pvKXc",
@@ -27398,7 +27398,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/aagraham-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJdcsXXOr_kT4RV_56wi0qFME",
@@ -27425,7 +27427,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOs_9DnnXzIsu_PtIEjalUTuYwV2nlXKqVkNMrM=w900-h900-p-k-no",
+    "hero_url": "assets/images/abu-elzooz-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJdcsXXOr_kT4RV_56wi0qFME",
@@ -27525,7 +27527,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/abu-elzooz-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJn4UeRez9jT4RJ-cpFekiltU",
@@ -27552,7 +27556,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npJTVS-G1mhsDyblRJ9FymLfduXJTx01e3A_o89yX-HQxFnn8CbUI17EKsNfn2Sizq0UVVDwwGclYg_erAdl365BzukjJJozLf-dXOxfVAcEnT1iKbuYrzTrOey45TSbsp0chI=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJn4UeRez9jT4RJ-cpFekiltU",
@@ -27652,7 +27656,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-bait-al-raqi-al-bukhari-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJlfDBqcr5kT4RvpQIQRdhNJ8",
@@ -27679,7 +27685,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqpIBecWj4cVUDWiGZVaE5PG-WSqYZIa4OtUGTk5BUj5YnVm3TzbkySVhAgksJ237gQ871vwGSHlkP0Ltb2cg_U-TcXork10Y_RAF7UtS4YVInROQU_ivK2GuIuzF1n9EGQc6Ds=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-hawas-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJlfDBqcr5kT4RvpQIQRdhNJ8",
@@ -27780,7 +27786,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-hawas-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJd8qkSHH9jT4RmUx1n_cbjMw",
@@ -27807,7 +27815,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq0DW_QedYSsmjydZ22HHRgbzrWJNSAK9F8sFm4hgROjo40_hBELvH3ru6niZX2KHZgHosGJeWI718dZzuftTcCWHtswZ7YmBpH6ZIeJcA1w0auSzTkhqaZgBcw6a4dJK4NTI-vbYRzP0v4=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-jood-restaurant-al-hail/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJd8qkSHH9jT4RmUx1n_cbjMw",
@@ -27908,7 +27916,9 @@
       "short": "★★★★★ · Lebanese restaurant",
       "long": "★★★★★ · Lebanese restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-jood-restaurant-al-hail/hero.webp"
+    }
   },
   {
     "id": "ChIJc312TRH9jT4Rb18tjJ2yp0o",
@@ -27935,7 +27945,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJXg3Uf6K3Xh5tW_mQUDLC7PpzCCUkt5VdxAxd60DyB0OVZKshjKsK7OtYAQosjOtqgOLCxkwmY5eOe6bIuiy6J-o8OX1l7T4U-LloIM4kb0A_zFF6VXEj7_6zNfBmrh9XQc-G=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-maida-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJc312TRH9jT4Rb18tjJ2yp0o",
@@ -28035,7 +28045,9 @@
       "short": "★★★★☆ · Yemeni restaurant",
       "long": "★★★★☆ · Yemeni restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-maida-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJEczPNbb9jT4RlePgro2PVy4",
@@ -28062,7 +28074,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-19/454684599_3668795923433587_5941026845945879172_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=RWROCXWNK04Q7kNvwEYAB_2&_nc_oc=AdlMYDG6I2M6Phym3ePdjqIFRyzJfe_oKu92bAJkB8NPIlGGapX2rKCI9DorropsR-U&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&oh=00_Aff12pNjOS28puUdyknWBZNmtel9Y_FrOXYL-zSkbxP2-A&oe=68E6E539",
+    "hero_url": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJEczPNbb9jT4RlePgro2PVy4",
@@ -28163,7 +28175,9 @@
       "short": "33K Followers, 5 Following, 145 Posts - ‎مطعم المندوس (@almandoos_oman)‎ on Instagram: \"‎تجربة عمانية أصيلة بكل تفاصيلها . ‏| 📍Oman , Al Mawaleh , almouj street 11AM - 11PM 🕓 | 📲 96004549‎\"",
       "long": "33K Followers, 5 Following, 145 Posts - ‎مطعم المندوس (@almandoos_oman)‎ on Instagram: \"‎تجربة عمانية أصيلة بكل تفاصيلها . ‏| 📍Oman , Al Mawaleh , almouj street 11AM - 11PM 🕓 | 📲 96004549‎\""
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-mandoos-restaurant-for-omani-food/hero.webp"
+    }
   },
   {
     "id": "ChIJLTbq9eP_kT4RNW_M4OFVv7o",
@@ -28190,7 +28204,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npasYDQMkBbJ20UhpYTpr58zPq93uO_JHrE7IV4xygkDzUcv-H0FlkfKp8xRAz4mOCkePjD3abN7uOJno4CWbCDk93lp9_3ReOO6cyvJ02xHtcDS7nSrxm4ZXlIW9EMnW9klGaT=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJLTbq9eP_kT4RNW_M4OFVv7o",
@@ -28290,7 +28304,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-sultan-restaurant-for-banquet-hospitality/hero.webp"
+    }
   },
   {
     "id": "ChIJm0q4wO34kT4RFFN0EsefWPY",
@@ -28317,7 +28333,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPb19B8by11C0RYHgLfP-hxFSlmM5Q27UovPeud=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-tarboosh-restaurant-qurum/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJm0q4wO34kT4RFFN0EsefWPY",
@@ -28417,7 +28433,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-tarboosh-restaurant-qurum/hero.webp"
+    }
   },
   {
     "id": "ChIJt2YOxaT_kT4RsieC5ai8PoI",
@@ -28444,7 +28462,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npJwft63CORtGbMzc4oQPLDOe9UnK7KoeWyh2-fPUe6ivC1wWAbLgtOuArLFG7gYiczUFuibwMRd-v6xiB-fQx7iE92AF0WrUtZu247PutI_5po4GgG8UsCjaj-f4D7vykMJewFIA=w900-h900-p-k-no",
+    "hero_url": "assets/images/arab-world-restaurant-ghubra/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJt2YOxaT_kT4RsieC5ai8PoI",
@@ -28545,7 +28563,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/arab-world-restaurant-ghubra/hero.webp"
+    }
   },
   {
     "id": "ChIJJ9UnuA8Bjj4Rt5EOQUF91FY",
@@ -28572,7 +28592,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.awshaloman.com&sz=128",
-    "hero_url": "https://www.fbgcdn.com/pictures/f92c3ce5-4e6d-4a5b-83cd-6a866009136b.jpg",
+    "hero_url": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJ9UnuA8Bjj4Rt5EOQUF91FY",
@@ -28676,7 +28696,9 @@
       "short": "Order Online for Takeaway / Delivery or Book a Table. Here at Awshal - Muscat you'll experience delicious Coffee, Burger, Pizza, Salads, Sandwiches, Pasta, Breakfast, Kebab cuisine. Try our…",
       "long": "Order Online for Takeaway / Delivery or Book a Table. Here at Awshal - Muscat you'll experience delicious Coffee, Burger, Pizza, Salads, Sandwiches, Pasta, Breakfast, Kebab cuisine. Try our mouth-watering dishes, carefully prepared with fresh ingredients! At Awshal, our recipe for success is simple – Great food & care makes customers return every time. Oracle and our third party partners may use cookies for the following purposes:"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/awshal-restaurant-bakery-coffee-shop/hero.webp"
+    }
   },
   {
     "id": "ChIJl0RjAPT8jT4RN87GbCQeEC4",
@@ -28703,7 +28725,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqh0S66LBf1KOe8FniOkHpUG17CbQCSbLBTxtpgNYyf6wRvjFZRPxT2j9ju020kxf_NH-yRv2kvSlnFzydwSsZE1HRCHEk03A9pZsdvdHiUz6tkts10CXgNrThnp0LKg-R7fzRX1A=w900-h900-p-k-no",
+    "hero_url": "assets/images/bab-al-hara-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJl0RjAPT8jT4RN87GbCQeEC4",
@@ -28804,7 +28826,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bab-al-hara-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJW1N2JJf4kT4RaOqWYHDCXFQ",
@@ -28831,7 +28855,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4p2Sf5EaKKKvnIr3x6h4-yS2VY8Cknep3UJ-lMH1zjD_Axs6NW8l8Z3oRNCPYbavw54S3SW18xCxG1ViXefa3lsGyXWYnGyvK-8PAFIDjERGY6XUYmai8zpaqRhSgpbzrLupwvQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/baba-salem-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJW1N2JJf4kT4RaOqWYHDCXFQ",
@@ -28932,7 +28956,9 @@
       "short": "★★★★☆ · Turkish restaurant",
       "long": "★★★★☆ · Turkish restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/baba-salem-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJQX6Ed23_kT4RKSG2b4agAyw",
@@ -28959,7 +28985,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTx7QDJIA7MWeH9OdDvdNHEp2PLlmnhW21yRNeliM0m5YtTcXjae9s5v3SelW0L367KSn6OpwKWVyuyqH31yIbaWjkn9_o4BUkeAmJ5aHTOz9Cyrr6MqUVU6zinvLGNehlwlyjQw=w900-h900-p-k-no",
+    "hero_url": "assets/images/bait-al-karam-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJQX6Ed23_kT4RKSG2b4agAyw",
@@ -29060,7 +29086,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bait-al-karam-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJh_rzw473kT4RdQEPuQTY0zo",
@@ -29087,7 +29115,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.baitalluban.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh_rzw473kT4RdQEPuQTY0zo",
@@ -29182,7 +29210,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bait-al-luban-omani-restaurant-mutrah/hero.webp"
+    }
   },
   {
     "id": "ChIJU500cf__kT4RU931SY6pWSU",
@@ -29209,7 +29239,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqacQeouPBKK4TzAqQtdAbO1JJBdFw3kHSM8MAuzfPPCXOZxukOmLcuAAqpC0tzjSefjJWiDwthamUG5Vk2F1bTRqABMFQcR7dt3C18N9aBoIvEcqmJUB9wg5sGDj2EqaXE4zMFcQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/bait-al-mandi-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU500cf__kT4RU931SY6pWSU",
@@ -29310,7 +29340,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bait-al-mandi-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJq8Adixv5kT4RPuLSYV10vRQ",
@@ -29337,7 +29369,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=bait-alyasamine.com&sz=128",
-    "hero_url": "http://bait-alyasamine.com/storage/uploads/WebLogo/104-1720288359.jpg",
+    "hero_url": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJq8Adixv5kT4RPuLSYV10vRQ",
@@ -29438,7 +29470,9 @@
       "short": "#",
       "long": "# بيت الياسمين. . . مطعم دمشقي فاخر لها ديكور خاص يعتمد على الفخامة ويظهر الجمال من البيت الدمشقي مع شجرة الياسمين القديمة و تفاصيل دمشقية فاخرة. يجسد نبل السوري المطاعم ، حيث أنها تقدم مجموعة واسعة من أشهى وألذ أشهى الأطباق السورية الأصيلة المحضرة بطريقة مميزة ضمن أفضل معايير الجودة."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bait-alyasmine-restaurant-and-cafe/hero.webp"
+    }
   },
   {
     "id": "ChIJe3Hspg7_kT4RWecO68Sh2Jg",
@@ -29465,7 +29499,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_8UDGCxWOK08IL__SKZ1Xl_sQ_XE18gQ-RKMDBA8k0hlf3dRd2DUIzwTiY0b0xtzUiSmq1WmHZdwzmNKIxFmv0lhSOIvr9K_rIos_AJZUXoxXHn-ET5bVzMT2zDNBOTXhmjpV=w900-h900-p-k-no",
+    "hero_url": "assets/images/bait-fairuz/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe3Hspg7_kT4RWecO68Sh2Jg",
@@ -29565,7 +29599,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bait-fairuz/hero.webp"
+    }
   },
   {
     "id": "ChIJZ0x7iYz9jT4R0RneEBGGps4",
@@ -29592,7 +29628,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=heyzine.com&sz=128",
-    "hero_url": "https://cdnc.heyzine.com/files/uploaded/v3/f280f8eaf6f22ea1e887a7af5e0e83935fc654d0.pdf-thumb.jpg",
+    "hero_url": "assets/images/beit-adam-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJZ0x7iYz9jT4R0RneEBGGps4",
@@ -29692,7 +29728,9 @@
       "short": "Created with the Heyzine flipbook maker",
       "long": "Created with the Heyzine flipbook maker"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/beit-adam-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJjVoWKBv5kT4R_7c8EPoSs74",
@@ -29719,7 +29757,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=qmenu.libertytechsolution.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/buckets-buckets/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJjVoWKBv5kT4R_7c8EPoSs74",
@@ -29819,7 +29857,9 @@
       "short": "A new Flutter project.",
       "long": "A new Flutter project."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/buckets-buckets/hero.webp"
+    }
   },
   {
     "id": "ChIJU9UTRLv_kT4RdEJ6QHOcrM8",
@@ -29846,7 +29886,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nphDBt4wFl2519APGsOnDDXQUh4HKomdpblDFCxbgn9rtzBoY_rKzGd7ccMt-LWTO76ASjd43o3BkA6LRnc7uyu0wsquQv-eIT7QePz6DKt7XezGcgDZWhBD9m2_cn4Z3txyTRY=w900-h900-p-k-no",
+    "hero_url": "assets/images/bukhari-house-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU9UTRLv_kT4RdEJ6QHOcrM8",
@@ -29947,7 +29987,9 @@
       "short": "★★★★☆ · Afghan restaurant",
       "long": "★★★★☆ · Afghan restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/bukhari-house-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJsYA-FAoAjj4Rq7iyb5wPQhQ",
@@ -29974,7 +30016,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosV04vpIdS_Uu-vZ7CY8aBT-chPCHK7pJk1vZzHF3bjnHdWhFUssgRJMQjO-esAxrvhIHs53N6Z2pHkoepcZja-QcGMcmk2ntDpZlBSq5gCm89IvaepQfnlwpiufIwmaRvXaQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/cafe-farah/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJsYA-FAoAjj4Rq7iyb5wPQhQ",
@@ -30075,7 +30117,9 @@
       "short": "★★★★☆ · Cafe",
       "long": "★★★★☆ · Cafe"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/cafe-farah/hero.webp"
+    }
   },
   {
     "id": "ChIJnZpXJdn5kT4RF5OHvSgXC7A",
@@ -30230,7 +30274,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npGEmxl8u2KuTUnZOaL7L-EN2IZx_ZnJAg7lr7skx_Icay2oIYubrmr_oLVH0qmGEToGpGWso-OUyS9XJqGy3ATUnjwhmFv7c0jJXWxM3YAaX6d-LKMMwJIEJQumevSdFRvarB9=w900-h900-p-k-no",
+    "hero_url": "assets/images/clouds-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSTmnszn4kT4RAyJjJcKMB7g",
@@ -30330,7 +30374,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/clouds-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJJVJrl038jT4RzSWhuIZzeBQ",
@@ -30357,7 +30403,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npt0ObH5iC7EUVOegQRvkSICpIjZeFudIwaPd_Mjk43j1VzqXdeKkkpYl3EyOp04mWesQThN13jfwmTMfGeLm8dg017WMwozy7C43J5WfBJ5mN2w2pjSpdiU-f7Npu5qfl6oNjr=w900-h900-p-k-no",
+    "hero_url": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJVJrl038jT4RzSWhuIZzeBQ",
@@ -30458,7 +30504,9 @@
       "short": "★★★★☆ · East African restaurant",
       "long": "★★★★☆ · East African restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/coconut-house-restaurant-zanzibar-food/hero.webp"
+    }
   },
   {
     "id": "ChIJV1ogxNb9jT4R83UEC4fDwFM",
@@ -30485,7 +30533,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kahramanairaqirestaurant.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/dar-al-izz-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJV1ogxNb9jT4R83UEC4fDwFM",
@@ -30579,7 +30627,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/dar-al-izz-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ12dcbgD9jT4Rud3m9wqLeHQ",
@@ -30606,7 +30656,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrLy41EdIFKYZA4fuTL7CiC_9Q5DOJStJZNknRpehU64M1dOtAUP0l3nBJxc7FyxG57GuGllz00Ssg7UMmqDdCqDzQrZlsRWtOS2Ct9fg6lgkTNeOE11jQsVBZrj9RKUfZgZXBr=w900-h900-p-k-no",
+    "hero_url": "assets/images/doners-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ12dcbgD9jT4Rud3m9wqLeHQ",
@@ -30706,7 +30756,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/doners-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJFxz1qvz9jT4R4vEA7fqyxnk",
@@ -30733,7 +30785,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrnYv-mSUuIDp-MUzQ-znnVKJ_WQEXEE5RH3rRXQvLl2IMk_85e9GHJ1DX25PlSLw8TivmgnCqyzc4BrJo7cgktwUrGjULZfUwMqcKG0UrqjeSJS9pSwK5bQf1URd7Do2Ls3II=w900-h900-p-k-no",
+    "hero_url": "assets/images/dosteen-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJFxz1qvz9jT4R4vEA7fqyxnk",
@@ -30834,7 +30886,9 @@
       "short": "★★★★☆ · Pakistani restaurant",
       "long": "★★★★☆ · Pakistani restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/dosteen-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJt4ubfwD_kT4RoNWRbMZI-Bc",
@@ -30861,7 +30915,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=embersteak.com&sz=128",
-    "hero_url": "https://embersteak.com/wp-content/uploads/2024/04/01_Image1.jpeg",
+    "hero_url": "assets/images/embers-wood-fire-steak-house/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJt4ubfwD_kT4RoNWRbMZI-Bc",
@@ -30965,7 +31019,9 @@
       "short": "Ember Steak is Napa’s premier steakhouse serving dry-aged beef and local produce, blending rustic charm with elegance.",
       "long": "Ember Steak is Napa’s premier steakhouse serving dry-aged beef and local produce, blending rustic charm with elegance. Ember Steak–Napa’s premier steakhouse–has arrived at The Meritage Resort. Proudly featuring dry-aged beef and produce from local farms, our restaurant blends rustic charm with elegance. Dine on steaks, sushi and specialty dishes paired with an extensive wine list and cocktail program. Relish in an intimate setting with al fresco dining spaces and views of the gateway to Napa."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/embers-wood-fire-steak-house/hero.webp"
+    }
   },
   {
     "id": "ChIJ4baHJQD_jT4REkdVecc7vOM",
@@ -31123,7 +31179,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=enabrestaurant.me&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/enab-beirut/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bH5yyn5kT4RymORG6rVv70",
@@ -31217,7 +31273,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/enab-beirut/hero.webp"
+    }
   },
   {
     "id": "ChIJ8bZAQwABjj4RabCx-OCtkd0",
@@ -31244,7 +31302,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=fawaz-co.com&sz=128",
-    "hero_url": "https://fawaz-co.com/wp-content/uploads/2024/03/0015.png",
+    "hero_url": "assets/images/fawazco-lebanese-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bZAQwABjj4RabCx-OCtkd0",
@@ -31343,7 +31401,9 @@
     "about": {
       "long": "We welcome you, where you can experience authentic flavors in a warm and pleasant atmosphere"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/fawazco-lebanese-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJqW7_Ggz_kT4RryFDJdgUyBM",
@@ -31370,7 +31430,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.foodlandsoman.com&sz=128",
-    "hero_url": "https://www.foodlandsoman.com/wp-content/uploads/2021/01/ing1.jpg",
+    "hero_url": "assets/images/foodlands-al-khuwair/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJqW7_Ggz_kT4RryFDJdgUyBM",
@@ -31471,7 +31531,9 @@
     "about": {
       "long": "When you’re in the mood for good times and great cuisine, be sure to check out Foodlands restaurant. The restaurant is located in the heart of Al-Khuwair and is known for its delightful staff and superb cuisine. The restaurant continues to attract attention from all serious food lovers and also those who simply enjoy a memorable evening that ends with a sumptuous dinner and extraordinary desserts. . The menu at Foodlands restaurant features a wide array of great selections, made from only the freshest and highest quality ingredients."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/foodlands-al-khuwair/hero.webp"
+    }
   },
   {
     "id": "ChIJ29rtEiT9jT4RvEljSSPAmiU",
@@ -31498,7 +31560,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ29rtEiT9jT4RvEljSSPAmiU",
@@ -31598,7 +31660,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/gardenia-restaurant-cafe-al-mouj/hero.webp"
+    }
   },
   {
     "id": "ChIJ0XdHLNb3kT4RxXcbh7Nyq7o",
@@ -31625,7 +31689,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npLlJu5zcWVlG8rZ79cr3TSIyoPn2m5eReAhfaajhlejXRE_WrcaPV7rKcyPZGWz20aF4dfkUqE8Qijgh8GLFwf7cYxpYj474phG9QDLeOThYwH-m80ybetlju2zuVPI_JIfzaoLQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ0XdHLNb3kT4RxXcbh7Nyq7o",
@@ -31725,7 +31789,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ghamdan-palace-restaurant-cafe/hero.webp"
+    }
   },
   {
     "id": "ChIJr1Em_qIAjj4R3BubucdasI4",
@@ -31752,7 +31818,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPy2-dHDCRzH_jO2CiV3a2lSKBCR7ZT6AVPInSd=w900-h900-p-k-no",
+    "hero_url": "assets/images/ginger-all-day-dining/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJr1Em_qIAjj4R3BubucdasI4",
@@ -31852,7 +31918,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ginger-all-day-dining/hero.webp"
+    }
   },
   {
     "id": "ChIJ5d0FVH7_kT4Ru7n9jOj0M-o",
@@ -31879,7 +31947,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.facebook.com&sz=128",
-    "hero_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431161199_122159397284029106_7996910634653991343_n.jpg?stp=dst-jpg_tt6&cstp=mx1243x1004&ctp=p720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TwgBHVY9RokQ7kNvwFtd_0F&_nc_oc=Adn2_fZILclB5iTfmg_pID6_5A9vbunJo3Zq4rpOQrtVDfe36FM20Q2bZEqAA4Z5P2U&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=QbO4Hh1C8h6WNEZdq1YykQ&oh=00_AfcUgrSie4mwuB566tCy7MZXELFPVvipg6sKY8y4k6zX3g&oe=68E6EBCA",
+    "hero_url": "assets/images/golden-flame-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ5d0FVH7_kT4Ru7n9jOj0M-o",
@@ -31979,7 +32047,9 @@
       "short": "Golden Flame Restaurant, Muscat. 687 likes · 80 talking about this · 13 were here. Golden Flame Restaurant is a vibrant and diverse culinary destination...",
       "long": "Golden Flame Restaurant, Muscat. 687 likes · 80 talking about this · 13 were here. Golden Flame Restaurant is a vibrant and diverse culinary destination..."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/golden-flame-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJpzrg9vr_kT4RHt3uBpRKoDk",
@@ -32006,7 +32076,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.huqqa.com&sz=128",
-    "hero_url": "https://www.huqqa.com/wp-content/uploads/2024/10/Huqqa-Official-Logo-1.png",
+    "hero_url": "assets/images/huqqa/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJpzrg9vr_kT4RHt3uBpRKoDk",
@@ -32107,7 +32177,9 @@
       "short": "HuQQa... The inspiration of the gastronomy world. The perfect kitchen of the ritual of eating. Welcome to the world of HuQQalovers!",
       "long": "HuQQa... The inspiration of the gastronomy world. The perfect kitchen of the ritual of eating. Welcome to the world of HuQQalovers! By collaborating with world-renowned designers, HuQQa offers an experience not only in terms of taste but also aesthetics, welcoming its guests in a unique atmosphere. Leading designers such as Desval, Orlinski, Gaia & Gino, Karim Rashid and Jaime Hayon are among the names involved in this creative journey. Each of them has enriched HuQQa’s spaces and ambiance with their own touch."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/huqqa/hero.webp"
+    }
   },
   {
     "id": "ChIJh9xftun_kT4R3tRL1epkehQ",
@@ -32134,7 +32206,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=imperialkitchenmuscat.com&sz=128",
-    "hero_url": "https://imperialkitchenmuscat.com/wp-content/uploads/2024/06/Imp-Logo-NEW-1.png",
+    "hero_url": "assets/images/imperial-kitchen-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh9xftun_kT4R3tRL1epkehQ",
@@ -32233,7 +32305,9 @@
     "about": {
       "long": "Experience culinary excellence at Imperial Kitchen, Muscat’s premier fine dining destination."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/imperial-kitchen-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJO_iUMlr9jT4RZZcc0QJsCV0",
@@ -32260,7 +32334,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=iranihouse.com&sz=128",
-    "hero_url": "https://assets.indolj.io/upload/1729176116-Logo.png?q=10",
+    "hero_url": "assets/images/irani-house-restaurent/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJO_iUMlr9jT4RZZcc0QJsCV0",
@@ -32360,7 +32434,9 @@
       "short": "Discover the latest menu offerings from Irani House Restaurant in Muscat. Order delicious Iranian & Arabian food including Kebabs, Rice, & Chicken. Order online now!",
       "long": "Discover the latest menu offerings from Irani House Restaurant in Muscat. Order delicious Iranian & Arabian food including Kebabs, Rice, & Chicken. Order online now!"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/irani-house-restaurent/hero.webp"
+    }
   },
   {
     "id": "ChIJCYzzmL8Bjj4RgpJFrDnJghQ",
@@ -32387,7 +32463,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOM97XWSMI1tI11sZdT6HxXv1MGwqeNFUxcEHHT=w900-h900-p-k-no",
+    "hero_url": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJCYzzmL8Bjj4RgpJFrDnJghQ",
@@ -32488,7 +32564,9 @@
       "short": "★★★★☆ · Turkish restaurant",
       "long": "★★★★☆ · Turkish restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/istanbul-restaurant-by-kubat-baki/hero.webp"
+    }
   },
   {
     "id": "ChIJlRfLiYz4kT4Rtiu8YfoUS_k",
@@ -32515,7 +32593,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=italianbarristacafe.com&sz=128",
-    "hero_url": "https://italianbarristacafe.com/wp-content/uploads/2025/05/Italian-restaurant-qurum.jpg",
+    "hero_url": "assets/images/italian-barrista-cafe/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJlRfLiYz4kT4Rtiu8YfoUS_k",
@@ -32620,7 +32698,9 @@
       "short": "Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian",
       "long": "Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian pastas, and signature desserts in a cozy, welcoming atmosphere. If you’re dining in or ordering online for pickup or delivery, every visit brings you a taste of Italy right in the heart of Qurum."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/italian-barrista-cafe/hero.webp"
+    }
   },
   {
     "id": "ChIJ53FLNCL9jT4ReDZvWDxATFo",
@@ -32647,7 +32727,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq74V0Gj2Ib1MUGIuWwOT8udDyzJx5EKaWC1d32vqFxL-nWax36rvaxKaii8niSMkiHGvUOM7YIhyJWme8pIFIbr-pHp6CDmszsbRFaHfEybGedq1RiWrCmveDBdF9NC-jGfFU5=w900-h900-p-k-no",
+    "hero_url": "assets/images/joker-burger-mawaleh/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ53FLNCL9jT4ReDZvWDxATFo",
@@ -32747,7 +32827,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/joker-burger-mawaleh/hero.webp"
+    }
   },
   {
     "id": "ChIJH7YvMlD_kT4RRiyfJNws1JU",
@@ -32774,7 +32856,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipN1EsMoaKDBg1kLzjYJlNoJiZS0JYMTa5_8jBwS=w900-h900-p-k-no",
+    "hero_url": "assets/images/kaia/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJH7YvMlD_kT4RRiyfJNws1JU",
@@ -32874,7 +32956,9 @@
       "short": "★★★★★ · Breakfast restaurant",
       "long": "★★★★★ · Breakfast restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kaia/hero.webp"
+    }
   },
   {
     "id": "ChIJq1cB7tz5kT4R0RXpglLFgQ4",
@@ -32901,7 +32985,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPSuVDHrMW1YVb12NwruKrPs0hFlxPN6tNit0Pj=w900-h900-p-k-no",
+    "hero_url": "assets/images/kairali-palace-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJq1cB7tz5kT4R0RXpglLFgQ4",
@@ -33002,7 +33086,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kairali-palace-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJQf7cIvD5kT4RyDYj1exLDOE",
@@ -33029,7 +33115,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kalabash.bloomhospitality.co&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/kalabash-restaurant-lounge/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJQf7cIvD5kT4RyDYj1exLDOE",
@@ -33124,7 +33210,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kalabash-restaurant-lounge/hero.webp"
+    }
   },
   {
     "id": "ChIJ8bAqKQD5kT4RlyF-TNTsbL0",
@@ -33151,7 +33239,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kelardashtrestaurant.com&sz=128",
-    "hero_url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=302,fit=crop,q=95/Yyvo8JpN6rUo9gLv/untitled-1-removebg-preview-mk3919o6rpc9PDj4.png",
+    "hero_url": "assets/images/kelardasht-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bAqKQD5kT4RlyF-TNTsbL0",
@@ -33252,7 +33340,9 @@
       "short": "Experience the best Iranian cuisine in Muscat at Kelardasht restaurant. Located in Qrum, our warm and friendly environment is perfect for families. Enjoy fresh ingredients and private VIP rooms.",
       "long": "Experience the best Iranian cuisine in Muscat at Kelardasht restaurant. Located in Qrum, our warm and friendly environment is perfect for families. Enjoy fresh ingredients and private VIP rooms. Ø§Ø³ØªÙ ØªØ¹ Ø¨Ù Ø°Ø§Ù Ø§ÙØ·Ø¹Ø§Ù Ø§ÙØ¥ÙØ±Ø§ÙÙ ÙÙ Ø¨ÙØ¦Ø© Ø¹Ø§Ø¦ÙÙØ© ÙØ¯Ø§ÙØ¦Ø©"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kelardasht-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJdQy4iYz4kT4RG33JyadAi_M",
@@ -33279,7 +33369,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrk43P5zOg-jhv3-SWR-73g_KpR7ZXJTZLZaMXyo0Bl0t4NHmsgzj6SII-oRXtGg7uGel3VGHHZJk_7BUZ_U2urtPE0r3hsI3P8YStRYi5O9CcHdrWloqUcK8aH2SG6dzELM9Lq=w900-h900-p-k-no",
+    "hero_url": "assets/images/kusharina/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJdQy4iYz4kT4RG33JyadAi_M",
@@ -33380,7 +33470,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/kusharina/hero.webp"
+    }
   },
   {
     "id": "ChIJ4f9vCff8jT4Ro2cKlcQRGPI",
@@ -33407,7 +33499,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq52nBPjvDjjc6Bi9QSaCk-X3hR8-7MTuINDjGXi1E3ZHl_eG7U-JjYG-v4nIo9OJ_x8skibSLsifrt1QRjunMyI6PR1KrrW4SliEHk7TLYF_XjwgductYR0LIxA5CbSjZdaNQt=w900-h900-p-k-no",
+    "hero_url": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4f9vCff8jT4Ro2cKlcQRGPI",
@@ -33507,7 +33599,9 @@
       "short": "★★★★☆ · Pakistani restaurant",
       "long": "★★★★☆ · Pakistani restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/lahn-al-ramal-pakistani-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ98x3aez9jT4RZ9Bnn4Hrsc4",
@@ -33534,7 +33628,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
+    "hero_url": "assets/images/lovender/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ98x3aez9jT4RZ9Bnn4Hrsc4",
@@ -33634,7 +33728,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/lovender/hero.webp"
+    }
   },
   {
     "id": "ChIJRVkSvY73kT4Rexd55ALcjyw",
@@ -33661,7 +33757,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=m.facebook.com&sz=128",
-    "hero_url": "https://static.xx.fbcdn.net/rsrc.php/v4/y8/r/k97pj8-or6s.png",
+    "hero_url": "assets/images/la-brasserie-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRVkSvY73kT4Rexd55ALcjyw",
@@ -33761,7 +33857,9 @@
       "short": "See posts, photos and more on Facebook.",
       "long": "See posts, photos and more on Facebook."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/la-brasserie-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ54bCyyj_kT4RiG7vBa0yboc",
@@ -33788,7 +33886,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=lahab-kitchen.com&sz=128",
-    "hero_url": "https://lahab-kitchen.com/wp-content/uploads/2025/02/تصميم-بدون-عنوان-1-1024x1024.gif",
+    "hero_url": "assets/images/lahab-kitchen-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ54bCyyj_kT4RiG7vBa0yboc",
@@ -33886,7 +33984,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/lahab-kitchen-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJmf-dSKL9jT4R3WMxCLbx89c",
@@ -33913,7 +34013,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/layali-al-saad-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJmf-dSKL9jT4R3WMxCLbx89c",
@@ -34013,7 +34113,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/layali-al-saad-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJWTuCTysBjj4Rz_H3vmjs3ao",
@@ -34040,7 +34142,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrkKHcqkfVJ8O8FHyy0PDMQ0i9UHiihvswXxnBMhXoLVaHp05DJTxeC5Z4817leemk_TVGNWgve_MlHkliNDXAuzL5JXvwREYXWUn1ht4oLP0sEoGixabwaxtc_Y9O0x2xGykQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/lo-chef-steak-house/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJWTuCTysBjj4Rz_H3vmjs3ao",
@@ -34141,7 +34243,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/lo-chef-steak-house/hero.webp"
+    }
   },
   {
     "id": "ChIJWzp0MJf4kT4R40JaODOUzJo",
@@ -34168,7 +34272,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqz61azbsMdNpU_SSufFMi5CJKC_MUMx1Si4ezZAugtYuDaiVlH88UeGmDPzpk_gL4f2A3hIpXjd44SsL0ZIhDykFMYxvj2YHQOM8djP07c9y5Me5xa-3itPOgwu9ySHmGsoaqfHQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/lokanta-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJWzp0MJf4kT4R40JaODOUzJo",
@@ -34269,7 +34373,9 @@
       "short": "★★★★☆ · Turkish restaurant",
       "long": "★★★★☆ · Turkish restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/lokanta-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJv4FIe57_kT4RkWeixRUvplw",
@@ -34296,7 +34402,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=mlssteakhouse.om&sz=128",
-    "hero_url": "http://mlssteakhouse.om/cdn/shop/files/MLS-200x150-white-text-1.webp?height=628&pad_color=ffffff&v=1706813418&width=1200",
+    "hero_url": "assets/images/mls-steakhouse/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJv4FIe57_kT4RkWeixRUvplw",
@@ -34398,7 +34504,9 @@
       "short": "MLS Steakhouse",
       "long": "MLS Steakhouse"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mls-steakhouse/hero.webp"
+    }
   },
   {
     "id": "ChIJAV-VHMD_kT4RSnO-OEuP04I",
@@ -34425,7 +34533,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/maraheb-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJAV-VHMD_kT4RSnO-OEuP04I",
@@ -34525,7 +34633,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/maraheb-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJo0fUvwn5kT4RSYFuFvVcfO0",
@@ -34552,7 +34662,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOtvq5dNjLPoKUJglpc8VMaYoHyQpvYSZTb7B-A=w900-h900-p-k-no",
+    "hero_url": "assets/images/marhaba-restaurant-ruwi/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJo0fUvwn5kT4RSYFuFvVcfO0",
@@ -34653,7 +34763,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/marhaba-restaurant-ruwi/hero.webp"
+    }
   },
   {
     "id": "ChIJSa5q8LP_kT4RDaKvjJSoAqI",
@@ -34680,7 +34792,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMN9hXPk51ogeqHy-TFw9wLnKx6TifOwqh3_VUM=w900-h900-p-k-no",
+    "hero_url": "assets/images/marhaba-world-al-bukhari/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSa5q8LP_kT4RDaKvjJSoAqI",
@@ -34780,7 +34892,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/marhaba-world-al-bukhari/hero.webp"
+    }
   },
   {
     "id": "ChIJp7jhvAj3kT4Rn8rlrWtxbpY",
@@ -34807,7 +34921,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgkqRjVjHgH-R5SfwaR4ZmWzBrYI0Cf8Rkq6pgyA6VBJEA-N2m7j_SS0c8YOVyMX_pMJ2NSEFhcTnMTfdlyNdjcWNRF_RA1gm_j98XANlV0FBA2o5-03hkAoSdR0noDuwNnc0WaQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/mariyam-al-fauri-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJp7jhvAj3kT4Rn8rlrWtxbpY",
@@ -34908,7 +35022,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mariyam-al-fauri-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJabjB0vv_kT4R8AqY07uocKE",
@@ -34935,7 +35051,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPU6QUV69kyjnIDmk8HSA-Q-w4Eqb1leVSRIqU=w900-h900-p-k-no",
+    "hero_url": "assets/images/meraj-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJabjB0vv_kT4R8AqY07uocKE",
@@ -35036,7 +35152,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/meraj-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJL9QU-539jT4RvpA4RJUEHYg",
@@ -35063,7 +35181,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrrLAyVJ-A1kUt5-UhNs0vGZz-RUKXSzDO5arcXrOxjROm9otLRyYQd8eq7Prf3p0eh1lsgWgIS6H-T2vfSwVDPObtAJhs_Tp3LH3LQqTNXtxdHy7A3Y0AnivhOOvXtehKabfNzlw=w900-h900-p-k-no",
+    "hero_url": "assets/images/merdost-turkish-restaurant-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJL9QU-539jT4RvpA4RJUEHYg",
@@ -35163,7 +35281,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/merdost-turkish-restaurant-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJE5VpiYz4kT4RCjAA7bwEYd4",
@@ -35190,7 +35310,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.mezzandco.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/mezza-co/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJE5VpiYz4kT4RCjAA7bwEYd4",
@@ -35289,7 +35409,9 @@
     "about": {
       "long": "Copyright © 2025 Mezza & co | Powered by Astra WordPress Theme"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mezza-co/hero.webp"
+    }
   },
   {
     "id": "ChIJMyX--CT_kT4RzH6CM1uhyco",
@@ -35316,7 +35438,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMwRhN5pJHYMiWPz8xDrjSPbcUJzpCxtDRH8wPa=w900-h900-p-k-no",
+    "hero_url": "assets/images/mint-coco/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMyX--CT_kT4RzH6CM1uhyco",
@@ -35417,7 +35539,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mint-coco/hero.webp"
+    }
   },
   {
     "id": "ChIJZaIkcAD9jT4Rb-doI3R9rsg",
@@ -35444,7 +35568,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqvjtbOdanUiH9m-VVzk8_WWbF4C5_NHacdl_76q6arnyl8pKlJvHHfh4ijSCa8usKAjOFTBa6XXvunWYG5K4r7tSfbRJRiMD6XQhkxCe-gnpSEzCvEg47yVq5hpJXdWoPrdNpVNF7EVZfq=w900-h900-p-k-no",
+    "hero_url": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJZaIkcAD9jT4Rb-doI3R9rsg",
@@ -35544,7 +35668,9 @@
       "short": "★★★★★ · Family restaurant",
       "long": "★★★★★ · Family restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mithali-kitchen-multi-cuisine-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJU1EnsFgAjj4RbgSankWqnOQ",
@@ -35571,7 +35697,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNvnyQafSzDb8lRoP6eBPD51eU4NTfksSLyH1wM=w900-h900-p-k-no",
+    "hero_url": "assets/images/mosaic-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU1EnsFgAjj4RbgSankWqnOQ",
@@ -35671,7 +35797,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/mosaic-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJP0QygUb_kT4RxLZ95006jyM",
@@ -35698,7 +35826,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryRbAJAoCf-rLBGCkEW2887y0L68Ut8mGSNfeWEREIxJATaEgSRrxmHlrj78nn0FmpHpl_ze4eHcL6lsGkAjBeDPgmLzuvmf9Dj7YFHT-XagCspSiG_iEPp3rvsTnpjpe3i1Hl=w900-h900-p-k-no",
+    "hero_url": "assets/images/nana-s-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJP0QygUb_kT4RxLZ95006jyM",
@@ -35799,7 +35927,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/nana-s-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJD7wnMaT_kT4R94m7rkbaDvM",
@@ -35826,7 +35956,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=store.nandosoman.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/nando-s-oman-avenues-mall/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJD7wnMaT_kT4R94m7rkbaDvM",
@@ -35927,7 +36057,9 @@
       "short": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken.",
       "long": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken. Born in South Africa and taken to the world, Nando's specialises in Portuguese-style, flamed-grilled chicken dishes with various PERi-PERi marinades. Experience a truly South African dining experience at Nando’s in Al Khuwayr South Muscat. The Nando's experience is like no other, perfect for the me-times as well as the family and friends time. Add spice to your life with a meal from our Portuguese style menu! We’ve set the eating experience on fire and we can’t wait for you to join our table because if there’s one…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/nando-s-oman-avenues-mall/hero.webp"
+    }
   },
   {
     "id": "ChIJgaBcYe34kT4Rw4U95xhVmlA",
@@ -35954,7 +36086,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=store.nandosoman.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/nando-s-qurum/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJgaBcYe34kT4Rw4U95xhVmlA",
@@ -36055,7 +36187,9 @@
       "short": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken.",
       "long": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken. Born in South Africa and taken to the world, Nando's specialises in Portuguese-style, flamed-grilled chicken dishes with various PERi-PERi marinades. Experience a truly South African dining experience at Nando’s in Muscat. The Nando's experience is like no other, perfect for the me-times as well as the family and friends time. Add spice to your life with a meal from our Portuguese style menu! We’ve set the eating experience on fire and we can’t wait for you to join our table because if there’s one thing we love as…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/nando-s-qurum/hero.webp"
+    }
   },
   {
     "id": "ChIJUQpLuLr_kT4RhzF1rdIJM-M",
@@ -36082,7 +36216,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipP1n_53IE_jUha4UHi9fI4MbskHZd6vGCPqROQL=w900-h900-p-k-no",
+    "hero_url": "assets/images/nizam-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJUQpLuLr_kT4RhzF1rdIJM-M",
@@ -36183,7 +36317,9 @@
       "short": "★★★★☆ · Indian restaurant",
       "long": "★★★★☆ · Indian restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/nizam-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJDwwfTQX_kT4RgBM9nnNm2Qc",
@@ -36210,7 +36346,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.oldturkish.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJDwwfTQX_kT4RgBM9nnNm2Qc",
@@ -36305,7 +36441,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/old-turkish-restaurant-coffee-shop/hero.webp"
+    }
   },
   {
     "id": "ChIJh3mfp8X_kT4RREfWo6JjESM",
@@ -36332,7 +36470,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6htReuaSx-R-10xMaPQTh7immNa_YhjihxYTaCMgwFqU1eK0jAhgOu-14JoavRG-oiPG-WyTWBfiyKQ0lN82xT3d22fyVN3jEDzRYeBVN1F1LljLy_49NQ_UEA0thTkgdddQM=w900-h900-p-k-no",
+    "hero_url": "assets/images/olive-beach-restro/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh3mfp8X_kT4RREfWo6JjESM",
@@ -36432,7 +36570,9 @@
       "short": "★★★★☆ · Kerala restaurant",
       "long": "★★★★☆ · Kerala restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/olive-beach-restro/hero.webp"
+    }
   },
   {
     "id": "ChIJVaEkR-f_kT4RrcvpnG1-muc",
@@ -36459,7 +36599,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": "https://pbs.twimg.com/profile_images/1201703979442413568/4EngW-g__200x200.jpg",
+    "hero_url": "assets/images/orient-restaurant-cafe/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJVaEkR-f_kT4RrcvpnG1-muc",
@@ -36560,7 +36700,9 @@
       "short": "New Experince and style in Food & Beverage. ☎️+968 24128998 📱+968 79606079 Location:Al-Athaibah, behind Al-Athaibah Mall",
       "long": "New Experince and style in Food & Beverage. ☎️+968 24128998 📱+968 79606079 Location:Al-Athaibah, behind Al-Athaibah Mall"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/orient-restaurant-cafe/hero.webp"
+    }
   },
   {
     "id": "ChIJR0tHov_5kT4R3BFvOmlDxn0",
@@ -36587,7 +36729,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPPwYcnOxIyXj1VeAHMeKe3TFfhaZN9316GTSpG=w900-h900-p-k-no",
+    "hero_url": "assets/images/o-licious/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJR0tHov_5kT4R3BFvOmlDxn0",
@@ -36687,7 +36829,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/o-licious/hero.webp"
+    }
   },
   {
     "id": "ChIJ-UJv563_kT4RleYWVbBDrzY",
@@ -36714,7 +36858,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=pistahouse.in&sz=128",
-    "hero_url": "https://pistahouse.in/cdn/shop/files/MB_03.png?v=1757250191&width=480",
+    "hero_url": "assets/images/pista-house/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ-UJv563_kT4RleYWVbBDrzY",
@@ -36817,7 +36961,9 @@
       "short": "Discover the authentic taste of Hyderabad with Pista House. From world-famous Osmania Biscuits to premium cookies and traditional sweets, enjoy freshly baked delicacies delivered worldwide. Relive…",
       "long": "Discover the authentic taste of Hyderabad with Pista House. From world-famous Osmania Biscuits to premium cookies and traditional sweets, enjoy freshly baked delicacies delivered worldwide. Relive the flavors of home with every bite, no matter where you are. Since 1997, Pista House has been dedicated to honouring the essence of tradition through our food. What started as a small family endeavour has grown into a global culinary destination , known for preserving the true essence of Hyderabadi cuisine ."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/pista-house/hero.webp"
+    }
   },
   {
     "id": "ChIJRzsXRr79jT4RER7XFwLkD0c",
@@ -36844,7 +36990,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nps5ep1T6sOzG-6K8wTnIOqO1oC4zE8m-jXG3gpCKUVpEaiUs8fPby0FPyKkP002d_kM1tZ5NrKFanHNiEDYUn1D-NJaZtOwWAZ1B5rWmDbJzK4_1KMtD03zEG9VbQS1gWhG7d8qw=w900-h900-p-k-no",
+    "hero_url": "assets/images/qasr-al-iraqi/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRzsXRr79jT4RER7XFwLkD0c",
@@ -36944,7 +37090,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/qasr-al-iraqi/hero.webp"
+    }
   },
   {
     "id": "ChIJeaJ2lCL5kT4RZwBiMWrX9XM",
@@ -36971,7 +37119,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ramssa.com&sz=128",
-    "hero_url": "https://linktr.ee/og/image/Ramssarestaurant.jpg",
+    "hero_url": "assets/images/ramssa-omani-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJeaJ2lCL5kT4RZwBiMWrX9XM",
@@ -37074,7 +37222,9 @@
       "short": "Ramssa Restaurant 🇴🇲 Omani Cuisine",
       "long": "Ramssa Restaurant 🇴🇲 Omani Cuisine"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/ramssa-omani-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ7UAinxb5kT4RoCculac4u-I",
@@ -37101,7 +37251,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/reef-al-yemen/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ7UAinxb5kT4RoCculac4u-I",
@@ -37201,7 +37351,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/reef-al-yemen/hero.webp"
+    }
   },
   {
     "id": "ChIJRb3MBI75kT4Rrd_lVjsgdDo",
@@ -37228,7 +37380,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noUK9JRwpqB0TGb415WOSSajUGm4NhrXBYjlsojb03yAZDSh93KY0GbUF2u_MjhJ2eOaPdplxohm6adgy7iabV-91Jl7sKF_BH1ll8vHDHdHbNkrhIfG81sjnVaHmdpw8pzOHUlqQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/richy-dine-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRb3MBI75kT4Rrd_lVjsgdDo",
@@ -37328,7 +37480,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/richy-dine-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJjQtEKAD9jT4RinyfZdiGgtk",
@@ -37355,7 +37509,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=rocas.om&sz=128",
-    "hero_url": "https://rocas.om/assets/images/banner/banner-01.png",
+    "hero_url": "assets/images/rocas-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJjQtEKAD9jT4RinyfZdiGgtk",
@@ -37453,7 +37607,9 @@
     "about": {
       "long": "ÙÙØ§ÙØªØ±Ø§Ø­Ø§Øª ÙØ§ÙØ´ÙØ§ÙÙ Ø§Ø±Ø³Ù Ø§ÙØ¢Ù ÙØ³Ø§Ø¦Ù Ø§ÙØªÙØµÙ"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/rocas-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJDXigEaj9jT4R-zvYcmEbOHo",
@@ -37480,7 +37636,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOYPKmQiL15X88WssGUk_aESyk0nhi04u2k41ia=w900-h900-p-k-no",
+    "hero_url": "assets/images/rooster-home/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJDXigEaj9jT4R-zvYcmEbOHo",
@@ -37580,7 +37736,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/rooster-home/hero.webp"
+    }
   },
   {
     "id": "ChIJKaEEFI_3kT4R97C_JA0iAaA",
@@ -37607,7 +37765,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.royalhouseoman.com&sz=128",
-    "hero_url": "https://royalhouseoman.com/wp-content/uploads/2025/01/mc-1-1024x682.jpg",
+    "hero_url": "assets/images/royal-house-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJKaEEFI_3kT4R97C_JA0iAaA",
@@ -37708,7 +37866,9 @@
     "about": {
       "long": "Enjoy stunning sea views and the vibrant ambiance of Muscat’s iconic Muttrah Corniche, offering the perfect setting for a memorable dining experience."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/royal-house-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJLz77yecBjj4REJdnhZ2cXCQ",
@@ -37864,7 +38024,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=heylink.me&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/rydan-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ2RzHrLj_kT4RoWCISPkl2oc",
@@ -37959,7 +38119,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/rydan-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJzfs-KQD9jT4R_21wbG5L_u8",
@@ -37986,7 +38148,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMmK96xA1O3-cyhCfruOFFy8Knbwi34EO1J7nFV=w900-h900-p-k-no",
+    "hero_url": "assets/images/rydan-restaurant-al-hail/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJzfs-KQD9jT4R_21wbG5L_u8",
@@ -38086,7 +38248,9 @@
       "short": "★★★★☆ · Family restaurant",
       "long": "★★★★☆ · Family restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/rydan-restaurant-al-hail/hero.webp"
+    }
   },
   {
     "id": "ChIJMaX7Mdb5kT4R3eS5YJeYtVE",
@@ -38113,7 +38277,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrn2EmYJJgjhrx6zCPgkYV-0uxpUgUF4Z5fkB8YX2Srr2awOytIULIGxvmswOoyYp9ArXOOslT58E_Nrb8Enzp4AK2p5uDDCYCY-bSmTzpbZebmiNwslUqHB0RNS92snlWNOkQX1-FozMFN=w900-h900-p-k-no",
+    "hero_url": "assets/images/sagar-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMaX7Mdb5kT4R3eS5YJeYtVE",
@@ -38213,7 +38377,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sagar-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJH-SHTDb9jT4R22CiWY5ksXc",
@@ -38240,7 +38406,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=myskhotels.com&sz=128",
-    "hero_url": "https://d3ohewoijz8t8g.cloudfront.net/wp-content/uploads/2023/02/SPlogo@2x.png",
+    "hero_url": "assets/images/salt-pepper-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJH-SHTDb9jT4R22CiWY5ksXc",
@@ -38343,7 +38509,9 @@
       "short": "Food is the culture at Mysk Al Mouj. Choose from a selection of dining options suitable for your stay. From fine dining to in-room convenience.",
       "long": "Food is the culture at Mysk Al Mouj. Choose from a selection of dining options suitable for your stay. From fine dining to in-room convenience. We use cookies to help us offer you the best online experience. By continuing to use our website and/or clicking OK, you agree to our use of cookies in accordance with our Privacy Policy."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/salt-pepper-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJSc9CLFX-kT4Rjs493sAg8u8",
@@ -38370,7 +38538,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNXIuZRIym6vMBWTmF30_RLI7Ash1kudBk-AUFQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/samakmak-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSc9CLFX-kT4Rjs493sAg8u8",
@@ -38471,7 +38639,9 @@
       "short": "★★★★☆ · Seafood restaurant",
       "long": "★★★★☆ · Seafood restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/samakmak-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJVf3f9nv9jT4RS00t-b0DsjQ",
@@ -38498,7 +38668,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPGhgjiyWnK6LnbTqX0BT_t8yRd7eKkppyQmKun=w900-h900-p-k-no",
+    "hero_url": "assets/images/saweh-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJVf3f9nv9jT4RS00t-b0DsjQ",
@@ -38598,7 +38768,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/saweh-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJe5uD7rT4kT4RDBo1_Xs4Ixo",
@@ -38625,7 +38797,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
+    "hero_url": "assets/images/shandiz-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe5uD7rT4kT4RDBo1_Xs4Ixo",
@@ -38726,7 +38898,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/shandiz-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJiaFl9Gv9jT4R5bDUFRSFYBQ",
@@ -38753,7 +38927,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.simitcidunyasi.com&sz=128",
-    "hero_url": "https://www.simitcidunyasi.com/site/library/images/test-resimleri/tr.jpg",
+    "hero_url": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJiaFl9Gv9jT4R5bDUFRSFYBQ",
@@ -38855,7 +39029,9 @@
       "short": "Simitçinin ve simit severlerin geldiği yerden geliyoruz… Simitçi Dünyası, Simitci Dunyasi",
       "long": "Simitçinin ve simit severlerin geldiği yerden geliyoruz… Simitçi Dünyası, Simitci Dunyasi Turkish Bagel is well-known with its feature of evoking admiration of own tasters. Well. Is the taste of this food the only thing that makes it so impressive? At this point, reminiscence of young and old alike starts with Turkish Bagel; because every Turkish Bagel-lover tastes this food at a young age and then he grows up with it and absolutely hands this love down the next generations."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/simitci-dunyasi-city-center-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJKwGmwkz_kT4RyRnU_oJTL7g",
@@ -38882,7 +39058,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPwVgDlBVFzD3E6kb-zk7piAZx8bENW_ga_2oc3=w900-h900-p-k-no",
+    "hero_url": "assets/images/slider-station/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJKwGmwkz_kT4RyRnU_oJTL7g",
@@ -38983,7 +39159,9 @@
       "short": "★★★★☆ · Hamburger restaurant",
       "long": "★★★★☆ · Hamburger restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/slider-station/hero.webp"
+    }
   },
   {
     "id": "ChIJr3DnoCP_kT4R9rI1ZY63mAs",
@@ -39010,7 +39188,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=smokey-blues.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/smokey-blues/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJr3DnoCP_kT4R9rI1ZY63mAs",
@@ -39104,7 +39282,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/smokey-blues/hero.webp"
+    }
   },
   {
     "id": "ChIJfX-pQl_9jT4RKE7fpBkbV_w",
@@ -39131,7 +39311,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipN7i66dmWGXd88ebHsaE-u14BE53TBAc0LLzVgG=w900-h900-p-k-no",
+    "hero_url": "assets/images/sukoon-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJfX-pQl_9jT4RKE7fpBkbV_w",
@@ -39232,7 +39412,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/sukoon-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ0cQzfvj8jT4RB5Ub8pIIVqE",
@@ -39259,7 +39441,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCDzQ7mRS3zS8Mjxo3TvxnNsYhliRR6ah0HGS-HhtDUH64vSuRzrgZAzAu9HSJgMOn3hRIxdDRotdmJ5cbX9zuC-1BrlaeC0Nvmf_E-VjR3LrObmgyZNIibaHxBLvwOurwP5tL=w900-h900-p-k-no",
+    "hero_url": "assets/images/suleiman-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ0cQzfvj8jT4RB5Ub8pIIVqE",
@@ -39360,7 +39542,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/suleiman-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJrTG9pdP9jT4RjdRRJWAdQ1A",
@@ -39387,7 +39571,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/thor-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJrTG9pdP9jT4RjdRRJWAdQ1A",
@@ -39487,7 +39671,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/thor-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJi3amfQD_kT4RZJdVUImkVMg",
@@ -39514,7 +39700,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMfZpFGn-lSCHxM35xqq5EGWSXDF0nUyEekEzQp=w900-h900-p-k-no",
+    "hero_url": "assets/images/taj-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJi3amfQD_kT4RZJdVUImkVMg",
@@ -39614,7 +39800,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/taj-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJB4LwQwD3kT4Rx9H5VDctnPA",
@@ -39641,7 +39829,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thalassa.om&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
+    "hero_url": "assets/images/thalassa-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJB4LwQwD3kT4Rx9H5VDctnPA",
@@ -39735,7 +39923,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/thalassa-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJwdXVxjv4kT4Re9ukfDS9Y8Q",
@@ -39761,7 +39951,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOi21xRahMDBWXCbd0XgPHjCAZD_OKFA0O_C0sj=w900-h900-p-k-no",
+    "hero_url": "assets/images/the-cave/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJwdXVxjv4kT4Re9ukfDS9Y8Q",
@@ -39861,7 +40051,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-cave/hero.webp"
+    }
   },
   {
     "id": "ChIJczELTC39jT4RP7w_dpJutVo",
@@ -39888,7 +40080,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.kempinski.com&sz=128",
-    "hero_url": "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/8/5/5/8/298558-1-eng-GB/5ce7a1f83e6f-74386621_4K.jpg",
+    "hero_url": "assets/images/the-kitchen-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJczELTC39jT4RP7w_dpJutVo",
@@ -39992,7 +40184,9 @@
       "short": "Enjoy a diverse mix of Levantine and European dishes in a lively setting from breakfast to dinner. Reserve now!",
       "long": "Enjoy a diverse mix of Levantine and European dishes in a lively setting from breakfast to dinner. Reserve now! Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-kitchen-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ80PYOr75kT4RPTT-2eyLG9s",
@@ -40019,7 +40213,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thesourcerestaurants.com&sz=128",
-    "hero_url": "https://thesourcerestaurants.com/wp-content/uploads/2025/07/source.webp",
+    "hero_url": "assets/images/the-source-by-al-fakher/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ80PYOr75kT4RPTT-2eyLG9s",
@@ -40122,7 +40316,9 @@
       "short": "Best Restaurant in Muscat – We offer a stunning beachfront dining experience with fresh flavors, sunset views, and a relaxed coastal vibe",
       "long": "Best Restaurant in Muscat – We offer a stunning beachfront dining experience with fresh flavors, sunset views, and a relaxed coastal vibe Nestled along Muscat’s serene coastline, The Source was born from a passion for culinary artistry and luxury hospitality. With breathtaking sea views and a menu inspired by global flavors, we invite you to experience an unforgettable dining journey where elegance meets the essence of Oman. We await you by the shores of Qurum."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/the-source-by-al-fakher/hero.webp"
+    }
   },
   {
     "id": "ChIJ9RU04KIAjj4RoOFiATGjnVM",
@@ -40149,7 +40345,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOjfaqKn6n8YA_V4ITcJpqcjmobwdV566KqnEEw=w900-h900-p-k-no",
+    "hero_url": "assets/images/theatrum-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ9RU04KIAjj4RoOFiATGjnVM",
@@ -40249,7 +40445,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/theatrum-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ1df_FLP4kT4ROKq4BSBy_oY",
@@ -40276,7 +40474,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.intercontinental.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
+    "hero_url": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ1df_FLP4kT4ROKq4BSBy_oY",
@@ -40371,7 +40569,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/trader-vic-s-at-intercontinental-muscat/hero.webp"
+    }
   },
   {
     "id": "ChIJe814kgT_kT4RW_z_grkersQ",
@@ -40398,7 +40598,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.facebook.com&sz=128",
-    "hero_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/301954271_589732582694138_1918764698983957355_n.jpg?stp=dst-jpg_tt6&cstp=mx180x180&ctp=s180x180&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IBPl9P6jxcwQ7kNvwEkRsWL&_nc_oc=AdljiQfpIHGEKIkL2gPfei-gJkrHdIq7NxTM3sxM-I03v6-ySDpS320_Gwmt9_O7wH8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=GPr5TAATcThiIVNJ8I6Zzg&oh=00_AfcS6fYSTanRXzsqrxlt7TNYSsXKq9Egki26X_U8BdZ59w&oe=68E6D8CB",
+    "hero_url": "assets/images/turkish-diwan-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe814kgT_kT4RW_z_grkersQ",
@@ -40499,7 +40699,9 @@
       "short": "Turkish Diwan, Muscat. 3,435 likes · 13 talking about this · 3,579 were here. Turkish Diwan restaurant is the best Turkish restaurants in Sultanate of...",
       "long": "Turkish Diwan, Muscat. 3,435 likes · 13 talking about this · 3,579 were here. Turkish Diwan restaurant is the best Turkish restaurants in Sultanate of..."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/turkish-diwan-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJRx5tExD_kT4RrmhAHkRlS6Q",
@@ -40526,7 +40728,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=turkishhouserestaurant.shop&sz=128",
-    "hero_url": "https://static2.menufyy.com/turkish-house-restaurant-albums-1.jpg",
+    "hero_url": "assets/images/turkish-house-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRx5tExD_kT4RrmhAHkRlS6Q",
@@ -40632,7 +40834,9 @@
       "short": "Experience authentic Turkish cuisine at Turkish House Restaurant in Muscat, Oman. Enjoy a diverse menu featuring grilled seafood, lamb chops, and mezze platters. With excellent service and a vibrant…",
       "long": "Experience authentic Turkish cuisine at Turkish House Restaurant in Muscat, Oman. Enjoy a diverse menu featuring grilled seafood, lamb chops, and mezze platters. With excellent service and a vibrant atmosphere, its perfect for casual dining. Visit us for Turkish House Restaurant, located in Muscat, Oman, presents a delightful journey through authentic Turkish cuisine. Diners rave about the flavorful dishes, such as the grilled fish (الشعري) and succulent lamb chops, which evoke the vibrant atmosphere of Istanbul. The generous mezze platter is frequently highlighted as a must-try, perfect for…"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/turkish-house-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJGRM9e7D9jT4RF8ulYScKJlQ",
@@ -40659,7 +40863,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrYD11EvfdQNBNiuf-PcyKSTkbn1YhQiDvYyuqY3OlE0rEyW_IF0e47HuSeaZR93SHxnwM-fFY6XyJ93TbY8ZO5bSGaKk0Kf-Uma_tc2p6EezA6rPFGbWKJcyI865Pox7MqS7rAXQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/turkish-palace-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJGRM9e7D9jT4RF8ulYScKJlQ",
@@ -40760,7 +40964,9 @@
       "short": "★★★★☆ · Turkish restaurant",
       "long": "★★★★☆ · Turkish restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/turkish-palace-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJx5VM3rT4kT4Rmnp9inhaflE",
@@ -40915,7 +41121,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ghsoman.com&sz=128",
-    "hero_url": "http://3.124.46.82/wp-content/uploads/2022/06/GHS-Logo300px.png",
+    "hero_url": "assets/images/wabi-sabi-oman/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMbk71Jb5kT4RaqzVPubzNUE",
@@ -41014,7 +41220,9 @@
     "about": {
       "long": "Home Who We Are Outlets Takara Wabi Sabi Bespoke Catering Private Catering Corporate Catering Events Private Events Corporate Events News Contact Menu"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/wabi-sabi-oman/hero.webp"
+    }
   },
   {
     "id": "ChIJTzGSwND5kT4RBoVOQ2YW-_k",
@@ -41041,7 +41249,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=woodlands.co.om&sz=128",
-    "hero_url": "https://woodlands.co.om/images/bookicon.png",
+    "hero_url": "assets/images/woodlands-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJTzGSwND5kT4RBoVOQ2YW-_k",
@@ -41143,7 +41351,9 @@
     "about": {
       "long": "Chettinad food bristles with a distinct aroma of freshly ground spices including cumin, fenugreek, fennel, clove, bay leaf, turmeric and tamarind."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/woodlands-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ2X-zOED_kT4R7T_Xp_xKwTs",
@@ -41296,7 +41506,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thezher.com&sz=128",
-    "hero_url": "https://thezher.com/wp-content/uploads/2024/02/zher-logo.png",
+    "hero_url": "assets/images/zher-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4yQLXAD5kT4Ra4fRc-rlhVY",
@@ -41392,7 +41602,9 @@
       "source": "Google",
       "last_updated": "2025-10-04"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/zher-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJJ1JSS3z5kT4R9suBkx_sih0",
@@ -41419,7 +41631,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
+    "hero_url": "assets/images/zuwadeh-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJ1JSS3z5kT4R9suBkx_sih0",
@@ -41520,7 +41732,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/zuwadeh-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ91TTSLz_kT4RAthsDFttJTA",
@@ -41547,7 +41761,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNeWTzHpMaYew1N6n5mBWgyp6wuYTbwc4s8DJ5w=w900-h900-p-k-no",
+    "hero_url": "assets/images/pirates/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ91TTSLz_kT4RAthsDFttJTA",
@@ -41648,7 +41862,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/pirates/hero.webp"
+    }
   },
   {
     "id": "ChIJ8RHBoTn_kT4RN9WoGLr0114",
@@ -41675,7 +41891,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOBoCRVx84KvjPDcpXxUGiqexMJfZr2CvxC5Omf=w900-h900-p-k-no",
+    "hero_url": "assets/images/zomra-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8RHBoTn_kT4RN9WoGLr0114",
@@ -41775,7 +41991,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/zomra-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJsSFlMiIBjj4RPPTpnw_gUIQ",
@@ -41802,7 +42020,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
+    "hero_url": "assets/images/al-marsa/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJsSFlMiIBjj4RPPTpnw_gUIQ",
@@ -41902,7 +42120,9 @@
       "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
       "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-marsa/hero.webp"
+    }
   },
   {
     "id": "ChIJSYkRHbQBjj4RS_C8agurxOg",
@@ -41929,7 +42149,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsH6e79zHxtjTo8ZwY1d5SET4iunKjnjLVLfS9kayO0VW0V_ck97H5nCzqar-WcnHvQvzIH4YV5ffUg79SP4AigXkpvu1qe6RMSWDAOOSIHT1JX8O9E0O0bGfN8ZbZehLNiGCZYLrYX1w=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-amira-coffee-shop-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSYkRHbQBjj4RS_C8agurxOg",
@@ -42029,7 +42249,9 @@
       "short": "★★★★☆ · Restaurant",
       "long": "★★★★☆ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-amira-coffee-shop-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJPQZ0oBr_kT4RPQffI5gVAjQ",
@@ -42056,7 +42278,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNzhXxpR5VdnsqspmDopNrtpB90O3T5lcT3SEgQ=w900-h900-p-k-no",
+    "hero_url": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJPQZ0oBr_kT4RPQffI5gVAjQ",
@@ -42157,7 +42379,9 @@
       "short": "★★★★★ · Lebanese restaurant",
       "long": "★★★★★ · Lebanese restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/al-jood-lebanese-restaurant-al-khuwair/hero.webp"
+    }
   },
   {
     "id": "ChIJEz-fMAD5kT4RTDdgzygo44s",
@@ -42184,7 +42408,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.babakebabs.com&sz=128",
-    "hero_url": "https://babakebabs.com/wp-content/uploads/2020/10/Asset-1.png",
+    "hero_url": "assets/images/baba-kebabs-turkish-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJEz-fMAD5kT4RTDdgzygo44s",
@@ -42283,7 +42507,9 @@
     "about": {
       "long": "At Baba Kebab's, every dish tells a story. From the sizzling grills preparing mouth-watering kebabs to the delicate aromas of spices wafting through the air, our kitchen is a bustling hub of culinary artistry. Our chefs, hailing from various regions of Turkey, bring with them generations of recipes and secrets, ensuring that each meal is not just food, but an experience to remember."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/baba-kebabs-turkish-restaurant/hero.webp"
+    }
   },
   {
     "id": "ChIJ4QXYuo73kT4R1NK9WQhe7pY",
@@ -42310,7 +42536,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noaPAHxXnOgWtg7oIhfbQY0j7SrU8mfBu8-sMFnHERU1OI78fbBRvRIQOTcUXWf9lz-tcZbvTmN4Hcsix0WqzZUAQvzRoolJqKX6ihwteVfEOE6s2S5jpnwAwDUZq87TXtuPIwV=w900-h900-p-k-no",
+    "hero_url": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4QXYuo73kT4R1NK9WQhe7pY",
@@ -42411,7 +42637,9 @@
       "short": "★★★★★ · Restaurant",
       "long": "★★★★★ · Restaurant"
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/aroos-al-bahar-fish-restaurant/hero.webp"
+    }
   },
   {
     "id": "sc001",
