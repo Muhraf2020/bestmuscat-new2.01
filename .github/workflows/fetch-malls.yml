@@ -1,0 +1,116 @@
+name: Fetch Malls (Low Cost)
+
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: "Comma-separated search keywords"
+        type: string
+        default: "shopping mall,shopping center,mall,retail mall,plaza"
+      centers:
+        description: 'Semicolon-separated "lat,lng" points to tile the city'
+        type: string
+        default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
+      radius:
+        description: "Search radius per center (meters)"
+        type: number
+        default: 6000
+      max-pages-per-query:
+        description: "Max pages per (keyword,center)"
+        type: number
+        default: 2
+      max-places:
+        description: "Stop after N unique places overall"
+        type: number
+        default: 80
+      wall-timeout-sec:
+        description: "Abort run after this many seconds"
+        type: number
+        default: 900
+      basic-only:
+        description: "Cheapest mode (omit hours/editorial)"
+        type: boolean
+        default: true
+      details-throttle-sec:
+        description: "Sleep seconds between Details calls"
+        type: number
+        default: 0.25
+      no-favicons:
+        description: "Skip Google S2 favicon (logo_url)"
+        type: boolean
+        default: false
+      run_ingest:
+        description: "Rebuild tools.json after fetch"
+        type: boolean
+        default: true
+      csv_path:
+        description: "Path to malls CSV"
+        type: string
+        default: "data/sources/malls.csv"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-malls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+          # Ensure these exist even if requirements.txt is present
+          pip install requests
+
+      - name: Fetch malls (image-free, low cost)
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+        run: |
+          python scripts/fetch_malls.py \
+            --keywords "${{ github.event.inputs.keywords }}" \
+            --centers "${{ github.event.inputs.centers }}" \
+            --radius "${{ github.event.inputs.radius }}" \
+            --max-pages-per-query "${{ github.event.inputs.max-pages-per-query }}" \
+            --max-places "${{ github.event.inputs.max-places }}" \
+            --wall-timeout-sec "${{ github.event.inputs.wall-timeout-sec }}" \
+            ${{ github.event.inputs.basic-only == 'true' && '--basic-only' || '' }} \
+            --details-throttle-sec "${{ github.event.inputs.details-throttle-sec }}" \
+            ${{ github.event.inputs.no-favicons == 'true' && '--no-favicons' || '' }}
+
+      - name: Ensure Python packages (for ingest)
+        if: ${{ github.event.inputs.run_ingest == 'true' }}
+        run: |
+          mkdir -p scripts/utils scripts/ingest
+          touch scripts/__init__.py
+          touch scripts/utils/__init__.py
+          touch scripts/ingest/__init__.py
+
+      - name: Build tools.json from CSV
+        if: ${{ github.event.inputs.run_ingest == 'true' }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          # If your ingest expects specific category mapping, ensure the malls CSV header matches.
+          python -m scripts.ingest.csv_to_tools
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Fetch malls (low cost)${{ github.event.inputs.run_ingest == 'true' && ' & rebuild tools.json' || '' }}"
+          branch: ${{ github.ref_name }}
+          file_pattern: |
+            ${{ github.event.inputs.csv_path }}
+            data/tools.json
