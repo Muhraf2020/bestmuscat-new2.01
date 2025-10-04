@@ -316,6 +316,40 @@
       el.excerpt.hidden = true;
     }
 
+    // === Banner rating pill (reuse existing fields; no recalculation) ===
+    (() => {
+      // Prefer a preformatted short label if you have one in your JSON
+      const txt =
+        item.rating_card ||
+        item.rating_text_short ||
+        item.rating_display ||
+        item.rating_label ||
+        item.rating_text || // the string you already show in the Rating card
+        "";
+    
+      // Fallbacks ONLY if no preformatted string exists
+      let fallback = "";
+      if (!txt) {
+        if (typeof item.google_rating === "number") {
+          fallback = `${item.google_rating} / 5`;
+        } else if (typeof item.rating_overall === "number") {
+          fallback = `${item.rating_overall.toFixed(1)} / 10`;
+        } else if (typeof item.rating === "number") {
+          fallback = `${Number(item.rating).toFixed(1)} / 10`;
+        }
+      }
+    
+      const finalText = (txt || fallback).toString().trim();
+    
+      if (finalText && el.bannerRating && features.headerRatingPill) {
+        el.bannerRating.textContent = finalText;
+        el.bannerRating.hidden = false;
+      } else if (el.bannerRating) {
+        el.bannerRating.hidden = true;
+      }
+    })();
+
+
     const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
     const catSlug = slugify(primaryCat);
     // Display-only rename: keep data as "Events" but show "Events Planning"
@@ -468,13 +502,29 @@
     if (displayCat)  { el.cat.textContent   = displayCat;                  el.cat.hidden = false; }
 
 
-    // Header rating pill (legacy overall, if present)
-    if (typeof item.rating === "number" || (typeof item.rating === "string" && item.rating.trim())) {
-      el.rating.textContent = `${item.rating}/10`;
-      el.rating.hidden = false;
+    // === Small header pill (top row, not the banner chip) ===
+    {
+      const overall =
+        (typeof item.rating_overall === "number") ? item.rating_overall :
+        (typeof item.rating === "number")          ? Number(item.rating) :
+        null;
+    
+      if (el.rating) {
+        if (overall !== null && features.headerRatingPill) {
+          el.rating.textContent = `${overall.toFixed(1)} / 10`;
+          el.rating.hidden = false;
+        } else {
+          el.rating.hidden = true;
+        }
+      }
+    
+      // If the feature is disabled, also hide the banner pill for safety
+      if (!features.headerRatingPill) {
+        document.getElementById('d-rating')?.setAttribute('hidden','');
+        el.bannerRating?.setAttribute('hidden','');
+      }
     }
-    // Hide header pill if feature says so
-    if (!features.headerRatingPill) { document.getElementById('d-rating')?.setAttribute('hidden',''); }
+
 
     // Open/Closed (if hours.weekly exists)
     const state = openState(item.hours);
