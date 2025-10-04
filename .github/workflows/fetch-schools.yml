@@ -1,0 +1,118 @@
+name: Fetch Schools from Google
+
+on:
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: "Comma-separated search keywords"
+        default: "school,primary school,secondary school,high school,international school,kindergarten,nursery,college,academy"
+      centers:
+        description: 'Semicolon-separated "lat,lng" points'
+        default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520;23.545,58.735"
+      radius:
+        description: "Search radius (meters)"
+        default: "6000"
+      basic_only:
+        description: "Cheapest: only core detail fields (true/false)"
+        default: "true"
+      max_pages_per_query:
+        description: "Max pages per (keyword,center)"
+        default: "2"
+      max_places:
+        description: "Stop after N unique places overall"
+        default: "150"
+      details_throttle_sec:
+        description: "Sleep seconds between Details calls"
+        default: "0.2"
+      wall_timeout_sec:
+        description: "Abort run after this many seconds"
+        default: "1200"
+      no_favicons:
+        description: "Do NOT set favicon URLs in logo_url (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-schools:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure folders exist
+        run: |
+          mkdir -p data/sources
+          mkdir -p assets/schools
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests
+          fi
+
+      - name: Run fetcher (image-free, low-cost)
+        working-directory: scripts
+        shell: bash
+        run: |
+          KW="${{ github.event.inputs.keywords }}"
+          CTRS="${{ github.event.inputs.centers }}"
+          RAD="${{ github.event.inputs.radius }}"
+          PAGES="${{ github.event.inputs.max_pages_per_query }}"
+          MAXP="${{ github.event.inputs.max_places }}"
+          THROTTLE="${{ github.event.inputs.details_throttle_sec }}"
+          WALL="${{ github.event.inputs.wall_timeout_sec }}"
+          BASIC="${{ github.event.inputs.basic_only }}"
+          NOFAV="${{ github.event.inputs.no_favicons }}"
+
+          ARGS=()
+          ARGS+=(--keywords "$KW")
+          ARGS+=(--centers "$CTRS")
+          ARGS+=(--radius "$RAD")
+          ARGS+=(--max-pages-per-query "$PAGES")
+          ARGS+=(--max-places "$MAXP")
+          ARGS+=(--details-throttle-sec "$THROTTLE")
+          ARGS+=(--wall-timeout-sec "$WALL")
+
+          shopt -s nocasematch
+          [[ "$BASIC" == "true" ]] && ARGS+=(--basic-only)
+          [[ "$NOFAV" == "true" ]] && ARGS+=(--no-favicons)
+          shopt -u nocasematch
+
+          echo "Running: python fetch_schools.py ${ARGS[*]}"
+          python fetch_schools.py "${ARGS[@]}"
+
+      - name: Ensure Python packages (for ingest)
+        run: |
+          mkdir -p scripts/utils scripts/ingest
+          touch scripts/__init__.py
+          touch scripts/utils/__init__.py
+          touch scripts/ingest/__init__.py
+
+      - name: Build tools.json from CSV
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m scripts.ingest.csv_to_tools
+
+      - name: Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Fetch schools (image-free) & rebuild tools.json"
+          branch: ${{ github.ref_name }}
+          file_pattern: |
+            data/sources/schools.csv
+            data/tools.json
