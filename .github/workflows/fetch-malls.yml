@@ -1,52 +1,35 @@
-name: Fetch Malls (Low Cost)
+name: Fetch Malls from Google
 
 on:
   workflow_dispatch:
     inputs:
       keywords:
         description: "Comma-separated search keywords"
-        type: string
-        default: "shopping mall,shopping center,mall,retail mall,plaza"
+        default: "mall,shopping mall,shopping center,shopping centre"
       centers:
-        description: 'Semicolon-separated "lat,lng" points to tile the city'
-        type: string
+        description: 'Semicolon-separated "lat,lng" points'
         default: "23.611,58.471;23.585,58.407;23.620,58.280;23.600,58.545;23.560,58.640;23.570,58.420;23.520,58.385;23.640,58.520"
       radius:
-        description: "Search radius per center (meters)"
-        type: number
-        default: 6000
-      max-pages-per-query:
+        description: "Search radius (meters)"
+        default: "8000"
+      basic_only:
+        description: "Cheapest: only core detail fields (true/false)"
+        default: "true"
+      max_pages_per_query:
         description: "Max pages per (keyword,center)"
-        type: number
-        default: 2
-      max-places:
+        default: "2"
+      max_places:
         description: "Stop after N unique places overall"
-        type: number
-        default: 80
-      wall-timeout-sec:
-        description: "Abort run after this many seconds"
-        type: number
-        default: 900
-      basic-only:
-        description: "Cheapest mode (omit hours/editorial)"
-        type: boolean
-        default: true
-      details-throttle-sec:
+        default: "120"
+      details_throttle_sec:
         description: "Sleep seconds between Details calls"
-        type: number
-        default: 0.25
-      no-favicons:
-        description: "Skip Google S2 favicon (logo_url)"
-        type: boolean
-        default: false
-      run_ingest:
-        description: "Rebuild tools.json after fetch"
-        type: boolean
-        default: true
-      csv_path:
-        description: "Path to malls CSV"
-        type: string
-        default: "data/sources/malls.csv"
+        default: "0.2"
+      wall_timeout_sec:
+        description: "Abort run after this many seconds"
+        default: "1200"
+      no_favicons:
+        description: "Do NOT set favicon URLs in logo_url (true/false)"
+        default: "false"
 
 permissions:
   contents: write
@@ -54,12 +37,19 @@ permissions:
 jobs:
   fetch-malls:
     runs-on: ubuntu-latest
+    env:
+      GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Ensure folders exist
+        run: |
+          mkdir -p data/sources
+          mkdir -p assets/malls
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -71,27 +61,42 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
+          else
+            pip install requests
           fi
-          # Ensure these exist even if requirements.txt is present
-          pip install requests
 
-      - name: Fetch malls (image-free, low cost)
-        env:
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+      - name: Run fetcher (image-free, low-cost)
+        working-directory: scripts
+        shell: bash
         run: |
-          python scripts/fetch_malls.py \
-            --keywords "${{ github.event.inputs.keywords }}" \
-            --centers "${{ github.event.inputs.centers }}" \
-            --radius "${{ github.event.inputs.radius }}" \
-            --max-pages-per-query "${{ github.event.inputs.max-pages-per-query }}" \
-            --max-places "${{ github.event.inputs.max-places }}" \
-            --wall-timeout-sec "${{ github.event.inputs.wall-timeout-sec }}" \
-            ${{ github.event.inputs.basic-only == 'true' && '--basic-only' || '' }} \
-            --details-throttle-sec "${{ github.event.inputs.details-throttle-sec }}" \
-            ${{ github.event.inputs.no-favicons == 'true' && '--no-favicons' || '' }}
+          KW="${{ github.event.inputs.keywords }}"
+          CTRS="${{ github.event.inputs.centers }}"
+          RAD="${{ github.event.inputs.radius }}"
+          PAGES="${{ github.event.inputs.max_pages_per_query }}"
+          MAXP="${{ github.event.inputs.max_places }}"
+          THROTTLE="${{ github.event.inputs.details_throttle_sec }}"
+          WALL="${{ github.event.inputs.wall_timeout_sec }}"
+          BASIC="${{ github.event.inputs.basic_only }}"
+          NOFAV="${{ github.event.inputs.no_favicons }}"
+
+          ARGS=()
+          ARGS+=(--keywords "$KW")
+          ARGS+=(--centers "$CTRS")
+          ARGS+=(--radius "$RAD")
+          ARGS+=(--max-pages-per-query "$PAGES")
+          ARGS+=(--max-places "$MAXP")
+          ARGS+=(--details-throttle-sec "$THROTTLE")
+          ARGS+=(--wall-timeout-sec "$WALL")
+
+          shopt -s nocasematch
+          [[ "$BASIC" == "true" ]] && ARGS+=(--basic-only)
+          [[ "$NOFAV" == "true" ]] && ARGS+=(--no-favicons)
+          shopt -u nocasematch
+
+          echo "Running: python fetch_malls.py ${ARGS[*]}"
+          python fetch_malls.py "${ARGS[@]}"
 
       - name: Ensure Python packages (for ingest)
-        if: ${{ github.event.inputs.run_ingest == 'true' }}
         run: |
           mkdir -p scripts/utils scripts/ingest
           touch scripts/__init__.py
@@ -99,18 +104,15 @@ jobs:
           touch scripts/ingest/__init__.py
 
       - name: Build tools.json from CSV
-        if: ${{ github.event.inputs.run_ingest == 'true' }}
         env:
           PYTHONPATH: ${{ github.workspace }}
-        run: |
-          # If your ingest expects specific category mapping, ensure the malls CSV header matches.
-          python -m scripts.ingest.csv_to_tools
+        run: python -m scripts.ingest.csv_to_tools
 
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Fetch malls (low cost)${{ github.event.inputs.run_ingest == 'true' && ' & rebuild tools.json' || '' }}"
+          commit_message: "Fetch malls (image-free) & rebuild tools.json"
           branch: ${{ github.ref_name }}
           file_pattern: |
-            ${{ github.event.inputs.csv_path }}
+            data/sources/malls.csv
             data/tools.json
