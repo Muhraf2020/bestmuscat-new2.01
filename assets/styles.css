@@ -1874,3 +1874,6 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 
 /* Keep newlines in the About text */
 #d-about { white-space: pre-line; }
+
+/* Hide the unused sidebar Actions card */
+#actions-card { display: none; }
