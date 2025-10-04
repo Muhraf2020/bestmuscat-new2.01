@@ -111737,7 +111737,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=melospa.co&sz=128",
-    "hero_url": "https://melospa.co/wp-content/uploads/2025/03/Screen-Shot-2025-03-15-at-4.28.42-AM.png",
+    "hero_url": "assets/images/melos-wellness-beauty-spa/hero.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": null,
@@ -111854,7 +111854,9 @@
       "short": "Experience tranquility and beauty. Indulge in our exclusive women-only spa, where relaxation meets rejuvenation. Enjoy a variety of services 99% Quality Service Our skilled therapists ensure an…",
       "long": "Experience tranquility and beauty. Indulge in our exclusive women-only spa, where relaxation meets rejuvenation. Enjoy a variety of services 99% Quality Service Our skilled therapists ensure an extended premium experience. 1K+ Client Satisfaction We prioritize your comfort and happiness, striving to exceed your expectations with every visit and service provided. 8 Expert Care Our experienced […] Indulge in a serene forest-themed environment designed for relaxation and rejuvenation, exclusively for women seeking beauty and wellness."
     },
-    "images": {}
+    "images": {
+      "hero": "assets/images/melos-wellness-beauty-spa/hero.webp"
+    }
   },
   {
     "id": "ChIJYRlH-kP_kT4RLlnZ0s3v1G0",
