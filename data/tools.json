@@ -27304,7 +27304,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.aagraham.co&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ-1v67nP5kT4ROeewj-pvKXc",
@@ -27380,6 +27380,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
@@ -27424,7 +27425,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOs_9DnnXzIsu_PtIEjalUTuYwV2nlXKqVkNMrM=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJdcsXXOr_kT4RV_56wi0qFME",
@@ -27500,7 +27501,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -27516,6 +27520,10 @@
       "count": 56,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -27544,7 +27552,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npJTVS-G1mhsDyblRJ9FymLfduXJTx01e3A_o89yX-HQxFnn8CbUI17EKsNfn2Sizq0UVVDwwGclYg_erAdl365BzukjJJozLf-dXOxfVAcEnT1iKbuYrzTrOey45TSbsp0chI=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJn4UeRez9jT4RJ-cpFekiltU",
@@ -27620,7 +27628,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -27636,6 +27647,10 @@
       "count": 67,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -27664,7 +27679,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqpIBecWj4cVUDWiGZVaE5PG-WSqYZIa4OtUGTk5BUj5YnVm3TzbkySVhAgksJ237gQ871vwGSHlkP0Ltb2cg_U-TcXork10Y_RAF7UtS4YVInROQU_ivK2GuIuzF1n9EGQc6Ds=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJlfDBqcr5kT4RvpQIQRdhNJ8",
@@ -27740,8 +27755,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -27757,6 +27775,10 @@
       "count": 1013,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -27785,7 +27807,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq0DW_QedYSsmjydZ22HHRgbzrWJNSAK9F8sFm4hgROjo40_hBELvH3ru6niZX2KHZgHosGJeWI718dZzuftTcCWHtswZ7YmBpH6ZIeJcA1w0auSzTkhqaZgBcw6a4dJK4NTI-vbYRzP0v4=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJd8qkSHH9jT4RmUx1n_cbjMw",
@@ -27861,8 +27883,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -27878,6 +27903,10 @@
       "count": 2513,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Lebanese restaurant",
+      "long": "★★★★★ · Lebanese restaurant"
     },
     "images": {}
   },
@@ -27906,7 +27935,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJXg3Uf6K3Xh5tW_mQUDLC7PpzCCUkt5VdxAxd60DyB0OVZKshjKsK7OtYAQosjOtqgOLCxkwmY5eOe6bIuiy6J-o8OX1l7T4U-LloIM4kb0A_zFF6VXEj7_6zNfBmrh9XQc-G=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJc312TRH9jT4Rb18tjJ2yp0o",
@@ -27982,7 +28011,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -27998,6 +28030,10 @@
       "count": 1515,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Yemeni restaurant",
+      "long": "★★★★☆ · Yemeni restaurant"
     },
     "images": {}
   },
@@ -28026,7 +28062,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://scontent-ord5-1.cdninstagram.com/v/t51.2885-19/454684599_3668795923433587_5941026845945879172_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=RWROCXWNK04Q7kNvwEYAB_2&_nc_oc=AdlMYDG6I2M6Phym3ePdjqIFRyzJfe_oKu92bAJkB8NPIlGGapX2rKCI9DorropsR-U&_nc_zt=24&_nc_ht=scontent-ord5-1.cdninstagram.com&oh=00_Aff12pNjOS28puUdyknWBZNmtel9Y_FrOXYL-zSkbxP2-A&oe=68E6E539",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJEczPNbb9jT4RlePgro2PVy4",
@@ -28102,8 +28138,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28119,6 +28158,10 @@
       "count": 715,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "33K Followers, 5 Following, 145 Posts - ‎مطعم المندوس (@almandoos_oman)‎ on Instagram: \"‎تجربة عمانية أصيلة بكل تفاصيلها . ‏| 📍Oman , Al Mawaleh , almouj street 11AM - 11PM 🕓 | 📲 96004549‎\"",
+      "long": "33K Followers, 5 Following, 145 Posts - ‎مطعم المندوس (@almandoos_oman)‎ on Instagram: \"‎تجربة عمانية أصيلة بكل تفاصيلها . ‏| 📍Oman , Al Mawaleh , almouj street 11AM - 11PM 🕓 | 📲 96004549‎\""
     },
     "images": {}
   },
@@ -28147,7 +28190,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npasYDQMkBbJ20UhpYTpr58zPq93uO_JHrE7IV4xygkDzUcv-H0FlkfKp8xRAz4mOCkePjD3abN7uOJno4CWbCDk93lp9_3ReOO6cyvJ02xHtcDS7nSrxm4ZXlIW9EMnW9klGaT=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJLTbq9eP_kT4RNW_M4OFVv7o",
@@ -28223,7 +28266,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28239,6 +28285,10 @@
       "count": 704,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -28267,7 +28317,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPb19B8by11C0RYHgLfP-hxFSlmM5Q27UovPeud=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJm0q4wO34kT4RFFN0EsefWPY",
@@ -28343,7 +28393,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28359,6 +28412,10 @@
       "count": 633,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -28387,7 +28444,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npJwft63CORtGbMzc4oQPLDOe9UnK7KoeWyh2-fPUe6ivC1wWAbLgtOuArLFG7gYiczUFuibwMRd-v6xiB-fQx7iE92AF0WrUtZu247PutI_5po4GgG8UsCjaj-f4D7vykMJewFIA=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJt2YOxaT_kT4RsieC5ai8PoI",
@@ -28463,8 +28520,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28480,6 +28540,10 @@
       "count": 1487,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -28508,7 +28572,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.awshaloman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.fbgcdn.com/pictures/f92c3ce5-4e6d-4a5b-83cd-6a866009136b.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJ9UnuA8Bjj4Rt5EOQUF91FY",
@@ -28584,11 +28648,18 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "delivery",
+      "takeout"
     ],
     "description": null,
     "pricing": null,
@@ -28600,6 +28671,10 @@
       "count": 268,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Order Online for Takeaway / Delivery or Book a Table. Here at Awshal - Muscat you'll experience delicious Coffee, Burger, Pizza, Salads, Sandwiches, Pasta, Breakfast, Kebab cuisine. Try our…",
+      "long": "Order Online for Takeaway / Delivery or Book a Table. Here at Awshal - Muscat you'll experience delicious Coffee, Burger, Pizza, Salads, Sandwiches, Pasta, Breakfast, Kebab cuisine. Try our mouth-watering dishes, carefully prepared with fresh ingredients! At Awshal, our recipe for success is simple – Great food & care makes customers return every time. Oracle and our third party partners may use cookies for the following purposes:"
     },
     "images": {}
   },
@@ -28628,7 +28703,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqh0S66LBf1KOe8FniOkHpUG17CbQCSbLBTxtpgNYyf6wRvjFZRPxT2j9ju020kxf_NH-yRv2kvSlnFzydwSsZE1HRCHEk03A9pZsdvdHiUz6tkts10CXgNrThnp0LKg-R7fzRX1A=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJl0RjAPT8jT4RN87GbCQeEC4",
@@ -28704,8 +28779,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28721,6 +28799,10 @@
       "count": 252,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -28749,7 +28831,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np4p2Sf5EaKKKvnIr3x6h4-yS2VY8Cknep3UJ-lMH1zjD_Axs6NW8l8Z3oRNCPYbavw54S3SW18xCxG1ViXefa3lsGyXWYnGyvK-8PAFIDjERGY6XUYmai8zpaqRhSgpbzrLupwvQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJW1N2JJf4kT4RaOqWYHDCXFQ",
@@ -28825,8 +28907,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28842,6 +28927,10 @@
       "count": 3855,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Turkish restaurant",
+      "long": "★★★★☆ · Turkish restaurant"
     },
     "images": {}
   },
@@ -28870,7 +28959,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTx7QDJIA7MWeH9OdDvdNHEp2PLlmnhW21yRNeliM0m5YtTcXjae9s5v3SelW0L367KSn6OpwKWVyuyqH31yIbaWjkn9_o4BUkeAmJ5aHTOz9Cyrr6MqUVU6zinvLGNehlwlyjQw=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJQX6Ed23_kT4RKSG2b4agAyw",
@@ -28946,8 +29035,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -28963,6 +29055,10 @@
       "count": 386,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -28991,7 +29087,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.baitalluban.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh_rzw473kT4RdQEPuQTY0zo",
@@ -29067,6 +29163,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
@@ -29112,7 +29209,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqacQeouPBKK4TzAqQtdAbO1JJBdFw3kHSM8MAuzfPPCXOZxukOmLcuAAqpC0tzjSefjJWiDwthamUG5Vk2F1bTRqABMFQcR7dt3C18N9aBoIvEcqmJUB9wg5sGDj2EqaXE4zMFcQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU500cf__kT4RU931SY6pWSU",
@@ -29188,8 +29285,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29205,6 +29305,10 @@
       "count": 688,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -29233,7 +29337,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=bait-alyasamine.com&sz=128",
-    "hero_url": null,
+    "hero_url": "http://bait-alyasamine.com/storage/uploads/WebLogo/104-1720288359.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJq8Adixv5kT4RPuLSYV10vRQ",
@@ -29309,11 +29413,15 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -29325,6 +29433,10 @@
       "count": 1198,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "#",
+      "long": "# بيت الياسمين. . . مطعم دمشقي فاخر لها ديكور خاص يعتمد على الفخامة ويظهر الجمال من البيت الدمشقي مع شجرة الياسمين القديمة و تفاصيل دمشقية فاخرة. يجسد نبل السوري المطاعم ، حيث أنها تقدم مجموعة واسعة من أشهى وألذ أشهى الأطباق السورية الأصيلة المحضرة بطريقة مميزة ضمن أفضل معايير الجودة."
     },
     "images": {}
   },
@@ -29353,7 +29465,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_8UDGCxWOK08IL__SKZ1Xl_sQ_XE18gQ-RKMDBA8k0hlf3dRd2DUIzwTiY0b0xtzUiSmq1WmHZdwzmNKIxFmv0lhSOIvr9K_rIos_AJZUXoxXHn-ET5bVzMT2zDNBOTXhmjpV=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe3Hspg7_kT4RWecO68Sh2Jg",
@@ -29429,7 +29541,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29445,6 +29560,10 @@
       "count": 290,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -29473,7 +29592,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=heyzine.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://cdnc.heyzine.com/files/uploaded/v3/f280f8eaf6f22ea1e887a7af5e0e83935fc654d0.pdf-thumb.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJZ0x7iYz9jT4R0RneEBGGps4",
@@ -29549,7 +29668,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29565,6 +29687,10 @@
       "count": 26,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Created with the Heyzine flipbook maker",
+      "long": "Created with the Heyzine flipbook maker"
     },
     "images": {}
   },
@@ -29593,7 +29719,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=qmenu.libertytechsolution.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJjVoWKBv5kT4R_7c8EPoSs74",
@@ -29669,7 +29795,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29685,6 +29814,10 @@
       "count": 387,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "A new Flutter project.",
+      "long": "A new Flutter project."
     },
     "images": {}
   },
@@ -29713,7 +29846,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nphDBt4wFl2519APGsOnDDXQUh4HKomdpblDFCxbgn9rtzBoY_rKzGd7ccMt-LWTO76ASjd43o3BkA6LRnc7uyu0wsquQv-eIT7QePz6DKt7XezGcgDZWhBD9m2_cn4Z3txyTRY=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU9UTRLv_kT4RdEJ6QHOcrM8",
@@ -29789,8 +29922,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29806,6 +29942,10 @@
       "count": 4252,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Afghan restaurant",
+      "long": "★★★★☆ · Afghan restaurant"
     },
     "images": {}
   },
@@ -29834,7 +29974,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nosV04vpIdS_Uu-vZ7CY8aBT-chPCHK7pJk1vZzHF3bjnHdWhFUssgRJMQjO-esAxrvhIHs53N6Z2pHkoepcZja-QcGMcmk2ntDpZlBSq5gCm89IvaepQfnlwpiufIwmaRvXaQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJsYA-FAoAjj4Rq7iyb5wPQhQ",
@@ -29910,8 +30050,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -29927,6 +30070,10 @@
       "count": 2804,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Cafe",
+      "long": "★★★★☆ · Cafe"
     },
     "images": {}
   },
@@ -29955,7 +30102,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.goldenspoongroup.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://goldenspoongroup.com/wp-content/uploads/2021/07/GoldenSpoonGroup.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJnZpXJdn5kT4RF5OHvSgXC7A",
@@ -30031,11 +30178,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -30047,6 +30199,9 @@
       "count": 1391,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Villa No: 577, Way No: 6829, Postal Code: 111, PO Box No: 2170, 18th November Street, Muscat, Sultanate of Oman."
     },
     "images": {}
   },
@@ -30075,7 +30230,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npGEmxl8u2KuTUnZOaL7L-EN2IZx_ZnJAg7lr7skx_Icay2oIYubrmr_oLVH0qmGEToGpGWso-OUyS9XJqGy3ATUnjwhmFv7c0jJXWxM3YAaX6d-LKMMwJIEJQumevSdFRvarB9=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSTmnszn4kT4RAyJjJcKMB7g",
@@ -30151,7 +30306,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -30167,6 +30325,10 @@
       "count": 466,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -30195,7 +30357,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npt0ObH5iC7EUVOegQRvkSICpIjZeFudIwaPd_Mjk43j1VzqXdeKkkpYl3EyOp04mWesQThN13jfwmTMfGeLm8dg017WMwozy7C43J5WfBJ5mN2w2pjSpdiU-f7Npu5qfl6oNjr=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJVJrl038jT4RzSWhuIZzeBQ",
@@ -30271,8 +30433,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -30288,6 +30453,10 @@
       "count": 458,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · East African restaurant",
+      "long": "★★★★☆ · East African restaurant"
     },
     "images": {}
   },
@@ -30316,7 +30485,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kahramanairaqirestaurant.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJV1ogxNb9jT4R83UEC4fDwFM",
@@ -30392,6 +30561,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
@@ -30436,7 +30606,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrLy41EdIFKYZA4fuTL7CiC_9Q5DOJStJZNknRpehU64M1dOtAUP0l3nBJxc7FyxG57GuGllz00Ssg7UMmqDdCqDzQrZlsRWtOS2Ct9fg6lgkTNeOE11jQsVBZrj9RKUfZgZXBr=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ12dcbgD9jT4Rud3m9wqLeHQ",
@@ -30512,7 +30682,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -30528,6 +30701,10 @@
       "count": 66,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -30556,7 +30733,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrnYv-mSUuIDp-MUzQ-znnVKJ_WQEXEE5RH3rRXQvLl2IMk_85e9GHJ1DX25PlSLw8TivmgnCqyzc4BrJo7cgktwUrGjULZfUwMqcKG0UrqjeSJS9pSwK5bQf1URd7Do2Ls3II=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJFxz1qvz9jT4R4vEA7fqyxnk",
@@ -30632,8 +30809,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -30649,6 +30829,10 @@
       "count": 2624,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Pakistani restaurant",
+      "long": "★★★★☆ · Pakistani restaurant"
     },
     "images": {}
   },
@@ -30677,7 +30861,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=embersteak.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://embersteak.com/wp-content/uploads/2024/04/01_Image1.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJt4ubfwD_kT4RoNWRbMZI-Bc",
@@ -30753,11 +30937,18 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "outdoor_seating",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -30769,6 +30960,10 @@
       "count": 153,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Ember Steak is Napa’s premier steakhouse serving dry-aged beef and local produce, blending rustic charm with elegance.",
+      "long": "Ember Steak is Napa’s premier steakhouse serving dry-aged beef and local produce, blending rustic charm with elegance. Ember Steak–Napa’s premier steakhouse–has arrived at The Meritage Resort. Proudly featuring dry-aged beef and produce from local farms, our restaurant blends rustic charm with elegance. Dine on steaks, sushi and specialty dishes paired with an extensive wine list and cocktail program. Relish in an intimate setting with al fresco dining spaces and views of the gateway to Napa."
     },
     "images": {}
   },
@@ -30797,7 +30992,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.marriott.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://cache.marriott.com/is/image/marriotts7prod/xr-mctxr-hotel-exterior-28705:Wide-Hor?wid=1336&fit=constrain",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4baHJQD_jT4REkdVecc7vOM",
@@ -30873,11 +31068,18 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "reservations_url",
+      "outdoor_seating",
+      "kids_friendly",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -30889,6 +31091,10 @@
       "count": 243,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "The St. Regis Al Mouj Muscat Resort offers a feast of culinary options, featuring the most exquisite restaurants in Muscat with variety of specialties.",
+      "long": "The St. Regis Al Mouj Muscat Resort offers a feast of culinary options, featuring the most exquisite restaurants in Muscat with variety of specialties. Indulge in a world of culinary artistry with nine distinguished dining venues. Experience fine dining Cantonese cuisine at Hakkasan, authentic Lebanese flavors at Em Sherif, and elegant Italian cuisine at Roberto’s. COYA brings vibrant Peruvian flair, while Novikov Café offers an authentic Mediterranean experience. Additionally, our signature restaurants—Karibu, an Omani restaurant with a fusion of Tanzanian and Indian cuisine, offering…"
     },
     "images": {}
   },
@@ -30917,7 +31123,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=enabrestaurant.me&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bH5yyn5kT4RymORG6rVv70",
@@ -30993,6 +31199,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
@@ -31037,7 +31244,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=fawaz-co.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://fawaz-co.com/wp-content/uploads/2024/03/0015.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bZAQwABjj4RabCx-OCtkd0",
@@ -31113,11 +31320,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -31129,6 +31339,9 @@
       "count": 632,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "We welcome you, where you can experience authentic flavors in a warm and pleasant atmosphere"
     },
     "images": {}
   },
@@ -31157,7 +31370,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.foodlandsoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.foodlandsoman.com/wp-content/uploads/2021/01/ing1.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJqW7_Ggz_kT4RryFDJdgUyBM",
@@ -31233,12 +31446,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -31250,6 +31467,9 @@
       "count": 3768,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "When you’re in the mood for good times and great cuisine, be sure to check out Foodlands restaurant. The restaurant is located in the heart of Al-Khuwair and is known for its delightful staff and superb cuisine. The restaurant continues to attract attention from all serious food lovers and also those who simply enjoy a memorable evening that ends with a sumptuous dinner and extraordinary desserts. . The menu at Foodlands restaurant features a wide array of great selections, made from only the freshest and highest quality ingredients."
     },
     "images": {}
   },
@@ -31278,7 +31498,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ29rtEiT9jT4RvEljSSPAmiU",
@@ -31354,7 +31574,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -31370,6 +31593,10 @@
       "count": 239,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -31398,7 +31625,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npLlJu5zcWVlG8rZ79cr3TSIyoPn2m5eReAhfaajhlejXRE_WrcaPV7rKcyPZGWz20aF4dfkUqE8Qijgh8GLFwf7cYxpYj474phG9QDLeOThYwH-m80ybetlju2zuVPI_JIfzaoLQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ0XdHLNb3kT4RxXcbh7Nyq7o",
@@ -31474,7 +31701,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -31490,6 +31720,10 @@
       "count": 229,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -31518,7 +31752,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPy2-dHDCRzH_jO2CiV3a2lSKBCR7ZT6AVPInSd=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJr1Em_qIAjj4R3BubucdasI4",
@@ -31594,7 +31828,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -31610,6 +31847,10 @@
       "count": 127,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -31638,7 +31879,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.facebook.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/431161199_122159397284029106_7996910634653991343_n.jpg?stp=dst-jpg_tt6&cstp=mx1243x1004&ctp=p720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TwgBHVY9RokQ7kNvwFtd_0F&_nc_oc=Adn2_fZILclB5iTfmg_pID6_5A9vbunJo3Zq4rpOQrtVDfe36FM20Q2bZEqAA4Z5P2U&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=QbO4Hh1C8h6WNEZdq1YykQ&oh=00_AfcUgrSie4mwuB566tCy7MZXELFPVvipg6sKY8y4k6zX3g&oe=68E6EBCA",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ5d0FVH7_kT4Ru7n9jOj0M-o",
@@ -31714,7 +31955,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -31730,6 +31974,10 @@
       "count": 3386,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Golden Flame Restaurant, Muscat. 687 likes · 80 talking about this · 13 were here. Golden Flame Restaurant is a vibrant and diverse culinary destination...",
+      "long": "Golden Flame Restaurant, Muscat. 687 likes · 80 talking about this · 13 were here. Golden Flame Restaurant is a vibrant and diverse culinary destination..."
     },
     "images": {}
   },
@@ -31758,7 +32006,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.huqqa.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.huqqa.com/wp-content/uploads/2024/10/Huqqa-Official-Logo-1.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJpzrg9vr_kT4RHt3uBpRKoDk",
@@ -31834,8 +32082,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -31851,6 +32102,10 @@
       "count": 5952,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "HuQQa... The inspiration of the gastronomy world. The perfect kitchen of the ritual of eating. Welcome to the world of HuQQalovers!",
+      "long": "HuQQa... The inspiration of the gastronomy world. The perfect kitchen of the ritual of eating. Welcome to the world of HuQQalovers! By collaborating with world-renowned designers, HuQQa offers an experience not only in terms of taste but also aesthetics, welcoming its guests in a unique atmosphere. Leading designers such as Desval, Orlinski, Gaia & Gino, Karim Rashid and Jaime Hayon are among the names involved in this creative journey. Each of them has enriched HuQQa’s spaces and ambiance with their own touch."
     },
     "images": {}
   },
@@ -31879,7 +32134,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=imperialkitchenmuscat.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://imperialkitchenmuscat.com/wp-content/uploads/2024/06/Imp-Logo-NEW-1.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh9xftun_kT4R3tRL1epkehQ",
@@ -31955,11 +32210,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -31971,6 +32229,9 @@
       "count": 1097,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Experience culinary excellence at Imperial Kitchen, Muscat’s premier fine dining destination."
     },
     "images": {}
   },
@@ -31999,7 +32260,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=iranihouse.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://assets.indolj.io/upload/1729176116-Logo.png?q=10",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJO_iUMlr9jT4RZZcc0QJsCV0",
@@ -32075,7 +32336,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -32091,6 +32355,10 @@
       "count": 160,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Discover the latest menu offerings from Irani House Restaurant in Muscat. Order delicious Iranian & Arabian food including Kebabs, Rice, & Chicken. Order online now!",
+      "long": "Discover the latest menu offerings from Irani House Restaurant in Muscat. Order delicious Iranian & Arabian food including Kebabs, Rice, & Chicken. Order online now!"
     },
     "images": {}
   },
@@ -32119,7 +32387,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOM97XWSMI1tI11sZdT6HxXv1MGwqeNFUxcEHHT=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJCYzzmL8Bjj4RgpJFrDnJghQ",
@@ -32195,8 +32463,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -32212,6 +32483,10 @@
       "count": 775,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Turkish restaurant",
+      "long": "★★★★☆ · Turkish restaurant"
     },
     "images": {}
   },
@@ -32240,7 +32515,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=italianbarristacafe.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://italianbarristacafe.com/wp-content/uploads/2025/05/Italian-restaurant-qurum.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJlRfLiYz4kT4Rtiu8YfoUS_k",
@@ -32316,12 +32591,19 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "delivery",
+      "takeout",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -32333,6 +32615,10 @@
       "count": 4442,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian",
+      "long": "Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian Find your nearby Italian Barista Café in Qurum at 103 Sayh Al Malih St, 126, Oman. Enjoy authentic Italian food with handcrafted pizzas, creamy italian pastas, and signature desserts in a cozy, welcoming atmosphere. If you’re dining in or ordering online for pickup or delivery, every visit brings you a taste of Italy right in the heart of Qurum."
     },
     "images": {}
   },
@@ -32361,7 +32647,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq74V0Gj2Ib1MUGIuWwOT8udDyzJx5EKaWC1d32vqFxL-nWax36rvaxKaii8niSMkiHGvUOM7YIhyJWme8pIFIbr-pHp6CDmszsbRFaHfEybGedq1RiWrCmveDBdF9NC-jGfFU5=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ53FLNCL9jT4ReDZvWDxATFo",
@@ -32437,7 +32723,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -32453,6 +32742,10 @@
       "count": 1325,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -32481,7 +32774,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipN1EsMoaKDBg1kLzjYJlNoJiZS0JYMTa5_8jBwS=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJH7YvMlD_kT4RRiyfJNws1JU",
@@ -32557,7 +32850,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -32573,6 +32869,10 @@
       "count": 3344,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Breakfast restaurant",
+      "long": "★★★★★ · Breakfast restaurant"
     },
     "images": {}
   },
@@ -32601,7 +32901,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPSuVDHrMW1YVb12NwruKrPs0hFlxPN6tNit0Pj=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJq1cB7tz5kT4R0RXpglLFgQ4",
@@ -32677,8 +32977,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -32694,6 +32997,10 @@
       "count": 1039,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -32722,7 +33029,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kalabash.bloomhospitality.co&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJQf7cIvD5kT4RyDYj1exLDOE",
@@ -32798,6 +33105,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
@@ -32843,7 +33151,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=kelardashtrestaurant.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=302,fit=crop,q=95/Yyvo8JpN6rUo9gLv/untitled-1-removebg-preview-mk3919o6rpc9PDj4.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8bAqKQD5kT4RlyF-TNTsbL0",
@@ -32919,11 +33227,15 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -32935,6 +33247,10 @@
       "count": 139,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Experience the best Iranian cuisine in Muscat at Kelardasht restaurant. Located in Qrum, our warm and friendly environment is perfect for families. Enjoy fresh ingredients and private VIP rooms.",
+      "long": "Experience the best Iranian cuisine in Muscat at Kelardasht restaurant. Located in Qrum, our warm and friendly environment is perfect for families. Enjoy fresh ingredients and private VIP rooms. Ø§Ø³ØªÙ ØªØ¹ Ø¨Ù Ø°Ø§Ù Ø§ÙØ·Ø¹Ø§Ù Ø§ÙØ¥ÙØ±Ø§ÙÙ ÙÙ Ø¨ÙØ¦Ø© Ø¹Ø§Ø¦ÙÙØ© ÙØ¯Ø§ÙØ¦Ø©"
     },
     "images": {}
   },
@@ -32963,7 +33279,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrk43P5zOg-jhv3-SWR-73g_KpR7ZXJTZLZaMXyo0Bl0t4NHmsgzj6SII-oRXtGg7uGel3VGHHZJk_7BUZ_U2urtPE0r3hsI3P8YStRYi5O9CcHdrWloqUcK8aH2SG6dzELM9Lq=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJdQy4iYz4kT4RG33JyadAi_M",
@@ -33039,8 +33355,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33056,6 +33375,10 @@
       "count": 247,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -33084,7 +33407,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq52nBPjvDjjc6Bi9QSaCk-X3hR8-7MTuINDjGXi1E3ZHl_eG7U-JjYG-v4nIo9OJ_x8skibSLsifrt1QRjunMyI6PR1KrrW4SliEHk7TLYF_XjwgductYR0LIxA5CbSjZdaNQt=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4f9vCff8jT4Ro2cKlcQRGPI",
@@ -33160,7 +33483,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33176,6 +33502,10 @@
       "count": 511,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Pakistani restaurant",
+      "long": "★★★★☆ · Pakistani restaurant"
     },
     "images": {}
   },
@@ -33204,7 +33534,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/05/11/3009009.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ98x3aez9jT4RZ9Bnn4Hrsc4",
@@ -33280,7 +33610,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33296,6 +33629,10 @@
       "count": 391,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -33324,7 +33661,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=m.facebook.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://static.xx.fbcdn.net/rsrc.php/v4/y8/r/k97pj8-or6s.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRVkSvY73kT4Rexd55ALcjyw",
@@ -33400,7 +33737,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33416,6 +33756,10 @@
       "count": 232,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "See posts, photos and more on Facebook.",
+      "long": "See posts, photos and more on Facebook."
     },
     "images": {}
   },
@@ -33444,7 +33788,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=lahab-kitchen.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lahab-kitchen.com/wp-content/uploads/2025/02/تصميم-بدون-عنوان-1-1024x1024.gif",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ54bCyyj_kT4RiG7vBa0yboc",
@@ -33520,12 +33864,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "delivery",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -33565,7 +33913,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJmf-dSKL9jT4R3WMxCLbx89c",
@@ -33641,7 +33989,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33657,6 +34008,10 @@
       "count": 607,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -33685,7 +34040,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrkKHcqkfVJ8O8FHyy0PDMQ0i9UHiihvswXxnBMhXoLVaHp05DJTxeC5Z4817leemk_TVGNWgve_MlHkliNDXAuzL5JXvwREYXWUn1ht4oLP0sEoGixabwaxtc_Y9O0x2xGykQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJWTuCTysBjj4Rz_H3vmjs3ao",
@@ -33761,8 +34116,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33778,6 +34136,10 @@
       "count": 1100,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -33806,7 +34168,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqz61azbsMdNpU_SSufFMi5CJKC_MUMx1Si4ezZAugtYuDaiVlH88UeGmDPzpk_gL4f2A3hIpXjd44SsL0ZIhDykFMYxvj2YHQOM8djP07c9y5Me5xa-3itPOgwu9ySHmGsoaqfHQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJWzp0MJf4kT4R40JaODOUzJo",
@@ -33882,8 +34244,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -33899,6 +34264,10 @@
       "count": 357,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Turkish restaurant",
+      "long": "★★★★☆ · Turkish restaurant"
     },
     "images": {}
   },
@@ -33927,7 +34296,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=mlssteakhouse.om&sz=128",
-    "hero_url": null,
+    "hero_url": "http://mlssteakhouse.om/cdn/shop/files/MLS-200x150-white-text-1.webp?height=628&pad_color=ffffff&v=1706813418&width=1200",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJv4FIe57_kT4RkWeixRUvplw",
@@ -34003,11 +34372,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url"
     ],
     "description": null,
     "pricing": null,
@@ -34019,6 +34393,10 @@
       "count": 1554,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "MLS Steakhouse",
+      "long": "MLS Steakhouse"
     },
     "images": {}
   },
@@ -34047,7 +34425,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJAV-VHMD_kT4RSnO-OEuP04I",
@@ -34123,7 +34501,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34139,6 +34520,10 @@
       "count": 285,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -34167,7 +34552,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOtvq5dNjLPoKUJglpc8VMaYoHyQpvYSZTb7B-A=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJo0fUvwn5kT4RSYFuFvVcfO0",
@@ -34243,8 +34628,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34260,6 +34648,10 @@
       "count": 412,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -34288,7 +34680,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMN9hXPk51ogeqHy-TFw9wLnKx6TifOwqh3_VUM=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSa5q8LP_kT4RDaKvjJSoAqI",
@@ -34364,7 +34756,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34380,6 +34775,10 @@
       "count": 79,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -34408,7 +34807,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgkqRjVjHgH-R5SfwaR4ZmWzBrYI0Cf8Rkq6pgyA6VBJEA-N2m7j_SS0c8YOVyMX_pMJ2NSEFhcTnMTfdlyNdjcWNRF_RA1gm_j98XANlV0FBA2o5-03hkAoSdR0noDuwNnc0WaQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJp7jhvAj3kT4Rn8rlrWtxbpY",
@@ -34484,8 +34883,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34501,6 +34903,10 @@
       "count": 114,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -34529,7 +34935,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPU6QUV69kyjnIDmk8HSA-Q-w4Eqb1leVSRIqU=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJabjB0vv_kT4R8AqY07uocKE",
@@ -34605,8 +35011,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34622,6 +35031,10 @@
       "count": 696,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -34650,7 +35063,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrrLAyVJ-A1kUt5-UhNs0vGZz-RUKXSzDO5arcXrOxjROm9otLRyYQd8eq7Prf3p0eh1lsgWgIS6H-T2vfSwVDPObtAJhs_Tp3LH3LQqTNXtxdHy7A3Y0AnivhOOvXtehKabfNzlw=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJL9QU-539jT4RvpA4RJUEHYg",
@@ -34726,7 +35139,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34742,6 +35158,10 @@
       "count": 1342,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -34770,7 +35190,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.mezzandco.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJE5VpiYz4kT4RCjAA7bwEYd4",
@@ -34846,11 +35266,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -34862,6 +35285,9 @@
       "count": 425,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Copyright © 2025 Mezza & co | Powered by Astra WordPress Theme"
     },
     "images": {}
   },
@@ -34890,7 +35316,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMwRhN5pJHYMiWPz8xDrjSPbcUJzpCxtDRH8wPa=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMyX--CT_kT4RzH6CM1uhyco",
@@ -34966,8 +35392,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -34983,6 +35412,10 @@
       "count": 625,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -35011,7 +35444,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqvjtbOdanUiH9m-VVzk8_WWbF4C5_NHacdl_76q6arnyl8pKlJvHHfh4ijSCa8usKAjOFTBa6XXvunWYG5K4r7tSfbRJRiMD6XQhkxCe-gnpSEzCvEg47yVq5hpJXdWoPrdNpVNF7EVZfq=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJZaIkcAD9jT4Rb-doI3R9rsg",
@@ -35087,7 +35520,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35103,6 +35539,10 @@
       "count": 59,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Family restaurant",
+      "long": "★★★★★ · Family restaurant"
     },
     "images": {}
   },
@@ -35131,7 +35571,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNvnyQafSzDb8lRoP6eBPD51eU4NTfksSLyH1wM=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJU1EnsFgAjj4RbgSankWqnOQ",
@@ -35207,7 +35647,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35223,6 +35666,10 @@
       "count": 160,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -35251,7 +35698,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nryRbAJAoCf-rLBGCkEW2887y0L68Ut8mGSNfeWEREIxJATaEgSRrxmHlrj78nn0FmpHpl_ze4eHcL6lsGkAjBeDPgmLzuvmf9Dj7YFHT-XagCspSiG_iEPp3rvsTnpjpe3i1Hl=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJP0QygUb_kT4RxLZ95006jyM",
@@ -35327,8 +35774,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35344,6 +35794,10 @@
       "count": 1535,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -35372,7 +35826,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=store.nandosoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJD7wnMaT_kT4R94m7rkbaDvM",
@@ -35448,8 +35902,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35465,6 +35922,10 @@
       "count": 892,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken.",
+      "long": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken. Born in South Africa and taken to the world, Nando's specialises in Portuguese-style, flamed-grilled chicken dishes with various PERi-PERi marinades. Experience a truly South African dining experience at Nando’s in Al Khuwayr South Muscat. The Nando's experience is like no other, perfect for the me-times as well as the family and friends time. Add spice to your life with a meal from our Portuguese style menu! We’ve set the eating experience on fire and we can’t wait for you to join our table because if there’s one…"
     },
     "images": {}
   },
@@ -35493,7 +35954,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=store.nandosoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJgaBcYe34kT4Rw4U95xhVmlA",
@@ -35569,8 +36030,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35586,6 +36050,10 @@
       "count": 1437,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken.",
+      "long": "Welcome to the home of legendary, Portuguese flame-grilled PERi-PERi chicken. Born in South Africa and taken to the world, Nando's specialises in Portuguese-style, flamed-grilled chicken dishes with various PERi-PERi marinades. Experience a truly South African dining experience at Nando’s in Muscat. The Nando's experience is like no other, perfect for the me-times as well as the family and friends time. Add spice to your life with a meal from our Portuguese style menu! We’ve set the eating experience on fire and we can’t wait for you to join our table because if there’s one thing we love as…"
     },
     "images": {}
   },
@@ -35614,7 +36082,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipP1n_53IE_jUha4UHi9fI4MbskHZd6vGCPqROQL=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJUQpLuLr_kT4RhzF1rdIJM-M",
@@ -35690,8 +36158,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35707,6 +36178,10 @@
       "count": 1918,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Indian restaurant",
+      "long": "★★★★☆ · Indian restaurant"
     },
     "images": {}
   },
@@ -35735,7 +36210,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.oldturkish.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJDwwfTQX_kT4RgBM9nnNm2Qc",
@@ -35811,6 +36286,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
@@ -35856,7 +36332,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr6htReuaSx-R-10xMaPQTh7immNa_YhjihxYTaCMgwFqU1eK0jAhgOu-14JoavRG-oiPG-WyTWBfiyKQ0lN82xT3d22fyVN3jEDzRYeBVN1F1LljLy_49NQ_UEA0thTkgdddQM=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJh3mfp8X_kT4RREfWo6JjESM",
@@ -35932,7 +36408,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -35948,6 +36427,10 @@
       "count": 390,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Kerala restaurant",
+      "long": "★★★★☆ · Kerala restaurant"
     },
     "images": {}
   },
@@ -35976,7 +36459,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=twitter.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://pbs.twimg.com/profile_images/1201703979442413568/4EngW-g__200x200.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJVaEkR-f_kT4RrcvpnG1-muc",
@@ -36052,8 +36535,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36069,6 +36555,10 @@
       "count": 1193,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "New Experince and style in Food & Beverage. ☎️+968 24128998 📱+968 79606079 Location:Al-Athaibah, behind Al-Athaibah Mall",
+      "long": "New Experince and style in Food & Beverage. ☎️+968 24128998 📱+968 79606079 Location:Al-Athaibah, behind Al-Athaibah Mall"
     },
     "images": {}
   },
@@ -36097,7 +36587,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPPwYcnOxIyXj1VeAHMeKe3TFfhaZN9316GTSpG=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJR0tHov_5kT4R3BFvOmlDxn0",
@@ -36173,7 +36663,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36189,6 +36682,10 @@
       "count": 228,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -36217,7 +36714,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=pistahouse.in&sz=128",
-    "hero_url": null,
+    "hero_url": "https://pistahouse.in/cdn/shop/files/MB_03.png?v=1757250191&width=480",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ-UJv563_kT4RleYWVbBDrzY",
@@ -36293,11 +36790,17 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "delivery",
+      "takeout",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -36309,6 +36812,10 @@
       "count": 1617,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Discover the authentic taste of Hyderabad with Pista House. From world-famous Osmania Biscuits to premium cookies and traditional sweets, enjoy freshly baked delicacies delivered worldwide. Relive…",
+      "long": "Discover the authentic taste of Hyderabad with Pista House. From world-famous Osmania Biscuits to premium cookies and traditional sweets, enjoy freshly baked delicacies delivered worldwide. Relive the flavors of home with every bite, no matter where you are. Since 1997, Pista House has been dedicated to honouring the essence of tradition through our food. What started as a small family endeavour has grown into a global culinary destination , known for preserving the true essence of Hyderabadi cuisine ."
     },
     "images": {}
   },
@@ -36337,7 +36844,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nps5ep1T6sOzG-6K8wTnIOqO1oC4zE8m-jXG3gpCKUVpEaiUs8fPby0FPyKkP002d_kM1tZ5NrKFanHNiEDYUn1D-NJaZtOwWAZ1B5rWmDbJzK4_1KMtD03zEG9VbQS1gWhG7d8qw=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRzsXRr79jT4RER7XFwLkD0c",
@@ -36413,7 +36920,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36429,6 +36939,10 @@
       "count": 195,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -36457,7 +36971,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.ramssa.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://linktr.ee/og/image/Ramssarestaurant.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJeaJ2lCL5kT4RZwBiMWrX9XM",
@@ -36533,12 +37047,17 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "delivery"
     ],
     "description": null,
     "pricing": null,
@@ -36550,6 +37069,10 @@
       "count": 3442,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Ramssa Restaurant 🇴🇲 Omani Cuisine",
+      "long": "Ramssa Restaurant 🇴🇲 Omani Cuisine"
     },
     "images": {}
   },
@@ -36578,7 +37101,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ7UAinxb5kT4RoCculac4u-I",
@@ -36654,7 +37177,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36670,6 +37196,10 @@
       "count": 140,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -36698,7 +37228,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noUK9JRwpqB0TGb415WOSSajUGm4NhrXBYjlsojb03yAZDSh93KY0GbUF2u_MjhJ2eOaPdplxohm6adgy7iabV-91Jl7sKF_BH1ll8vHDHdHbNkrhIfG81sjnVaHmdpw8pzOHUlqQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRb3MBI75kT4Rrd_lVjsgdDo",
@@ -36774,7 +37304,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36790,6 +37323,10 @@
       "count": 42,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -36818,7 +37355,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=rocas.om&sz=128",
-    "hero_url": null,
+    "hero_url": "https://rocas.om/assets/images/banner/banner-01.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJjQtEKAD9jT4RinyfZdiGgtk",
@@ -36894,7 +37431,9 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -36910,6 +37449,9 @@
       "count": 221,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "ÙÙØ§ÙØªØ±Ø§Ø­Ø§Øª ÙØ§ÙØ´ÙØ§ÙÙ Ø§Ø±Ø³Ù Ø§ÙØ¢Ù ÙØ³Ø§Ø¦Ù Ø§ÙØªÙØµÙ"
     },
     "images": {}
   },
@@ -36938,7 +37480,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOYPKmQiL15X88WssGUk_aESyk0nhi04u2k41ia=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJDXigEaj9jT4R-zvYcmEbOHo",
@@ -37014,7 +37556,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -37030,6 +37575,10 @@
       "count": 892,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -37058,7 +37607,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.royalhouseoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://royalhouseoman.com/wp-content/uploads/2025/01/mc-1-1024x682.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJKaEEFI_3kT4R97C_JA0iAaA",
@@ -37134,12 +37683,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url"
     ],
     "description": null,
     "pricing": null,
@@ -37151,6 +37704,9 @@
       "count": 812,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Enjoy stunning sea views and the vibrant ambiance of Muscat’s iconic Muttrah Corniche, offering the perfect setting for a memorable dining experience."
     },
     "images": {}
   },
@@ -37179,7 +37735,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=roznaoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://roznaoman.com/wp-content/uploads/2022/08/caroline-attwood-576169-unsplash@2x-2-scaled.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJLz77yecBjj4REJdnhZ2cXCQ",
@@ -37255,12 +37811,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -37272,6 +37832,10 @@
       "count": 3955,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Famous Rozna Dishes Qabuli Rice seasoned with “Om Sulaiman’s spices” for Qabuli with meat, chicken, or fish. Omani Shuwa Mutton marinated with Tabzirah (Traditional spices mixed in Dates Vinegar)…",
+      "long": "Famous Rozna Dishes Qabuli Rice seasoned with “Om Sulaiman’s spices” for Qabuli with meat, chicken, or fish. Omani Shuwa Mutton marinated with Tabzirah (Traditional spices mixed in Dates Vinegar) pleaced into Khasfa (Basket) and wrapped in banana or moringa tree leaves, and then put in the Tannour (Tandoor) hole where it is slowly-cooked over hot […] Rice seasoned with “Om Sulaiman’s spices” for Qabuli with meat, chicken, or fish."
     },
     "images": {}
   },
@@ -37300,7 +37864,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=heylink.me&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ2RzHrLj_kT4RoWCISPkl2oc",
@@ -37376,6 +37940,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
@@ -37421,7 +37986,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMmK96xA1O3-cyhCfruOFFy8Knbwi34EO1J7nFV=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJzfs-KQD9jT4R_21wbG5L_u8",
@@ -37497,7 +38062,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -37513,6 +38081,10 @@
       "count": 2301,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Family restaurant",
+      "long": "★★★★☆ · Family restaurant"
     },
     "images": {}
   },
@@ -37541,7 +38113,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrn2EmYJJgjhrx6zCPgkYV-0uxpUgUF4Z5fkB8YX2Srr2awOytIULIGxvmswOoyYp9ArXOOslT58E_Nrb8Enzp4AK2p5uDDCYCY-bSmTzpbZebmiNwslUqHB0RNS92snlWNOkQX1-FozMFN=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMaX7Mdb5kT4R3eS5YJeYtVE",
@@ -37617,7 +38189,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -37633,6 +38208,10 @@
       "count": 127,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -37661,7 +38240,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=myskhotels.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://d3ohewoijz8t8g.cloudfront.net/wp-content/uploads/2023/02/SPlogo@2x.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJH-SHTDb9jT4R22CiWY5ksXc",
@@ -37737,15 +38316,21 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "halal",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
-    "price_range": null,
+    "price_range": "$$",
     "busyness_hint": null,
     "last_updated": "2025-10-04",
     "rating_overall": 4.5,
@@ -37753,6 +38338,10 @@
       "count": 374,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Food is the culture at Mysk Al Mouj. Choose from a selection of dining options suitable for your stay. From fine dining to in-room convenience.",
+      "long": "Food is the culture at Mysk Al Mouj. Choose from a selection of dining options suitable for your stay. From fine dining to in-room convenience. We use cookies to help us offer you the best online experience. By continuing to use our website and/or clicking OK, you agree to our use of cookies in accordance with our Privacy Policy."
     },
     "images": {}
   },
@@ -37781,7 +38370,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNXIuZRIym6vMBWTmF30_RLI7Ash1kudBk-AUFQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSc9CLFX-kT4Rjs493sAg8u8",
@@ -37857,8 +38446,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -37874,6 +38466,10 @@
       "count": 938,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Seafood restaurant",
+      "long": "★★★★☆ · Seafood restaurant"
     },
     "images": {}
   },
@@ -37902,7 +38498,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPGhgjiyWnK6LnbTqX0BT_t8yRd7eKkppyQmKun=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJVf3f9nv9jT4RS00t-b0DsjQ",
@@ -37978,7 +38574,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -37994,6 +38593,10 @@
       "count": 15,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -38022,7 +38625,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/07/21/2723587.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe5uD7rT4kT4RDBo1_Xs4Ixo",
@@ -38098,8 +38701,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38115,6 +38721,10 @@
       "count": 547,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -38143,7 +38753,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.simitcidunyasi.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.simitcidunyasi.com/site/library/images/test-resimleri/tr.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJiaFl9Gv9jT4R5bDUFRSFYBQ",
@@ -38219,11 +38829,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "kids_friendly"
     ],
     "description": null,
     "pricing": null,
@@ -38235,6 +38850,10 @@
       "count": 482,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Simitçinin ve simit severlerin geldiği yerden geliyoruz… Simitçi Dünyası, Simitci Dunyasi",
+      "long": "Simitçinin ve simit severlerin geldiği yerden geliyoruz… Simitçi Dünyası, Simitci Dunyasi Turkish Bagel is well-known with its feature of evoking admiration of own tasters. Well. Is the taste of this food the only thing that makes it so impressive? At this point, reminiscence of young and old alike starts with Turkish Bagel; because every Turkish Bagel-lover tastes this food at a young age and then he grows up with it and absolutely hands this love down the next generations."
     },
     "images": {}
   },
@@ -38263,7 +38882,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipPwVgDlBVFzD3E6kb-zk7piAZx8bENW_ga_2oc3=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJKwGmwkz_kT4RyRnU_oJTL7g",
@@ -38339,8 +38958,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38356,6 +38978,10 @@
       "count": 2552,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Hamburger restaurant",
+      "long": "★★★★☆ · Hamburger restaurant"
     },
     "images": {}
   },
@@ -38384,7 +39010,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=smokey-blues.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJr3DnoCP_kT4R9rI1ZY63mAs",
@@ -38460,6 +39086,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
@@ -38504,7 +39131,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipN7i66dmWGXd88ebHsaE-u14BE53TBAc0LLzVgG=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJfX-pQl_9jT4RKE7fpBkbV_w",
@@ -38580,8 +39207,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38597,6 +39227,10 @@
       "count": 309,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -38625,7 +39259,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrCDzQ7mRS3zS8Mjxo3TvxnNsYhliRR6ah0HGS-HhtDUH64vSuRzrgZAzAu9HSJgMOn3hRIxdDRotdmJ5cbX9zuC-1BrlaeC0Nvmf_E-VjR3LrObmgyZNIibaHxBLvwOurwP5tL=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ0cQzfvj8jT4RB5Ub8pIIVqE",
@@ -38701,8 +39335,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38718,6 +39355,10 @@
       "count": 1162,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -38746,7 +39387,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJrTG9pdP9jT4RjdRRJWAdQ1A",
@@ -38822,7 +39463,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38838,6 +39482,10 @@
       "count": 640,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -38866,7 +39514,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipMfZpFGn-lSCHxM35xqq5EGWSXDF0nUyEekEzQp=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJi3amfQD_kT4RZJdVUImkVMg",
@@ -38942,7 +39590,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -38958,6 +39609,10 @@
       "count": 341,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -38986,7 +39641,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thalassa.om&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2024/06/25/2701550.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJB4LwQwD3kT4Rx9H5VDctnPA",
@@ -39062,6 +39717,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
@@ -39105,7 +39761,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOi21xRahMDBWXCbd0XgPHjCAZD_OKFA0O_C0sj=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJwdXVxjv4kT4Re9ukfDS9Y8Q",
@@ -39180,8 +39836,11 @@
       "website",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -39197,6 +39856,10 @@
       "count": 2909,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -39225,7 +39888,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.kempinski.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/8/5/5/8/298558-1-eng-GB/5ce7a1f83e6f-74386621_4K.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJczELTC39jT4RP7w_dpJutVo",
@@ -39301,11 +39964,18 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "delivery",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -39317,6 +39987,10 @@
       "count": 259,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Enjoy a diverse mix of Levantine and European dishes in a lively setting from breakfast to dinner. Reserve now!",
+      "long": "Enjoy a diverse mix of Levantine and European dishes in a lively setting from breakfast to dinner. Reserve now! Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness."
     },
     "images": {}
   },
@@ -39345,7 +40019,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thesourcerestaurants.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://thesourcerestaurants.com/wp-content/uploads/2025/07/source.webp",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ80PYOr75kT4RPTT-2eyLG9s",
@@ -39421,11 +40095,17 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -39437,6 +40117,10 @@
       "count": 210,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Best Restaurant in Muscat – We offer a stunning beachfront dining experience with fresh flavors, sunset views, and a relaxed coastal vibe",
+      "long": "Best Restaurant in Muscat – We offer a stunning beachfront dining experience with fresh flavors, sunset views, and a relaxed coastal vibe Nestled along Muscat’s serene coastline, The Source was born from a passion for culinary artistry and luxury hospitality. With breathtaking sea views and a menu inspired by global flavors, we invite you to experience an unforgettable dining journey where elegance meets the essence of Oman. We await you by the shores of Qurum."
     },
     "images": {}
   },
@@ -39465,7 +40149,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOjfaqKn6n8YA_V4ITcJpqcjmobwdV566KqnEEw=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ9RU04KIAjj4RoOFiATGjnVM",
@@ -39541,7 +40225,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -39557,6 +40244,10 @@
       "count": 238,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -39585,7 +40276,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.intercontinental.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958648.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ1df_FLP4kT4ROKq4BSBy_oY",
@@ -39661,6 +40352,7 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
       "rating_overall",
@@ -39706,7 +40398,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.facebook.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/301954271_589732582694138_1918764698983957355_n.jpg?stp=dst-jpg_tt6&cstp=mx180x180&ctp=s180x180&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IBPl9P6jxcwQ7kNvwEkRsWL&_nc_oc=AdljiQfpIHGEKIkL2gPfei-gJkrHdIq7NxTM3sxM-I03v6-ySDpS320_Gwmt9_O7wH8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=GPr5TAATcThiIVNJ8I6Zzg&oh=00_AfcS6fYSTanRXzsqrxlt7TNYSsXKq9Egki26X_U8BdZ59w&oe=68E6D8CB",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJe814kgT_kT4RW_z_grkersQ",
@@ -39782,8 +40474,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -39799,6 +40494,10 @@
       "count": 3945,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Turkish Diwan, Muscat. 3,435 likes · 13 talking about this · 3,579 were here. Turkish Diwan restaurant is the best Turkish restaurants in Sultanate of...",
+      "long": "Turkish Diwan, Muscat. 3,435 likes · 13 talking about this · 3,579 were here. Turkish Diwan restaurant is the best Turkish restaurants in Sultanate of..."
     },
     "images": {}
   },
@@ -39827,7 +40526,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=turkishhouserestaurant.shop&sz=128",
-    "hero_url": null,
+    "hero_url": "https://static2.menufyy.com/turkish-house-restaurant-albums-1.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJRx5tExD_kT4RrmhAHkRlS6Q",
@@ -39903,12 +40602,20 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "delivery",
+      "parking",
+      "kids_friendly",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -39920,6 +40627,10 @@
       "count": 6625,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Experience authentic Turkish cuisine at Turkish House Restaurant in Muscat, Oman. Enjoy a diverse menu featuring grilled seafood, lamb chops, and mezze platters. With excellent service and a vibrant…",
+      "long": "Experience authentic Turkish cuisine at Turkish House Restaurant in Muscat, Oman. Enjoy a diverse menu featuring grilled seafood, lamb chops, and mezze platters. With excellent service and a vibrant atmosphere, its perfect for casual dining. Visit us for Turkish House Restaurant, located in Muscat, Oman, presents a delightful journey through authentic Turkish cuisine. Diners rave about the flavorful dishes, such as the grilled fish (الشعري) and succulent lamb chops, which evoke the vibrant atmosphere of Istanbul. The generous mezze platter is frequently highlighted as a must-try, perfect for…"
     },
     "images": {}
   },
@@ -39948,7 +40659,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrYD11EvfdQNBNiuf-PcyKSTkbn1YhQiDvYyuqY3OlE0rEyW_IF0e47HuSeaZR93SHxnwM-fFY6XyJ93TbY8ZO5bSGaKk0Kf-Uma_tc2p6EezA6rPFGbWKJcyI865Pox7MqS7rAXQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJGRM9e7D9jT4RF8ulYScKJlQ",
@@ -40024,8 +40735,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -40041,6 +40755,10 @@
       "count": 2313,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Turkish restaurant",
+      "long": "★★★★☆ · Turkish restaurant"
     },
     "images": {}
   },
@@ -40069,7 +40787,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ubharoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://ubharoman.com/wp-content/themes/ubhar/images/slide1.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJx5VM3rT4kT4Rmnp9inhaflE",
@@ -40145,12 +40863,16 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "reservations_url",
+      "alcohol_policy"
     ],
     "description": null,
     "pricing": null,
@@ -40162,6 +40884,9 @@
       "count": 826,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Modern Hospitality Company LLC was established in April 2008 with a vision to take “Omani Hospitality to New Heights”. The company was formed out of the passion of the three siblings Qais, Faisal and Ghada ..."
     },
     "images": {}
   },
@@ -40190,7 +40915,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=ghsoman.com&sz=128",
-    "hero_url": null,
+    "hero_url": "http://3.124.46.82/wp-content/uploads/2022/06/GHS-Logo300px.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJMbk71Jb5kT4RaqzVPubzNUE",
@@ -40266,11 +40991,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url"
     ],
     "description": null,
     "pricing": null,
@@ -40282,6 +41010,9 @@
       "count": 218,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Home Who We Are Outlets Takara Wabi Sabi Bespoke Catering Private Catering Corporate Catering Events Private Events Corporate Events News Contact Menu"
     },
     "images": {}
   },
@@ -40310,7 +41041,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=woodlands.co.om&sz=128",
-    "hero_url": null,
+    "hero_url": "https://woodlands.co.om/images/bookicon.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJTzGSwND5kT4RBoVOQ2YW-_k",
@@ -40386,12 +41117,17 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "reservations_url",
+      "delivery"
     ],
     "description": null,
     "pricing": null,
@@ -40403,6 +41139,9 @@
       "count": 1538,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Chettinad food bristles with a distinct aroma of freshly ground spices including cumin, fenugreek, fennel, clove, bay leaf, turmeric and tamarind."
     },
     "images": {}
   },
@@ -40431,7 +41170,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.zamanalkhairrest.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.zamanalkhairrest.com/images/slideshwo/66.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ2X-zOED_kT4R7T_Xp_xKwTs",
@@ -40507,8 +41246,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -40524,6 +41265,9 @@
       "count": 1671,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "Powered by Joomlamaster.org.ua together with Joomstudio.com.ua"
     },
     "images": {}
   },
@@ -40552,7 +41296,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=thezher.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://thezher.com/wp-content/uploads/2024/02/zher-logo.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4yQLXAD5kT4Ra4fRc-rlhVY",
@@ -40628,11 +41372,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "menu_url",
+      "delivery"
     ],
     "description": null,
     "pricing": null,
@@ -40672,7 +41419,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/04/02/2969730.jpeg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJJ1JSS3z5kT4R9suBkx_sih0",
@@ -40748,8 +41495,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -40765,6 +41515,10 @@
       "count": 519,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -40793,7 +41547,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNeWTzHpMaYew1N6n5mBWgyp6wuYTbwc4s8DJ5w=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ91TTSLz_kT4RAthsDFttJTA",
@@ -40869,8 +41623,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -40886,6 +41643,10 @@
       "count": 956,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -40914,7 +41675,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipOBoCRVx84KvjPDcpXxUGiqexMJfZr2CvxC5Omf=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ8RHBoTn_kT4RN9WoGLr0114",
@@ -40990,7 +41751,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -41006,6 +41770,10 @@
       "count": 16,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
@@ -41034,7 +41802,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJsSFlMiIBjj4RPPTpnw_gUIQ",
@@ -41110,7 +41878,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -41126,6 +41897,10 @@
       "count": 34,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world.",
+      "long": "Welcome back to Instagram. Sign in to check out what your friends, family & interests have been capturing & sharing around the world."
     },
     "images": {}
   },
@@ -41154,7 +41929,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrsH6e79zHxtjTo8ZwY1d5SET4iunKjnjLVLfS9kayO0VW0V_ck97H5nCzqar-WcnHvQvzIH4YV5ffUg79SP4AigXkpvu1qe6RMSWDAOOSIHT1JX8O9E0O0bGfN8ZbZehLNiGCZYLrYX1w=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJSYkRHbQBjj4RS_C8agurxOg",
@@ -41230,7 +42005,10 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -41246,6 +42024,10 @@
       "count": 320,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★☆ · Restaurant",
+      "long": "★★★★☆ · Restaurant"
     },
     "images": {}
   },
@@ -41274,7 +42056,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/p/AF1QipNzhXxpR5VdnsqspmDopNrtpB90O3T5lcT3SEgQ=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJPQZ0oBr_kT4RPQffI5gVAjQ",
@@ -41350,8 +42132,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -41367,6 +42152,10 @@
       "count": 3139,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Lebanese restaurant",
+      "long": "★★★★★ · Lebanese restaurant"
     },
     "images": {}
   },
@@ -41395,7 +42184,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.babakebabs.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://babakebabs.com/wp-content/uploads/2020/10/Asset-1.png",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJEz-fMAD5kT4RTDdgzygo44s",
@@ -41471,11 +42260,14 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
-      "last_updated"
+      "last_updated",
+      "reservations_url"
     ],
     "description": null,
     "pricing": null,
@@ -41487,6 +42279,9 @@
       "count": 197,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "long": "At Baba Kebab's, every dish tells a story. From the sizzling grills preparing mouth-watering kebabs to the delicate aromas of spices wafting through the air, our kitchen is a bustling hub of culinary artistry. Our chefs, hailing from various regions of Turkey, bring with them generations of recipes and secrets, ensuring that each meal is not just food, but an experience to remember."
     },
     "images": {}
   },
@@ -41515,7 +42310,7 @@
     },
     "hours": null,
     "logo_url": "https://www.google.com/s2/favicons?domain=www.google.com&sz=128",
-    "hero_url": null,
+    "hero_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noaPAHxXnOgWtg7oIhfbQY0j7SrU8mfBu8-sMFnHERU1OI78fbBRvRIQOTcUXWf9lz-tcZbvTmN4Hcsix0WqzZUAQvzRoolJqKX6ihwteVfEOE6s2S5jpnwAwDUZq87TXtuPIwV=w900-h900-p-k-no",
     "image_credit": null,
     "image_source_url": null,
     "place_id": "ChIJ4QXYuo73kT4R1NK9WQhe7pY",
@@ -41591,8 +42386,11 @@
       "phone",
       "url",
       "logo_url",
+      "hero_url",
       "place_id",
       "price_range",
+      "about_short",
+      "about_long",
       "rating_overall",
       "review_count",
       "review_source",
@@ -41608,6 +42406,10 @@
       "count": 1027,
       "source": "Google",
       "last_updated": "2025-10-04"
+    },
+    "about": {
+      "short": "★★★★★ · Restaurant",
+      "long": "★★★★★ · Restaurant"
     },
     "images": {}
   },
