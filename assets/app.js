@@ -124,6 +124,27 @@
     const parts=(name||"").split(/\s+/).slice(0,2);
     return parts.map(p=>p[0]?.toUpperCase()||"").join("");
   }
+
+  // Build the small rating badge shown on card images
+function ratingBadgeHTML(t){
+  const raw = t?.rating_overall ?? t?.star_rating;
+  const r = Number(raw);
+  if (!isFinite(r)) return ""; // no rating available
+
+  const rc = Number(t?.review_count);
+  const rcHTML = isFinite(rc) && rc > 0 ? `<span class="rc">(${Math.round(rc).toLocaleString()})</span>` : "";
+
+  // simple inline star SVG
+  const starSVG = `
+    <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
+    </svg>`;
+
+  return `<div class="rating-badge" title="Rating">
+    ${starSVG}<span class="val">${r.toFixed(1)}</span>${rcHTML}
+  </div>`;
+}
+
   // Pricing badges and feature icons are unused in the Best Muscat directory.
   // Return an empty string so that existing markup in cardHTML renders nothing.
   function pricingBadge() { return ""; }
@@ -746,7 +767,9 @@
     // --- Image source: LOCAL ONLY on cards (ignore http/https) ---
     const imgSrc = pickCardImage(src);
 
-    // Full-bleed image on top; if missing/broken, fall back to local stock, else initials
+    // Inject rating badge (if available) on the card image
+    const badge = ratingBadgeHTML(t);
+    
     const topImage = imgSrc
       ? `
         <a href="${detailUrl}" class="card-img" aria-label="${title} details">
@@ -764,16 +787,19 @@
                 const wrap = this.closest('.card-img');
                 if (wrap) {
                   wrap.classList.add('img-fallback');
-                  wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
+                  wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
                 }
               }
             "
           />
+          ${badge}
         </a>`
       : `
         <a href="${detailUrl}" class="card-img img-fallback" aria-label="${title} details">
           <div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
+          ${badge}
         </a>`;
+
 
 
     return `
