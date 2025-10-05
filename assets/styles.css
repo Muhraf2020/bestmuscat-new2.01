@@ -2027,3 +2027,39 @@ body.bt-all .best-things .best-things-content { display: flex; flex-wrap: nowrap
 @media (max-width: 800px) {
   body.bt-all .best-things .best-things-content { flex-direction: column; }
 }
+
+/* ==== See-All page blocks: force 2 columns on desktop ==== */
+.bt-block .best-things-content{
+  display: flex;
+  flex-wrap: nowrap;         /* <- no wrapping = no accidental 3rd column */
+  align-items: stretch;
+  gap: var(--gap);
+}
+
+.bt-block .featured-card{
+  flex: 0 0 58%;
+  max-width: 58%;
+  min-width: 0;              /* prevent overflow */
+}
+
+.bt-block .top-listings{
+  flex: 0 0 38%;
+  max-width: 38%;
+  min-width: 0;
+}
+
+/* Make sure listing rows don’t try to become columns */
+.bt-block .listing-card{ width: 100%; }
+
+/* Keep phones stacked (unchanged) */
+@media (max-width: 800px){
+  .bt-block .best-things-content{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .bt-block .featured-card,
+  .bt-block .top-listings{
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+}
