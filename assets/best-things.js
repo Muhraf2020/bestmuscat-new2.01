@@ -1,9 +1,8 @@
 /* FILE: assets/best-things.js
  * Renders the "Best Things to Do in Muscat" section from assets/best-things.json
- * while preserving the previous layout:
- *  - Tabs (Tours & Experiences / Events and Venues / Wellness & Aesthetics)
- *  - Featured card (large, left)
- *  - Top 5 listings (right column)
+ * Modes:
+ *  - Default: tabbed (one category visible)
+ *  - See-all: if URL has ?bt=all, render all three categories stacked
  */
 
 (function () {
@@ -15,16 +14,25 @@
     "Events and Venues": "events",
     "Wellness & Aesthetics": "wellness",
   };
+  const CAT_TITLES = {
+    tours: "Tours & Experiences",
+    events: "Events and Venues",
+    wellness: "Wellness & Aesthetics",
+  };
+  const ORDER = ["tours", "events", "wellness"]; // render order for see-all
 
   // Elements
   const section = document.getElementById("best-things");
   if (!section) return;
+
+  const tabsEl = section.querySelector(".tabs");
   const featuredEl = section.querySelector("#featured-card");
   const listingsEl = section.querySelector("#top-listings");
+  const contentWrap = section.querySelector(".best-things-content");
 
-  // Small helpers
+  // Helpers
   const clean = (s) => (s || "").toString().trim();
-  const imgFallback = "assets/placeholders/placeholder-16x9.webp"; // ensure this exists
+  const imgFallback = "assets/placeholders/placeholder-16x9.webp"; // ensure exists
 
   function aEl(href, text, cls) {
     const a = document.createElement("a");
@@ -36,51 +44,7 @@
     return a;
   }
 
-  // FEATURED CARD (left)
-  function renderFeatured(item) {
-    const title = clean(item.title);
-    const sub = clean(item.subtitle);
-    const area = clean(item.area);
-    const url = clean(item.url);
-    const img = clean(item.image_url) || imgFallback;
-
-    featuredEl.innerHTML = `
-      <img src="${img}"
-           alt="${title.replace(/"/g, "&quot;")}"
-           loading="lazy" decoding="async"
-           onerror="this.onerror=null;this.src='${imgFallback}';">
-      <div class="content">
-        <div class="rank">${item.badge || ""}</div>
-        <h3 class="name">${title}</h3>
-        <div class="meta">
-          ${area ? `<span>${area}</span>` : ""}
-          ${sub ? (area ? " · " : "") + `<span>${sub}</span>` : ""}
-          ${
-            item.is_open
-              ? `${(area || sub) ? " · " : ""}<span class="status open">Open</span>`
-              : ""
-          }
-        </div>
-        ${item.is_sponsored ? `<div class="status sponsored">Sponsored</div>` : ""}
-        ${clean(item.description) ? `<p class="desc">${clean(item.description)}</p>` : ""}
-
-        ${
-          // Prefer the detailed score box if present; otherwise show a simple green rating pill
-          (item.overall || (item.scores && Object.keys(item.scores || {}).length))
-            ? renderScoreBox(item)
-            : (isFinite(Number(item.rating)) 
-                ? `<div class="score-box"><div class="score-summary">${Number(item.rating).toFixed(2)}<small>/10</small></div></div>`
-                : ""
-              )
-        }
-
-        <div class="cta-row">
-          ${url ? aEl(url, item.cta_label || "Learn more", "btn").outerHTML : ""}
-        </div>
-      </div>
-    `;
-  }
-
+  // ---------- Shared renderers (parameterized targets) ----------
   function renderScoreBox(item) {
     const overall = Number(item.overall || 0);
     const scores = item.scores || {}; // { "Quality": 9.5, ... }
@@ -91,12 +55,15 @@
         return `<span><span>${k}</span>&nbsp;<span>${v.toFixed(2)}</span></span>`;
       })
       .join("");
+
     if (!lines && !isFinite(overall)) return "";
     return `
       <div class="score-box">
         ${
           isFinite(overall)
-            ? `<div class="score-summary">${overall.toFixed(2)}<small>/10</small></div>`
+            ? `<div class="score-summary">${overall.toFixed(
+                2
+              )}<small>/10</small></div>`
             : ""
         }
         <div class="score-breakdown">${lines}</div>
@@ -104,8 +71,58 @@
     `;
   }
 
-  // RIGHT COLUMN LIST (top 5)
-  function renderListings(list) {
+  // Featured (big left card)
+  function renderFeaturedInto(targetEl, item) {
+    if (!targetEl) return;
+
+    const title = clean(item.title);
+    const sub = clean(item.subtitle);
+    const area = clean(item.area);
+    const url = clean(item.url);
+    const img = clean(item.image_url) || imgFallback;
+
+    // prefer detailed scores; else show simple rating pill if present
+    const rating = Number(item.rating);
+    const scoreHtml =
+      item.overall || (item.scores && Object.keys(item.scores || {}).length)
+        ? renderScoreBox(item)
+        : isFinite(rating)
+        ? `<div class="score-box"><div class="score-summary">${rating.toFixed(
+            2
+          )}<small>/10</small></div></div>`
+        : "";
+
+    const openBadge = item.is_open
+      ? `${(area || sub) ? " · " : ""}<span class="status open">Open</span>`
+      : "";
+
+    targetEl.innerHTML = `
+      <img src="${img}"
+           alt="${title.replace(/"/g, "&quot;")}"
+           loading="lazy" decoding="async"
+           onerror="this.onerror=null;this.src='${imgFallback}';">
+      <div class="content">
+        <div class="rank">${item.badge || ""}</div>
+        <h3 class="name">${title}</h3>
+        <div class="meta">
+          ${area ? `<span>${area}</span>` : ""}
+          ${sub ? (area ? " · " : "") + `<span>${sub}</span>` : ""}
+          ${openBadge}
+        </div>
+        ${item.is_sponsored ? `<div class="sponsored">Sponsored</div>` : ""}
+        ${clean(item.description) ? `<p class="desc">${clean(item.description)}</p>` : ""}
+        ${scoreHtml}
+        <div class="cta-row">
+          ${url ? aEl(url, item.cta_label || "Learn more", "btn").outerHTML : ""}
+        </div>
+      </div>
+    `;
+  }
+
+  // Right column (five small cards)
+  function renderListingsInto(targetEl, list) {
+    if (!targetEl) return;
+
     const html = (list || [])
       .slice(0, 5)
       .map((item) => {
@@ -121,8 +138,11 @@
         const meta = metaBits.join(" · ");
 
         return `
-          <a class="listing-card" href="${url}" target="_blank" rel="noopener" aria-label="${title.replace(/"/g,"&quot;")}">
-            <img src="${img}" alt="${title.replace(/"/g,"&quot;")}"
+          <a class="listing-card" href="${url}" target="_blank" rel="noopener" aria-label="${title.replace(
+            /"/g,
+            "&quot;"
+          )}">
+            <img src="${img}" alt="${title.replace(/"/g, "&quot;")}"
                  loading="lazy" decoding="async"
                  onerror="this.onerror=null;this.src='${imgFallback}';">
             <div class="info">
@@ -140,9 +160,10 @@
       })
       .join("");
 
-    listingsEl.innerHTML = html;
+    targetEl.innerHTML = html;
   }
 
+  // ---------- Tabbed mode helpers ----------
   function setActiveTab(key) {
     section
       .querySelectorAll(".tabs .tab")
@@ -155,12 +176,51 @@
         const key = btn.dataset.cat;
         setActiveTab(key);
         const items = byKey.get(key) || [];
-        renderFeatured(items[0] || {});
-        renderListings(items.slice(1));
+        renderFeaturedInto(featuredEl, items[0] || {});
+        renderListingsInto(listingsEl, items.slice(1));
       });
     });
   }
 
+  // ---------- See-all mode ----------
+  function renderAllCategories(byKey) {
+    // Hide tabs in see-all mode
+    if (tabsEl) tabsEl.style.display = "none";
+
+    // Clear the default single layout containers
+    if (featuredEl) featuredEl.innerHTML = "";
+    if (listingsEl) listingsEl.innerHTML = "";
+
+    // Build stacked blocks for each category
+    contentWrap.innerHTML = "";
+
+    ORDER.forEach((key) => {
+      const items = byKey.get(key) || [];
+      if (!items.length) return;
+
+      const block = document.createElement("section");
+      block.className = "bt-block";
+
+      block.innerHTML = `
+        <div class="section-head" style="margin-top:8px;">
+          <h3 style="margin:0 0 10px;">${CAT_TITLES[key]}</h3>
+        </div>
+        <div class="bt-row">
+          <div class="featured-card"></div>
+          <div class="top-listings"></div>
+        </div>
+      `;
+
+      contentWrap.appendChild(block);
+
+      const f = block.querySelector(".featured-card");
+      const r = block.querySelector(".top-listings");
+      renderFeaturedInto(f, items[0] || {});
+      renderListingsInto(r, items.slice(1));
+    });
+  }
+
+  // ---------- Load + route ----------
   async function load() {
     try {
       // Cache-bust to avoid GitHub Pages CDN staleness
@@ -187,18 +247,28 @@
         });
       }
 
-      // Wire tabs and render initial active tab
-      wireTabs(byKey);
-      const active = section.querySelector(".tabs .tab.active");
-      const initialKey = active?.dataset?.cat || "tours";
-      setActiveTab(initialKey);
-      const items = byKey.get(initialKey) || [];
-      renderFeatured(items[0] || {});
-      renderListings(items.slice(1));
+      const params = new URLSearchParams(location.search);
+      const seeAll = params.get("bt") === "all";
+
+      if (seeAll) {
+        // render stacked 3 blocks
+        renderAllCategories(byKey);
+      } else {
+        // normal tabbed mode
+        wireTabs(byKey);
+        const active = section.querySelector(".tabs .tab.active");
+        const initialKey = active?.dataset?.cat || "tours";
+        setActiveTab(initialKey);
+        const items = byKey.get(initialKey) || [];
+        renderFeaturedInto(featuredEl, items[0] || {});
+        renderListingsInto(listingsEl, items.slice(1));
+      }
     } catch (err) {
       console.error("Best Things loader failed:", err);
-      featuredEl.innerHTML = "<p style='padding:16px'>Content unavailable right now.</p>";
-      listingsEl.innerHTML = "";
+      if (featuredEl) {
+        featuredEl.innerHTML = "<p style='padding:16px'>Content unavailable right now.</p>";
+      }
+      if (listingsEl) listingsEl.innerHTML = "";
     }
   }
 
