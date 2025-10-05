@@ -1991,3 +1991,24 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 .bt-block { margin: 26px 0; }
 .bt-block .bt-head h2 { margin: 0 0 10px; }
 
+/* ==== Best Things (See-All page): force 2-column per section ==== */
+.bt-block .best-things-content {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.bt-block .featured-card {
+  flex: 1 1 58%;
+  min-width: 300px;
+}
+.bt-block .top-listings {
+  flex: 1 1 38%;
+  min-width: 250px;
+}
+
+/* Mobile: stack to single column */
+@media (max-width: 800px) {
+  .bt-block .best-things-content { flex-direction: column !important; }
+  .bt-block .featured-card,
+  .bt-block .top-listings { flex: 1 1 100%; }
+}
