@@ -322,9 +322,9 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 }
 .listing-card .score {
   padding: 0 10px;
-  font-weight: 700;
-  color: #0a762e;
-  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 800px) {
   .best-things-content {
@@ -1951,3 +1951,43 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 .detail-hero .rating-badge .star path{
   fill: #fff;
 }
+
+/* === Best Things: generic status badges (for featured + listings) === */
+.best-things .status {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: middle;
+}
+.best-things .status.open {
+  background: #e8f7e8;
+  color: #107810;
+}
+.best-things .status.closed {
+  background: #fbeaea;
+  color: #a42525;
+}
+
+/* === Best Things: green rating pill (used in right column) === */
+.pill-green {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #16a34a;   /* emerald */
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+/* Make space between stacked blocks on the See-All page */
+.bt-block { margin: 26px 0; }
+.bt-block .bt-head h2 { margin: 0 0 10px; }
+
