@@ -126,7 +126,7 @@
     "is_open": true
   },
   {
-    "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY",
+    "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY1",
     "category": "Tours & Experiences",
     "title": "Al Mouj Sales & Experience Centre",
     "subtitle": "Al Mouj Sales & Experience Centre",
@@ -160,6 +160,85 @@
     ],
     "cta_label": "Learn More",
     "priority": 2,
+    "is_sponsored": false,
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
+  },
+  {
+    "id": "ChIJpRDV_Gb3kT4RZpjmkRwxxMk",
+    "category": "Tours & Experiences",
+    "title": "Extreme Tourqe Workshop (ETW) LLC",
+    "subtitle": "Extreme Tourqe Workshop (ETW) LLC",
+    "url": "https://www.google.com/maps/place/?q=place_id%3AChIJpRDV_Gb3kT4RZpjmkRwxxMk",
+    "image_url": "https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "area": "Muscat",
+    "tags": [
+      "garage",
+      "car repair",
+      "mechanic"
+    ],
+    "cta_label": "Learn More",
+    "priority": 3,
+    "is_sponsored": false,
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
+  },
+  {
+    "id": "ChIJp1vlWxABjj4RtLTQESnIwvM",
+    "category": "Tours & Experiences",
+    "title": "Kyriad Muscat فندق كيرياد مسقط. Tourism License: L1932995",
+    "subtitle": "Kyriad Muscat فندق كيرياد مسقط. Tourism License: L1932995",
+    "url": "https://muscat.kyriad.com/",
+    "image_url": "https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "area": "Muscat",
+    "tags": [
+      "hotel",
+      "lodging"
+    ],
+    "cta_label": "Learn More",
+    "priority": 4,
+    "is_sponsored": false,
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
+  },
+  {
+    "id": "ChIJ_TGT0xn_kT4RGMtB_F5YNsM1",
+    "category": "Tours & Experiences",
+    "title": "Lamasat Experience LLC",
+    "subtitle": "Lamasat Experience LLC",
+    "url": "https://lamasatexperience.com/",
+    "image_url": "https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "area": "Muscat",
+    "tags": [
+      "home repair",
+      "maintenance",
+      "services"
+    ],
+    "cta_label": "Learn More",
+    "priority": 5,
+    "is_sponsored": false,
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
+  },
+  {
+    "id": "ChIJ_TGT0xn_kT4RGMtB_F5YNsM",
+    "category": "Tours & Experiences",
+    "title": "Lamasat Experience LLC",
+    "subtitle": "Lamasat Experience LLC",
+    "url": "https://lamasatexperience.com/",
+    "image_url": "https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+    "area": "Muscat",
+    "tags": [
+      "home repair",
+      "maintenance",
+      "services"
+    ],
+    "cta_label": "Learn More",
+    "priority": 6,
     "is_sponsored": false,
     "notes": "notes",
     "rating": 9.4,
