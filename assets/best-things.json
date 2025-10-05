@@ -3,7 +3,7 @@
     "id": "ChIJKRXFQgD_kT4RCQozSx8a66c",
     "category": "Events and Venues",
     "title": "A2Z Events",
-    "subtitle": "",
+    "subtitle": "A2Z Events",
     "url": "http://www.a2zeventoman.com/",
     "image_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "area": "Muscat",
@@ -15,13 +15,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 1,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJ5f_cGS39jT4R5JTS083uJj0",
     "category": "Events and Venues",
     "title": "AS Gallery",
-    "subtitle": "",
+    "subtitle": "AS Gallery",
     "url": "https://instagram.com/as.gallery.om?igshid=MWI4MTIyMDE%3D",
     "image_url": "https://www.omanobserver.om/omanobserver/uploads/images/2025/03/18/2958649.jpg",
     "area": "Muscat",
@@ -33,13 +34,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 2,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJlwaw0JLljT4RbDvTCsuBkhA",
     "category": "Events and Venues",
     "title": "Abu Sara Events Planner",
-    "subtitle": "",
+    "subtitle": "Abu Sara Events Planner",
     "url": "https://www.google.com/maps/place/?q=place_id%3AChIJlwaw0JLljT4RbDvTCsuBkhA",
     "image_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=5PSooWMW3C5W68fyMKSR8A&cb_client=search.gws-prod.gps&w=900&h=900&yaw=314.76572&pitch=0&thumbfov=100",
     "area": "Muscat",
@@ -51,13 +53,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 3,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJAyZx7dr_kT4RjVmRSqyl9t8",
     "category": "Events and Venues",
     "title": "Al Amri tent wedding service",
-    "subtitle": "",
+    "subtitle": "Al Amri tent wedding service",
     "url": "https://www.google.com/maps/place/?q=place_id%3AChIJAyZx7dr_kT4RjVmRSqyl9t8",
     "image_url": "https://lh3.googleusercontent.com/p/AF1QipN3TnUjoEXMMZMknJSBJ1u5Lz0TI0OoyXaqgkfT=w900-h900-p-k-no",
     "area": "Muscat",
@@ -69,13 +72,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 4,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJvxpvPMj_kT4RpIGrI-pUah0",
     "category": "Events and Venues",
     "title": "Al Khayalee Grand Wedding الخيالي",
-    "subtitle": "",
+    "subtitle": "Al Khayalee Grand Wedding الخيالي",
     "url": "https://alkhayaleeintl.com/",
     "image_url": "https://alkhayaleeintl.com/wp-content/uploads/2023/09/Unlock-Your-Dream-left-1-1.jpg",
     "area": "Muscat",
@@ -87,13 +91,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 5,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJTexXOFXnjT4RSfspr4WDCtU",
     "category": "Events and Venues",
     "title": "Al Khaylee Grand Wedding Warehouse",
-    "subtitle": "",
+    "subtitle": "Al Khaylee Grand Wedding Warehouse",
     "url": "https://www.google.com/maps/place/?q=place_id%3AChIJTexXOFXnjT4RSfspr4WDCtU",
     "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrr-Qb6zHt_ITwyfDmAOW-wZKCh2V6tS1IB1DF8sC3PTbCHSy5z5-6tkATj_bDo7WJsHz-yfD6NrhtWthMZGqVoWi3zd6QzHN8dC43C_THXWi0ndwCmg8cA2ki-FRgUh8HNB2SJGw=w900-h900-p-k-no",
     "area": "Muscat",
@@ -105,13 +110,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 6,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY",
     "category": "Tours & Experiences",
     "title": "Al Mouj Sales & Experience Centre",
-    "subtitle": "",
+    "subtitle": "Al Mouj Sales & Experience Centre",
     "url": "https://www.google.com/maps/place/?q=place_id%3AChIJgzKFE5L9jT4RmJ2jpr9uaXY",
     "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogcr5AEPoEDU8-4Mq4uaIbAPVvhZJ-q6--UF_yxaDCLyx3ih1YtIbiZ3kkOw420kYvg1n4kdI3lR2ssoGrLUWhdQY5Pq-3DxWO75iKcWBvpICZ1jMzN2RqZFUoEk_bxGhelPI=w900-h900-p-k-no",
     "area": "Muscat",
@@ -122,13 +128,32 @@
     ],
     "cta_label": "Learn More",
     "priority": 1,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
+  },
+  {
+    "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY",
+    "category": "Tours & Experiences",
+    "title": "Al Mouj Sales & Experience Centre",
+    "subtitle": "Al Mouj Sales & Experience Centre",
+    "url": "https://www.google.com/maps/place/?q=place_id%3AChIJgzKFE5L9jT4RmJ2jpr9uaXY",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogcr5AEPoEDU8-4Mq4uaIbAPVvhZJ-q6--UF_yxaDCLyx3ih1YtIbiZ3kkOw420kYvg1n4kdI3lR2ssoGrLUWhdQY5Pq-3DxWO75iKcWBvpICZ1jMzN2RqZFUoEk_bxGhelPI=w900-h900-p-k-no",
+    "area": "Muscat",
+    "tags": [
+      "mall",
+      "shopping",
+      "retail"
+    ],
+    "cta_label": "Learn More",
+    "priority": 2,
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJbR3K0O75kT4Rd1OuYxntLMk",
     "category": "Wellness & Aesthetics",
     "title": "AWAY® Spa Muscat",
-    "subtitle": "",
+    "subtitle": "AWAY® Spa Muscat",
     "url": "https://www.marriott.com/en-us/hotels/mctwh-w-muscat/experiences/?scid=feed67b0-9a2f-4de1-8df6-114544116108",
     "image_url": "https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
     "area": "Muscat",
@@ -138,13 +163,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 1,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJWVA6rznxkT4ReH-iQfo0Rcw",
     "category": "Wellness & Aesthetics",
     "title": "Al Bustan Palace Spa by Ritz-Carlton",
-    "subtitle": "",
+    "subtitle": "Al Bustan Palace Spa by Ritz-Carlton",
     "url": "https://www.ritzcarlton.com/en/hotels/mctrz-al-bustan-palace-a-ritz-carlton-hotel/experiences/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
     "image_url": "https://cache.marriott.com/is/image/marriotts7prod/50619263-20181117-dji_0060:Wide-Hor?wid=1336&fit=constrain",
     "area": "Muscat",
@@ -154,13 +180,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 2,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJafEVETn_kT4Rni4OQr9rcNc",
     "category": "Wellness & Aesthetics",
     "title": "Cosmeclic",
-    "subtitle": "",
+    "subtitle": "Cosmeclic",
     "url": "http://cosmeclic.care/",
     "image_url": "https://cosmeclic.care/wp-content/uploads/2023/05/cropped-Logo-01.png",
     "area": "Muscat",
@@ -171,13 +198,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 3,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJpSXe6AH_jT4RfgtZs0PtgQ0",
     "category": "Wellness & Aesthetics",
     "title": "Guerlain Spa",
-    "subtitle": "",
+    "subtitle": "Guerlain Spa",
     "url": "https://www.marriott.com/en-us/hotels/mctxr-the-st-regis-al-mouj-muscat-resort/experiences/?scid=+feed67b0-9a2f-4de1-8df6-114544116108",
     "image_url": "https://cache.marriott.com/is/image/marriotts7prod/xr-mctxr-hotel-exterior-28705:Wide-Hor?wid=1336&fit=constrain",
     "area": "Muscat",
@@ -187,13 +215,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 4,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJm-NfZI34kT4R57X7K9uYZYk",
     "category": "Wellness & Aesthetics",
     "title": "Harub Dental Surgery Qurum",
-    "subtitle": "",
+    "subtitle": "Harub Dental Surgery Qurum",
     "url": "http://www.harubdental.com/",
     "image_url": "http://www.harubdental.com/images/loader.png",
     "area": "Muscat",
@@ -204,13 +233,14 @@
     ],
     "cta_label": "Learn More",
     "priority": 5,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   },
   {
     "id": "ChIJg7u2ueT_kT4RgSpgMXnqSPg",
     "category": "Wellness & Aesthetics",
     "title": "Modern Skin Center المركز الحديث للأمراض الجلدية العذيبة",
-    "subtitle": "",
+    "subtitle": "Modern Skin Center المركز الحديث للأمراض الجلدية العذيبة",
     "url": "http://modernskincenter.com/",
     "image_url": "http://modernskincenter.com/en/wp-content/uploads/2020/10/Modern_Skin_Center_Logo_Big.png",
     "area": "Muscat",
@@ -221,6 +251,7 @@
     ],
     "cta_label": "Learn More",
     "priority": 6,
-    "is_sponsored": false
+    "is_sponsored": false,
+    "notes": "notes"
   }
 ]
