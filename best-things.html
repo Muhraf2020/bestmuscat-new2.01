@@ -8,9 +8,13 @@
   <meta name="description" content="Discover the best things to do in Muscat across Tours & Experiences, Events and Venues, and Wellness & Aesthetics." />
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="assets/styles.css?v=20251004" />
+  <style>
+    /* On the See-All page we don’t need the tabs row */
+    #best-things .tabs { display: none; }
+  </style>
 </head>
 <body>
-  <!-- Header (reuse your existing header markup if you prefer) -->
+  <!-- Header -->
   <header class="site-header">
     <div class="header-wrap">
       <a href="index.html" class="header-logo" aria-label="BestMuscat home">
@@ -25,7 +29,7 @@
   <main>
     <div class="wrap">
 
-      <!-- BEST THINGS TO DO IN MUSCAT -->
+      <!-- BEST THINGS TO DO IN MUSCAT (See-All) -->
       <section id="best-things" class="best-things">
         <div class="section-head">
           <h2>Best Things to Do in Muscat</h2>
@@ -34,7 +38,7 @@
           </p>
         </div>
 
-        <!-- Tabs markup can remain; it will be hidden in “see-all” mode -->
+        <!-- Tabs markup kept for consistency (hidden via CSS above) -->
         <div class="tabs">
           <button class="tab active" data-cat="tours" type="button">Tours & Experiences</button>
           <button class="tab" data-cat="events" type="button">Events and Venues</button>
@@ -42,11 +46,39 @@
           <a class="see-all" href="best-things.html?bt=all#best-things">See All&nbsp;→</a>
         </div>
 
-        <div class="best-things-content">
-          <!-- Default single-category containers (not used in see-all) -->
-          <div id="featured-card" class="featured-card" aria-label="Featured place"></div>
-          <div id="top-listings" class="top-listings" aria-label="Top listings"></div>
+        <!-- BLOCK 1: Tours & Experiences -->
+        <div class="bt-block" data-cat="tours">
+          <div class="bt-head">
+            <h2>Tours & Experiences</h2>
+          </div>
+          <div class="best-things-content">
+            <div id="featured-card-tours" class="featured-card" aria-label="Featured place"></div>
+            <div id="top-listings-tours" class="top-listings" aria-label="Top listings"></div>
+          </div>
         </div>
+
+        <!-- BLOCK 2: Events and Venues -->
+        <div class="bt-block" data-cat="events">
+          <div class="bt-head">
+            <h2>Events and Venues</h2>
+          </div>
+          <div class="best-things-content">
+            <div id="featured-card-events" class="featured-card" aria-label="Featured place"></div>
+            <div id="top-listings-events" class="top-listings" aria-label="Top listings"></div>
+          </div>
+        </div>
+
+        <!-- BLOCK 3: Wellness & Aesthetics -->
+        <div class="bt-block" data-cat="wellness">
+          <div class="bt-head">
+            <h2>Wellness & Aesthetics</h2>
+          </div>
+          <div class="best-things-content">
+            <div id="featured-card-wellness" class="featured-card" aria-label="Featured place"></div>
+            <div id="top-listings-wellness" class="top-listings" aria-label="Top listings"></div>
+          </div>
+        </div>
+
       </section>
 
     </div>
@@ -55,7 +87,7 @@
   <footer>
     <div class="wrap">
       <small class="disclaimer">
-        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes…
+        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit.
       </small>
     </div>
   </footer>
@@ -63,17 +95,17 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="assets/app.js?v=20251004"></script>
-  <script src="assets/best-things.js?v=2"></script>
+  <!-- Ensure this version matches the one that supports “see-all” rendering and rating/open badges -->
+  <script src="assets/best-things.js?v=3"></script>
   <script id="jsonld-list" type="application/ld+json"></script>
 
-  <!-- If someone lands here without the param, ensure bt=all is present -->
+  <!-- Force ?bt=all on this page so the JS renders all blocks at once -->
   <script>
     (function () {
-      var hasAll = new URLSearchParams(location.search).get('bt') === 'all';
-      if (!hasAll) {
-        var u = new URL(location.href);
-        u.searchParams.set('bt','all');
-        location.replace(u.toString());
+      var url = new URL(location.href);
+      if (url.searchParams.get('bt') !== 'all') {
+        url.searchParams.set('bt','all');
+        location.replace(url.toString());
       }
     })();
   </script>
