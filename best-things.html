@@ -8,11 +8,61 @@
   <meta name="description" content="Discover the best things to do in Muscat across Tours & Experiences, Events and Venues, and Wellness & Aesthetics." />
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="assets/styles.css?v=20251007" />
+
   <style>
-    /* On the See-All page we don’t need the tabs row */
-    #best-things .tabs { display: none; }
+    /* ===== PAGE-SCOPED STYLES (safe for this page only) ===== */
+    body.bt-all #best-things .tabs { display: none; } /* we don't need tabs on see-all */
+
+    /* wrapper */
+    body.bt-all .wrap { max-width: var(--maxw); margin: 0 auto; }
+
+    /* stacked sections */
+    body.bt-all .bt-block { margin: 28px 0 44px; }
+
+    /* section header */
+    body.bt-all .bt-head {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+      margin-bottom: 14px; border-bottom: 1px solid var(--border); padding-bottom: 8px;
+    }
+    body.bt-all .bt-head h2 { margin: 0; font-size: 22px; }
+
+    /* two-column layout: big left, minis right */
+    body.bt-all .best-things-content {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 16px;
+    }
+
+    /* featured big card (left) */
+    body.bt-all .featured-card .card-big,
+    body.bt-all .featured-card > article {
+      display: grid; grid-template-rows: auto 1fr;
+      border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: #fff;
+    }
+    body.bt-all .featured-card img { width: 100%; height: 320px; object-fit: cover; display: block; }
+    body.bt-all .featured-card .big-body { padding: 14px; display: grid; gap: 6px; }
+    body.bt-all .featured-card .big-title { font-size: 20px; font-weight: 700; margin: 0; }
+    body.bt-all .featured-card .big-meta { color: var(--muted); font-size: 14px; }
+    body.bt-all .featured-card .big-score { font-size: 24px; font-weight: 800; margin-top: 6px; }
+
+    /* mini list (right) */
+    body.bt-all .top-listings { display: grid; gap: 12px; }
+    body.bt-all .top-listings .mini-card {
+      display: grid; grid-template-columns: 110px 1fr auto; gap: 10px; align-items: center;
+      border: 1px solid var(--border); border-radius: 10px; padding: 8px; background: #fff;
+    }
+    body.bt-all .top-listings .mini-card img { width: 110px; height: 72px; object-fit: cover; border-radius: 8px; }
+    body.bt-all .top-listings .mini-title { font-weight: 700; margin: 0; line-height: 1.2; }
+    body.bt-all .top-listings .mini-meta { color: var(--muted); font-size: 13px; }
+    body.bt-all .top-listings .mini-score { font-weight: 800; padding-left: 8px; }
+
+    @media (max-width: 900px) {
+      body.bt-all .best-things-content { grid-template-columns: 1fr; }
+      body.bt-all .featured-card img { height: 220px; }
+    }
   </style>
 </head>
+
 <body class="bt-all">
   <!-- Header -->
   <header class="site-header">
@@ -39,7 +89,7 @@
         </div>
 
         <!-- Tabs markup kept for consistency (hidden via CSS above) -->
-        <div class="tabs">
+        <div class="tabs" aria-hidden="true">
           <button class="tab active" data-cat="tours" type="button">Tours & Experiences</button>
           <button class="tab" data-cat="events" type="button">Events and Venues</button>
           <button class="tab" data-cat="wellness" type="button">Wellness & Aesthetics</button>
