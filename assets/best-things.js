@@ -314,5 +314,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Initial load
-  loadCategory('eat');
+  loadCategory('tours');
 });
