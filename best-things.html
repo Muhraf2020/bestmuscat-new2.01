@@ -139,8 +139,6 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="assets/app.js?v=20251005"></script>
-  <!-- Make sure this JS version supports “see-all” + rating/open badges -->
-  <script src="assets/best-things.js?v=3"></script>
   <script id="jsonld-list" type="application/ld+json"></script>
 
   <!-- Force ?bt=all on this page so the JS renders all blocks at once -->
@@ -152,6 +150,94 @@
         location.replace(url.toString());
       }
     })();
+  </script>
+
+  <!-- Inline renderer: populates featured + mini lists for all three sections -->
+  <script>
+  (function(){
+    // Load data: use window.TOOLS if already injected; otherwise fetch the JSON
+    async function getData(){
+      if (window.TOOLS && Array.isArray(window.TOOLS)) return window.TOOLS;
+      const res = await fetch('data/tools.json', { cache: 'no-store' });
+      return res.json();
+    }
+
+    // Category matcher (keys: 'tours', 'events', 'wellness'; accepts 'explore' as alias for wellness)
+    function matchCategory(item, key){
+      const slug = (item.category_slug || '').toLowerCase();
+      const cat  = (item.category || '').toLowerCase();
+      const tags = (item.tags || '').toLowerCase();
+
+      if (slug === key) return true;
+      if (key === 'wellness' && slug === 'explore') return true;
+
+      if (key === 'tours'   && (cat.includes('tour') || tags.includes('tour'))) return true;
+      if (key === 'events'  && (cat.includes('event') || tags.includes('event'))) return true;
+      if (key === 'wellness' &&
+          (cat.includes('wellness') || cat.includes('aesthetic') ||
+           tags.includes('wellness') || tags.includes('spa') || tags.includes('aesthetic'))) return true;
+
+      return false;
+    }
+
+    function byScoreThenName(a,b){
+      const sa = Number(a.rating_overall || a.score || 0);
+      const sb = Number(b.rating_overall || b.score || 0);
+      if (sb !== sa) return sb - sa;
+      return (a.name || '').localeCompare(b.name || '');
+    }
+
+    const imgSafe = (u,f)=> (u && u.trim()) || f || 'assets/placeholder-hero.jpg';
+    const meta = it => {
+      const city = it.city || 'Muscat';
+      const area = it.neighborhood || it.district || '';
+      return [city, area].filter(Boolean).join(' · ');
+    };
+    const score = it => (it.rating_overall ?? it.score ?? '').toString();
+
+    const bigCard = it => `
+      <article class="card-big">
+        <a href="tool.html?slug=${encodeURIComponent(it.slug)}">
+          <img alt="" src="${imgSafe(it.hero_url || it.image || it.banner)}">
+        </a>
+        <div class="big-body">
+          <h3 class="big-title"><a href="tool.html?slug=${encodeURIComponent(it.slug)}">${it.name}</a></h3>
+          <div class="big-meta">${meta(it)}${it.open_now ? ' · <span>Open</span>' : ''}</div>
+          <div class="big-score">${score(it)}<span style="font-size:12px;">/10</span></div>
+        </div>
+      </article>`;
+
+    const miniCard = it => `
+      <a class="mini-card" href="tool.html?slug=${encodeURIComponent(it.slug)}">
+        <img alt="" src="${imgSafe(it.hero_url || it.image || it.banner)}">
+        <div>
+          <p class="mini-title">${it.name}</p>
+          <div class="mini-meta">${meta(it)}${it.open_now ? ' · Open' : ''}</div>
+        </div>
+        <div class="mini-score">${score(it)}</div>
+      </a>`;
+
+    function renderCategory(key, bigId, miniId, takeMini = 8){
+      return items => {
+        const list = items.filter(it => matchCategory(it, key)).sort(byScoreThenName);
+        const big  = list[0];
+        const rest = list.slice(1, 1 + takeMini);
+
+        const bigEl  = document.getElementById(bigId);
+        const miniEl = document.getElementById(miniId);
+
+        if (bigEl && big) bigEl.innerHTML = bigCard(big);
+        if (miniEl) miniEl.innerHTML = rest.map(miniCard).join('');
+      };
+    }
+
+    // Render all three stacks at once (matching your element IDs)
+    getData().then(data => {
+      renderCategory('tours',    'bt-tours-featured',   'bt-tours-list')(data);
+      renderCategory('events',   'bt-events-featured',  'bt-events-list')(data);
+      renderCategory('wellness', 'bt-wellness-featured','bt-wellness-list')(data);
+    }).catch(err => console.error('bt-all render error:', err));
+  })();
   </script>
 </body>
 </html>
