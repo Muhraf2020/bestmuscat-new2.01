@@ -24,8 +24,7 @@
 
   // Small helpers
   const clean = (s) => (s || "").toString().trim();
-  const imgFallback =
-    "assets/placeholders/placeholder-16x9.webp"; // make sure this exists
+  const imgFallback = "assets/placeholders/placeholder-16x9.webp"; // ensure this exists
 
   function aEl(href, text, cls) {
     const a = document.createElement("a");
@@ -56,17 +55,25 @@
         <div class="meta">
           ${area ? `<span>${area}</span>` : ""}
           ${sub ? (area ? " · " : "") + `<span>${sub}</span>` : ""}
+          ${
+            item.is_open
+              ? `${(area || sub) ? " · " : ""}<span class="status open">Open</span>`
+              : ""
+          }
         </div>
-        ${item.is_sponsored ? `<div class="sponsored">Sponsored</div>` : ""}
-        ${clean(item.description)
-          ? `<p class="desc">${clean(item.description)}</p>`
-          : ""}
+        ${item.is_sponsored ? `<div class="status sponsored">Sponsored</div>` : ""}
+        ${clean(item.description) ? `<p class="desc">${clean(item.description)}</p>` : ""}
+
         ${
-          // If you ever add numeric scoring back into the CSV/JSON, show it.
-          item.overall || (item.scores && Object.keys(item.scores || {}).length)
+          // Prefer the detailed score box if present; otherwise show a simple green rating pill
+          (item.overall || (item.scores && Object.keys(item.scores || {}).length))
             ? renderScoreBox(item)
-            : ""
+            : (isFinite(Number(item.rating)) 
+                ? `<div class="score-box"><div class="score-summary">${Number(item.rating).toFixed(2)}<small>/10</small></div></div>`
+                : ""
+              )
         }
+
         <div class="cta-row">
           ${url ? aEl(url, item.cta_label || "Learn more", "btn").outerHTML : ""}
         </div>
@@ -89,9 +96,7 @@
       <div class="score-box">
         ${
           isFinite(overall)
-            ? `<div class="score-summary">${overall.toFixed(
-                2
-              )}<small>/10</small></div>`
+            ? `<div class="score-summary">${overall.toFixed(2)}<small>/10</small></div>`
             : ""
         }
         <div class="score-breakdown">${lines}</div>
@@ -109,30 +114,25 @@
         const area = clean(item.area);
         const img = clean(item.image_url) || imgFallback;
         const url = clean(item.url);
+        const rating = Number(item.rating);
 
-        const meta = [area, sub].filter(Boolean).join(" · ");
+        const metaBits = [area, sub].filter(Boolean);
+        if (item.is_open) metaBits.push('<span class="status open">Open</span>');
+        const meta = metaBits.join(" · ");
 
         return `
-          <a class="listing-card" href="${url}" target="_blank" rel="noopener" aria-label="${title.replace(
-          /"/g,
-          "&quot;"
-        )}">
-            <img src="${img}" alt="${title.replace(/"/g, "&quot;")}"
+          <a class="listing-card" href="${url}" target="_blank" rel="noopener" aria-label="${title.replace(/"/g,"&quot;")}">
+            <img src="${img}" alt="${title.replace(/"/g,"&quot;")}"
                  loading="lazy" decoding="async"
                  onerror="this.onerror=null;this.src='${imgFallback}';">
             <div class="info">
               <div class="name">${title}</div>
               <div class="sub">${meta}</div>
-              ${
-                item.is_sponsored
-                  ? `<div class="status sponsored">Sponsored</div>`
-                  : ""
-              }
+              ${item.is_sponsored ? `<div class="status sponsored">Sponsored</div>` : ""}
             </div>
             ${
-              // If you store a numeric score, show on the right.
-              isFinite(Number(item.score))
-                ? `<div class="score">${Number(item.score).toFixed(2)}</div>`
+              isFinite(rating)
+                ? `<div class="score pill-green">${rating.toFixed(2)}</div>`
                 : ""
             }
           </a>
@@ -164,9 +164,7 @@
   async function load() {
     try {
       // Cache-bust to avoid GitHub Pages CDN staleness
-      const res = await fetch(`${JSON_URL}?_=${Date.now()}`, {
-        cache: "no-store",
-      });
+      const res = await fetch(`${JSON_URL}?_=${Date.now()}`, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const rows = (await res.json()) || [];
 
@@ -179,7 +177,7 @@
         byKey.get(key).push(r);
       }
 
-      // Sort each group by priority asc, then title (if your JSON includes it)
+      // Sort each group by priority asc, then title
       for (const [k, arr] of byKey.entries()) {
         arr.sort((a, b) => {
           const pa = Number(a.priority || 999);
@@ -199,8 +197,7 @@
       renderListings(items.slice(1));
     } catch (err) {
       console.error("Best Things loader failed:", err);
-      featuredEl.innerHTML =
-        "<p style='padding:16px'>Content unavailable right now.</p>";
+      featuredEl.innerHTML = "<p style='padding:16px'>Content unavailable right now.</p>";
       listingsEl.innerHTML = "";
     }
   }
