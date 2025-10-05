@@ -16,7 +16,9 @@
     "cta_label": "Learn More",
     "priority": 1,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJ5f_cGS39jT4R5JTS083uJj0",
@@ -35,7 +37,9 @@
     "cta_label": "Learn More",
     "priority": 2,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJlwaw0JLljT4RbDvTCsuBkhA",
@@ -54,7 +58,9 @@
     "cta_label": "Learn More",
     "priority": 3,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJAyZx7dr_kT4RjVmRSqyl9t8",
@@ -73,7 +79,9 @@
     "cta_label": "Learn More",
     "priority": 4,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJvxpvPMj_kT4RpIGrI-pUah0",
@@ -92,7 +100,9 @@
     "cta_label": "Learn More",
     "priority": 5,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJTexXOFXnjT4RSfspr4WDCtU",
@@ -111,7 +121,9 @@
     "cta_label": "Learn More",
     "priority": 6,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY",
@@ -129,7 +141,9 @@
     "cta_label": "Learn More",
     "priority": 1,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJgzKFE5L9jT4RmJ2jpr9uaXY",
@@ -147,7 +161,9 @@
     "cta_label": "Learn More",
     "priority": 2,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJbR3K0O75kT4Rd1OuYxntLMk",
@@ -164,7 +180,9 @@
     "cta_label": "Learn More",
     "priority": 1,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJWVA6rznxkT4ReH-iQfo0Rcw",
@@ -181,7 +199,9 @@
     "cta_label": "Learn More",
     "priority": 2,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJafEVETn_kT4Rni4OQr9rcNc",
@@ -199,7 +219,9 @@
     "cta_label": "Learn More",
     "priority": 3,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJpSXe6AH_jT4RfgtZs0PtgQ0",
@@ -216,7 +238,9 @@
     "cta_label": "Learn More",
     "priority": 4,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJm-NfZI34kT4R57X7K9uYZYk",
@@ -234,7 +258,9 @@
     "cta_label": "Learn More",
     "priority": 5,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   },
   {
     "id": "ChIJg7u2ueT_kT4RgSpgMXnqSPg",
@@ -252,6 +278,8 @@
     "cta_label": "Learn More",
     "priority": 6,
     "is_sponsored": false,
-    "notes": "notes"
+    "notes": "notes",
+    "rating": 9.4,
+    "is_open": true
   }
 ]
