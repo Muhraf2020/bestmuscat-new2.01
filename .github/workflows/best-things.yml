@@ -1,0 +1,55 @@
+name: Build Best Things JSON
+
+on:
+  push:
+    paths:
+      - "data/homepage/best_things.csv"
+      - "scripts/ingest/best_things_from_csv.py"
+  workflow_dispatch:
+    inputs:
+      cap_per_cat:
+        description: "Max items per category (0 = unlimited)"
+        type: number
+        default: 12
+      dry_run:
+        description: "Run but do not commit"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-best-things:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ensure scripts folder exists (optional)
+        run: |
+          mkdir -p scripts/ingest
+          touch scripts/__init__.py
+          touch scripts/ingest/__init__.py
+
+      - name: Build assets/best-things.json
+        run: |
+          CAP=${{ github.event.inputs.cap_per_cat }}
+          if [ -z "$CAP" ]; then CAP=12; fi
+          python scripts/ingest/best_things_from_csv.py --cap-per-cat "$CAP"
+
+      - name: Commit & push JSON
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update best-things.json from CSV"
+          branch: ${{ github.ref_name }}
+          file_pattern: assets/best-things.json
