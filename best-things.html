@@ -139,6 +139,7 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="assets/app.js?v=20251005"></script>
+  <!-- (Removed assets/best-things.js on this page to avoid double render) -->
   <script id="jsonld-list" type="application/ld+json"></script>
 
   <!-- Force ?bt=all on this page so the JS renders all blocks at once -->
@@ -162,14 +163,16 @@
       return res.json();
     }
 
-    // Category matcher (keys: 'tours', 'events', 'wellness'; accepts 'explore' as alias for wellness)
+    // Category matcher:
+    // Your buttons use keys 'tours', 'events', 'wellness'.
+    // We also accept 'explore' as an alias for wellness if your data uses it.
     function matchCategory(item, key){
       const slug = (item.category_slug || '').toLowerCase();
       const cat  = (item.category || '').toLowerCase();
       const tags = (item.tags || '').toLowerCase();
 
       if (slug === key) return true;
-      if (key === 'wellness' && slug === 'explore') return true;
+      if (key === 'wellness' && (slug === 'explore')) return true;
 
       if (key === 'tours'   && (cat.includes('tour') || tags.includes('tour'))) return true;
       if (key === 'events'  && (cat.includes('event') || tags.includes('event'))) return true;
