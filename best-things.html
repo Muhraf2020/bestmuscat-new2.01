@@ -1,0 +1,81 @@
+<!-- FILE: best-things.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Best Things to Do in Muscat – All Categories</title>
+  <meta name="description" content="Discover the best things to do in Muscat across Tours & Experiences, Events and Venues, and Wellness & Aesthetics." />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="assets/styles.css?v=20251004" />
+</head>
+<body>
+  <!-- Header (reuse your existing header markup if you prefer) -->
+  <header class="site-header">
+    <div class="header-wrap">
+      <a href="index.html" class="header-logo" aria-label="BestMuscat home">
+        <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
+      </a>
+      <div class="header-actions">
+        <a class="btn-suggest" href="index.html">← Back to Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <!-- BEST THINGS TO DO IN MUSCAT -->
+      <section id="best-things" class="best-things">
+        <div class="section-head">
+          <h2>Best Things to Do in Muscat</h2>
+          <p class="tagline">
+            We use a weighted 10-point scoring system with carefully selected categories to evaluate the best places to visit and things to do in Muscat.
+          </p>
+        </div>
+
+        <!-- Tabs markup can remain; it will be hidden in “see-all” mode -->
+        <div class="tabs">
+          <button class="tab active" data-cat="tours" type="button">Tours & Experiences</button>
+          <button class="tab" data-cat="events" type="button">Events and Venues</button>
+          <button class="tab" data-cat="wellness" type="button">Wellness & Aesthetics</button>
+          <a class="see-all" href="best-things.html?bt=all#best-things">See All&nbsp;→</a>
+        </div>
+
+        <div class="best-things-content">
+          <!-- Default single-category containers (not used in see-all) -->
+          <div id="featured-card" class="featured-card" aria-label="Featured place"></div>
+          <div id="top-listings" class="top-listings" aria-label="Top listings"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <small class="disclaimer">
+        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes…
+      </small>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="assets/app.js?v=20251004"></script>
+  <script src="assets/best-things.js?v=2"></script>
+  <script id="jsonld-list" type="application/ld+json"></script>
+
+  <!-- If someone lands here without the param, ensure bt=all is present -->
+  <script>
+    (function () {
+      var hasAll = new URLSearchParams(location.search).get('bt') === 'all';
+      if (!hasAll) {
+        var u = new URL(location.href);
+        u.searchParams.set('bt','all');
+        location.replace(u.toString());
+      }
+    })();
+  </script>
+</body>
+</html>
