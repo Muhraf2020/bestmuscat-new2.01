@@ -2012,3 +2012,18 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   .bt-block .featured-card,
   .bt-block .top-listings { flex: 1 1 100%; }
 }
+
+/* ==== See-All page (best-things.html): keep 2 columns on desktop ==== */
+body.bt-all .best-things .best-things-content { display: flex; flex-wrap: nowrap; }
+
+/* Desktop/tablet: side-by-side */
+@media (min-width: 801px) {
+  body.bt-all .best-things .best-things-content { flex-direction: row; }
+  body.bt-all .best-things .featured-card { flex: 1 1 58%; min-width: 0; }
+  body.bt-all .best-things .top-listings { flex: 1 1 38%; min-width: 0; }
+}
+
+/* Phones: stack (same behavior as home section) */
+@media (max-width: 800px) {
+  body.bt-all .best-things .best-things-content { flex-direction: column; }
+}
