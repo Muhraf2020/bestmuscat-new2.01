@@ -16,15 +16,25 @@
 <body class="bt-all">
   <!-- Header -->
   <header class="site-header">
-    <div class="header-wrap">
-      <a href="index.html" class="header-logo" aria-label="BestMuscat home">
-        <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
-      </a>
-      <div class="header-actions">
-        <a class="btn-suggest" href="index.html">← Back to Home</a>
-      </div>
+  <div class="header-wrap">
+    <!-- Left: Logo -->
+    <a href="index.html" class="header-logo" aria-label="BestMuscat home">
+      <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
+    </a>
+
+    <!-- Center: Search -->
+    <div class="header-search" role="search">
+      <label for="search" class="visually-hidden" aria-hidden="true">Search businesses</label>
+      <input id="search" type="search" placeholder="Search by name, category, or tag…" aria-label="Search businesses" />
     </div>
-  </header>
+
+    <!-- Right: Suggest a place -->
+    <div class="header-actions">
+      <a id="suggest-link" class="btn-suggest" href="#" target="_blank" rel="noopener">Suggest a place</a>
+    </div>
+  </div>
+</header>
+
 
   <main>
     <div class="wrap">
@@ -79,18 +89,39 @@
   </main>
 
   <footer>
-    <div class="wrap">
-      <small class="disclaimer">
-        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit.
-      </small>
-    </div>
-  </footer>
+  <div class="wrap">
+    <!-- Footer quick links -->
+    <nav class="footer-nav" aria-label="Browse categories">
+      <h3 style="margin:0 0 10px; font-size:1.05rem;">Browse categories</h3>
+      <div class="chips" style="margin-bottom:10px;">
+        <a class="chip" href="?category=hotels">Hotels</a>
+        <a class="chip" href="?category=restaurants">Restaurants</a>
+        <a class="chip" href="?category=schools">Schools</a>
+        <a class="chip" href="?category=spas">Spas</a>
+        <a class="chip" href="?category=clinics">Clinics</a>
+        <a class="chip" href="?category=malls">Malls</a>
+        <a class="chip" href="?category=car-repair-garages">Car Repair Garages</a>
+        <a class="chip" href="?category=home-maintenance-and-repair">Home Maintenance and Repair</a>
+        <a class="chip" href="?category=catering-services">Catering Services</a>
+        <a class="chip" href="?category=events">Events Planning</a>
+        <a class="chip" href="?category=moving-and-storage">Moving and Storage</a>
+      </div>
+    </nav>
+
+    <!-- Disclaimer -->
+    <small class="disclaimer">
+      <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit. All trademarks and service marks belong to their owners. No warranty is expressed or implied.
+    </small>
+  </div>
+</footer>
+
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="assets/app.js?v=20251005"></script>
   <!-- Make sure this JS version supports “see-all” + rating/open badges -->
   <script src="assets/best-things.js?v=3"></script>
+  <script src="assets/app.enhanced.js"></script>
   <script id="jsonld-list" type="application/ld+json"></script>
 
   <!-- Force ?bt=all on this page so the JS renders all blocks at once -->
