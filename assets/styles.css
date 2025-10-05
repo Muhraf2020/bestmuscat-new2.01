@@ -1991,3 +1991,50 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 .bt-block { margin: 26px 0; }
 .bt-block .bt-head h2 { margin: 0 0 10px; }
 
+/* ===== Best Things — 2-column layout (featured left, list right) ===== */
+#best-things .bt-block .best-things-content {
+  display: grid;
+  grid-template-columns: 1.05fr 1.35fr;  /* featured ~44%, list ~56% */
+  gap: 16px;
+  align-items: start;
+}
+
+/* Featured column presentation (keeps your existing card look) */
+#best-things .featured-card {
+  display: block;
+}
+
+/* Right column — vertical list with comfortable spacing */
+#best-things .top-listings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Optional: if the list items are anchors/cards, make them tidy rows */
+#best-things .top-listings .card,
+#best-things .top-listings a {
+  display: grid;
+  grid-template-columns: 1fr auto; /* title/info | rating/badge */
+  gap: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Ensure ratings / chips align on the right nicely */
+#best-things .top-listings .badge,
+#best-things .top-listings .rating-badge {
+  justify-self: end;
+}
+
+/* Section heading breathing space */
+#best-things .bt-block .bt-head {
+  margin: 18px 0 12px;
+}
+
+/* Mobile: stack to single column */
+@media (max-width: 900px) {
+  #best-things .bt-block .best-things-content {
+    grid-template-columns: 1fr;
+  }
+}
