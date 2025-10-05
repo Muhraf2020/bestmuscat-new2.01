@@ -10,6 +10,7 @@ Build assets/best-things.json from data/homepage/best_things.csv
 - Appends UTM params when present (utm_source, utm_medium, utm_campaign)
 - Sorts by priority (asc), then title
 - Optional: cap items per category via --cap-per-cat (default 12)
+- Supports optional UI fields: rating (float) and is_open (bool)
 - Outputs compact, frontend-friendly JSON
 
 Run:
@@ -21,7 +22,7 @@ Run:
 from __future__ import annotations
 import csv, json, sys, argparse, re
 from pathlib import Path
-from datetime import date, datetime
+from datetime import date
 from urllib.parse import urlencode, urlsplit, urlunsplit, parse_qsl
 
 # ---- Paths (defaults; can be overridden by CLI) ----
@@ -51,6 +52,7 @@ REQUIRED_COLUMNS = [
     "priority","status","start_date","end_date","is_sponsored","sponsor_name",
     "utm_source","utm_medium","utm_campaign","notes",
 ]
+# Optional columns (not enforced): rating, is_open
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -147,6 +149,13 @@ def build_item(row: dict) -> dict:
         "end_date": (row.get("end_date") or "").strip() or None,
         "notes": (row.get("notes") or "").strip() or None,
     }
+
+    # Optional UI fields (already normalized in the read loop)
+    if row.get("rating") is not None:
+        item["rating"] = row["rating"]
+    if row.get("is_open") is not None:
+        item["is_open"] = row["is_open"]
+
     # Drop keys that are None/empty lists to keep JSON clean
     for k in list(item.keys()):
         if item[k] in ("", None, []) and k not in ("subtitle",):  # allow empty subtitle
@@ -199,6 +208,21 @@ def main():
             r["_canon_cat"] = cat
             # safe priority
             r["_priority"] = parse_int(r.get("priority"), default=999)
+
+            # NEW: Normalize optional UI fields
+            # rating (float) and is_open (bool)
+            try:
+                r["rating"] = float((r.get("rating") or "").strip()) if (r.get("rating") or "").strip() else None
+            except Exception:
+                r["rating"] = None
+
+            iso = (r.get("is_open") or "").strip().lower()
+            if iso in ("true", "yes", "1"):
+                r["is_open"] = True
+            elif iso in ("false", "no", "0"):
+                r["is_open"] = False
+            else:
+                r["is_open"] = None
 
             rows_live.append(r)
 
