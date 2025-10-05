@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Data definitions for each category. Images reference local assets.
   const bestThingsData = {
-    eat: {
+    tours: {
       featured: {
         rank: '#1 Restaurants in Muscat',
         name: 'Spice Route Restaurant',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       ]
     },
-    play: {
+    events: {
       featured: {
         rank: '#1 Spas in Muscat',
         name: 'Lotus Spa',
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       ]
     },
-    explore: {
+    wellness: {
       featured: {
         rank: '#1 Places to Explore in Muscat',
         name: 'The Chedi Muscat',
