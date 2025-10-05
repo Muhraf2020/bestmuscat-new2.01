@@ -13,32 +13,47 @@
     #best-things .tabs { display: none; }
   </style>
 </head>
-<body class="bt-all">
-  <!-- Header -->
+<body>
+  <!-- STICKY HEADER (identical to index.html) -->
   <header class="site-header">
-  <div class="header-wrap">
-    <!-- Left: Logo -->
-    <a href="index.html" class="header-logo" aria-label="BestMuscat home">
-      <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
-    </a>
+    <div class="header-wrap">
+      <!-- Left: Logo -->
+      <a href="index.html" class="header-logo" aria-label="BestMuscat home">
+        <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" />
+      </a>
 
-    <!-- Center: Search -->
-    <div class="header-search" role="search">
-      <label for="search" class="visually-hidden" aria-hidden="true">Search businesses</label>
-      <input id="search" type="search" placeholder="Search by name, category, or tag…" aria-label="Search businesses" />
+      <!-- Center: Search -->
+      <div class="header-search" role="search">
+        <label for="search" class="visually-hidden" aria-hidden="true">Search businesses</label>
+        <input id="search" type="search" placeholder="Search by name, category, or tag…" aria-label="Search businesses" />
+      </div>
+
+      <!-- Right: Suggest a place -->
+      <div class="header-actions">
+        <a id="suggest-link" class="btn-suggest" href="#" target="_blank" rel="noopener">Suggest a place</a>
+      </div>
     </div>
+  </header>
 
-    <!-- Right: Suggest a place -->
-    <div class="header-actions">
-      <a id="suggest-link" class="btn-suggest" href="#" target="_blank" rel="noopener">Suggest a place</a>
+  <!-- HERO / TOP BANNER (identical to index.html) -->
+  <section class="hero">
+    <div class="hero-card">
+      <img class="hero-logo" src="assets/brand/bestmuscat-logo.png" alt="Best Muscat" />
+      <h1 class="hero-title">Discover Muscat</h1>
+      <p class="hero-subtitle">
+        Discover the best things to do in Muscat, scored by public reviews, expert notes and local signals.
+      </p>
+      <div class="hero-try">
+        <span>Try</span>
+        <a class="chip" href="?q=Fine%20Dining">“Fine Dining”</a>
+        <a class="chip" href="?q=Padel%20Courts">“Padel Courts”</a>
+        <a class="chip" href="?q=Best%20Malls">“Best Malls”</a>
+      </div>
     </div>
-  </div>
-</header>
-
+  </section>
 
   <main>
     <div class="wrap">
-
       <!-- BEST THINGS TO DO IN MUSCAT (See-All) -->
       <section id="best-things" class="best-things">
         <div class="section-head">
@@ -84,47 +99,69 @@
         </section>
 
       </section>
-
     </div>
   </main>
 
-  <footer>
-  <div class="wrap">
-    <!-- Footer quick links -->
-    <nav class="footer-nav" aria-label="Browse categories">
-      <h3 style="margin:0 0 10px; font-size:1.05rem;">Browse categories</h3>
-      <div class="chips" style="margin-bottom:10px;">
-        <a class="chip" href="?category=hotels">Hotels</a>
-        <a class="chip" href="?category=restaurants">Restaurants</a>
-        <a class="chip" href="?category=schools">Schools</a>
-        <a class="chip" href="?category=spas">Spas</a>
-        <a class="chip" href="?category=clinics">Clinics</a>
-        <a class="chip" href="?category=malls">Malls</a>
+  <!-- BOTTOM BANNER (identical to index.html) -->
+  <section class="hero hero--bottom">
+    <div class="hero-card">
+      <img class="hero-logo" src="assets/brand/bestmuscat-logo.png" alt="Best Muscat" />
+      <h2 class="hero-title" style="font-size:34px; margin-top:4px;">Plan your day in Muscat</h2>
+      <p class="hero-subtitle">
+        Quick picks to explore: hotels, restaurants, malls and schools — curated for locals and visitors.
+      </p>
+      <div class="hero-try">
+        <span>Try</span>
+        <a class="chip" href="?category=hotels">Best Hotels</a>
+        <a class="chip" href="?category=restaurants">Best Restaurants</a>
+        <a class="chip" href="?category=malls">Best Malls</a>
+        <a class="chip" href="?category=schools">Best Schools</a>
         <a class="chip" href="?category=car-repair-garages">Car Repair Garages</a>
-        <a class="chip" href="?category=home-maintenance-and-repair">Home Maintenance and Repair</a>
+        <a class="chip" href="?category=home-maintenance-and-repair">Home Maintenance</a>
         <a class="chip" href="?category=catering-services">Catering Services</a>
         <a class="chip" href="?category=events">Events Planning</a>
-        <a class="chip" href="?category=moving-and-storage">Moving and Storage</a>
+        <a class="chip" href="?category=moving-and-storage">Moving & Storage</a>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <!-- Disclaimer -->
-    <small class="disclaimer">
-      <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit. All trademarks and service marks belong to their owners. No warranty is expressed or implied.
-    </small>
-  </div>
-</footer>
+  <!-- FOOTER (identical to index.html) -->
+  <footer>
+    <div class="wrap">
+      <!-- Footer quick links -->
+      <nav class="footer-nav" aria-label="Browse categories">
+        <h3 style="margin:0 0 10px; font-size:1.05rem;">Browse categories</h3>
+        <div class="chips" style="margin-bottom:10px;">
+          <a class="chip" href="?category=hotels">Hotels</a>
+          <a class="chip" href="?category=restaurants">Restaurants</a>
+          <a class="chip" href="?category=schools">Schools</a>
+          <a class="chip" href="?category=spas">Spas</a>
+          <a class="chip" href="?category=clinics">Clinics</a>
+          <a class="chip" href="?category=malls">Malls</a>
+          <a class="chip" href="?category=car-repair-garages">Car Repair Garages</a>
+          <a class="chip" href="?category=home-maintenance-and-repair">Home Maintenance and Repair</a>
+          <a class="chip" href="?category=catering-services">Catering Services</a>
+          <a class="chip" href="?category=events">Events Planning</a>
+          <a class="chip" href="?category=moving-and-storage">Moving and Storage</a>
+        </div>
+      </nav>
 
+      <!-- Disclaimer -->
+      <small class="disclaimer">
+        <strong>Places & Links Disclaimer.</strong> The places and external links referenced on this website are provided solely for informational purposes. Inclusion does not constitute endorsement or preference; no affiliate relationships. Features, pricing, availability and policies may change—verify current details before you visit. All trademarks and service marks belong to their owners. No warranty is expressed or implied.
+      </small>
+    </div>
+  </footer>
 
-  <!-- Scripts -->
+  <!-- Scripts (order mirrors index.html; keep your page script too) -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-  <script src="assets/app.js?v=20251005"></script>
-  <!-- Make sure this JS version supports “see-all” + rating/open badges -->
+  <script src="assets/app.js?v=20251004"></script>
   <script src="assets/best-things.js?v=3"></script>
-  <script src="assets/app.enhanced.js"></script>
   <script id="jsonld-list" type="application/ld+json"></script>
+  <noscript>Your browser needs JavaScript enabled to use search and filters.</noscript>
+  <script src="assets/app.enhanced.js"></script>
 
-  <!-- Force ?bt=all on this page so the JS renders all blocks at once -->
+  <!-- Force ?bt=all so the JS renders all blocks at once -->
   <script>
     (function () {
       var url = new URL(location.href);
