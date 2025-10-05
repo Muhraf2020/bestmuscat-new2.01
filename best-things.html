@@ -7,13 +7,13 @@
   <title>Best Things to Do in Muscat – All Categories</title>
   <meta name="description" content="Discover the best things to do in Muscat across Tours & Experiences, Events and Venues, and Wellness & Aesthetics." />
   <link rel="icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="assets/styles.css?v=20251004" />
+  <link rel="stylesheet" href="assets/styles.css?v=20251005" />
   <style>
     /* On the See-All page we don’t need the tabs row */
     #best-things .tabs { display: none; }
   </style>
 </head>
-<body>
+<body class="bt-all">
   <!-- Header -->
   <header class="site-header">
     <div class="header-wrap">
@@ -47,37 +47,31 @@
         </div>
 
         <!-- BLOCK 1: Tours & Experiences -->
-        <div class="bt-block" data-cat="tours">
-          <div class="bt-head">
-            <h2>Tours & Experiences</h2>
-          </div>
+        <section class="bt-block" id="bt-tours">
+          <div class="bt-head"><h2>Tours & Experiences</h2></div>
           <div class="best-things-content">
-            <div id="featured-card-tours" class="featured-card" aria-label="Featured place"></div>
-            <div id="top-listings-tours" class="top-listings" aria-label="Top listings"></div>
+            <div id="bt-tours-featured" class="featured-card" aria-label="Featured place"></div>
+            <div id="bt-tours-list" class="top-listings" aria-label="Top listings"></div>
           </div>
-        </div>
+        </section>
 
         <!-- BLOCK 2: Events and Venues -->
-        <div class="bt-block" data-cat="events">
-          <div class="bt-head">
-            <h2>Events and Venues</h2>
-          </div>
+        <section class="bt-block" id="bt-events">
+          <div class="bt-head"><h2>Events and Venues</h2></div>
           <div class="best-things-content">
-            <div id="featured-card-events" class="featured-card" aria-label="Featured place"></div>
-            <div id="top-listings-events" class="top-listings" aria-label="Top listings"></div>
+            <div id="bt-events-featured" class="featured-card" aria-label="Featured place"></div>
+            <div id="bt-events-list" class="top-listings" aria-label="Top listings"></div>
           </div>
-        </div>
+        </section>
 
         <!-- BLOCK 3: Wellness & Aesthetics -->
-        <div class="bt-block" data-cat="wellness">
-          <div class="bt-head">
-            <h2>Wellness & Aesthetics</h2>
-          </div>
+        <section class="bt-block" id="bt-wellness">
+          <div class="bt-head"><h2>Wellness & Aesthetics</h2></div>
           <div class="best-things-content">
-            <div id="featured-card-wellness" class="featured-card" aria-label="Featured place"></div>
-            <div id="top-listings-wellness" class="top-listings" aria-label="Top listings"></div>
+            <div id="bt-wellness-featured" class="featured-card" aria-label="Featured place"></div>
+            <div id="bt-wellness-list" class="top-listings" aria-label="Top listings"></div>
           </div>
-        </div>
+        </section>
 
       </section>
 
@@ -94,8 +88,8 @@
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-  <script src="assets/app.js?v=20251004"></script>
-  <!-- Ensure this version matches the one that supports “see-all” rendering and rating/open badges -->
+  <script src="assets/app.js?v=20251005"></script>
+  <!-- Make sure this JS version supports “see-all” + rating/open badges -->
   <script src="assets/best-things.js?v=3"></script>
   <script id="jsonld-list" type="application/ld+json"></script>
 
