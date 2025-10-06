@@ -453,7 +453,10 @@ function ratingChipHTML(t){
     }
     // === end tool.html SEO router ===
     // Suggest form
-    elSuggest.href = CONFIG.GOOGLE_FORM_URL || "#";
+      // Suggest form — only override if a URL is provided in CONFIG
+      if (elSuggest && CONFIG.GOOGLE_FORM_URL) {
+        elSuggest.href = CONFIG.GOOGLE_FORM_URL;
+      }
 
     // Preselect chips from URL
     const startSelected = getArrayParam("category").filter(slug=>CATEGORY_SLUG_SET.has(slug));
