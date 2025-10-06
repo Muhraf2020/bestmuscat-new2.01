@@ -2240,3 +2240,51 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
     width: 84px;
   }
 }
+
+/* =========================
+   HOMEPAGE (NOT see-all)
+   Keep listings one-per-row and reset any right-rail tweaks
+   ========================= */
+body:not(.page-best-things) #best-things .top-listings {
+  display: block;                 /* 1 column list */
+}
+
+body:not(.page-best-things) #best-things .top-listings .listing-card {
+  position: static;               /* undo absolute right-rail positioning */
+  padding-right: 0;
+}
+
+/* Put badges back inline (no fixed-size pills on homepage) */
+body:not(.page-best-things) #best-things .top-listings .listing-card .info .status.open,
+body:not(.page-best-things) #best-things .top-listings .listing-card .score.pill-green {
+  position: static;
+  width: auto !important;
+  height: auto !important;
+  display: inline-block !important;
+  margin-left: 6px;               /* small gap after meta text */
+  border-radius: 8px;
+}
+
+body:not(.page-best-things) #best-things .top-listings .listing-card .info .sub {
+  padding-right: 0;               /* no reserved rail on homepage */
+}
+
+/* (Optional) if homepage currently forces 2 columns via some older rule, neutralize it */
+body:not(.page-best-things) #best-things .top-listings > * {
+  width: 100%;
+}
+
+/* =========================
+   SEE-ALL PAGE (best-things.html)
+   Keep your 2-column list + right-rail pills
+   ========================= */
+/* already in place from earlier:
+.page-best-things #best-things .top-listings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.page-best-things #best-things .top-listings .listing-card { position: relative; padding-right:110px; }
+.page-best-things #best-things .top-listings .listing-card .info .status.open { position:absolute; right:10px; top:10px; width:90px; height:28px; ... }
+.page-best-things #best-things .top-listings .listing-card .score.pill-green { position:absolute; right:10px; top:44px; width:90px; height:28px; ... }
+*/
