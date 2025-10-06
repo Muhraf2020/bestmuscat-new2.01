@@ -41,24 +41,103 @@
         <h1 class="apply-title">Add My Business</h1>
         <p class="apply-sub">Complete the form to submit your business for approval.</p>
 
-        <!-- Embedded Google Form (keeps users on this page).
-             Replace YOUR_FORM_ID with your actual Google Form ID. -->
-        <div class="embed-form" role="region" aria-label="Business submission form">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScUEGeF_jxL3oNwCTrBh1OX-WRlsauQksUJjV_Z3uiY9k9pYA/viewform?usp=sharing&ouid=117420147024438600893"
-            width="100%"
-            height="1300"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-            allow="clipboard-write"
-            style="border:0; background:#fff; border-radius:12px; display:block;">
-            Loading…
-          </iframe>
-          <noscript>
-            <p>Please enable JavaScript to load the submission form.</p>
-          </noscript>
-        </div>
+        <!-- === Custom HTML form (keeps your exact layout/styles) === -->
+        <form id="addBusinessForm" class="form" novalidate>
+          <!-- Type of Place (chips -> radios) -->
+          <fieldset class="form-fieldset">
+            <legend class="form-label">Type of Place</legend>
+            <div class="chip-group" role="group" aria-label="Type of Place">
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Restaurant" required /> Restaurant</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Attraction" /> Attraction</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Sports & Fitness" /> Sports-Fitness</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="School" /> School</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Hotel" /> Hotel</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Mall" /> Mall</label>
+            </div>
+            <p class="form-hint">Pick the closest match.</p>
+          </fieldset>
+
+          <!-- Basic details -->
+          <div class="form-row">
+            <label class="form-label" for="placeName">Place Name</label>
+            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Burj Khalifa" />
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="legalName">Legal Business Name</label>
+            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Emaar Properties PJSC" />
+          </div>
+
+          <!-- Your Role (chips -> radios) -->
+          <fieldset class="form-fieldset">
+            <legend class="form-label">Your Role</legend>
+            <div class="chip-group" role="group" aria-label="Your Role">
+              <label class="chip chip-toggle"><input type="radio" name="role" value="Owner" required /> Owner</label>
+              <label class="chip chip-toggle"><input type="radio" name="role" value="Employee" /> Employee</label>
+              <label class="chip chip-toggle"><input type="radio" name="role" value="Agency" /> Agency</label>
+            </div>
+          </fieldset>
+
+          <!-- Contact -->
+          <div class="grid-2">
+            <div class="form-row">
+              <label class="form-label" for="firstName">First Name</label>
+              <input class="form-input" id="firstName" name="first_name" type="text" required />
+            </div>
+            <div class="form-row">
+              <label class="form-label" for="lastName">Last Name</label>
+              <input class="form-input" id="lastName" name="last_name" type="text" required />
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="form-row">
+              <label class="form-label" for="email">E-mail</label>
+              <input class="form-input" id="email" name="email" type="email" required placeholder="you@domain.com" />
+            </div>
+            <div class="form-row">
+              <label class="form-label" for="phone">Phone</label>
+              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="05XXXXXXXX" />
+            </div>
+          </div>
+
+          <!-- Address / optional -->
+          <div class="form-row">
+            <label class="form-label" for="address">Address (optional)</label>
+            <input class="form-input" id="address" name="address" type="text" placeholder="Street, Area, City" />
+          </div>
+
+          <!-- Website / GMaps -->
+          <div class="grid-2">
+            <div class="form-row">
+              <label class="form-label" for="website">Website (optional)</label>
+              <input class="form-input" id="website" name="website" type="url" placeholder="https://..." />
+            </div>
+            <div class="form-row">
+              <label class="form-label" for="maps">Google Maps Link (optional)</label>
+              <input class="form-input" id="maps" name="google_maps" type="url" placeholder="https://maps.google.com/..." />
+            </div>
+          </div>
+
+          <!-- Optional: Notes -->
+          <div class="form-row">
+            <label class="form-label" for="notes">Notes (optional)</label>
+            <textarea class="form-input" id="notes" name="notes" rows="4" placeholder="Anything we should know?"></textarea>
+          </div>
+
+          <!-- Authorization -->
+          <div class="form-check">
+            <input id="auth" type="checkbox" />
+            <label for="auth">I have legal authorization to represent this business and provide verification documents if requested.</label>
+          </div>
+
+          <!-- Honeypot (spam trap) -->
+          <input type="text" name="company" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <!-- Submit -->
+          <button class="btn primary btn-submit" type="submit">Submit Application</button>
+          <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+        </form>
 
         <!-- Timeline (static) -->
         <div class="apply-steps">
@@ -81,16 +160,78 @@
     </div>
   </footer>
 
-  <!-- Old JS not needed now that the native form is removed -->
-  <!-- <script src="assets/add-business.js"></script> -->
+  <!-- === Same-page AJAX submit to Google Apps Script (Sheets) === -->
+  <script>
+  // Replace with your deployed Web App URL from Google Apps Script
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyJoQ9UmDLiUovpMaIN7ZzQWEeNHZj1Qlz03vcWupqyDLcDMUIxX4sqFrSQRbMlw97E9A/exec'; // e.g., https://script.google.com/macros/s/AKfycbx.../exec
 
-  <style>
-    /* Make the embedded form fill the card cleanly */
-    .apply-card .embed-form iframe {
-      width: 100%;
-      max-width: 100%;
-      min-height: 1000px; /* adjust if your Google Form is longer/shorter */
-    }
-  </style>
+  (function () {
+    const form = document.getElementById('addBusinessForm');
+    const msg  = document.getElementById('formMsg');
+    const btn  = document.querySelector('.btn-submit');
+
+    if (!form) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Basic front-end validation
+      const requiredIds = ['placeName', 'firstName', 'lastName', 'email'];
+      for (const id of requiredIds) {
+        const el = document.getElementById(id);
+        if (el && !el.value.trim()) {
+          el.focus();
+          msg.textContent = 'Please fill all required fields.';
+          return;
+        }
+      }
+      // Role: Owner/Employee/Agency (required group)
+      if (!form.querySelector('input[name="role"]:checked')) {
+        msg.textContent = 'Please select your role.'; return;
+      }
+      // Type of Place: required group
+      if (!form.querySelector('input[name="type"]:checked')) {
+        msg.textContent = 'Please select the type of place.'; return;
+      }
+      // Authorization required
+      const auth = document.getElementById('auth');
+      if (auth && !auth.checked) {
+        msg.textContent = 'Please confirm authorization.'; auth.focus(); return;
+      }
+      // Honeypot (spam)
+      if (form.company && form.company.value) return;
+
+      // Collect data
+      const fd = new FormData(form);
+      const data = Object.fromEntries(fd.entries());
+      data.authorization = auth && auth.checked ? 'yes' : 'no';
+      data._ua = navigator.userAgent;
+
+      // Lock UI
+      if (btn) btn.disabled = true;
+      msg.textContent = 'Submitting…';
+
+      try {
+        // Use no-cors so it works without custom CORS headers
+        await fetch(ENDPOINT, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        // Optimistic success (no-cors prevents reading JSON)
+        form.reset();
+        if (auth) auth.checked = false;
+        msg.textContent = 'Thanks! Your submission has been received. We’ll review and get back to you.';
+      } catch (err) {
+        console.error(err);
+        msg.textContent = 'Sorry, submission failed. Please try again in a moment.';
+      } finally {
+        if (btn) btn.disabled = false;
+      }
+    });
+  })();
+  </script>
 </body>
 </html>
