@@ -2088,3 +2088,88 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   font-size: 0.8rem;
   line-height: 1.1;
 }
+
+/* === Best Things (right-column listings): fixed right-rail for Open + Rating === */
+#best-things .top-listings .listing-card {
+  position: relative;
+  padding-right: 110px;                 /* room for the right-rail badges */
+}
+
+/* Right-rail — common size */
+#best-things .top-listings .listing-card ._rightpill {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;                          /* fixed width */
+  height: 28px;                         /* fixed height (pill) */
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;                       /* keeps text vertically crisp */
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;                 /* they’re indicators, not CTAs */
+}
+
+/* Open (top) — reuse your Open colors */
+#best-things .top-listings .listing-card .info .status.open {
+  top: 10px;
+  background: #e8f7e8;
+  color: #107810;
+  border: 0;
+}
+
+/* Make Open adopt the right-rail sizing */
+#best-things .top-listings .listing-card .info .status.open {
+  /* inherit the size/centering */
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 28px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  position: absolute;                   /* pull it out of the meta line */
+}
+
+/* Rating (below Open) — fixed size, emerald */
+#best-things .top-listings .listing-card .score.pill-green {
+  top: 44px;                            /* sits below the Open pill */
+  background: #16a34a !important;
+  color: #fff !important;
+
+  /* inherit the size/centering from the right-rail */
+  right: 10px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 90px !important;
+  height: 28px !important;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  position: absolute;
+}
+
+/* Keep the meta line from jumping (since Open is now absolutely positioned) */
+#best-things .top-listings .listing-card .info .sub {
+  padding-right: 100px;                 /* avoids text under the right rail */
+}
+
+/* Tighten on small screens but keep alignment */
+@media (max-width: 600px) {
+  #best-things .top-listings .listing-card {
+    padding-right: 100px;
+  }
+  #best-things .top-listings .listing-card ._rightpill,
+  #best-things .top-listings .listing-card .info .status.open,
+  #best-things .top-listings .listing-card .score.pill-green {
+    width: 84px;
+  }
+}
