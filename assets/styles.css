@@ -2306,3 +2306,45 @@ body:not(.page-best-things) #best-things .top-listings .listing-card .info .sub 
     width: 84px;
   }
 }
+
+/* === Add My Business (apply) === */
+.page-add-business .header-search { display:none; }
+
+.apply-card { 
+  margin: 20px 0; 
+  background:#fff; border:1px solid var(--border); border-radius:16px;
+  box-shadow: 0 6px 18px rgba(17,24,39,.05);
+}
+.apply-head { display:flex; align-items:center; justify-content:space-between; padding:16px 18px; border-bottom:1px solid var(--border); }
+.apply-title { margin: 14px 18px 6px; font-size:1.4rem; }
+.apply-sub { margin: 0 18px 14px; color:#444; }
+
+.dot { display:inline-block; width:8px; height:8px; border-radius:999px; margin-right:6px; vertical-align:middle; }
+.dot-green { background:#16a34a; }
+.dot-blue { background:#0b57d0; }
+
+.form { padding: 0 18px 18px; }
+.form-row { margin: 10px 0; }
+.form-label { display:block; font-weight:600; margin-bottom: 6px; }
+.form-input { width:100%; padding:10px 12px; border:1px solid #d0d5dd; border-radius:10px; }
+.form-hint { margin:6px 0 0; color:#666; font-size: .92rem; }
+
+.form-fieldset { border:0; margin: 10px 0; padding:0; }
+.chip-toggle { cursor:pointer; }
+.chip-toggle input { appearance:none; width:0; height:0; position:absolute; }
+.chip-toggle:has(input:checked) { background:#0b5fff; color:#fff; border-color:#0b5fff; }
+
+.grid-2 { display:grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width:700px){ .grid-2 { grid-template-columns:1fr; } }
+
+.form-check { display:flex; gap:8px; align-items:flex-start; margin:12px 0; }
+.btn-submit { margin-top: 8px; width: 100%; }
+
+.form-msg { margin: 10px 0 0; font-weight:600; }
+.form-msg.ok { color:#107810; }
+.form-msg.err { color:#a42525; }
+
+.apply-steps { border-top:1px solid var(--border); padding: 14px 18px 18px; display:grid; gap:12px; }
+.step-title { font-weight:700; margin-bottom:4px; }
+
+.apply-badge img { width:40px; height:40px; object-fit:contain; }
