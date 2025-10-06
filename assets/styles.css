@@ -1971,20 +1971,17 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   color: #a42525;
 }
 
-/* === Best Things: green rating pill (used in right column) === */
+/* === Best Things: green rating pill (used in right column) — compact like "Open" === */
 .pill-green {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 44px;
-  height: 28px;
-  padding: 0 10px;
+  display: inline-block;
+  padding: 2px 8px;        /* match .best-things .status */
   border-radius: 999px;
-  background: #16a34a;   /* emerald */
+  background: #16a34a;     /* keep emerald green */
   color: #fff;
-  font-weight: 800;
-  font-size: 0.95rem;
+  font-weight: 700;        /* same weight as status pills */
+  font-size: 0.75rem;      /* same size as status pills */
   line-height: 1;
+  vertical-align: middle;  /* aligns nicely with text/meta row */
 }
 
 /* Make space between stacked blocks on the See-All page */
