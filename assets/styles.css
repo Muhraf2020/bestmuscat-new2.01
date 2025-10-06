@@ -2242,49 +2242,67 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 }
 
 /* =========================
-   HOMEPAGE (NOT see-all)
-   Keep listings one-per-row and reset any right-rail tweaks
+   HOMEPAGE ONLY (NOT see-all)
+   One column + fixed right-rail pills (Open above, Rating below)
    ========================= */
 body:not(.page-best-things) #best-things .top-listings {
-  display: block;                 /* 1 column list */
+  display: block;                 /* keep homepage list as one column */
 }
 
 body:not(.page-best-things) #best-things .top-listings .listing-card {
-  position: static;               /* undo absolute right-rail positioning */
-  padding-right: 0;
+  position: relative;             /* enable right-rail positioning */
+  padding-right: 110px;           /* reserve space for pills on the right */
 }
 
-/* Put badges back inline (no fixed-size pills on homepage) */
-body:not(.page-best-things) #best-things .top-listings .listing-card .info .status.open,
+/* Open pill (top-right, fixed size) */
+body:not(.page-best-things) #best-things .top-listings .listing-card .info .status.open {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 90px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  background: #e8f7e8;
+  color: #107810;
+  z-index: 2;
+  border: 0;
+}
+
+/* Rating pill (below Open, fixed size) */
 body:not(.page-best-things) #best-things .top-listings .listing-card .score.pill-green {
-  position: static;
-  width: auto !important;
-  height: auto !important;
-  display: inline-block !important;
-  margin-left: 6px;               /* small gap after meta text */
-  border-radius: 8px;
+  position: absolute;
+  right: 10px;
+  top: 44px;                      /* below the Open pill */
+  width: 90px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  background: #16a34a !important;
+  color: #fff !important;
+  z-index: 2;
 }
 
+/* Prevent meta text from flowing under the right rail */
 body:not(.page-best-things) #best-things .top-listings .listing-card .info .sub {
-  padding-right: 0;               /* no reserved rail on homepage */
+  padding-right: 100px;
 }
 
-/* (Optional) if homepage currently forces 2 columns via some older rule, neutralize it */
-body:not(.page-best-things) #best-things .top-listings > * {
-  width: 100%;
+/* Slightly narrower pills on very small screens */
+@media (max-width: 600px) {
+  body:not(.page-best-things) #best-things .top-listings .listing-card { padding-right: 100px; }
+  body:not(.page-best-things) #best-things .top-listings .listing-card .info .status.open,
+  body:not(.page-best-things) #best-things .top-listings .listing-card .score.pill-green {
+    width: 84px;
+  }
 }
-
-/* =========================
-   SEE-ALL PAGE (best-things.html)
-   Keep your 2-column list + right-rail pills
-   ========================= */
-/* already in place from earlier:
-.page-best-things #best-things .top-listings {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-}
-.page-best-things #best-things .top-listings .listing-card { position: relative; padding-right:110px; }
-.page-best-things #best-things .top-listings .listing-card .info .status.open { position:absolute; right:10px; top:10px; width:90px; height:28px; ... }
-.page-best-things #best-things .top-listings .listing-card .score.pill-green { position:absolute; right:10px; top:44px; width:90px; height:28px; ... }
-*/
