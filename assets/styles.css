@@ -2150,3 +2150,93 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
     width: 84px;
   }
 }
+
+/* === See-All page only (prevents homepage bleed) === */
+
+/* One column: featured full-width, then two-column list */
+.page-best-things #best-things .bt-block .best-things-content {
+  display: block;
+}
+.page-best-things #best-things .featured-card {
+  display: block;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.page-best-things #best-things .top-listings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 900px) {
+  .page-best-things #best-things .top-listings {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Hide the per-block headings on this page only */
+.page-best-things #best-things .bt-block .bt-head { 
+  display: none; 
+}
+
+/* Hide tabs on this page only (you can remove the inline <style> if you want) */
+.page-best-things #best-things .tabs { 
+  display: none; 
+}
+
+/* Right-rail for Open (top) + Rating (below) – page-scoped */
+.page-best-things #best-things .top-listings .listing-card {
+  position: relative;
+  padding-right: 110px;
+}
+
+/* Open pill */
+.page-best-things #best-things .top-listings .listing-card .info .status.open {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 90px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  background: #e8f7e8;
+  color: #107810;
+  z-index: 2;
+  border: 0;
+}
+
+/* Rating pill */
+.page-best-things #best-things .top-listings .listing-card .score.pill-green {
+  position: absolute;
+  right: 10px;
+  top: 44px;
+  width: 90px !important;
+  height: 28px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  background: #16a34a !important;
+  color: #fff !important;
+  z-index: 2;
+}
+
+/* Keep meta text from flowing under right-rail */
+.page-best-things #best-things .top-listings .listing-card .info .sub {
+  padding-right: 100px;
+}
+
+@media (max-width: 600px) {
+  .page-best-things #best-things .top-listings .listing-card { padding-right: 100px; }
+  .page-best-things #best-things .top-listings .listing-card .info .status.open,
+  .page-best-things #best-things .top-listings .listing-card .score.pill-green {
+    width: 84px;
+  }
+}
