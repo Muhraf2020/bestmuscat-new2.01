@@ -60,12 +60,12 @@
           <!-- Basic details -->
           <div class="form-row">
             <label class="form-label" for="placeName">Place Name</label>
-            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Burj Khalifa" />
+            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Burj Khalifa" autocomplete="organization" />
           </div>
 
           <div class="form-row">
             <label class="form-label" for="legalName">Legal Business Name</label>
-            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Emaar Properties PJSC" />
+            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Emaar Properties PJSC" autocomplete="organization" />
           </div>
 
           <!-- Your Role (chips -> radios) -->
@@ -82,36 +82,36 @@
           <div class="grid-2">
             <div class="form-row">
               <label class="form-label" for="firstName">First Name</label>
-              <input class="form-input" id="firstName" name="first_name" type="text" required />
+              <input class="form-input" id="firstName" name="first_name" type="text" required autocomplete="given-name" />
             </div>
             <div class="form-row">
               <label class="form-label" for="lastName">Last Name</label>
-              <input class="form-input" id="lastName" name="last_name" type="text" required />
+              <input class="form-input" id="lastName" name="last_name" type="text" required autocomplete="family-name" />
             </div>
           </div>
 
           <div class="grid-2">
             <div class="form-row">
               <label class="form-label" for="email">E-mail</label>
-              <input class="form-input" id="email" name="email" type="email" required placeholder="you@domain.com" />
+              <input class="form-input" id="email" name="email" type="email" required placeholder="you@domain.com" autocomplete="email" inputmode="email" />
             </div>
             <div class="form-row">
               <label class="form-label" for="phone">Phone</label>
-              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="05XXXXXXXX" />
+              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="05XXXXXXXX" autocomplete="tel" />
             </div>
           </div>
 
           <!-- Address / optional -->
           <div class="form-row">
             <label class="form-label" for="address">Address (optional)</label>
-            <input class="form-input" id="address" name="address" type="text" placeholder="Street, Area, City" />
+            <input class="form-input" id="address" name="address" type="text" placeholder="Street, Area, City" autocomplete="street-address" />
           </div>
 
           <!-- Website / GMaps -->
           <div class="grid-2">
             <div class="form-row">
               <label class="form-label" for="website">Website (optional)</label>
-              <input class="form-input" id="website" name="website" type="url" placeholder="https://..." />
+              <input class="form-input" id="website" name="website" type="url" placeholder="https://..." autocomplete="url" />
             </div>
             <div class="form-row">
               <label class="form-label" for="maps">Google Maps Link (optional)</label>
@@ -127,7 +127,7 @@
 
           <!-- Authorization -->
           <div class="form-check">
-            <input id="auth" type="checkbox" />
+            <input id="auth" type="checkbox" required />
             <label for="auth">I have legal authorization to represent this business and provide verification documents if requested.</label>
           </div>
 
@@ -163,7 +163,7 @@
   <!-- === Same-page AJAX submit to Google Apps Script (Sheets) === -->
   <script>
   // Replace with your deployed Web App URL from Google Apps Script
-  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbykxOcCOmROZ762H7AFZRrjcSAfSRDXeBEx6jb90ggqLbdYKzEJrMexBqkp4kw6jsixdg/exec'; // e.g., https://script.google.com/macros/s/AKfycbx.../exec
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbykxOcCOmROZ762H7AFZRrjcSAfSRDXeBEx6jb90ggqLbdYKzEJrMexBqkp4kw6jsixdg/exec';
 
   (function () {
     const form = document.getElementById('addBusinessForm');
