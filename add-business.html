@@ -37,6 +37,17 @@
             <span class="dot dot-green"></span> Instant
           </div>
         </div>
+        
+        <!-- Hero image -->
+        <figure class="apply-hero">
+          <img
+            src="https://cache.marriott.com/content/dam/marriott-renditions/MCTWH/mctwh-facade-5100-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"
+            alt="Muscat skyline hotel facade"
+            loading="eager"
+            decoding="async"
+          />
+        </figure>
+
 
         <h1 class="apply-title">Add My Business</h1>
         <p class="apply-sub">Complete the form to submit your business for approval.</p>
@@ -103,7 +114,8 @@
             </div>
             <div class="form-row">
               <label class="form-label" for="phone">Phone</label>
-              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="95XXXXXXXX" autocomplete="tel" />
+              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="95XXXXXXXX" autocomplete="tel"
+               pattern="^[0-9 +()-]{6,20}$" />
             </div>
           </div>
 
@@ -239,5 +251,27 @@
     });
   })();
   </script>
+  <style>
+  /* Hero image styling */
+  .apply-hero {
+    margin: 12px 0 20px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #f4f6f8;
+    aspect-ratio: 16 / 9;              /* keeps a nice ratio */
+  }
+  .apply-hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;                  /* fill the area without distortion */
+  }
+  @supports not (aspect-ratio: 16 / 9) {
+    /* Fallback for very old browsers */
+    .apply-hero { position: relative; padding-top: 56.25%; }
+    .apply-hero img { position: absolute; inset: 0; }
+  }
+  </style>
+
 </body>
 </html>
