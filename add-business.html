@@ -47,12 +47,18 @@
           <fieldset class="form-fieldset">
             <legend class="form-label">Type of Place</legend>
             <div class="chip-group" role="group" aria-label="Type of Place">
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Restaurant" required /> Restaurant</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Attraction" /> Attraction</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Sports & Fitness" /> Sports-Fitness</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="School" /> School</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Hotel" /> Hotel</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Mall" /> Mall</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Hotels" required /> Hotels</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Restaurants" /> Restaurants</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Schools" /> Schools</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Spas" /> Spas</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Clinics" /> Clinics</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Malls" /> Malls</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Car Repair Garages" /> Car Repair Garages</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Home Maintenance and Repair" /> Home Maintenance and Repair</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Catering Services" /> Catering Services</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Events Planning" /> Events Planning</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Moving and Storage" /> Moving and Storage</label>
+              <label class="chip chip-toggle"><input type="radio" name="type" value="Other" /> Other</label>
             </div>
             <p class="form-hint">Pick the closest match.</p>
           </fieldset>
@@ -60,12 +66,12 @@
           <!-- Basic details -->
           <div class="form-row">
             <label class="form-label" for="placeName">Place Name</label>
-            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Burj Khalifa" autocomplete="organization" />
+            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Mall of Oman" autocomplete="organization" />
           </div>
 
           <div class="form-row">
             <label class="form-label" for="legalName">Legal Business Name</label>
-            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Emaar Properties PJSC" autocomplete="organization" />
+            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Oasis Tours LTD" autocomplete="organization" />
           </div>
 
           <!-- Your Role (chips -> radios) -->
@@ -97,7 +103,7 @@
             </div>
             <div class="form-row">
               <label class="form-label" for="phone">Phone</label>
-              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="05XXXXXXXX" autocomplete="tel" />
+              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="95XXXXXXXX" autocomplete="tel" />
             </div>
           </div>
 
