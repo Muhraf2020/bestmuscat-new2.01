@@ -2038,3 +2038,4 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
     grid-template-columns: 1fr;
   }
 }
+.header-actions .btn-suggest + .btn-suggest { margin-left: 8px; }
