@@ -1989,8 +1989,8 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   display: inline-block;     /* override the flex from .listing-card .score */
   padding: 2px 8px;          /* identical to .best-things .status pills */
   border-radius: 999px;
-  background: #e8f7e8;       /* use the same background as "Open" */
-  color: #107810;            /* same text color as "Open" */
+  background: #16a34a;       /* use the same background as "Open" */
+  color: #fff;            /* same text color as "Open" */
   font-weight: 700;          /* same weight */
   font-size: 0.75rem;        /* same size */
   line-height: 1;
