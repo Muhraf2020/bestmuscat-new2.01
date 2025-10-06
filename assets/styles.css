@@ -1992,53 +1992,53 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
 .bt-block { margin: 26px 0; }
 .bt-block .bt-head h2 { margin: 0 0 10px; }
 
-/* ===== Best Things — 2-column layout (featured left, list right) ===== */
+/* ===== Best Things — one column: featured full-width, then two-column list ===== */
 #best-things .bt-block .best-things-content {
-  display: grid;
-  grid-template-columns: 1.05fr 1.35fr;  /* featured ~44%, list ~56% */
-  gap: 16px;
-  align-items: start;
+  display: block;                     /* one column container */
 }
 
-/* Featured column presentation (keeps your existing card look) */
 #best-things .featured-card {
   display: block;
+  width: 100%;
+  margin-bottom: 14px;                /* space before the grid below */
 }
 
-/* Right column — vertical list with comfortable spacing */
+/* Below the featured: 2-column grid of listings */
 #best-things .top-listings {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 
-/* Optional: if the list items are anchors/cards, make them tidy rows */
+/* Keep tidy row layout inside each listing card/anchor (unchanged behavior) */
 #best-things .top-listings .card,
 #best-things .top-listings a {
   display: grid;
-  grid-template-columns: 1fr auto; /* title/info | rating/badge */
+  grid-template-columns: 1fr auto; /* title/info | rating/chip */
   gap: 8px;
   align-items: center;
   text-decoration: none;
 }
 
-/* Ensure ratings / chips align on the right nicely */
+/* Ensure ratings / chips align on the right nicely (unchanged) */
 #best-things .top-listings .badge,
 #best-things .top-listings .rating-badge {
   justify-self: end;
 }
 
-/* Section heading breathing space */
+/* Section heading breathing space (unchanged) */
 #best-things .bt-block .bt-head {
   margin: 18px 0 12px;
 }
 
-/* Mobile: stack to single column */
+/* Mobile: listings collapse to 1 column */
 @media (max-width: 900px) {
-  #best-things .bt-block .best-things-content {
+  #best-things .top-listings {
     grid-template-columns: 1fr;
   }
 }
+
+
 .header-actions .btn-suggest + .btn-suggest { margin-left: 8px; }
 
 /* === Best Things (right column): make rating sit under the thumbnail,
