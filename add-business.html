@@ -41,9 +41,9 @@
         <h1 class="apply-title">Add My Business</h1>
         <p class="apply-sub">Complete the form to submit your business for approval.</p>
 
-        <!-- NOTE: Replace the Formspree endpoint with yours (see Step 3) -->
-        <!-- Embedded Google Form (keeps users on this page). Replace YOUR_FORM_ID with your actual Google Form ID. -->
-        <div class="embed-form">
+        <!-- Embedded Google Form (keeps users on this page).
+             Replace YOUR_FORM_ID with your actual Google Form ID. -->
+        <div class="embed-form" role="region" aria-label="Business submission form">
           <iframe
             src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
             width="100%"
@@ -55,112 +55,10 @@
             style="border:0; background:#fff; border-radius:12px; display:block;">
             Loading…
           </iframe>
+          <noscript>
+            <p>Please enable JavaScript to load the submission form.</p>
+          </noscript>
         </div>
-
-          <!-- Category (chips) -->
-          <fieldset class="form-fieldset">
-            <legend class="form-label">Type of Place</legend>
-            <div class="chip-group" role="group" aria-label="Type of Place">
-              <!-- Each chip selects a radio -->
-              <label class="chip chip-toggle">
-                <input type="radio" name="type" value="Restaurant" required />
-                Restaurant
-              </label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Attraction" /> Attraction</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Sports & Fitness" /> Sports-Fitness</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="School" /> School</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Hotel" /> Hotel</label>
-              <label class="chip chip-toggle"><input type="radio" name="type" value="Mall" /> Mall</label>
-            </div>
-            <p class="form-hint">Pick the closest match.</p>
-          </fieldset>
-
-          <!-- Basic details -->
-          <div class="form-row">
-            <label class="form-label" for="placeName">Place Name</label>
-            <input class="form-input" id="placeName" name="place_name" type="text" required placeholder="Burj Khalifa" />
-          </div>
-
-          <div class="form-row">
-            <label class="form-label" for="legalName">Legal Business Name</label>
-            <input class="form-input" id="legalName" name="legal_name" type="text" placeholder="Emaar Properties PJSC" />
-          </div>
-
-          <!-- Role (chips) -->
-          <fieldset class="form-fieldset">
-            <legend class="form-label">Your Role</legend>
-            <div class="chip-group" role="group" aria-label="Your Role">
-              <label class="chip chip-toggle"><input type="radio" name="role" value="Owner" required /> Owner</label>
-              <label class="chip chip-toggle"><input type="radio" name="role" value="Employee" /> Employee</label>
-              <label class="chip chip-toggle"><input type="radio" name="role" value="Agency" /> Agency</label>
-            </div>
-          </fieldset>
-
-          <!-- Contact -->
-          <div class="grid-2">
-            <div class="form-row">
-              <label class="form-label" for="firstName">First Name</label>
-              <input class="form-input" id="firstName" name="first_name" type="text" required />
-            </div>
-            <div class="form-row">
-              <label class="form-label" for="lastName">Last Name</label>
-              <input class="form-input" id="lastName" name="last_name" type="text" required />
-            </div>
-          </div>
-
-          <div class="grid-2">
-            <div class="form-row">
-              <label class="form-label" for="email">E-mail</label>
-              <input class="form-input" id="email" name="email" type="email" required placeholder="you@domain.com" />
-            </div>
-            <div class="form-row">
-              <label class="form-label" for="phone">Phone</label>
-              <input class="form-input" id="phone" name="phone" type="tel" inputmode="tel" placeholder="05XXXXXXXX" />
-            </div>
-          </div>
-
-          <!-- Address / optional -->
-          <div class="form-row">
-            <label class="form-label" for="address">Address (optional)</label>
-            <input class="form-input" id="address" name="address" type="text" placeholder="Street, Area, City" />
-          </div>
-
-          <!-- Website / GMaps -->
-          <div class="grid-2">
-            <div class="form-row">
-              <label class="form-label" for="website">Website (optional)</label>
-              <input class="form-input" id="website" name="website" type="url" placeholder="https://..." />
-            </div>
-            <div class="form-row">
-              <label class="form-label" for="maps">Google Maps Link (optional)</label>
-              <input class="form-input" id="maps" name="google_maps" type="url" placeholder="https://maps.google.com/..." />
-            </div>
-          </div>
-
-          <!-- Files (optional proof) -->
-          <div class="form-row">
-            <label class="form-label" for="attachments">Upload documents (optional)</label>
-            <input class="form-input" id="attachments" name="attachments" type="file" multiple />
-            <p class="form-hint">Business license, menu, brochure, or photos.</p>
-          </div>
-
-          <!-- Authorization -->
-          <div class="form-check">
-            <input id="auth" type="checkbox" required />
-            <label for="auth">I have legal authorization to represent this business and provide verification documents if requested.</label>
-          </div>
-
-          <!-- Honeypot (spam trap) -->
-          <input type="text" name="_gotcha" class="sr-only" tabindex="-1" autocomplete="off" />
-
-          <!-- Redirect / metadata -->
-          <input type="hidden" name="_subject" value="New Business Submission — Best Muscat" />
-          <input type="hidden" name="page" value="Best Muscat — Add My Business" />
-
-          <button class="btn primary btn-submit" type="submit">Submit Application</button>
-
-          <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
-        </form>
 
         <!-- Timeline (static) -->
         <div class="apply-steps">
@@ -183,6 +81,16 @@
     </div>
   </footer>
 
+  <!-- Old JS not needed now that the native form is removed -->
   <!-- <script src="assets/add-business.js"></script> -->
+
+  <style>
+    /* Make the embedded form fill the card cleanly */
+    .apply-card .embed-form iframe {
+      width: 100%;
+      max-width: 100%;
+      min-height: 1000px; /* adjust if your Google Form is longer/shorter */
+    }
+  </style>
 </body>
 </html>
