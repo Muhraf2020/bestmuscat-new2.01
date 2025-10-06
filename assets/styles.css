@@ -2065,29 +2065,6 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   grid-row: 1 / span 2;
 }
 
-/* Rating pill: under the image, same width as the image, centered text */
-.best-things .top-listings .listing-card .score.pill-green {
-  grid-column: 1;
-  grid-row: 2;
-
-  /* override the generic .listing-card .score flex rules */
-  display: block !important;
-  width: 100% !important;       /* equals the column width = 88px */
-  min-width: 0 !important;
-  height: auto !important;
-  text-align: center;
-
-  /* compact pill sizing */
-  padding: 4px 0;
-  border-radius: 8px;
-
-  /* keep emerald green look (you can swap to Open pill colors if you prefer) */
-  background: #16a34a !important;  /* emerald */
-  color: #fff !important;
-  font-weight: 700;
-  font-size: 0.8rem;
-  line-height: 1.1;
-}
 
 /* === Best Things (right-column listings): fixed right-rail for Open + Rating === */
 #best-things .top-listings .listing-card {
