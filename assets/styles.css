@@ -2040,3 +2040,51 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   }
 }
 .header-actions .btn-suggest + .btn-suggest { margin-left: 8px; }
+
+/* === Best Things (right column): make rating sit under the thumbnail,
+      same width as the thumbnail (88px), text centered === */
+
+/* Grid the small listing rows so we can park the rating under the image */
+.best-things .top-listings .listing-card {
+  display: grid !important;
+  grid-template-columns: 88px 1fr;   /* thumbnail | info */
+  grid-template-rows: auto auto;     /* name/meta | rating under image */
+  column-gap: 10px;
+  align-items: start;
+}
+
+/* Keep the 88×88 thumbnail in column 1 */
+.best-things .top-listings .listing-card img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* Info spans the right side (both rows) */
+.best-things .top-listings .listing-card .info {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+/* Rating pill: under the image, same width as the image, centered text */
+.best-things .top-listings .listing-card .score.pill-green {
+  grid-column: 1;
+  grid-row: 2;
+
+  /* override the generic .listing-card .score flex rules */
+  display: block !important;
+  width: 100% !important;       /* equals the column width = 88px */
+  min-width: 0 !important;
+  height: auto !important;
+  text-align: center;
+
+  /* compact pill sizing */
+  padding: 4px 0;
+  border-radius: 8px;
+
+  /* keep emerald green look (you can swap to Open pill colors if you prefer) */
+  background: #16a34a !important;  /* emerald */
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
