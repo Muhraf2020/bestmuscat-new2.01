@@ -173,11 +173,46 @@
     </div>
   </main>
 
-  <footer>
+    <footer>
     <div class="wrap">
-      <small class="disclaimer">By continuing, you agree to Best Muscat’s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</small>
+      <!-- Browse categories -->
+      <section class="footer-cats" aria-labelledby="footer-cats-title">
+        <h2 id="footer-cats-title" class="footer-title">Browse categories</h2>
+        <nav class="chip-group footer-chip-group">
+          <a class="chip" href="index.html?category=hotels">Hotels</a>
+          <a class="chip" href="index.html?category=restaurants">Restaurants</a>
+          <a class="chip" href="index.html?category=schools">Schools</a>
+          <a class="chip" href="index.html?category=spas">Spas</a>
+          <a class="chip" href="index.html?category=clinics">Clinics</a>
+          <a class="chip" href="index.html?category=malls">Malls</a>
+          <a class="chip" href="index.html?category=car-repair-garages">Car Repair Garages</a>
+          <a class="chip" href="index.html?category=home-maintenance-and-repair">Home Maintenance & Repair</a>
+          <a class="chip" href="index.html?category=catering-services">Catering Services</a>
+          <a class="chip" href="index.html?category=events">Events Planning</a>
+          <a class="chip" href="index.html?category=moving-and-storage">Moving & Storage</a>
+        </nav>
+      </section>
+  
+      <!-- Disclaimer -->
+      <section class="footer-disclaimer" aria-labelledby="footer-disclaimer-title">
+        <h2 id="footer-disclaimer-title" class="footer-title">Places & Links Disclaimer</h2>
+        <p class="disclaimer-text">
+          The places and external links referenced on this website are provided solely for informational purposes.
+          Inclusion does not constitute endorsement or preference; no affiliate relationships.
+          Features, pricing, availability and policies may change—verify current details before you visit.
+          External websites are not under our control; links may change.
+          All trademarks belong to their owners. No warranty is expressed or implied.
+        </p>
+      </section>
+  
+      <!-- Legal -->
+      <small class="disclaimer legal">
+        By continuing, you agree to Best Muscat’s
+        <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+      </small>
     </div>
   </footer>
+
 
   <!-- === Same-page AJAX submit to Google Apps Script (Sheets) === -->
   <script>
@@ -272,6 +307,16 @@
     .apply-hero { position: relative; padding-top: 56.25%; }
     .apply-hero img { position: absolute; inset: 0; }
   }
+  </style>
+  
+  <style>
+  .footer-title { font-size: 1rem; font-weight: 600; margin: 0 0 .5rem; }
+  .footer-cats { margin: 1.5rem 0 1rem; }
+  .footer-chip-group { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .footer-chip-group .chip { text-decoration: none; }
+  .footer-disclaimer { margin: 1rem 0 1.25rem; }
+  .disclaimer-text { font-size: .9rem; line-height: 1.5; color: #555; }
+  .disclaimer.legal { display: block; margin-top: .75rem; color: #777; }
   </style>
 
 </body>
