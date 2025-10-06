@@ -1984,6 +1984,20 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   vertical-align: middle;  /* aligns nicely with text/meta row */
 }
 
+/* Make rating pill exactly like the "Open" pill on Best Things listings */
+.listing-card .score.pill-green {
+  display: inline-block;     /* override the flex from .listing-card .score */
+  padding: 2px 8px;          /* identical to .best-things .status pills */
+  border-radius: 999px;
+  background: #e8f7e8;       /* use the same background as "Open" */
+  color: #107810;            /* same text color as "Open" */
+  font-weight: 700;          /* same weight */
+  font-size: 0.75rem;        /* same size */
+  line-height: 1;
+  vertical-align: middle;
+}
+
+
 /* Make space between stacked blocks on the See-All page */
 .bt-block { margin: 26px 0; }
 .bt-block .bt-head h2 { margin: 0 0 10px; }
