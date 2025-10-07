@@ -2,112 +2,52 @@
   {
     "slug": "fine-dining",
     "title": "Best Fine Dining in Muscat — Top 10",
-    "intro": "A hand-picked list of Muscat’s finest tables, ranked by rating.",
+    "intro": "A hand-picked list of Muscat’s finest tables.",
     "items": [
-      {
-        "slug": "zomra-restaurant"
-      },
-      {
-        "slug": "baba-kebabs-turkish-restaurant"
-      },
-      {
-        "slug": "abu-elzooz-restaurant"
-      },
-      {
-        "slug": "fawazco-lebanese-restaurant"
-      },
-      {
-        "slug": "huqqa"
-      },
-      {
-        "slug": "italian-barrista-cafe"
-      },
-      {
-        "slug": "marhaba-world-al-bukhari"
-      },
-      {
-        "slug": "o-licious"
-      },
-      {
-        "slug": "simitci-dunyasi-city-center-muscat"
-      },
-      {
-        "slug": "the-kitchen-restaurant"
-      }
+      { "slug": "kargeen-restaurant" },
+      { "slug": "al-safa-restaurant" },
+      { "slug": "avasa-asian-cuisine" },
+      { "slug": "woodlands-restaurant" },
+      { "slug": "bin-ateek-restaurant" },
+      { "slug": "bibi-restaurant" },
+      { "slug": "the-mediterranean-restaurant" },
+      { "slug": "indian-mehfil-restaurant-seeb" },
+      { "slug": "spice-valley" },
+      { "slug": "oppast" }
     ]
   },
   {
-    "slug": "best-spas",
-    "title": "Best Spas in Muscat — Top 10",
-    "intro": "Relax, restore, and recharge in these standout spas.",
+    "slug": "spas-wellness",
+    "title": "Best Spas & Wellness in Muscat — Top 10",
+    "intro": "Relax, restore and recharge at these standout spas and studios.",
     "items": [
-      {
-        "slug": "a-good-day-for-thai-massage"
-      },
-      {
-        "slug": "alila-men-salon-spa-bawshar"
-      },
-      {
-        "slug": "blue-moon-men-salon"
-      },
-      {
-        "slug": "body-and-sole-spa"
-      },
-      {
-        "slug": "chicken-feet-day-spa"
-      },
-      {
-        "slug": "cut-more-spa-and-barber"
-      },
-      {
-        "slug": "fr-spa"
-      },
-      {
-        "slug": "friends-nails-hub"
-      },
-      {
-        "slug": "grand-inn-spa-massage-spa"
-      },
-      {
-        "slug": "green-grass-spa-body-massage-moroccan-bath"
-      }
+      { "slug": "the-caves-spa-salon-for-men" },
+      { "slug": "duo-beauty-center" },
+      { "slug": "joelle-mena" },
+      { "slug": "kuwaiti-medi-care-aesthetics-clinic-muscat" },
+      { "slug": "ayana-beauty-salon" },
+      { "slug": "salon-european" },
+      { "slug": "glamour-nails-spa" },
+      { "slug": "nawras-harmal-saloon" },
+      { "slug": "justhair-oman" },
+      { "slug": "the-house-of-mane" }
     ]
   },
   {
-    "slug": "wellness-aesthetics",
-    "title": "Best Wellness & Aesthetics in Muscat — Top 10",
-    "intro": "Clinics and studios for wellness, aesthetics, and longevity.",
+    "slug": "aesthetics",
+    "title": "Best Aesthetics Clinics in Muscat — Top 10",
+    "intro": "Top clinics for dermatology, laser and cosmetic treatments.",
     "items": [
-      {
-        "slug": "a-good-day-for-thai-massage"
-      },
-      {
-        "slug": "alila-men-salon-spa-bawshar"
-      },
-      {
-        "slug": "blue-moon-men-salon"
-      },
-      {
-        "slug": "body-and-sole-spa"
-      },
-      {
-        "slug": "chicken-feet-day-spa"
-      },
-      {
-        "slug": "cut-more-spa-and-barber"
-      },
-      {
-        "slug": "fr-spa"
-      },
-      {
-        "slug": "friends-nails-hub"
-      },
-      {
-        "slug": "grand-inn-spa-massage-spa"
-      },
-      {
-        "slug": "green-grass-spa-body-massage-moroccan-bath"
-      }
+      { "slug": "brite-medical-center-dental-laser-dermatology-clinic" },
+      { "slug": "jana-dermatology" },
+      { "slug": "wassan-specialty-dental-center-i-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry" },
+      { "slug": "al-manasir-skin-clinic-seeb" },
+      { "slug": "dar-derma-clinic" },
+      { "slug": "grand-medical-care-gynecology-drive-thru-blood-test-pcr-dental-dermatology-general-medicine" },
+      { "slug": "neena-shinas-dental-clinic-best-dental-clinic-in-muscat-oman-i-invisalign-orthodontic-implants-cosmetic-dentistry" },
+      { "slug": "amara-dermatology-clinic" },
+      { "slug": "chic-clinic-derma-aesthetic" },
+      { "slug": "emc-skin-clinic-oman-emc-muscat-dermatology-dentistry" }
     ]
   }
 ]
