@@ -1,3 +1,4 @@
+// FILE: assets/curated.js
 (async function () {
   const qs = new URLSearchParams(location.search);
   const listSlug = qs.get("list") || "";
@@ -7,14 +8,43 @@
   const elGrid  = document.getElementById("c-grid");
   const elJSON  = document.getElementById("jsonld-list");
 
+  // --- small utils ---
   function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
   function initials(name) {
     return (name||"").split(/\s+/).slice(0,2).map(p=>p[0]?.toUpperCase()||"").join("") || "BM";
   }
-  function prettyItemUrl(siteUrl, primaryCat, slug) {
-    // mirrors your SEO_ROUTES.prettyItemUrl behavior for this page
-    const base = (siteUrl || (location.origin + "/")).replace(/\/$/, "/");
-    return `${base}${encodeURIComponent(primaryCat)}/${encodeURIComponent(slug)}/`;
+  const siteUrl = (location.origin + "/").replace(/\/$/, "/");
+
+  // Prefer your SEO route helper if present (assets/seo-routes.js), else fallback
+  function prettyItemUrl(primaryCat, slug) {
+    if (window.SEO_ROUTES && typeof SEO_ROUTES.prettyItemUrl === "function") {
+      return SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, slug);
+    }
+    return `${siteUrl}${encodeURIComponent(primaryCat)}/${encodeURIComponent(slug)}/`;
+  }
+
+  // --- image picking (mirrors app.js behavior, but simplified) ---
+  function isRemoteUrl(u){ return /^https?:\/\//i.test(String(u||"")); }
+  function looksLikeLogo(u){
+    return /(?:^|\/)(?:logo|logos?|brand|mark|icon|icons?|favicon|sprite|social)(?:[-_./]|$)/i.test(u||"") || /\.svg(?:$|\?)/i.test(u||"");
+  }
+  function pickCardImage(obj){
+    const candidates = [
+      obj.image, obj.hero, obj.photo,
+      obj.images && obj.images.card,
+      obj.images && obj.images.hero
+    ].filter(Boolean);
+
+    // prefer local paths
+    for (const c of candidates) {
+      if (!isRemoteUrl(c)) return c;
+    }
+
+    // allow safe remote (avoid logos)
+    const remote = obj.hero_url || (obj.images && obj.images.hero) || obj.image || obj.logo_url;
+    if (remote && isRemoteUrl(remote) && !looksLikeLogo(remote)) return remote;
+
+    return ""; // none
   }
 
   try {
@@ -34,44 +64,59 @@
       return;
     }
 
-    // Set page text + title
-    document.title = curation.title + " — Best Muscat";
+    // --- Page head/meta ---
+    const pageUrl = new URL(location.href);
+    pageUrl.search = `?list=${encodeURIComponent(curation.slug)}`;
+
+    document.title = `${curation.title} — Best Muscat`;
     elTitle.textContent = curation.title || "Curated List";
     elIntro.textContent = curation.intro || "";
 
-    // Build cards for the listed slugs (keeps your custom order)
-    const items = (curation.items || []).map(entry => {
+    // update meta (only if the IDs exist in list.html)
+    document.getElementById("doc-title")?.textContent = document.title;
+    document.getElementById("canonical")?.setAttribute("href", pageUrl.toString());
+    document.getElementById("meta-desc")?.setAttribute("content", curation.intro || "Hand-picked highlights across Muscat.");
+    document.getElementById("og-title")?.setAttribute("content", curation.title || "Curated List");
+    document.getElementById("og-url")?.setAttribute("content", pageUrl.toString());
+
+    // --- Build cards in curated order ---
+    const itemsHTML = (curation.items || []).map(entry => {
       const rec = bySlug[entry.slug] || {};
       const primaryCat = (rec.categories && rec.categories[0]) || "places";
-      const detailUrl = prettyItemUrl("https://bestmuscat.com/", primaryCat, entry.slug);
-
+      const detailUrl = prettyItemUrl(primaryCat, entry.slug);
       const title = esc(rec.name || entry.slug);
       const subtitle = esc(rec.tagline || rec.short_description || rec.description || "");
       const tags = (rec.tags || []).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
 
-      // image: prefer local-ish hero if present; else blank to trigger initials
-      const hero = (rec.image || (rec.images && (rec.images.hero || rec.images.card)) || "").trim();
-      const imgHtml = hero && !/^https?:\/\//i.test(hero)
+      const hero = pickCardImage(rec);
+      const imgHtml = hero
         ? `
           <a href="${detailUrl}" class="card-img" aria-label="${title} details">
-            <img src="${esc(hero)}" alt="${title}" loading="lazy" decoding="async"
+            <img
+              src="${esc(hero)}"
+              alt="${title}"
+              loading="lazy"
+              decoding="async"
               onerror="
                 const wrap = this.closest('.card-img');
-                if (wrap) { wrap.classList.add('img-fallback'); wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc(initials(rec.name))}</div>'; }
+                if (wrap) { wrap.classList.add('img-fallback'); wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc(initials(rec.name||entry.slug))}</div>'; }
               "
             />
           </a>`
         : `
           <a href="${detailUrl}" class="card-img img-fallback" aria-label="${title} details">
-            <div class="img-placeholder">${esc(initials(rec.name))}</div>
+            <div class="img-placeholder">${esc(initials(rec.name||entry.slug))}</div>
           </a>`;
 
       const sponsored = entry.sponsored ? `<span class="badge" title="Paid placement">Sponsored</span>` : "";
 
-      // CTA: View (always) + Website (if valid and not example.com)
+      // Website CTA if real
       const website = rec.website || rec.url || "";
       const websiteIsReal = (() => {
-        try { const u = new URL(website); return /^(https?:)$/.test(u.protocol) && !/(\.|^)example\.com$/i.test(u.hostname); } catch { return false; }
+        try {
+          const u = new URL(website);
+          return /^(https?:)$/.test(u.protocol) && !/(\.|^)example\.com$/i.test(u.hostname);
+        } catch { return false; }
       })();
 
       const ctas = [
@@ -92,9 +137,9 @@
       `;
     });
 
-    elGrid.innerHTML = items.join("");
+    elGrid.innerHTML = itemsHTML.join("");
 
-    // JSON-LD ItemList for the curated page
+    // --- JSON-LD ItemList for the curated page ---
     const itemList = {
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -102,7 +147,7 @@
       "itemListElement": (curation.items || []).map((entry, i) => {
         const rec = bySlug[entry.slug] || {};
         const primaryCat = (rec.categories && rec.categories[0]) || "places";
-        const url = prettyItemUrl("https://bestmuscat.com/", primaryCat, entry.slug);
+        const url = prettyItemUrl(primaryCat, entry.slug);
         return { "@type":"ListItem", "position": i+1, "url": url };
       })
     };
@@ -110,7 +155,7 @@
 
   } catch (e) {
     console.warn(e);
-    document.getElementById("c-grid").innerHTML =
+    elGrid.innerHTML =
       `<div class="empty">Couldn’t load curated list. Check <code>data/curations.json</code> and <code>data/tools.json</code>.</div>`;
   }
 })();
