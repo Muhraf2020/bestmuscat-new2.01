@@ -731,6 +731,29 @@ function ratingChipHTML(t){
 
 
     // --- END CATEGORY COUNTS ---
+    // --- Dynamic canonical for category views ---
+    (function updateCanonicalForCategory(){
+      // Requires SEO_ROUTES.prettyCategoryUrl (from assets/seo-routes.js)
+      if (!window.SEO_ROUTES || !SEO_ROUTES.prettyCategoryUrl) return;
+    
+      const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
+      const catFilter = Array.from(selectedCategories);
+    
+      // Canonical rules:
+      // - Home (no filters/search): canonical = site root (already set in <head>)
+      // - Exactly one category selected, no search, first page: canonical = pretty category URL
+      // - Anything else (multi-cat, search, paginated): fall back to site root (avoid fragmenting)
+      if (!currentQuery && catFilter.length === 1 && currentPage === 1) {
+        const primaryCat = catFilter[0];
+        const prettyCat = SEO_ROUTES.prettyCategoryUrl(siteUrl, primaryCat);
+        setCanonical(prettyCat);
+        setOG("og:url", prettyCat);
+      } else if (!isHome) {
+        setCanonical(siteUrl);
+        setOG("og:url", siteUrl);
+      }
+    })();
+
 
     visible = arr;
     if (first) injectItemListJSONLD();
