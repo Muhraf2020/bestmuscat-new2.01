@@ -3,9 +3,8 @@ import json, re, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "tools.json"
-OUT  = ROOT  # write stubs into the site root
+OUT  = ROOT
 
-# Keep in sync with assets/seo-routes.js
 CATEGORY_ALIAS = {
     "hotels": "places-to-stay",
     "restaurants": "places-to-eat",
@@ -21,12 +20,27 @@ CATEGORY_ALIAS = {
     "moving-and-storage": "moving-and-storage",
 }
 
-def slugify(s):
+def slugify_name(s: str) -> str:
+    # for NAME fallback only (when no slug exists)
     return re.sub(r'(^-|-$)', '', re.sub(r'[^a-z0-9]+', '-', (s or '').lower()))
 
-def category_to_alias(cat):
-    s = slugify(cat)
+def normalize_cat(c: str) -> str:
+    return re.sub(r'(^-|-$)', '', re.sub(r'[^a-z0-9]+', '-', (c or '').lower()))
+
+def category_to_alias(cat: str) -> str:
+    s = normalize_cat(cat)
     return CATEGORY_ALIAS.get(s, s)
+
+def item_slug(it) -> str:
+    # If a slug exists, use it AS-IS (lowercased), preserving underscores.
+    s = (it.get("slug") or "").strip().lower()
+    if s:
+        # allow a-z 0-9 _ - ; replace any other char with hyphen, but KEEP underscores
+        s = re.sub(r'[^a-z0-9_\-]+', '-', s)
+        s = re.sub(r'(^-|-$)', '', s)
+        return s
+    # fallback: slug from name
+    return slugify_name(it.get("name") or "")
 
 def stub_html(canonical_url, redirect_url):
     return f"""<!doctype html>
@@ -43,12 +57,12 @@ def write(p, s): p.write_text(s, encoding="utf-8")
 def main():
     items = json.loads(DATA.read_text(encoding="utf-8"))
 
-    # 1) Category stubs
+    # 1) Category stubs (based on primary category present in data)
     primary_cats = set()
     for it in items:
         cats = it.get("categories") or []
         if cats:
-            primary_cats.add(slugify(cats[0]))
+            primary_cats.add(normalize_cat(cats[0]))
     for cat in sorted(primary_cats):
         alias = category_to_alias(cat)
         folder = OUT / alias
@@ -59,15 +73,15 @@ def main():
 
     # 2) Item stubs
     for it in items:
-        slug = slugify(it.get("slug") or it.get("name") or "")
-        if not slug:
+        s = item_slug(it)
+        if not s:
             continue
-        cat = slugify((it.get("categories") or ["places"])[0])
+        cat = normalize_cat((it.get("categories") or ["places"])[0])
         alias = category_to_alias(cat)
-        folder = OUT / alias / slug
+        folder = OUT / alias / s
         ensure_dir(folder)
-        canonical = f"/{alias}/{slug}/"
-        redirect = f"/tool.html?slug={slug}"
+        canonical = f"/{alias}/{s}/"
+        redirect = f"/tool.html?slug={s}"
         write(folder / "index.html", stub_html(canonical, redirect))
 
 if __name__ == "__main__":
