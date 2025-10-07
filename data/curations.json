@@ -2,18 +2,18 @@
   {
     "slug": "fine-dining",
     "title": "Best Fine Dining in Muscat — Top 10",
-    "intro": "A hand-picked list of Muscat’s finest tables.",
+    "intro": "A hand‑picked list of Muscat’s finest tables.",
     "items": [
       { "slug": "al-tarboosh-restaurant-qurum" },
       { "slug": "beit-adam-restaurant" },
-      { "slug": "enab-beirut" },
       { "slug": "disdash-restaurant" },
-      { "slug": "baba-sindhi-restaurant" },
-      { "slug": "babouna-restaurant" },
-      { "slug": "180-degree-family-restaurant" },
-      { "slug": "atr-genesis-rest" },
-      { "slug": "blue-mangrove-restaurant" },
-      { "slug": "horizon-fresh-restaurant" }
+      { "slug": "al-jood-restaurant-al-hail" },
+      { "slug": "cafe-farah" },
+      { "slug": "the-cave" },
+      { "slug": "al-tayebat-restaurant" },
+      { "slug": "coriander-restaurant" },
+      { "slug": "al-joory-restaurant" },
+      { "slug": "sarah-restaurant-qurum" }
     ]
   },
   {
@@ -36,7 +36,7 @@
   {
     "slug": "aesthetics",
     "title": "Best Aesthetics Clinics in Muscat — Top 10",
-    "intro": "Top clinics for dermatology, laser and cosmetic treatments.",
+    "intro": "Top clinics for dermatology, skin care, laser and cosmetic treatments.",
     "items": [
       { "slug": "confi-dental-and-derma" },
       { "slug": "durrat-al-safwa-dentistry-and-derma-clinic" },
