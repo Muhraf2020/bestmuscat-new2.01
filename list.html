@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Curated Lists — Best Muscat</title>
+  <link rel="canonical" href="https://bestmuscat.com/"/>
+  <link rel="stylesheet" href="assets/styles.css?v=20251004"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Best Muscat — Curations"/>
+  <meta property="og:image" content="assets/og-default.jpg"/>
+</head>
+<body>
+  <!-- reuse your header if you want -->
+  <header class="site-header">
+    <div class="header-wrap">
+      <a href="index.html" class="header-logo" aria-label="BestMuscat home">
+        <img src="assets/brand/bestmuscat-logo.png" alt="BestMuscat" width="160" height="40" decoding="async"/>
+      </a>
+      <div class="header-search" role="search" aria-hidden="true" style="visibility:hidden"></div>
+      <div class="header-actions"><a class="btn-suggest" href="/add-business.html">Suggest a place</a></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="back-row"><a href="index.html" class="link-btn">← Back to directory</a></div>
+
+      <section class="hero" style="padding-top:10px;">
+        <div class="hero-card" style="padding:24px 20px;">
+          <h1 id="c-title" class="hero-title" style="font-size:32px;margin:0 0 8px;">Curated List</h1>
+          <p id="c-intro" class="hero-subtitle" style="max-width:720px;margin:0 auto;">Hand-picked highlights across Muscat.</p>
+        </div>
+      </section>
+
+      <div id="c-grid" class="grid" aria-live="polite" style="margin-top:12px;"></div>
+
+      <script id="jsonld-list" type="application/ld+json"></script>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <small class="disclaimer">Editorial list. Placement may include sponsored entries. See details inside each listing.</small>
+    </div>
+  </footer>
+
+  <script src="assets/curated.js" defer></script>
+</body>
+</html>
