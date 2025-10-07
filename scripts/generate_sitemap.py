@@ -21,12 +21,27 @@ CATEGORY_ALIAS = {
     "moving-and-storage": "moving-and-storage",
 }
 
-def slugify(s): return re.sub(r'(^-|-$)', '', re.sub(r'[^a-z0-9]+','-', (s or '').lower()))
-def cat2alias(c): return CATEGORY_ALIAS.get(slugify(c), slugify(c))
+def slugify_name(s: str) -> str:
+    return re.sub(r'(^-|-$)', '', re.sub(r'[^a-z0-9]+','-', (s or '').lower()))
+
+def normalize_cat(c: str) -> str:
+    return re.sub(r'(^-|-$)', '', re.sub(r'[^a-z0-9]+','-', (c or '').lower()))
+
+def cat2alias(c: str) -> str:
+    s = normalize_cat(c)
+    return CATEGORY_ALIAS.get(s, s)
+
+def item_slug(it) -> str:
+    s = (it.get("slug") or "").strip().lower()
+    if s:
+        s = re.sub(r'[^a-z0-9_\-]+', '-', s)  # KEEP underscores
+        s = re.sub(r'(^-|-$)', '', s)
+        return s
+    return slugify_name(it.get("name") or "")
 
 def main():
     items = json.loads(DATA.read_text(encoding="utf-8"))
-    cats = sorted({slugify((it.get("categories") or ["places"])[0]) for it in items})
+    cats = sorted({ normalize_cat((it.get("categories") or ["places"])[0]) for it in items })
     today = datetime.date.today().isoformat()
 
     urls = []
@@ -35,12 +50,13 @@ def main():
         alias = cat2alias(c)
         urls.append(f"<url><loc>{SITE}/{alias}/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>")
     for it in items:
-        slug = slugify(it.get("slug") or it.get("name") or "")
-        if not slug: continue
-        cat = slugify((it.get("categories") or ["places"])[0])
-        alias = cat2alias(cat)
+        s = item_slug(it)
+        if not s: 
+            continue
+        c = normalize_cat((it.get("categories") or ["places"])[0])
+        alias = cat2alias(c)
         urls.append(
-            f"<url><loc>{SITE}/{alias}/{slug}/</loc>"
+            f"<url><loc>{SITE}/{alias}/{s}/</loc>"
             f"<lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>"
         )
 
