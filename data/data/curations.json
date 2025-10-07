@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "fine-dining",
+    "title": "Best Fine Dining in Muscat — Top 10",
+    "intro": "A hand-picked list of Muscat’s finest tables.",
+    "items": [
+      { "slug": "the-churchill-restaurant" },
+      { "slug": "al-bustan-grill" },
+      { "slug": "royal-seafood" },
+      { "slug": "la-mer" },
+      { "slug": "sohar-steakhouse" },
+      { "slug": "opera-galleria-dining" },
+      { "slug": "the-terrace" },
+      { "slug": "cavo" },
+      { "slug": "rooftop-omani" },
+      { "slug": "blue-fin" }
+    ]
+  },
+  {
+    "slug": "best-spas",
+    "title": "Best Spas in Muscat — Top 10",
+    "intro": "Relax, restore, and recharge in these standout spas.",
+    "items": [
+      { "slug": "talise-spa" },
+      { "slug": "six-senses-spa" },
+      { "slug": "anantara-spa" },
+      { "slug": "frangipani" },
+      { "slug": "the-rituals" },
+      { "slug": "ocean-breeze-spa" },
+      { "slug": "rose-spa" },
+      { "slug": "gardenia" },
+      { "slug": "amara" },
+      { "slug": "sublime" }
+    ]
+  },
+  {
+    "slug": "wellness-aesthetics",
+    "title": "Best Wellness & Aesthetics in Muscat — Top 10",
+    "intro": "Clinics and studios for wellness, aesthetics, and longevity.",
+    "items": [
+      { "slug": "lumina-clinic" },
+      { "slug": "everglow-aesthetic" },
+      { "slug": "skin-lab" },
+      { "slug": "youth-studio" },
+      { "slug": "vitality-center" },
+      { "slug": "prime-derma" },
+      { "slug": "nawa-wellness" },
+      { "slug": "balance-studio" },
+      { "slug": "sera-aesthetics" },
+      { "slug": "radiant-derm" }
+    ]
+  }
+]
