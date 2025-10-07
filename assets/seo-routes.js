@@ -1,15 +1,20 @@
 // FILE: assets/seo-routes.js
 (function () {
-  // Map primary category slugs -> SEO-friendly path segment
-  // Edit freely to suit your copy.
+  // Map your internal category slugs -> SEO-friendly path segments
+  // (Left side = what's in your data; Right side = folder/URL segment)
   const CATEGORY_ALIAS = {
     "hotels": "places-to-stay",
     "restaurants": "places-to-eat",
-    "malls": "shopping-malls",
+    "schools": "schools",
     "spas": "spas",
     "clinics": "clinics",
-    "schools": "schools",
-    // Add more when you need them
+    "malls": "shopping-malls",
+    "car-repair-garages": "car-repair-garages",
+    "home-maintenance-and-repair": "home-maintenance-and-repair",
+    "catering-services": "catering-services",
+    "events": "events-planning",            // your UI uses slug "events"
+    "events-planning": "events-planning",   // support either spelling just in case
+    "moving-and-storage": "moving-and-storage"
   };
 
   function slugify(s){
@@ -18,19 +23,18 @@
 
   function categoryToAlias(catNameOrSlug){
     const s = slugify(catNameOrSlug);
-    return CATEGORY_ALIAS[s] || s;
+    return CATEGORY_ALIAS[s] || s; // fall back to the slug if not mapped
   }
 
   function prettyCategoryUrl(siteUrl, catNameOrSlug){
     const alias = categoryToAlias(catNameOrSlug);
-    return `${siteUrl.replace(/\/$/, "")}/${alias}/`;
+    return `${String(siteUrl).replace(/\/$/, "")}/${alias}/`;
   }
 
   function prettyItemUrl(siteUrl, catNameOrSlug, itemSlug){
     const alias = categoryToAlias(catNameOrSlug);
-    return `${siteUrl.replace(/\/$/, "")}/${alias}/${itemSlug}/`;
+    return `${String(siteUrl).replace(/\/$/, "")}/${alias}/${itemSlug}/`;
   }
 
-  // Expose globally for app.js/tool.js
   window.SEO_ROUTES = { categoryToAlias, prettyCategoryUrl, prettyItemUrl };
 })();
