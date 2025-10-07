@@ -317,6 +317,43 @@
     }
 
     const primaryCat = (Array.isArray(item.categories) && item.categories[0]) || "";
+    // === Canonical / OG:url -> pretty URL ===
+    (function setCanonicalPretty(){
+      const siteUrl = ((location.origin + "/")).replace(/\/$/, "/");
+      const primary = (Array.isArray(item.categories) && item.categories[0]) || "places";
+    
+      const prettyUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+        ? SEO_ROUTES.prettyItemUrl(siteUrl, primary, item.slug || slugify(item.name))
+        : `${siteUrl}tool.html?slug=${encodeURIComponent(item.slug || slugify(item.name||""))}`;
+    
+      // <link rel="canonical">
+      let link = document.querySelector('link[rel="canonical"]');
+      if (!link) {
+        link = document.createElement("link");
+        link.setAttribute("rel","canonical");
+        document.head.appendChild(link);
+      }
+      link.setAttribute("href", prettyUrl);
+    
+      // <meta property="og:url">
+      let ogUrl = document.querySelector('meta[property="og:url"]');
+      if (!ogUrl) {
+        ogUrl = document.createElement("meta");
+        ogUrl.setAttribute("property","og:url");
+        document.head.appendChild(ogUrl);
+      }
+      ogUrl.setAttribute("content", prettyUrl);
+    
+      // (optional) twitter:url
+      let twUrl = document.querySelector('meta[name="twitter:url"]');
+      if (!twUrl) {
+        twUrl = document.createElement("meta");
+        twUrl.setAttribute("name","twitter:url");
+        document.head.appendChild(twUrl);
+      }
+      twUrl.setAttribute("content", prettyUrl);
+    })();
+
     const catSlug = slugify(primaryCat);
     // Display-only rename: keep data as "Events" but show "Events Planning"
     const displayCat = (primaryCat || "").toLowerCase() === "events"
@@ -603,12 +640,27 @@
     const img = t.image || (t.images && (t.images.hero || t.images.logo)) || t.hero_url || t.logo_url || "";
     return `
       <article class="card card--place">
-        <a class="card-img" href="tool.html?slug=${encodeURIComponent(t.slug)}" aria-label="${esc(t.name)} details">
-          ${img ? `<img src="${esc(img)}" alt="${esc(t.name)}" loading="lazy" decoding="async"/>`
+      <a class="card-img" href="${(() => {
+        const siteUrl = ((location.origin + "/")).replace(/\/$/, "/");
+        const primary = (Array.isArray(t.categories) && t.categories[0]) || "places";
+        return (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+          ? SEO_ROUTES.prettyItemUrl(siteUrl, primary, t.slug)
+          : `tool.html?slug=${encodeURIComponent(t.slug)}`;
+      })()}" aria-label="${esc(t.name)} details">
+      
+      ${img ? `<img src="${esc(img)}" alt="${esc(t.name)}" loading="lazy" decoding="async"/>`
                 : `<div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>`}
         </a>
         <div class="card-body">
-          <h3 class="card-title"><a class="card-link" href="tool.html?slug=${encodeURIComponent(t.slug)}">${esc(t.name)}</a></h3>
+          <h3 class="card-title">
+          <a class="card-link" href="${(() => {
+            const siteUrl = ((location.origin + "/")).replace(/\/$/, "/");
+            const primary = (Array.isArray(t.categories) && t.categories[0]) || "places";
+            return (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+              ? SEO_ROUTES.prettyItemUrl(siteUrl, primary, t.slug)
+              : `tool.html?slug=${encodeURIComponent(t.slug)}`;
+          })()}">${esc(t.name)}</a>
+        </h3>
           <p class="card-sub">${esc(t.tagline || "")}</p>
           <div class="badges">${(t.categories||[]).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ")}</div>
         </div>
