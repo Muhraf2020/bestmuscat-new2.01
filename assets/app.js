@@ -436,7 +436,7 @@ function ratingChipHTML(t){
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           "name": tool.name,
-          "url": toolUrl,
+          "url": prettyUrl,
           "operatingSystem": "Any",
           "applicationCategory": "EducationalApplication",
           "description": tool.short_description || undefined,
