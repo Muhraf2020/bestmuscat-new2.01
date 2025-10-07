@@ -891,34 +891,29 @@ function ratingChipHTML(t){
 
 
   // ---------- JSON-LD ----------
-  function injectItemListJSONLD() {
-    let el = document.getElementById("jsonld-list");
-    if (!el) {
-      el = document.createElement("script");
-      el.type = "application/ld+json";
-      el.id = "jsonld-list";
-      document.head.appendChild(el);
-    }
-  }
-  function updateItemListJSONLD(items) {
+      function updateItemListJSONLD(items) {
+      const el = document.getElementById("jsonld-list");
+      if (!el) return;
+    
       const obj = {
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "itemListElement": items.map((t, i) => {
-      const primaryCat = (t.categories && t.categories[0]) || "places";
-      const pretty = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
-        ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
-        : ((CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/") + `tool.html?slug=${encodeURIComponent(t.slug)}`);
-      return {
-        "@type":"ListItem",
-        "position": i+1,
-        "url": pretty
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": items.map((t, i) => {
+          const primaryCat = (t.categories && t.categories[0]) || "places";
+          const pretty = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+            ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
+            : ((CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/") + `tool.html?slug=${encodeURIComponent(t.slug)}`);
+          return {
+            "@type": "ListItem",
+            "position": i + 1,
+            "url": pretty
+          };
+        })
       };
-    })
-  };
+    
+      el.textContent = JSON.stringify(obj);
+    }
 
-    el.textContent = JSON.stringify(obj);
-  }
 
   // ---------- START ----------
   if (document.readyState === "loading") {
