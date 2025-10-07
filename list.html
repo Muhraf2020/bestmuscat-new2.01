@@ -3,15 +3,21 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Curated Lists — Best Muscat</title>
-  <link rel="canonical" href="https://bestmuscat.com/"/>
-  <link rel="stylesheet" href="assets/styles.css?v=20251004"/>
+
+  <!-- Dynamic head bits (curated.js will update these) -->
+  <title id="doc-title">Curated List — Best Muscat</title>
+  <link id="canonical" rel="canonical" href="https://bestmuscat.com/list.html"/>
+
+  <meta id="meta-desc" name="description" content="Hand-picked highlights across Muscat." />
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Best Muscat — Curations"/>
-  <meta property="og:image" content="assets/og-default.jpg"/>
+  <meta id="og-title" property="og:title" content="Best Muscat — Curations"/>
+  <meta id="og-url" property="og:url" content="https://bestmuscat.com/list.html"/>
+  <meta id="og-image" property="og:image" content="assets/og-default.jpg"/>
+
+  <link rel="stylesheet" href="assets/styles.css?v=20251004"/>
 </head>
 <body>
-  <!-- reuse your header if you want -->
+  <!-- Header (reused) -->
   <header class="site-header">
     <div class="header-wrap">
       <a href="index.html" class="header-logo" aria-label="BestMuscat home">
@@ -35,6 +41,7 @@
 
       <div id="c-grid" class="grid" aria-live="polite" style="margin-top:12px;"></div>
 
+      <!-- JSON-LD will be injected here as an ItemList -->
       <script id="jsonld-list" type="application/ld+json"></script>
     </div>
   </main>
@@ -45,6 +52,9 @@
     </div>
   </footer>
 
+  <!-- Order matters: routes + shared helpers before curated renderer -->
+  <script src="assets/seo-routes.js?v=1" defer></script>
+  <script src="assets/app.js?v=20251004" defer></script>
   <script src="assets/curated.js" defer></script>
 </body>
 </html>
