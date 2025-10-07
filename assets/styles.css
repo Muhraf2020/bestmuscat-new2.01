@@ -897,6 +897,14 @@ hr.sep { border:0; border-top:1px solid var(--border); margin:14px 0; }
   padding: 4px 2px 8px;
   scroll-snap-type: x proximity;
 }
+/* smooth, elegant horizontal scrolling (opt-in) */
+.hscroll--snap {
+  scroll-snap-type: x mandatory;   /* stronger snap than proximity */
+}
+.hscroll--snap > * {
+  scroll-snap-align: start;        /* ensure each child snaps cleanly */
+}
+
 .hscroll::-webkit-scrollbar { height: 10px; }
 .hscroll::-webkit-scrollbar-thumb { background: #d9d9d9; border-radius: 20px; }
 
