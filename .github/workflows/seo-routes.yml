@@ -1,21 +1,25 @@
-# FILE: .github/workflows/seo-routes.yml
-name: SEO: Generate Pretty URL Stubs & Sitemap
+name: SEO — Generate Pretty URLs & Sitemap
 
 on:
-  push:
-    branches: [ main ]  # adjust if your Pages branch is different
-    paths:
-      - "data/tools.json"
-      - "assets/seo-routes.js"
-      - "scripts/generate_pretty_urls.py"
-      - "scripts/generate_sitemap.py"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - data/tools.json
+      - assets/seo-routes.js
+      - scripts/generate_pretty_urls.py
+      - scripts/generate_sitemap.py
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # allow pushing changes back to the repo
+    concurrency:
+      group: seo-pretty-urls
+      cancel-in-progress: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
