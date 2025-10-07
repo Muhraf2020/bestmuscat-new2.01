@@ -4,16 +4,16 @@
     "title": "Best Fine Dining in Muscat — Top 10",
     "intro": "A hand-picked list of Muscat’s finest tables.",
     "items": [
-      { "slug": "the-cave" },
-      { "slug": "raintree-restaurant" },
-      { "slug": "slider-station" },
-      { "slug": "sasos" },
-      { "slug": "volare" },
-      { "slug": "mcdonalds-shatti-al-qurum" },
-      { "slug": "upper-crust-pizzeria" },
-      { "slug": "eniray-restaurant" },
-      { "slug": "bayt-al-lazeez" },
-      { "slug": "aysha-s-restaurant" }
+      { "slug": "al-tarboosh-restaurant-qurum" },
+      { "slug": "beit-adam-restaurant" },
+      { "slug": "enab-beirut" },
+      { "slug": "disdash-restaurant" },
+      { "slug": "baba-sindhi-restaurant" },
+      { "slug": "babouna-restaurant" },
+      { "slug": "180-degree-family-restaurant" },
+      { "slug": "atr-genesis-rest" },
+      { "slug": "blue-mangrove-restaurant" },
+      { "slug": "horizon-fresh-restaurant" }
     ]
   },
   {
@@ -21,16 +21,16 @@
     "title": "Best Spas & Wellness in Muscat — Top 10",
     "intro": "Relax, restore and recharge at these standout spas and studios.",
     "items": [
-      { "slug": "a-good-day-for-thai-massage" },
-      { "slug": "mirrors-beauty-lounge" },
-      { "slug": "duo-beauty-center" },
-      { "slug": "mirrors-beauty-lounge-qurum" },
-      { "slug": "top-nails-spa" },
-      { "slug": "the-space-makers" },
-      { "slug": "echo-wellness" },
-      { "slug": "luxury-polish-nail-spa" },
-      { "slug": "nawras-harmal-saloon" },
-      { "slug": "ayan-beauty-salon" }
+      { "slug": "amali-spa" },
+      { "slug": "artistic-spa" },
+      { "slug": "doux-spa" },
+      { "slug": "janna-spa" },
+      { "slug": "janna-spa-and-massage-center" },
+      { "slug": "l-a-massage-spa" },
+      { "slug": "m-beauty-spa-salon-sarooj" },
+      { "slug": "nails-and-waxing-spa" },
+      { "slug": "nasser-chi-center" },
+      { "slug": "pure-nails-spa" }
     ]
   },
   {
@@ -38,16 +38,16 @@
     "title": "Best Aesthetics Clinics in Muscat — Top 10",
     "intro": "Top clinics for dermatology, laser and cosmetic treatments.",
     "items": [
-      { "slug": "dr-fatma-dermatology-aesthetic-and-laser-clinic-muscat" },
-      { "slug": "dr-payal-latheesh-skin-hair-laser-anti-aging-clinic" },
-      { "slug": "emc-skin-clinic-oman-emc-muscat-dermatology-dentistry" },
-      { "slug": "lasema-derma-clinic" },
-      { "slug": "souha-derma-clinic" },
-      { "slug": "amara-dermatology-clinic" },
-      { "slug": "jana-dermatology" },
-      { "slug": "dar-derma-clinic" },
-      { "slug": "al-manasir-skin-clinic-seeb" },
-      { "slug": "bellezza-laser-and-dermatology-clinic" }
+      { "slug": "confi-dental-and-derma" },
+      { "slug": "durrat-al-safwa-dentistry-and-derma-clinic" },
+      { "slug": "the-one-clinic" },
+      { "slug": "derma-b" },
+      { "slug": "dermaa-day-surgery" },
+      { "slug": "further-clinic" },
+      { "slug": "gen-clinic" },
+      { "slug": "grays" },
+      { "slug": "la-fit-clinics" },
+      { "slug": "omed-derma-laser" }
     ]
   }
 ]
