@@ -2,18 +2,38 @@
   {
     "slug": "fine-dining",
     "title": "Best Fine Dining in Muscat — Top 10",
-    "intro": "A hand-picked list of Muscat’s finest tables.",
+    "intro": "A hand-picked list of Muscat’s finest tables, ranked by rating.",
     "items": [
-      { "slug": "the-churchill-restaurant" },
-      { "slug": "al-bustan-grill" },
-      { "slug": "royal-seafood" },
-      { "slug": "la-mer" },
-      { "slug": "sohar-steakhouse" },
-      { "slug": "opera-galleria-dining" },
-      { "slug": "the-terrace" },
-      { "slug": "cavo" },
-      { "slug": "rooftop-omani" },
-      { "slug": "blue-fin" }
+      {
+        "slug": "zomra-restaurant"
+      },
+      {
+        "slug": "baba-kebabs-turkish-restaurant"
+      },
+      {
+        "slug": "abu-elzooz-restaurant"
+      },
+      {
+        "slug": "fawazco-lebanese-restaurant"
+      },
+      {
+        "slug": "huqqa"
+      },
+      {
+        "slug": "italian-barrista-cafe"
+      },
+      {
+        "slug": "marhaba-world-al-bukhari"
+      },
+      {
+        "slug": "o-licious"
+      },
+      {
+        "slug": "simitci-dunyasi-city-center-muscat"
+      },
+      {
+        "slug": "the-kitchen-restaurant"
+      }
     ]
   },
   {
@@ -21,16 +41,36 @@
     "title": "Best Spas in Muscat — Top 10",
     "intro": "Relax, restore, and recharge in these standout spas.",
     "items": [
-      { "slug": "talise-spa" },
-      { "slug": "six-senses-spa" },
-      { "slug": "anantara-spa" },
-      { "slug": "frangipani" },
-      { "slug": "the-rituals" },
-      { "slug": "ocean-breeze-spa" },
-      { "slug": "rose-spa" },
-      { "slug": "gardenia" },
-      { "slug": "amara" },
-      { "slug": "sublime" }
+      {
+        "slug": "a-good-day-for-thai-massage"
+      },
+      {
+        "slug": "alila-men-salon-spa-bawshar"
+      },
+      {
+        "slug": "blue-moon-men-salon"
+      },
+      {
+        "slug": "body-and-sole-spa"
+      },
+      {
+        "slug": "chicken-feet-day-spa"
+      },
+      {
+        "slug": "cut-more-spa-and-barber"
+      },
+      {
+        "slug": "fr-spa"
+      },
+      {
+        "slug": "friends-nails-hub"
+      },
+      {
+        "slug": "grand-inn-spa-massage-spa"
+      },
+      {
+        "slug": "green-grass-spa-body-massage-moroccan-bath"
+      }
     ]
   },
   {
@@ -38,16 +78,36 @@
     "title": "Best Wellness & Aesthetics in Muscat — Top 10",
     "intro": "Clinics and studios for wellness, aesthetics, and longevity.",
     "items": [
-      { "slug": "lumina-clinic" },
-      { "slug": "everglow-aesthetic" },
-      { "slug": "skin-lab" },
-      { "slug": "youth-studio" },
-      { "slug": "vitality-center" },
-      { "slug": "prime-derma" },
-      { "slug": "nawa-wellness" },
-      { "slug": "balance-studio" },
-      { "slug": "sera-aesthetics" },
-      { "slug": "radiant-derm" }
+      {
+        "slug": "a-good-day-for-thai-massage"
+      },
+      {
+        "slug": "alila-men-salon-spa-bawshar"
+      },
+      {
+        "slug": "blue-moon-men-salon"
+      },
+      {
+        "slug": "body-and-sole-spa"
+      },
+      {
+        "slug": "chicken-feet-day-spa"
+      },
+      {
+        "slug": "cut-more-spa-and-barber"
+      },
+      {
+        "slug": "fr-spa"
+      },
+      {
+        "slug": "friends-nails-hub"
+      },
+      {
+        "slug": "grand-inn-spa-massage-spa"
+      },
+      {
+        "slug": "green-grass-spa-body-massage-moroccan-bath"
+      }
     ]
   }
 ]
