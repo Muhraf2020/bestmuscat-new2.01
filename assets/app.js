@@ -768,7 +768,14 @@ function ratingChipHTML(t){
   }
 
   function cardHTML(t) {
-    const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
+    // --- const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
+    // --- replaced above line with this
+    // Prefer pretty path: /<alias>/<slug>/; fallback to tool.html?slug=...
+    const primaryCat = (t.categories && t.categories[0]) || "places";
+    const detailUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+      ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
+      : `tool.html?slug=${encodeURIComponent(t.slug)}`;
+
     // use the canonical record (has actions.website) if available
     const src = toolsBySlug[t.slug] || t;
 
@@ -856,17 +863,22 @@ function ratingChipHTML(t){
     }
   }
   function updateItemListJSONLD(items) {
-    const el = document.getElementById("jsonld-list");
-    if (!el) return;
-    const obj = {
-      "@context":"https://schema.org",
-      "@type":"ItemList",
-      "itemListElement": items.map((t, i) => ({
+      const obj = {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement": items.map((t, i) => {
+      const primaryCat = (t.categories && t.categories[0]) || "places";
+      const pretty = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+        ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
+        : ((CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/") + `tool.html?slug=${encodeURIComponent(t.slug)}`);
+      return {
         "@type":"ListItem",
         "position": i+1,
-        "url": (CONFIG.SITE_URL || location.origin+location.pathname).replace(/\/$/, '/') + `tool.html?slug=${encodeURIComponent(t.slug)}`
-      }))
-    };
+        "url": pretty
+      };
+    })
+  };
+
     el.textContent = JSON.stringify(obj);
   }
 
