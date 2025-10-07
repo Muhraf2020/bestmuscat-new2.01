@@ -388,38 +388,48 @@ function ratingChipHTML(t){
 
         // 5) === Per-tool SEO ===
         const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
-        const toolUrl = `${siteUrl}tool.html?slug=${encodeURIComponent(tool.slug)}`;
-        const categoryName = (tool.categories && tool.categories[0]) || "Tools";
-
-        document.title = `${tool.name} — ${categoryName} | Academia with AI`;
-        setMeta("description", tool.short_description || `Learn about ${tool.name} for academic workflows.`);
-        setCanonical(toolUrl);
-
+        const primaryCat = (tool.categories && tool.categories[0]) || "places";
+        
+        // Pretty canonical (item-level)
+        const prettyUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+          ? SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, tool.slug)
+          : `${siteUrl}tool.html?slug=${encodeURIComponent(tool.slug)}`;
+        
+        // Titles & canonicals for Best Muscat
+        document.title = `${tool.name} — ${primaryCat} | Best Muscat`;
+        setMeta("description", tool.short_description || `Discover ${tool.name} in Muscat.`);
+        setCanonical(prettyUrl);
+        
         setOG("og:title", document.title);
-        setOG("og:description", tool.short_description || `Learn about ${tool.name}.`);
-        setOG("og:url", toolUrl);
-
+        setOG("og:description", tool.short_description || `Discover ${tool.name}.`);
+        setOG("og:url", prettyUrl);
+        
+        // Twitter tags
         setMeta("twitter:title", document.title);
-        setMeta("twitter:description", tool.short_description || `Learn about ${tool.name}.`);
-        // Optional: per-tool social image
+        setMeta("twitter:description", tool.short_description || `Discover ${tool.name}.`);
+        
+        // Optional social image: use tool image if http(s), else your site default
+        const defaultSocial = `${siteUrl}assets/og-default.jpg`;
         if (tool.image && /^https?:/i.test(tool.image)) {
           setOG("og:image", tool.image);
           setMeta("twitter:image", tool.image);
+        } else {
+          setOG("og:image", defaultSocial);
+          setMeta("twitter:image", defaultSocial);
         }
-        /* === ADD THESE LINES HERE (force-update placeholders in <head>) === */
+        
+        // Force-update placeholders (kept from your code)
         document.querySelector('meta[name="twitter:title"]')
-        ?.setAttribute('content', document.title);
-
+          ?.setAttribute('content', document.title);
+        
         document.querySelector('meta[name="twitter:description"]')
-        ?.setAttribute('content', tool.short_description || `Learn about ${tool.name}.`);
-
+          ?.setAttribute('content', tool.short_description || `Discover ${tool.name}.`);
+        
         document.querySelector('meta[name="twitter:image"]')
-        ?.setAttribute('content',
-        (tool.image && /^https?:/i.test(tool.image))
-        ? tool.image
-        : 'https://academiawithai.com/assets/og-default.jpg'
-      );
-        /* === END ADD === */
+          ?.setAttribute('content',
+            (tool.image && /^https?:/i.test(tool.image)) ? tool.image : defaultSocial
+          );
+
 
         // JSON-LD: SoftwareApplication
         addJSONLD({
@@ -435,17 +445,22 @@ function ratingChipHTML(t){
             : undefined
         });
 
-        // JSON-LD: Breadcrumbs
-        const catSlug = slugify(categoryName);
+        // JSON-LD: Breadcrumbs (point to pretty category instead of /category/…)
+        const catSlug = slugify(primaryCat);
+        const prettyCatUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyCategoryUrl)
+          ? SEO_ROUTES.prettyCategoryUrl(siteUrl, catSlug)
+          : `${siteUrl}index.html?category=${encodeURIComponent(catSlug)}`;
+        
         addJSONLD({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           "itemListElement": [
             { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-            { "@type": "ListItem", "position": 2, "name": categoryName, "item": `${siteUrl}category/${catSlug}.html` },
-            { "@type": "ListItem", "position": 3, "name": tool.name, "item": toolUrl }
+            { "@type": "ListItem", "position": 2, "name": primaryCat, "item": prettyCatUrl },
+            { "@type": "ListItem", "position": 3, "name": tool.name, "item": prettyUrl }
           ]
         });
+
       } catch (e) {
         console.warn("tool.html SEO init failed:", e);
       }
