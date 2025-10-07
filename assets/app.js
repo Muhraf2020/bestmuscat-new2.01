@@ -852,17 +852,13 @@ function ratingChipHTML(t){
             loading="lazy"
             decoding="async"
             onerror="
-              if (!this.dataset.triedStock) {
-                this.dataset.triedStock = '1';
-                this.src = '/assets/images/stock/muscat-1.webp';
-              } else {
-                // final fallback: initials block
-                const wrap = this.closest('.card-img');
-                if (wrap) {
-                  wrap.classList.add('img-fallback');
-                  wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
-                }
+              const wrap = this.closest('.card-img');
+              if (wrap) {
+                wrap.classList.add('img-fallback');
+                wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
               }
+            "
+
             "
           />
           ${badge}
