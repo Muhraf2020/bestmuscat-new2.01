@@ -2,52 +2,52 @@
   {
     "slug": "fine-dining",
     "title": "Best Fine Dining in Muscat — Top 10",
-    "intro": "A hand‑picked list of Muscat’s finest tables.",
+    "intro": "A hand-picked list of Muscat’s finest tables.",
     "items": [
       { "slug": "al-tarboosh-restaurant-qurum" },
       { "slug": "beit-adam-restaurant" },
-      { "slug": "disdash-restaurant" },
       { "slug": "al-jood-restaurant-al-hail" },
       { "slug": "cafe-farah" },
       { "slug": "the-cave" },
-      { "slug": "al-tayebat-restaurant" },
-      { "slug": "coriander-restaurant" },
-      { "slug": "al-joory-restaurant" },
-      { "slug": "sarah-restaurant-qurum" }
+      { "slug": "aagraham-restaurant" },
+      { "slug": "abu-elzooz-restaurant" },
+      { "slug": "al-bait-al-raqi-al-bukhari-restaurant" },
+      { "slug": "al-hawas-restaurant" },
+      { "slug": "al-maida-restaurant" }
     ]
   },
   {
     "slug": "spas-wellness",
     "title": "Best Spas & Wellness in Muscat — Top 10",
-    "intro": "Relax, restore and recharge at these standout spas and studios.",
+    "intro": "Relax, restore, and recharge in these standout spas.",
     "items": [
-      { "slug": "amali-spa" },
-      { "slug": "artistic-spa" },
       { "slug": "doux-spa" },
       { "slug": "janna-spa" },
       { "slug": "janna-spa-and-massage-center" },
       { "slug": "l-a-massage-spa" },
       { "slug": "m-beauty-spa-salon-sarooj" },
-      { "slug": "nails-and-waxing-spa" },
-      { "slug": "nasser-chi-center" },
-      { "slug": "pure-nails-spa" }
+      { "slug": "1948-men-spa" },
+      { "slug": "4guys-spa" },
+      { "slug": "a-good-day-for-thai-massage" },
+      { "slug": "al-bustan-palace-spa-by-ritz-carlton" },
+      { "slug": "alila-men-salon-spa-al-hail" }
     ]
   },
   {
     "slug": "aesthetics",
-    "title": "Best Aesthetics Clinics in Muscat — Top 10",
-    "intro": "Top clinics for dermatology, skin care, laser and cosmetic treatments.",
+    "title": "Best Aesthetics in Muscat — Top 10",
+    "intro": "Clinics and specialists for aesthetics and skin.",
     "items": [
-      { "slug": "confi-dental-and-derma" },
-      { "slug": "durrat-al-safwa-dentistry-and-derma-clinic" },
-      { "slug": "the-one-clinic" },
-      { "slug": "derma-b" },
-      { "slug": "dermaa-day-surgery" },
-      { "slug": "further-clinic" },
-      { "slug": "gen-clinic" },
-      { "slug": "grays" },
-      { "slug": "la-fit-clinics" },
-      { "slug": "omed-derma-laser" }
+      { "slug": "al-manasir-skin-clinic-seeb" },
+      { "slug": "alila-clinic" },
+      { "slug": "alturki-clinic-medical-checkup" },
+      { "slug": "amara-dermatology-clinic" },
+      { "slug": "azura-clinic" },
+      { "slug": "beautiful-mind-clinic" },
+      { "slug": "brite-medical-center-dental-laser-dermatology-clinic" },
+      { "slug": "castle-of-beauty-salon-spa" },
+      { "slug": "chic-clinic-derma-aesthetic" },
+      { "slug": "city-skin-center-al-maabilah" }
     ]
   }
 ]
