@@ -2,19 +2,13 @@
 (function () {
   // ---------- CONFIG ----------
   const CONFIG = {
-    // The Google form is not used in the Best Muscat directory. Leave this blank or replace with your own form URL.
     GOOGLE_FORM_URL: "",
-    // Show up to nine items per page. This value is tuned for a three-column layout (3×3)
     ITEMS_PER_PAGE: 9,
-    // Set the canonical site URL for JSON-LD and og tags. Update this when you deploy the site.
     SITE_URL: "https://bestmuscat.com/",
-    // When you update the banner images, bump this number to bust the cache on clients.
     ASSET_VERSION: "1"
   };
 
   // ---------- CATEGORY DEFINITIONS ----------
-  // The Best Muscat directory focuses on six core categories. Each entry must include
-  // exactly one of these categories. Chips on the homepage reflect these values.
   const CATEGORIES = [
     { name: "Hotels",      slug: "hotels" },
     { name: "Restaurants", slug: "restaurants" },
@@ -26,11 +20,12 @@
     { name: "Car Repair Garages",          slug: "car-repair-garages" },
     { name: "Home Maintenance and Repair", slug: "home-maintenance-and-repair" },
     { name: "Catering Services",           slug: "catering-services" },
-    { name: "Events Planning", slug: "events" },
+    { name: "Events Planning",             slug: "events" },
     { name: "Moving and Storage",          slug: "moving-and-storage" }
   ];
   const CATEGORY_SLUG_SET = new Set(CATEGORIES.map(c => c.slug));
-  // ---------- SEO HELPERS (paste START) ----------
+
+  // ---------- SEO HELPERS ----------
   function setMeta(name, content) {
     if (!content) return;
     let el = document.querySelector(`meta[name="${name}"]`);
@@ -57,26 +52,21 @@
   function slugify(s) {
     return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
   }
-  // ---------- SEO HELPERS (paste END) ----------
 
   // ---------- STATE ----------
-  let tools = [];                 // full list
-  let visible = [];               // filtered list
-  let fuse = null;                // Fuse index
-  let selectedCategories = new Set(); // multi-select chips (by slug)
-  // Pricing filters are not used. This value remains fixed.
+  let tools = [];
+  let visible = [];
+  let fuse = null;
+  let selectedCategories = new Set();
   let currentPricing = "all";
   let currentQuery = "";
   let currentPage = 1;
-  // NEW: special view flag for "?q=Best Things to Do"
-  let forceBestThingsView = false;
-  let toolsBySlug = {}; // NEW: lookup of canonical records from tools.json
+  let forceBestThingsView = false; // special landing
+  let toolsBySlug = {};
 
   // ---------- ELEMENTS ----------
   const elSearch     = document.getElementById("search");
   const elChips      = document.getElementById("chips");
-  // The pricing filter dropdown has been removed from the markup. Keep a null reference
-  // so that downstream code can check for its existence safely.
   const elPricing    = document.getElementById("pricing");
   const elSuggest    = document.getElementById("suggest-link");
   const elCount      = document.getElementById("count");
@@ -96,9 +86,7 @@
   const elShowCatering = document.getElementById("showcase-catering");
   const elShowEvents   = document.getElementById("showcase-events");
   const elShowMoving   = document.getElementById("showcase-moving");
-  // NEW: back-to-directory row (hidden by default in index.html)
   const elBack       = document.getElementById("bt-back");
-
 
   // ---------- UTIL ----------
   const qs = new URLSearchParams(location.search);
@@ -120,121 +108,66 @@
     return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn(...args), ms); };
   }
   function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-  function initials(name) {
-    const parts=(name||"").split(/\s+/).slice(0,2);
-    return parts.map(p=>p[0]?.toUpperCase()||"").join("");
+
+  function ratingBadgeHTML(t){
+    const raw = t?.rating_overall ?? t?.star_rating;
+    const r = Number(raw);
+    if (!isFinite(r)) return "";
+    const rc = Number(t?.review_count);
+    const rcHTML = isFinite(rc) && rc > 0 ? `<span class="rc">(${Math.round(rc).toLocaleString()})</span>` : "";
+    const starSVG = `
+      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
+      </svg>`;
+    return `<div class="rating-badge" title="Rating">
+      ${starSVG}<span class="val">${r.toFixed(1)}</span>${rcHTML}
+    </div>`;
+  }
+  function ratingChipHTML(t){
+    const raw = t?.rating_overall ?? t?.star_rating ?? t?.rating;
+    const r = Number(raw);
+    if (!isFinite(r)) return "";
+    const rc   = Number(t?.review_count);
+    const src  = t?.review_source || "Google";
+    const meta = [src, (isFinite(rc) && rc > 0) ? `${rc} reviews` : null].filter(Boolean).join(" · ");
+    const starSVG = `
+      <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
+      </svg>`;
+    return `<span class="rating-chip">${starSVG}<span class="val">${r.toFixed(1)}</span>${meta ? `<span class="meta">${esc(meta)}</span>` : ""}</span>`;
   }
 
-  // Build the small rating badge shown on card images
-function ratingBadgeHTML(t){
-  const raw = t?.rating_overall ?? t?.star_rating;
-  const r = Number(raw);
-  if (!isFinite(r)) return ""; // no rating available
-
-  const rc = Number(t?.review_count);
-  const rcHTML = isFinite(rc) && rc > 0 ? `<span class="rc">(${Math.round(rc).toLocaleString()})</span>` : "";
-
-  // simple inline star SVG
-  const starSVG = `
-    <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
-    </svg>`;
-
-  return `<div class="rating-badge" title="Rating">
-    ${starSVG}<span class="val">${r.toFixed(1)}</span>${rcHTML}
-  </div>`;
-}
-  // Small inline rating chip shown beside Website/View on the card
-function ratingChipHTML(t){
-  // Prefer canonical numeric fields
-  const raw = t?.rating_overall ?? t?.star_rating ?? t?.rating;
-  const r = Number(raw);
-  if (!isFinite(r)) return ""; // no rating => no chip
-
-  const rc   = Number(t?.review_count);
-  const src  = t?.review_source || "Google";
-  const meta = [src, (isFinite(rc) && rc > 0) ? `${rc} reviews` : null]
-    .filter(Boolean)
-    .join(" · ");
-
-  const starSVG = `
-    <svg class="star" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 17.27l6.18 3.73-1.64-7.03 5.46-4.73-7.19-.62L12 2 9.19 8.62l-7.19.62 5.46 4.73L5.82 21z"></path>
-    </svg>`;
-
-  return `<span class="rating-chip">
-    ${starSVG}<span class="val">${r.toFixed(1)}</span>${
-      meta ? `<span class="meta">${esc(meta)}</span>` : ""
-    }
-  </span>`;
-}
-
-
-  // Pricing badges and feature icons are unused in the Best Muscat directory.
-  // Return an empty string so that existing markup in cardHTML renders nothing.
   function pricingBadge() { return ""; }
   function iconRow() { return ""; }
 
-  // ---- URL helpers for CTA logic (Website vs Google Maps vs View) ----
   function isValidUrl(u){
     try{ const x=new URL(u); return ['http:','https:'].includes(x.protocol); }catch{ return false; }
   }
   function isExampleDomain(u){
-    // treat *.example.com as placeholder, not a real website
     try{ return /(^|\.)example\.com$/i.test(new URL(u).hostname); }catch{ return false; }
   }
 
-  // === Card image helpers: prefer local; allow safe remote hero_url fallback ===
-    function isRemoteUrl(u) {
-      return /^https?:\/\//i.test(String(u || ""));
-    }
-    function looksLikeLogo(u) {
-      // reject obvious logo/icon/social/favicons and SVGs
-      return /(?:^|\/)(?:logo|logos?|brand|mark|icon|icons?|favicon|sprite|social)(?:[-_./]|$)/i.test(u || "")
-          || /\.svg(?:$|\?)/i.test(u || "");
-    }
-    function pickCardImage(obj) {
-      // 1) Prefer local assets first (fast + no hotlink risk)
-      const candidates = [
-        obj.image, obj.hero, obj.photo,
-        obj.images && obj.images.card,
-        obj.images && obj.images.hero
-      ].filter(Boolean);
-    
-      for (const c of candidates) {
-        if (!isRemoteUrl(c)) return c; // local path wins
-      }
-    
-      // 2) Safe remote fallback: allow hero_url / image if not a logo/icon
-      const remote = obj.hero_url || (obj.images && obj.images.hero) || obj.image || obj.logo_url;
-      if (remote && isRemoteUrl(remote) && !looksLikeLogo(remote)) {
-        return remote;
-      }
-    
-      // 3) Nothing usable → signal “no image”
-      return "";
-    }
-
-
-  /* =======================
-   LOGO FALLBACK HELPERS
-   ======================= */
-
-  // Extracts the hostname from a URL (used to fetch a site icon if the main logo fails)
-  function hostnameFromUrl(u) {
-    try { return new URL(u).hostname; } catch { return ""; }
+  // image helpers
+  function isRemoteUrl(u) { return /^https?:\/\//i.test(String(u || "")); }
+  function looksLikeLogo(u) {
+    return /(?:^|\/)(?:logo|logos?|brand|mark|icon|icons?|favicon|sprite|social)(?:[-_./]|$)/i.test(u || "") || /\.svg(?:$|\?)/i.test(u || "");
+  }
+  function pickCardImage(obj) {
+    const candidates = [obj.image, obj.hero, obj.photo, obj.images && obj.images.card, obj.images && obj.images.hero].filter(Boolean);
+    for (const c of candidates) { if (!isRemoteUrl(c)) return c; }
+    const remote = obj.hero_url || (obj.images && obj.images.hero) || obj.image || obj.logo_url;
+    if (remote && isRemoteUrl(remote) && !looksLikeLogo(remote)) return remote;
+    return "";
   }
 
-  // Installs a robust error handler on each logo <img> to:
-  // 1) try icon.horse, 2) try Google s2 favicons, 3) fall back to initials
+  // favicon fallback helpers (unchanged)
+  function hostnameFromUrl(u) { try { return new URL(u).hostname; } catch { return ""; } }
   function installLogoErrorFallback() {
     document.querySelectorAll('img.logo[data-domain]').forEach(img => {
-      if (img.dataset._wired) return; // avoid double-binding after re-renders
+      if (img.dataset._wired) return;
       img.dataset._wired = "1";
-
       img.addEventListener('error', () => {
         const domain = img.dataset.domain;
-        // No domain? swap to initials block and exit
         if (!domain) {
           const name = img.getAttribute('alt')?.replace(/ logo$/i, '') || 'AI';
           const div = document.createElement('div');
@@ -244,22 +177,8 @@ function ratingChipHTML(t){
           img.replaceWith(div);
           return;
         }
-
-        // 1st fallback: icon.horse
-        if (!img.dataset.triedHorse) {
-          img.dataset.triedHorse = "1";
-          img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`;
-          return;
-        }
-
-        // 2nd fallback: Google s2 favicons
-        if (!img.dataset.triedS2) {
-          img.dataset.triedS2 = "1";
-          img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`;
-          return;
-        }
-
-        // Final fallback: initials
+        if (!img.dataset.triedHorse) { img.dataset.triedHorse = "1"; img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`; return; }
+        if (!img.dataset.triedS2)    { img.dataset.triedS2    = "1"; img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64`; return; }
         const name = img.getAttribute('alt')?.replace(/ logo$/i, '') || 'AI';
         const div = document.createElement('div');
         div.className = 'logo';
@@ -283,7 +202,6 @@ function ratingChipHTML(t){
     if (!el) {
       el = document.createElement('div');
       el.className = 'pager-numbers';
-      // insert before Next ▶ button so layout is: Prev | numbers | Next
       elPagination.insertBefore(el, elNext);
     }
     return el;
@@ -291,29 +209,21 @@ function ratingChipHTML(t){
   function renderPaginationNumbers(totalPages) {
     const container = ensurePagerNumbersContainer();
     if (totalPages <= 1) { container.innerHTML = ''; return; }
-
     const { start, end } = getPageWindow(currentPage, totalPages, 5);
     let html = '';
-
-    // First page + leading ellipsis
     if (start > 1) {
       html += `<button class="page-btn" data-page="1" aria-label="Go to page 1">1</button>`;
       if (start > 2) html += `<span class="dots" aria-hidden="true">…</span>`;
     }
-
-    // Window pages
     for (let p = start; p <= end; p++) {
       const active = p === currentPage ? ' active' : '';
       const ariaCur = p === currentPage ? ` aria-current="page"` : '';
       html += `<button class="page-btn${active}" data-page="${p}"${ariaCur} aria-label="Go to page ${p}">${p}</button>`;
     }
-
-    // Trailing ellipsis + last page
     if (end < totalPages) {
       if (end < totalPages - 1) html += `<span class="dots" aria-hidden="true">…</span>`;
       html += `<button class="page-btn" data-page="${totalPages}" aria-label="Go to page ${totalPages}">${totalPages}</button>`;
     }
-
     container.innerHTML = html;
   }
 
@@ -325,7 +235,6 @@ function ratingChipHTML(t){
     }).join("");
     updateChipsActive();
   }
-
   function updateChipsActive() {
     elChips.querySelectorAll(".chip").forEach(btn => {
       const slug = btn.getAttribute("data-slug");
@@ -334,7 +243,6 @@ function ratingChipHTML(t){
       btn.setAttribute("aria-pressed", on ? "true" : "false");
     });
   }
-  // Paint a count badge on each chip (expects keys by category slug)
   function updateChipCounts(countsBySlug) {
     elChips.querySelectorAll(".chip").forEach(btn => {
       const slug = btn.getAttribute("data-slug");
@@ -344,23 +252,16 @@ function ratingChipHTML(t){
     });
   }
 
-
   // ---------- FETCH & INIT ----------
   async function init() {
-
-    // === Router: handle tool.html separately and exit early ===
+    // Handle tool.html SEO and exit
     if (/tool\.html$/i.test(location.pathname)) {
       try {
-        // 1) read slug from URL
         const slug = (new URLSearchParams(location.search)).get("slug") || "";
-
-        // 2) load tools.json
         const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
         if (!res.ok) throw new Error("tools.json not found");
         const data = await res.json();
         if (!Array.isArray(data)) throw new Error("tools.json must be an array");
-
-        // 3) normalize tools (consistent with index mapping)
         const normalized = data.map(t => ({
           id: t.id || t.slug || Math.random().toString(36).slice(2),
           slug: (t.slug || (t.name||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g,"")).slice(0,128),
@@ -372,12 +273,10 @@ function ratingChipHTML(t){
           categories: Array.isArray(t.categories) ? t.categories.filter(Boolean) : [],
           tags: Array.isArray(t.tags) ? t.tags.filter(Boolean) : [],
           logo: t.logo || "",
-          image: t.image || "",                 // optional hero image per tool
+          image: t.image || "",
           short_description: t.short_description || t.tagline || "",
           price: t.price || t.pricing || ""
         }));
-
-        // 4) find the tool by slug
         const tool = normalized.find(t => t.slug === slug);
         if (!tool) {
           document.title = "Tool not found — Academia with AI";
@@ -385,30 +284,19 @@ function ratingChipHTML(t){
           setCanonical(`${CONFIG.SITE_URL}tool.html`);
           return;
         }
-
-        // 5) === Per-tool SEO ===
         const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
         const primaryCat = (tool.categories && tool.categories[0]) || "places";
-        
-        // Pretty canonical (item-level)
         const prettyUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
           ? SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, tool.slug)
           : `${siteUrl}tool.html?slug=${encodeURIComponent(tool.slug)}`;
-        
-        // Titles & canonicals for Best Muscat
         document.title = `${tool.name} — ${primaryCat} | Best Muscat`;
         setMeta("description", tool.short_description || `Discover ${tool.name} in Muscat.`);
         setCanonical(prettyUrl);
-        
         setOG("og:title", document.title);
         setOG("og:description", tool.short_description || `Discover ${tool.name}.`);
         setOG("og:url", prettyUrl);
-        
-        // Twitter tags
         setMeta("twitter:title", document.title);
         setMeta("twitter:description", tool.short_description || `Discover ${tool.name}.`);
-        
-        // Optional social image: use tool image if http(s), else your site default
         const defaultSocial = `${siteUrl}assets/og-default.jpg`;
         if (tool.image && /^https?:/i.test(tool.image)) {
           setOG("og:image", tool.image);
@@ -417,21 +305,9 @@ function ratingChipHTML(t){
           setOG("og:image", defaultSocial);
           setMeta("twitter:image", defaultSocial);
         }
-        
-        // Force-update placeholders (kept from your code)
-        document.querySelector('meta[name="twitter:title"]')
-          ?.setAttribute('content', document.title);
-        
-        document.querySelector('meta[name="twitter:description"]')
-          ?.setAttribute('content', tool.short_description || `Discover ${tool.name}.`);
-        
-        document.querySelector('meta[name="twitter:image"]')
-          ?.setAttribute('content',
-            (tool.image && /^https?:/i.test(tool.image)) ? tool.image : defaultSocial
-          );
-
-
-        // JSON-LD: SoftwareApplication
+        document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', document.title);
+        document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', tool.short_description || `Discover ${tool.name}.`);
+        document.querySelector('meta[name="twitter:image"]')?.setAttribute('content', (tool.image && /^https?:/i.test(tool.image)) ? tool.image : defaultSocial);
         addJSONLD({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
@@ -444,13 +320,10 @@ function ratingChipHTML(t){
             ? { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
             : undefined
         });
-
-        // JSON-LD: Breadcrumbs (point to pretty category instead of /category/…)
         const catSlug = slugify(primaryCat);
         const prettyCatUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyCategoryUrl)
           ? SEO_ROUTES.prettyCategoryUrl(siteUrl, catSlug)
           : `${siteUrl}index.html?category=${encodeURIComponent(catSlug)}`;
-        
         addJSONLD({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
@@ -460,25 +333,21 @@ function ratingChipHTML(t){
             { "@type": "ListItem", "position": 3, "name": tool.name, "item": prettyUrl }
           ]
         });
-
       } catch (e) {
         console.warn("tool.html SEO init failed:", e);
       }
-      return; // IMPORTANT: stop here so index-page code doesn't run on tool.html
+      return;
     }
-    // === end tool.html SEO router ===
+
     // Suggest form
-      // Suggest form — only override if a URL is provided in CONFIG
-      if (elSuggest && CONFIG.GOOGLE_FORM_URL) {
-        elSuggest.href = CONFIG.GOOGLE_FORM_URL;
-      }
+    if (elSuggest && CONFIG.GOOGLE_FORM_URL) elSuggest.href = CONFIG.GOOGLE_FORM_URL;
 
     // Preselect chips from URL
     const startSelected = getArrayParam("category").filter(slug=>CATEGORY_SLUG_SET.has(slug));
     startSelected.forEach(s=>selectedCategories.add(s));
     renderChips();
 
-    // Single delegated listener for all chips (works across re-renders)
+    // Chip clicks
     elChips.addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");
       if (!btn || !elChips.contains(btn)) return;
@@ -491,13 +360,13 @@ function ratingChipHTML(t){
       currentPage = 1;
       setQueryParam("category", Array.from(selectedCategories));
 
-      // --- FIX: exit special Best Things landing and clear q when a category is chosen ---
+      // FIX: exit special landing and clear q
       forceBestThingsView = false;
-      setQueryParam("q", ""); // remove q param from URL
+      setQueryParam("q", "");
       currentQuery = "";
       if (elSearch) elSearch.value = "";
 
-      // Unhide listing UI that the landing mode may have hidden
+      // Unhide UI just in case
       const toolbar = document.querySelector(".toolbar");
       if (toolbar) toolbar.style.display = "";
       if (elChips)      elChips.style.display      = "";
@@ -511,27 +380,19 @@ function ratingChipHTML(t){
       applyFilters();
     });
 
-    // Pricing filters are disabled in this directory. Ignore any pricing query param.
-
     // Search from URL
     const q = qs.get("q") || "";
     currentQuery = q;
-    elSearch.value = q;
+    if (elSearch) elSearch.value = q;
 
-    // --- Special landing: "?q=Best Things to Do" ---
-    // Only trigger if NO category param is present (prevents grid from staying hidden after clicking footer chips)
+    // Special landing only if NO category present
     const hasCategoryParam = getArrayParam("category").length > 0;
     const isBestThingsLanding = ((q || "").trim().toLowerCase() === "best things to do") && !hasCategoryParam;
     if (isBestThingsLanding) {
-      // 1) Keep URL as-is, but don't let search/filter logic treat it as a query
       forceBestThingsView = true;
       currentQuery = "";
-      elSearch.value = "";
-
-      // 2) Show the "← Back to directory" row
+      if (elSearch) elSearch.value = "";
       if (elBack) elBack.hidden = false;
-
-      // 3) Hide the list UI that would otherwise say "0–0 of 0"
       const toolbar = document.querySelector(".toolbar");
       if (toolbar) toolbar.style.display = "none";
       if (elChips)      elChips.style.display      = "none";
@@ -539,9 +400,7 @@ function ratingChipHTML(t){
       if (elGrid)       elGrid.style.display       = "none";
       if (elPagination) elPagination.style.display = "none";
       if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
-      // 4) HIDE the homepage showcase rows (Best Malls/Hotels/Restaurants/Schools)
       if (elShowcase) elShowcase.style.display = "none";
-      // Hide/remove the Clear filters chip if it exists
       document.getElementById('clear-filters')?.remove();
     }
 
@@ -552,25 +411,22 @@ function ratingChipHTML(t){
     // Load tools
     let data = [];
     try {
-      // cache-busted so GH Pages/CDN can't serve stale JSON
       const res = await fetch("data/tools.json?ts=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("tools.json not found");
       data = await res.json();
       if (!Array.isArray(data)) throw new Error("tools.json must be an array");
-      toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p])); // lookup for cards
+      toolsBySlug = Object.fromEntries((data || []).map(p => [p.slug, p]));
     } catch (err) {
       console.warn(err);
-      elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>. Create the file with your tools to see results here.<br/>Schema example is documented in <code>assets/app.js</code>.</div>`;
-      elCount.textContent = "";
-      elPagination.hidden = true;
+      if (elGrid) elGrid.innerHTML = `<div class="empty">Could not load <code>data/tools.json</code>.</div>`;
+      if (elCount) elCount.textContent = "";
+      if (elPagination) elPagination.hidden = true;
       return;
     }
 
-    // Support `?cat=events` (or any category slug) even if no chip exists for it.
-    // We add it to the selected set so the existing filter path handles it.
+    // Also support ?cat=...
     const selectedCatSlug = slugify(qs.get("cat") || "");
     if (selectedCatSlug) selectedCategories.add(selectedCatSlug);
-
 
     tools = data.map(t => ({
       id: t.id || t.slug || Math.random().toString(36).slice(2),
@@ -585,7 +441,6 @@ function ratingChipHTML(t){
       logo: t.logo || "",
       image: t.image || t.hero || t.photo || t.hero_url || t.logo || t.logo_url ||
              (t.images && (t.images.hero || t.images.logo)) || "",
-
       evidence_cites: Boolean(t.evidence_cites),
       local_onprem: Boolean(t.local_onprem),
       edu_discount: Boolean(t.edu_discount),
@@ -594,14 +449,12 @@ function ratingChipHTML(t){
       created_at: t.created_at || new Date().toISOString().slice(0,10)
     }));
 
-    // Render the 3 showcase rows (first 6 items per category)
+    // Showcases
     function renderShowcases() {
       const pick = (slug) => tools
         .filter(t => (t.categories || []).some(c => slugify(c) === slug || c === slug))
         .slice(0, 6);
-
       const renderInto = (el, items) => { if (el) el.innerHTML = items.map(cardHTML).join(""); };
-
       renderInto(elShowMalls,   pick('malls'));
       renderInto(elShowHotels,  pick('hotels'));
       renderInto(elShowRests,   pick('restaurants'));
@@ -614,35 +467,22 @@ function ratingChipHTML(t){
     }
     renderShowcases();
 
+    // Fuse
+    fuse = new Fuse(tools, { includeScore: true, threshold: 0.35, ignoreLocation: true, keys: ["name", "tagline", "description", "tags"] });
 
-    // Fuse index
-    fuse = new Fuse(tools, {
-      includeScore: true,
-      threshold: 0.35,
-      ignoreLocation: true,
-      keys: ["name", "tagline", "description", "tags"]
-    });
-
-    // Wire inputs
-    elSearch.addEventListener("input", debounce((e)=>{
+    // Search input
+    elSearch?.addEventListener("input", debounce((e)=>{
       currentQuery = e.target.value.trim();
       currentPage = 1;
       setQueryParam("q", currentQuery || null);
       applyFilters();
     }, 180));
 
-    // No pricing filter dropdown, so no listener is required.
+    // Pager buttons
+    elPrev?.addEventListener("click", ()=>{ if (currentPage>1){ currentPage--; setQueryParam("page", currentPage); render(); } });
+    elNext?.addEventListener("click", ()=>{ const totalPages = Math.max(1, Math.ceil(visible.length / CONFIG.ITEMS_PER_PAGE)); if (currentPage<totalPages){ currentPage++; setQueryParam("page", currentPage); render(); } });
 
-    elPrev.addEventListener("click", ()=>{
-      if (currentPage>1){ currentPage--; setQueryParam("page", currentPage); render(); }
-    });
-    elNext.addEventListener("click", ()=>{
-      const totalPages = Math.max(1, Math.ceil(visible.length / CONFIG.ITEMS_PER_PAGE));
-      if (currentPage<totalPages){ currentPage++; setQueryParam("page", currentPage); render(); }
-    });
-
-    // Click any numbered page (event delegation)
-    elPagination.addEventListener('click', (e) => {
+    elPagination?.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-page]');
       if (!btn || !elPagination.contains(btn)) return;
       const p = parseInt(btn.dataset.page, 10);
@@ -651,7 +491,8 @@ function ratingChipHTML(t){
       setQueryParam('page', currentPage);
       render();
     });
-    // Clear filters button (auto-create if missing) — SKIP on Best Things landing
+
+    // Clear filters (skip on landing)
     if (!forceBestThingsView) {
       let elClear = document.getElementById('clear-filters');
       if (!elClear) {
@@ -661,77 +502,80 @@ function ratingChipHTML(t){
         elClear.className = 'chip';
         elClear.title = 'Reset search, pricing, and categories';
         elClear.textContent = 'Clear filters';
-        // place right after the chips row
-        if (elChips && elChips.parentNode) {
-          elChips.parentNode.insertBefore(elClear, elChips.nextSibling);
-        } else {
-          // fallback: append somewhere visible
-          document.body.appendChild(elClear);
-        }
+        if (elChips && elChips.parentNode) elChips.parentNode.insertBefore(elClear, elChips.nextSibling);
+        else document.body.appendChild(elClear);
       }
       elClear.addEventListener('click', () => {
-        // reset state
         selectedCategories.clear();
         currentQuery = '';
         currentPage = 1;
-
-        // reset UI controls
-        elSearch.value = '';
+        if (elSearch) elSearch.value = '';
         setQueryParam('category', null);
         setQueryParam('q', null);
         setQueryParam('page', 1);
-
         updateChipsActive();
         applyFilters();
       });
     } else {
-      // Special landing: ensure it's gone if present
       document.getElementById('clear-filters')?.remove();
     }
 
     applyFilters(true);
   }
 
+  // ---------- JSON-LD helpers ----------
+  function injectItemListJSONLD() {
+    // Create the script tag once; updateItemListJSONLD will populate it
+    let el = document.getElementById("jsonld-list");
+    if (!el) {
+      el = document.createElement("script");
+      el.type = "application/ld+json";
+      el.id = "jsonld-list";
+      document.head.appendChild(el);
+    }
+  }
+  function updateItemListJSONLD(items) {
+    const el = document.getElementById("jsonld-list");
+    if (!el) return;
+    const obj = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": items.map((t, i) => {
+        const primaryCat = (t.categories && t.categories[0]) || "places";
+        const pretty = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
+          ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
+          : ((CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/") + `tool.html?slug=${encodeURIComponent(t.slug)}`);
+        return { "@type": "ListItem", "position": i + 1, "url": pretty };
+      })
+    };
+    el.textContent = JSON.stringify(obj);
+  }
+
   // ---------- FILTERING ----------
   function applyFilters(first=false) {
-    // NEW: special landing — show ONLY the Best Things section
     if (forceBestThingsView) {
-      // Ensure homepage showcase stays hidden
       if (elShowcase) elShowcase.style.display = "none";
-
-      // Keep listing bits hidden
       if (elGrid)       elGrid.style.display       = "none";
       if (elPagination) elPagination.style.display = "none";
       if (elCount)      elCount.style.display      = "none";
       if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "none";
-
-      // Do not proceed to normal filtering/pagination/rendering
       return;
     }
-    // ... (existing code continues)
+
     const catFilter = Array.from(selectedCategories);
     let arr = tools.slice();
 
-    // 1) Apply category filter (multi-select)
     if (catFilter.length > 0) {
-      arr = arr.filter(t =>
-        t.categories.some(c => catFilter.includes(slugify(c)) || catFilter.includes(c))
-      );
+      arr = arr.filter(t => t.categories.some(c => catFilter.includes(slugify(c)) || catFilter.includes(c)));
     }
-    // If the filter produced zero items (e.g., old ?cat value), show all instead of blank page
-    if (catFilter.length > 0 && arr.length === 0) {
-      arr = tools.slice();
-    }
+    if (catFilter.length > 0 && arr.length === 0) arr = tools.slice();
 
-
-    // 2) Apply search filter (Fuse) to the working set
     if (currentQuery) {
       const results = fuse.search(currentQuery);
       arr = results.map(r => r.item);
     }
 
-    // --- CATEGORY COUNTS ---
-    // Build a pool that only considers the current search. Used for badge counts on category chips.
+    // counts for chips
     let pool = tools.slice();
     if (currentQuery) {
       const poolResults = new Set(fuse.search(currentQuery).map(r => r.item));
@@ -745,77 +589,40 @@ function ratingChipHTML(t){
       }
     }
     updateChipCounts(countsBySlug);
-    // Toggle home sections (showcase + topics) vs. listing grid
+
     const isHome = (selectedCategories.size === 0) && !currentQuery;
-
     if (elShowcase) elShowcase.style.display = isHome ? "" : "none";
-
     const elVisit = document.getElementById('visit-muscat');
     if (elVisit) elVisit.style.display = isHome ? "" : "none";
-
-    // Grid/pagination/count/meta should only show on filtered/search views
     if (elGrid)       elGrid.style.display       = isHome ? "none" : "";
     if (elPagination) elPagination.style.display = isHome ? "none" : "";
     if (elCount)      elCount.style.display      = isHome ? "none" : "";
-
-    // The "page-info" lives inside a toolbar row; hide that row if empty
-    if (elPageInfo && elPageInfo.parentElement) {
-      elPageInfo.parentElement.style.display = isHome ? "none" : "";
-    }
-
-
-    // --- END CATEGORY COUNTS ---
-    // --- Dynamic canonical for category views ---
-    (function updateCanonicalForCategory(){
-      // Requires SEO_ROUTES.prettyCategoryUrl (from assets/seo-routes.js)
-      if (!window.SEO_ROUTES || !SEO_ROUTES.prettyCategoryUrl) return;
-    
-      const siteUrl = (CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/");
-      const catFilter = Array.from(selectedCategories);
-    
-      // Canonical rules:
-      // - Home (no filters/search): canonical = site root (already set in <head>)
-      // - Exactly one category selected, no search, first page: canonical = pretty category URL
-      // - Anything else (multi-cat, search, paginated): fall back to site root (avoid fragmenting)
-      if (!currentQuery && catFilter.length === 1 && currentPage === 1) {
-        const primaryCat = catFilter[0];
-        const prettyCat = SEO_ROUTES.prettyCategoryUrl(siteUrl, primaryCat);
-        setCanonical(prettyCat);
-        setOG("og:url", prettyCat);
-      } else if (!isHome) {
-        setCanonical(siteUrl);
-        setOG("og:url", siteUrl);
-      }
-    })();
-
+    if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = isHome ? "none" : "";
 
     visible = arr;
     if (first) injectItemListJSONLD();
     render();
   }
 
-
   // ---------- RENDER ----------
   function render() {
     const total = visible.length;
-    elCount.textContent = total ? `${total} tool${total===1?"":"s"} found` : "No matching tools found.";
-    elPageInfo.textContent = `Showing ${Math.min(total, ((currentPage-1)*CONFIG.ITEMS_PER_PAGE)+1)}–${Math.min(total, currentPage*CONFIG.ITEMS_PER_PAGE)} of ${total}`;
+    if (elCount) elCount.textContent = total ? `${total} tool${total===1?"":"s"} found` : "No matching tools found.";
+    if (elPageInfo) elPageInfo.textContent = `Showing ${Math.min(total, ((currentPage-1)*CONFIG.ITEMS_PER_PAGE)+1)}–${Math.min(total, currentPage*CONFIG.ITEMS_PER_PAGE)} of ${total}`;
 
     const totalPages = Math.max(1, Math.ceil(total / CONFIG.ITEMS_PER_PAGE));
     currentPage = Math.min(currentPage, totalPages);
-    elPrev.disabled = currentPage<=1;
-    elNext.disabled = currentPage>=totalPages;
-    elPage.textContent = `Page ${currentPage} of ${totalPages}`;
-    elPagination.hidden = total<=CONFIG.ITEMS_PER_PAGE;
+    if (elPrev) elPrev.disabled = currentPage<=1;
+    if (elNext) elNext.disabled = currentPage>=totalPages;
+    if (elPage) elPage.textContent = `Page ${currentPage} of ${totalPages}`;
+    if (elPagination) elPagination.hidden = total<=CONFIG.ITEMS_PER_PAGE;
 
-    // Numbered pagination (sliding window)
     renderPaginationNumbers(totalPages);
 
     const start = (currentPage-1) * CONFIG.ITEMS_PER_PAGE;
     const pageItems = visible.slice(start, start + CONFIG.ITEMS_PER_PAGE);
 
-    elGrid.innerHTML = pageItems.map(cardHTML).join("");
-    // hook up image error fallbacks *after* the DOM is in place
+    if (elGrid) elGrid.innerHTML = pageItems.map(cardHTML).join("");
     installLogoErrorFallback();
 
     const og = document.getElementById("og-url");
@@ -825,43 +632,31 @@ function ratingChipHTML(t){
   }
 
   function cardHTML(t) {
-    // --- const detailUrl  = `tool.html?slug=${encodeURIComponent(t.slug)}`;
-    // --- replaced above line with this
-    // Prefer pretty path: /<alias>/<slug>/; fallback to tool.html?slug=...
     const primaryCat = (t.categories && t.categories[0]) || "places";
     const detailUrl = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
       ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
       : `tool.html?slug=${encodeURIComponent(t.slug)}`;
 
-    // use the canonical record (has actions.website) if available
     const src = toolsBySlug[t.slug] || t;
-
-    // --- Title/subtitle & badges (keep these available for the template) ---
     const title    = esc(t.name);
     const subtitle = esc(t.tagline || t.description.slice(0, 120) || "");
     const cats     = (t.categories || []).slice(0,2).map(c=>`<span class="badge">${esc(c)}</span>`).join(" ");
     const tagChips = (t.tags || []).slice(0,5).map(c=>`<span class="tag">${esc(c)}</span>`).join(" ");
-    
-    // --- CTAs: real Website → Website; else if Google Maps → Google Maps; always View ---
+
     const websiteRaw = src.website || src.url || "";
     const mapsUrl    = (src.maps_url && String(src.maps_url).startsWith('https://www.google.com/maps/')) ? src.maps_url : "";
     const hasRealWebsite = isValidUrl(websiteRaw) && !isExampleDomain(websiteRaw);
-    
+
     const ctas = [];
     if (hasRealWebsite) {
       ctas.push(`<a class="link-btn" href="${esc(websiteRaw)}" target="_blank" rel="noopener" aria-label="Visit ${title} website">Website</a>`);
     } else if (mapsUrl) {
       ctas.push(`<a class="link-btn" href="${esc(mapsUrl)}" target="_blank" rel="noopener" aria-label="Open ${title} on Google Maps">Google Maps</a>`);
     }
-    // Always include a View button to open the detail page (uses existing detailUrl)
     ctas.push(`<a class="link-btn" href="${detailUrl}" aria-label="View ${title} details">View</a>`);
-    
-    // --- Image source: LOCAL ONLY on cards (ignore http/https) ---
-    const imgSrc = pickCardImage(src);
 
-    // Inject rating badge (if available) on the card image
+    const imgSrc = pickCardImage(src);
     const badge = ratingBadgeHTML(t);
-    
     const topImage = imgSrc
       ? `
         <a href="${detailUrl}" class="card-img" aria-label="${title} details">
@@ -877,8 +672,6 @@ function ratingChipHTML(t){
                 wrap.innerHTML = '<div class=&quot;img-placeholder&quot;>${esc((t.name||'').split(/\\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>';
               }
             "
-
-            "
           />
           ${badge}
         </a>`
@@ -887,8 +680,6 @@ function ratingChipHTML(t){
           <div class="img-placeholder">${esc((t.name||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
           ${badge}
         </a>`;
-
-
 
     return `
       <article class="card card--place">
@@ -904,37 +695,10 @@ function ratingChipHTML(t){
     `;
   }
 
-
-  // ---------- JSON-LD ----------
-      function updateItemListJSONLD(items) {
-      const el = document.getElementById("jsonld-list");
-      if (!el) return;
-    
-      const obj = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "itemListElement": items.map((t, i) => {
-          const primaryCat = (t.categories && t.categories[0]) || "places";
-          const pretty = (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl)
-            ? SEO_ROUTES.prettyItemUrl((CONFIG.SITE_URL || (location.origin + "/")), primaryCat, t.slug)
-            : ((CONFIG.SITE_URL || (location.origin + "/")).replace(/\/$/, "/") + `tool.html?slug=${encodeURIComponent(t.slug)}`);
-          return {
-            "@type": "ListItem",
-            "position": i + 1,
-            "url": pretty
-          };
-        })
-      };
-    
-      el.textContent = JSON.stringify(obj);
-    }
-
-
   // ---------- START ----------
   if (document.readyState === "loading") {
     window.addEventListener("DOMContentLoaded", init);
   } else {
     init();
   }
-
 })();
