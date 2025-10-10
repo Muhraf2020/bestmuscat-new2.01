@@ -490,6 +490,23 @@ function ratingChipHTML(t){
 
       currentPage = 1;
       setQueryParam("category", Array.from(selectedCategories));
+
+      // --- FIX: exit special Best Things landing and clear q when a category is chosen ---
+      forceBestThingsView = false;
+      setQueryParam("q", ""); // remove q param from URL
+      currentQuery = "";
+      if (elSearch) elSearch.value = "";
+
+      // Unhide listing UI that the landing mode may have hidden
+      const toolbar = document.querySelector(".toolbar");
+      if (toolbar) toolbar.style.display = "";
+      if (elChips)      elChips.style.display      = "";
+      if (elCount)      elCount.style.display      = "";
+      if (elGrid)       elGrid.style.display       = "";
+      if (elPagination) elPagination.style.display = "";
+      if (elPageInfo && elPageInfo.parentElement) elPageInfo.parentElement.style.display = "";
+      if (elShowcase) elShowcase.style.display = selectedCategories.size === 0 && !currentQuery ? "" : "none";
+
       updateChipsActive();
       applyFilters();
     });
@@ -500,8 +517,11 @@ function ratingChipHTML(t){
     const q = qs.get("q") || "";
     currentQuery = q;
     elSearch.value = q;
+
     // --- Special landing: "?q=Best Things to Do" ---
-    const isBestThingsLanding = (q || "").trim().toLowerCase() === "best things to do";
+    // Only trigger if NO category param is present (prevents grid from staying hidden after clicking footer chips)
+    const hasCategoryParam = getArrayParam("category").length > 0;
+    const isBestThingsLanding = ((q || "").trim().toLowerCase() === "best things to do") && !hasCategoryParam;
     if (isBestThingsLanding) {
       // 1) Keep URL as-is, but don't let search/filter logic treat it as a query
       forceBestThingsView = true;
@@ -524,7 +544,6 @@ function ratingChipHTML(t){
       // Hide/remove the Clear filters chip if it exists
       document.getElementById('clear-filters')?.remove();
     }
-
 
     // Page from URL
     const pageParam = parseInt(qs.get("page") || "1", 10);
