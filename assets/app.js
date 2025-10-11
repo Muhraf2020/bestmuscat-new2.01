@@ -466,8 +466,6 @@
       renderInto(elShowMoving,   pick('moving-and-storage'));
     }
     renderShowcases();
-    // ✅ Add this line right here:
-    await renderBestThings({ containerId: "best-things-grid" });
 
     // Fuse
     fuse = new Fuse(tools, { includeScore: true, threshold: 0.35, ignoreLocation: true, keys: ["name", "tagline", "description", "tags"] });
