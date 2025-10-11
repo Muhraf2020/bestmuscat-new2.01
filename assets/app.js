@@ -160,104 +160,6 @@
     return "";
   }
 
-  // === Add a "View" button to the EXISTING Best Things cards (no new cards) ===
-  async function addViewButtonsToBestThings() {
-    // 1) Find the Best-Things section already on the page
-    function findBestThingsRoot() {
-      const candidates = [
-        '#best-things',
-        '[data-section="best-things"]',
-        '.best-things',
-        '#best-things-section'
-      ].map(s => document.querySelector(s)).filter(Boolean);
-      if (candidates[0]) return candidates[0];
-  
-      // fallback: find heading "Best Things to Do in Muscat"
-      const heading = Array.from(document.querySelectorAll('h1,h2,h3')).find(h =>
-        /best things to do in muscat/i.test(h.textContent || '')
-      );
-      if (!heading) return null;
-      return heading.closest('section') || heading.parentElement;
-    }
-  
-    function waitForRoot(timeout = 4000) {
-      return new Promise((resolve) => {
-        const root = findBestThingsRoot();
-        if (root) return resolve(root);
-        const obs = new MutationObserver(() => {
-          const r = findBestThingsRoot();
-          if (r) { obs.disconnect(); resolve(r); }
-        });
-        obs.observe(document.documentElement, { childList: true, subtree: true });
-        setTimeout(() => { obs.disconnect(); resolve(findBestThingsRoot()); }, timeout);
-      });
-    }
-  
-    const root = await waitForRoot();
-    if (!root) return; // section not present on this page
-  
-    // 2) Build a lookup from tools.json (already loaded in init)
-    const byTitle = {};
-    (Array.isArray(tools) ? tools : []).forEach(t => {
-      const key = (t.name || '').trim().toLowerCase();
-      if (key && !byTitle[key]) byTitle[key] = t;
-    });
-  
-    function prettyDetailUrl(tool) {
-      if (!tool) return '';
-      const siteUrl = (CONFIG.SITE_URL || (location.origin + '/'));
-      const primaryCat = (tool.categories && tool.categories[0]) || 'places';
-      if (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl) {
-        return SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, tool.slug);
-      }
-      return `tool.html?slug=${encodeURIComponent(tool.slug)}`;
-    }
-  
-    function findToolForTitle(title) {
-      const key = (title || '').trim().toLowerCase();
-      return byTitle[key] || null;
-    }
-  
-    // 3) Find existing cards within the Best-Things block
-    const cards = root.querySelectorAll('.card, .listing-card, .thing-card, .bt-card, .item-card');
-    cards.forEach(card => {
-      const titleEl =
-        card.querySelector('.card-title, h2, h3, .title, .item-title, .media-title, a.card-link, .media-heading');
-      const ctaRow =
-        card.querySelector('.ctas, .btns, .actions, .buttons, .media-actions') || card.querySelector('.card-body');
-  
-      if (!titleEl || !ctaRow) return;
-  
-      const title = (titleEl.textContent || '').trim();
-      if (!title) return;
-  
-      // If a View button already exists, skip
-      if (ctaRow.querySelector('a[data-role="view-internal"]')) return;
-  
-      // Resolve the internal detail URL (fallback: reuse Learn More href)
-      const tool = findToolForTitle(title);
-      let viewHref = tool ? prettyDetailUrl(tool) : '';
-  
-      if (!viewHref) {
-        const learn = ctaRow.querySelector('a[href]');
-        if (learn) viewHref = learn.getAttribute('href');
-      }
-      if (!viewHref) return;
-  
-      // Append a View button using your existing .link-btn style
-      const a = document.createElement('a');
-      a.className = 'link-btn';
-      a.href = viewHref;
-      a.textContent = 'View';
-      a.setAttribute('aria-label', `View ${title} details`);
-      a.setAttribute('data-role', 'view-internal');
-      a.style.marginLeft = '8px';
-  
-      ctaRow.appendChild(a);
-    });
-  }
-
-
   // favicon fallback helpers (unchanged)
   function hostnameFromUrl(u) { try { return new URL(u).hostname; } catch { return ""; } }
   function installLogoErrorFallback() {
@@ -564,9 +466,6 @@
       renderInto(elShowMoving,   pick('moving-and-storage'));
     }
     renderShowcases();
-
-    // ✅ Add the "View" buttons to the existing Best-Things cards
-    await addViewButtonsToBestThings();
 
     // Fuse
     fuse = new Fuse(tools, { includeScore: true, threshold: 0.35, ignoreLocation: true, keys: ["name", "tagline", "description", "tags"] });
