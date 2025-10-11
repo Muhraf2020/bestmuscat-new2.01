@@ -160,6 +160,117 @@
     return "";
   }
 
+  // === Retarget Best-Things banner/title links to INTERNAL detail pages ===
+  function retargetBestThingsLinksToDetail() {
+    // Try to locate the Best-Things section:
+    function findRoot() {
+      return (
+        document.querySelector('#best-things') ||
+        document.querySelector('[data-section="best-things"]') ||
+        document.querySelector('.best-things') ||
+        document.querySelector('#best-things-section') ||
+        // Fallback: find by heading text
+        (() => {
+          const h = Array.from(document.querySelectorAll('h1,h2,h3')).find(x =>
+            /best things to do in muscat/i.test(x.textContent || '')
+          );
+          return h ? (h.closest('section') || h.parentElement) : null;
+        })()
+      );
+    }
+  
+    function buildToolLookup() {
+      const map = {};
+      (Array.isArray(tools) ? tools : []).forEach(t => {
+        const k = (t.name || '').trim().toLowerCase();
+        if (k && !map[k]) map[k] = t;
+      });
+      return map;
+    }
+  
+    function prettyDetailUrl(tool) {
+      if (!tool) return '';
+      const siteUrl = (CONFIG.SITE_URL || (location.origin + '/'));
+      const primaryCat = (tool.categories && tool.categories[0]) || 'places';
+      if (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl) {
+        return SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, tool.slug);
+      }
+      return `tool.html?slug=${encodeURIComponent(tool.slug)}`;
+    }
+  
+    function findTitle(card) {
+      const t =
+        card.querySelector('.card-title a, .card-title, h2 a, h2, h3 a, h3, .title a, .title, .item-title a, .item-title, a.card-link');
+      return (t && (t.textContent || '').trim()) || '';
+    }
+  
+    function isLearnMoreAnchor(a) {
+      const txt = (a.textContent || '').trim();
+      return /learn\s*more|website|google\s*maps/i.test(txt);
+    }
+  
+    function rewriteCard(card, byTitle) {
+      const title = findTitle(card);
+      if (!title) return;
+  
+      const tool = byTitle[(title || '').toLowerCase()];
+      if (!tool) return;
+  
+      const internalHref = prettyDetailUrl(tool);
+      if (!internalHref) return;
+  
+      // Retarget only the banner/title anchors; leave "Learn More" as external
+      const candidates = new Set();
+  
+      // Title link
+      const titleAnchor = card.querySelector('.card-title a, h2 a, h3 a, .title a, .item-title a, a.card-link');
+      if (titleAnchor) candidates.add(titleAnchor);
+  
+      // Image/banner link (anchor wrapping the image)
+      const imgAnchor =
+        card.querySelector('.card-img')?.closest('a') ||
+        card.querySelector('.card-img a') ||
+        card.querySelector('a:has(img), .card a:has(img)');
+      if (imgAnchor) candidates.add(imgAnchor);
+  
+      candidates.forEach(a => {
+        if (isLearnMoreAnchor(a)) return; // leave external CTAs alone
+        a.href = internalHref;
+        a.removeAttribute('target');
+        a.removeAttribute('rel');
+        if (!a.getAttribute('aria-label')) {
+          a.setAttribute('aria-label', `View ${title} details`);
+        }
+      });
+    }
+  
+    function enhance(root) {
+      const byTitle = buildToolLookup();
+      const cards = root.querySelectorAll(
+        '.card, .listing-card, .thing-card, .bt-card, .item-card, article, li, .media, .list-item, .row, .col'
+      );
+      cards.forEach(card => rewriteCard(card, byTitle));
+    }
+  
+    function run() {
+      const root = findRoot();
+      if (!root) return false;
+      enhance(root);
+  
+      // In case the section content is injected later, keep watching it
+      const obs = new MutationObserver(() => enhance(root));
+      obs.observe(root, { childList: true, subtree: true });
+      return true;
+    }
+  
+    // Try now; if not found yet, watch the DOM for it
+    if (!run()) {
+      const obsRoot = new MutationObserver(() => { if (run()) obsRoot.disconnect(); });
+      obsRoot.observe(document.documentElement, { childList: true, subtree: true });
+    }
+  }
+
+
   // favicon fallback helpers (unchanged)
   function hostnameFromUrl(u) { try { return new URL(u).hostname; } catch { return ""; } }
   function installLogoErrorFallback() {
@@ -466,6 +577,9 @@
       renderInto(elShowMoving,   pick('moving-and-storage'));
     }
     renderShowcases();
+    // Retarget banner/title links in "Best Things to Do" to internal pages
+    retargetBestThingsLinksToDetail();
+
 
     // Fuse
     fuse = new Fuse(tools, { includeScore: true, threshold: 0.35, ignoreLocation: true, keys: ["name", "tagline", "description", "tags"] });
