@@ -695,6 +695,120 @@
     `;
   }
 
+  // ---- Best Things to Do renderer (assets/best-things.json) ----
+  // Assumes: toolsBySlug (lookup by slug), tools (array), SEO_ROUTES.prettyItemUrl, CONFIG.SITE_URL,
+  // and helpers: slugify, esc, isValidUrl, isExampleDomain, pickCardImage (optional).
+  
+  async function renderBestThings(opts = {}) {
+    const grid = document.getElementById(opts.containerId || "best-things-grid");
+    if (!grid) return; // nothing to do
+  
+    // 1) Load best-things.json
+    let items = [];
+    try {
+      const res = await fetch("assets/best-things.json?ts=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("best-things.json not found");
+      items = await res.json();
+      if (!Array.isArray(items)) throw new Error("best-things.json must be an array");
+    } catch (e) {
+      console.warn("Failed to load best-things.json:", e);
+      grid.innerHTML = `<div class="empty">Could not load <code>assets/best-things.json</code>.</div>`;
+      return;
+    }
+  
+    // 2) Try to find a matching tools entry for “View” detail pages
+    // Strategy: best match by slug (if present in tools), else by normalized title.
+    // If none found, "View" falls back to item.url (website/maps).
+    const toolsByTitle = {};
+    (Array.isArray(tools) ? tools : []).forEach(t => {
+      const key = (t.name || "").trim().toLowerCase();
+      if (key) toolsByTitle[key] = t;
+    });
+  
+    function findMatchingTool(item) {
+      // If best-things.json ever includes "slug", we prefer that:
+      if (item.slug && toolsBySlug[item.slug]) return toolsBySlug[item.slug];
+  
+      // Otherwise try title match
+      const key = (item.title || "").trim().toLowerCase();
+      return toolsByTitle[key] || null;
+    }
+  
+    function prettyDetailUrl(tool) {
+      if (!tool) return "";
+      const siteUrl = (CONFIG.SITE_URL || (location.origin + "/"));
+      const primaryCat = (tool.categories && tool.categories[0]) || "places";
+      if (window.SEO_ROUTES && SEO_ROUTES.prettyItemUrl) {
+        return SEO_ROUTES.prettyItemUrl(siteUrl, primaryCat, tool.slug);
+      }
+      return `tool.html?slug=${encodeURIComponent(tool.slug)}`;
+    }
+  
+    function chooseCtaUrl(item) {
+      // Prefer a real website; else a maps URL already in the item
+      const u = item.url || "";
+      if (isValidUrl(u) && !isExampleDomain(u)) return u;
+      return u; // may be a Google Maps place link already
+    }
+  
+    function cardHTMLforBestThing(item) {
+      const matchedTool = findMatchingTool(item);
+      const viewHref = matchedTool ? prettyDetailUrl(matchedTool) : (chooseCtaUrl(item) || "#");
+  
+      // If you want a nicer image, you can try to use matched tool’s hero image:
+      let img = item.image_url || "";
+      if ((!img || /\.svg(?:$|\?)/i.test(img) || /(^|\/)(logo|icon|favicon|social)/i.test(img)) && matchedTool) {
+        const fallback = pickCardImage(matchedTool);
+        if (fallback) img = fallback;
+      }
+  
+      const title = esc(item.title || "");
+      const subtitle = esc(item.subtitle || item.title || "");
+      const tags = Array.isArray(item.tags) ? item.tags.slice(0, 5) : [];
+      const tagsHTML = tags.map(t => `<span class="tag">${esc(t)}</span>`).join(" ");
+  
+      const learnHref = chooseCtaUrl(item);
+      const learnLabel = esc(item.cta_label || "Learn More");
+  
+      const imageHTML = img
+        ? `<a href="${esc(viewHref)}" class="card-img" aria-label="${title} details">
+             <img src="${esc(img)}" alt="${title}" loading="lazy" decoding="async" />
+           </a>`
+        : `<a href="${esc(viewHref)}" class="card-img img-fallback" aria-label="${title} details">
+             <div class="img-placeholder">${esc((item.title||'').split(/\s+/).slice(0,2).map(s=>s[0]?.toUpperCase()||'').join('')||'BM')}</div>
+           </a>`;
+  
+      const ctas = [
+        learnHref ? `<a class="link-btn" href="${esc(learnHref)}" target="_blank" rel="noopener">${learnLabel}</a>` : "",
+        `<a class="link-btn" href="${esc(viewHref)}" aria-label="View ${title} details">View</a>`
+      ].filter(Boolean).join(" ");
+  
+      return `
+        <article class="card card--place">
+          ${imageHTML}
+          <div class="card-body">
+            <h2 class="card-title"><a href="${esc(viewHref)}" class="card-link">${title}</a></h2>
+            <p class="card-sub">${subtitle}</p>
+            <div class="tags">${tagsHTML}</div>
+            <div class="ctas">${ctas}</div>
+          </div>
+        </article>
+      `;
+    }
+  
+    // Optional: order by category A→Z, then priority asc (if present)
+    items.sort((a, b) => {
+      const ca = (a.category || "").toLowerCase();
+      const cb = (b.category || "").toLowerCase();
+      if (ca !== cb) return ca < cb ? -1 : 1;
+      const pa = Number.isFinite(+a.priority) ? +a.priority : 9999;
+      const pb = Number.isFinite(+b.priority) ? +b.priority : 9999;
+      return pa - pb;
+    });
+  
+    grid.innerHTML = items.map(cardHTMLforBestThing).join("");
+  }
+
   // ---------- START ----------
   if (document.readyState === "loading") {
     window.addEventListener("DOMContentLoaded", init);
