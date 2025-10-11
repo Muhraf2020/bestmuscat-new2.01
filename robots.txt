@@ -1,4 +1,8 @@
+# /robots.txt  (at repo root)
 User-agent: *
 Allow: /
 
+# Point crawlers to your sitemap(s)
 Sitemap: https://bestmuscat.com/sitemap.xml
+# Or, if you use an index:
+# Sitemap: https://bestmuscat.com/sitemap-index.xml
